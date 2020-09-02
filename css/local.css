@@ -1,0 +1,44 @@
+.sponsors {
+	text-align: center;
+}
+
+.sponsor-class {
+	text-transform: uppercase;
+	margin: 4rem 0 1.5rem 0;
+	font-weight: bold !important;
+}
+
+.sponsor {
+	box-sizing: border-box;
+	padding: 2rem;
+	margin: 0 auto;
+	text-align: center;
+	display: inline-block;
+}
+
+.sponsor img {
+	max-width: 100%;
+}
+
+@media screen and (min-width: 600px) {
+	.sponsor-diamond {
+		width: 45%;
+	}
+	
+	.sponsor-platinum {
+		width: 33%;
+	}
+
+	.sponsor-gold, .sponsor-silver, .sponsor-in-kind, .sponsor-partners {
+		width: 24%;
+	}
+
+	.sponsor-gold {
+		
+	}
+
+	.sponsor-silver {
+		
+	}
+}
+
