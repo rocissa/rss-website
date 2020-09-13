@@ -1,0 +1,29 @@
+{% assign currentKeynotes = site.keynotes | where: "year", active_year | sort: "weight" %}
+{% assign numberKeynotes = currentKeynotes | size %}
+{% if numberKeynotes > 0 %}
+<div class="row">
+  <div class="section-title text-center">
+      <h3>Keynotes</h3>
+  </div> 
+</div>
+<div class="row keynotes mb-5">
+    {% for keynote in currentKeynotes %}
+        <div class="col-md-6">
+            <div class="row">
+                <div class="col-md-12">
+                	{% if keynote.more_link %}
+                	    <h4><a href="{{ keynote.url }}">{{ keynote.name }}</a></h4>
+                	{% else %}
+                	    <h4>{{ keynote.name }}</h4>
+                	{% endif %}
+                </div>
+                {% if keynote.professional_title %}
+                    <div class="col-md-12 mb-5"><em>{{ keynote.professional_title }}</em></div>
+                {% endif %}
+                <div class="col-md-4"><img class="fluid-image" src="/{{ keynote.year }}/keynotes/{{ keynote.photo }}" alt="{{ keynote.name }}" /></div>
+                <div class="col-md-8">{{ keynote.intro | markdownify }}{% if keynote.more_link %} [<a href="{{ keynote.url }}">more</a>]{% endif %}</div>
+            </div>
+        </div>
+    {% endfor %}
+</div>
+{% endif %}

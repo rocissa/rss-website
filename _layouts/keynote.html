@@ -1,0 +1,19 @@
+---
+layout: default
+---
+<div class="container">
+	<div class="row">
+		<div class="col-md-12">
+            <h1>{{ page.name }}</h1>
+        </div>
+        {% if page.professional_title %}
+            <div class="col-md-12 mb-5"><em>{{ page.professional_title }}</em></div>
+        {% endif %}
+        <div class="col-md-4">
+            <img class="fluid-image" src="/{{ page.year }}/keynotes/{{ page.photo }}" alt="{{ page.name }}" />
+        </div>
+        <div class="col-md-8">
+            {{ content }}
+        </div>
+    </div>
+</div>
