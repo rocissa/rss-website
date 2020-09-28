@@ -41,5 +41,74 @@ Year,Level,Name,Image,Link
 2019,Silver,Positron Security,Positron-2019.png,https://positronsecurity.com/
 2019,Partners,ISSA Rochester Chapter,RocISSA-2019.png,https://www.rocissa.org/
 2019,Partners,OWASP,OWASP-2019.png,https://www.owasp.org/index.php/Rochester
-2019,Partners,ISACA Western New York Chaapter,ISACA-2019.png,https://www.isaca.org/chapters11/Western-New-York/Pages/Default.aspx
-2018,Diamond,Jason Pitoniak,jason.png,https://www.jason.com
+2019,Partners,ISACA Western New York Chapter,ISACA-2019.png,https://www.isaca.org/chapters11/Western-New-York/Pages/Default.aspx
+2018,Diamond,GreyCastle Security,GreyCastle-2017.png,https://www.greycastlesecurity.com/
+2018,Platinum,Fortinet,Fortinet-2017.png,https://www.fortinet.com/
+2018,Platinum,Vandis,Vandis-2018.png,https://www.vandis.com/
+2018,Platinum,CarbonBlack,CarbonBlack-2018.png,https://www.carbonblack.com/
+2018,Platinum,Digital Guardian Netskope,DigitalGuardianNetskope-2018h.png,https://digitalguardian.com/
+2018,Platinum,Rolta AdvizeX Thales,RoltaAdvizeXThales-2018.png,https://advizex.com/
+2018,Platinum,Brite,Brite-2017.png,https://britecomputers.com/
+2018,Platinum,SMP,SMP-2017.png,https://www.smp-corp.com/
+2018,Platinum,Splunk,Splunk-2018.png,https://www.splunk.com/
+2018,Platinum,ServiceNow,ServiceNow-2018.png,https://www.servicenow.com/
+2018,Platinum,GuidePoint Security,GuidePointSecurity-2018.png,https://www.guidepointsecurity.com/
+2018,Platinum,Intsights,IntSights-2018.png,https://www.intsights.com/
+2018,Platinum,Sophos,Sophos-2018.png,https://www.sophos.com/
+2018,Platinum,Qadium,Qadium-2018.png,https://www.qadium.com/
+2018,Platinum,Cyberark Proofpoint,CyberArkProofpoint-2018.png,https://www.cyberark.com/
+2018,Platinum,Paloalto Networks,PaloAlto-2018.png,https://www.paloaltonetworks.com/
+2018,Gold,TAG Solutions,TAG-2018.png,https://www.tagsolutions.com/
+2018,Gold,Tri-Delta Resources,TriDeltaResources-2018.png,https://tri-delta.com/
+2018,Gold,Tenable,Tenable-2018.png,https://www.tenable.com/
+2018,Gold,FreedMaxick,FreedMaxick-2017.png,https://www.freedmaxick.com/
+2018,Silver,Vandis,Vandis-2018.png,https://www.varonis.com/
+2018,Silver,Gemalto,Gemalto-2018.png,https://www.gemalto.com/
+2018,Silver,Crowdstrike,CrowdStrike-2018.png,https://www.crowdstrike.com/
+2018,Silver,Optiv,Optiv-2018.png,https://www.optiv.com/
+2018,Silver,Fidelis Cybersecurity,FidelisCybersecurity-2018.png,https://www.fidelissecurity.com/
+2018,Silver,Tevora,Tevora-2018.png,https://www.tevora.com/
+2018,Silver,Zscaler,Zscaler-2018.png,https://www.zscaler.com/
+2018,Silver,Juniper Networks,Juniper-2018.png,https://www.juniper.net/
+2018,Silver,Meridian IT,MeridianIT-2018.png,https://www.meridianitinc.com/
+2018,Silver,Atlantic Data Security Duo,AtlanticDataSecurityDuo-2018.png,http://www.atlanticdatasecurity.com/
+2018,Silver,iSecure,iSecure-2018.png,https://isecurenet.net/
+2018,Silver,Rapid7,Rapid7-2018.png,https://www.rapid7.com/
+2018,Silver,Anomali,Anomali-2018.png,https://www.anomali.com/
+2018,Silver,K Logix,Klogix-2018.png,https://www.klogixsecurity.com/
+2018,In-Kind Sponsors,"Durkee Consulting, Inc.",Durkee-2017.png,https://www.rd1.net/
+2018,Partners,ISSA Rochester Chapter,RocISSA-2017.png,https://www.rocissa.org/
+2018,Partners,OWASP,OWASP-2017.png,https://www.owasp.org/
+2018,Partners,ISACA Western New York Chapter,ISACA.png,https://www.isaca.org/chapters11/Western-New-York/Pages/Default.aspx
+2018,Partners,Infragard,InfraGard-2017.png,https://www.infragard.org/
+2017,Diamond,Fortinet,Fortinet-2017.png,https://www.fortinet.com/
+2017,Platinum,e+,ePlus-2017.png,https://www.eplus.com/
+2017,Platinum,Forsythe,Forsythe-2017.png,https://www.forsythe.com/
+2017,Platinum,CrowdStrike,CrowdStrike-2017.png,https://www.crowdstrike.com/
+2017,Platinum,Brite,Brite-2017.png,https://britecomputers.com/
+2017,Platinum,Netanium,Netanium-2017.png,http://www.netanium.com/
+2017,Platinum,Rolta AdvizeX,RoltaAdvize-2017.png,https://www.advizex.com/
+2017,Platinum,Cyberark,CyberArk-2017.png,https://www.cyberark.com/
+2017,Platinum,Sirius,Sirius-2017.png,https://www.siriuscom.com/
+2017,Platinum,Symantec,Symantec-2017.png,https://www.symantec.com/
+2017,Platinum,CDW,CDW-2017.png,https://www.cdw.com/
+2017,Platinum,SMP,SMP-2017.png,http://www.smp-corp.com/
+2017,Platinum,Cylance,Cylance-2017.png,https://www.cylance.com/
+2017,Gold,Meridian IT,Meridian-2017.png,http://www.meridianitinc.com/
+2017,Gold,Rapid7,Rapid7-2016.png,https://www.rapid7.com/
+2017,Gold,Innovative Solutions,InnovativeSolutions-2017.png,http://www.innovativesol.com/
+2017,Gold,Varonis,Varonis-2017.png,https://www.varonis.com/
+2017,Gold,Info Advantage,InfoAdvantage-2017.png,https://www.info-adv.com/
+2017,Silver,Anomali,Anomali-2016.png,https://www.anomali.com/
+2017,Silver,iV4,IV4-2017.png,https://www.iv4.com/
+2017,Silver,iSecure,iSecure-2017.png,https://isecurenet.net/
+2017,Silver,GuidePoint Security,GuidePoint-2017.png,https://www.guidepointsecurity.com/
+2017,Silver,Pulse Secure,PulseSecure-2017.png,https://www.pulsesecure.net/
+2017,Silver,GreyCastle Security,GreyCastle-2017.png,https://www.greycastlesecurity.com/
+2017,Silver,Thales,Thales-2017.png,https://www.thalesgroup.com/
+2017,In-Kind Sponsors,"Durkee Consulting, Inc.",Durkee-2017.png,https://www.rd1.net/
+2017,In-Kind Sponsors,FreedMaxick,FreedMaxick-2017.png,https://www.freedmaxick.com/
+2017,Partners,ISSA Rochester Chapter,RocISSA-2017.png,https://www.rocissa.org/
+2017,Partners,OWASP,OWASP-2017.png,https://www.owasp.org/
+2017,Partners,Infragard,InfraGard-2017.png,https://www.infragard.org/
+2017,Partners,ISACA Western New York Chapter,ISACA.png,http://www.isacawny.org/
