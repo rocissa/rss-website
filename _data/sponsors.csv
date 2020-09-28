@@ -150,7 +150,7 @@ Year,Level,Name,Image,Link
 2015,Platinum,Infoblox,Infoblox.png,https://www.infoblox.com/
 2015,Platinum,Intel Security,IntelSecurity.png,http://www.intelsecurity.com/
 2015,Platinum,Integration Partners by Cetrain,IntegrationPartners.png,http://www.integrationpartners.com/
-2015,Platinum,Meridian IT,MeridainIT.png,http://www.meridianitinc.com/
+2015,Platinum,Meridian IT,MeridianIT.png,http://www.meridianitinc.com/
 2015,Platinum,Commvault,CommVault.png,http://www.commvault.com/
 2015,Gold,AccuNet,AccunetSolutions.png,http://www.accunetsolutions.com/
 2015,Gold,Dell SecureWorks,DellSecureWorks.png,http://www.secureworks.com/
@@ -177,3 +177,72 @@ Year,Level,Name,Image,Link
 2015,Partners,OWASP,OWASP.png,https://www.owasp.org/
 2015,Partners,Infragard,InfraGard.png,https://www.infragard.org/
 2015,Partners,ISACA Western New York Chapter,ISACA.png,http://www.isacawny.org/
+2014,Diamond,e+,ePlus1.png,http://www.eplus.com/
+2014,Platinum,Forsythe,Forsythe1.png,http://www.forsythe.com/
+2014,Platinum,Blue Coat,bluecoat.png,https://www.bluecoat.com/
+2014,Platinum,Paloalto Networks,PaloAlto1.png,http://www.paloaltonetworks.com/
+2014,Platinum,Intel Security,IntelSecurity.png,http://www.intelsecurity.com/
+2014,Platinum,iSecure,iSecure1.png,http://www.isecurenet.net/
+2014,Gold,Bromium,Bromium.png,http://www.bromium.com/
+2014,Gold,Solutionary,Solutionary.png,http://www.solutionary.com/
+2014,Gold,Vectra,Vectra.png,http://www.vectranetworks.com/
+2014,Gold,GreyCastle Security,GreyCastleSecurity.png,http://www.greycastlesecurity.com/
+2014,Gold,WebSense,websense1.png,http://www.websense.com/
+2014,Gold,Cyberark,CyberArk.png,http://www.cyberark.com/
+2014,Silver,FishNet Security,FishNetSecurity1.png,http://www.fishnetsecurity.com/
+2014,Silver,Rapid7,Rapid7.png,http://www.rapid7.com/
+2014,Silver,GuidePoint Security,GuidePoint.png,http://www.guidepointsecurity.com/
+2014,Bronze,Cisco,Cisco.png,http://www.cisco.com/
+2014,Bronze,FireEye,FireEye.png,http://www.fireeye.com/
+2014,Bronze,Fortinet,Fortinet.png,http://www.fortinet.com/
+2014,Bronze,SafeNet,SafeNet.png,http://www.safenet-inc.com/
+2014,Bronze,SMP,SMP.png,http://www.smp-corp.com/
+2014,Bronze,Mac Source Communications,MACSource.png,http://www.macsourceinc.com/
+2014,Bronze,Kaspersky Lab,Kaspersky.png,http://www.kaspersky.com/
+2014,Bronze,Brite,Brite.png,http://www.britecomputers.com/
+2014,Bronze,Windstream,WindstreamCommunications.png,http://www.windstream.com/
+2014,Bronze,CentriLogic,CentriLogic.png,http://www.centrilogic.com/
+2014,Bronze,SMP,smpone.png,http://www.smpone.com/
+2014,Bronze,Netanium Network Security,netanium.png,http://www.nnsecurity.com/
+2014,Bronze,FreedMaxick,FreedMaxick.png,http://www.freedmaxick.com/
+2014,Bronze,RSA,RSA.png,http://www.rsa.com/
+2014,In-Kind Sponsors,"Durkee Consulting, Inc.",DCI.png,http://www.rd1.net/
+2014,in-Kind Sponsors,Rochester Institute of Technology,rit.png,http://www.rit.edu/
+2014,Partners,ISSA Rochester Chapter,rocissa-logo.png,http://www.rocissa.org/
+2014,Partners,OWASP,OWASP.png,https://www.owasp.org/
+2014,Partners,Infragard,InfraGard.png,https://www.infragard.org/
+2014,Partners,ISACA Western New York Chapter,ISACA.png,http://www.isacawny.org/
+2013,Diamond,Paloalto Networks,PaloAlto.png,http://www.paloaltonetworks.com/
+2013,Platinum,Carousel Industries,Carousel.png,http://www.carouselindustries.com/
+2013,Platinum,e+,ePlus.png,http://www.eplus.com/
+2013,Platinum,Forsythe,Forsythe.png,http://www.forsythe.com/
+2013,Gold,GreyCastle Security,GreyCastleSecurity.png,http://www.greycastlesecurity.com/
+2013,Gold,Rapid7,Rapid7.png,http://www.rapid7.com/
+2013,Silver,Imperva,Imperva.png,http://www.imperva.com/
+2013,Silver,Proofpoint,ProofPoint.png,http://www.proofpoint.com/
+2013,Silver,SecureState,secure-state.png,http://www.securestate.com/
+2013,Bronze,SMP,SMP.png,http://www.smp-corp.com/
+2013,Bronze,FreedMaxick,FreedMaxick.png,http://www.freedmaxick.com/
+2013,Bronze,FishNet Security,FishNetSecurity.png,http://www.fishnetsecurity.com/
+2013,Bronze,Guidance Software,GuidanceSoftware.png,http://www.guidancesoftware.com/
+2013,Bronze,Syncurity Networks,SyncurityNetworks.png,http://syncurity.net/
+2013,Bronze,Windstream,WindstreamCommunications.png,http://www.windstream.com/
+2013,Bronze,Juniper Networks,JuniperNetworks2.png,http://www.juniper.net/
+2013,Bronze,iSecure,iSecure.png,http://www.isecurenet.net/
+2013,Bronze,SourceFire,Sourcefire.png,http://www.sourcefire.com/
+2013,Bronze,Netanium Network Security,netanium.png,http://nns2012.nnsecurity.com/
+2013,Bronze,Varonis,varonis.png,http://www.varonis.com/
+2013,Bronze,Entre Computer Services,entre.png,http://www.entrecs.com/
+2013,Bronze,IGI Webroot,igi2.png,http://igius.com/
+2013,Bronze,SafeNet,safenet.png,http://www.safenet-inc.com/
+2013,Bronze,AccuNet,accunet.png,http://www.accunetsolutions.com/
+2013,Bronze,WebSense,websense.png,http://www.websense.com/
+2013,Bronze,Secure Network,secure-networks.png,http://www.securenetworkinc.com/
+2013,Bronze,SMP,smpone.png,http://www.smpone.com/
+2013,Bronze,Check Point Software Technologies,checkpoint.png,http://www.checkpoint.com/
+2013,In-Kind Sponsors,"Durkee Consulting, Inc.",DCI.png,http://www.rd1.net/
+2013,In-Kind Sponsors,Rochester Institute of Technology,rit.png,http://www.rit.edu/
+2013,In-Kind Sponsors,IANS,IANS.png,http://www.iansresearch.com/
+2013,Partners,ISSA Rochester Chapter,RocISSA.png,http://www.rochissa.org/
+2013,Partners,OWASP,OWASP.png,https://www.owasp.org/
+2013,Partners,Infragard,InfraGard.png,https://www.owasp.org/
