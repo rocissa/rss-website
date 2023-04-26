@@ -1,4 +1,36 @@
 Year,Level,Name,Image,Link
+2022,Diamond,Fortinet,Fortinet-2022-Diamond.png,https://www.fortinet.com/
+2022,Platinum,Arctic Wolf,ArcticWolf-2022-Platinum.png,https://arcticwolf.com/
+2022,Platinum,Varonis,Varonis-2022-Platinum.png,https://www.varonis.com/
+2022,Platinum,Securonix,Securonix-2022-Platinum.png,https://www.securonix.com/
+2022,Platinum,CyberArk,CyberArk-2022-Platinum.png,https://www.cyberark.com/
+2022,Platinum,Atlantic Data Security,AtlanticDataSecurity-2022-Platinum.png,https://atlanticdatasecurity.com/
+2022,Platinum,Blue Cycle/Cribl,Cribl-BlueCycle-2022-Platinum,https://cribl.io/blog/five-ways-cribl-helps-enterprise-socs/
+2022,Platinum,Guidepoint Security,GuidepointSecurity-2022-Platinum.png,https://www.guidepointsecurity.com/
+2022,Platinum,Crtical Start,CriticalStart-2022-Platinum.png,https://www.criticalstart.com/
+2022,Platinum,Brite,Brite-2022-Platinum.png,https://www.brite.com/
+2022,Platinum,SentinelOne,SentinelOne-2022-Platinum.png,https://www.sentinelone.com/
+2022,Platinum,Crowdstrike,Crowdstrike-2022-Platinum.png,https://www.crowdstrike.com/
+2022,Platinum,e+: Where Technology Means More,ePlus-2022-Platinum.png,https://www.eplus.com/
+2022,Platinum,ForgeRock,ForgeRock-2022-Platinum.png,https://www.forgerock.com/
+2022,Platinum,Tanium,Tanium-2022-Platinum.png,https://www.tanium.com/
+2022,Platinum,Trend Micro,TrendMicro-2022-Platinum.png,https://www.trendmicro.com/
+2022,Gold,Thales: Building a future we can all trust,Thales-2022-Gold.png,https://www.thalesgroup.com/
+2022,Gold,Sedara,Sedara-2022-Gold.png,https://www.sedarasecurity.com/
+2022,Gold,Rapid7,Rapid7-2022-Gold.png,https://www.rapid7.com/
+2022,Gold,Tenable,Tenable-2022-Gold.png,https://www.tenable.com/
+2022,Gold,ProArch,ProArch-2022-Gold.png,https://www.proarch.com/
+2022,Gold,Axonius,Axoinus-2022-Gold.png,https://www.axonius.com/
+2022,Gold,IGI: The Cybersecurity People,IGI-2022-Gold.png,https://igicybersecurity.com/
+2022,Silver,Vandis,Vandis-2022-Silver.png,https://www.vandis.com/
+2022,Silver,Mimecast,Mimecast-2022-Silver.png,https://www.mimecast.com/
+2022,Silver,Optiv,Optiv-2022-Silver.png,https://www.optiv.com/
+2022,Silver,iSecure,iSecure-2022-Silver.png,https://www.isecurenet.net/
+2022,Silver,GreyCastle Security,GreyCastle-2022-Silver.png,https://greycastlesecurity.com/
+2022,Silver,Defy Security,Defy-2022-Silver.png,https://defysecurity.com/
+2022,Silver,ESL Global Cybersecurity Institute,https://www.rit.edu/cybersecurity/
+2022,Partners,ISSA Rochester Chapter,RocISSA-2019.png,https://www.rocissa.org/
+2022,ISACA Western New York Chapter: Trust in, and value from, information systems,ISACA-2019.png,https://www.isaca.org/chapters11/Western-New-York/Pages/Default.aspx
 2019,Diamond,GuidePoint Security,GuidePoint-2019b.png,https://www.guidepointsecurity.com/
 2019,Platinum,Rapid7,Rapid7-2019.png,https://www.rapid7.com/
 2019,Platinum,Varonis,Varonis-2019.png,https://www.varonis.com/
@@ -207,7 +239,7 @@ Year,Level,Name,Image,Link
 2014,Bronze,FreedMaxick,FreedMaxick.png,http://www.freedmaxick.com/
 2014,Bronze,RSA,RSA.png,http://www.rsa.com/
 2014,In-Kind Sponsors,"Durkee Consulting, Inc.",DCI.png,http://www.rd1.net/
-2014,in-Kind Sponsors,Rochester Institute of Technology,rit.png,http://www.rit.edu/
+2014,In-Kind Sponsors,Rochester Institute of Technology,rit.png,http://www.rit.edu/
 2014,Partners,ISSA Rochester Chapter,rocissa-logo.png,http://www.rocissa.org/
 2014,Partners,OWASP,OWASP.png,https://www.owasp.org/
 2014,Partners,Infragard,InfraGard.png,https://www.infragard.org/

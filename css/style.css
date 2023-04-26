@@ -32,3 +32,11 @@
 .post-area a:hover {
   color: #0D0017;
 }
+
+.m-5 { margin: 5px; }
+.mt-5 { margin-top: 5px; }
+.mb-5 { margin-bottom: 5px; }
+
+.panel-summary-img {
+  max-width: 165px !important;
+}

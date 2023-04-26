@@ -7,6 +7,7 @@
   </div> 
 </div>
 <div class="row keynotes mb-5">
+    {% assign clearAfter = false %}
     {% for keynote in currentKeynotes %}
         <div class="col-md-6">
             <div class="row">
@@ -24,6 +25,12 @@
                 <div class="col-md-8">{{ keynote.intro | markdownify }}{% if keynote.more_link %} [<a href="{{ keynote.url }}">more</a>]{% endif %}</div>
             </div>
         </div>
+        {% if clearAfter == true %}
+            <div class="clearfix"></div>
+            {% assign clearAfter = false %}
+        {% else %}
+            {% assign clearAfter = true %}
+        {% endif %}
     {% endfor %}
 </div>
 {% endif %}

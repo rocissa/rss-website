@@ -101,3 +101,7 @@ sponsorship_not_yet_open: false
 sponsorship_open: true
 sponsorship_sold_out: false
 
+schedule_not_yet_available: true
+schedule_tentative: false
+schedule_available: false
+
