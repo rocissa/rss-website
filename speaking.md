@@ -2,27 +2,48 @@
 title: Speaking
 layout: page
 ---
-<div class="container">
-    <div class="row">
-      <div class="col-md-12">
 
-<h2>Rochester Security 2020 Virtual Events Presentation Proposal</h2>
+{% if site.speaking_cfp_not_yet_open %}
+<h2 class="center">The RSS:{{ site.current_year }} call for presentations is not yet open.</h2>h2>
+{% endif %}
 
-<p>While we will not be hosting a Rochester Security Summit in 2020, we remain committed to providing opportunities for our community to share in talks, networking and training.</p>
+{% if site.speaking_cfp_open %}
+## RSS:{{ site.current_year }} Call for Presentations
 
-<p>We are, to that end, announcing a special Call for Presentations. These presentation proposals will be considered by our committee for inclusion in a series of virtual events that we will be scheduling throughout the fall of 2020. We invite those who are interested to kindly submit a proposal.</p>
+**Conference Dates:** {{ site.start_date | date: "%B %e" }} - {{ site.end_date | date: "%B %e"  }}<br>
+**Location:** The Joseph A. Floreano Rochester Riverside Convention Center
 
-<p><a href="https://docs.google.com/forms/d/e/1FAIpQLSc6mZMwGX9dMGX3eSOwPQIV8Hy3KiPPuYG-FNDR-wQYsbZmRQ/viewform" class="btn btn-primary">SUBMIT A PRESENTATION PROPOSAL</a></p>
+Held during National Cyber Security Awareness Month, our conference is a focal point for education and awareness regarding Information Security in Western NY.  We seek presentations on a broad range of infosec topics, as we have a broad range of professionals and executives in attendance. Please note, we particularly need help meeting the demand for presentations that are technically oriented. Proposals regarding potential training sessions are also welcome!
 
-<p>Please send any questions to <a href="speaker@rochestersecurity.org">speaker@rochestersecurity.org</a></p>
+With the exception of the past few years, RSS has taken place annually since 2006 and has typically been a sell-out event as a result of collaboration with all of our outstanding partners.  We want to hear from you and we look forward to seeing you this Fall!
 
-<h3>Key Dates</h3>
+<div class="mt-5 text-center"><a class="btn btn-primary btn-lg" href="https://docs.google.com/forms/d/e/1FAIpQLSdVY0yJvUorvdMXMqBECS3-gDqqRb38BVqItt-f8u5LxZD0eQ/viewform" target="_blank">Submit A Proposal</a><br>
+Submission deadline: {{ site.speaking_proposals_due | date: "%B %e, %Y"}}</div>
 
-<ul>
-    <li>August 2 – Submissions due for September Virtual Events</li>
-    <li>August 31 – Submissions due for October Virtual Events</li>
-    <li>September 30 – Submissions due for November Virtual Events</li>
-</ul>	
-		</div>
-	</div>
-</div>
+Thank you,<br>
+The Rochester Security Summit Speaker Committee
+
+Please contact [speaker@rochestersecurity.org](mailto:speaker@rochestersecurity.org) for more information.
+{% endif %}
+
+{% if site.speaking_cfp_closed %}
+<h2 class="center">Speaker submissions for RSS:{{ site.current_year }} have closed.</h2>
+{% endif %}
+
+{% if site.speaking_show_guidelines %}
+### Notes and Guidelines
+
+* Presentation Length: 50 minutes (please include time for questions)
+* Training Length: typically 2 or 4 hours (please specify length in form submission)
+* To our most valued Sponsors and other companies: Please note that submissions to this call for presentations are accepted from, and awarded to, individuals and not companies. Any changes to topic or speaker necessitates, and is subject to, review and re-approval by the Speaker Committee. While sponsor participation is a valued part of our conference, we do not allow marketing or sales content within our standard presentation tracks. (When it becomes available, more information for participating sponsors will be posted to our [sponsorship page](/sponsorship)).
+* Due to the ongoing nature of the pandemic, we may be accepting fewer speakers this year than in previous years. We also expect a reduced number of attendees and sponsors.
+{% endif %}
+
+{% if site.speaking_show_key_dates %}
+### Key Dates
+
+* {{ site.speaking_proposals_due | date: "%B %e" }} &emdash; Last day for accepting proposal submissions
+* {{ site.speaking_committee_responses | date: "%B %e" }} &emdash; Committee will respond to proposals
+* {{ site.speaking_materials_due | date: "%B %e" }} &emdash; Final program abstract, biography, and draft copy of presentation slides due
+* {{ site.speaking_presentation_due | date: "%B %e" }} &emdash; Final copy of presentation slides due (will be used for distribution to attendees)
+{% endif %}
