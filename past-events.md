@@ -2,22 +2,20 @@
 title: Past Events
 layout: page
 ---
-<div class="container">
-	{% for conf in site.conferences reversed %}
-        {% if site.current_year != conf.year %}
-	        {% assign active_year = conf.year %}
+	{%- for conf in collections.conferences reversed -%}
+        {%- if site.current_year != conf.data.year -%}
+	        {%- assign active_year = conf.data.year -%}
             <article class="row">
                 <div class="col-md-12">
-                    <h1>RSS:{{ conf.year }}</h1>
-                    {% if conf.theme %}<h2>{{ conf.theme }}</h2>{% endif %}
+                    <h1>RSS:{{ conf.data.year }}</h1>
+                    {% if conf.data.theme %}<h2>{{ conf.data.theme }}</h2>{% endif %}
 
-                    {% include keynotes.html %}
+                    {%- include 'keynotes.md' -%}
 
                     {{ conf.content }}
 
-                    {% include sponsors.html %}
+                    {%- include 'sponsors.md' -%}
                 </div>
             </article>
         {% endif %}
     {% endfor %}
-</div>

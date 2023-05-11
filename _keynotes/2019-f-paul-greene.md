@@ -4,7 +4,7 @@ year: 2019
 photo: FPaulGreene.jpg
 intro: >-
     F. Paul Greene is Chair of the Privacy and Data Security Practice Group at Harter Secrest & Emery LLP, a full-service law firm headquartered in Rochester, New York. Paul is a Distinguished Fellow of the Ponemon Institute, a Certified Information Privacy Professional/US, and an adjunct professor at the Rochester Institute of Technology.
-permalink: /2019/f-paul-greene
+permalink: /2019/f-paul-greene/index.html
 weight: 1
 more_link: true
 ---

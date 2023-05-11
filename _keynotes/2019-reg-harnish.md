@@ -6,7 +6,7 @@ intro: >-
     Reg Harnish is a serial entrepreneur, nationally-recognized speaker, author and an Executive Vice President at the Center for Internet Security. Reg is also a founder of GreyCastle Security, the cybersecurity industry’s leading provider of risk, compliance, certification and privacy services.
 
     Reg has been practicing cybersecurity for nearly two decades. His experiences, skills and perspectives have established him as a highly-respected thought-leader.
-permalink: /2019/reg-harnish
+permalink: /2019/reg-harnish/index.html
 weight: 2
 more_link: true
 ---

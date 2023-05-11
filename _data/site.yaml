@@ -1,0 +1,80 @@
+---
+site_title: Rochester Security Sumit
+# current conference year - used to show current information and to prevent
+# current/upcoming conference from showing on past events page
+current_year: 2023
+
+# previous conference year
+previous_year: 2022
+
+# next conference year - leave at current during early planning
+next_year: 2023
+
+# conference dates
+conference_start_date: 2022-10-12
+conference_end_date: 2022-10-13
+
+# which year's sponsors should be shown on the homepage
+# allows for previous year's to show until the current year's list is ready
+homepage_sponsors_show_current_year: true
+homepage_sponsors_show_prevous_year: true
+
+# should the pre-conference "coming soon" message be shown on the homepage?
+homepage_conference_announcement: false
+
+# should the venue info be displayed on the homepage?
+homepage_show_venue: true
+
+# should the hotel info be displayed on the homepage?
+homepage_show_hotels: false
+
+# should keynote speakers be shown on homepage?
+homepage_show_keynotes: true
+
+homepage_show_app_links: true
+homepage_show_post_conference_info: true
+
+
+
+
+# should registration info be displayed on the homepage?
+registraton_not_yet_open: true
+registraton_enabled: false
+registration_enabled_early_bird: false
+registration_enabled_standard: false
+registration_enabled_late: false
+registration_sold_out: false
+registration_event_concluded: false
+
+
+# sponsorship messaging
+sponsorship_show_w9_link: false
+sponsorship_next_year: true
+sponsorship_not_yet_open: false
+sponsorship_open: false
+sponsorship_waiting_list: false  # sold out, but accepting to waiting list
+sponsorship_sold_out: false
+sponsorship_sponsor_information: false
+
+
+# sponsorship key dates
+
+
+
+# speaking messaging
+speaking_next_year: true
+speaking_cfp_not_yet_open: false
+speaking_cfp_open: false
+speaking_cfp_closed: false
+speaking_show_guidelines: false
+speaking_show_key_dates: false
+
+# speaking key dates
+speaking_proposals_due: 2022-08-01
+speaking_committee_responses: 2022-08-15
+speaking_materials_due: 2022-09-01
+speaking_presentation_due: 2022-09-15
+
+schedule_not_yet_available: true
+schedule_tentative: false
+schedule_available: false

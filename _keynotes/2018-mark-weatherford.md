@@ -4,7 +4,7 @@ year: 2018
 photo: mark-weatherford.jpg
 intro: >-
     Mark Weatherford is SVP and Chief Cybersecurity Strategist at vArmour. He has more than 20 years of security operations leadership and executive-level policy experience in some of the largest and most critical public and private sector organizations in the world. Prior to vArmour, he was a Principal at The Chertoff Group and in 2011 was appointed by President Obama as the DHS’s first Deputy Under Secretary for Cybersecurity.
-permalink: /2018/mark-weatherford
+permalink: /2018/mark-weatherford/index.html
 weight: 2
 more_link: true
 ---

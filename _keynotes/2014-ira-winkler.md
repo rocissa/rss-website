@@ -5,7 +5,7 @@ year: 2014
 photo: IraWinkler.jpg
 intro: >-
     Ira Winkler, CISSP is President of Secure Mentem. He is considered one of the world’s most influential security professionals, and has been named a “Modern Day James Bond” by the media.
-permalink: /2014/ira-winkler
+permalink: /2014/ira-winkler/index.html
 weight: 2
 more_link: true
 ---

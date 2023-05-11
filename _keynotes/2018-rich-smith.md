@@ -4,7 +4,7 @@ year: 2018
 photo: rich-smith.jpg
 intro: >-
     Rich Smith is the Director of Duo Labs, supporting the advanced security research agenda for Duo Security. Prior to joining Duo, Rich was Director of Security at Etsy, co-founder of Icelandic red team startup, Syndis, and has held various roles on security teams at Immunity, Kyrus, Morgan Stanley, and HP Labs. Rich has worked professionally in the security space since the late 90’s in a number of roles including building security organizations, security consulting, penetration testing, red teaming, exploit development and attack tooling.
-permalink: /2018/rich-smith
+permalink: /2018/rich-smith/index.html
 weight: 3
 more_link: true
 ---

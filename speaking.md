@@ -3,8 +3,12 @@ title: Speaking
 layout: page
 ---
 
+{% if site.speaking_next_year %}
+<h2 class="text-center">The RSS:{{ site.next_year }} call for presentations will open in the spring.</h2>
+{% endif %}
+
 {% if site.speaking_cfp_not_yet_open %}
-<h2 class="center">The RSS:{{ site.current_year }} call for presentations is not yet open.</h2>h2>
+<h2 class="text-center">The RSS:{{ site.current_year }} call for presentations is not yet open.</h2>
 {% endif %}
 
 {% if site.speaking_cfp_open %}

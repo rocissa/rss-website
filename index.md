@@ -1,222 +1,79 @@
 ---
 layout: page
-title: Airspace
-permalink: /
 ---
 
 <!-- Slider Start -->
 <section id="slider">
   <div class="container">
     <div class="row">
-      <div class="col-md-10 col-md-offset-2">
-        <div class="block">
-          <h1 class="animated fadeInUp">ROCHESTER SECURITY SUMMIT {{ site.current_year }}</h1>
-          <p class="animated fadeInUp">Wiped Out By A Real Virus</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- Wrapper Start -->
-<section id="intro">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-7 col-sm-12">
-        <div class="block">
-          <div class="section-title">
-            <h2>About Us</h2>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
-          </div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id </p>
-        </div>
-      </div><!-- .col-md-7 close -->
-      <div class="col-md-5 col-sm-12">
-        <div class="block">
-          <img src="img/wrapper-img.png" alt="Img">
-        </div>
-      </div><!-- .col-md-5 close -->
-    </div>
-  </div>
-</section>
-{% if site.show_venue %}
-  <section id="feature">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6 col-md-offset-6">
-        <h2>Location</h2>
-        
-        <h3>Conference Venue</h3>
-        <h4>Joseph A. Floreano Rochester Riverside Convention Center</h4>
-        <p>123 E Main St<br />
-          Rochester, New York USA 14604<br />
-          <a href="http://www.rrcc.com/">http://www.rrcc.com/</a></p>
-
-        <h3>Hotel Accommodations</h3>
-        <h4>Hyatt Regency Rochester</h4>
-        <p></p>
-      </div>
-    </div>
-  </div>
-  </section>
-{% endif %}
-
-<!-- Service Start -->
-<section id="service">
-  <div class="container">
-    <div class="row">
-      <div class="section-title">
-        <h2>Our Services</h2>
-        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
-      </div>
-    </div>
-    <div class="row ">
-      <div class="col-sm-6 col-md-3">
-        <div class="service-item">
-          <i class="icon ion-coffee"></i>
-          <h4>Branding</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut </p>
-        </div>
-      </div>
-      <div class="col-sm-6 col-md-3">
-        <div class="service-item">
-          <i class="ion-compass"></i>
-          <h4>Web Design</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut </p>
-        </div>
-      </div>
-      <div class="col-sm-6 col-md-3">
-        <div class="service-item">
-          <i class="ion-image"></i>
-          <h4>App Design</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut </p>
-        </div>
-      </div>
-      <div class="col-sm-6 col-md-3">
-        <div class="service-item">
-          <i class="ion-bug"></i>
-          <h4>Start Up</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut </p>
-        </div>
-      </div>
-      <div class="col-sm-6 col-md-3">
-        <div class="service-item">
-          <i class="ion-headphone"></i>
-          <h4>Logo Design</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut </p>
-        </div>
-      </div>
-      <div class="col-sm-6 col-md-3">
-        <div class="service-item">
-          <i class="ion-leaf"></i>
-          <h4>Development</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut </p>
-        </div>
-      </div>
-      <div class="col-sm-6 col-md-3">
-        <div class="service-item">
-          <i class="ion-planet"></i>
-          <h4>Brand Identity</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut </p>
-        </div>
-      </div>
-      <div class="col-sm-6 col-md-3">
-        <div class="service-item">
-          <i class="ion-earth"></i>
-          <h4>Brand Identity</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut </p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- Call to action Start -->
-<section id="call-to-action">
-  <div class="container">
-    <div class="row">
       <div class="col-md-12">
         <div class="block">
-          <h2>We design delightful digital experiences.</h2>
-          <p>Read more about what we do and our philosophy of design. Judge for yourself The work and results we’ve achieved for other clients, and meet our highly experienced Team who just love to design.</p>
-          <a class="btn btn-default btn-call-to-action" href="#" >Tell Us Your Story</a>
+          <h1 class="animated fadeInUp text-center">ROCHESTER SECURITY SUMMIT {{ site.current_year }}</h1>
+          {% if collections.confrences[site.current_year].theme %}<p class="animated fadeInUp text-center">ollections.confrences[site.current_year].theme</p>{% endif %}
         </div>
       </div>
     </div>
   </div>
 </section>
-<!-- Content Start -->
-<section id="testimonial">
-  <div class="container">
-    <div class="row">
-      <div class="section-title text-center">
-        <h2>Fun Facts About Us</h2>
-        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-6">
-        {% if site.data.funfacts.size > 0 %}
-        <div class="block">
-          {% for ff in site.data.funfacts %}
-          <ul class="counter-box clearfix">
-            <li>
-              <div class="block">
-                <i class="{{ ff.icon }}"></i>
-                <h4 class="counter">{{ ff.counter }}</h4>
-                <span>{{ ff.text }}</span>
-              </div>
-            </li>
-            {% endfor %}
-          </ul>
-        </div>
-        {% endif %}
-      </div>
-      <div class="col-md-6">
-        {% if site.data.testimonials.size > 0 %}
-        <div class="testimonial-carousel">
-          <div id="testimonial-slider" class="owl-carousel">
-            {% for tm in site.data.testimonials %}
-            <div>
-                <img src="img/cotation.png" alt="IMG">
-                <p>{{ tm.testimonial }}</p>
-                <div class="user">
-                  <img src="{{ tm.image }}" alt="Pepole">
-                  <p><span>{{ tm.name }}</span> {{ tm.title }}</p>
-                </div>
-            </div>
-            {% endfor %}
-          </div>
-        </div>
-        {% endif %}
-      </div>
-      
-      {% if site.show_sponsors %}
-        <div calss="row">
-          <div class="section-title text-center">
-            {% if site.homepage_sponsors_year != site.current_year %}
-              <h2>{{ site.homepage_sponsors_year }} Sponsors</h2>
-            {% else %}
-              <h2>Sponsors</h2>
-            {% endif %}
-          </div> 
-        </div>
-        <div class="row sponsors">
-        {% assign currentSponsors = site.data.sponsors | where: "Year", site.homepage_sponsors_year %}
-        {% assign sponsor_level = "" %}
-        {% for sponsor in currentSponsors %}
-          
-              {% if sponsor_level != sponsor.Level %}
-                {% assign sponsor_level = sponsor.Level %}
-                <div class="sponsor-class text-center">
-                  <h3>{{ sponsor_level }}</h3>
-                </div>
-              {% endif %}      
 
-              <div class="sponsor sponsor-{{ sponsor.Level | downcase }}"><a href="{{ sponsor.Link }}"><img src="{{ site.homepage_sponsors_year }}/sponsors/{{ sponsor.Image }}" alt="{{ sponsor.Name }}" /></a></div>
-
-            {% endfor %}
-          </div>
-        </div>
-      {% endif %}
-    </div>
-  </div>
+<section id="conference">
+	<div class="col-md-6">
+		<h1>RSS:{{ site.current_year }}</h1>
+		<h2>October XX-YY, 2022</h2>
+		<p>Joseph A. Floreano Rochester Riverside Convention Center<br>
+		Rochester, NY</p>
+	</div>
+	<aside id="tickets" class="col-md-6">
+		<h1>Tickets</h1>
+		<ul class="ticket-options">
+		  <li>
+		    <h2>Early Bird Ticket</h2>
+		    <div class="price">$###</div>
+            <div class="info">Available through ##/##/##</div>
+          </li>
+          <li>
+          	<h2>Standard Ticket</h2>
+            <div class="price">$###</div>
+            <div class="info">Available through ##/##/##</div>
+          </li>
+          <li>
+            <h2>Late Ticket</h2>
+            <div class="price">$###</div>
+            <div class="info">Available through ##/##/##</div>
+          </li>
+        </ul>
+        <div class="text-center"><a class="btn btn-lg btn-prmary" href="#">Purchase Tickets</a></div>
+    </aside>
 </section>
+
+<section id="about">
+	<p>The Rochester Security Summit is the lorem ipsub dolar sit amet...</p>p>
+</section>
+
+{%- if site.homepage_show_venue -%}
+<section id="location">
+    <h2>Conference Venue</h2>
+	<div class="col-md-6">
+		<img src="images/ConventionCenter.jpg" alt="Exterior photo of the Joseph A. Floreano Rochester Riverside Convention Center including sign in front of building">
+	</div>
+	<div class="col-md-6 text-center">
+		<h3>Joseph A. Floreano Rochester Riverside Convention Center</h3>
+		<div>125 East Main Street<br> 
+		Rochester, NY USA 14604</div>
+		<div><a href="https://www.rrcc.com" target="_blank">www.rrcc.com</a></div>
+	</div>
+</section>
+{%- endif -%}
+
+<section id="sponsors">
+	{%- if site.homepage_sponsors_show_current_year AND site.homepage_sponsors_show_prevous_year -%}
+	<h1>Sponsors</h1>
+	<h2 class="text-center">RSS:{{ site.current_year }} Sponsors</h2>
+	<h2 class="text-center">RSS:{{ site.previous_year }} Sponsors</h2>
+	{%- elsif site.homepage_sponsors_show_current_year -%}
+	<h1>RSS:{{ site.current_year }} Sponsors</h1>
+	{%- elsif site.homepage_sponsors_show_prevous_year-%}
+	<h1>RSS:{{ site.previous_year }}</h1>
+	{%- endif -%}
+</section>
+

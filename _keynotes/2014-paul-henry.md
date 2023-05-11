@@ -5,7 +5,7 @@ year: 2014
 photo: PaulHenry.jpg
 intro: >-
     Paul Henry is a Senior Instructor with the SANS Institute and one of the world's foremost global information security and computer forensic experts with more than 30 years of experience covering all 10 domains of network security.
-permalink: /2014/paul-henry
+permalink: /2014/paul-henry/index.html
 weight: 1
 more_link: true
 ---

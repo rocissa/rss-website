@@ -5,7 +5,7 @@ year: 2015
 photo: johannes-ullrich.jpg
 intro: >-
     As Dean of Research for the SANS Technology Institute, Johannes is currently responsible for the SANS Internet Storm Center (ISC) and the GIAC Gold program. He founded DShield.org in 2000, which is now the data collection engine behind the ISC.
-permalink: /2015/johannes-ullrich
+permalink: /2015/johannes-ullrich/index.html
 weight: 1
 more_link: true
 ---

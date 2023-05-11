@@ -5,7 +5,7 @@ layout: page
 
 {% if site.schedule_not_yet_available %}
 <h2 class="center">The RSS:{{ site.current_year }} schedule is not yet available</h2>
-{% endf %}
+{% endif %}
 
 {% if site.schedule_available %}
 

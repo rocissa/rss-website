@@ -2,13 +2,13 @@
 <html class="no-js">
   <head>
 
-    {% include head.html %}
+    {% include 'head.md' %}
 
   </head>
   <body>
 
 
-    {% include header.html %}
+    {% include 'header.md' %}
 
 
     {{ content }}
@@ -21,7 +21,7 @@
 
 
 
-    {% include footer.html %}
+    {% include 'footer.md' %}
 
     </body>
 </html>
