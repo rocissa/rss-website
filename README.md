@@ -1,6 +1,13 @@
 # rss-website
 Jekyll-based website for Rochester Security Summit
 
+## Building The Site
+
+* After cloning the repository, run ```npm install``` to install the NodeJS dependencies.
+* To build the site run ```npx @11ty/eleventy```
+* To build the site and serve it locally, run ```npx @11ty/eleventy --serve```.  Eleventy will watch for changes and automatically build them when the server is running.
+
+
 ## Adding a Conference
 
 1. Create a file in the ```_conferences``` directory named ```YEAR.md```.  Use the following template:
@@ -20,8 +27,9 @@ Jekyll-based website for Rochester Security Summit
     * Name the file ```YEAR-SPEAKER-NAME.md```
     * Use the following as a template:
         
+        ```
         ---
-        name: the speaker's full named
+        name: the speaker's full name
         year: the conference year
         photo: the filename of the photo in ```YEAR/keynotes``` (no path needed)
         intro: >-
@@ -29,13 +37,18 @@ Jekyll-based website for Rochester Security Summit
 
             Multiple lines are allowed
         permalink: YEAR/SPEAKER-NAME
-        weight: 1 <-- bios will be show on the homepage based on this, lower values first
+        weight: 1 <-- bios will be arranged on the homepage and conference page based on this value, lower values first
         more_link: true <-- if true, a link to the bio page will be included in the homepage summary
         ---
         Speaker's full bio goes here (for the bio page)
-
+        ```
+        
 1. Copy sponsor logos into ```sponsors```.
-1. Add a new line to ```_data/sponsors.csv``` for each sponsor.  File is a CSV with the following columns:
+1. Create a new file named ```YEAR.csv``` in ```_data/sponsors```.  Add the following as the first line of this file (note: case is impportant):
+
+       Year,Level,Name,Image,Link
+       
+1. Add a new line to ```_data/sponsors/YEAR.csv``` for each sponsor.  File is a CSV with the following columns:
    
    * Conference Year
    * Sponsorship Level - sponsors should be listed in the order they should appear on the site, grouped by level
