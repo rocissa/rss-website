@@ -8,10 +8,19 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addPassthroughCopy("img")
 	eleventyConfig.addPassthroughCopy("js")
 	eleventyConfig.addPassthroughCopy("*/keynotes/*")
-	eleventyConfig.addPassthroughCopy("*/sponsors/*")
+	// This causes the _data/sponsors csv files to get copied
+	// Image files should instead get copied by the setTemplateFormats definition below
+	//eleventyConfig.addPassthroughCopy("*/sponsors/*")
 	eleventyConfig.addPassthroughCopy("*/files/*")
 	eleventyConfig.addPassthroughCopy("*/panel/*")
 	eleventyConfig.setWatchJavaScriptDependencies(false)
+
+	eleventyConfig.setTemplateFormats([
+		'md',
+		'jpg',
+		'jpeg',
+		'png'
+	]);
 
     // custom markdown filters
     const md = require("markdown-it")({
