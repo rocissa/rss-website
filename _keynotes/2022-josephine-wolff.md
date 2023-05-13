@@ -4,7 +4,7 @@ year: 2022
 photo: JosephineWolff.jpg
 intro: >-
     Josephine Wolff is an associate professor of cybersecurity policy and has been at The Fletcher School at Tufts University since 2019. Her research interests include liability for cybersecurity incidents, international Internet governance, cyber-insurance, cybersecurity workforce development, and the economics of information security.
-permalink: /2022/josephine-wolff/index.html
+permalink: /2022/josephine-wolff/
 weight: 2
 more_link: true
 ---

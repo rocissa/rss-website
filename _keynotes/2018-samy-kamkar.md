@@ -4,7 +4,7 @@ year: 2018
 photo: samy-kamkar.jpg
 intro: >-
     Samy Kamkar is an independent security researcher, best known for creating The MySpace worm, the fastest spreading virus of all time. His open source software, hardware, and research highlights the insecurities and privacy implications in everyday technologies, from the Evercookie which produces virtually immutable respawning cookies, to SkyJack, a drone that wirelessly hijacks and autonomously controls other drones.
-permalink: /2018/samy-kamkar/index.html
+permalink: /2018/samy-kamkar/
 weight: 1
 more_link: true
 ---

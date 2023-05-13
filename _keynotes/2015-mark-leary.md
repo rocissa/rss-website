@@ -5,7 +5,7 @@ year: 2015
 photo: mark-leary.jpg
 intro: >-
     Mark Leary is an Information Technology security professional in the government and commercial sectors, and has held successive positions of corporate security oversight in Defense, Aerospace, Manufacturing and Services industry segments.
-permalink: /2015/mark-leary/index.html
+permalink: /2015/mark-leary/
 weight: 2
 more_link: true
 ---

@@ -4,7 +4,7 @@ year: 2022
 photo: DougLandoll.jpg
 intro: >-
     For the last 34 years, Mr. Landoll reviewed and revised security programs for organizations to gain compliance with Federal government and industry cybersecurity regulations and standards. He has been a Trusted Product Evaluator (TCSEC), a Qualified Security Assessor (PCI DSS), and an independent security assessor covering major cybersecurity regulations.
-permalink: /2022/douglas-landoll/index.html
+permalink: /2022/douglas-landoll/
 weight: 1
 more_link: true
 ---

@@ -4,7 +4,7 @@ year: 2016
 photo: diana-kelley.jpg
 intro: >-
     Diana Kelley is Executive Security Advisor to IBM Security and manages the IBM Security Newsroom. As ESA she leverages her 25+ years of cyber risk and security experience to provide advice and guidance to CISOs and security professionals. She is a regular contributor to SecurityIntelligence, X-Force Research and a co-author of IBM’s “Securing the C-Suite” study. She is a faculty member with IANS Research and serves on the Advisory Board for InfoSec World, Structure Security and the Content Committee for the Executive Women's Forum. She was an IEEE “Rock Star of Risk” in 2016 and speaks frequently at major conferences including: TED, RSA, CyberTech, CompuTex, and InfoSec World.
-permalink: /2016/diana-kelley/index.html
+permalink: /2016/diana-kelley/
 weight: 2
 more_link: true
 ---

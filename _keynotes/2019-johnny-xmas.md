@@ -4,7 +4,7 @@ year: 2019
 photo: Johnny-Xmas-768x1146.jpg
 intro: >-
     Johnny Xmas is a predominant personality in Information Security, most well-known for his community-building efforts as a founder of BurbSec, and his work on the TSA Master Key leaks. Currently working as a Blade Runner for the Australian bot-hunting firm ‘Kasada’ to defend against the automated abuse of web infrastructure, he was previously a Security Researcher for Uptake’s Industrial Cybersecurity Platform.
-permalink: /2019/johnny-xmas/index.html
+permalink: /2019/johnny-xmas/
 weight: 3
 more_link: true
 ---

@@ -4,7 +4,7 @@ year: 2018
 photo: deborah-snyder-2.jpg
 intro: >-
     Deborah A. Snyder serves as Chief Information Security Officer (CISO) for New York State, in the Office of Information Technology Services (ITS). In her role, she oversees the Enterprise Information Security Office, and directs a comprehensive program of governance, risk management and compliance functions, vulnerability management, threat intelligence, cyber incident response, and training and exercise services.
-permalink: /2018/deborah-snyder/index.html
+permalink: /2018/deborah-snyder/
 weight: 4
 more_link: true
 ---

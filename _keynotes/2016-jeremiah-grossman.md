@@ -6,7 +6,7 @@ intro: >-
     Founder of WhiteHat Security. World-Renowned Professional Hacker. Brazilian Jiu-Jitsu Black Belt. Published Author. Influential Blogger. Off-Road Race Driver.
 
     Jeremiah Grossman’s career spans nearly 20 years and he has lived a literal lifetime in computer security to become one of the industry’s biggest names. And since Jeremiah earned a Brazilian Jiu-Jitsu black belt, the media has described him as “the embodiment of converged IT and physical security.” Preventing attacks from the scariest cyber-criminals is all in a day’s work for Jeremiah, but staying a keystroke ahead of the bad guys isn’t easy. In 2001, Jeremiah founded WhiteHat Security, which today has one of the largest professional hacking armies on the planet.
-permalink: /2016/jeremiah-grossman/index.html
+permalink: /2016/jeremiah-grossman/
 weight: 1
 more_link: true
 ---

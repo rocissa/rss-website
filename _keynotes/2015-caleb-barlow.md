@@ -5,7 +5,7 @@ year: 2015
 photo: caleb-barlow.jpg
 intro: >-
     Caleb Barlow is an enterprising hi-tech executive with global experience in product management, marketing, software development and services. He has led multiple software product portfolios at IBM Security including Application, Data, Mobile, and Critical Infrastructure Security.
-permalink: /2015/caleb-barlow/index.html
+permalink: /2015/caleb-barlow/
 weight: 3
 more_link: true
 ---

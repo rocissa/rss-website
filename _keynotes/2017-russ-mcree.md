@@ -4,7 +4,7 @@ year: 2017
 photo: russ-mc-ree-214x300.jpg
 intro: >-
     Russ McRee is Group Program Manager of the Blue Team for Microsoft’s Windows & Devices Group (WDG). He writes toolsmith, a monthly column for information security practitioners, and has written for other publications including Information Security, (IN)SECURE, SysAdmin, and Linux Magazine.
-permalink: /2017/russ-mcree/index.html
+permalink: /2017/russ-mcree/
 weight: 3
 more_link: true
 ---

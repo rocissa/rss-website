@@ -4,7 +4,7 @@ year: 2017
 photo: david-kennedy-184x300.png
 intro: >-
     David started TrustedSec and Binary Defense Systems (BDS) with the vision of helping companies with information security. TrustedSec provides information security consulting services for organizations all around the world. BDS is a global Managed Security Service Provider (MSSP) and software security company which detects attackers in the early stages and prevents large-scale attacks.
-permalink: /2017/david-kennedy/index.html
+permalink: /2017/david-kennedy/
 weight: 1
 more_link: true
 ---
