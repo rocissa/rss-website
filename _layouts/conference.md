@@ -1,6 +1,7 @@
 ---
 layout: default
-title: RSS:{{ year }} {% if theme %} - {{ theme }}{% endif %}
+eleventyComputed:
+    title: RSS:{{ year }} {% if theme %} - {{ theme }}{% endif %}
 ---
 {%- assign active_year = year -%}
 <div class="container">

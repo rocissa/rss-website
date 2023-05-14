@@ -1,5 +1,7 @@
 ---
 layout: default
+eleventyComputed:
+    title: "{{ name }}"
 ---
 <div class="container">
 	<div class="row">

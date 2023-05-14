@@ -12,7 +12,7 @@
         <div class="col-md-6">
             <div class="row">
                 <div class="col-md-12">
-                	{%- if keynote.more_link -%}
+                	{%- if keynote.data.more_link -%}
                 	    <h4><a href="{{ keynote.data.permalink }}">{{ keynote.data.name }}</a></h4>
                 	{%- else -%}
                 	    <h4>{{ keynote.data.name }}</h4>

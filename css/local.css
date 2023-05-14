@@ -1,3 +1,7 @@
+/* hero image */
+#slider {
+	background: url(../images/hero.jpg) no-repeat;
+}
 .sponsors {
 	text-align: center;
 }
@@ -20,26 +24,24 @@
 	max-width: 100%;
 }
 
-@media screen and (min-width: 600px) {
-	.sponsor-diamond {
-		width: 45%;
-	}
-	
-	.sponsor-platinum {
-		width: 33%;
-	}
+.sponsor-diamond {
+	width: 450px;
+}
 
-	.sponsor-gold, .sponsor-silver, .sponsor-bronze, .sponsor-in-kind, .sponsor-partners {
-		width: 24%;
-	}
+.sponsor-platinum {
+	width: 300px;
+}
 
-	.sponsor-gold {
-		
-	}
+.sponsor-gold, .sponsor-in-kind, .sponsor-partners {
+	width: 250px;
+}
 
-	.sponsor-silver {
-		
-	}
+.sponsor-silver {
+	width: 200px;
+}
+
+.sponsor-bronze {
+	width: 150px;
 }
 
 .fluid-image {
@@ -55,4 +57,44 @@ ul {
 
 li {
 	margin-left: 1em;
+}
+
+.hotellist {
+	list-style-type: none;
+	margin: 0;
+}
+
+.hotellist li {
+	margin: 5px;
+}
+
+.venueimage {
+	border: 8px solid white;
+	outline: 1px solid #ddd;
+}
+.venueimage img {
+	width: 100%;
+}
+
+ul.social {
+	list-style-type: none;
+	font-size: 50px;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+ul.social > li {
+	display: inline-block;
+    padding: 0 10px;
+    margin: 10px;
+}
+
+.hidden-text {
+	height: 0;
+	margin-left: -9999em;
+}
+
+.appstore-image {
+	height: 80px;
 }
