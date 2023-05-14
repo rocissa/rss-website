@@ -3,7 +3,7 @@ Jekyll-based website for Rochester Security Summit
 
 ## Building The Site
 
-* After cloning the repository, run ```npm install``` to install the NodeJS dependencies.
+* After cloning the repository, run ```npm init``` to install the NodeJS dependencies.
 * To build the site run ```npx @11ty/eleventy```
 * To build the site and serve it locally, run ```npx @11ty/eleventy --serve```.  Eleventy will watch for changes and automatically build them when the server is running.
 
@@ -57,3 +57,7 @@ Jekyll-based website for Rochester Security Summit
    * Link URL - the URL to the sponsor's site
 
 1. Additional conference content, such as presesntation slides, should be placed in the directory for the conference year.  Additional pages can be created by adding markdown files within the directory. 
+1. Update settings in ```_data/site.yml``` as appropriate:
+    * Change ```current_year``` and ```previous_year```
+    * Update ```conference_start_date``` and ```conference_end_date``` if new dates are known
+    * Update other settings to turn on and off messaging where needed

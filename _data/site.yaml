@@ -1,5 +1,5 @@
 ---
-site_title: Rochester Security Sumit
+site_title: Rochester Security Summit
 # current conference year - used to show current information and to prevent
 # current/upcoming conference from showing on past events page
 current_year: 2023
@@ -16,7 +16,7 @@ conference_end_date: 2022-10-13
 
 # which year's sponsors should be shown on the homepage
 # allows for previous year's to show until the current year's list is ready
-homepage_sponsors_show_current_year: true
+homepage_sponsors_show_current_year: false
 homepage_sponsors_show_prevous_year: true
 
 # should the pre-conference "coming soon" message be shown on the homepage?
@@ -33,6 +33,9 @@ homepage_show_keynotes: true
 
 homepage_show_app_links: true
 homepage_show_post_conference_info: true
+
+homepage_show_call_for_volunteers: true
+homepage_show_schedule_link: true
 
 
 

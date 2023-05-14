@@ -31,8 +31,7 @@ module.exports = function (eleventyConfig) {
 
     // implement Jekyll's markdownify plugin (parse markdown in variables)
 	eleventyConfig.addFilter("markdownify", value => (value) ? md.render(value) : '')
-	// same as markdownify, but don't wrap result in <p> tags
-	eleventyConfig.addFilter("tagless", value => (value) ? md.render(value).slice(3, -4) : '')
+	
 
 	// allow parsng yaml data files
     eleventyConfig.addDataExtension("yaml, yml", contents => yaml.load(contents));
