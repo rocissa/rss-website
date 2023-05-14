@@ -14,6 +14,10 @@
             <li><a href="{{ site.baseurl }}/contact">Contact</a></li>
           </ul>
         </div>
+        <ul class="social">
+          <li><a href="https://facebook.com/RocSecSummit" target="_blank"><span class="fa fa-facebook-square" aria-hidden="true"></span><span class="hidden-text">Facebook</span></a></li>
+          <li><a href="https://twitter.com/rocsecsummit" target="_blank"><span class="fa fa-twitter-square" aria-hidden="true"></span><span class="hidden-text">Twitter</span></a></li>
+        </ul>
         <p>Copyright &copy; {{ site.current_year }} Rochester Security Summit. All rights reserved.</p>
       </div>
     </div>

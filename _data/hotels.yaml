@@ -1,0 +1,10 @@
+---
+- name: Hyatt Regency Rochester
+  short_name: Hyatt
+  address: 125 East Main Street
+  city: Rochester
+  state: New York
+  zip: 14604
+  discount_rate: starting at $162 per night + tax
+  discount_expires: 9/13 or room block is filled
+  offer_url: https://www.hyatt.com/en-US/group-booking/ROCHE/G-SCST
