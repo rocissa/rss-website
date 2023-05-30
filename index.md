@@ -10,6 +10,7 @@ layout: page
         <div class="block">
           <h1 class="animated fadeInUp text-center">ROCHESTER SECURITY SUMMIT {{ site.current_year }}</h1>
           {% if collections.confrences[site.current_year].theme %}<p class="animated fadeInUp text-center">ollections.confrences[site.current_year].theme</p>{% endif %}
+          <p class="animated fadeInUp text-center">October 25-26, 2023</p>
         </div>
       </div>
     </div>
