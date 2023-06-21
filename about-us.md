@@ -72,5 +72,5 @@ The Rochester Security Summit is held annually during National Cyber Security Aw
 ## Marketing / Communications Committee
 
 * **Chair** - Tim Minsterman
-* **Web Lead:** Jason Pitoniak
+* **Web:** Jason Pitoniak
 * **Social Media:** Jason Woodson
