@@ -14,6 +14,19 @@ layout: page
 <h2 class="text-center">Sponsorship Not Yet Open</h2>
 {% endif %}
 
+{% if site.sponsorship_coming_soon == true %}
+## Call for Sponsors and Sponsorship Pricing Details Coming Soon!
+
+We are excited to announce we are preparing to open our Call for Sponsors in the coming weeks.
+In addition to that, information about the Platinum Sponsor SEE Track will also be available soon. These talks offer an excellent opportunity for sponsors to showcase their expertise and engage with the audience.
+
+While we finalize the details for opening sponsorship, we would like to inform you that our Call for Presentations is now open for vendor-neutral talks. This is a separate avenue where individuals can share their knowledge and insights with the community. You do not have to be a paid sponsor to participate in the Call for Presentations, as the presentations are awarded to individuals rather than companies.
+We kindly request you to note that the Call for Presentations is distinct from the SEE Track speaking slots, which is an exclusive benefit for Platinum Sponsors. The SEE Track speaking slots are specifically reserved for our esteemed sponsors to deliver presentations related to their products, services, or areas of expertise.
+If you are interested in submitting a Vendor Neutral Presentation for consideration, we invite you to visit our submission portal at https://www.rochestersecurity.org/speaking/. You will find detailed instructions and a form to submit your proposal.
+Please keep an eye on your inbox for the forthcoming announcement regarding the RSS:2023 Call for Sponsors and Sponsorship Pricing Details.
+Thank you for your continued interest in RSS:2023.
+{% endif %}
+
 {% if site.sponsorship_waiting_list == true%}
 <h2 class="text-center">Sponsorship for RSS:{{ current_year }} is currently sold out,<br>however we are still accepting new sponsors to our waiting list.</h2>
 {% endif %}
@@ -41,36 +54,53 @@ layout: page
 {% endif %}
 
 
-{% if site.sponsorship_open  == trie%}
+{% if site.sponsorship_open  == true%}
 ## Sponsorship for RSS:{{ site.current_year }} is open!
 
 Please email [sponsorship@rochestersecurity.org](mailto:sponsorship@rochestersecurity.org) for more information. Or, to request an invoice, please provide a billing name, address and phone number with your requested level of sponsorship.
 
 The Rochester Security Summit is a focal point for information security in New York and surrounding areas. In collaboration with our sponsor partners, the Summit attracts high quality speakers, provides opportunities for education and outreach, and serves a largely technical audience interested in security policies, products, and services. This year, the Summit will again be in the Rochester Convention Center. We expect over 400 attendees in this attractive, convenient, and larger venue.
+{% endif %}
 
-The Summit has excellent representation across industries and job functions. In 2018, the profile of paid Summit attendees was as follows:
+{% if site.sponsorship_attendee_profile == true %}
+The Summit has excellent representation across industries and job functions. In 2022, the profile of paid Summit attendees was as follows:
 
-### Attendee Profiles by Industry in 2018
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
 
-* 13% - Business Services
+### Attendee Profiles by Industry in 2022
+
+<a href="/2022/attendees-by-industry.png" data-toggle="lightbox"><img src="/2022/attendees-by-industry.png" class="img-responsive" alt="Attendee Profiles by Industry in 2022"></a>
+
+<!--* 13% - Business Services
 * 7% - Consumer Products and Services
 * 17% - Educational Institutions
 * 13% - Financial Institutions and Services
 * 5% - Government
 * 15% - Health Care Services
 * 23% - Technology Companies
-* 7% - Energy, Law, Media, and Other Companies
-					
-### Attendee Profiles by Job Function in 2018</h4>
+* 7% - Energy, Law, Media, and Other Companies-->
 
-* 11% - Executives, e.g., Director, VP, C-level, GM
-* 9% - Computer Security Managers
-* 39% - Computer Security Engineers and Analysts
-* 8% - Software Managers
-* 17% - Software Engineers and Analysts
-* 12% - Business Development and Sales
-* 4% - Other, or not provided
-				
+    </div>
+    <div class="col-md-6">
+					
+### Attendee Profiles by Job Function in 2022
+
+<a href="/2022/attendees-by-job-function.png" data-toggle="lightbox"><img src="/2022/attendees-by-job-function.png" class="img-responsive" alt="Attendee Profiles by Job Function in 2022 (N=338)"></a>
+
+* 21.1% - Executive, VP or Director Level
+* 18.4% - IT Security Management
+* 37.4% - Technical Security Professional
+* 2.7% - Web or Software Professional
+* 20.5% - Other -->
+
+    </div>
+  </div>
+</div>
+{% endif %}
+
+{% if site.sponsorship_open == true %}				
 *Sponsorship typically sells out in a few weeks so if you are interested, contact us promptly. If you have not already registered your email address and received sponsor updates from us, do so above to stay informed about further information and announcements. We do not share or sell email addresses with anyone.*
 
 Last year, around 85% of attendees came from Western New York, e.g., Rochester, Buffalo, Ithaca, and Syracuse. Nearly 10% came from the metropolitan areas of Boston, New York City, Albany, and Washington D.C. Attendees have come from as far north as Toronto, as far west as Detroit, as far east as Boston, and as far south as Austin, TX.
@@ -122,3 +152,11 @@ We sincerely thank you for your interest in sponsoring this event and if you hav
 		</div>
 	</div>
 </div>
+
+<script src="https://cdnjs.com/libraries/ekko-lightbox"></script>
+<script>
+  $(document).on('click', '[data-toggle="lightbox"]', e => {
+    e.preventDefault()
+    $(this).ekkoLightbox();
+  })
+</script>
