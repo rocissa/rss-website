@@ -71,7 +71,7 @@ The Summit has excellent representation across industries and job functions. In 
 
 ### Attendee Profiles by Industry in 2022
 
-<a href="/2022/attendees-by-industry.png" data-toggle="lightbox"><img src="/2022/attendees-by-industry.png" class="img-responsive" alt="Attendee Profiles by Industry in 2022"></a>
+<a href="/2022/attendees-by-industry.png" data-fslightbox="gallery"><img src="/2022/attendees-by-industry.png" class="img-responsive" alt="Attendee Profiles by Industry in 2022"></a>
 
 <!--* 13% - Business Services
 * 7% - Consumer Products and Services
@@ -87,7 +87,7 @@ The Summit has excellent representation across industries and job functions. In 
 					
 ### Attendee Profiles by Job Function in 2022
 
-<a href="/2022/attendees-by-job-function.png" data-toggle="lightbox"><img src="/2022/attendees-by-job-function.png" class="img-responsive" alt="Attendee Profiles by Job Function in 2022 (N=338)"></a>
+<a href="/2022/attendees-by-job-function.png" data-fslightbox="gallery"><img src="/2022/attendees-by-job-function.png" class="img-responsive" alt="Attendee Profiles by Job Function in 2022 (N=338)"></a>
 
 * 21.1% - Executive, VP or Director Level
 * 18.4% - IT Security Management
@@ -153,10 +153,4 @@ We sincerely thank you for your interest in sponsoring this event and if you hav
 	</div>
 </div>
 
-<script src="https://cdnjs.com/libraries/ekko-lightbox"></script>
-<script>
-  $(document).on('click', '[data-toggle="lightbox"]', e => {
-    e.preventDefault()
-    $(this).ekkoLightbox();
-  })
-</script>
+<script src="/js/fslightbox.js"></script>
