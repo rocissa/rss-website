@@ -28,7 +28,7 @@ The Rochester Security Summit is held annually during National Cyber Security Aw
 * Gary Pecor, Xerox (retired)
 * Joe Pierson<sup>*</sup>, Equitable (ISSA, Infragard)
 * Jason Pitoniak<sup>*</sup>, Rochester Institute of Technology (ISSA, OWASP)
-* Rose Rozeski<sup>*</sup>, Independent  (ISSA)
+* Rose Rozeski<sup>*</sup>, Independent Health (ISSA)
 * Rich Savacool<sup>*</sup>, Nixon Peabody, LLC (ISSA)
 * Richard Smith, Security Risk Advisors
 * David Warden<sup>*</sup>, SUNY Geneseo (ISSA)
