@@ -2,6 +2,11 @@
 #slider {
 	background: url(../images/hero.jpg) no-repeat;
 }
+
+.btn {
+	margin :1em;
+}
+
 .sponsors {
 	text-align: center;
 }
@@ -44,9 +49,17 @@
 	width: 150px;
 }
 
+#sponsorship-pricing:hover, #sponsorship-pricing:focus {
+  cursor: zoom-in;
+}
+
 .fluid-image {
 	max-width: 100%;
 	height: auto;
+}
+
+h2 {
+	margin-top: 1.5em;
 }
 
 ul {
@@ -57,6 +70,10 @@ ul {
 
 li {
 	margin-left: 1em;
+}
+
+footer {
+	margin-top: 2em;
 }
 
 .hotellist {
