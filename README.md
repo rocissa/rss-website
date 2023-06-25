@@ -3,7 +3,7 @@ Jekyll-based website for Rochester Security Summit
 
 ## Building The Site
 
-* After cloning the repository, run ```npm init``` to install the NodeJS dependencies.
+* After cloning the repository, run ```npm install``` to install the NodeJS dependencies.
 * To build the site run ```npx @11ty/eleventy```
 * To build the site and serve it locally, run ```npx @11ty/eleventy --serve```.  Eleventy will watch for changes and automatically build them when the server is running.
 
