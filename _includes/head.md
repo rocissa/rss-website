@@ -16,7 +16,7 @@
 <link rel="stylesheet" href="{{ site.baseurl }}/css/animate.css" />
 <link rel="stylesheet" href="{{ site.baseurl }}/css/responsive.css" />
 <link rel="stylesheet" href="{{ site.baseurl }}/css/syntax.css" />
-<link rel="stylesheet" href="{{ site.baseurl }}/css/local.css#20230624" />
+<link rel="stylesheet" href="{{ site.baseurl }}/css/local.css?20230624" />
 
 <!-- Js -->
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
