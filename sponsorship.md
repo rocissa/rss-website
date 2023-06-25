@@ -34,8 +34,8 @@ Thank you for your continued interest in RSS:2023.
 
 ##  Important Dates
 * Call for Sponsors Deadline: July 10, 2023
-* Submit a completed form using the link above before this date to be considered
-RSS:2023 takes place on October 25 & 26, 2023
+  * Submit a completed form using the link above before this date to be considered
+* RSS:2023 takes place on October 25 & 26, 2023
 
 ## Sponsor Level Benefits & Pricing
 The below table describes Rochester Security Summit sponsorship opportunities for this year.
