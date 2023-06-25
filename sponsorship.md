@@ -27,6 +27,34 @@ Please keep an eye on your inbox for the forthcoming announcement regarding the 
 Thank you for your continued interest in RSS:2023.
 {% endif %}
 
+{% if site.sponsorship_open  == true%}
+## The official Call for Sponsors for RSS:{{ site.current_year }} is now open.
+
+<div class="mt-5 mb-5 text-center"><a class="btn btn-primary btn-lg" href="https://docs.google.com/forms/d/e/1FAIpQLSfbobyW-9o88uG---Dc13S0Tf_qAm6uX8We3-5c-DANnSmWtg/viewform">Submit Call for Sponsors Form</a></div>
+
+##  Important Dates
+* Call for Sponsors Deadline: July 10, 2023
+* Submit a completed form using the link above before this date to be considered
+RSS:2023 takes place on October 25 & 26, 2023
+
+## Sponsor Level Benefits & Pricing
+The below table describes Rochester Security Summit sponsorship opportunities for this year.
+
+<div class="mt-5 mb-5 text-center"><a href="/files/RSS2023-Sponsorship-Pricing.pdf"><img id="sponsorship-pricing" src="/files/RSS2023-Sponsorship-Pricing.png" alt="Sponsorship Pricing Thumbnail" width="500px" style></a></div>
+
+## About the Selection Process
+
+Given limited available space, sponsorships are allocated through lottery. By submitting this form, your company will be entered into a random drawing and sponsorship will be awarded according to the order drawn. No deposit is taken and organizations can ask to be removed from consideration at any point.
+
+We will do our best to match your preferences indicated in the form with our available sponsorship opportunities.
+
+Note, the Diamond Selection is a separate drawing, exclusive to Platinum Sponsors who have indicated an interest in Diamond as a preference level. 
+
+After the lottery is complete, we will maintain a waiting list of potential sponsors, in case of dropouts or cancellations. 
+
+Again, thank you for considering sponsoring the Rochester Security Summit. We sincerely appreciate your interest and your involvement in making our event a continued success. 
+{% endif %}
+
 {% if site.sponsorship_waiting_list == true%}
 <h2 class="text-center">Sponsorship for RSS:{{ current_year }} is currently sold out,<br>however we are still accepting new sponsors to our waiting list.</h2>
 {% endif %}
@@ -53,16 +81,8 @@ Thank you for your continued interest in RSS:2023.
 <p class="text-center mt-5 mb-5"><a class="btn btn-lg btn-primary" href="files/Rochester-Security-Summit-Exhibitor-Manual.pdf">Exhibitor Manual<br />(Great Lakes Events)</a></p>
 {% endif %}
 
-
-{% if site.sponsorship_open  == true%}
-## Sponsorship for RSS:{{ site.current_year }} is open!
-
-Please email [sponsorship@rochestersecurity.org](mailto:sponsorship@rochestersecurity.org) for more information. Or, to request an invoice, please provide a billing name, address and phone number with your requested level of sponsorship.
-
-The Rochester Security Summit is a focal point for information security in New York and surrounding areas. In collaboration with our sponsor partners, the Summit attracts high quality speakers, provides opportunities for education and outreach, and serves a largely technical audience interested in security policies, products, and services. This year, the Summit will again be in the Rochester Convention Center. We expect over 400 attendees in this attractive, convenient, and larger venue.
-{% endif %}
-
 {% if site.sponsorship_attendee_profile == true %}
+<hr>
 The Summit has excellent representation across industries and job functions. In 2022, the profile of paid Summit attendees was as follows:
 
 <div class="container">
@@ -100,15 +120,7 @@ The Summit has excellent representation across industries and job functions. In 
 </div>
 {% endif %}
 
-{% if site.sponsorship_open == true %}				
-*Sponsorship typically sells out in a few weeks so if you are interested, contact us promptly. If you have not already registered your email address and received sponsor updates from us, do so above to stay informed about further information and announcements. We do not share or sell email addresses with anyone.*
-
-Last year, around 85% of attendees came from Western New York, e.g., Rochester, Buffalo, Ithaca, and Syracuse. Nearly 10% came from the metropolitan areas of Boston, New York City, Albany, and Washington D.C. Attendees have come from as far north as Toronto, as far west as Detroit, as far east as Boston, and as far south as Austin, TX.
-	
-## Sponsor Level Benefits and Pricing
-
-The below table describes Rochester Security Summit sponsorship opportunities for this year.
-
+{% if site.sponsorship_faq == true %}
 ## Frequently Asked Questions
 
 <dl>
@@ -134,16 +146,14 @@ The below table describes Rochester Security Summit sponsorship opportunities fo
   While employees are welcome to purchase tickets at market price and attend the conference as regular attendees; we ask you to be considerate in limiting the number of people you bring to work the event to the number allotted by your sponsorship level.<br />
   We appreciate your consideration in this matter.</dd>
 </dl>
-
-<hr />
-
-We sincerely thank you for your interest in sponsoring this event and if you have any questions please feel free to reach out to the Sponsorship Committee at [sponsorship@rochestersecurity.org](mailto:sponsorship@rochestersecurity.org) with any questions.
 {% endif %}
 
 
 
 <div class="text-center mt-5 mb-5">
 <div class="mt-5 mb-5 text-center"><a class="btn btn-primary btn-lg" href="/sponsor-mailing-list">Join Our Sponsorship Mailing List</a></div>
+
+<hr />
 
 **Have a question? Please contact [sponsorship@rochestersecurity.org](mailto:sponsorship@rochestersecurity.org).**
 
