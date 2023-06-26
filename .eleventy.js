@@ -19,7 +19,8 @@ module.exports = function (eleventyConfig) {
 		'md',
 		'jpg',
 		'jpeg',
-		'png'
+		'png',
+		'pdf'
 	]);
 
     // custom markdown filters
