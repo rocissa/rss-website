@@ -18,41 +18,44 @@ layout: page
   </div>
 </section>
 
-<!-- <section id="conference">
+<section id="conference">
 	<div class="col-md-6">
 		<h1>RSS:{{ site.current_year }}</h1>
-		<h2>October XX-YY, 2022</h2>
-		<p>Joseph A. Floreano Rochester Riverside Convention Center<br>
+		<h2 class="conf-details-dates text-center">Wednesday, October 26 and<br>
+		Thursday, October 27, 2023</h2>
+		<p class="conf-details-loc text-center">Joseph A. Floreano Rochester Riverside Convention Center<br>
 		Rochester, NY</p>
 	</div>
 	<aside id="tickets" class="col-md-6">
 		<h1>Tickets</h1>
 		<ul class="ticket-options">
 		  <li>
-		    <h2>Early Bird Ticket</h2>
-		    <div class="price">$###</div>
-            <div class="info">Available through ##/##/##</div>
+		    <h2>Early Bird Registration</h2>
+		    <div class="price">$150.00</div>
+            <div class="info">Limited availability. First come, first served.</div>
           </li>
           <li>
-          	<h2>Standard Ticket</h2>
-            <div class="price">$###</div>
-            <div class="info">Available through ##/##/##</div>
+          	<h2>Standard Registration</h2>
+            <div class="price">$250.00</div>
+            <div class="info">Sale ends on 09/22/2023</div>
           </li>
           <li>
-            <h2>Late Ticket</h2>
-            <div class="price">$###</div>
-            <div class="info">Available through ##/##/##</div>
+            <h2>Late Registration</h2>
+            <div class="price">$350.00</div>
+            <div class="info">Available starting 09/21/2023, until sold out</div>
           </li>
         </ul>
-        <div class="text-center"><a class="btn btn-lg btn-prmary" href="#">Purchase Tickets</a></div>
+        <div class="text-center mt-5 mb-5"><a class="btn btn-lg btn-primary pt-5 pb-5 " href="https://events.eventzilla.net/e/rochester-security-summit-2023-2138587562">Purchase Tickets</a></div>
     </aside>
 </section>
 
 <section id="about">
-	<p>The Rochester Security Summit is the lorem ipsub dolar sit amet...</p>
+	<p>Since 2006, the Rochester Security Summit has been a leading regional event that brings together a broad range of experts and professionals from the field of information security. Held annually during National Cyber Security Awareness Month, it serves as a community focal point for education and awareness; fostering discussion, knowledge sharing, and networking to help drive innovation and address the evolving challenges in the security landscape. From emerging trends to practical insights, our goal is to empower attendees with the latest information and strategies to enhance their cybersecurity practices.</p>
+
+	<p>The Rochester Security Summit is brought to you by the <a href="https://ww.rocissa.org" target="_blank">Rochester Chapter</a> of the <a href="https://www.issa.org" target="_blank">Infomation Systems Security Association International (ISSA)</a>.</p>
 </section>
 
-<section id="announcements">
+<!-- <section id="announcements">
 	<div class="col-md-12">
 		{%- if site.homepage_show_call_for_volunteers == true -%}
 ## Interested in helping out with RSS:2022?
