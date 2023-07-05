@@ -21,8 +21,8 @@ layout: page
 <section id="conference">
 	<div class="col-md-6">
 		<h1>RSS:{{ site.current_year }}</h1>
-		<h2 class="conf-details-dates text-center">Wednesday, October 26 and<br>
-		Thursday, October 27, 2023</h2>
+		<h2 class="conf-details-dates text-center">Wednesday, October 25 and<br>
+		Thursday, October 26, 2023</h2>
 		<p class="conf-details-loc text-center">Joseph A. Floreano Rochester Riverside Convention Center<br>
 		Rochester, NY</p>
 	</div>
