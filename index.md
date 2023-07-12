@@ -18,7 +18,7 @@ layout: page
   </div>
 </section>
 
-<section id="conference">
+<section id="conference" class="clearfix">
 	<div class="col-md-6">
 		<h1>RSS:{{ site.current_year }}</h1>
 		<h2 class="conf-details-dates text-center">Wednesday, October 25 and<br>
@@ -27,29 +27,45 @@ layout: page
 		Rochester, NY</p>
 	</div>
 	<aside id="tickets" class="col-md-6">
+		{%- if site.registration_enabled == true -%}
 		<h1>Tickets</h1>
 		<ul class="ticket-options">
+			{%- if site.registration_early_bird -%}
 		  <li>
 		    <h2>Early Bird Registration</h2>
 		    <div class="price">$150.00</div>
-            <div class="info">Limited availability. First come, first served.</div>
-          </li>
-          <li>
-          	<h2>Standard Registration</h2>
-            <div class="price">$250.00</div>
-            <div class="info">Sale ends on 09/22/2023</div>
-          </li>
-          <li>
-            <h2>Late Registration</h2>
-            <div class="price">$350.00</div>
-            <div class="info">Available starting 09/21/2023, until sold out</div>
-          </li>
-        </ul>
-        <div class="text-center mt-5 mb-5"><a class="btn btn-lg btn-primary pt-5 pb-5 " href="https://events.eventzilla.net/e/rochester-security-summit-2023-2138587562">Purchase Tickets</a></div>
+        <div class="info">Limited availability. First come, first served.</div>
+      </li>
+      {%- endif -%}
+      {%- if site.registration_standard -%}
+      <li>
+      	<h2>Standard Registration</h2>
+        <div class="price">$250.00</div>
+        <div class="info">Sale ends on 09/22/2023</div>
+      </li>
+      {%- endif -%}
+      {%- if site.registration_late -%}
+      <li>
+        <h2>Late Registration</h2>
+        <div class="price">$350.00</div>
+        <div class="info">Available starting 09/21/2023, until sold out</div>
+      </li>
+      {%- endif -%}
+      </ul>
+      <div class="text-center mt-5 mb-5"><a class="btn btn-lg btn-primary pt-5 pb-5 " href="https://events.eventzilla.net/e/rochester-security-summit-2023-2138587562">Purchase Tickets</a></div>
+			{%- endif -%}
+			{%- if site.registration_sold_out -%}
+			<h1>Sold Out</h1>
+			<p class="text-center">RSS:{{ site.current_year }} has sold out</p>
+			{%- endif -%}
+			{%- if site.registration_event_concluded -%}
+			<h1>RSS:{{ site.current_year }} Has Concluded</h1>
+			<p class="text-center">We hope to see you next year.</p>
+			{%- endif -%}
     </aside>
 </section>
 
-<section id="about">
+<section id="about" class="clearfix">
 	<p>Since 2006, the Rochester Security Summit has been a leading regional event that brings together a broad range of experts and professionals from the field of information security. Held annually during National Cyber Security Awareness Month, it serves as a community focal point for education and awareness; fostering discussion, knowledge sharing, and networking to help drive innovation and address the evolving challenges in the security landscape. From emerging trends to practical insights, our goal is to empower attendees with the latest information and strategies to enhance their cybersecurity practices.</p>
 
 	<p>The Rochester Security Summit is brought to you by the <a href="https://ww.rocissa.org" target="_blank">Rochester Chapter</a> of the <a href="https://www.issa.org" target="_blank">Infomation Systems Security Association International (ISSA)</a>.</p>
@@ -64,6 +80,8 @@ Please let us know at [info@rochestersecurity.org](mailto:info@rochestersecurity
     {%- endif -%}
 	</div>
 </section> -->
+
+
 
 {%- if site.homepage_show_venue == true or site.homepage_show_hotels == true -%}
 <section id="location" class="clearfix">

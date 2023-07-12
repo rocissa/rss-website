@@ -41,11 +41,11 @@ homepage_show_schedule_link: true
 
 
 # should registration info be displayed on the homepage?
-registraton_not_yet_open: true
-registraton_enabled: false
-registration_enabled_early_bird: false
-registration_enabled_standard: false
-registration_enabled_late: false
+registration_not_yet_open: false
+registration_enabled: true
+registration_early_bird: false
+registration_standard: true
+registration_late: true
 registration_sold_out: false
 registration_event_concluded: false
 
