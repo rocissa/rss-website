@@ -81,15 +81,47 @@ Please let us know at [info@rochestersecurity.org](mailto:info@rochestersecurity
 	</div>
 </section> -->
 
+{%- if site.homepage_show_keynotes -%}
+    {%- assign currentKeynotes = collections.keynotes | where: "data.year", site.current_year | sort: "data.weight" -%}
+    {%- assign numberKeynotes = currentKeynotes | size -%}
+    {%- if numberKeynotes > 0 -%}
+    <section id="keynotes" class="clearfix">
+	    <div class="col-md-12">
+		    <h1>RSS:{{ site.current_year }} Keynote Speakers</h1>
+		    {%- for keynote in currentKeynotes -%}
+		      <div class="row">
+            <div class="col-md-12">
+            	{%- if keynote.data.more_link -%}
+                <h2><a href="{{ keynote.data.permalink }}">{{ keynote.data.name }}</a></h2>
+             	{%- else -%}
+                <h2>{{ keynote.data.name }}</h2>
+             	{%- endif -%}
+            </div>
+            {%- if keynote.data.professional_title -%}
+                <div class="col-md-12 mb-5"><em>{{ keynote.data.professional_title }}</em></div>
+            {%- endif -%}
+            {%- if keynote.data.photo -%}
+              <div class="col-md-3"><img class="fluid-image" src="/{{ keynote.data.year }}/keynotes/{{ keynote.data.photo }}" alt="{{ keynote.data.name }}" /></div>
+              <div class="col-md-9">{{ keynote.data.intro | markdownify }}{% if keynote.data.more_link %} [<a href="{{ keynote.data.permalink }}">more</a>]{% endif %}</div>
+            {%- else -%}
+              <div class="col-md-12">{{ keynote.data.intro | markdownify }}{% if keynote.data.more_link %} [<a href="{{ keynote.data.permalink }}">more</a>]{% endif %}
+              </div>
+            {%- endif -%}
+          </div>
+        {%- endfor -%}
+      </div>
+	  </section>
+	  {%- endif -%}
+{%- endif -%}
 
 
 {%- if site.homepage_show_venue == true or site.homepage_show_hotels == true -%}
 <section id="location" class="clearfix">
 	  <div class="col-md-12">
-		  <h2>Location</h2>
+		  <h1>Location</h1>
 		  {% if site.homepage_show_venue == true and site.homepage_show_hotels == true %}
 		  <div class="col-md-6">
-		  	<h3>Conference Venue</h3>
+		  	<h2>Conference Venue</h2>
 		  	<div class="venueimage"><img src="images/ConventionCenter.jpg" alt="Exterior photo of the Joseph A. Floreano Rochester Riverside Convention Center including sign in front of building"></div>
 	      <h4 class="text-center">Joseph A. Floreano Rochester Riverside Convention Center</h4>
 			  <div class="text-center">125 East Main Street<br> 
@@ -97,14 +129,14 @@ Please let us know at [info@rochestersecurity.org](mailto:info@rochestersecurity
 			  <div class="text-center"><a href="https://www.rrcc.com" target="_blank">www.rrcc.com</a></div>
 		  </div>
 		  <div class="col-md-6">
-		  	<h3>Hotel Accommodations</h3>
+		  	<h2>Hotel Accommodations</h2>
 		  	<ul class="hotellist">
 		  		{%- include 'hotels.md' -%}
 		  	</ul>
 		  </div>
 		  {% elsif site.homepage_show_venue == true %}
 		  <div class="col-md-12">
-		  	<h3>Conference Venue</h3>
+		  	<h2>Conference Venue</h2>
 		  	  <div class="col-md-6">
 		  	  	<div class="venueimage"><img src="images/ConventionCenter.jpg" alt="Exterior photo of the Joseph A. Floreano Rochester Riverside Convention Center including sign in front of building"></div>
 		  	  </div>
@@ -118,7 +150,7 @@ Please let us know at [info@rochestersecurity.org](mailto:info@rochestersecurity
 		  </div>
 		  {% elsif site.homepage_show_hotels == true %}
 		  <div class="col-md-12">
-		  	<h3>Hotel Accommodations</h3>
+		  	<h2>Hotel Accommodations</h2>
 		  	<ul class="hotellist">
 		  		{%- include 'hotels.md' -%}
 		  	</ul>
@@ -130,26 +162,26 @@ Please let us know at [info@rochestersecurity.org](mailto:info@rochestersecurity
 
 <section id="sponsors">
 	{%- if site.homepage_sponsors_show_current_year AND site.homepage_sponsors_show_prevous_year -%}
-	  <h2>Sponsors</h2>
-	  <h3 class="text-center">RSS:{{ site.current_year }} Sponsors</h3>
+	  <h1>Sponsors</h1>
+	  <h2 class="text-center">RSS:{{ site.current_year }} Sponsors</h2>
 	  {%- assign active_year = site.current_year -%}
 	  {%- assign level_heading = 'h4' -%}
 	  {%- include 'homepage_sponsors.md' -%}
 
-	  <h3 class="text-center">RSS:{{ site.previous_year }} Sponsors</h3>
+	  <h2 class="text-center">RSS:{{ site.previous_year }} Sponsors</h2>
 	  {%- assign active_year = site.previous_year -%}
 	  {%- include 'homepage_sponsors.md' -%}
 
 	{%- elsif site.homepage_sponsors_show_current_year -%}
-	  <h2>RSS:{{ site.current_year }} Sponsors</h2>
+	  <h1>RSS:{{ site.current_year }} Sponsors</h1>
 	  {%- assign active_year = site.current_year -%}
-	  {%- assign level_heading = 'h3' -%}
+	  {%- assign level_heading = 'h2' -%}
 	  {%- include 'homepage_sponsors.md' -%}
 
 	{%- elsif site.homepage_sponsors_show_prevous_year-%}
-	  <h2>RSS:{{ site.previous_year }} Sponsors</h2>
+	  <h1>RSS:{{ site.previous_year }} Sponsors</h1>
 	  {%- assign active_year = site.previous_year -%}
-	  {%- assign level_heading = 'h3' -%}
+	  {%- assign level_heading = 'h2' -%}
 	  {%- include 'homepage_sponsors.md' -%}
 	{%- endif -%}
 </section>

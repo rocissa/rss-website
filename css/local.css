@@ -151,6 +151,12 @@ ul.social > li {
 .conf-details-loc {
 	margin-top: 50px;
 }
-#tickets {
-	margin-bottom: 75px;
+
+
+section {
+	margin-bottom: 8rem;
+}
+
+section#slider {
+	margin-bottom: 0;
 }
