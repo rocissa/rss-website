@@ -11,8 +11,8 @@ previous_year: 2022
 next_year: 2023
 
 # conference dates
-conference_start_date: 2022-10-12
-conference_end_date: 2022-10-13
+conference_start_date: 2022-10-25
+conference_end_date: 2022-10-26
 
 # which year's sponsors should be shown on the homepage
 # allows for previous year's to show until the current year's list is ready
@@ -55,9 +55,10 @@ sponsorship_show_w9_link: false
 sponsorship_next_year: false
 sponsorship_not_yet_open: false
 sponsorship_coming_soon: false
-sponsorship_open: true
-sponsorship_waiting_list: false  # sold out, but accepting to waiting list
+sponsorship_open: false
+sponsorship_waiting_list: true  # sold out, but accepting to waiting list
 sponsorship_sold_out: false
+sponsorship_pricing: true
 sponsorship_sponsor_information: false
 sponsorship_attendee_profile: true
 sponsorship_faq: false

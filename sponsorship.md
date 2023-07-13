@@ -27,7 +27,7 @@ Please keep an eye on your inbox for the forthcoming announcement regarding the 
 Thank you for your continued interest in RSS:2023.
 {% endif %}
 
-{% if site.sponsorship_open  == true%}
+{% if site.sponsorship_open  == true %}
 ## The official Call for Sponsors for RSS:{{ site.current_year }} is now open.
 
 <div class="mt-5 mb-5 text-center"><a class="btn btn-primary btn-lg" href="https://docs.google.com/forms/d/e/1FAIpQLSfbobyW-9o88uG---Dc13S0Tf_qAm6uX8We3-5c-DANnSmWtg/viewform">Submit Call for Sponsors Form</a></div>
@@ -36,12 +36,23 @@ Thank you for your continued interest in RSS:2023.
 * Call for Sponsors Deadline: July 10, 2023
   * Submit a completed form using the link above before this date to be considered
 * RSS:2023 takes place on October 25 & 26, 2023
+{%- endif -%}
 
-## Sponsor Level Benefits & Pricing
+{% if site.sponsorship_waiting_list == true %}
+<h2 class="text-center">Sponsorship for RSS:{{ current_year }} is currently closed,<br>but join our waitlist.</h2>
+
+<div class="mt-5 mb-5 text-center"><a class="btn btn-primary btn-lg" href="https://docs.google.com/forms/d/e/1FAIpQLSfbobyW-9o88uG---Dc13S0Tf_qAm6uX8We3-5c-DANnSmWtg/viewform">Submit Call for Sponsors Form</a></div>
+{% endif %}
+
+{%- if site.sponsorship_pricing -%}
+
+<h2>Sponsor Level Benefits & Pricing</h2>
 The below table describes Rochester Security Summit sponsorship opportunities for this year.
 
 <div class="mt-5 mb-5 text-center"><a href="/files/RSS2023-Sponsorship-Pricing.pdf"><img id="sponsorship-pricing" src="/files/RSS2023-Sponsorship-Pricing.png" alt="Sponsorship Pricing Thumbnail" width="500px" style></a></div>
+{%- endif -%}
 
+{%- if site.sponsorship_open -%}
 ## About the Selection Process
 
 Given limited available space, sponsorships are allocated through lottery. By submitting this form, your company will be entered into a random drawing and sponsorship will be awarded according to the order drawn. No deposit is taken and organizations can ask to be removed from consideration at any point.
@@ -55,9 +66,7 @@ After the lottery is complete, we will maintain a waiting list of potential spon
 Again, thank you for considering sponsoring the Rochester Security Summit. We sincerely appreciate your interest and your involvement in making our event a continued success. 
 {% endif %}
 
-{% if site.sponsorship_waiting_list == true%}
-<h2 class="text-center">Sponsorship for RSS:{{ current_year }} is currently sold out,<br>however we are still accepting new sponsors to our waiting list.</h2>
-{% endif %}
+
 
 {% if site.sponsorship_sold_out == true %}
 <h2 class="text-center">Sponsorship for RSS:{{ site.current_year }} has sold out.</h2>
