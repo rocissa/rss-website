@@ -39,7 +39,7 @@ Thank you for your continued interest in RSS:2023.
 {%- endif -%}
 
 {% if site.sponsorship_waiting_list == true %}
-<h2 class="text-center">Sponsorship for RSS:{{ current_year }} is currently closed,<br>but join our waitlist.</h2>
+<h2 class="text-center">Sponsorship for RSS:{{ site.current_year }} is currently closed,<br>but join our waitlist.</h2>
 
 <div class="mt-5 mb-5 text-center"><a class="btn btn-primary btn-lg" href="https://docs.google.com/forms/d/e/1FAIpQLSfbobyW-9o88uG---Dc13S0Tf_qAm6uX8We3-5c-DANnSmWtg/viewform">Submit Call for Sponsors Form</a></div>
 {% endif %}
