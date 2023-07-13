@@ -15,8 +15,9 @@ The Rochester Security Summit is held annually during National Cyber Security Aw
 * Dennis Allen, Stratascale
 * Shaquille Barnes, ESL (ISSA, InfraGard)
 * Mark Christman, Microsoft
+* Ralph Durkee, Durkee Consulting, Inc. (ISSA, OWASP)
 * David Frier, Sedara
-* Paul Goyette, Nixon Peabody, LLC
+* Paul Goyette, Nixon Peabody, LLP
 * Tom Hasman, GDIT
 * Barry Hofecker, GreyCastle Security
 * Keith Hunt<sup>*</sup>, University of Rochester (ISSA, OWASP)
