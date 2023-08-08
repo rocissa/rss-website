@@ -44,6 +44,23 @@ Thank you for your continued interest in RSS:2023.
 <div class="mt-5 mb-5 text-center"><a class="btn btn-primary btn-lg" href="https://docs.google.com/forms/d/e/1FAIpQLSfbobyW-9o88uG---Dc13S0Tf_qAm6uX8We3-5c-DANnSmWtg/viewform">Submit Call for Sponsors Form</a></div>
 {% endif %}
 
+{% if site.sponsorship_closed_current_year == true %}
+<h2 class="text-center">Sponsiorship for RSS:{{ site.current_year }} is currently closed.</h2>
+
+Thank you for considering supporting the Rochester Security Summit. To be contacted concerning future opportunities, please register for our mailing list by completing and submitting the form below.
+
+Since its inception in 2006, the Rochester Security Summit has grown and flourished, with many thanks to the invaluable contributions of our sponsors. Our sponsors play a vital role in our success, allowing us to provide high-quality events that foster knowledge exchange and professional growth and that create an impactful experience for everyone involved.
+
+To help ensure you receive time sensitive announcements, kindly consider the following:
+
+* Adding sponsorship@rochestersecurity.org to your company's whitelist.
+* Adding team or distribution list email addresses to our mailing list for convenience.
+* Adding multiple email addresses to our mailing list to ensure effective communication in the case of staffing changes or OOO scenarios.
+* We use mailchimp to communicate with and manage our mailing list
+
+<div class="mt-5 mb-5 text-center"><a class="btn btn-primary btn-lg" href="/sponsor-mailing-list">Join Our Sponsorship Mailing List</a></div>
+{% endif %}
+
 {%- if site.sponsorship_pricing -%}
 
 <h2>Sponsor Level Benefits & Pricing</h2>
