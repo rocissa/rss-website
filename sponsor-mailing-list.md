@@ -15,7 +15,18 @@ layout: page
     <div id="mc_embed_signup_scroll">
 	<h3>Join our Sponsor Mailing List</h3>
 
-<p style="margin: 0 0 15px 0; font-size: 14px; line-height: 1.7em;">The Rochester Security Summit seeks to provide high quality opportunities to its attendees in an effort to advance the field of information security. Sponsors are key partners that have helped the summit flourish over the past few years. It is with the aid of sponsors that we are able to not only provide high quality speakers and keynotes, but also an engaging conference environment. If your organization is interested in being contacted about opportunities, please enter your information below. Feel free to use a team or distribution list email address.</p>
+<p style="margin: 0 0 15px 0; font-size: 14px; line-height: 1.7em;">Thank you for considering supporting the Rochester Security Summit. To be contacted concerning future opportunities, please register for our mailing list by completing and submitting the form below.</p>p?
+
+<p style="margin: 0 0 15px 0; font-size: 14px; line-height: 1.7em;">Since its inception in 2006, the Rochester Security Summit has grown and flourished, with many thanks to the invaluable contributions of our sponsors. Our sponsors play a vital role in our success, allowing us to provide high-quality events that foster knowledge exchange and professional growth and that create an impactful experience for everyone involved.</p>
+
+<p style="margin: 0 0 15px 0; font-size: 14px; line-height: 1.7em;">To help ensure you receive time sensitive announcements, kindly consider the following:</p>
+
+<ul style="margin: 0 0 15px 0; font-size: 14px; line-height: 1.7em;">
+	<li>Adding sponsorship@rochestersecurity.org to your company's whitelist.</li>
+    <li>Adding team or distribution list email addresses to our mailing list for convenience.</li>
+    <li>Adding multiple email addresses to our mailing list to ensure effective communication in the case of staffing changes or OOO scenarios.</li>
+    <li>We use mailchimp to communicate with and manage our mailing list.</li>
+</ul>
 
 <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
 <div class="mc-field-group">
