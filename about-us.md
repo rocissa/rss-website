@@ -24,7 +24,7 @@ The Rochester Security Summit is held annually during National Cyber Security Aw
 * Heather Klem, Dox Electronics (ISSA)
 * Phil LaGraff, PC LaGraff Consulting (ISSA, Infragard)
 * Tim Minsterman<sup>*</sup>, Nixon Peabody, LLP (ISSA)
-* Stephen Montanaro, Rochester Institute of Technology (REN-ISAC)
+* Stephen Montanaro, Rochester Institute of Technology (REN-ISAC, InfraGard)
 * Bruce Nelson, Eastman Kodak (retired)
 * Gary Pecor, Xerox (retired)
 * Joe Pierson<sup>*</sup>, Equitable (ISSA, Infragard)
