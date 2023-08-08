@@ -15,7 +15,7 @@ layout: page
     <div id="mc_embed_signup_scroll">
 	<h3>Join our Sponsor Mailing List</h3>
 
-<p style="margin: 0 0 15px 0; font-size: 14px; line-height: 1.7em;">Thank you for considering supporting the Rochester Security Summit. To be contacted concerning future opportunities, please register for our mailing list by completing and submitting the form below.</p>p?
+<p style="margin: 0 0 15px 0; font-size: 14px; line-height: 1.7em;">Thank you for considering supporting the Rochester Security Summit. To be contacted concerning future opportunities, please register for our mailing list by completing and submitting the form below.</p>
 
 <p style="margin: 0 0 15px 0; font-size: 14px; line-height: 1.7em;">Since its inception in 2006, the Rochester Security Summit has grown and flourished, with many thanks to the invaluable contributions of our sponsors. Our sponsors play a vital role in our success, allowing us to provide high-quality events that foster knowledge exchange and professional growth and that create an impactful experience for everyone involved.</p>
 
