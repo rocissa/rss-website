@@ -1,5 +1,6 @@
-const yaml = require("js-yaml");
-const {parse} = require("csv-parse/sync");
+const yaml = require("js-yaml")
+const {parse} = require("csv-parse/sync")
+const markdownItAttrs = require('markdown-it-attrs')
 
 module.exports = function (eleventyConfig) {
 	eleventyConfig.addPassthroughCopy("css")
@@ -21,14 +22,14 @@ module.exports = function (eleventyConfig) {
 		'jpeg',
 		'png',
 		'pdf'
-	]);
+	])
 
     // custom markdown filters
     const md = require("markdown-it")({
     	html: true,
     	breaks: false,
     	linkify: false
-    });
+    }).use(markdownItAttrs)
 
     // implement Jekyll's markdownify plugin (parse markdown in variables)
 	eleventyConfig.addFilter("markdownify", value => (value) ? md.render(value) : '')
