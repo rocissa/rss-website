@@ -12,7 +12,7 @@ layout: page
 {% endif %}
 
 {% if site.speaking_cfp_open %}
-## RSS:{{ site.current_year }} Call for Presentations
+## RSS:{{ site.current_year }} Call for Presentations Has Closed
 
 **Conference Dates:** October 25 & 26, 2023 - (Wednesday & Thursday)<br>
 **Location:** The Joseph A. Floreano Rochester Riverside Convention Center
@@ -24,7 +24,7 @@ Held during National Cyber Security Awareness Month, our conference is a focal p
 With the exception of  2020-21, RSS has taken place annually since 2006 and has typically been a sell-out event as a result of collaboration with all of our outstanding partners.  We want to hear from you and we look forward to seeing you this Fall! 
 
 
-<div class="mt-5 text-center"><a class="btn btn-primary btn-lg" href="https://docs.google.com/forms/d/1q5SGkXUgSxv9o9Chra_4dWhxLQu-_KpGDDjwRtRe7tY/" target="_blank">Submit A Proposal</a><br>
+<div class="mt-5 text-center"><a class="btn btn-primary btn-lg" href="https://docs.google.com/forms/d/1q5SGkXUgSxv9o9Chra_4dWhxLQu-_KpGDDjwRtRe7tY/" target="_blank">Submit A Proposal to the Waitlist</a><br>
 Submission deadline: August 15, 2023</div>
 
 ### Important Information: 
