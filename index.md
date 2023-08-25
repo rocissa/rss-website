@@ -161,7 +161,7 @@ Please let us know at [info@rochestersecurity.org](mailto:info@rochestersecurity
 {%- endif -%}
 
 <section id="sponsors">
-	{%- if site.homepage_sponsors_show_current_year AND site.homepage_sponsors_show_prevous_year -%}
+	{%- if site.homepage_sponsors_show_current_year and site.homepage_sponsors_show_previous_year -%}
 	  <h1>Sponsors</h1>
 	  <h2 class="text-center">RSS:{{ site.current_year }} Sponsors</h2>
 	  {%- assign active_year = site.current_year -%}
@@ -178,7 +178,7 @@ Please let us know at [info@rochestersecurity.org](mailto:info@rochestersecurity
 	  {%- assign level_heading = 'h2' -%}
 	  {%- include 'homepage_sponsors.md' -%}
 
-	{%- elsif site.homepage_sponsors_show_prevous_year-%}
+	{%- elsif site.homepage_sponsors_show_prevous_year -%}
 	  <h1>RSS:{{ site.previous_year }} Sponsors</h1>
 	  {%- assign active_year = site.previous_year -%}
 	  {%- assign level_heading = 'h2' -%}
