@@ -17,7 +17,7 @@ conference_end_date: 2022-10-26
 # which year's sponsors should be shown on the homepage
 # allows for previous year's to show until the current year's list is ready
 homepage_sponsors_show_current_year: true
-homepage_sponsors_show_prevous_year: true
+homepage_sponsors_show_prevous_year: false
 
 # should the pre-conference "coming soon" message be shown on the homepage?
 homepage_conference_announcement: false
