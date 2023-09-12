@@ -4,15 +4,23 @@ Year,Level,Name,Image,Link
 2023,Platinum,Abnormal Security,Abnormal_2023_platinum.png,https://www.abnormalsecurity.com/
 2023,Platinum,GuidePoint,GuidePoint_2023_Platinum.png,https://www.guidepointsecurity.com/
 2023,Platinum,"Island Technology, Inc.",Island_2023_platinum.png,https://www.island.io/
+2023,Platinum,Palo Alto Networks,Palo_Alto_2023_platinum.png,https://www.paloaltonetworks.com/
 2023,Platinum,CyberArk,cyberark_2023_platinum.png,https://www.cyberark.com/
 2023,Platinum,Varonis,Varonis_2023_Platinum.png,https://www.varonis.com/
 2023,Platinum,Axonius,Axonius_2023_Platinum.png,https://axonius.com/
+2023,Platinum,Rapid7,Rapid7_2023_platinum.png,https://www.rapid7.com/
+2023,Platinum,Exabeam,Exabeam_2023_platinum.png,http://www.exabeam.com/
+2023,Platinum,Critical Start,Critical_Start_2023_platinum.png,https://www.criticalstart.com/
+2023,Platinum,"ePlus Security/Cisco Partner Master Security Specialized",ePlus_2023_platinum.png,https://eplus.com/solutions/security
 2023,Gold,SailPoint,SailPoint_2023_Gold.png,https://www.sailpoint.com/
 2023,Gold,Thales,Thales_2023_Gold.png,https://cpl.thalesgroup.com/
+2023,Gold,Brite,Brite_2023_gold.png,https://www.brite.com/managed-security-services-briteprotect/
 2023,Gold,ReliaQuest,ReliaQuest_2023_gold.png,https://www.reliaquest.com/
 2023,Gold,Mimecast,Mimecast_2023_Gold.png,https://www.mimecast.com/
 2023,Gold,NWN Carousel,NWN_Carousel_2023_Gold.png,https://www.nwncarousel.com/
 2023,Gold,Zscaler,Zscaler_2023_Gold.png,https://www.zscaler.com/
+2023,Gold,Fortinet,Fortinet_2023_gold.png,https://www.fortinet.com/
+2023,Gold,Arista Networks,Arista_2023_gold.png,https://www.arista.com
 2023,Silver,Optiv,optiv_2023_silver.png,https://www.optiv.com/
 2023,Silver,Cribl,cribl_2023_silver.png,https://www.cribl.io/
 2023,Silver,"Vandis, Inc.",Vandis_2023_Silver.png,http://www.vandis.com/
@@ -21,5 +29,12 @@ Year,Level,Name,Image,Link
 2023,Silver,Dyntek,Dyntek_2023_Silver.png,http://www.dyntek.com/
 2023,Silver,Rubrik,Rubrik_2023_Silver.png,https://www.rubrik.com/
 2023,Silver,"Waterfall Security Solutions, Ltd",Waterfall_2023_Silver.png,https://waterfall-security.com/
+2023,Silver,Proofpoint,Proofpoint_2023_silver.png,https://www.proofpoint.com
+2023,Silver,Sedara,Sedara_2023_silver.png,https://www.sedarasecurity.com
+2023,Silver,Tenable,Tenable_2023_silver.png,https://www.tenable.com/
+2023,Silver,Netskope,Netskope_2023_silver.png,https://www.netskope.com/
+2023,Silver,Sophos,Sophos_2023_silver.png,https://www.sophos.com/en-us
+2023,Silver,Arctic Wolf,Arctic_Wolf_2023_silver.png,https://arcticwolf.com/
+2023,Silver,iSecure Reimagining Cybersecurity,iSecure_2023_silver.png,https://www.isecurenet.net/
 2023,Partners,ISSA Rochester Chapter,RocISSA-2019.png,https://www.rocissa.org/
-2023,Partners,"ISACA Western New York Chapter: Trust in, and value from, information systems",ISACA-2019.png,https://www.isaca.org/chapters11/Western-New-York/Pages/Default.aspx
+2023,Partners,"ISACA Western New York Chapter: Trust in, and value from, information systems",ISACA-2019.png,https://engage.isaca.org/westernnewyorkchapter/home
