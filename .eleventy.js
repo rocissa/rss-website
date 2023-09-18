@@ -30,6 +30,7 @@ module.exports = function (eleventyConfig) {
     	breaks: false,
     	linkify: false
     }).use(markdownItAttrs)
+    eleventyConfig.setLibrary("md", md)
 
     // implement Jekyll's markdownify plugin (parse markdown in variables)
 	eleventyConfig.addFilter("markdownify", value => (value) ? md.render(value) : '')
