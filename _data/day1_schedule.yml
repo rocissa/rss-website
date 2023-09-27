@@ -17,7 +17,7 @@ tracks:
     room: Highland D/E
   - id: training
     name: Training
-    room: Cascade A/B/C/D
+    room: Cascade A/B/C
   - id: sponsor1
     name: Sponsor Engineering and Education
     room: Aqueduct A/B

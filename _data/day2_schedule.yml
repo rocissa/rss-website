@@ -16,7 +16,7 @@ tracks:
     room: Highland D/E
   - id: training
     name: Training
-    room: Cascade A/B/C/D
+    room: Cascade A/B/C
   - id: sponsor1
     name: Sponsor Engineering and Education
     room: Aqueduct A/B
@@ -56,7 +56,7 @@ sessions:
       presenter: David Frier 
       length: 1
     - title: "Five Questions to Ask Your PenTester"
-      presenter: Quasim Ijaz 
+      presenter: Qasim Ijaz 
       length: 1
     - title: "Rise of the Machines: The Future of AI in Cybersecurity"
       presenter: Reg Harnish
@@ -91,18 +91,18 @@ sessions:
       presenter: Elena Matchey
       length: 1
     - empty: true
+    - empty: true
       length: 2
     - skip: true
-    - empty: true
   training:
     - title: "Applying the Principle of Least Privilege in Cloud Planning"
       presenter: Tom Ricardo
       length: 2
     - skip: true
     - empty: true
+    - empty: true
       length: 2
     - skip: true
-    - empty: true
   sponsor1:
     - title: TBA
       presenter: 
@@ -116,21 +116,7 @@ sessions:
     - title: TBA
       presenter: 
       length:
-    - title: TBA
-      presenter: 
-      length:
-    - title: TBA
-      presenter: 
-      length:
-    - title: TBA
-      presenter: 
-      length:
-    - title: TBA
-      presenter: 
-      length:
-    - title: TBA
-      presenter: 
-      length:
+    - empty: true
   sponsor2:
     - title: TBA
       presenter: 
@@ -144,19 +130,5 @@ sessions:
     - title: TBA
       presenter: 
       length:
-    - title: TBA
-      presenter: 
-      length:
-    - title: TBA
-      presenter: 
-      length:
-    - title: TBA
-      presenter: 
-      length:
-    - title: TBA
-      presenter: 
-      length:
-    - title: TBA
-      presenter: 
-      length:
+    - empty: true
 
