@@ -2,6 +2,7 @@ const yaml = require("js-yaml")
 const {parse} = require("csv-parse/sync")
 const markdownItAttrs = require('markdown-it-attrs')
 const faviconsPlugin = require("eleventy-plugin-gen-favicons")
+const cacheBuster = require('@mightyplow/eleventy-plugin-cache-buster')
 
 module.exports = function (eleventyConfig) {
 	eleventyConfig.addPassthroughCopy("css")
@@ -52,6 +53,10 @@ module.exports = function (eleventyConfig) {
     		short_name: "RSS"
     	}
     })
+
+    eleventyConfig.addPlugin(cacheBuster({
+    	outputDirectory: "./_site"
+    }))
 
 	return {
 		dir: {
