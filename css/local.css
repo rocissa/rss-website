@@ -181,45 +181,45 @@ section#slider {
   height: 15px;
 }
 
-.no-mobile {
+.schedule .no-mobile {
   display: none;
 }
 
-.lilac {
+.schedule .lilac {
   background-color: #b3f1ff;
 }
-.times.lilac {
+.schedule .times.lilac {
   background-color: white;
 }
-.track1 {
+.schedule .track1 {
   background-color: #d0ffb3;
 }
-.track2 {
+.schedule .track2 {
   background-color: #ffdeb3;
 }
-.track3 {
+.schedule .track3 {
   background-color: #c5b3ff;
 }
-.track4 {
+.schedule .track4 {
   background-color: #f08080;
 }
-.sponsor, .sponsor1, .sponsor2 {
+.schedule .sponsor, .schedule .sponsor1, .schedule .sponsor2 {
   background-color: #ffc6d2;
 }
-.training {
+.schedule .training {
   background-color: #fffb99;
 }
-.empty {
+.schedule .empty {
 	display: none;
 }
 
-.title {
+.schedule .title {
   font-weight: bold;
 }
-.room {
+.schedule .room {
   font-style: italic;
 }
-.presenter {
+.schedule .presenter {
   font-style: italic;
 }
 
@@ -234,38 +234,38 @@ section#slider {
     margin-bottom: 0;
   }
 
-  .empty {
+  .schedule .empty {
   	display: block;
   }
 
-  .no-mobile {
+  .schedule .no-mobile {
     display: block;
   }
   .schedule > .gap {
     display: none;
   }
 
-  .ballroom {
+  .schedule .ballroom {
     background-color: cyan;
   }
 
-  .full-session {
+  .schedule .full-session {
     grid-column-end: span 7;
   }
 
-  .columns-2 {
+  .schedule .columns-2 {
     grid-column-end: span 2;
   }
 
-  .rows-2 {
+  .schedule .rows-2 {
     grid-row-end: span 2;
   }
   
-  .session > .times, .session > .room, .full-session > .times {
+  .schedule .session > .times, .schedule .session > .room, .schedule .full-session > .times {
     display: none;
   }
 
-  .session > .title {
+  .schedule .session > .title {
   	font-weight: normal;
   	padding-bottom: 5px;
   }
