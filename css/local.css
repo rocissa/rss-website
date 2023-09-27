@@ -209,6 +209,9 @@ section#slider {
 .training {
   background-color: #fffb99;
 }
+.empty {
+	display: none;
+}
 
 .title {
   font-weight: bold;
@@ -229,6 +232,10 @@ section#slider {
 
   .schedule > div {
     margin-bottom: 0;
+  }
+
+  .empty {
+  	display: block;
   }
 
   .no-mobile {

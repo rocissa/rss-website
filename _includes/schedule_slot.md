@@ -1,7 +1,7 @@
 {%- for track in schedule.tracks -%}
   {%- if schedule.sessions[track.id][slot].skip != true -%}
     {%- if schedule.sessions[track.id][slot].empty == true -%}
-      <div class="{% if schedule.sessions[track.id][slot].length > 1 %}rows-{{ schedule.sessions[track.id][slot].length }}{% endif %}"></div>
+      <div class="empty {% if schedule.sessions[track.id][slot].length > 1 %}rows-{{ schedule.sessions[track.id][slot].length }}{% endif %}"></div>
     {%- else -%}
       <div class="session {{ track.id }} {% if schedule.sessions[track.id][slot].length > 1 %}rows-{{ schedule.sessions[track.id][slot].length }}{% endif %}">
         {%- if schedule.sessions[track.id][slot].title -%}<div class="title">{{ schedule.sessions[track.id][slot].title }}</div>{%- endif -%}
