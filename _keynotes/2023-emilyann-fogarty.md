@@ -5,7 +5,7 @@ photo: EmilyannFogarty.jpg
 intro: >-
     Emilyann Fogarty is a dynamic and accomplished cybersecurity leader rooted in a strong foundation of healthcare technology. She brings a wealth of expertise to her current position as Head of Data Security at Nayya Health Inc. where her responsibilities encompass crafting and executing comprehensive strategies for Information Security, Privacy, and IT programs while carefully managing day-to-day operations and enterprise risk mitigation.
 permalink: /2023/emilyann-fogarty/
-weight: 3
+weight: 2
 more_link: true
 ---
 

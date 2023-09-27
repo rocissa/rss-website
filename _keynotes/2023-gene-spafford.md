@@ -5,7 +5,7 @@ photo: GeneSpafford.png
 intro: >-
    Eugene H. Spafford is a professor of Computer Sciences at Purdue University. He is also the founder and Executive Director Emeritus of the Center for Education and Research in Information Assurance and Security. He has been working in computing as a student, researcher, consultant, and professor for 45 years. Some of his work is at the foundation of current security practice, including intrusion detection, incident response, firewalls, integrity management, and forensic investigation. His most recent work has been in cyber security policy, forensics, and future threats. He has also been a pioneer in education, including starting and heading the oldest degree-granting cybersecurity program.
 permalink: /2023/gene-spafford/
-weight: 2
+weight: 3
 more_link: true
 ---
 
