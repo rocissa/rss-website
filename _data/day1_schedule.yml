@@ -1,0 +1,125 @@
+---
+keynotes:
+  - Moses Frost
+  - Emilyann Fogarty
+tracks:
+  - id: track1
+    name: Track 1
+    room: Highland A
+  - id: track2
+    name: Track 2
+    room: Highland B
+  - id: track3
+    name: Track 3
+    room: Highland C
+  - id: track4
+    name: Track 4
+    room: Highland D/E
+  - id: training
+    name: Training
+    room: Cascade A/B/C/D
+  - id: sponsor1
+    name: Sponsor Engineering and Education
+    room: Aqueduct A/B
+  - id: sponsor2
+    name: Sponsor Engineering and Education
+    room: Acueduct C/D
+session_times:
+  - start: 10:00 am 
+    end: 10:50 am 
+  - start: 11:00 am
+    end: 11:50 am
+  - start: 1:00 pm
+    end: 1:50 pm
+  - start: 2:00 pm
+    end: 2:50 pm
+sessions:
+  track1:
+    - title: "Defending Beyond Defense"
+      presenter: Dr. Catherine J. Ullman
+      length: 1
+    - title: " A Hardware Hacker's Perspective On Breaking and Defending XIoT Devices"
+      presenter: Gabe Siftar and Zachary Lehmann
+      length: 1
+    - title: "DeFaking Deepfakes: Challenges for Real-World Mitigation of Manipulated Media"
+      presenter: Matthew Wright 
+      length: 1
+    - title: "The Essentials of Enterprise Key Management (EKM)"
+      presenter: Mark Warner 
+      length: 1
+  track2:
+    - title: "Artificial Intelligence:  Managing Risk, Regulation, and Reward"
+      presenter: F. Paul Greene
+      length: 1
+    - title: "SkyNet Is Coming For Email First... Thankfully!"
+      presenter: Aubrey King 
+      length: 1
+    - title: "Unlocking Generative AI: Balancing Innovation with Security"
+      presenter: Jason Ross 
+      length: 1
+    - title: "Security Risks and Mitigations for Generative AI Foundation Models"
+      presenter: Justin Leto 
+      length: 1
+  track3:
+    - title: "Cybersecurity for Small Businesses"
+      presenter: Brandon Finton 
+      length: 1
+    - title: "How Not To Build a Cybersecurity Startup"
+      presenter: JP Bourget 
+      length: 1
+    - title: "Thinking Like a Regulator - Making the Most of Your Data Protection Compliance Efforts"
+      presenter: F. Paul Greene
+      length: 1
+    - title: "This Is Not a Drill: The Importance of Incident Response Testing"
+      presenter: Daniel J. Altieri
+      length: 1
+  track4:
+    - title: "What Cyberattackers See: Top Tips for Minimizing Your Identity Attack Surface"
+      presenter: Eric Woodruff
+      length: 1
+    - title: "API Sprawl and Open APIs: Potential Risks of Application Modernization"
+      presenter: TBA 
+      length: 1
+    - title: "Demystifying Cloud Security and Compliance"
+      presenter: Bob Adams
+      length: 1
+    - title: "Beyond Layers: Achieving Holistic Cybersecurity Through Tool Integration"
+      presenter: Ryan Young 
+      length: 1
+  training:
+    - title: "Penetration Testing for Systems and Network Admins"
+      presenter: Qasim Ijaz
+      length: 2
+      end: 11:50 am
+    - skip: true
+    - title: "Penetration Testing for Systems and Network Admins (continued)"
+      presenter: 
+      length: 2
+      end: 2:50 pm
+    - skip: true
+  sponsor1:
+    - title: TBA
+      presenter: 
+      length:
+    - title: TBA
+      presenter: 
+      length:
+    - title: TBA
+      presenter: 
+      length:
+    - title: TBA
+      presenter: 
+      length:
+  sponsor2:
+    - title: TBA
+      presenter: 
+      length:
+    - title: TBA
+      presenter: 
+      length:
+    - title: TBA
+      presenter: 
+      length:
+    - title: TBA
+      presenter: 
+      length:

@@ -1,0 +1,162 @@
+---
+keynotes:
+  - Gene Spafford
+tracks:
+  - id: track1
+    name: Track 1
+    room: Highland A
+  - id: track2
+    name: Track 2
+    room: Highland B
+  - id: track3
+    name: Track 3
+    room: Highland C
+  - id: track4
+    name: Track 4
+    room: Highland D/E
+  - id: training
+    name: Training
+    room: Cascade A/B/C/D
+  - id: sponsor1
+    name: Sponsor Engineering and Education
+    room: Aqueduct A/B
+  - id: sponsor2
+    name: Sponsor Engineering and Education
+    room: Acueduct C/D
+session_times:
+  - start: 10:00 am 
+    end: 10:50 am 
+  - start: 11:00 am
+    end: 11:50 am
+  - start: 1:00 pm
+    end: 1:50 pm
+  - start: 2:00 pm
+    end: 2:50 pm
+  - start: 3:30 pm
+    end: 4:20 pm
+sessions:
+  track1:
+    - title: "Small Step or Giant Leap? Cyber and Policy Progress Towards Satellite Security"
+      presenter: William Malik 
+      length: 1
+    - title: "Catching More Flies - Spotting the Adversary With Honey Techniques"
+      presenter: Matthew Gracie 
+      length: 1
+    - title: "AppSec: Making Sense of the Wild West"
+      presenter: Chris Peltz 
+      length: 1
+    - title: "Automation in the SOC: A Winning Recipe"
+      presenter: Joe Morin 
+      length: 1
+    - title: "Beyond Firewalls: A DevSecOps Approach to Elevating Application Security"
+      presenter: Ben Wilcox
+      length: 1
+  track2:
+    - title: "Reducing the Attack Surface"
+      presenter: David Frier 
+      length: 1
+    - title: "Five Questions to Ask Your PenTester"
+      presenter: Quasim Ijaz 
+      length: 1
+    - title: "Rise of the Machines: The Future of AI in Cybersecurity"
+      presenter: Reg Harnish
+      length: 1
+    - title: "FLAME: Federated Learning Against Malicious Engineering - Employing Trust and Reputation to Enhance Learning Security and Privacy"
+      presenter: Sergei Chuprov 
+      length: 1
+    - title: "Navigating the Cyber Threat Landscape in Healthcare: A Real-world Analysis of Attacks and Countermeasures"
+      presenter: Eric Snyder 
+      length: 1
+  track3:
+    - title: "Inside Sales Threat- How to Get Buy-In to Grow Your Cybersecurity Program"
+      presenter: Paul Robinson 
+      length: 1
+    - title: "It's OK to Make Mistakes: Blame Culture in Infosec"
+      presenter: Courtney Bell
+      length: 1
+    - title: "Incident Response Roundtable"
+      presenter: "Rolin Peets, Mark Milutinovic, and Dave Hadzima"
+      length: 1
+    - title: "Planning for Success - And to Avoid Failing Before We've Even Begun"
+      presenter: Eric Anderson
+      length: 1
+    - title: "Career Hacking: Going From n00b to Chaos Wrangler"
+      presenter: Joe Cicero
+      length: 1
+  track4:
+    - title: "Hacking the Cloud: Play-by-Play Attack"
+      presenter: Ed Lin 
+      length: 1
+    - title: "The Hidden Power of Analytics in Information Security"
+      presenter: Elena Matchey
+      length: 1
+    - empty: true
+      length: 2
+    - skip: true
+    - empty: true
+  training:
+    - title: "Applying the Principle of Least Privilege in Cloud Planning"
+      presenter: Tom Ricardo
+      length: 2
+    - skip: true
+    - empty: true
+      length: 2
+    - skip: true
+    - empty: true
+  sponsor1:
+    - title: TBA
+      presenter: 
+      length:
+    - title: TBA
+      presenter: 
+      length:
+    - title: TBA
+      presenter: 
+      length:
+    - title: TBA
+      presenter: 
+      length:
+    - title: TBA
+      presenter: 
+      length:
+    - title: TBA
+      presenter: 
+      length:
+    - title: TBA
+      presenter: 
+      length:
+    - title: TBA
+      presenter: 
+      length:
+    - title: TBA
+      presenter: 
+      length:
+  sponsor2:
+    - title: TBA
+      presenter: 
+      length:
+    - title: TBA
+      presenter: 
+      length:
+    - title: TBA
+      presenter: 
+      length:
+    - title: TBA
+      presenter: 
+      length:
+    - title: TBA
+      presenter: 
+      length:
+    - title: TBA
+      presenter: 
+      length:
+    - title: TBA
+      presenter: 
+      length:
+    - title: TBA
+      presenter: 
+      length:
+    - title: TBA
+      presenter: 
+      length:
+
