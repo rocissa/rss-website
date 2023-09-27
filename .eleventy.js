@@ -1,6 +1,7 @@
 const yaml = require("js-yaml")
 const {parse} = require("csv-parse/sync")
 const markdownItAttrs = require('markdown-it-attrs')
+const faviconsPlugin = require("eleventy-plugin-gen-favicons")
 
 module.exports = function (eleventyConfig) {
 	eleventyConfig.addPassthroughCopy("css")
@@ -44,6 +45,13 @@ module.exports = function (eleventyConfig) {
         columns: true,
         skip_empty_lines: true
     }))
+
+    eleventyConfig.addPlugin(faviconsPlugin, {
+    	manifestData: {
+    		name: "Rochester Security Summit",
+    		short_name: "RSS"
+    	}
+    })
 
 	return {
 		dir: {
