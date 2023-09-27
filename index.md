@@ -41,14 +41,14 @@ layout: page
       <li>
       	<h2>Standard Registration</h2>
         <div class="price">$250.00</div>
-        <div class="info">Sale ends on 10/01/2023</div>
+        <div class="info">Sale ends on 10/06/2023</div>
       </li>
       {%- endif -%}
       {%- if site.registration_late -%}
       <li>
         <h2>Late Registration</h2>
         <div class="price">$350.00</div>
-        <div class="info">Available starting 10/01/2023, until sold out</div>
+        <div class="info">Available starting 10/06/2023, until sold out</div>
       </li>
       {%- endif -%}
       </ul>
