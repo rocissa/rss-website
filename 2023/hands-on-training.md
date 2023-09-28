@@ -4,8 +4,8 @@ layout: page
 ---
 
 ## Penetration Testing for Systems and Network Admins{#wed-training}
-Qasim Ijaz<br>
-*October 25, 2023 10:00 am - 2:50 pm*
+**Qasim Ijaz<br>
+*October 25, 2023 10:00 am - 2:50 pm***
 
 The objective of this Capture-the-Flag style class is to take students with existing networks or systems administration experience and teach them how to:
 
@@ -32,7 +32,7 @@ Students should bring a laptop capable of running a Kali Linux VM and connecting
 
 
 ## Applying the Principle of Least Privilege in Cloud Planning{#thurs-training}
-Tom Ricardo<br>
-*October 26, 2023 10:00 - 11:50 am*
+**Tom Ricardo<br>
+*October 26, 2023 10:00 - 11:50 am***
 
 This session is a practical lab explaining the principle of least privilege throughout cloud planning. Designed for non-technical persons to understand and reinforce the concept throughout the planning stage, this is still a practical session for technical personnel. Through the session, attendees will explore what least privilege is, how it comes with resources, and how it applies to employees.
