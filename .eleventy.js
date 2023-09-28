@@ -30,7 +30,7 @@ module.exports = function (eleventyConfig) {
     const md = require("markdown-it")({
     	html: true,
     	breaks: false,
-    	linkify: false
+    	linkify: true
     }).use(markdownItAttrs)
     eleventyConfig.setLibrary("md", md)
 
