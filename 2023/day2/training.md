@@ -3,7 +3,7 @@ title: 2023 Hands-On Training (Day 2)
 layout: page
 ---
 
-## Applying the Principle of Least Privilege in Cloud Planning{#thurs-training}
+## Applying the Principle of Least Privilege in Cloud Planning
 **Tom Ricardo<br>
 *October 26, 2023 10:00 - 11:50 am***
 

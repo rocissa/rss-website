@@ -3,7 +3,7 @@ title: 2023 Hands-On Training (Day 1)
 layout: page
 ---
 
-## Penetration Testing for Systems and Network Admins{#wed-training}
+## Penetration Testing for Systems and Network Admins
 **Qasim Ijaz<br>
 *October 25, 2023 10:00 am - 2:50 pm***
 
