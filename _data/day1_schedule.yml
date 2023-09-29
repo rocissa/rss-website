@@ -91,7 +91,7 @@ sessions:
       presenter: Qasim Ijaz
       length: 2
       end: 11:50 am
-      url: "http://localhost:8080/2023/hands-on-training/#wed-training"
+      url: "/2023/day1/training/"
     - skip: true
     - title: "Penetration Testing for Systems and Network Admins (continued)"
       presenter: 

@@ -97,7 +97,7 @@ sessions:
   training:
     - title: "Applying the Principle of Least Privilege in Cloud Planning"
       presenter: Tom Ricardo
-      url: "http://localhost:8080/2023/hands-on-training/#thurs-training"
+      url: "/2023/day2/training/"
       end: 11:50 am
       length: 2
     - skip: true

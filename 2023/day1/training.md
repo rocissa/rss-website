@@ -1,5 +1,5 @@
 ---
-title: 2023 Hands-On Training
+title: 2023 Hands-On Training (Day 1)
 layout: page
 ---
 
@@ -29,10 +29,3 @@ Students should bring a laptop capable of running a Kali Linux VM and connecting
 > We will provide a precompiled version, though compiling one yourself will provide good practice. Bonus points if you get it past Defender by obfuscating it through https://github.com/mkaring/ConfuserEx.
 * Proxychains
 * John the Ripper and/or hashcat
-
-
-## Applying the Principle of Least Privilege in Cloud Planning{#thurs-training}
-**Tom Ricardo<br>
-*October 26, 2023 10:00 - 11:50 am***
-
-This session is a practical lab explaining the principle of least privilege throughout cloud planning. Designed for non-technical persons to understand and reinforce the concept throughout the planning stage, this is still a practical session for technical personnel. Through the session, attendees will explore what least privilege is, how it comes with resources, and how it applies to employees.
