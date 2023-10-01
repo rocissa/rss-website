@@ -185,6 +185,11 @@ section#slider {
   display: none;
 }
 
+.schedule a:link, .schedule a:visited {
+	color: #00a;
+	text-decoration: underline !important;
+}
+
 .schedule .lilac {
   background-color: #b3f1ff;
 }
