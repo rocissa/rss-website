@@ -1,6 +1,8 @@
 const yaml = require("js-yaml")
 const {parse} = require("csv-parse/sync")
 const markdownItAttrs = require('markdown-it-attrs')
+const faviconsPlugin = require("eleventy-plugin-gen-favicons")
+const cacheBuster = require('@mightyplow/eleventy-plugin-cache-buster')
 
 module.exports = function (eleventyConfig) {
 	eleventyConfig.addPassthroughCopy("css")
@@ -28,7 +30,7 @@ module.exports = function (eleventyConfig) {
     const md = require("markdown-it")({
     	html: true,
     	breaks: false,
-    	linkify: false
+    	linkify: true
     }).use(markdownItAttrs)
     eleventyConfig.setLibrary("md", md)
 
@@ -43,6 +45,17 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addDataExtension("csv", contents => parse(contents, {
         columns: true,
         skip_empty_lines: true
+    }))
+
+    eleventyConfig.addPlugin(faviconsPlugin, {
+    	manifestData: {
+    		name: "Rochester Security Summit",
+    		short_name: "RSS"
+    	}
+    })
+
+    eleventyConfig.addPlugin(cacheBuster({
+    	outputDirectory: "./_site"
     }))
 
 	return {

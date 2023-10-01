@@ -152,6 +152,12 @@ ul.social > li {
 	margin-top: 50px;
 }
 
+.warning {
+	font-size: 20px;
+	padding: 15px;
+	broder-radius: 10px;
+}
+
 
 section {
 	margin-bottom: 8rem;
@@ -159,4 +165,108 @@ section {
 
 section#slider {
 	margin-bottom: 0;
+}
+
+/* schedule grid */
+.schedule > div {
+  text-align: center;
+  outline: 1px solid #000;
+  padding: 5px;
+  margin-bottom: 5px;
+  font-size: 13px;
+}
+
+.schedule > .gap {
+  outline: none;
+  height: 15px;
+}
+
+.schedule .no-mobile {
+  display: none;
+}
+
+.schedule .lilac {
+  background-color: #b3f1ff;
+}
+.schedule .times.lilac {
+  background-color: white;
+}
+.schedule .track1 {
+  background-color: #d0ffb3;
+}
+.schedule .track2 {
+  background-color: #ffdeb3;
+}
+.schedule .track3 {
+  background-color: #c5b3ff;
+}
+.schedule .track4 {
+  background-color: #f08080;
+}
+.schedule .sponsor, .schedule .sponsor1, .schedule .sponsor2 {
+  background-color: #ffc6d2;
+}
+.schedule .training {
+  background-color: #fffb99;
+}
+.schedule .empty {
+	display: none;
+}
+
+.schedule .title {
+  font-weight: bold;
+}
+.schedule .room {
+  font-style: italic;
+}
+.schedule .presenter {
+  font-style: italic;
+}
+
+@media (min-width: 960px) {
+  .schedule {
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 1px;
+  }
+
+  .schedule > div {
+    margin-bottom: 0;
+  }
+
+  .schedule .empty {
+  	display: block;
+  }
+
+  .schedule .no-mobile {
+    display: block;
+  }
+  .schedule > .gap {
+    display: none;
+  }
+
+  .schedule .ballroom {
+    background-color: cyan;
+  }
+
+  .schedule .full-session {
+    grid-column-end: span 7;
+  }
+
+  .schedule .columns-2 {
+    grid-column-end: span 2;
+  }
+
+  .schedule .rows-2 {
+    grid-row-end: span 2;
+  }
+  
+  .schedule .session > .times, .schedule .session > .room, .schedule .full-session > .times {
+    display: none;
+  }
+
+  .schedule .session > .title {
+  	font-weight: normal;
+  	padding-bottom: 5px;
+  }
 }

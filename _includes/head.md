@@ -4,7 +4,9 @@
 <meta name="description" content="">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="generator" content="{{ eleventy.generator }}">
-<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+<!-- Favicon -->
+{% favicons "images/rss-globe.svg", "#fff" %}
 
 <!-- CSS -->
 <link rel="stylesheet" href="{{ site.baseurl }}/css/owl.carousel.css" />
