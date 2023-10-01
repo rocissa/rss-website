@@ -107,7 +107,10 @@ sessions:
       presenter: Elena Matchey
       url: /2023/day2/track-4#track4-s6
       length: 1
-    - empty: true
+    - title: "Simple Maintenance. What Can Go Wrong."
+      presenter: William Redmond
+      url: /2023/day2/track-4#track4-s7
+      length: 1
     - empty: true
       length: 2
     - skip: true

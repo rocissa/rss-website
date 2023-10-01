@@ -3,13 +3,13 @@ title: RSS:2023 Track 3 (Day 1)
 layout: page
 ---
 
-## Real Penetration Test Failures{#track3-s1}
+## Cybersecurity for Small Businesses{#track3-s1}
 **Brandon Finton<br>
 *October 25, 2023 10:00 am - 10:50 am***
 
-In this presentation we look at four penetration tests in which the client failed miserably.  In each case, we discuss the environment that was tested, how we were able to gain unauthorized access, why we were able to gain access, the potential impact of the failure, and what the client could’ve done to prevent such a failure from happening in the first place.
+In this presentation we examine how to implement common sense, affordable cybersecurity controls for small businesses that may not have an IT budget or staff, let alone cybersecurity expertise. We will analyze why cybersecurity is important, some of the requirements and expectations imposed by various cybersecurity standards and regulations, and effective technical, administrative and physical controls.
 
-Few examine: A client who fell victim to the use of commonly known passwords and a lack of MFA; a human service agency that used common security questions that allowed access to system; a home-grown system built by an insurance company that used weak password hashing; and finally, we look at a defense contractor that forgot about an old ERP system that was online.
+Some of these recommendations will include creating a culture of security, implementing strong defenses through use targeted technologies, as well as analyzing the company’s unique risks through a risk assessment. If you’re not sure where to start with your cybersecurity program, this presentation will be an excellent first step.
 
 ## How Not to Build a Cybersecurity Startup{#track3-s2}
 **JP Bourget<br>
