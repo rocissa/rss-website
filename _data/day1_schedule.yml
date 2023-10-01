@@ -37,54 +37,70 @@ sessions:
   track1:
     - title: "Defending Beyond Defense"
       presenter: Dr. Catherine J. Ullman
+      url: /2023/day1/track-1#track1-s1
       length: 1
     - title: " A Hardware Hacker's Perspective On Breaking and Defending XIoT Devices"
       presenter: Gabe Siftar and Zachary Lehmann
+      url: /2023/day1/track-1#track1-s2
       length: 1
     - title: "DeFaking Deepfakes: Challenges for Real-World Mitigation of Manipulated Media"
       presenter: Matthew Wright 
+      url: /2023/day1/track-1#track1-s3
       length: 1
     - title: "The Essentials of Enterprise Key Management (EKM)"
       presenter: Mark Warner 
+      url: /2023/day1/track-1#track1-s4
       length: 1
   track2:
     - title: "Artificial Intelligence:  Managing Risk, Regulation, and Reward"
       presenter: F. Paul Greene
+      url: /2023/day1/track-2#track2-s1
       length: 1
     - title: "SkyNet Is Coming For Email First... Thankfully!"
       presenter: Aubrey King 
+      url: /2023/day1/track-2#track2-s2
       length: 1
     - title: "Unlocking Generative AI: Balancing Innovation with Security"
       presenter: Jason Ross 
+      url: /2023/day1/track-2#track2-s3
       length: 1
     - title: "Security Risks and Mitigations for Generative AI Foundation Models"
       presenter: Justin Leto 
+      url: /2023/day1/track-2#track2-s4
       length: 1
   track3:
     - title: "Cybersecurity for Small Businesses"
       presenter: Brandon Finton 
+      url: /2023/day1/track-3#track3-s1
       length: 1
     - title: "How Not To Build a Cybersecurity Startup"
       presenter: JP Bourget 
+      url: /2023/day1/track-3#track3-s2
       length: 1
     - title: "Thinking Like a Regulator - Making the Most of Your Data Protection Compliance Efforts"
       presenter: F. Paul Greene
+      url: /2023/day1/track-3#track3-s3
       length: 1
     - title: "This Is Not a Drill: The Importance of Incident Response Testing"
       presenter: Daniel J. Altieri and Laura K. Schwalbe
+      url: /2023/day1/track-3#track3-s4
       length: 1
   track4:
     - title: "What Cyberattackers See: Top Tips for Minimizing Your Identity Attack Surface"
       presenter: Eric Woodruff
+      url: /2023/day1/track-4#track4-s1
       length: 1
     - title: "API Sprawl and Open APIs: Potential Risks of Application Modernization"
       presenter: TBA 
+      url: /2023/day1/track-4#track4-s2
       length: 1
     - title: "Demystifying Cloud Security and Compliance"
       presenter: Bob Adams
+      url: /2023/day1/track-4#track4-s3
       length: 1
     - title: "Beyond Layers: Achieving Holistic Cybersecurity Through Tool Integration"
       presenter: Ryan Young 
+      url: /2023/day1/track-4#track4-s4
       length: 1
   training:
     - title: "Penetration Testing for Systems and Network Admins"

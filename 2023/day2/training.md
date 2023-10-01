@@ -1,5 +1,5 @@
 ---
-title: 2023 Hands-On Training (Day 2)
+title: RSS:2023 Hands-On Training (Day 2)
 layout: page
 ---
 

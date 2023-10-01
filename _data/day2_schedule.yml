@@ -38,57 +38,74 @@ sessions:
   track1:
     - title: "Small Step or Giant Leap? Cyber and Policy Progress Towards Satellite Security"
       presenter: William Malik 
+      url: /2023/day2/track-1#track1-s5
       length: 1
     - title: "Catching More Flies - Spotting the Adversary With Honey Techniques"
       presenter: Matthew Gracie 
+      url: /2023/day2/track-1#track1-s6
       length: 1
     - title: "AppSec: Making Sense of the Wild West"
       presenter: Chris Peltz 
+      url: /2023/day2/track-1#track1-s7
       length: 1
     - title: "Automation in the SOC: A Winning Recipe"
       presenter: Joe Morin 
+      url: /2023/day2/track-1#track1-s8
       length: 1
     - title: "Beyond Firewalls: A DevSecOps Approach to Elevating Application Security"
-      presenter: Ben Wilcox
+      presenter: Ben Wilcox and Lakshman Kaveti
+      url: /2023/day2/track-1#track1-s9
       length: 1
   track2:
     - title: "Reducing the Attack Surface"
       presenter: David Frier 
+      url: /2023/day2/track-2#track2-s5
       length: 1
     - title: "Five Questions to Ask Your PenTester"
       presenter: Qasim Ijaz 
+      url: /2023/day2/track-2#track2-s6
       length: 1
     - title: "Rise of the Machines: The Future of AI in Cybersecurity"
       presenter: Reg Harnish
+      url: /2023/day2/track-2#track2-s7
       length: 1
     - title: "FLAME: Federated Learning Against Malicious Engineering - Employing Trust and Reputation to Enhance Learning Security and Privacy"
       presenter: Sergei Chuprov 
+      url: /2023/day2/track-2#track2-s8
       length: 1
     - title: "Navigating the Cyber Threat Landscape in Healthcare: A Real-world Analysis of Attacks and Countermeasures"
       presenter: Eric Snyder 
+      url: /2023/day2/track-2#track2-s9
       length: 1
   track3:
     - title: "Inside Sales Threat- How to Get Buy-In to Grow Your Cybersecurity Program"
       presenter: Paul Robinson 
+      url: /2023/day2/track-3#track3-s5
       length: 1
     - title: "It's OK to Make Mistakes: Blame Culture in Infosec"
       presenter: Courtney Bell
+      url: /2023/day2/track-3#track3-s6
       length: 1
     - title: "Incident Response Roundtable"
       presenter: "Rolin Peets, Mark Milutinovic, and Dave Hadzima"
+      url: /2023/day2/track-3#track3-s7
       length: 1
     - title: "Planning for Success - And to Avoid Failing Before We've Even Begun"
       presenter: Eric Anderson
+      url: /2023/day2/track-3#track3-s8
       length: 1
     - title: "Career Hacking: Going From n00b to Chaos Wrangler"
       presenter: Joe Cicero
+      url: /2023/day2/track-3#track3-s9
       length: 1
   track4:
     - title: "Hacking the Cloud: Play-by-Play Attack"
       presenter: Ed Lin 
+      url: /2023/day2/track-4#track4-s5
       length: 1
     - title: "The Hidden Power of Analytics in Information Security"
       presenter: Elena Matchey
+      url: /2023/day2/track-4#track4-s6
       length: 1
     - empty: true
     - empty: true
