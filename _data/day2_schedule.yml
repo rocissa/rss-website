@@ -107,30 +107,30 @@ sessions:
     - skip: true
   sponsor1:
     - title: TBA
-      presenter: 
-      length:
+      presenter: Rapid7
+      length: 1
     - title: TBA
-      presenter: 
-      length:
+      presenter: Critical Start
+      length: 1
     - title: TBA
-      presenter: 
-      length:
+      presenter: ePlus
+      length: 1
     - title: TBA
-      presenter: 
-      length:
+      presenter: CyberArk
+      length: 1
     - empty: true
   sponsor2:
     - title: TBA
-      presenter: 
-      length:
+      presenter: Island Technology, Inc.
+      length: 1
     - title: TBA
-      presenter: 
-      length:
+      presenter: Axonius
+      length: 1
     - title: TBA
-      presenter: 
-      length:
+      presenter: Palo Alto Networks
+      length: 1
     - title: TBA
-      presenter: 
-      length:
+      presenter: Cohesity
+      length: 1
     - empty: true
 

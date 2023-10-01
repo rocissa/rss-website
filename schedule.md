@@ -71,7 +71,7 @@ layout: page
   <div class="no-mobile track track3 title">Track 3</div>
   <div class="no-mobile track track4 title">Track 4</div>
   <div class="no-mobile track training title">Hands-On Training</div>
-  <div class="no-mobile track sponsor columns-2 title">Sponsor Engineering and Education (SEE Track)</div>
+  <div class="no-mobile track sponsor columns-2 title">Sponsor Engineering and Education (SEE) Track</div>
   
   <div class="no-mobile">&nbsp;</div>
   <div class="no-mobile">&nbsp;</div>
@@ -198,7 +198,7 @@ layout: page
   <div class="no-mobile track track3 title">Track 3</div>
   <div class="no-mobile track track4 title">Track 4</div>
   <div class="no-mobile track training title">Hands-On Training</div>
-  <div class="no-mobile track sponsor columns-2 title">Sponsor Engineering and Education (SEE Track)</div>
+  <div class="no-mobile track sponsor columns-2 title">Sponsor Engineering and Education (SEE) Track</div>
   
   <div class="no-mobile">&nbsp;</div>
   <div class="no-mobile">&nbsp;</div>

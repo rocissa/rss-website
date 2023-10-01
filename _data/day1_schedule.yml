@@ -99,28 +99,28 @@ sessions:
       end: 2:50 pm
     - skip: true
   sponsor1:
+    - title: Anatomy of Advanced Accounting Attacks
+      presenter: Abnormal Security
+      length: 1
     - title: TBA
-      presenter: 
-      length:
+      presenter: Just Solutions, Inc.
+      length: 1
+    - title: Using AI/ML to Power Your Zero Trust Strategy
+      presenter: Zscaler
+      length: 1
     - title: TBA
-      presenter: 
-      length:
-    - title: TBA
-      presenter: 
-      length:
-    - title: TBA
-      presenter: 
-      length:
+      presenter: Exabeam
+      length: 1
   sponsor2:
     - title: TBA
-      presenter: 
-      length:
+      presenter: Atlantic Data Security
+      length: 1
     - title: TBA
-      presenter: 
-      length:
+      presenter: GuidePoint Security
+      length: 1
     - title: TBA
-      presenter: 
+      presenter: Check Point
       length:
-    - title: TBA
-      presenter: 
-      length:
+    - title: Mastering Data Security with Varonis
+      presenter: Varonis
+      length: 1
