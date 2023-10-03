@@ -13,7 +13,7 @@ Security Architect Ed Lin will demonstrate how an attacker uses off-the-shelf se
 **Elena Matchey<br>
 *October 26, 2023 11:00 - 11:50 am***
 
-In today's digital age, data has become the cornerstone of decision-making and problem-solving. For information security teams, the ability to leverage data and analytics has emerged as a secret weapon in their fight against ever-evolving threats. Here we explore the significance of analytics for information security teams, the challenges they face in utilizing data effectively, and the ethical implications surrounding data analysis.
+In today's digital age, data has become the cornerstone of decision-making and problem-solving. For information security teams, the ability to leverage data and analytics has emerged as a secret weapon in their fight against ever-evolving threats. Here we explore the significance of analytics for information security teams, the challenges they face in utilizing data effectively, and how they can start to leverage data in their environment.
 
 ## Simple Maintenance. What Can Go Wrong.{#track4-s7}
 **William Redman<br>
