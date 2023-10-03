@@ -16,7 +16,10 @@ During this session, learn:
 * How to prepare for—and survive—every security pro’s “worst day ever”"
  
 ## API Sprawl and Open APIs: Potential Risks of Application Modernization{#track4-s2}
-***October 25, 2023 11:00 am - 11:50 am***
+**John Stuppiello<br>
+*October 25, 2023 11:00 am - 11:50 am***
+
+Most enterprise digital transformation efforts are well under way. Application modernization runs parallel to transformation, helping to continuously adapt technology stacks to use the latest methodologies and tools. However, with modernization comes risk from potential areas of low security visibility. In this talk, learn how teams can gain visibility into how data moves end to end from APIs into applications and underlying data stores. Discover how you can use architecture to determine which areas might expose sensitive data building processes so you can classify and de-risk systems by incorporating the right protections.
 
 ## Demystifying Cloud Security and Compliance{#track4-s3}
 **Bob Adams<br>
