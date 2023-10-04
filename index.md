@@ -72,7 +72,7 @@ layout: page
   <ul class="app-links">
   	<li><a href="{{ site.app_ios_url }}" target="_blank"><img src="/images/apple-appstore-badge.png" alt="Download on the Apple App Store"></a></li>
   	<li><a href="{{ site.app_android_url }}" target="_blank"><img src="/images/google-play-badge.png" alt="Get it on Google Play"></a></li>
-  	<!-- <li><a href="{{ site.app_web_url }}" target="_blank" class="btn btn-lg btn-primary">Or View In Your Browser</a></li> -->
+  	<li><a href="{{ site.app_web_url }}" target="_blank" class="btn btn-lg btn-primary">Or View In Your Browser</a></li>
   </ul>
 </section>
 {% endif %}

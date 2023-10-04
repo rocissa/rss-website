@@ -35,7 +35,7 @@ homepage_show_keynotes: true
 homepage_show_app_links: true
 app_ios_url: https://apps.apple.com/us/app/id1478439812
 app_android_url: https://play.google.com/store/apps/details?id=com.guidebook.apps.rss.android
-app_web_url: https://guidebook.com/g/rss2023
+app_web_url: https://guidebook.com/g/rochestersecuritysummit2023/
 
 homepage_show_post_conference_info: false
 
