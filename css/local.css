@@ -275,3 +275,35 @@ section#slider {
   	padding-bottom: 5px;
   }
 }
+
+/* app links */
+#app p {
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+#app ul {
+	list-style-type: none;
+	display: flex;
+	flex-flow: row wrap;
+	width: 50%;
+	margin: 0 auto;
+	padding: 0;
+}
+
+#app li {
+	text-align: center;
+	margin: 0 auto;
+}
+
+#app img {
+	height: 60px;
+	margin-bottom: 20px;
+}
+
+@media (min-width: 800px) {
+	#app li {
+		width: 50%;
+	}

@@ -65,6 +65,18 @@ layout: page
     </aside>
 </section>
 
+{% if site.homepage_show_app_links %}
+<section id="app" class="clearfix">
+  <h1 class="sr-only">Get our app</h1>
+  <p class="text-center pb-5 mb-5"><strong>Get our full program via our mobile event app:</strong></p>
+  <ul class="app-links">
+  	<li><a href="{{ site.app_ios_url }}" target="_blank"><img src="/images/apple-appstore-badge.png" alt="Download on the Apple App Store"></a></li>
+  	<li><a href="{{ site.app_android_url }}" target="_blank"><img src="/images/google-play-badge.png" alt="Get it on Google Play"></a></li>
+  	<!-- <li><a href="{{ site.app_web_url }}" target="_blank" class="btn btn-lg btn-primary">Or View In Your Browser</a></li> -->
+  </ul>
+</section>
+{% endif %}
+
 <section id="about" class="clearfix">
 	<p>Since 2006, the Rochester Security Summit has been a leading regional event that brings together a broad range of experts and professionals from the field of information security. Held annually during National Cyber Security Awareness Month, it serves as a community focal point for education and awareness; fostering discussion, knowledge sharing, and networking to help drive innovation and address the evolving challenges in the security landscape. From emerging trends to practical insights, our goal is to empower attendees with the latest information and strategies to enhance their cybersecurity practices.</p>
 

@@ -8,7 +8,7 @@ current_year: 2023
 previous_year: 2022
 
 # next conference year - leave at current during early planning
-next_year: 2023
+next_year: 2024
 
 # conference dates
 conference_start_date: 2022-10-25
@@ -31,8 +31,13 @@ homepage_show_hotels: true
 # should keynote speakers be shown on homepage?
 homepage_show_keynotes: true
 
+# should app links be shown on the homepage
 homepage_show_app_links: true
-homepage_show_post_conference_info: true
+app_ios_url: https://apps.apple.com/us/app/id1478439812
+app_android_url: https://play.google.com/store/apps/details?id=com.guidebook.apps.rss.android
+app_web_url: https://guidebook.com/g/rss2023
+
+homepage_show_post_conference_info: false
 
 homepage_show_call_for_volunteers: true
 homepage_show_schedule_link: true
