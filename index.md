@@ -172,6 +172,11 @@ Please let us know at [info@rochestersecurity.org](mailto:info@rochestersecurity
 </section>
 {%- endif -%}
 
+<section id="cpe">
+	<h1>Continuing Education Credits</h1>
+	<p>Attending Rochester Security Summit sessions satisfies continuing education requirements for a number of professional certifications. Certificates of attendance are provided to participants. If you have misplaced your certificate, please send an email to <a href="mailto:cpe@rochestersecurity.org">cpe@rochestersecurity.org</a>.</p>
+</section>
+
 <section id="sponsors">
 	{%- if site.homepage_sponsors_show_current_year and site.homepage_sponsors_show_previous_year -%}
 	  <h1>Sponsors</h1>
