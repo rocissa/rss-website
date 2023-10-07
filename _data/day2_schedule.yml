@@ -128,29 +128,37 @@ sessions:
   sponsor1:
     - title: TBA
       presenter: Rapid7
+      #url: /2023/day2/see-track-1#see1-s5
       length: 1
     - title: TBA
       presenter: Critical Start
+      #url: /2023/day2/see-track-1#see1-s6
       length: 1
-    - title: TBA
-      presenter: ePlus
+    - title: "How to Build a Resilient Security Program Today"
+      presenter: Jonathan Borgesen and Brian Schillaci,<br>ePlus
+      url: /2023/day2/see-track-1#see1-s7
       length: 1
-    - title: TBA
-      presenter: CyberArk
+    - title: "Application Security & Automation with CyberArk & Red Hat"
+      presenter: Nicolas Assini and Cameron Skidmore,<br>CyberArk | Red Hat
+      url: /2023/day2/see-track-1#see1-s8
       length: 1
     - empty: true
   sponsor2:
-    - title: TBA
-      presenter: Island Technology, Inc.
+    - title: "Transforming Enterprise Architecture with the Enterprise Browser"
+      presenter: Bradon Rogers,<br>Island Technology, Inc.
+      url: /2023/day2/see-track-2#see2-s5
       length: 1
-    - title: TBA
-      presenter: Axonius
+    - title: "Want to Control Cybersecurity Complexity? Start With Asset Management."
+      presenter: Jordan Farkas,<br>Axonius
+      url: /2023/day2/see-track-2#see2-s6
       length: 1
-    - title: TBA
-      presenter: Palo Alto Networks
+    - title: "How to Build a Resilient Security Program Today: Using MDR Services to Supercharge your Security"
+      presenter: Shaun Marken,<br>Palo Alto Networks
+      url: /2023/day2/see-track-2#see2-s7
       length: 1
     - title: TBA
       presenter: Cohesity
+      #url: /2023/day2/see-track-2#see2-s8
       length: 1
     - empty: true
 

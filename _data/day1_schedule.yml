@@ -115,28 +115,36 @@ sessions:
       end: 2:50 pm
     - skip: true
   sponsor1:
-    - title: Anatomy of Advanced Accounting Attacks
-      presenter: Abnormal Security
+    - title: "Anatomy of Advanced Accounting Attacks"
+      presenter: Joe Crehan,<br>Abnormal Security
+      url: /2023/day1/see-track-1#see1-s1
       length: 1
-    - title: TBA
-      presenter: Just Solutions, Inc.
+    - title: "Unlocking the Power of a Virtual Chief Security Officer: Enhancing Business Security and Resilience"
+      presenter: David Wolf,<br>Just Solutions, Inc.
+      url: /2023/day1/see-track-1#see1-s2
       length: 1
-    - title: Using AI/ML to Power Your Zero Trust Strategy
-      presenter: Zscaler
+    - title: "Using AI/ML to Power Your Zero Trust Strategy"
+      presenter: Mark Brozek,<br>Zscaler
+      url: /2023/day1/see-track-1#see1-s3
       length: 1
     - title: TBA
       presenter: Exabeam
+      #url: /2023/day1/see-track-1#see1-s4
       length: 1
   sponsor2:
     - title: TBA
       presenter: Atlantic Data Security
+      #url: /2023/day1/see-track-2#see2-s1
       length: 1
     - title: TBA
       presenter: GuidePoint Security
+      #url: /2023/day1/see-track-2#see2-s2
       length: 1
-    - title: TBA
-      presenter: Check Point
-      length:
-    - title: Mastering Data Security with Varonis
-      presenter: Varonis
+    - title: "Business Email Compromise - Landscape, Attacks and Mitigation"
+      presenter: J. Bendonis,<br>Check Point
+      url: /2023/day1/see-track-2#see2-s3
+      length: 1
+    - title: "Mastering Data Security with Varonis"
+      presenter: Thomas Rodriguez,<br>Varonis
+      url: /2023/day1/see-track-2#see2-s4
       length: 1
