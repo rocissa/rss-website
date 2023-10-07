@@ -62,7 +62,7 @@ sessions:
       length: 1
     - title: "Navigating the Cyber Threat Landscape in Healthcare: A Real-world Analysis of Attacks and Countermeasures"
       presenter: Eric Snyder 
-      url: /2023/day2/track-2#track2-s3
+      url: /2023/day1/track-2#track2-s3
       length: 1
     - title: "Security Risks and Mitigations for Generative AI Foundation Models"
       presenter: Justin Leto 
