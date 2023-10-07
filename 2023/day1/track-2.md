@@ -15,11 +15,12 @@ Questions concerning Artificial Intelligence ("AI") are landing squarely on the 
 
 SMTP has been a troubled protocol for the entirety of its existence. The one thing that has made it marginally livable has been filters and 'milters' which trim 99% of SPAM at the provider level before it even hits the inbox. AI will be able to defeat every known mail filter we have, making it impossible to trim the spam. We could harness the power of AI to filter also, but is it worth it?
 
-## Unlocking Generative AI: Balancing Innovation with Security{#track2-s3}
-**Jason Ross<br>
-*October 25, 2023 1:00 pm - 1:50 pm***
- 
-"Unlocking Generative AI: Balancing Innovation with Security" will guide you through the complex terrain of generative AI in corporate settings. Starting with a brief introduction of generative AI, the talk highlights its corporate uses and potential security pitfalls. Explore diverse security threats including data poisoning, supply chain issues, model theft & inversion, and adversarial attacks. Delve into their implications, especially those relevant to large enterprises, such as protection of sensitive data and unauthorized access to AI models. The talk also offers robust mitigation strategies centered on data, model, training, and operational security. Join us as we navigate the promising yet challenging world of generative AI security.
+## Navigating the Cyber Threat Landscape in Healthcare: A Real-world Analysis of Attacks and Countermeasures{#track2-s3}
+**Eric Snyder<br>
+*October 26, 2023 3:30 pm - 4:20 pm***
+
+Amid an escalating threat landscape, healthcare has emerged as a prime target for malicious actors. As the sector grapples with a surge in attacks, our understanding of these threats is vital for strategic defense. This presentation will provide a detailed walkthrough of attacks on a crucial patient-facing web application. Using extensive data, we will dissect actual threat strategies, their objectives, and their potential effectiveness. The talk will delve into trend analysis, providing an insight into the evolving patterns of attacks over the years. Furthermore, we discuss our approach to threat identification, logging, and internal mitigation measures. Join us as we unpack the realities of cyber threats in healthcare.
+
 
 ## Security Risks and Mitigations for Generative AI Foundation Models{#track2-s4}
 **Justin Leto<br>
