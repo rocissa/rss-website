@@ -48,3 +48,9 @@ To see how MDR can help you supercharge your security, join us as we discuss:
 - Today’s SecOps challenges
 - How MDR and XDR can help you quickly reduce risk and drive SecOps maturity
 - How Cortex XDR® and Unit 42™ MDR are differentiated
+
+## Treat Your Data Like It’s Currency{#see2-s8}
+**Cohesity<br>
+*October 26, 2023 2:30 pm - 3:20 pm***
+
+You’ve heard that “data is the new oil”. More accurately, “data is your currency”. It gives you the ability to conduct business. Mismanage it and there can be serious consequences. Lose it and you lose your business.With your “bills” spread across your environment, managing and protecting the “money” can be a monumental task. $100s, $50s, $20s, $10s, $5s, and lots of $1s are strewn about. Knowing where your most valuable bills are is foundational to any data security process. This session will examine the impact of placing appropriate controls to protect your most important business asset: your data.

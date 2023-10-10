@@ -156,9 +156,9 @@ sessions:
       presenter: Shaun Marken,<br>Palo Alto Networks
       url: /2023/day2/see-track-2#see2-s7
       length: 1
-    - title: TBA
+    - title: "Treat Your Data Like It’s Currency"
       presenter: Cohesity
-      #url: /2023/day2/see-track-2#see2-s8
+      url: /2023/day2/see-track-2#see2-s8
       length: 1
     - empty: true
 

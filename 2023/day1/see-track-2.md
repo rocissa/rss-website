@@ -2,9 +2,14 @@
 title: RSS:2023 Sponsor Education and Engineering (SEE) Track 2 (Day 1)
 layout: page
 ---
-## TBA{#see2-s1}
-**Atlantic Data Security<br>
+## Is Your Messaging Platform Secure Enough? Ensuring Strong Security Measures to Counter New Threats{#see2-s1}
+**Eric Anderson, Cybersecurity Architect, Instructor, and Evangelist<br>
+Atlantic Data Security<br>
 *October 25, 2023 10:00 am - 10:50am***
+
+Email and messaging have evolved significantly over the last few years.  It's no surprise that they also provide some of the most commonly exploited threat vectors.  Many organizations have made major enhancements and changes to their messaging platforms while continuing to rely on legacy security solutions that don't fully address many of the new security challenges.
+
+We'll explore this ever-changing world of email and messaging security, offering thoughts on how we got here, where we're headed, and how to best protect ourselves now and in the future.
 
 ## TBA{#see2-s2}
 **GuidePoint Security<br>

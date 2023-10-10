@@ -127,14 +127,14 @@ sessions:
       presenter: Mark Brozek,<br>Zscaler
       url: /2023/day1/see-track-1#see1-s3
       length: 1
-    - title: TBA
-      presenter: Exabeam
-      #url: /2023/day1/see-track-1#see1-s4
+    - title: "The Future of AI in Security"
+      presenter: Jenelle Davis,<br>Exabeam
+      url: /2023/day1/see-track-1#see1-s4
       length: 1
   sponsor2:
-    - title: TBA
-      presenter: Atlantic Data Security
-      #url: /2023/day1/see-track-2#see2-s1
+    - title: Is Your Messaging Platform Secure Enough? Ensuring Strong Security Measures to Counter New Threats
+      presenter: Eric Anderson, Cybersecurity Architect,<br>Atlantic Data Security
+      url: /2023/day1/see-track-2#see2-s1
       length: 1
     - title: TBA
       presenter: GuidePoint Security

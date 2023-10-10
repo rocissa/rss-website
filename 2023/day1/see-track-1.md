@@ -32,6 +32,17 @@ Join us to learn about:
 * Zero trust-based security strategies to minimize the attack surface and stop compromise, lateral movement, and data loss
 * How to gain holistic visibility into your risk posture
 
-## TBA{#see1-s4}
-**Exabeam<br>
+## The Future of AI in Security{#see1-s4}
+**Jenelle Davis<br>
+Exabeam<br>
 *October 25, 2023 2:00 pm - 2:50 pm***
+
+There seems to be a new article every day  covering the intersection of artificial intelligence (AI), machine learning (ML), and the security industry. Vendors are suggesting that AI has the potential to act as a team member, replace missing expertise, and reduce headcount for detecting, investigating, responding to, and predicting new cyberthreats. The concept of a fully computerized SOC may be a dream in a world lacking cybersecurity professionals, but can it be realized? 
+
+Increasing the autonomy of the SOC is a noble goal, especially for smaller organizations struggling to hire and retain the necessary cybersecurity skills. However, the need for self-learning and self-repairing capabilities in an autonomous SOC raises an important concern: If your IT and security system becomes self-referential and self-healing, how can you investigate to ensure it’s getting it right? Who watches the watchers? 
+
+This talk will explore:
+- The history of AI, ML, and automation already in your security stack
+- The dangers and challenges of unrestricted GPT and other chat bots as information sources
+- Ways humans and AI can work together
+- How Exabeam uses ML today and is exploring AI in the future
