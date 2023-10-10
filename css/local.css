@@ -284,7 +284,7 @@ section#slider {
 	margin-bottom: 20px;
 }
 
-#app ul {
+#app ul, .app-links {
 	list-style-type: none;
 	display: flex;
 	flex-flow: row wrap;
@@ -293,18 +293,18 @@ section#slider {
 	padding: 0;
 }
 
-#app li {
+#app li, .app-links li {
 	text-align: center;
 	margin: 0 auto;
 }
 
-#app img {
+#app img, .app-links img {
 	height: 60px;
 	margin-bottom: 20px;
 }
 
 @media (min-width: 800px) {
-	#app li {
+	#app li, .app-links {
 		width: 50%;
 	}
 
@@ -321,3 +321,4 @@ section#slider {
 		font-size: 2.5rem;
 		text-transform: uppercase;
 	}
+}
