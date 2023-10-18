@@ -53,7 +53,7 @@ sessions:
       length: 1
   track2:
     - title: "Artificial Intelligence:  Managing Risk, Regulation, and Reward"
-      presenter: F. Paul Greene
+      presenter: F. Paul Greene, Felix Knoll, and Bruce Cheney
       url: /2023/day1/track-2#track2-s1
       length: 1
     - title: "SkyNet Is Coming For Email First... Thankfully!"

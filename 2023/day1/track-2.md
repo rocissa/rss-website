@@ -4,7 +4,7 @@ layout: page
 ---
     
 ## Artificial Intelligence:  Managing Risk, Regulation, and Reward{#track2-s1}
-**F. Paul Greene, CIPP/US, CIPP/E, CIPM, FIP<br>
+**F. Paul Greene, Felix Knoll, and Bruce Cheney<br>
 *October 25, 2023 10:00 am - 10:50 am***
 
 Questions concerning Artificial Intelligence ("AI") are landing squarely on the desk of information security teams.  But the technology itself is changing, regulators are struggling to keep up, and the actual reward of AI adoption can be difficult to separate from the deafening hype.  This panel brings together industry experts to discuss the risks inherent to AI, whether used internally or externally, the developing regulatory landscape, and the potential rewards an organization can realize by leveraging AI.  Discussion will include an assessment of how AI is being leveraged by attackers, strategies for developing a responsible approach to AI , and how AI can help an organization manage its data better.

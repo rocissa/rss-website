@@ -23,7 +23,7 @@ I've been on the consulting and receiving end of penetration testing services. I
 In a world where the incalculable expanse of computer crimes costs billions – these machines may be the only thing that can save us. But who will save us from the machines?"
 
 ## FLAME: Federated Learning against Malicious Engineering. Employing Trust and Reputation to Enhance Learning Security and Privacy{#track2-s8}    
-**Sergei Chuprov<br>
+**Sergei Chuprov and Leon Reznik<br>
 *October 26, 2023 2:30 pm - 3:20 pm***
 
 Federated Learning (FL) is a distributed Machine Learning (ML) technique proposed to enhance the security, privacy, and efficiency of industrial systems. However, attacks against the conventional FL, resulting in compromising local units, have been already reported in practice. We present our novel Reputation and Trust-based mechanisms that allow detecting these compromised local units with the Data Quality analysis and retrospective trust evaluation to improve FL industrial applications. We patented our novel method. We demonstrate our approach on industrial SWIFT financial data and evaluate its effectiveness in improving FL performance and security by detecting data manipulation attacks and excluding compromised units.

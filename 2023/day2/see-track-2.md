@@ -37,17 +37,16 @@ Join this session to learn:
 - How other cybersecurity initiatives are impacted by insufficient asset management
 - A new approach that leverages existing data to solve the asset management challenge for cybersecurity
 
-## How to Build a Resilient Security Program Today: Using MDR Services to Supercharge your Security{#see2-s7}
+## Security Transformation for the Modern SOC{#see2-s7}
 **Shaun Marken<br>
 Palo Alto Networks<br>
 *October 26, 2023 1:00 pm - 1:50 pm***
 
-77% of organizations say MDR providers improved overall security according to ESG’s Report “What Security Teams Want from MDR Providers”. Many security leaders are using MDR services so they can respond to threats 24/7, gain assurance that sophisticated adversaries have not obtained access to their systems and obtain visibility into emerging threats.
+Palo Alto reimagined how a SOC operates and developed Cortex XSIAM, the autonomous security platform for the modern SOC. Today, most teams take a human-first approach, requiring an analyst to frontend the investigation and triage process. Then they tack on the analytics and automation at the end based on the small number of alerts they can triage. We have to flip this on its head. Automation and AI should be the front end of this process to sift through the massive amounts of data, detect the malicious and unusual incidents worth investigating, and then feed the important alerts to the analysts so they can understand the incident and respond faster than ever before. Join us as we discuss:
 
-To see how MDR can help you supercharge your security, join us as we discuss:
-- Today’s SecOps challenges
-- How MDR and XDR can help you quickly reduce risk and drive SecOps maturity
-- How Cortex XDR® and Unit 42™ MDR are differentiated
+- Today’s SecOps challenges.
+- Increasing SOC efficiency with an automation-first approach.
+- How Palo Alto’s SOC uses this solution to protect the organization.
 
 ## Treat Your Data Like It’s Currency{#see2-s8}
 **Cohesity<br>
