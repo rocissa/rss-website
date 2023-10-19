@@ -100,6 +100,7 @@ layout: page
   <div class="full-session">
     <div class="title">Lunch</div>
     <div class="times">12:00 pm - 1:00 pm</div>
+    <div class="room">Empire Hall (2nd Floor)</div>
   </div>
   <div class="gap"></div>
   
@@ -227,6 +228,7 @@ layout: page
   <div class="full-session">
     <div class="title">Lunch</div>
     <div class="times">12:00 pm - 1:00 pm</div>
+    <div class="room">Empire Hall (2nd Floor)</div>
   </div>
   <div class="gap"></div>
   

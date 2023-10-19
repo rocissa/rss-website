@@ -15,7 +15,7 @@ eleventyComputed:
 * Summit raffle drawings will be held at the end of the event (Thursday at 4:30pm) in the Grand Lilac Ballroom.
 * You must be present to win.
 * <sup>*</sup> Some raffles require you download and use the mobile app — not the web version.
-    In addition, Sponsor raffle drawing may be held during lunch times in the Grand Lilac Ballroom.
+    In addition, Sponsor raffle drawing may be held during lunch times in the Empire Hall (2nd Floor).
 
  
 ## Prizes & Eligibility
