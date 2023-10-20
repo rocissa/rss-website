@@ -126,13 +126,13 @@ sessions:
       length: 2
     - skip: true
   sponsor1:
-    - title: TBA
-      presenter: Rapid7
-      #url: /2023/day2/see-track-1#see1-s5
+    - title: "Proactive & Reactive: Driving Comprehensive Risk Reduction from the Endpoint to the Cloud"
+      presenter: Ben Prescott, Rapid7
+      url: /2023/day2/see-track-1#see1-s5
       length: 1
-    - title: TBA
-      presenter: Critical Start
-      #url: /2023/day2/see-track-1#see1-s6
+    - title: "Managing Cyber Risk Through MCRR: A Comprehensive New Approach"
+      presenter: Jake Welter and Chris Ocker, Critical Start
+      url: /2023/day2/see-track-1#see1-s6
       length: 1
     - title: "How to Build a Resilient Security Program Today"
       presenter: Jonathan Borgesen and Brian Schillaci,<br>ePlus

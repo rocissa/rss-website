@@ -2,13 +2,26 @@
 title: RSS:2023 Sponsor Education and Engineering (SEE) Track 1 (Day 2)
 layout: page
 ---
-## TBA{#see1-s5}
-**Rapid7<br>
+## Proactive & Reactive: Driving Comprehensive Risk Reduction from the Endpoint to the Cloud{#see1-s5}
+**Ben Prescott, Senior Security Solutions Engineer<br>
+Rapid7<br>
 *October 26, 2023 10:00 am - 10:50 am***
 
-## TBA{#see1-s6}
-**Critical Start<br>
+## Managing Cyber Risk Through MCRR: A Comprehensive New Approach{#see1-s6}
+**Jake Welter, Technical Account Manager<br>
+Chris Ocker, Manager, Customer Success<br>
+Critical Start<br>
 *October 26, 2023 11:00 am - 11:50 am***
+
+Dive deep into the fundamental principles of Managed Cyber Risk Reduction (MCRR) and its potential to elevate your existing MDR solutions.  With the integration of renowned industry frameworks such as NIST CSF and MITRE ATT&CK®, MCRR presents a transformative approach to cyber risk management.  This encompasses risk monitoring, maturity assessments, advanced analytics, adept response capabilities, and extensive reporting to equip you with a comprehensive strategy for managing cyber threats.
+
+During this presentation, you can anticipate:
+
+- MDR Enhancements: Updates on the new platform improvements and how they amplify your MDR capabilities.
+- Boosting MDR ROI with MCRR: Discover how MCRR synergizes with MDR, maximizing the return on every cyber dollar you invest.
+- Innovative Solutions Showcase: Delve into the myriad of new product offerings that manifest the strength of MCRR.
+- MCRR in Action: A preview of how MCRR can be pragmatically implemented.
+- Optimizing Stakeholder Communications: Acquire insights on enhancing reporting and conveying security investment outcomes effectively to your board.
 
 ## How to Build a Resilient Security Program Today{#see1-s7}
 **Jonathan Borgesen, Client Security Principal, ePlus<br>
