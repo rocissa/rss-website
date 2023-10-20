@@ -90,5 +90,5 @@ speaking_materials_due: 2022-09-01
 speaking_presentation_due: 2022-09-15
 
 schedule_not_yet_available: false
-schedule_tentative: true
+schedule_tentative: false
 schedule_available: true
