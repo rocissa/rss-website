@@ -28,6 +28,9 @@ homepage_show_venue: true
 # should the hotel info be displayed on the homepage?
 homepage_show_hotels: true
 
+# should parking info be displayed on the homepage?
+homepage_show_parking: true
+
 # should keynote speakers be shown on homepage?
 homepage_show_keynotes: true
 
