@@ -148,7 +148,7 @@ Please let us know at [info@rochestersecurity.org](mailto:info@rochestersecurity
 		  	</ul>
 		  	{% if site.homepage_show_parking %}
 		  	  <h2>Parking</h2>
-		  	  <p>Confrenece participants should park in the South Ave Garage, located one block east of the convention center.  The garage is connected to the convention center via a skywalk on level three. <strong>Be sure to bring your ticket with you for validation at the conference office, located outside the Grand Lilac Ballroom.</strong></p>
+		  	  <p>Conference participants should park in the South Ave Garage, located one block east of the convention center.  The garage is connected to the convention center via a skywalk on level three. <strong>Be sure to bring your ticket with you for validation at the conference office, located outside the Grand Lilac Ballroom.</strong></p>
 		  	{% endif %}
 		  </div>
 		  {% elsif site.homepage_show_venue == true %}
