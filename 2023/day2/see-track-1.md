@@ -7,6 +7,10 @@ layout: page
 Rapid7<br>
 *October 26, 2023 10:00 am - 10:50 am***
 
+In today's rapidly evolving digital landscape, organizations face an ever-increasing array of threats to their data, systems, and operations. To effectively safeguard against these risks, it is imperative to adopt a holistic approach to cybersecurity that spans from the endpoint to the cloud. This educational session, titled "Proactive and Reactive: Driving Comprehensive Risk Reduction from the Endpoint to the Cloud," aims to equip participants with the knowledge and strategies necessary to protect their assets and data.
+
+This session will explore the dual aspects of cybersecurity: proactive measures for preemptive threat mitigation and reactive responses to incidents. Attendees will gain insights into the latest trends in endpoint and cloud security, along with practical guidance on threat intelligence, vulnerability management, and incident response.
+
 ## Managing Cyber Risk Through MCRR: A Comprehensive New Approach{#see1-s6}
 **Jake Welter, Technical Account Manager<br>
 Chris Ocker, Manager, Customer Success<br>

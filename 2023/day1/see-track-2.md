@@ -11,9 +11,12 @@ Email and messaging have evolved significantly over the last few years.  It's no
 
 We'll explore this ever-changing world of email and messaging security, offering thoughts on how we got here, where we're headed, and how to best protect ourselves now and in the future.
 
-## TBA{#see2-s2}
-**GuidePoint Security<br>
+## Tales from the Trenches: GuidePoint Point of View{#see2-s2}
+**Peter Mollett, Senior Security Solutions Consultant<br>
+GuidePoint Security<br>
 *October 25, 2023 11:00 - 11:50 am***
+
+GuidePoint prides themselves on being a true partner and expert advisor to their customer base. With that in mind, they go above and beyond to get the job done - oftentimes beyond the scope when it comes to their penetration testing team. Hear memorable stories from this team's day to day including hacking ATMs and banks, finding secret recipes, setting up fake interviews to get access to systems, hacking car rental kiosks and more. You will also have the opportunity to learn more about this team, their credentials and the services available to you through GuidePoint.
 
 ## Business Email Compromise - Landscape, Attacks and Mitigation{#see2-s3}
 **J. Bendonis, Security Architect – Office of the CTO and Evangelist<br>

@@ -136,9 +136,9 @@ sessions:
       presenter: Eric Anderson, Cybersecurity Architect,<br>Atlantic Data Security
       url: /2023/day1/see-track-2#see2-s1
       length: 1
-    - title: TBA
-      presenter: GuidePoint Security
-      #url: /2023/day1/see-track-2#see2-s2
+    - title: "Tales from the Trenches: GuidePoint Point of View"
+      presenter: Peter Mollett,<br>GuidePoint Security
+      url: /2023/day1/see-track-2#see2-s2
       length: 1
     - title: "Business Email Compromise - Landscape, Attacks and Mitigation"
       presenter: J. Bendonis,<br>Check Point

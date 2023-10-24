@@ -8,11 +8,12 @@ layout: page
 
 Assumptions burn defenders every day. Perhaps the most pernicious one is that systems and their controls will always work as designed. The best way to dismantle these types of assumptions is to experience how deeply flawed they are. By immersing yourself in the offensive security world you can obtain this knowledge without needing to change careers or obtain additional certifications. By being more informed about offensive security, defenders are better able to recognize relevant intel, understand existing threats, and more readily discover attacker behavior. You’ll learn there's more to defending than just defense, and how to find and engage with the amazing resources that are waiting to be explored.
 
-## A Hardware Hacker's Perspective on Breaking and Defending XIoT Devices{#track1-s2}
+## Hacking and Defending XIoT {#track1-s2}
+
 **Gabe Siftar and Zachary Lehmann<br>
 *October 25, 2023 11:00 am - 11:50 am ***
 
-A hardware hacker will delve into the complex landscape of XIoT, exploring both threats and defensive approaches. Drawing from real-world experience in enterprise, healthcare, manufacturing, and critical infrastructure, the talk will feature a technical example of an actual test that led to the discovery of high-severity product vulnerabilities. Approaches employed by Fortune 100 companies to protect their devices will be explained along with examples of how vulnerabilities are leveraged during red team engagements. Both commercial and open-source defensive tools will be introduced and the presenter will share real impressions of their performance, strengths, and weaknesses observed during product evaluations and during purple team tests.
+A hardware hacker and a defensive security expert will delve into the complex landscape of XIoT, exploring both threats and defensive approaches. Drawing from real-world experience in enterprise, healthcare, manufacturing, and others, the talk will feature a technical example of an actual test that led to the discovery of high-severity product vulnerabilities. Approaches employed by top companies to protect their devices will be explained along with examples of how vulnerabilities are leveraged during red team engagements. Several monitoring tools will be introduced, and the presenter will share real impressions of their performance, strengths, and weaknesses observed during product evaluations and during purple team tests.
 
 ## DeFaking Deepfakes: Challenges for Real-World Mitigation of Manipulated Media{#track1-s3}
 **Matthew Wright<br>
