@@ -3,7 +3,7 @@ title: About Us
 layout: page
 ---
 
-The Rochester Security Summit is held annually during National Cyber Security Awareness Month. Since 2006, RSS has been a leading regional event that brings together a broad range of professionals and organizations from across a wide range of industries. RSS serves as a community focal point for education and awareness; fostering discussion, knowledge sharing, and networking to help drive innovation and address the evolving challenges in the security landscape. (Brought to you by the [Rochester ISSA Chapter](https://www.rocissa.org))
+The Rochester Security Summit is held annually during National Cyber Security Awareness Month. Since 2006, RSS has been a leading regional event that brings together a broad range of professionals and organizations from across a wide range of industries. RSS serves as a community focal point for education and awareness; fostering discussion, knowledge sharing, and networking to help drive innovation and address the evolving challenges in the security landscape. (Brought to you by the [Rochester ISSA Chapter](https://www.rocissa.org){target=_blank})
 
 
 ## 2023 General Planning Committee

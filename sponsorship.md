@@ -21,16 +21,20 @@ We are excited to announce we are preparing to open our Call for Sponsors in the
 In addition to that, information about the Platinum Sponsor SEE Track will also be available soon. These talks offer an excellent opportunity for sponsors to showcase their expertise and engage with the audience.
 
 While we finalize the details for opening sponsorship, we would like to inform you that our Call for Presentations is now open for vendor-neutral talks. This is a separate avenue where individuals can share their knowledge and insights with the community. You do not have to be a paid sponsor to participate in the Call for Presentations, as the presentations are awarded to individuals rather than companies.
+
 We kindly request you to note that the Call for Presentations is distinct from the SEE Track speaking slots, which is an exclusive benefit for Platinum Sponsors. The SEE Track speaking slots are specifically reserved for our esteemed sponsors to deliver presentations related to their products, services, or areas of expertise.
+
 If you are interested in submitting a Vendor Neutral Presentation for consideration, we invite you to visit our submission portal at https://www.rochestersecurity.org/speaking/. You will find detailed instructions and a form to submit your proposal.
+
 Please keep an eye on your inbox for the forthcoming announcement regarding the RSS:2023 Call for Sponsors and Sponsorship Pricing Details.
+
 Thank you for your continued interest in RSS:2023.
 {% endif %}
 
 {% if site.sponsorship_open  == true %}
 ## The official Call for Sponsors for RSS:{{ site.current_year }} is now open.
 
-<div class="mt-5 mb-5 text-center"><a class="btn btn-primary btn-lg" href="https://docs.google.com/forms/d/e/1FAIpQLSfbobyW-9o88uG---Dc13S0Tf_qAm6uX8We3-5c-DANnSmWtg/viewform">Submit Call for Sponsors Form</a></div>
+<div class="mt-5 mb-5 text-center"><a class="btn btn-primary btn-lg" href="https://docs.google.com/forms/d/e/1FAIpQLSfbobyW-9o88uG---Dc13S0Tf_qAm6uX8We3-5c-DANnSmWtg/viewform" target="_blank">Submit Call for Sponsors Form</a></div>
 
 ##  Important Dates
 * Call for Sponsors Deadline: July 10, 2023
@@ -41,7 +45,7 @@ Thank you for your continued interest in RSS:2023.
 {% if site.sponsorship_waiting_list == true %}
 <h2 class="text-center">Sponsorship for RSS:{{ site.current_year }} is currently closed,<br>but join our waitlist.</h2>
 
-<div class="mt-5 mb-5 text-center"><a class="btn btn-primary btn-lg" href="https://docs.google.com/forms/d/e/1FAIpQLSfbobyW-9o88uG---Dc13S0Tf_qAm6uX8We3-5c-DANnSmWtg/viewform">Submit Call for Sponsors Form</a></div>
+<div class="mt-5 mb-5 text-center"><a class="btn btn-primary btn-lg" href="https://docs.google.com/forms/d/e/1FAIpQLSfbobyW-9o88uG---Dc13S0Tf_qAm6uX8We3-5c-DANnSmWtg/viewform" target="_blank">Submit Call for Sponsors Form</a></div>
 {% endif %}
 
 {%- if site.sponsorship_pricing -%}
@@ -122,8 +126,7 @@ The Summit has excellent representation across industries and job functions. In 
 * 18.4% - IT Security Management
 * 37.4% - Technical Security Professional
 * 2.7% - Web or Software Professional
-* 20.5% - Other -->
-
+* 20.5% - Other
     </div>
   </div>
 </div>

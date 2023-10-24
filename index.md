@@ -52,12 +52,12 @@ layout: page
       </li>
       {%- endif -%}
       </ul>
-      <div class="text-center mt-5 mb-5"><a class="btn btn-lg btn-primary pt-5 pb-5 " href="https://events.eventzilla.net/e/rochester-security-summit-2023-2138587562">Purchase Tickets</a></div>
+      <div class="text-center mt-5 mb-5"><a class="btn btn-lg btn-primary pt-5 pb-5 " href="https://events.eventzilla.net/e/rochester-security-summit-2023-2138587562" target="_blank">Purchase Tickets</a></div>
 			{%- endif -%}
 			{%- if site.registration_sold_out -%}
 			<h1>Sold Out</h1>
 			<p class="text-center">RSS:{{ site.current_year }} has sold out.  Use the link below to join our waiting list.</p>
-			<div class="text-center mt-5 mb-5"><a class="btn btn-lg btn-primary pt-5 pb-5 " href="https://events.eventzilla.net/e/rochester-security-summit-2023-2138587562">Join Waiting List/Manage Registration</a></div>
+			<div class="text-center mt-5 mb-5"><a class="btn btn-lg btn-primary pt-5 pb-5 " href="https://events.eventzilla.net/e/rochester-security-summit-2023-2138587562" target="_blank">Join Waiting List/Manage Registration</a></div>
 			{%- endif -%}
 			{%- if site.registration_event_concluded -%}
 			<h1>RSS:{{ site.current_year }} Has Concluded</h1>
@@ -140,7 +140,7 @@ Please let us know at [info@rochestersecurity.org](mailto:info@rochestersecurity
 			  <div class="text-center">125 East Main Street<br> 
 			    Rochester, NY USA 14604</div>
 			  <div class="text-center"><a href="https://www.rrcc.com" target="_blank">www.rrcc.com</a></div>
-			  <div class="text-center"><a href="https://www.rrcc.com/index.cfm?Page=Directions" class="btn btn-lg btn-primary">Driving Directions</a></div>
+			  <div class="text-center"><a href="https://www.rrcc.com/index.cfm?Page=Directions" class="btn btn-lg btn-primary" target="_blank">Driving Directions</a></div>
 		  </div>
 		  <div class="col-md-6">
 		  	<h2>Hotel Accommodations</h2>
