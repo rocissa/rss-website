@@ -56,7 +56,8 @@ layout: page
 			{%- endif -%}
 			{%- if site.registration_sold_out -%}
 			<h1>Sold Out</h1>
-			<p class="text-center">RSS:{{ site.current_year }} has sold out</p>
+			<p class="text-center">RSS:{{ site.current_year }} has sold out.  Use the link below to join our waiting list.</p>
+			<div class="text-center mt-5 mb-5"><a class="btn btn-lg btn-primary pt-5 pb-5 " href="https://events.eventzilla.net/e/rochester-security-summit-2023-2138587562">Join Waiting List/Manage Registration</a></div>
 			{%- endif -%}
 			{%- if site.registration_event_concluded -%}
 			<h1>RSS:{{ site.current_year }} Has Concluded</h1>
