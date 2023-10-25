@@ -39,12 +39,12 @@ sessions:
       presenter: Dr. Catherine J. Ullman
       url: /2023/day1/track-1#track1-s1
       length: 1
-    - title: " A Hardware Hacker's Perspective On Breaking and Defending XIoT Devices"
+    - title: "Hacking and Defending XIoT"
       presenter: Gabe Siftar and Zachary Lehmann
       url: /2023/day1/track-1#track1-s2
       length: 1
-    - title: "DeFaking Deepfakes: Challenges for Real-World Mitigation of Manipulated Media"
-      presenter: Matthew Wright 
+    - title: "Unlocking Generative AI: Balancing Innovation with Security"
+      presenter: Jason Ross 
       url: /2023/day1/track-1#track1-s3
       length: 1
     - title: "The Essentials of Enterprise Key Management (EKM)"

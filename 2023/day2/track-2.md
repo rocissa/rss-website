@@ -28,8 +28,8 @@ In a world where the incalculable expanse of computer crimes costs billions – 
 
 Federated Learning (FL) is a distributed Machine Learning (ML) technique proposed to enhance the security, privacy, and efficiency of industrial systems. However, attacks against the conventional FL, resulting in compromising local units, have been already reported in practice. We present our novel Reputation and Trust-based mechanisms that allow detecting these compromised local units with the Data Quality analysis and retrospective trust evaluation to improve FL industrial applications. We patented our novel method. We demonstrate our approach on industrial SWIFT financial data and evaluate its effectiveness in improving FL performance and security by detecting data manipulation attacks and excluding compromised units.
 
-## Unlocking Generative AI: Balancing Innovation with Security{#track2-s9}
-**Jason Ross<br>
-*October 25, 2023 1:00 pm - 1:50 pm***
- 
-"Unlocking Generative AI: Balancing Innovation with Security" will guide you through the complex terrain of generative AI in corporate settings. Starting with a brief introduction of generative AI, the talk highlights its corporate uses and potential security pitfalls. Explore diverse security threats including data poisoning, supply chain issues, model theft & inversion, and adversarial attacks. Delve into their implications, especially those relevant to large enterprises, such as protection of sensitive data and unauthorized access to AI models. The talk also offers robust mitigation strategies centered on data, model, training, and operational security. Join us as we navigate the promising yet challenging world of generative AI security.
+## DeFaking Deepfakes: Challenges for Real-World Mitigation of Manipulated Media{#track2-s9}
+**Matthew Wright<br>
+*October 25, 2023 1:00 pm - 1:50 pm ***
+
+Deepfakes are growing more sophisticated and realistic, and their potential for use in misinformation is clear, as they can be used to make anybody appear to say anything. At the start of the Russia-Ukraine conflict, deepfakes were used in war, as videos circulated of President Putin and President Zelensky each announcing their surrender. As these capabilities spread, it is critical that journalists and others have the tools they need to quickly and accurately assess such videos and determine if they have been manipulated. The DeFake project aims to develop and deploy a deepfake detection tool that is not only accurate but also usable by journalists and intelligence analysts in their workflow to help slow the spread of misinformation.
