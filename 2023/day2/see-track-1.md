@@ -27,7 +27,7 @@ During this presentation, you can anticipate:
 - MCRR in Action: A preview of how MCRR can be pragmatically implemented.
 - Optimizing Stakeholder Communications: Acquire insights on enhancing reporting and conveying security investment outcomes effectively to your board.
 
-## How to Build a Resilient Security Program Today{#see1-s7}
+## OT Security, United We Stand, Divided We Fall{#see1-s7}
 **Jonathan Borgesen, Client Security Principal, ePlus<br>
 Brian Schillaci, IoT Security Specialist, Cisco<br>
 ePlus<br>
