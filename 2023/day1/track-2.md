@@ -24,6 +24,6 @@ Amid an escalating threat landscape, healthcare has emerged as a prime target fo
 
 ## Security Risks and Mitigations for Generative AI Foundation Models{#track2-s4}
 **Justin Leto<br>
-October 25, 2023 2:00 pm - 2:50 pm***
+*October 25, 2023 2:00 pm - 2:50 pm***
 
 The rapid advancement of generative artificial intelligence (AI) foundation models, exemplified by models such as ChatGPT, has revolutionized numerous domains, including natural language processing, content creation, and problem-solving. However, along with their remarkable capabilities, these models introduce a set of significant security risks that demand careful consideration. This presentation aims to delve into the potential security challenges posed by generative AI foundation models and propose effective mitigation strategies.
