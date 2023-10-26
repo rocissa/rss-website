@@ -242,7 +242,7 @@ layout: page
   <div class="no-mobile">2:30 pm</div>
   <div class="full-session">
     <div class="title">Sponsor Visitation Break</div>
-    <div class="times">3:00 pm - 3:30 pm</div>
+    <div class="times">2:00 pm - 2:30 pm</div>
   </div>
   <div class="gap"></div>
   

@@ -30,8 +30,8 @@ session_times:
     end: 11:50 am
   - start: 1:00 pm
     end: 1:50 pm
-  - start: 2:00 pm
-    end: 2:50 pm
+  - start: 2:30 pm
+    end: 3:20 pm
   - start: 3:30 pm
     end: 4:20 pm
 sessions:
