@@ -19,51 +19,54 @@ layout: page
 </section>
 
 <section id="conference" class="clearfix">
-	<div class="col-md-6">
-		<h1>RSS:{{ site.current_year }}</h1>
-		<h2 class="conf-details-dates text-center">Wednesday, October 25 and<br>
-		Thursday, October 26, 2023</h2>
-		<p class="conf-details-loc text-center">Joseph A. Floreano Rochester Riverside Convention Center<br>
-		Rochester, NY</p>
-	</div>
-	<aside id="tickets" class="col-md-6">
-		{%- if site.registration_enabled == true -%}
-		<h1>Tickets</h1>
-		<ul class="ticket-options">
-			{%- if site.registration_early_bird -%}
-		  <li>
-		    <h2>Early Bird Registration</h2>
-		    <div class="price">$150.00</div>
-        <div class="info">Limited availability. First come, first served.</div>
-      </li>
-      {%- endif -%}
-      {%- if site.registration_standard -%}
-      <li>
-      	<h2>Standard Registration</h2>
-        <div class="price">$250.00</div>
-        <div class="info">Sale ends on 10/06/2023</div>
-      </li>
-      {%- endif -%}
-      {%- if site.registration_late -%}
-      <li>
-        <h2>Late Registration</h2>
-        <div class="price">$350.00</div>
-        <div class="info">Available starting 10/06/2023, until sold out</div>
-      </li>
-      {%- endif -%}
-      </ul>
-      <div class="text-center mt-5 mb-5"><a class="btn btn-lg btn-primary pt-5 pb-5 " href="https://events.eventzilla.net/e/rochester-security-summit-2023-2138587562" target="_blank">Purchase Tickets</a></div>
-			{%- endif -%}
-			{%- if site.registration_sold_out -%}
-			<h1>Sold Out</h1>
-			<p class="text-center">RSS:{{ site.current_year }} has sold out.  Use the link below to join our waiting list.</p>
-			<div class="text-center mt-5 mb-5"><a class="btn btn-lg btn-primary pt-5 pb-5 " href="https://events.eventzilla.net/e/rochester-security-summit-2023-2138587562" target="_blank">Join Waiting List/Manage Registration</a></div>
-			{%- endif -%}
-			{%- if site.registration_event_concluded -%}
-			<h1>RSS:{{ site.current_year }} Has Concluded</h1>
-			<p class="text-center">We hope to see you next year.</p>
-			{%- endif -%}
-    </aside>
+	{%- if site.registration_event_concluded -%}
+	  <div class="col-md-12">
+		  <h1>RSS:{{ site.current_year }} Has Concluded</h1>
+			<p class="upcoming-dates text-center">We look forward to seeing you at RSS:{{ site.next_year }}{% if site.next_year_start_date %}, {% daterange site.next_year_start_date, site.next_year_end_date %}{% endif %}.</p>
+	  </div>
+	{%- else -%}
+		<div class="col-md-6">
+			<h1>RSS:{{ site.current_year }}</h1>
+			<h2 class="conf-details-dates text-center">Wednesday, October 25 and<br>
+			Thursday, October 26, 2023</h2>
+			<p class="conf-details-loc text-center">Joseph A. Floreano Rochester Riverside Convention Center<br>
+			Rochester, NY</p>
+		</div>
+		<aside id="tickets" class="col-md-6">
+			{%- if site.registration_enabled == true -%}
+			<h1>Tickets</h1>
+			<ul class="ticket-options">
+				{%- if site.registration_early_bird -%}
+			  <li>
+			    <h2>Early Bird Registration</h2>
+			    <div class="price">$150.00</div>
+	        <div class="info">Limited availability. First come, first served.</div>
+	      </li>
+	      {%- endif -%}
+	      {%- if site.registration_standard -%}
+	      <li>
+	      	<h2>Standard Registration</h2>
+	        <div class="price">$250.00</div>
+	        <div class="info">Sale ends on 10/06/2023</div>
+	      </li>
+	      {%- endif -%}
+	      {%- if site.registration_late -%}
+	      <li>
+	        <h2>Late Registration</h2>
+	        <div class="price">$350.00</div>
+	        <div class="info">Available starting 10/06/2023, until sold out</div>
+	      </li>
+	      {%- endif -%}
+	      </ul>
+	      <div class="text-center mt-5 mb-5"><a class="btn btn-lg btn-primary pt-5 pb-5 " href="https://events.eventzilla.net/e/rochester-security-summit-2023-2138587562" target="_blank">Purchase Tickets</a></div>
+				{%- endif -%}
+				{%- if site.registration_sold_out -%}
+				<h1>Sold Out</h1>
+				<p class="text-center">RSS:{{ site.current_year }} has sold out.  Use the link below to join our waiting list.</p>
+				<div class="text-center mt-5 mb-5"><a class="btn btn-lg btn-primary pt-5 pb-5 " href="https://events.eventzilla.net/e/rochester-security-summit-2023-2138587562" target="_blank">Join Waiting List/Manage Registration</a></div>
+				{%- endif -%}
+	    </aside>
+	{% endif %}
 </section>
 
 {% if site.homepage_show_app_links %}

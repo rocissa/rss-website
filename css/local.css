@@ -152,6 +152,11 @@ ul.social > li {
 	margin-top: 50px;
 }
 
+.upcoming-dates {
+	font-size: 2rem;
+	margin-top: 5rem;
+}
+
 .warning {
 	font-size: 20px;
 	padding: 15px;
