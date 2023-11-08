@@ -36,9 +36,17 @@ module.exports = function (eleventyConfig) {
 
     // implement Jekyll's markdownify plugin (parse markdown in variables)
 	eleventyConfig.addFilter("markdownify", value => (value) ? md.render(value) : '')
-	
 
-	// allow parsng yaml data files
+	// dates without a timezone are assumed to be in UTC which causes them to be off by a day
+    // when displayed on the site.  This adjusts the timestamps to factor in the local timezone.
+    eleventyConfig.addFilter("localtime", value => {
+        let date = new Date(value)
+        let tz = date.getTimezoneOffset()
+        let newdate = new Date(date.getTime() + (tz * 60000))
+        return newdate
+    })
+
+	// allow parsing yaml data files
     eleventyConfig.addDataExtension("yaml, yml", contents => yaml.load(contents));
 
     // allow parsing csv files
@@ -57,6 +65,28 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPlugin(cacheBuster({
     	outputDirectory: "./_site"
     }))
+
+    /**
+     * Format a range of dates in longform English format
+     */
+    eleventyConfig.addShortcode("daterange", function (start, end) {
+        startDate = new Date(start)
+        endDate = new Date(end)
+
+        if(startDate == endDate) {
+            // single day
+            return strftime("%B %e, %Y", startDate)
+        }
+        else if(startDate.getFullYear() != endDate.getFullYear() || startDate.getMonth() != endDate.getMonth()) {
+            // in different years or months? return two full dates
+            return strftime("%B %e, %Y", startDate) + " - " + strftime("%B %e, %Y", endDate)
+        }
+
+        // return month day-day, year
+        let month = strftime("%B", startDate)
+        let year = strftime("%Y", startDate)
+        return month + " " + startDate.getDate() + " - " + endDate.getDate() + ", " + year
+    })
 
 	return {
 		dir: {
