@@ -16,5 +16,8 @@
     "eleventy-plugin-gen-favicons": "^1.1.2",
     "js-yaml": "^4.1.0",
     "markdown-it-attrs": "^4.1.6"
+  },
+  "dependencies": {
+    "strftime": "^0.10.2"
   }
 }

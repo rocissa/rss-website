@@ -3,6 +3,7 @@ const {parse} = require("csv-parse/sync")
 const markdownItAttrs = require('markdown-it-attrs')
 const faviconsPlugin = require("eleventy-plugin-gen-favicons")
 const cacheBuster = require('@mightyplow/eleventy-plugin-cache-buster')
+const strftime = require('strftime')
 
 module.exports = function (eleventyConfig) {
 	eleventyConfig.addPassthroughCopy("css")
@@ -70,8 +71,13 @@ module.exports = function (eleventyConfig) {
      * Format a range of dates in longform English format
      */
     eleventyConfig.addShortcode("daterange", function (start, end) {
-        startDate = new Date(start)
-        endDate = new Date(end)
+        let startDate = new Date(start)
+        let endDate = new Date(end)
+
+        let tz = startDate.getTimezoneOffset()
+        startDate = new Date(startDate.getTime() + (tz * 60000))
+        endDate = new Date(endDate.getTime() + (tz * 60000))
+
 
         if(startDate == endDate) {
             // single day
