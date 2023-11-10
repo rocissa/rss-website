@@ -22,7 +22,7 @@ tracks:
     room: Aqueduct A/B
   - id: sponsor2
     name: Sponsor Engineering and Education
-    room: Acueduct C/D
+    room: Aqueduct C/D
 session_times:
   - start: 10:00 am 
     end: 10:50 am 
