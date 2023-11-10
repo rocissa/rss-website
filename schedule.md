@@ -15,7 +15,7 @@ layout: page
 
 ## Day 1 - October 25 (Wednesday)
 
-{% assign schedule = day1_schedule %}
+{% assign schedule = schedules[site.current_year].day1 %}
 
 <div class="schedule">
   <div class="no-mobile title">Start</div>
@@ -143,7 +143,7 @@ layout: page
 
 ## Day 2 - October 26 (Thursday)
 
-{% assign schedule = day2_schedule %}
+{% assign schedule = schedules[site.current_year].day2 %}
 
 <div class="schedule">
   <div class="no-mobile title">Start</div>
