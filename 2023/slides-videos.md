@@ -9,7 +9,7 @@ conference: 2023
 
 <ul>
 {% for session in keynotes %}
-  <li class="mb-3">{{ session.presenter }}
+  <li class="mb-3"><a href="{{ session.url }}">{{ session.presenter }}</a>
   {% if session.links %}
     <ul class="fa-ul">
       {%- for link in session.links -%}

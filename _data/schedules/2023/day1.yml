@@ -1,11 +1,13 @@
 ---
 keynotes:
   - presenter: Moses Frost
+    url: /2023/moses-frost/
     links:
       - title: Presentation Video
         url: "https://www.youtube.com/watch?v=Bq_lZvJniwk"
         icon: "fa-solid fa-clapperboard-play"
   - presenter: Emilyann Fogarty
+    url: /2023/emilyann-fogarty/
     links:
       - title: Presentation Video
         url: "https://www.youtube.com/watch?v=xp3DLouA6AU"

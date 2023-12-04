@@ -40,7 +40,7 @@ conference: 2023
   <div class="no-mobile lilac">8:40 am</div>
   <div class="no-mobile lilac">9:40 am</div>
   <div class="full-session lilac">
-    <div class="title">Keynote - {{ schedule.keynotes[0].presenter }}</div>
+    <div class="title">Keynote - <a href="{{ schedule.keynotes[0].url }}">{{ schedule.keynotes[0].presenter }}</a></div>
     <div class="times">8:40 am - 9:40 am</div>
     <div class="room">Grand Lilac Ballroom</div>
   </div>
@@ -117,7 +117,7 @@ conference: 2023
   <div class="no-mobile lilac">3:30 pm</div>
   <div class="no-mobile lilac">4:30 pm</div>
   <div class="full-session lilac">
-    <div class="title">Keynote - {{ schedule.keynotes[1].presenter }}</div>
+    <div class="title">Keynote - <a href="{{ schedule.keynotes[1].url }}">{{ schedule.keynotes[1].presenter }}</a></div>
     <div class="times">3:30 pm - 4:30 pm</div>
     <div class="room">Grand Lilac Ballroom</div>
   </div>
@@ -168,7 +168,7 @@ conference: 2023
   <div class="no-mobile lilac">8:40 am</div>
   <div class="no-mobile lilac">9:40 am</div>
   <div class="full-session lilac">
-    <div class="title">Keynote - {{ schedule.keynotes[0].presenter }}</div>
+    <div class="title">Keynote - <a href="{{ schedule.keynotes[0].url }}">{{ schedule.keynotes[0].presenter }}</a></div>
     <div class="times">8:40 am - 9:40 am</div>
     <div class="room">Grand Lilac Ballroom</div>
   </div>
