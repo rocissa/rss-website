@@ -1,20 +1,32 @@
 ---
 keynotes:
-  - Moses Frost
-  - Emilyann Fogarty
+  - presenter: Moses Frost
+    links:
+      - title: Presentation Video
+        url: "https://www.youtube.com/watch?v=Bq_lZvJniwk"
+        icon: "fa-solid fa-clapperboard-play"
+  - presenter: Emilyann Fogarty
+    links:
+      - title: Presentation Video
+        url: "https://www.youtube.com/watch?v=xp3DLouA6AU"
+        icon: "fa-solid fa-clapperboard-play"
 tracks:
   - id: track1
     name: Track 1
     room: Highland A
+    show_on_slides_page: true
   - id: track2
     name: Track 2
     room: Highland B
+    show_on_slides_page: true
   - id: track3
     name: Track 3
     room: Highland C
+    show_on_slides_page: true
   - id: track4
     name: Track 4
     room: Highland D/E
+    show_on_slides_page: true
   - id: training
     name: Training
     room: Cascade A/B/C
@@ -38,40 +50,79 @@ sessions:
     - title: "Defending Beyond Defense"
       presenter: Dr. Catherine J. Ullman
       url: /2023/day1/track-1#track1-s1
+      links:
+        - title: Presentation Video
+          url: "https://www.youtube.com/watch?v=-OaPcurRde8"
+          icon: "fa-solid fa-clapperboard-play"
       length: 1
     - title: "Hacking and Defending XIoT"
       presenter: Gabe Siftar and Zachary Lehmann
       url: /2023/day1/track-1#track1-s2
+      links:
+        - title: Presentation Slides
+          url: /2023/files/Siftar_RSS_2023-Hacking_and_Securing_XIoT_Devices.pdf
+          icon: "fa-solid fa-presentation-screen"
+        - title: Presentation Video
+          url: "https://www.youtube.com/watch?v=OBxiOBaEmF0"
+          icon: "fa-solid fa-clapperboard-play"
       length: 1
     - title: "Unlocking Generative AI: Balancing Innovation with Security"
       presenter: Jason Ross 
       url: /2023/day1/track-1#track1-s3
+      links:
+        - title: Presentation Video
+          url: "https://www.youtube.com/watch?v=yDOt-8P5cGI"
+          icon: "fa-solid fa-clapperboard-play"
       length: 1
     - title: "The Essentials of Enterprise Key Management (EKM)"
       presenter: Mark Warner 
       url: /2023/day1/track-1#track1-s4
+      links:
+        - title: Presentation Video
+          url: "https://www.youtube.com/watch?v=vIsYLWP0MHY"
+          icon: "fa-solid fa-clapperboard-play"
       length: 1
   track2:
     - title: "Artificial Intelligence:  Managing Risk, Regulation, and Reward"
       presenter: F. Paul Greene, Felix Knoll, and Bruce Cheney
       url: /2023/day1/track-2#track2-s1
+      links:
+        - title: Presentation Video
+          url: "https://www.youtube.com/watch?v=ew8tv4PBMWs"
+          icon: "fa-solid fa-clapperboard-play"
       length: 1
     - title: "SkyNet Is Coming For Email First... Thankfully!"
       presenter: Aubrey King 
       url: /2023/day1/track-2#track2-s2
+      links:
+        - title: Presentation Video
+          url: "https://www.youtube.com/watch?v=uonzXCab5EY"
+          icon: "fa-solid fa-clapperboard-play"
       length: 1
     - title: "Navigating the Cyber Threat Landscape in Healthcare: A Real-world Analysis of Attacks and Countermeasures"
       presenter: Eric Snyder 
       url: /2023/day1/track-2#track2-s3
+      links:
+        - title: Presentation Video
+          url: "https://www.youtube.com/watch?v=tgiYa7Q_a8Q"
+          icon: "fa-solid fa-clapperboard-play"
       length: 1
     - title: "Security Risks and Mitigations for Generative AI Foundation Models"
       presenter: Justin Leto 
       url: /2023/day1/track-2#track2-s4
+      links:
+        - title: Presentation Video
+          url: "https://www.youtube.com/watch?v=gSvXBui6e2A"
+          icon: "fa-solid fa-clapperboard-play"
       length: 1
   track3:
     - title: "Cybersecurity for Small Businesses"
       presenter: Brandon Finton 
       url: /2023/day1/track-3#track3-s1
+      links:
+        - title: Presentation Video
+          url: "https://www.youtube.com/watch?v=-wQ9myHbfMQ"
+          icon: "fa-solid fa-clapperboard-play"
       length: 1
     - title: "How Not To Build a Cybersecurity Startup"
       presenter: JP Bourget 
@@ -80,27 +131,57 @@ sessions:
     - title: "Thinking Like a Regulator - Making the Most of Your Data Protection Compliance Efforts"
       presenter: F. Paul Greene
       url: /2023/day1/track-3#track3-s3
+      links:
+        - title: Presentation Video
+          url: "https://www.youtube.com/watch?v=ApiBCw8fGH4"
+          icon: "fa-solid fa-clapperboard-play"
       length: 1
     - title: "This Is Not a Drill: The Importance of Incident Response Testing"
       presenter: Daniel J. Altieri and Laura K. Schwalbe
       url: /2023/day1/track-3#track3-s4
+      links:
+        - title: Presentation Slides
+          url: /2023/files/2023-10-09-RSS_Cybersecurity_Presentation_Altieri_and_Schwalbe_10.25.2023.pdf
+          icon: "fa-solid fa-presentation-screen"
+        - title: Presentation Video
+          url: "https://www.youtube.com/watch?v=ualaUJ8kg2M"
+          icon: "fa-solid fa-clapperboard-play"
       length: 1
   track4:
     - title: "What Cyberattackers See: Top Tips for Minimizing Your Identity Attack Surface"
       presenter: Eric Woodruff
       url: /2023/day1/track-4#track4-s1
+      links:
+        - title: Presentation Slides
+          url: /2023/files/Eric_Woodruff_Roc_Security_Summit_2023_Presentation.pdf
+          icon: "fa-solid fa-presentation-screen"
+        - title: Presentation Video
+          url: "https://www.youtube.com/watch?v=vMgLU28-1_g"
+          icon: "fa-solid fa-clapperboard-play"
       length: 1
     - title: "API Sprawl and Open APIs: Potential Risks of Application Modernization"
       presenter: John Stuppiello
       url: /2023/day1/track-4#track4-s2
+      links:
+        - title: Presentation Video
+          url: "https://www.youtube.com/watch?v=XTtURZRMoB0"
+          icon: "fa-solid fa-clapperboard-play"
       length: 1
     - title: "Demystifying Cloud Security and Compliance"
       presenter: Bob Adams
       url: /2023/day1/track-4#track4-s3
+      links:
+        - title: Presentation Video
+          url: "https://www.youtube.com/watch?v=Ntrfgvz-zNg"
+          icon: "fa-solid fa-clapperboard-play"
       length: 1
     - title: "Beyond Layers: Achieving Holistic Cybersecurity Through Tool Integration"
       presenter: Ryan Young 
       url: /2023/day1/track-4#track4-s4
+      links:
+        - title: Presentation Video
+          url: "https://www.youtube.com/watch?v=H3G59BjIfuY"
+          icon: "fa-solid fa-clapperboard-play"
       length: 1
   training:
     - title: "Penetration Testing for Systems and Network Admins"
