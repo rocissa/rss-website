@@ -15,8 +15,8 @@
           </ul>
         </div>
         <ul class="social">
-          <li><a href="https://facebook.com/RocSecSummit" target="_blank"><span class="fa fa-facebook-square" aria-hidden="true"></span><span class="hidden-text">Facebook</span></a></li>
-          <li><a href="https://twitter.com/rocsecsummit" target="_blank"><span class="fa fa-twitter-square" aria-hidden="true"></span><span class="hidden-text">Twitter</span></a></li>
+          <li><a href="https://facebook.com/RocSecSummit" target="_blank"><span class="fa-brands fa-square-facebook" aria-hidden="true"></span><span class="hidden-text">Facebook</span></a></li>
+          <li><a href="https://twitter.com/rocsecsummit" target="_blank"><span class="fa-brands fa-square-x-twitter" aria-hidden="true"></span><span class="hidden-text">Twitter</span></a></li>
         </ul>
         <p>Copyright &copy; {{ site.current_year }} Rochester Security Summit. All rights reserved.</p>
       </div>
