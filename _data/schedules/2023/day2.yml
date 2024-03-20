@@ -96,6 +96,9 @@ sessions:
       presenter: David Frier 
       url: /2023/day2/track-2#track2-s5
       links:
+        - title: Presentation Slides
+          url: /2003/files/Frier_Attack_Surface.pdf
+          icon: "fa-solid fa-presentation-screen"
         - title: Presentation Video
           url: "https://www.youtube.com/watch?v=yJ5I4gxQP1Q"
           icon: "fa-solid fa-clapperboard-play"
