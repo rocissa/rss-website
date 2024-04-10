@@ -2,19 +2,19 @@
 site_title: Rochester Security Summit
 # current conference year - used to show current information and to prevent
 # current/upcoming conference from showing on past events page
-current_year: 2023
+current_year: 2024
 
 # previous conference year
-previous_year: 2022
+previous_year: 2023
 
 # next conference year - leave at current during early planning
 next_year: 2024
 
 # conference dates
-conference_start_date: 2023-10-25
-conference_end_date: 2023-10-26
-next_year_start_date: 2024-10-09
-next_year_end_date: 2024-10-10
+conference_start_date: 2023-10-09
+conference_end_date: 2023-10-10
+next_year_start_date: 2025-10-09
+next_year_end_date: 2025-10-10
 
 # which year's sponsors should be shown on the homepage
 # allows for previous year's to show until the current year's list is ready
