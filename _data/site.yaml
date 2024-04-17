@@ -11,18 +11,18 @@ previous_year: 2023
 next_year: 2024
 
 # conference dates
-conference_start_date: 2023-10-09
-conference_end_date: 2023-10-10
-next_year_start_date: 2025-10-09
-next_year_end_date: 2025-10-10
+conference_start_date: 2024-10-09
+conference_end_date: 2024-10-10
+next_year_start_date: 2024-10-09
+next_year_end_date: 2024-10-10
 
 # which year's sponsors should be shown on the homepage
 # allows for previous year's to show until the current year's list is ready
-homepage_sponsors_show_current_year: true
-homepage_sponsors_show_previous_year: false
+homepage_sponsors_show_current_year: false
+homepage_sponsors_show_previous_year: true
 
 # should the pre-conference "coming soon" message be shown on the homepage?
-homepage_conference_announcement: false
+homepage_conference_announcement: true
 
 # should the venue info be displayed on the homepage?
 homepage_show_venue: true
@@ -34,43 +34,43 @@ homepage_show_hotels: true
 homepage_show_parking: true
 
 # should keynote speakers be shown on homepage?
-homepage_show_keynotes: true
+homepage_show_keynotes: false
 
 # should app links be shown on the homepage
 homepage_show_app_links: false
 app_ios_url: https://apps.apple.com/us/app/id1478439812
 app_android_url: https://play.google.com/store/apps/details?id=com.guidebook.apps.rss.android
-app_web_url: https://guidebook.com/g/rochestersecuritysummit2023/
+app_web_url: https://guidebook.com/g/rochestersecuritysummit2024/
 
-homepage_show_post_conference_info: true
+homepage_show_post_conference_info: false
 
-homepage_show_call_for_volunteers: false
+homepage_show_call_for_volunteers: true
 homepage_show_schedule_link: false
 
 
 
 
 # should registration info be displayed on the homepage?
-registration_not_yet_open: false
+registration_not_yet_open: true
 registration_enabled: false
 registration_early_bird: false
 registration_standard: false
 registration_late: false
 registration_sold_out: false
-registration_event_concluded: true
+registration_event_concluded: false
 
 
 # sponsorship messaging
 sponsorship_show_w9_link: false
 sponsorship_next_year: false
 sponsorship_not_yet_open: false
-sponsorship_coming_soon: false
+sponsorship_coming_soon: true
 sponsorship_open: false
-sponsorship_waiting_list: true  # sold out, but accepting to waiting list
+sponsorship_waiting_list: false  # sold out, but accepting to waiting list
 sponsorship_sold_out: false
-sponsorship_pricing: true
+sponsorship_pricing: false
 sponsorship_sponsor_information: false
-sponsorship_attendee_profile: true
+sponsorship_attendee_profile: false
 sponsorship_faq: false
 
 # sponsorship key dates
@@ -82,15 +82,15 @@ speaking_next_year: false
 speaking_cfp_not_yet_open: false
 speaking_cfp_open: true
 speaking_cfp_closed: false
-speaking_show_guidelines: false
-speaking_show_key_dates: false
+speaking_show_guidelines: true
+speaking_show_key_dates: true
 
 # speaking key dates
-speaking_proposals_due: 2022-08-01
-speaking_committee_responses: 2022-08-15
-speaking_materials_due: 2022-09-01
-speaking_presentation_due: 2022-09-15
+speaking_proposals_due: 2024-08-01
+speaking_committee_responses: 2024-08-31
+speaking_materials_due: 2024-09-06
+speaking_presentation_due: 2024-09-20
 
-schedule_not_yet_available: false
+schedule_not_yet_available: true
 schedule_tentative: false
-schedule_available: true
+schedule_available: false

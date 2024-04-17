@@ -26,26 +26,26 @@ We kindly request you to note that the Call for Presentations is distinct from t
 
 If you are interested in submitting a Vendor Neutral Presentation for consideration, we invite you to visit our submission portal at https://www.rochestersecurity.org/speaking/. You will find detailed instructions and a form to submit your proposal.
 
-Please keep an eye on your inbox for the forthcoming announcement regarding the RSS:2023 Call for Sponsors and Sponsorship Pricing Details.
+Please keep an eye on your inbox for the forthcoming announcement regarding the RSS:{{ site.current_year }} Call for Sponsors and Sponsorship Pricing Details.
 
-Thank you for your continued interest in RSS:2023.
+Thank you for your continued interest in RSS:{{ site.current_year }}.
 {% endif %}
 
 {% if site.sponsorship_open  == true %}
 ## The official Call for Sponsors for RSS:{{ site.current_year }} is now open.
 
-<div class="mt-5 mb-5 text-center"><a class="btn btn-primary btn-lg" href="https://docs.google.com/forms/d/e/1FAIpQLSfbobyW-9o88uG---Dc13S0Tf_qAm6uX8We3-5c-DANnSmWtg/viewform" target="_blank">Submit Call for Sponsors Form</a></div>
+<div class="mt-5 mb-5 text-center"><a class="btn btn-primary btn-lg" href="https://docs.google.com/forms/d/1tLLO67Z8FzHHWPbjZqYOGJ46vFTUnHU4Z-j4JZqKJZI/viewform" target="_blank">Submit Call for Sponsors Form</a></div>
 
 ##  Important Dates
-* Call for Sponsors Deadline: July 10, 2023
+* Call for Sponsors Deadline: July 1, 2024
   * Submit a completed form using the link above before this date to be considered
-* RSS:2023 takes place on October 25 & 26, 2023
+* RSS:{{ site.current_year }} takes place on {% daterange site.conference_start_date, site.conference_end_date %}
 {%- endif -%}
 
 {% if site.sponsorship_waiting_list == true %}
 <h2 class="text-center">Sponsorship for RSS:{{ site.current_year }} is currently closed,<br>but join our waitlist.</h2>
 
-<div class="mt-5 mb-5 text-center"><a class="btn btn-primary btn-lg" href="https://docs.google.com/forms/d/e/1FAIpQLSfbobyW-9o88uG---Dc13S0Tf_qAm6uX8We3-5c-DANnSmWtg/viewform" target="_blank">Submit Call for Sponsors Form</a></div>
+<div class="mt-5 mb-5 text-center"><a class="btn btn-primary btn-lg" href="https://docs.google.com/forms/d/1tLLO67Z8FzHHWPbjZqYOGJ46vFTUnHU4Z-j4JZqKJZI/viewform" target="_blank">Submit Call for Sponsors Form</a></div>
 {% endif %}
 
 {%- if site.sponsorship_pricing -%}
@@ -53,7 +53,7 @@ Thank you for your continued interest in RSS:2023.
 <h2>Sponsor Level Benefits & Pricing</h2>
 The below table describes Rochester Security Summit sponsorship opportunities for this year.
 
-<div class="mt-5 mb-5 text-center"><a href="/files/RSS2023-Sponsorship-Pricing.pdf"><img id="sponsorship-pricing" src="/files/RSS2023-Sponsorship-Pricing.png" alt="Sponsorship Pricing Thumbnail" width="500px" style></a></div>
+<div class="mt-5 mb-5 text-center"><a href="/files/RSS{{ site.current_year }}-Sponsorship-Pricing.pdf"><img id="sponsorship-pricing" src="/files/RSS{{ site.current_year }}-Sponsorship-Pricing.png" alt="Sponsorship Pricing Thumbnail" width="500px" style></a></div>
 {%- endif -%}
 
 {%- if site.sponsorship_open -%}
@@ -96,15 +96,15 @@ Again, thank you for considering sponsoring the Rochester Security Summit. We si
 
 {% if site.sponsorship_attendee_profile == true %}
 <hr>
-The Summit has excellent representation across industries and job functions. In 2022, the profile of paid Summit attendees was as follows:
+The Summit has excellent representation across industries and job functions. In 2023, the profile of paid Summit attendees was as follows:
 
 <div class="container">
   <div class="row">
     <div class="col-md-6">
 
-### Attendee Profiles by Industry in 2022
+### Attendee Profiles by Industry in 2023
 
-<a href="/2022/attendees-by-industry.png" data-fslightbox="gallery"><img src="/2022/attendees-by-industry.png" class="img-responsive" alt="Attendee Profiles by Industry in 2022"></a>
+<a href="/2023/attendees-by-industry.png" data-fslightbox="gallery"><img src="/2023/attendees-by-industry.png" class="img-responsive" alt="Attendee Profiles by Industry in 2023"></a>
 
 <!--* 13% - Business Services
 * 7% - Consumer Products and Services
@@ -118,9 +118,9 @@ The Summit has excellent representation across industries and job functions. In 
     </div>
     <div class="col-md-6">
 					
-### Attendee Profiles by Job Function in 2022
+### Attendee Profiles by Job Function in 2023
 
-<a href="/2022/attendees-by-job-function.png" data-fslightbox="gallery"><img src="/2022/attendees-by-job-function.png" class="img-responsive" alt="Attendee Profiles by Job Function in 2022 (N=338)"></a>
+<a href="/2023/attendees-by-job-function.png" data-fslightbox="gallery"><img src="/2023/attendees-by-job-function.png" class="img-responsive" alt="Attendee Profiles by Job Function in 2023 (N=338)"></a>
 
 * 21.1% - Executive, VP or Director Level
 * 18.4% - IT Security Management

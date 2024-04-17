@@ -9,8 +9,8 @@ layout: page
       <div class="col-md-12">
         <div class="block">
           <h1 class="animated fadeInUp text-center">ROCHESTER SECURITY SUMMIT {{ site.current_year }}</h1>
-          {% if collections.confrences[site.current_year].theme %}<p class="animated fadeInUp text-center">ollections.confrences[site.current_year].theme</p>{% endif %}
-          <p class="animated fadeInUp text-center">October 25-26, 2023<br />
+          {% if collections.conferences[site.current_year].theme %}<p class="animated fadeInUp text-center">collections.conferences[site.current_year].theme</p>{% endif %}
+          <p class="animated fadeInUp text-center">{% daterange site.conference_start_date, site.conference_end_date %}<br />
           Rochester Riverside Convention Center</p>
         </div>
       </div>
@@ -24,13 +24,13 @@ layout: page
 		  <h1>RSS:{{ site.current_year }} Has Concluded</h1>
 			<p class="upcoming-dates text-center">We look forward to seeing you at RSS:{{ site.next_year }}{% if site.next_year_start_date %}, {% daterange site.next_year_start_date, site.next_year_end_date %}{% endif %}.</p>
 
-			<p class="text-center mt-5 mb-5"><a class="btn btn-lg btn-primary pt-5 pb-5" href="/2023/slides-videos/">RSS:2023 Presentation Slides & Videos</a></p> 
+			<p class="text-center mt-5 mb-5"><a class="btn btn-lg btn-primary pt-5 pb-5" href="/{{ site.current_year }}/slides-videos/">RSS:{{ site.current_year }} Presentation Slides & Videos</a></p> 
 	  </div>
 	{%- else -%}
 		<div class="col-md-6">
-			<h1>RSS:{{ site.current_year }}</h1>
-			<h2 class="conf-details-dates text-center">Wednesday, October 25 and<br>
-			Thursday, October 26, 2023</h2>
+			<h1 class="conf-details-dates text-center">
+			We look forward to seeing you at RSS:{{ site.current_year }} {% daterange site.conference_start_date, site.conference_end_date %}
+			</h1>
 			<p class="conf-details-loc text-center">Joseph A. Floreano Rochester Riverside Convention Center<br>
 			Rochester, NY</p>
 		</div>
@@ -49,23 +49,23 @@ layout: page
 	      <li>
 	      	<h2>Standard Registration</h2>
 	        <div class="price">$250.00</div>
-	        <div class="info">Sale ends on 10/06/2023</div>
+	        <div class="info">Sale ends on 10/06/2024</div>
 	      </li>
 	      {%- endif -%}
 	      {%- if site.registration_late -%}
 	      <li>
 	        <h2>Late Registration</h2>
 	        <div class="price">$350.00</div>
-	        <div class="info">Available starting 10/06/2023, until sold out</div>
+	        <div class="info">Available starting 10/06/2024, until sold out</div>
 	      </li>
 	      {%- endif -%}
 	      </ul>
-	      <div class="text-center mt-5 mb-5"><a class="btn btn-lg btn-primary pt-5 pb-5 " href="https://events.eventzilla.net/e/rochester-security-summit-2023-2138587562" target="_blank">Purchase Tickets</a></div>
+	      <div class="text-center mt-5 mb-5"><a class="btn btn-lg btn-primary pt-5 pb-5 " href="https://events.eventzilla.net/e/rochester-security-summit-2024-2138587562" target="_blank">Purchase Tickets</a></div>
 				{%- endif -%}
 				{%- if site.registration_sold_out -%}
 				<h1>Sold Out</h1>
 				<p class="text-center">RSS:{{ site.current_year }} has sold out.  Use the link below to join our waiting list.</p>
-				<div class="text-center mt-5 mb-5"><a class="btn btn-lg btn-primary pt-5 pb-5 " href="https://events.eventzilla.net/e/rochester-security-summit-2023-2138587562" target="_blank">Join Waiting List/Manage Registration</a></div>
+				<div class="text-center mt-5 mb-5"><a class="btn btn-lg btn-primary pt-5 pb-5 " href="https://events.eventzilla.net/e/rochester-security-summit-2024-2138587562" target="_blank">Join Waiting List/Manage Registration</a></div>
 				{%- endif -%}
 	    </aside>
 	{% endif %}
@@ -86,7 +86,7 @@ layout: page
 <section id="about" class="clearfix">
 	<p>Since 2006, the Rochester Security Summit has been a leading regional event that brings together a broad range of experts and professionals from the field of information security. Held annually during National Cyber Security Awareness Month, it serves as a community focal point for education and awareness; fostering discussion, knowledge sharing, and networking to help drive innovation and address the evolving challenges in the security landscape. From emerging trends to practical insights, our goal is to empower attendees with the latest information and strategies to enhance their cybersecurity practices.</p>
 
-	<p>The Rochester Security Summit is brought to you by the <a href="https://www.rocissa.org" target="_blank">Rochester Chapter</a> of the <a href="https://www.issa.org" target="_blank">Infomation Systems Security Association International (ISSA)</a>.</p>
+	<p>The Rochester Security Summit is brought to you by the <a href="https://www.rocissa.org" target="_blank">Rochester Chapter</a> of the <a href="https://www.issa.org" target="_blank">Information Systems Security Association International (ISSA)</a>.</p>
 </section>
 
 <!-- <section id="announcements">
@@ -206,7 +206,7 @@ Please let us know at [info@rochestersecurity.org](mailto:info@rochestersecurity
 	  {%- assign level_heading = 'h2' -%}
 	  {%- include 'homepage_sponsors.md' -%}
 
-	{%- elsif site.homepage_sponsors_show_prevous_year -%}
+	{%- elsif site.homepage_sponsors_show_previous_year -%}
 	  <h1>RSS:{{ site.previous_year }} Sponsors</h1>
 	  {%- assign active_year = site.previous_year -%}
 	  {%- assign level_heading = 'h2' -%}

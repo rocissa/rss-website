@@ -12,20 +12,20 @@ layout: page
 {% endif %}
 
 {% if site.speaking_cfp_open %}
-## RSS:{{ site.current_year }} Call for Presentations Has Closed
+## RSS:{{ site.current_year }} Call for Presentations
 
-**Conference Dates:** October 25 & 26, 2023 - (Wednesday & Thursday)<br>
+**Conference Dates:** {% daterange site.conference_start_date, site.conference_end_date %} <br>
 **Location:** The Joseph A. Floreano Rochester Riverside Convention Center
 
-The ISSA Rochester Chapter is excited to announce the Call for Presentations for RSS:2023. We invite all those interested in sharing their knowledge and expertise to submit a proposal for consideration by our selection committee.  
+The ISSA Rochester Chapter is excited to announce the Call for Presentations for RSS:{{ site.current_year }}. We invite all those interested in sharing their knowledge and expertise to submit a proposal for consideration by our selection committee.  
 
 Held during National Cyber Security Awareness Month, our conference is a focal point for education and awareness regarding Information Security in Western NY.  We seek presentations on a broad range of infosec topics, as we have a broad range of professionals and executives in attendance. Please note, we particularly need help meeting the demand for presentations that are technically oriented. Proposals regarding potential training sessions are also welcome!
 
-With the exception of  2020-21, RSS has taken place annually since 2006 and has typically been a sell-out event as a result of collaboration with all of our outstanding partners.  We want to hear from you and we look forward to seeing you this Fall! 
+With the exception of 2020-21, RSS has taken place annually since 2006 and has typically been a sell-out event as a result of collaboration with all of our outstanding partners.  We want to hear from you and we look forward to seeing you this Fall! 
 
 
-<div class="mt-5 text-center"><a class="btn btn-primary btn-lg" href="https://docs.google.com/forms/d/1q5SGkXUgSxv9o9Chra_4dWhxLQu-_KpGDDjwRtRe7tY/" target="_blank">Submit A Proposal to the Waitlist</a><br>
-Submission deadline: August 15, 2023</div>
+<div class="mt-5 text-center"><a class="btn btn-primary btn-lg" href="https://docs.google.com/forms/d/16bwzz9SCqXdS3FxQ2SILVFT1YTDIoE1MY-9RNzWb0Tc/" target="_blank">Submit A Proposal to the Waitlist</a><br>
+Submission deadline: August 1, 2024</div>
 
 ### Important Information: 
 
@@ -48,15 +48,6 @@ The Rochester Security Summit Speaker Committee
 
 Please contact [speaker@rochestersecurity.org](mailto:speaker@rochestersecurity.org) for more information.
 
-
-### Key Dates:
-
-* August 15 - Last Day for Accepting Proposal Submissions
-* Early September  - Committee will Respond to Proposals 
-* September 22  - Final Program Abstract & Biography Due + Draft Copy of Presentation Slides due
-* October 6  - Final Copy of Presentation Slides due (will be used for distribution to attendees)
-* October 25 & 26 - The Rochester Security Summit: 2023
-
 {% endif %}
 
 {% if site.speaking_cfp_closed %}
@@ -75,8 +66,8 @@ Please contact [speaker@rochestersecurity.org](mailto:speaker@rochestersecurity.
 {% if site.speaking_show_key_dates %}
 ### Key Dates
 
-* {{ site.speaking_proposals_due | date: "%B %e" }} &emdash; Last day for accepting proposal submissions
-* {{ site.speaking_committee_responses | date: "%B %e" }} &emdash; Committee will respond to proposals
-* {{ site.speaking_materials_due | date: "%B %e" }} &emdash; Final program abstract, biography, and draft copy of presentation slides due
-* {{ site.speaking_presentation_due | date: "%B %e" }} &emdash; Final copy of presentation slides due (will be used for distribution to attendees)
+* {{ site.speaking_proposals_due | date: "%B %e" }} &mdash; Last day for accepting proposal submissions
+* {{ site.speaking_committee_responses | date: "%B %e" }} &mdash; Committee will respond to proposals
+* {{ site.speaking_materials_due | date: "%B %e" }} &mdash; Final program abstract, biography, and draft copy of presentation slides due
+* {{ site.speaking_presentation_due | date: "%B %e" }} &mdash; Final copy of presentation slides due (will be used for distribution to attendees)
 {% endif %}
