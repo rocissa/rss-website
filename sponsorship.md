@@ -7,7 +7,7 @@ layout: page
 {% endif %}
 
 {% if site.sponsorship_next_year == true %}
-<h2 class="text-center">Sponsorship information for RSS:{{ site.next_year }} will be available this spring.</h2>
+<h2 class="text-center">Sponsorship information for RSS:{{ site.next_year }} will be available this spring</h2>
 {% endif %}
 
 {% if site.sponsorship_not_yet_open == true %}
@@ -18,13 +18,14 @@ layout: page
 ## Call for Sponsors and Sponsorship Pricing Details Coming Soon!
 
 We are excited to announce we are preparing to open our Call for Sponsors in the coming weeks.
+
 In addition to that, information about the Platinum Sponsor SEE Track will also be available soon. These talks offer an excellent opportunity for sponsors to showcase their expertise and engage with the audience.
 
 While we finalize the details for opening sponsorship, we would like to inform you that our Call for Presentations is now open for vendor-neutral talks. This is a separate avenue where individuals can share their knowledge and insights with the community. You do not have to be a paid sponsor to participate in the Call for Presentations, as the presentations are awarded to individuals rather than companies.
 
 We kindly request you to note that the Call for Presentations is distinct from the SEE Track speaking slots, which is an exclusive benefit for Platinum Sponsors. The SEE Track speaking slots are specifically reserved for our esteemed sponsors to deliver presentations related to their products, services, or areas of expertise.
 
-If you are interested in submitting a Vendor Neutral Presentation for consideration, we invite you to visit our submission portal at https://www.rochestersecurity.org/speaking/. You will find detailed instructions and a form to submit your proposal.
+If you are interested in submitting a Vendor Neutral Presentation for consideration, we invite you to visit our submission portal at {{ site.speaking_page_url }}. You will find detailed instructions and a form to submit your proposal.
 
 Please keep an eye on your inbox for the forthcoming announcement regarding the RSS:{{ site.current_year }} Call for Sponsors and Sponsorship Pricing Details.
 
@@ -32,45 +33,41 @@ Thank you for your continued interest in RSS:{{ site.current_year }}.
 {% endif %}
 
 {% if site.sponsorship_open  == true %}
-## The official Call for Sponsors for RSS:{{ site.current_year }} is now open.
+<h2 class="text-center">The official Call for Sponsors for RSS:{{ site.current_year }} is now open</h2>
 
-<div class="mt-5 mb-5 text-center"><a class="btn btn-primary btn-lg" href="https://docs.google.com/forms/d/1tLLO67Z8FzHHWPbjZqYOGJ46vFTUnHU4Z-j4JZqKJZI/viewform" target="_blank">Submit Call for Sponsors Form</a></div>
+<div class="mt-5 mb-5 text-center"><a class="btn btn-primary btn-lg" href="{{ site.sponsorship_form_url }}" target="_blank">Submit Call for Sponsors Form</a></div>
 
 ##  Important Dates
-* Call for Sponsors Deadline: July 1, 2024
-  * Submit a completed form using the link above before this date to be considered
-* RSS:{{ site.current_year }} takes place on {% daterange site.conference_start_date, site.conference_end_date %}
-{%- endif -%}
 
+* Call for Sponsors Deadline: {{ site.sponsorship_applications_due | date: "%B %e, %Y" }}
+
+  *Submit a completed form using the link above before this date to be considered*
+  
+* RSS:{{ site.current_year }} takes place on {% daterange site.conference_start_date, site.conference_end_date %}
+{% endif %}
 {% if site.sponsorship_waiting_list == true %}
 <h2 class="text-center">Sponsorship for RSS:{{ site.current_year }} is currently closed,<br>but join our waitlist.</h2>
 
-<div class="mt-5 mb-5 text-center"><a class="btn btn-primary btn-lg" href="https://docs.google.com/forms/d/1tLLO67Z8FzHHWPbjZqYOGJ46vFTUnHU4Z-j4JZqKJZI/viewform" target="_blank">Submit Call for Sponsors Form</a></div>
+<div class="mt-5 mb-5 text-center"><a class="btn btn-primary btn-lg" href="{{ site.sponsorship_form_url }}" target="_blank">Submit Call for Sponsors Form</a></div>
 {% endif %}
-
-{%- if site.sponsorship_pricing -%}
-
+{% if site.sponsorship_pricing %}
 <h2>Sponsor Level Benefits & Pricing</h2>
 The below table describes Rochester Security Summit sponsorship opportunities for this year.
 
 <div class="mt-5 mb-5 text-center"><a href="/files/RSS{{ site.current_year }}-Sponsorship-Pricing.pdf"><img id="sponsorship-pricing" src="/files/RSS{{ site.current_year }}-Sponsorship-Pricing.png" alt="Sponsorship Pricing Thumbnail" width="500px" style></a></div>
-{%- endif -%}
+{% endif %}
+{% if site.sponsorship_open %}
 
-{%- if site.sponsorship_open -%}
 ## About the Selection Process
 
-Given limited available space, sponsorships are allocated through lottery. By submitting this form, your company will be entered into a random drawing and sponsorship will be awarded according to the order drawn. No deposit is taken and organizations can ask to be removed from consideration at any point.
-
-We will do our best to match your preferences indicated in the form with our available sponsorship opportunities.
-
-Note, the Diamond Selection is a separate drawing, exclusive to Platinum Sponsors who have indicated an interest in Diamond as a preference level. 
-
-After the lottery is complete, we will maintain a waiting list of potential sponsors, in case of dropouts or cancellations. 
-
-Again, thank you for considering sponsoring the Rochester Security Summit. We sincerely appreciate your interest and your involvement in making our event a continued success. 
+> Given limited available space, sponsorships are allocated through lottery.
+> By submitting this form, your company will be entered into a random drawing and sponsorship will be awarded according to the order drawn.
+> No deposit is taken and organizations can ask to be removed from consideration at any point.
+> We will do our best to match your preferences indicated in the form with our available sponsorship opportunities.
+> Note, the Diamond Selection is a separate drawing, exclusive to Platinum Sponsors who have indicated an interest in Diamond as a preference level. 
+> After the lottery is complete, we will maintain a waiting list of potential sponsors, in case of dropouts or cancellations. 
+> Again, thank you for considering sponsoring the Rochester Security Summit. We sincerely appreciate your interest and your involvement in making our event a continued success. 
 {% endif %}
-
-
 
 {% if site.sponsorship_sold_out == true %}
 <h2 class="text-center">Sponsorship for RSS:{{ site.current_year }} has sold out.</h2>
@@ -160,14 +157,12 @@ The Summit has excellent representation across industries and job functions. In 
 </dl>
 {% endif %}
 
-
-
 <div class="text-center mt-5 mb-5">
 <div class="mt-5 mb-5 text-center"><a class="btn btn-primary btn-lg" href="/sponsor-mailing-list">Join Our Sponsorship Mailing List</a></div>
 
 <hr />
 
-**Have a question? Please contact [sponsorship@rochestersecurity.org](mailto:sponsorship@rochestersecurity.org).**
+**Have a question? Please contact <{{ site.sponsorship_contact_link }}>**
 
 </div>
 

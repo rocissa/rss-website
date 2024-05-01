@@ -49,9 +49,9 @@ layout: page
 <div class="mc-field-group input-group">
     <strong>Also email me about:</strong>
     <ul><li style="display: none"><input type="checkbox" value="1" name="group[364752][1]" id="mce-group[364752]-364752-0" checked><label for="mce-group[364752]-364752-0">Rochester Security Summit</label></li>
-<li><input type="checkbox" value="2" name="group[364752][2]" id="mce-group[364752]-364752-1"><label for="mce-group[364752]-364752-1">ISSA Rochester Chapter</label></li>
-<li><input type="checkbox" value="4" name="group[364752][4]" id="mce-group[364752]-364752-2"><label for="mce-group[364752]-364752-2">Other Local Events</label></li>
-<li><input type="checkbox" value="8" name="group[364752][8]" id="mce-group[364752]-364752-3"><label for="mce-group[364752]-364752-3">Job Listings</label></li>
+<li><input type="checkbox" value="2" name="group[364752][2]" id="mce-group[364752]-364752-1"><label for="mce-group[364752]-364752-1"> ISSA Rochester Chapter</label></li>
+<li><input type="checkbox" value="4" name="group[364752][4]" id="mce-group[364752]-364752-2"><label for="mce-group[364752]-364752-2"> Other Local Events</label></li>
+<li><input type="checkbox" value="8" name="group[364752][8]" id="mce-group[364752]-364752-3"><label for="mce-group[364752]-364752-3"> Job Listings</label></li>
 <li style="display: none"><input type="checkbox" value="16" name="group[364752][16]" id="mce-group[364752]-364752-4" checked><label for="mce-group[364752]-364752-4">Sponsorship Opportunities</label></li>
 </ul>
 </div>

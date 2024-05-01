@@ -19,54 +19,54 @@ layout: page
 </section>
 
 <section id="conference" class="clearfix">
-	{%- if site.registration_event_concluded -%}
+	{% if site.registration_event_concluded %}
 	  <div class="col-md-12">
 		  <h1>RSS:{{ site.current_year }} Has Concluded</h1>
 			<p class="upcoming-dates text-center">We look forward to seeing you at RSS:{{ site.next_year }}{% if site.next_year_start_date %}, {% daterange site.next_year_start_date, site.next_year_end_date %}{% endif %}.</p>
 
 			<p class="text-center mt-5 mb-5"><a class="btn btn-lg btn-primary pt-5 pb-5" href="/{{ site.current_year }}/slides-videos/">RSS:{{ site.current_year }} Presentation Slides & Videos</a></p> 
 	  </div>
-	{%- else -%}
+	{% else %}
 		<div class="col-md-6">
-			<h1 class="conf-details-dates text-center">
-			We look forward to seeing you at RSS:{{ site.current_year }} {% daterange site.conference_start_date, site.conference_end_date %}
-			</h1>
-			<p class="conf-details-loc text-center">Joseph A. Floreano Rochester Riverside Convention Center<br>
-			Rochester, NY</p>
+	    <h1 class="conf-details-dates text-center">
+		We look forward to seeing you at RSS:{{ site.current_year }} {% daterange site.conference_start_date, site.conference_end_date %}
+		</h1>
+		<p class="conf-details-loc text-center">Joseph A. Floreano Rochester Riverside Convention Center <br>
+		                                Rochester, NY</p>
 		</div>
 		<aside id="tickets" class="col-md-6">
-			{%- if site.registration_enabled == true -%}
+		  {% if site.registration_enabled == true %}
 			<h1>Tickets</h1>
 			<ul class="ticket-options">
-				{%- if site.registration_early_bird -%}
-			  <li>
+			  {% if site.registration_early_bird %}
+			    <li>
 			    <h2>Early Bird Registration</h2>
-			    <div class="price">$150.00</div>
-	        <div class="info">Limited availability. First come, first served.</div>
-	      </li>
-	      {%- endif -%}
-	      {%- if site.registration_standard -%}
-	      <li>
-	      	<h2>Standard Registration</h2>
-	        <div class="price">$250.00</div>
-	        <div class="info">Sale ends on 10/06/2024</div>
-	      </li>
-	      {%- endif -%}
-	      {%- if site.registration_late -%}
-	      <li>
-	        <h2>Late Registration</h2>
-	        <div class="price">$350.00</div>
-	        <div class="info">Available starting 10/06/2024, until sold out</div>
-	      </li>
-	      {%- endif -%}
-	      </ul>
-	      <div class="text-center mt-5 mb-5"><a class="btn btn-lg btn-primary pt-5 pb-5 " href="https://events.eventzilla.net/e/rochester-security-summit-2024-2138587562" target="_blank">Purchase Tickets</a></div>
-				{%- endif -%}
-				{%- if site.registration_sold_out -%}
-				<h1>Sold Out</h1>
-				<p class="text-center">RSS:{{ site.current_year }} has sold out.  Use the link below to join our waiting list.</p>
-				<div class="text-center mt-5 mb-5"><a class="btn btn-lg btn-primary pt-5 pb-5 " href="https://events.eventzilla.net/e/rochester-security-summit-2024-2138587562" target="_blank">Join Waiting List/Manage Registration</a></div>
-				{%- endif -%}
+			    <div class="price">{{ site.registration_early_bird_cost }}</div>
+	            <div class="info">Sale ends on {{ site.registration_early_bird_end_date | date: "%B %e, %Y" }}</div>
+	            </li>
+	          {% endif %}
+	          {% if site.registration_standard %}
+	            <li>
+	      	    <h2>Standard Registration</h2>
+	            <div class="price">{{ site.registration_standard_cost }}</div>
+	            <div class="info">Sale ends on {{ site.registration_standard_end_date | date: "%B %e, %Y" }}</div>
+	            </li>
+	          {% endif %}
+	         {% if site.registration_late %}
+	            <li>
+	            <h2>Late Registration</h2>
+	            <div class="price">{{ site.registration_late_cost }}</div>
+	            <div class="info">Available starting {{ site.registration_standard_end_date | date: "%B %e, %Y" }}, until sold out</div>
+	            </li>
+	         {% endif %}
+	        </ul>
+	        <div class="text-center mt-5 mb-5"><a class="btn btn-lg btn-primary pt-5 pb-5 " href="{{ site.registration_ticket_url }}" target="_blank">Purchase Tickets</a></div>
+		  {% endif %}
+		  {% if site.registration_sold_out %}
+			<h1>Sold Out</h1>
+			<p class="text-center">RSS:{{ site.current_year }} has sold out.  Use the link below to join our waiting list.</p>
+			<div class="text-center mt-5 mb-5"><a class="btn btn-lg btn-primary pt-5 pb-5 " href="{{ site.registration_ticket_url }}" target="_blank">Join Waiting List/Manage Registration</a></div>
+		  {% endif %}
 	    </aside>
 	{% endif %}
 </section>
@@ -84,17 +84,17 @@ layout: page
 {% endif %}
 
 <section id="about" class="clearfix">
-	<p>Since 2006, the Rochester Security Summit has been a leading regional event that brings together a broad range of experts and professionals from the field of information security. Held annually during National Cyber Security Awareness Month, it serves as a community focal point for education and awareness; fostering discussion, knowledge sharing, and networking to help drive innovation and address the evolving challenges in the security landscape. From emerging trends to practical insights, our goal is to empower attendees with the latest information and strategies to enhance their cybersecurity practices.</p>
+> Since 2006, the Rochester Security Summit has been a leading regional event that brings together a broad range of experts and professionals from the field of information security. Held annually during National Cyber Security Awareness Month, it serves as a community focal point for education and awareness; fostering discussion, knowledge sharing, and networking to help drive innovation and address the evolving challenges in the security landscape. From emerging trends to practical insights, our goal is to empower attendees with the latest information and strategies to enhance their cybersecurity practices
 
-	<p>The Rochester Security Summit is brought to you by the <a href="https://www.rocissa.org" target="_blank">Rochester Chapter</a> of the <a href="https://www.issa.org" target="_blank">Information Systems Security Association International (ISSA)</a>.</p>
+> The Rochester Security Summit is brought to you by the <a href="https://www.rocissa.org" target="_blank">Rochester Chapter</a> of the <a href="https://www.issa.org" target="_blank">Information Systems Security Association International (ISSA)</a>
 </section>
 
 <!-- <section id="announcements">
 	<div class="col-md-12">
 		{%- if site.homepage_show_call_for_volunteers == true -%}
-## Interested in helping out with RSS:2022?
+## Interested in helping out with RSS:2024?
 
-Please let us know at [info@rochestersecurity.org](mailto:info@rochestersecurity.org).
+Please let us know at <information_contact_link>
     {%- endif -%}
 	</div>
 </section> -->
@@ -131,8 +131,6 @@ Please let us know at [info@rochestersecurity.org](mailto:info@rochestersecurity
 	  </section>
 	  {%- endif -%}
 {%- endif -%}
-
-
 {%- if site.homepage_show_venue == true or site.homepage_show_hotels == true -%}
 <section id="location" class="clearfix">
 	  <div class="col-md-12">
