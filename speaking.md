@@ -47,7 +47,7 @@ Thank you,
 
 The Rochester Security Summit Speaker Committee
 
-Please contact <{{ site.speaking_contact_link }}> for more information
+Please contact <{{ site.speaking_contact_email }}> for more information
 
 {% endif %}
 {% if site.speaking_cfp_closed %}

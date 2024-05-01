@@ -162,7 +162,7 @@ The Summit has excellent representation across industries and job functions. In 
 
 <hr />
 
-**Have a question? Please contact <{{ site.sponsorship_contact_link }}>**
+**Have a question? Please contact <{{ site.sponsorship_contact_email }}>**
 
 </div>
 

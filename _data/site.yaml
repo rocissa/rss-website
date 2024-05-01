@@ -101,8 +101,9 @@ schedule_available: false
 # Google form URLs and contact emails
 sponsorship_form_url: https://docs.google.com/forms/d/1tLLO67Z8FzHHWPbjZqYOGJ46vFTUnHU4Z-j4JZqKJZI/viewform
 speaking_form_url: https://docs.google.com/forms/d/16bwzz9SCqXdS3FxQ2SILVFT1YTDIoE1MY-9RNzWb0Tc/
-sponsorship_contact_link: sponsorship@rochestersecurity.org
-speaking_contact_link: speaker@rochestersecurity.org
-information_contact_link: info@rochestersecurity.org
+sponsorship_contact_email: sponsorship@rochestersecurity.org
+speaking_contact_email: speaker@rochestersecurity.org
+information_contact_email: info@rochestersecurity.org
+registration_contact_email: registrar@rochestersecurity.org
 registration_ticket_url: https://events.eventzilla.net/e/rochester-security-summit-2024-2138587562
 
