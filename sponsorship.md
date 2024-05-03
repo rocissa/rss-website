@@ -2,8 +2,12 @@
 title: Sponsorship Information
 layout: page
 ---
+
+---
+
+<div class="mt-5 mb-5 text-center">
 {% if site.sponsorship_show_w9_link == true %}
-<div class="mt-5 mb-5 text-center"><a class="btn btn-lg btn-primary" href="/files/w9.pdf">W-9 (PDF)</a></div>
+<a class="btn btn-lg btn-primary" href="/files/w9.pdf">W-9 (PDF)</a>
 {% endif %}
 
 {% if site.sponsorship_next_year == true %}
@@ -11,33 +15,30 @@ layout: page
 {% endif %}
 
 {% if site.sponsorship_not_yet_open == true %}
-<h2 class="text-center">Sponsorship Not Yet Open</h2>
+## Sponsorship Not Yet Open
 {% endif %}
 
 {% if site.sponsorship_coming_soon == true %}
-## Call for Sponsors and Sponsorship Pricing Details Coming Soon!
+## Sponsorship Opportunities Coming Soon!
 
-We are excited to announce we are preparing to open our Call for Sponsors in the coming weeks.
+*Keep an eye on this space for updates and join our mailing list!*
 
-In addition to that, information about the Platinum Sponsor SEE Track will also be available soon. These talks offer an excellent opportunity for sponsors to showcase their expertise and engage with the audience.
-
-While we finalize the details for opening sponsorship, we would like to inform you that our Call for Presentations is now open for vendor-neutral talks. This is a separate avenue where individuals can share their knowledge and insights with the community. You do not have to be a paid sponsor to participate in the Call for Presentations, as the presentations are awarded to individuals rather than companies.
-
-We kindly request you to note that the Call for Presentations is distinct from the SEE Track speaking slots, which is an exclusive benefit for Platinum Sponsors. The SEE Track speaking slots are specifically reserved for our esteemed sponsors to deliver presentations related to their products, services, or areas of expertise.
-
-If you are interested in submitting a Vendor Neutral Presentation for consideration, we invite you to visit our submission portal at {{ site.speaking_page_url }}. You will find detailed instructions and a form to submit your proposal.
-
-Please keep an eye on your inbox for the forthcoming announcement regarding the RSS:{{ site.current_year }} Call for Sponsors and Sponsorship Pricing Details.
-
+<div><a class="btn btn-primary btn-lg" href="/sponsor-mailing-list" target="_blank">Join Our Sponsorship Mailing List</a></div>
+<br/>
+<div class="sponsor-intro">
+While we finalize the details for opening sponsorship, we would like to inform you that our Call for Presentations is now open. If you are interested in submitting presentation for consideration, we invite you to visit our submission portal at {{ site.speaking_page_url }}, where you will find detailed instructions and a form to submit your proposal.
+</div>
+<br/>
 Thank you for your continued interest in RSS:{{ site.current_year }}.
 {% endif %}
+</div>
 
 {% if site.sponsorship_open  == true %}
 <h2 class="text-center">The official Call for Sponsors for RSS:{{ site.current_year }} is now open</h2>
 
 <div class="mt-5 mb-5 text-center"><a class="btn btn-primary btn-lg" href="{{ site.sponsorship_form_url }}" target="_blank">Submit Call for Sponsors Form</a></div>
 
-##  Important Dates
+## Important Dates
 
 * Call for Sponsors Deadline: {{ site.sponsorship_applications_due | date: "%B %e, %Y" }}
 
@@ -93,15 +94,15 @@ The below table describes Rochester Security Summit sponsorship opportunities fo
 
 {% if site.sponsorship_attendee_profile == true %}
 <hr>
-The Summit has excellent representation across industries and job functions. In 2023, the profile of paid Summit attendees was as follows:
+The Summit has excellent representation across industries and job functions. In 2022, the profile of paid Summit attendees was as follows:
 
 <div class="container">
   <div class="row">
     <div class="col-md-6">
 
-### Attendee Profiles by Industry in 2023
+### Attendee Profiles by Industry in 2022
 
-<a href="/2023/attendees-by-industry.png" data-fslightbox="gallery"><img src="/2023/attendees-by-industry.png" class="img-responsive" alt="Attendee Profiles by Industry in 2023"></a>
+<a href="/2022/attendees-by-industry.png" data-fslightbox="gallery"><img src="/2022/attendees-by-industry.png" class="img-responsive" alt="Attendee Profiles by Industry in 2022"></a>
 
 <!--* 13% - Business Services
 * 7% - Consumer Products and Services
@@ -115,9 +116,9 @@ The Summit has excellent representation across industries and job functions. In 
     </div>
     <div class="col-md-6">
 					
-### Attendee Profiles by Job Function in 2023
+### Attendee Profiles by Job Function in 2022
 
-<a href="/2023/attendees-by-job-function.png" data-fslightbox="gallery"><img src="/2023/attendees-by-job-function.png" class="img-responsive" alt="Attendee Profiles by Job Function in 2023 (N=338)"></a>
+<a href="/2022/attendees-by-job-function.png" data-fslightbox="gallery"><img src="/2022/attendees-by-job-function.png" class="img-responsive" alt="Attendee Profiles by Job Function in 2022 (N=338)"></a>
 
 * 21.1% - Executive, VP or Director Level
 * 18.4% - IT Security Management
@@ -156,9 +157,6 @@ The Summit has excellent representation across industries and job functions. In 
   We appreciate your consideration in this matter.</dd>
 </dl>
 {% endif %}
-
-<div class="text-center mt-5 mb-5">
-<div class="mt-5 mb-5 text-center"><a class="btn btn-primary btn-lg" href="/sponsor-mailing-list">Join Our Sponsorship Mailing List</a></div>
 
 <hr />
 

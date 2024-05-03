@@ -7,6 +7,10 @@
 	margin :1em;
 }
 
+.sponsor-intro {
+	text-align: center;
+}
+
 .sponsors {
 	text-align: center;
 }
@@ -116,9 +120,14 @@ ul.social > li {
 	height: 80px;
 }
 
+.tickets {
+	width: 100%;
+}
+
 .ticket-options {
 	list-style: none;
 	margin: 0;
+	text-align: center;
 }
 .ticket-options li {
 	border: 1px solid #dcdcdc;
@@ -126,23 +135,26 @@ ul.social > li {
 	padding: 25px;
 	display: flex;
 	flex-flow: row wrap;
+	text-align: center;
 }
 .ticket-options h2 {
     font-size: 2rem;
     font-weight: normal;
     text-transform: uppercase;
+    text-align: left;
     padding: 0;
     margin: 0;
-    width: 75%;
+    width: 60%;
 }
 .ticket-options .price {
 	font-size: 2rem;
 	text-align: right;
-	width: 25%;
 	font-weight: bold;
+	width: 20%;
 }
 .ticket-options .info {
-	width: 100%;
+	text-align: left;
+	width: 80%;
 }
 
 .conf-details-dates {

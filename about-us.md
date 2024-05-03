@@ -6,11 +6,11 @@ layout: page
 The Rochester Security Summit is held annually during National Cyber Security Awareness Month. Since 2006, RSS has been a leading regional event that brings together a broad range of professionals and organizations from across a wide range of industries. RSS serves as a community focal point for education and awareness; fostering discussion, knowledge sharing, and networking to help drive innovation and address the evolving challenges in the security landscape. (Brought to you by the [Rochester ISSA Chapter](https://www.rocissa.org){target=_blank})
 
 
-## 2023 General Planning Committee
+## 2024 General Planning Committee
 
 <sup>*</sup> indicates RocISSA Chapter Officer
 
-* **Summit Chair** - John King<sup>*</sup>, Flexion Inc. (ISSA, InfraGard)
+* **Summit Chair** - John King<sup>*</sup>, Flexion Inc. (ISSA, InfraGard, OWASP)
 * **Summit Coordinator** - Mary Beth King, Rochester Security Summit
 * Dennis Allen, Stratascale
 * Shaquille Barnes, ESL (ISSA, InfraGard)
@@ -31,8 +31,10 @@ The Rochester Security Summit is held annually during National Cyber Security Aw
 * Jason Pitoniak<sup>*</sup>, Rochester Institute of Technology (ISSA, OWASP)
 * Rose Rozeski<sup>*</sup>, Independent Health (ISSA)
 * Rich Savacool<sup>*</sup>, Nixon Peabody, LLP (ISSA)
+* Deb Shymalov, Eastman Kodak
 * Richard Smith, Security Risk Advisors (ISSA)
 * David Warden<sup>*</sup>, SUNY Geneseo (ISSA)
+* Edward Woodfield, PayQuicker (ISSA, InfraGard)
 * Jason Woodson, Major League Baseball
 
 ## Speaker Committee
