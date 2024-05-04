@@ -7,6 +7,29 @@
 	margin :1em;
 }
 
+.page-div {
+	margin: 20px 50px;
+	text-align: center;
+}
+
+.block-text {
+	margin: 10px 40px;
+	text-align: justify;
+	border: 1px solid #dcdcdc;
+	background-color: #fafafa;
+	padding: 1rem;
+	width: auto;
+}
+
+.block-text h1 {
+	text-transform: uppercase;
+}
+
+.attention {
+	background-color: #FCD87F;
+	margin: 10px 40px;
+}
+
 .sponsor-intro {
 	text-align: center;
 }
@@ -121,7 +144,7 @@ ul.social > li {
 }
 
 .tickets {
-	width: 100%;
+	width: auto;
 }
 
 .ticket-options {

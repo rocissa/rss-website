@@ -1,7 +1,8 @@
 ---
 layout: page
 ---
-
+<div class="page-div">
+</div>
 <!-- Slider Start -->
 <section id="slider">
   <div class="container">
@@ -17,48 +18,46 @@ layout: page
     </div>
   </div>
 </section>
-<br />
 <section id="conference" class="clearfix">
-	{% if site.registration_event_concluded %}
-	<div class="text-center">
-		  <h1 class="text-center">RSS:{{ site.current_year }} Has Concluded</h1>
-			<p class="upcoming-dates text-center">We look forward to seeing you at RSS:{{ site.next_year }}{% if site.next_year_start_date %}, {% daterange site.next_year_start_date, site.next_year_end_date %}{% endif %}.</p>
-
-			<p class="text-center mt-5 mb-5"><a class="btn btn-lg btn-primary pt-5 pb-5" href="/{{ site.current_year }}/slides-videos/">RSS:{{ site.current_year }} Presentation Slides & Videos</a></p>
+	{%- if site.registration_event_concluded -%}
+	<div>
+		<h1 class="text-center">RSS:{{ site.current_year }} Has Concluded</h1>
+		<p class="upcoming-dates text-center">We look forward to seeing you at RSS:{{ site.next_year }}{% if site.next_year_start_date %}, {% daterange site.next_year_start_date, site.next_year_end_date %}{% endif %}.</p>
+		<p class="text-center mt-5 mb-5"><a class="btn btn-lg btn-primary pt-5 pb-5" href="/{{ site.current_year }}/slides-videos/">RSS:{{ site.current_year }} Presentation Slides & Videos</a></p>
 	</div>
 	{%- else -%}
 	<hr/>
-	<div class="text-center">
+	<div>
 		<h1 class="text-center">We look forward to seeing you at RSS:{{ site.current_year }}</h1> 
-		<h2 class="text-center">{% daterange site.conference_start_date, site.conference_end_date %}</h2>
-		<p><b>Joseph A. Floreano Rochester Riverside Convention Center</b></p>
-		<p><b>Rochester, NY</b></p>
+		<h2 class="text-center">{% daterange site.conference_start_date, site.conference_end_date %}</h2><br/>
+		<p class="text-center"><b>Joseph A. Floreano Rochester Riverside Convention Center</b></p>
+		<p class="text-center"><b>Rochester, NY</b></p>
 		<hr/>
 		{%- if site.registration_enabled == true -%}
 		<div id="tickets" class="tickets">
-			<h1>TICKETS</h1>
+			<h1 class="text-center">TICKETS</h1>
 			<ul class="ticket-options">
-			  {% if site.registration_early_bird %}
+			  {%- if site.registration_early_bird -%}
 			    <li>
 			    <h2>Early Bird Registration</h2>
 			    <div class="price">{{ site.registration_early_bird_cost }}</div>
 	            <div class="info">Sale ends on {{ site.registration_early_bird_end_date | date: "%B %e, %Y" }}</div>
 	            </li>
-	          {% endif %}
-	          {% if site.registration_standard %}
+	          {%- endif -%}
+	          {%- if site.registration_standard -%}
 	            <li>
 	      	    <h2>Standard Registration</h2>
 	            <div class="price">{{ site.registration_standard_cost }}</div>
 	            <div class="info">Sale ends on {{ site.registration_standard_end_date | date: "%B %e, %Y" }}</div>
 	            </li>
-	          {% endif %}
-	          {% if site.registration_late %}
+	          {%- endif -%}
+	          {%- if site.registration_late -%}
 	            <li>
 	            <h2>Late Registration</h2>
 	            <div class="price">{{ site.registration_late_cost }}</div>
 	            <div class="info">Available starting {{ site.registration_standard_end_date | date: "%B %e, %Y" }}, until sold out</div>
 	            </li>
-	          {% endif %}
+	          {%- endif -%}
 	        </ul>
 	        <div class="text-center mt-5 mb-5"><a class="btn btn-lg btn-primary pt-5 pb-5 " href="{{ site.registration_ticket_url }}" target="_blank">Purchase Tickets</a></div>
 		  {%- endif -%}
@@ -69,37 +68,8 @@ layout: page
 		{%- endif -%}
 	    </div>
 	</div>
-	{% endif %}
+	{%- endif -%}
 </section>
-<section id="about" class="clearfix">
-Since 2006, the Rochester Security Summit has been a leading regional event that brings together a broad range of experts and professionals from the field of information security. Held annually during National Cyber Security Awareness Month, it serves as a community focal point for education and awareness; fostering discussion, knowledge sharing, and networking to help drive innovation and address the evolving challenges in the security landscape. From emerging trends to practical insights, our goal is to empower attendees with the latest information and strategies to enhance their cybersecurity practices
-
-The Rochester Security Summit is brought to you by the <a href="https://www.rocissa.org" target="_blank">Rochester Chapter</a> of the <a href="https://www.issa.org" target="_blank">Information Systems Security Association International (ISSA)</a>
-</section>
-<section id="cpe">
-	<h1>Continuing Education Credits</h1>
-	<p>Attending Rochester Security Summit sessions satisfies continuing education requirements for a number of professional certifications. Certificates of attendance are provided to participants. If you have misplaced your certificate, please send an email to <a href="mailto:cpe@rochestersecurity.org">cpe@rochestersecurity.org</a>.</p>
-</section>
-{% if site.homepage_show_app_links %}
-<section id="app" class="clearfix">
-  <h1 class="sr-only">Get our app</h1>
-  <p class="text-center pb-5 mb-5"><strong>Get our full program via our mobile event app:</strong></p>
-  <ul class="app-links">
-  	<li><a href="{{ site.app_ios_url }}" target="_blank"><img src="/images/apple-appstore-badge.png" alt="Download on the Apple App Store"></a></li>
-  	<li><a href="{{ site.app_android_url }}" target="_blank"><img src="/images/google-play-badge.png" alt="Get it on Google Play"></a></li>
-  	<li><a href="{{ site.app_web_url }}" target="_blank" class="btn btn-lg btn-primary">Or View In Your Browser</a></li>
-  </ul>
-</section>
-{% endif %}
-<!-- <section id="announcements">
-	<div class="col-md-12">
-		{%- if site.homepage_show_call_for_volunteers == true -%}
-## Interested in helping out with RSS:2024?
-
-Please let us know at <information_contact_link>
-    {%- endif -%}
-	</div>
-</section> -->
 {%- if site.homepage_show_keynotes -%}
     {%- assign currentKeynotes = collections.keynotes | where: "data.year", site.current_year | sort: "data.weight" -%}
     {%- assign numberKeynotes = currentKeynotes | size -%}
@@ -133,13 +103,43 @@ Please let us know at <information_contact_link>
 	  {%- endif -%}
 {%- else -%}
 <hr/>
-# Speaking Opportunities Coming Soon!
-
-We will soon be looking for speakers to share their insights and expertise at the Rochester Security Summit {{ site.current_year }}
-
-*Keep an eye on this space for updates!*
+<div class="attention">
+<h1>Speaking Opportunities Coming Soon!</h1>
+<p>We will soon be looking for speakers to share their insights and expertise at the Rochester Security Summit {{ site.current_year }}</p>
+<p><em>Keep an eye on this space for updates!</em></p>
+</div>
 <hr/>
 {%- endif -%}
+<section id="about" class="block-text">
+<h1>About This Summit</h1>
+<p>Since 2006, the Rochester Security Summit has been a leading regional event that brings together a broad range of experts and professionals from the field of information security. Held annually during National Cyber Security Awareness Month, it serves as a community focal point for education and awareness; fostering discussion, knowledge sharing, and networking to help drive innovation and address the evolving challenges in the security landscape. From emerging trends to practical insights, our goal is to empower attendees with the latest information and strategies to enhance their cybersecurity practices</p>
+<br/>
+<p>The Rochester Security Summit is brought to you by the <a href="https://www.rocissa.org" target="_blank">Rochester Chapter</a> of the <a href="https://www.issa.org" target="_blank">Information Systems Security Association International (ISSA)</a></p>
+</section>
+<section id="cpe" class="block-text">
+	<h1>Continuing Education Credits</h1>
+	<p>Attending Rochester Security Summit sessions satisfies continuing education requirements for a number of professional certifications. Certificates of attendance are provided to participants. If you have misplaced your certificate, please send an email to <a href="mailto:cpe@rochestersecurity.org">cpe@rochestersecurity.org</a>.</p>
+</section>
+{% if site.homepage_show_app_links %}
+<section id="app" class="clearfix">
+  <h1 class="sr-only">Get our app</h1>
+  <p class="text-center pb-5 mb-5"><strong>Get our full program via our mobile event app:</strong></p>
+  <ul class="app-links">
+  	<li><a href="{{ site.app_ios_url }}" target="_blank"><img src="/images/apple-appstore-badge.png" alt="Download on the Apple App Store"></a></li>
+  	<li><a href="{{ site.app_android_url }}" target="_blank"><img src="/images/google-play-badge.png" alt="Get it on Google Play"></a></li>
+  	<li><a href="{{ site.app_web_url }}" target="_blank" class="btn btn-lg btn-primary">Or View In Your Browser</a></li>
+  </ul>
+</section>
+{% endif %}
+<!-- <section id="announcements">
+	<div class="col-md-12">
+		{%- if site.homepage_show_call_for_volunteers == true -%}
+## Interested in helping out with RSS:2024?
+
+Please let us know at <information_contact_link>
+    {%- endif -%}
+	</div>
+</section> -->
 {%- if site.homepage_show_venue == true or site.homepage_show_hotels == true -%}
 <section id="location" class="clearfix">
 	  <div class="col-md-12">
