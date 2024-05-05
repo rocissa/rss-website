@@ -13,7 +13,6 @@ layout: page
 		font: 14px Helvetica, Arial, sans-serif;
 		width: 600px;
 	}
-
 	/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
 	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
 </style>
@@ -23,15 +22,13 @@ layout: page
 		width: auto;
 		margin-right: 10px;
 	}
-
 	#mergeRow-gdpr {
 		margin-top: 20px;
 	}
-
 	#mergeRow-gdpr fieldset label {
-		font-weight: normal;
+		margin-top: 0;
+		margin-left: 20px;
 	}
-
 	#mc-embedded-subscribe-form .mc_fieldset {
 		border: none;
 		min-height: 0px;
@@ -39,25 +36,20 @@ layout: page
 	}
 </style>
 <div id="mc_embed_signup">
+	<h3>Join our Sponsor Mailing List</h3>
 	<form
 		action="https://rocissa.us10.list-manage.com/subscribe/post?u=d959327774f7ee5c2ce9d4f38&amp;id=cdd40f2f79&amp;v_id=5396&amp;f_id=00735ae5f0"
 		method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
 		<div id="mc_embed_signup_scroll">
-			<h3>Join our Sponsor Mailing List</h3>
-
 			<p style="margin: 0 0 15px 0; font-size: 14px; line-height: 1.7em;">Thank you for considering supporting the Rochester Security Summit. To be contacted concerning future opportunities, please register for our mailing list by completing and submitting the form below.</p>
-
 			<p style="margin: 0 0 15px 0; font-size: 14px; line-height: 1.7em;">Since its inception in 2006, the Rochester Security Summit has grown and flourished, with many thanks to the invaluable contributions of our sponsors. Our sponsors play a vital role in our success, allowing us to provide high-quality events that foster knowledge exchange and professional growth and that create an impactful experience for everyone involved.</p>
-
 			<p style="margin: 0 0 15px 0; font-size: 14px; line-height: 1.7em;">To help ensure you receive time sensitive announcements, kindly consider the following:</p>
-
 			<ul style="margin: 0 0 15px 0; font-size: 14px; line-height: 1.7em;">
 				<li>Adding sponsorship@rochestersecurity.org to your company's whitelist.</li>
 				<li>Adding team or distribution list email addresses to our mailing list for convenience.</li>
 				<li>Adding multiple email addresses to our mailing list to ensure effective communication in the case of staffing changes or OOO scenarios.</li>
 				<li>We use mailchimp to communicate with and manage our mailing list.</li>
 			</ul>
-
 			<div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
 			<div class="mc-field-group">
 				<label for="mce-EMAIL">Email Address <span class="asterisk">*</span>
@@ -86,6 +78,7 @@ layout: page
 							<span>Email</span>
 						</label>
 					</fieldset>
+					<p></p>
 					<p>You can unsubscribe at any time by clicking the link in the footer of our emails. For information about our
 						privacy practices, please visit our website.</p>
 				</div>
