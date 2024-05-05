@@ -3,10 +3,17 @@ title: About Us
 layout: page
 ---
 
-The Rochester Security Summit is held annually during National Cyber Security Awareness Month. Since 2006, RSS has been a leading regional event that brings together a broad range of professionals and organizations from across a wide range of industries. RSS serves as a community focal point for education and awareness; fostering discussion, knowledge sharing, and networking to help drive innovation and address the evolving challenges in the security landscape. (Brought to you by the [Rochester ISSA Chapter](https://www.rocissa.org){target=_blank})
+<hr>
+<div class="block-text">
+The Rochester Security Summit is held annually during National Cyber Security Awareness Month. Since 2006, RSS has been a leading regional event that brings together a broad range of professionals and organizations from across a wide range of industries. RSS serves as a community focal point for education and awareness; fostering discussion, knowledge sharing, and networking to help drive innovation and address the evolving challenges in the security landscape. 
+</div>
+<div class="text-center">
 
+(Brought to you by the [Rochester ISSA Chapter](https://www.rocissa.org){target=_blank})
 
-## 2024 General Planning Committee
+</div>
+<hr>
+<h2>2024 General Planning Committee</h2>
 
 <sup>*</sup> indicates RocISSA Chapter Officer
 
@@ -37,7 +44,7 @@ The Rochester Security Summit is held annually during National Cyber Security Aw
 * Edward Woodfield, PayQuicker (ISSA, InfraGard)
 * Jason Woodson, Major League Baseball
 
-## Speaker Committee
+<h2>Speaker Committee</h2>
 
 * **Chair** - Richard Smith
 * Dennis Allen
@@ -45,24 +52,24 @@ The Rochester Security Summit is held annually during National Cyber Security Aw
 * Rose Rozeski
 * Dave Warden
 
-## Sponsorship Committee
+<h2>Sponsorship Committee</h2>
 
 * **Chair** - Keith Hunt
 * Tom Hasman
 * Stephen Montanaro
 
-## Venue Committee
+<h2>Venue Committee</h2>
 
 * **Chair** - Rose Rozeski
 * **A/V Lead:** Joe Pierson
 * **Photography:** Bruce Nelson
 * Paul Goyette
 
-## Finance Committee
+<h2>Finance Committee</h2>
 
 * **Chair** - Dave Warden
 
-## Logistics Committee
+<h2>Logistics Committee</h2>
 
 * **Chair** - Mary Beth King
 * **Registration Lead:** David Frier
@@ -72,8 +79,10 @@ The Rochester Security Summit is held annually during National Cyber Security Aw
 * Tom Hasman
 * Gary Pecor
 
-## Marketing / Communications Committee
+<h2>Marketing / Communications Committee</h2>
 
 * **Chair** - Tim Minsterman
 * **Web:** Jason Pitoniak
 * **Social Media:** Jason Woodson
+
+<hr>

@@ -3,8 +3,7 @@ title: Speaking Information
 layout: page
 ---
 
----
-
+<hr>
 {% if site.speaking_next_year %}
 <h2 class="text-center">The RSS:{{ site.next_year }} call for presentations will open in the spring.</h2>
 {% endif %}
@@ -14,11 +13,11 @@ layout: page
 {% endif %}
 
 {% if site.speaking_cfp_open %}
-# Call for Presentations
-
-## The Rochester Security Summit {{ site.current_year }}
-
----
+<div class="speaking">
+<h1>Call for Presentations</h1><br>
+<h2>The Rochester Security Summit {{ site.current_year }}</h2>
+</div>
+<hr>
 
 **Conference Dates:** {% daterange site.conference_start_date, site.conference_end_date %} - ( {{ site.conference_start_date | date: "%A" }} & {{ site.conference_end_date | date: "%A" }} )
 
@@ -33,11 +32,13 @@ contact <{{ site.rocissa_contact_email }}>
 
 We want to hear from you and look forward to seeing you this Fall!
 
+<hr>
 <div class="mt-5 text-center">
 <p><b>Submissions:</b> To submit a proposal, please use our submission form below</p>
 <p><a class="btn btn-primary btn-lg" href="{{ site.speaking_form_url }}" target="_blank">Submit A Proposal to the Waitlist</a></p>
 <em>Submission deadline: {{ site.speaking_proposals_due | date: "%B %e, %Y" }}</em>
 </div>
+<hr>
 
 ## Important Information
 
@@ -62,7 +63,7 @@ We want to hear from you and look forward to seeing you this Fall!
 * **Slide Review:** In pursuit of upholding the high standards for our presentations that our attendees have come to expect, our Speaker Committee does review slides prior to the conference and may request changes. 
 
 * **Thank You:** We offer a small gift card and certificate of appreciation for our speakers. 
-<br/>
+<br>
 
 Thank you,
 
@@ -76,6 +77,7 @@ Contact: <{{ site.speaking_contact_email }}> for more information | Website: <{{
 {% endif %}
 
 {% if site.speaking_show_key_dates %}
+<hr>
 
 ## Key Dates
 
@@ -89,3 +91,4 @@ Contact: <{{ site.speaking_contact_email }}> for more information | Website: <{{
 
 * {% daterange site.conference_start_date, site.conference_end_date %} &mdash; The Rochester Security Summit {{ site.current_year }}
 {% endif %}
+<hr>

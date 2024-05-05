@@ -19,17 +19,15 @@ layout: page
 {% endif %}
 
 {% if site.sponsorship_coming_soon == true %}
-## Sponsorship Opportunities Coming Soon!
-
-*Keep an eye on this space for updates and join our mailing list!*
-
+<div class="attention">
+<h2>Sponsorship Opportunities Coming Soon!</h2>
+<p><em>Keep an eye on this space for updates and join our mailing list!</em><p>
+</div>
 <div><a class="btn btn-primary btn-lg" href="/sponsor-mailing-list" target="_blank">Join Our Sponsorship Mailing List</a></div>
 <br/>
-<div class="sponsor-intro">
-While we finalize the details for opening sponsorship, we would like to inform you that our Call for Presentations is now open. If you are interested in submitting presentation for consideration, we invite you to visit our submission portal at {{ site.speaking_page_url }}, where you will find detailed instructions and a form to submit your proposal.
-</div>
-<br/>
-Thank you for your continued interest in RSS:{{ site.current_year }}.
+<div class="block-text">
+<p>While we finalize the details for opening sponsorship, we would like to inform you that our Call for Presentations is now open. If you are interested in submitting presentation for consideration, we invite you to visit our submission portal at {{ site.speaking_page_url }}, where you will find detailed instructions and a form to submit your proposal.</p><br>
+<p class="text-center"><em>Thank you for your continued interest in RSS:{{ site.current_year }}</em></p>
 {% endif %}
 </div>
 
@@ -94,39 +92,38 @@ The below table describes Rochester Security Summit sponsorship opportunities fo
 
 {% if site.sponsorship_attendee_profile == true %}
 <hr>
-The Summit has excellent representation across industries and job functions. In 2022, the profile of paid Summit attendees was as follows:
-
+<div class="attendees">
+<h1>Past Attendee Profiles</h1>
+<p class="text-center"><em>The Summit has excellent representation across industries and job functions. In 2022, the profile of paid Summit attendees was as follows:</em></p>
 <div class="container">
   <div class="row">
     <div class="col-md-6">
-
-### Attendee Profiles by Industry in 2022
-
-<a href="/2022/attendees-by-industry.png" data-fslightbox="gallery"><img src="/2022/attendees-by-industry.png" class="img-responsive" alt="Attendee Profiles by Industry in 2022"></a>
-
-<!--* 13% - Business Services
+	<h3>Attendee Profiles by Industry in 2022</h3>
+	<a href="/2022/attendees-by-industry.png" data-fslightbox="gallery"><img src="/2022/attendees-by-industry.png" class="img-responsive" alt="Attendee Profiles by Industry in 2022"></a><br>
+<!--
+* 13% - Business Services
 * 7% - Consumer Products and Services
 * 17% - Educational Institutions
 * 13% - Financial Institutions and Services
 * 5% - Government
 * 15% - Health Care Services
 * 23% - Technology Companies
-* 7% - Energy, Law, Media, and Other Companies-->
-
+* 7% - Energy, Law, Media, and Other Companies
+-->
     </div>
     <div class="col-md-6">
-					
-### Attendee Profiles by Job Function in 2022
-
-<a href="/2022/attendees-by-job-function.png" data-fslightbox="gallery"><img src="/2022/attendees-by-job-function.png" class="img-responsive" alt="Attendee Profiles by Job Function in 2022 (N=338)"></a>
-
+	<h3>Attendee Profiles by Job Function in 2022</h3>
+	<a href="/2022/attendees-by-job-function.png" data-fslightbox="gallery"><img src="/2022/attendees-by-job-function.png" class="img-responsive" alt="Attendee Profiles by Job Function in 2022 (N=338)"></a><br>
+<!--
 * 21.1% - Executive, VP or Director Level
 * 18.4% - IT Security Management
 * 37.4% - Technical Security Professional
 * 2.7% - Web or Software Professional
 * 20.5% - Other
+-->
     </div>
   </div>
+</div>
 </div>
 {% endif %}
 

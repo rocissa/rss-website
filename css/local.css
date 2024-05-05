@@ -1,19 +1,174 @@
+
+h1 {
+	margin: 1em 0em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: left;
+}
+
+h2 {
+	margin-top: 1.5em;
+	text-align: left;
+	text-transform: small-caps;
+}
+/*
+h3 {
+	margin-top: 1em;
+	text-align: left;
+	font-variant: none;
+}
+*/
+ul {
+	list-style-type: disc;
+	list-style-position: outside;
+	margin-left: 1em;
+}
+
+li {
+	margin-left: 1em;
+}
+
+footer {
+	margin-top: 2em;
+}
+
+hr {
+	height: 2px;
+	width: 100%;
+}
+
+div {
+	margin-bottom: 0;
+}
+
+section {
+	margin-bottom: 0;
+}
+
+/*
+section {
+	margin-bottom: 3rem;
+    border-bottom: 2px solid lightgray;
+}
+
+section#slider {
+	margin-bottom: 0;
+}
+*/
+
 /* hero image */
+
 #slider {
 	background: url(../images/hero.jpg) no-repeat;
+	height: auto;
+}
+
+.conference {
+	margin-bottom: 0;
+}
+
+.conference div {
+	padding: 10px;
+	text-align: center;
+}
+
+.conference h1 {
+	margin: 1rem 1rem;
+	text-align: center;
+}
+
+.conference h2 {
+	margin: 1rem 1rem;
+	text-align: center;
+}
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.vh-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.attendees {
+	margin-bottom: 0;
+}
+
+.attendees div {
+	padding: 10px;
+	text-align: center;
+}
+
+.attendees h1 {
+	margin: 1rem 1rem;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+.attendees h2 {
+	margin: 1rem 1rem;
+	text-align: left;
+	text-transform: none;
+}
+
+.attendees h3 {
+	margin: 1rem 1rem;
+	text-align: left;
+	text-transform: none;
+}
+
+
+.speaking {
+	margin: 1rem 1rem;
+	text-align: center;
+	width: 100%;
+	background-color: linen;
+	padding: 10px;
+}
+
+.speaking h1 {
+	margin: 3rem 0rem;
+	text-align: left;
+}
+
+.speaking h2 {
+	margin: 1.5rem 0rem;
+	text-align: left;
+	text-transform: none;
 }
 
 .btn {
-	margin :1em;
+	margin: 1em;
 }
 
 .page-div {
-	margin: 20px 50px;
+	margin: 1rem 1rem;
+	text-align: center;
+	width: 100%;
+	background-color: linen;
+}
+
+.page-div h1 {
+	margin: 1rem 0;
+	text-align: center;
+}
+
+.page-div h2 {
+	margin: 1rem 0;
 	text-align: center;
 }
 
 .block-text {
-	margin: 10px 40px;
+	margin: 3rem 1rem;
 	text-align: justify;
 	border: 1px solid #dcdcdc;
 	background-color: #fafafa;
@@ -23,18 +178,135 @@
 
 .block-text h1 {
 	text-transform: uppercase;
+	font-weight: bold;
+	text-align: left;
+	margin: 1rem 0rem;
+}
+
+.block-text h2 {
+	text-transform: small-caps;
+	font-weight: bold;
+	text-align: left;
+	margin: 1rem 0rem;
 }
 
 .attention {
-	background-color: #FCD87F;
-	margin: 10px 40px;
-}
-
-.sponsor-intro {
+	background-color: orange;
+	margin: 1rem 3rem;
+	padding: 1rem;
 	text-align: center;
 }
 
+.attention h1 {
+	font-variant: small-caps;
+	font-weight: bold;
+	text-align: center;
+}
+
+.attention h2 {
+	font-weight: bold;
+	text-align: center;
+}
+
+.tickets {
+	width: auto;
+}
+
+.tickets h1 {
+	background-image: url(../images/ticket-admit-one.jpg), url(../images/ticket-admit-one.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-color: wheat;
+	background-position: left, right;
+	width: 100%;
+	height: auto;
+	display: inline-block;
+	text-align: center;
+}
+
+.ticket-options {
+	list-style: none;
+	margin: 1rem 10rem;
+	text-align: center;
+	background-color: none;
+	width: auto;
+	height: auto;
+	padding: 0;
+}
+
+.ticket-options li {
+	border: 1px solid #dcdcdc;
+	margin: 1rem 1rem;
+	padding: 25px;
+	display: flex;
+	flex-flow: row wrap;
+	background-color: wheat;
+}
+.ticket-options h2 {
+    font-size: 2rem;
+    font-weight: normal;
+    text-transform: uppercase;
+    text-align: left;
+	width: 70%;
+	margin: 0;
+	padding: 0;
+}
+.ticket-options .price {
+	font-size: 2rem;
+	text-align: right;
+	font-weight: bold;
+	width: 30%;
+	margin: 0;
+	padding: 0;
+}
+.ticket-options .info {
+	text-align: left;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.keynotes {
+	margin-top: 1rem;
+	margin-bottom: 0;
+}
+
+.location {
+	margin: 1rem 1rem 1rem 3rem;
+}
+
+.location h1 {
+	margin: 3rem 1rem;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+.location h2 {
+	margin: 1rem 0;
+	text-align: left;
+	text-transform: small-caps;
+}
+
 .sponsors {
+	margin: 3rem 3rem;
+}
+
+.sponsors h1 {
+	margin: 3rem 3rem;
+	text-transform: uppercase;
+	text-align: left;
+	width: auto;
+}
+
+.sponsors h2 {
+	margin: 1rem 0;
+	text-transform: uppercase;
+	text-align: center;
+	background-color: sandybrown;
+	width: 100%;
+}
+
+.sponsor-intro {
 	text-align: center;
 }
 
@@ -85,24 +357,6 @@
 	height: auto;
 }
 
-h2 {
-	margin-top: 1.5em;
-}
-
-ul {
-	list-style-type: disc;
-	list-style-position: outside;
-	margin-left: 1em;
-}
-
-li {
-	margin-left: 1em;
-}
-
-footer {
-	margin-top: 2em;
-}
-
 .hotellist {
 	list-style-type: none;
 	margin: 0;
@@ -143,43 +397,6 @@ ul.social > li {
 	height: 80px;
 }
 
-.tickets {
-	width: auto;
-}
-
-.ticket-options {
-	list-style: none;
-	margin: 0;
-	text-align: center;
-}
-.ticket-options li {
-	border: 1px solid #dcdcdc;
-	margin: 10px 0;
-	padding: 25px;
-	display: flex;
-	flex-flow: row wrap;
-	text-align: center;
-}
-.ticket-options h2 {
-    font-size: 2rem;
-    font-weight: normal;
-    text-transform: uppercase;
-    text-align: left;
-    padding: 0;
-    margin: 0;
-    width: 60%;
-}
-.ticket-options .price {
-	font-size: 2rem;
-	text-align: right;
-	font-weight: bold;
-	width: 20%;
-}
-.ticket-options .info {
-	text-align: left;
-	width: 80%;
-}
-
 .conf-details-dates {
 	margin-top: 75px;
 }
@@ -196,15 +413,6 @@ ul.social > li {
 	font-size: 20px;
 	padding: 15px;
 	broder-radius: 10px;
-}
-
-
-section {
-	margin-bottom: 8rem;
-}
-
-section#slider {
-	margin-bottom: 0;
 }
 
 /* schedule grid */
@@ -355,10 +563,11 @@ section#slider {
 		outline: 2px solid #dcdcdc;
 		padding: 1rem;
 	}
-	#cpe h1 {
+	#cpe h1,h2,h3 {
 		margin-top: .5rem;
 		padding-top: 0;
-		font-size: 2.5rem;
 		text-transform: uppercase;
+		font-weight: bold;
+		text-align: left;
 	}
 }
