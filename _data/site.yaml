@@ -5,7 +5,7 @@ site_title: Rochester Security Summit
 baseurl: https://www.rochestersecurity.org
 #
 ## for testing
-baseurl: http://localhost:8080
+#baseurl: http://localhost:8080
 # current conference year - used to show current information and to prevent
 # current/upcoming conference from showing on past events page
 current_year: 2024
