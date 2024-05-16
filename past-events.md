@@ -2,6 +2,12 @@
 title: Past Events
 layout: page
 ---
+
+{% if site.past_events_in_table %}
+
+TBD - Past events in table
+
+{% else %}
 	{%- for conf in collections.conferences reversed -%}
         {%- if site.current_year != conf.data.year -%}
 	        {%- assign active_year = conf.data.year -%}
@@ -19,3 +25,4 @@ layout: page
             </article>
         {% endif %}
     {% endfor %}
+{% endif %}
