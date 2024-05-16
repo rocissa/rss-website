@@ -2,9 +2,9 @@
 site_title: Rochester Security Summit
 #
 # for live site
-# baseurl: https://www.rochestersecurity.org
+baseurl: https://www.rochestersecurity.org
 #
-# for testing
+## for testing
 baseurl: http://localhost:8080
 # current conference year - used to show current information and to prevent
 # current/upcoming conference from showing on past events page
