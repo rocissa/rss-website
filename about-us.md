@@ -10,6 +10,9 @@ layout: page
 *Brought to you by [The Rochester ISSA Chapter](https://www.rocissa.org){target=_blank}*
 </div>
 <hr>
+<div class="col-md-12">
+<h2>Planning Committees</h2>
+<div class="col-md-6">
 <div class="about-us">
 <h3>2024 General Planning Committee</h3>
 
@@ -65,6 +68,22 @@ layout: page
 
 </div>
 <div class="about-us">
+<h3>Logistics Committee</h3>
+
+* **Chair** - Mary Beth King
+
+* **Registration Lead:** David Frier
+
+* **Registration:** Hannah Chang
+
+* **Raffle:** Mark Christman
+
+* **Student Volunteers:** Stephen Montanaro
+
+</div>
+</div>
+<div class="col-md-6">
+<div class="about-us">
 <h3>Speaker Committee</h3>
 
 * **Chair** - Richard Smith
@@ -107,26 +126,6 @@ layout: page
 
 </div>
 <div class="about-us">
-<h3>Finance Committee</h3>
-
-* **Chair** - Dave Warden
-
-</div>
-<div class="about-us">
-<h3>Logistics Committee</h3>
-
-* **Chair** - Mary Beth King
-
-* **Registration Lead:** David Frier
-
-* **Registration:** Hannah Chang
-
-* **Raffle:** Mark Christman
-
-* **Student Volunteers:** Stephen Montanaro
-
-</div>
-<div class="about-us">
 <h3>Marketing / Communications Committee</h3>
 
 * **Web Lead:** Jason Pitoniak
@@ -136,7 +135,16 @@ layout: page
 * **Social Media:** Jason Woodson
 
 </div>
-<div class="highlight">
+<div class="about-us">
+<h3>Finance Committee</h3>
+
+* **Chair** - Dave Warden
+
+</div>
+</div>
+</div>
+<div class="col-md-12 highlight">
 <p><em><b><sup>*</sup>Indicates RocISSA Chapter Officer</b></em></p>
+</div>
 </div>
 <hr>
