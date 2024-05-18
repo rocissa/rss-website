@@ -98,29 +98,12 @@ The below table describes Rochester Security Summit sponsorship opportunities fo
 <div class="container">
   <div class="row">
     <div class="col-md-6">
-	<h3>Attendee Profiles by Industry in 2022</h3>
-	<a href="/2022/attendees-by-industry.png" data-fslightbox="gallery"><img src="/2022/attendees-by-industry.png" class="img-responsive" alt="Attendee Profiles by Industry in 2022"></a><br>
-<!--
-* 13% - Business Services
-* 7% - Consumer Products and Services
-* 17% - Educational Institutions
-* 13% - Financial Institutions and Services
-* 5% - Government
-* 15% - Health Care Services
-* 23% - Technology Companies
-* 7% - Energy, Law, Media, and Other Companies
--->
+	<h3>Attendee Profiles by Industry in 2023</h3>
+	<a href="/2023/attendees-by-industry.png" data-fslightbox="gallery"><img src="/2023/attendees-by-industry.png" class="img-responsive" alt="Attendee Profiles by Industry in 2023 (N=362)"></a><br>
     </div>
     <div class="col-md-6">
-	<h3>Attendee Profiles by Job Function in 2022</h3>
-	<a href="/2022/attendees-by-job-function.png" data-fslightbox="gallery"><img src="/2022/attendees-by-job-function.png" class="img-responsive" alt="Attendee Profiles by Job Function in 2022 (N=338)"></a><br>
-<!--
-* 21.1% - Executive, VP or Director Level
-* 18.4% - IT Security Management
-* 37.4% - Technical Security Professional
-* 2.7% - Web or Software Professional
-* 20.5% - Other
--->
+	<h3>Attendee Profiles by Job Function in 2023</h3>
+	<a href="/2023/attendees-by-job-function.png" data-fslightbox="gallery"><img src="/2023/attendees-by-job-function.png" class="img-responsive" alt="Attendee Profiles by Job Function in 2023 (N=342)"></a><br>
     </div>
   </div>
 </div>

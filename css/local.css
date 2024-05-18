@@ -9,7 +9,7 @@ h1 {
 h2 {
 	margin-top: 1.5em;
 	text-align: left;
-	text-transform: small-caps;
+	font-variant: small-caps;
 }
 /*
 h3 {
@@ -117,15 +117,14 @@ section#slider {
 .attendees h2 {
 	margin: 1rem 1rem;
 	text-align: left;
-	text-transform: none;
+	font-variant: small-caps;
 }
 
 .attendees h3 {
 	margin: 1rem 1rem;
 	text-align: left;
-	text-transform: none;
+	text-transform: capitalize;
 }
-
 
 .speaking {
 	margin: 1rem 1rem;
@@ -133,10 +132,12 @@ section#slider {
 	width: 100%;
 	background-color: linen;
 	padding: 10px;
+	border: 2px solid #fff;
+	outline: 2px solid #dcdcdc;
 }
 
 .speaking h1 {
-	margin: 3rem 0rem;
+	margin: 2rem 0rem;
 	text-align: left;
 }
 
@@ -144,6 +145,44 @@ section#slider {
 	margin: 1.5rem 0rem;
 	text-align: left;
 	text-transform: none;
+}
+
+.about-us {
+	margin: 1rem 1rem;
+	text-align: left;
+	width: 100%;
+	background-color: linen;
+	padding: 10px;
+	border: 2px solid #fff;
+	outline: 2px solid #dcdcdc;
+}
+
+.about-us h1 {
+	margin: 2rem 0rem;
+	text-align: left;
+	padding: 15px;
+	text-transform: uppercase;
+}
+
+.about-us h2 {
+	margin: 1.5rem 0rem;
+	text-align: left;
+	font-variant: small-caps;
+	padding: 10px;
+}
+
+.about-us h3 {
+	margin: 1rem 0rem;
+	text-align: left;
+	text-transform: capitalize;
+	padding: 10px;
+}
+
+.highlight {
+	background-color: lightyellow;
+	margin: 1rem 1rem;
+	padding: 5px;
+	text-align: left;
 }
 
 .btn {
@@ -184,7 +223,7 @@ section#slider {
 }
 
 .block-text h2 {
-	text-transform: small-caps;
+	font-variant: small-caps;
 	font-weight: bold;
 	text-align: left;
 	margin: 1rem 0rem;
@@ -198,13 +237,14 @@ section#slider {
 }
 
 .attention h1 {
-	font-variant: small-caps;
+	text-transform: uppercase;
 	font-weight: bold;
 	text-align: center;
 }
 
 .attention h2 {
 	font-weight: bold;
+	font-variant: small-caps;
 	text-align: center;
 }
 
@@ -284,7 +324,7 @@ section#slider {
 .location h2 {
 	margin: 1rem 0;
 	text-align: left;
-	text-transform: small-caps;
+	font-variant: small-caps;
 }
 
 .sponsors {
@@ -412,7 +452,7 @@ ul.social > li {
 .warning {
 	font-size: 20px;
 	padding: 15px;
-	broder-radius: 10px;
+	border-radius: 10px;
 }
 
 /* schedule grid */
@@ -507,7 +547,7 @@ ul.social > li {
   }
 
   .schedule .columns-2 {
-    grid-column-end: span 2;
+	grid-column-end: span 2;
   }
 
   .schedule .rows-2 {
