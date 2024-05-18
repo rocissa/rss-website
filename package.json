@@ -22,7 +22,7 @@
     "markdown-it-attrs": "^4.1.6"
   },
   "dependencies": {
-    "sharp": "^0.33.3",
+    "sharp": "^0.33.4",
     "strftime": "^0.10.2"
   }
 }

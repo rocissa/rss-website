@@ -102,13 +102,24 @@ layout: page
    {%- endif -%}
 </section>
 {%- else -%}
-<section id="attention" class="attention">
-<div>
-<h1>Speaking Opportunities Coming Soon!</h1>
-<p>We will soon be looking for speakers to share their insights and expertise at the Rochester Security Summit {{ site.current_year }}</p>
-<p><em>Keep an eye on this space for updates!</em></p>
-</div>
-</section>
+	{%- if site.speaking_cfp_not_yet_open == true -%}
+	<section id="attention" class="attention">
+		<div>
+		<h1>Speaking Opportunities Coming Soon!</h1>
+		<p>We will soon be looking for speakers to share their insights and expertise at the Rochester Security Summit {{ site.current_year }}</p>
+		<p><em>Keep an eye on this space for updates!</em></p>
+		</div>
+	</section>
+	{%- endif -%}
+	{%- if site.speaking_cfp_open == true -%}
+	<section id="attention" class="attention">
+		<div>
+		<h1>The Call For Presentations is now open!</h1>
+		<p>Check out the Speaker page to submit a proposal for the Rochester Security Summit {{ site.current_year }}</p>
+		<p><em>We are excited to see all your ideas!</em></p>
+		</div>
+	</section>
+	{%- endif -%}
 {%- endif -%}
 <section id="about" class="block-text">
 <h2>About This Summit</h2>
