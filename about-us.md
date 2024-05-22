@@ -56,6 +56,8 @@ layout: page
 
 * Rich Savacool<sup>*</sup>, Nixon Peabody, LLP (ISSA)
 
+* Aaron Schanz, Constellation Brands
+
 * Deb Shymalov, Eastman Kodak
 
 * Richard Smith, Security Risk Advisors (ISSA)

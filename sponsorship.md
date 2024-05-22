@@ -94,7 +94,7 @@ The below table describes Rochester Security Summit sponsorship opportunities fo
 <hr>
 <div class="attendees">
 <h1>Past Attendee Profiles</h1>
-<p class="text-center"><em>The Summit has excellent representation across industries and job functions. In 2022, the profile of paid Summit attendees was as follows:</em></p>
+<p class="text-center"><em>The Summit has excellent representation across industries and job functions. In 2023, the profile of paid Summit attendees who provided their data was as follows:</em></p>
 <div class="container">
   <div class="row">
     <div class="col-md-6">
