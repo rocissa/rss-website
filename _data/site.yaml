@@ -5,7 +5,7 @@ site_title: Rochester Security Summit
 baseurl: https://www.rochestersecurity.org
 #
 ## for testing
-#baseurl: http://localhost:8080
+# baseurl: http://localhost:8080
 # current conference year - used to show current information and to prevent
 # current/upcoming conference from showing on past events page
 current_year: 2024
@@ -71,18 +71,17 @@ registration_event_concluded: false
 sponsorship_show_w9_link: false
 sponsorship_next_year: false
 sponsorship_not_yet_open: false
-sponsorship_coming_soon: true
-sponsorship_open: false
+sponsorship_coming_soon: false
+sponsorship_open: true
 sponsorship_waiting_list: false  # sold out, but accepting to waiting list
 sponsorship_sold_out: false
-sponsorship_pricing: false
+sponsorship_pricing: true
 sponsorship_sponsor_information: false
 sponsorship_attendee_profile: true
 sponsorship_faq: false
 
 # sponsorship key dates
-sponsorship_applications_due: 2024-07-01
-
+sponsorship_applications_due: 2024-06-13
 
 # speaking messaging
 speaking_next_year: false
@@ -104,13 +103,16 @@ schedule_available: false
 
 # Google form URLs and contact emails
 #
+sponsorship_form_url: https://docs.google.com/forms/d/e/1FAIpQLSf8I1E-VaBAqKBGpTCi2wVbrmGuIwQ1tzWJI9GklBLYw8uquQ/viewform?vc=0&c=0&w=1&flr=0
+speaking_form_url: https://docs.google.com/forms/d/e/1FAIpQLSeGnCdlT5EMniO1uQD6xb5ZgFmpO_V8gAqr71d6Tjit7O9DSA/viewform
+#
 # Ed's test forms
-sponsorship_form_url: https://docs.google.com/forms/d/1tLLO67Z8FzHHWPbjZqYOGJ46vFTUnHU4Z-j4JZqKJZI/viewform
+# sponsorship_form_url: https://docs.google.com/forms/d/1tLLO67Z8FzHHWPbjZqYOGJ46vFTUnHU4Z-j4JZqKJZI/viewform
 # speaking_form_url: https://docs.google.com/forms/d/16bwzz9SCqXdS3FxQ2SILVFT1YTDIoE1MY-9RNzWb0Tc/
 #
 # final forms
 # sponsorship_form_url: https://www.rochestersecurity.org
-speaking_form_url: https://docs.google.com/forms/d/e/1FAIpQLSeGnCdlT5EMniO1uQD6xb5ZgFmpO_V8gAqr71d6Tjit7O9DSA/viewform
+#
 sponsorship_contact_email: sponsorship@rochestersecurity.org
 speaking_contact_email: speaker@rochestersecurity.org
 information_contact_email: info@rochestersecurity.org
