@@ -32,49 +32,68 @@ layout: page
 </div>
 
 {% if site.sponsorship_open  == true %}
+<div class="attention">
 <h2 class="text-center">The official Call for Sponsors for RSS:{{ site.current_year }} is now open</h2>
-
-<div class="mt-5 mb-5 text-center"><a class="btn btn-primary btn-lg" href="{{ site.sponsorship_form_url }}" target="_blank">Submit Call for Sponsors Form</a></div>
+<p><em>To enter the lottery for a slot, please complete and submit the Call For Sponsors Form</em></p>
+</div>
+<div class="mt-5 mb-5 text-center"><a class="btn btn-primary btn-lg" href="{{ site.sponsorship_form_url }}" target="_blank">Submit Call For Sponsors Form</a></div>
+<hr>
 
 ## Important Dates
 
-* Call for Sponsors Deadline: {{ site.sponsorship_applications_due | date: "%B %e, %Y" }}
+* Call for Sponsors Deadline: <b>{{ site.sponsorship_applications_due | date: "%B %e, %Y" }}</b>
 
-  *Submit a completed form using the link above before this date to be considered*
+  *Submit a completed form using the link above by this date to be considered*
   
 * RSS:{{ site.current_year }} takes place on {% daterange site.conference_start_date, site.conference_end_date %}
 {% endif %}
 {% if site.sponsorship_waiting_list == true %}
-<h2 class="text-center">Sponsorship for RSS:{{ site.current_year }} is currently closed,<br>but join our waitlist.</h2>
+<hr>
+<div class="attention">
+<h2 class="text-center">Sponsorship for RSS:{{ site.current_year }} is currently closed
+<p><em>Please consider joining our waitlist</em></p>
+</div>
 
-<div class="mt-5 mb-5 text-center"><a class="btn btn-primary btn-lg" href="{{ site.sponsorship_form_url }}" target="_blank">Submit Call for Sponsors Form</a></div>
+> Thank you for considering Sponsorship at RSS:{{ site.current_year }}. We are currently at capacity for RSS:{{ site.current_year }}
+>
+> Please complete this form to be added to the waitlist for {{ site.current_year }}. You’re encouraged to add multiple emails, including team/DL emails to ensure relevant parties are notified.
+
+<div class="mt-5 mb-5 text-center"><a class="btn btn-primary btn-lg" href="{{ site.sponsorship_form_url }}" target="_blank">Submit Form To Waitlist</a></div>
 {% endif %}
 {% if site.sponsorship_pricing %}
-<h2>Sponsor Level Benefits & Pricing</h2>
-The below table describes Rochester Security Summit sponsorship opportunities for this year.
+<hr>
 
-<div class="mt-5 mb-5 text-center"><a href="/files/RSS{{ site.current_year }}-Sponsorship-Pricing.pdf"><img id="sponsorship-pricing" src="/files/RSS{{ site.current_year }}-Sponsorship-Pricing.png" alt="Sponsorship Pricing Thumbnail" width="500px" style></a></div>
+## Sponsor Level Benefits & Pricing
+
+* The information below describes Rochester Security Summit sponsorship opportunities for this year
+
+   *Click anywhere in the image to download*
+
+<div class="mt-5 mb-5 text-left"><a href="/files/RSS{{ site.current_year }}-Sponsorship-Pricing.pdf"><img id="sponsorship-pricing" src="/files/RSS{{ site.current_year }}-Sponsorship-Pricing.png" alt="Sponsorship Pricing Thumbnail" width="700px" style></a></div>
 {% endif %}
 {% if site.sponsorship_open %}
+<hr>
 
 ## About the Selection Process
 
-> Given limited available space, sponsorships are allocated through lottery.
-> By submitting this form, your company will be entered into a random drawing and sponsorship will be awarded according to the order drawn.
-> No deposit is taken and organizations can ask to be removed from consideration at any point.
-> We will do our best to match your preferences indicated in the form with our available sponsorship opportunities.
-> Note, the Diamond Selection is a separate drawing, exclusive to Platinum Sponsors who have indicated an interest in Diamond as a preference level. 
-> After the lottery is complete, we will maintain a waiting list of potential sponsors, in case of dropouts or cancellations. 
-> Again, thank you for considering sponsoring the Rochester Security Summit. We sincerely appreciate your interest and your involvement in making our event a continued success. 
-{% endif %}
+> Due to limited space, sponsorships are allocated through a lottery system. By submitting this form, your company will be entered into a random drawing, and sponsorships will be awarded based on the order drawn. There is no deposit required to enter the drawing, and organizations can withdraw from consideration at any time.
+>
+> We will do our best to match your indicated preferences with our available sponsorship opportunities. If selected, you will be notified and invoiced via email (payment is due upon receipt). Paying the invoice will officially confirm your sponsorship spot.
+>
+> The selection of the Diamond sponsor is exclusive to committed Platinum Sponsors who have shown interest in the Diamond level. The Diamond Sponsor will be chosen through a second random drawing and will secure the spot by making an additional payment.
+>
+> After the lottery, we will maintain a waitlist for any dropouts or cancellations.
+>
+> Thank you for considering sponsoring the Rochester Security Summit. We appreciate your interest and support in making our event a success.
 
+{% endif %}
 {% if site.sponsorship_sold_out == true %}
 <h2 class="text-center">Sponsorship for RSS:{{ site.current_year }} has sold out.</h2>
 
 <p class="text-center mt-5 mb-5"><strong>If you would like to be contacted about future opportunities, please register your email address below. Thank you for your interest.</strong></p>
 {% endif %}
-
 {% if site.sponsorship_sponsor_information == true %}
+
 ## Information for Sponsors
 
 * As Soon As Possible - Provide logo: 2.125” W x 3.2” H and submitted in high resolution EPS format.
@@ -89,7 +108,6 @@ The below table describes Rochester Security Summit sponsorship opportunities fo
 
 <p class="text-center mt-5 mb-5"><a class="btn btn-lg btn-primary" href="files/Rochester-Security-Summit-Exhibitor-Manual.pdf">Exhibitor Manual<br />(Great Lakes Events)</a></p>
 {% endif %}
-
 {% if site.sponsorship_attendee_profile == true %}
 <hr>
 <div class="attendees">
@@ -109,8 +127,8 @@ The below table describes Rochester Security Summit sponsorship opportunities fo
 </div>
 </div>
 {% endif %}
-
 {% if site.sponsorship_faq == true %}
+
 ## Frequently Asked Questions
 
 <dl>
@@ -140,7 +158,7 @@ The below table describes Rochester Security Summit sponsorship opportunities fo
 
 <hr />
 
-**Have a question? Please contact <{{ site.sponsorship_contact_email }}>**
+**Have a sponsorship question? Please contact us at <{{ site.sponsorship_contact_email }}>**
 
 </div>
 
