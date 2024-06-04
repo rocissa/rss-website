@@ -36,7 +36,7 @@ We want to hear from you and look forward to seeing you this Fall!
 <div class="mt-5 text-center">
 <p><b>Submissions:</b> To submit a proposal, please use our submission form below</p>
 <p><a class="btn btn-primary btn-lg" href="{{ site.speaking_form_url }}" target="_blank">Submit A Proposal</a></p>
-<em>Submission deadline: {{ site.speaking_proposals_due | localhost | date: "%B %e, %Y" }}</em>
+<em>Submission deadline: {{ site.speaking_proposals_due | localtime | date: "%B %e, %Y" }}</em>
 </div>
 <hr>
 
