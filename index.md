@@ -38,21 +38,21 @@ layout: page
 			    <li>
 				<h2>Early Bird Registration</h2>
 			    <div class="price">{{ site.registration_early_bird_cost }}</div><br>
-	            <div class="info">Sale ends on {{ site.registration_early_bird_end_date | date: "%B %e, %Y" }}</div>
+	            <div class="info">Sale ends on {{ site.registration_early_bird_end_date | localtime | date: "%B %e, %Y" }}</div>
 				</li>
 	          {%- endif -%}
 	          {%- if site.registration_standard -%}
 	            <li>
 				<h2>Standard Registration</h2>
 	            <div class="price">{{ site.registration_standard_cost }}</div><br>
-	            <div class="info">Sale ends on {{ site.registration_standard_end_date | date: "%B %e, %Y" }}</div>
+	            <div class="info">Sale ends on {{ site.registration_standard_end_date | localtime | date: "%B %e, %Y" }}</div>
 				</li>
 	          {%- endif -%}
 	          {%- if site.registration_late -%}
 	            <li>
 				<h2>Late Registration</h2>
 	            <div class="price">{{ site.registration_late_cost }}</div><br>
-	            <div class="info">Available starting {{ site.registration_standard_end_date | date: "%B %e, %Y" }}, until sold out</div>
+	            <div class="info">Available starting {{ site.registration_standard_end_date | localtime | date: "%B %e, %Y" }}, until sold out</div>
 				</li>
 	          {%- endif -%}
 	        </ul>

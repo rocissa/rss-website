@@ -41,7 +41,7 @@ layout: page
 
 ## Important Dates
 
-* Call for Sponsors Deadline: <b>{{ site.sponsorship_applications_due | date: "%B %e, %Y" }}</b>
+* Call for Sponsors Deadline: <b>{{ site.sponsorship_applications_due | localtime | date: "%B %e, %Y" }}</b>
 
   *Submit a completed form using the link above by this date to be considered*
   

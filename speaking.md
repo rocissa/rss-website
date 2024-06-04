@@ -19,7 +19,7 @@ layout: page
 </div>
 <hr>
 
-**Conference Dates:** {% daterange site.conference_start_date, site.conference_end_date %} - ( {{ site.conference_start_date | date: "%A" }} & {{ site.conference_end_date | date: "%A" }} )
+**Conference Dates:** {% daterange site.conference_start_date, site.conference_end_date %} - ( {{ site.conference_start_date | localtime | date: "%A" }} & {{ site.conference_end_date | localtime | date: "%A" }} )
 
 **Location:** The Joseph A. Floreano Rochester Riverside Convention Center
 
@@ -36,7 +36,7 @@ We want to hear from you and look forward to seeing you this Fall!
 <div class="mt-5 text-center">
 <p><b>Submissions:</b> To submit a proposal, please use our submission form below</p>
 <p><a class="btn btn-primary btn-lg" href="{{ site.speaking_form_url }}" target="_blank">Submit A Proposal</a></p>
-<em>Submission deadline: {{ site.speaking_proposals_due | date: "%B %e, %Y" }}</em>
+<em>Submission deadline: {{ site.speaking_proposals_due | localhost | date: "%B %e, %Y" }}</em>
 </div>
 <hr>
 
@@ -81,13 +81,13 @@ Contact: <{{ site.speaking_contact_email }}> for more information | Website: <{{
 
 ## Key Dates
 
-* {{ site.speaking_proposals_due | date: "%B %e" }} &mdash; Last Day for Accepting Proposal Submissions
+* {{ site.speaking_proposals_due | localtime | date: "%B %e" }} &mdash; Last Day for Accepting Proposal Submissions
 
-* {{ site.speaking_committee_responses | date: "%B %e" }} &mdash; Committee will Respond to Proposals by this date
+* {{ site.speaking_committee_responses | localtime | date: "%B %e" }} &mdash; Committee will Respond to Proposals by this date
 
-* {{ site.speaking_materials_due | date: "%B %e" }} &mdash; Final Program Abstract & Biography Due & Draft Copy of Presentation Slides Due
+* {{ site.speaking_materials_due | localtime | date: "%B %e" }} &mdash; Final Program Abstract & Biography Due & Draft Copy of Presentation Slides Due
 
-* {{ site.speaking_presentation_due | date: "%B %e" }} &mdash; Final Copy of Presentation Slides Due (will be used for distribution to attendees)
+* {{ site.speaking_presentation_due | localtime | date: "%B %e" }} &mdash; Final Copy of Presentation Slides Due (will be used for distribution to attendees)
 
 * {% daterange site.conference_start_date, site.conference_end_date %} &mdash; The Rochester Security Summit {{ site.current_year }}
 {% endif %}
