@@ -72,8 +72,8 @@ sponsorship_show_w9_link: false
 sponsorship_next_year: false
 sponsorship_not_yet_open: false
 sponsorship_coming_soon: false
-sponsorship_open: true
-sponsorship_waiting_list: false  # sold out, but accepting to waiting list
+sponsorship_open: false
+sponsorship_waiting_list: true  # sold out, but accepting to waiting list
 sponsorship_sold_out: false
 sponsorship_pricing: true
 sponsorship_sponsor_information: false
