@@ -14,62 +14,6 @@ layout: page
   </div>
 </section>
 <hr>
-<section id="conference" class="conference">
-	{%- if site.registration_event_concluded -%}
-	<div>
-		<h1 class="text-center">RSS:{{ site.current_year }} Has Concluded</h1>
-		<p class="upcoming-dates text-center">We look forward to seeing you at RSS:{{ site.next_year }}{% if site.next_year_start_date %}, {% daterange site.next_year_start_date, site.next_year_end_date %}{% endif %}.</p>
-		<p class="text-center mt-5 mb-5"><a class="btn btn-lg btn-primary pt-5 pb-5" href="/{{ site.current_year }}/slides-videos/">RSS:{{ site.current_year }} Presentation Slides & Videos</a></p>
-	</div>
-	{%- else -%}
-	<div>
-		<div class="page-div">
-			<h1 class="text-center">We look forward to seeing you at RSS:{{ site.current_year }}</h1> 
-			<h2 class="text-center">{% daterange site.conference_start_date, site.conference_end_date %}</h2><br>
-			<p><b>Joseph A. Floreano Rochester Riverside Convention Center</b></p>
-			<p><b>Rochester, NY</b></p>
-		</div>
-		{%- if site.registration_enabled == true -%}
-		<hr>
-		<div id="tickets" class="tickets">
-			<h1 class="tickets">TICKETS</h1>
-			<ul class="ticket-options">
-			  {%- if site.registration_early_bird -%}
-			    <li>
-				<h2>Early Bird Registration</h2>
-			    <div class="price">{{ site.registration_early_bird_cost }}</div><br>
-	            <div class="info">Sale ends on {{ site.registration_early_bird_end_date | localtime | date: "%B %e, %Y" }}</div>
-				</li>
-	          {%- endif -%}
-	          {%- if site.registration_standard -%}
-	            <li>
-				<h2>Standard Registration</h2>
-	            <div class="price">{{ site.registration_standard_cost }}</div><br>
-	            <div class="info">Sale ends on {{ site.registration_standard_end_date | localtime | date: "%B %e, %Y" }}</div>
-				</li>
-	          {%- endif -%}
-	          {%- if site.registration_late -%}
-	            <li>
-				<h2>Late Registration</h2>
-	            <div class="price">{{ site.registration_late_cost }}</div><br>
-	            <div class="info">Available starting {{ site.registration_standard_end_date | localtime | date: "%B %e, %Y" }}, until sold out</div>
-				</li>
-	          {%- endif -%}
-	        </ul>
-	        <div class="text-center mt-5 mb-5"><a class="btn btn-lg btn-primary pt-5 pb-5 " href="{{ site.registration_ticket_url }}" target="_blank">Purchase Tickets</a></div>
-		</div>
-		{%- endif -%}
-		{%- if site.registration_sold_out -%}
-		<div>
-			<h1>Sold Out</h1>
-			<p class="text-center">RSS:{{ site.current_year }} has sold out.  Use the link below to join our waiting list.</p>
-			<div class="text-center mt-5 mb-5"><a class="btn btn-lg btn-primary pt-5 pb-5 " href="{{ site.registration_ticket_url }}" target="_blank">Join Waiting List/Manage Registration</a></div>
-		</div>
-		{%- endif -%}
-	</div>
-	{%- endif -%}
-</section>
-<hr>
 {%- if site.homepage_show_keynotes -%}
 <section id="keynotes" class="keynotes">
     {%- assign currentKeynotes = collections.keynotes | where: "data.year", site.current_year | sort: "data.weight" -%}
@@ -115,12 +59,88 @@ layout: page
 	<section id="attention" class="attention">
 		<div>
 		<h1>The Call For Presentations is now open!</h1>
-		<p>Check out the Speaker page to submit a proposal for the Rochester Security Summit {{ site.current_year }}</p>
+		<p>Check out the Speaking page to submit a proposal for the Rochester Security Summit {{ site.current_year }}</p>
 		<p><em>We are excited to see all your ideas!</em></p>
 		</div>
 	</section>
 	{%- endif -%}
 {%- endif -%}
+<hr>
+<section id="conference" class="conference">
+	{%- if site.registration_event_concluded -%}
+	<div>
+		<h1 class="text-center">RSS:{{ site.current_year }} Has Concluded</h1>
+		<p class="upcoming-dates text-center">We look forward to seeing you at RSS:{{ site.next_year }}{% if site.next_year_start_date %}, {% daterange site.next_year_start_date, site.next_year_end_date %}{% endif %}.</p>
+		<p class="text-center mt-5 mb-5"><a class="btn btn-lg btn-primary pt-5 pb-5" href="/{{ site.current_year }}/slides-videos/">RSS:{{ site.current_year }} Presentation Slides & Videos</a></p>
+	</div>
+	{%- else -%}
+	<div>
+		<div class="page-div">
+			<h1 class="text-center">We look forward to seeing you at RSS:{{ site.current_year }}</h1> 
+			<h2 class="text-center">{% daterange site.conference_start_date, site.conference_end_date %}</h2><br>
+			<p><b>Joseph A. Floreano Rochester Riverside Convention Center</b></p>
+			<p><b>Rochester, NY</b></p>
+		</div>
+		{%- if site.registration_enabled == true -%}
+		<hr>
+		<div id="tickets" class="tickets">
+			<h1 class="tickets">TICKETS</h1>
+			<ul class="ticket-options">
+			  {%- if site.registration_early_bird -%}
+			    <li>
+				<h2>Early Bird Registration</h2>
+			    <div class="price">{{ site.registration_early_bird_cost }}</div><br>
+	            <div class="info">Sale ends on {{ site.registration_early_bird_end_date | localtime | date: "%B %e, %Y" }}</div>
+				</li>
+	          {%- endif -%}
+	          {%- if site.registration_standard -%}
+	            <li>
+				<h2>Standard Registration</h2>
+	            <div class="price">{{ site.registration_standard_cost }}</div><br>
+	            <div class="info">Sale ends on {{ site.registration_standard_end_date | localtime | date: "%B %e, %Y" }}</div>
+				</li>
+	          {%- endif -%}
+	          {%- if site.registration_late -%}
+	            <li>
+				<h2>Late Registration</h2>
+	            <div class="price">{{ site.registration_late_cost }}</div><br>
+	            <div class="info">Sale ends on {{ site.registration_late_end_date | localtime | date: "%B %e, %Y" }}, or until sold out</div>
+				</li>
+	          {%- endif -%}
+			  {%- if site.registration_one_day_being_sold -%}
+				<div class="attention">
+				<h4>We also sell one-day tickets for those that cannot make both days</h4>
+				</div>
+				  {%- if site.registration_standard_one_day -%}
+					<li>
+					<h2>Standard One-Day Registration</h2>
+					<div class="price">{{ site.registration_standard_one_day_cost }}</div><br>
+					<div class="info">Sale ends on {{ site.registration_standard_one_day_end_date | localtime | date: "%B %e, %Y" }}</div>
+					</li>
+				  {%- endif -%}
+				  {%- if site.registration_late_one_day -%}
+					<li>
+					<h2>Late One-Day Registration</h2>
+					<div class="price">{{ site.registration_late_one_day_cost }}</div><br>
+					<div class="info">Sale ends on {{ site.registration_late_one_day_end_date | localtime | date: "%B %e, %Y" }}, or until sold out</div>
+					</li>
+				  {%- endif -%}
+			  {%- endif -%}
+			  </ul>
+	        <div class="text-center mt-5 mb-5"><a class="btn btn-lg btn-primary pt-5 pb-5 " href="{{ site.registration_ticket_url }}" target="_blank">Purchase Tickets</a></div>
+		</div>
+		{%- endif -%}
+		{%- if site.registration_sold_out -%}
+		<div>
+			<h1>Sold Out</h1>
+			<p class="text-center">RSS:{{ site.current_year }} has sold out.  Use the link below to join our waiting list.</p>
+			<div class="text-center mt-5 mb-5"><a class="btn btn-lg btn-primary pt-5 pb-5 " href="{{ site.registration_ticket_url }}" target="_blank">Join Waiting List/Manage Registration</a></div>
+		</div>
+		{%- endif -%}
+	</div>
+	{%- endif -%}
+</section>
+<hr>
 <section id="about" class="block-text">
 <h2>About This Summit</h2>
 <p>Since 2006, the Rochester Security Summit has been a leading regional event that brings together a broad range of experts and professionals from the field of information security. Held annually during National Cyber Security Awareness Month, it serves as a community focal point for education and awareness; fostering discussion, knowledge sharing, and networking to help drive innovation and address the evolving challenges in the security landscape. From emerging trends to practical insights, our goal is to empower attendees with the latest information and strategies to enhance their cybersecurity practices</p>

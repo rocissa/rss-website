@@ -5,7 +5,8 @@
   city: Rochester
   state: New York
   zip: 14604
-  #discount_rate: starting at $169 per night + tax
+  discount_rate: Starting at $169 per night + tax
   #discount_rate: Sold Out
-  #discount_expires: 8/31 or room block is filled
-  #offer_url: https://www.hyatt.com/en-US/group-booking/ROCHE/G-RSS3
+  discount_expires: 9/11 or room block is filled
+  offer_url: https://www.hyatt.com/en-US/group-booking/ROCHE/G-ISSA?src=envision_email_grpreserv_ENG_20240531_GroupBooking_TC000000170A000010937ENG_G-_587715
+  
