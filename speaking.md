@@ -89,6 +89,6 @@ Contact: <{{ site.speaking_contact_email }}> for more information | Website: <{{
 
 * {{ site.speaking_presentation_due | localtime | date: "%B %e" }} &mdash; Final Copy of Presentation Slides Due (will be used for distribution to attendees)
 
-* {% daterange site.conference_start_date, site.conference_end_date %} &mdash; The Rochester Security Summit {{ site.current_year }}
+* <u>**{% daterange site.conference_start_date, site.conference_end_date %} &mdash; The Rochester Security Summit {{ site.current_year }}**</u>
 {% endif %}
 <hr>
