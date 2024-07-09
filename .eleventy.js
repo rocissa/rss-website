@@ -93,6 +93,20 @@ module.exports = function (eleventyConfig) {
         let year = strftime("%Y", startDate)
         return month + " " + startDate.getDate() + " - " + endDate.getDate() + ", " + year
     })
+	
+	/**
+     * Display row of options for past event year specified
+     */
+    eleventyConfig.addShortcode("pastyear", function (year) {
+        let keynoteDIR = "/" + year + "/keynotes"
+        let presentationDIR = "/" + year + "/files"
+		let sponsorDIR = "/" + year + "/sponsors"
+
+		let keynoteHREF = keynoteDIR
+		// let anchorText = "<a href=\"" + keynoteHREF + "\"data-fslightbox=\"gallery\"><img src=\"/2022/attendees-by-job-function.png" class="img-responsive" alt="Attendee Profiles by Job Function in 2022 (N=338)"></a>
+
+        return keynoteDIR
+    })
 
 	return {
 		dir: {

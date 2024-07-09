@@ -1,28 +1,34 @@
 ---
 site_title: Rochester Security Summit
+#
+# for live site
+baseurl: https://www.rochestersecurity.org
+#
+## for testing
+# baseurl: http://localhost:8080
 # current conference year - used to show current information and to prevent
 # current/upcoming conference from showing on past events page
-current_year: 2023
+current_year: 2024
 
 # previous conference year
-previous_year: 2022
+previous_year: 2023
 
 # next conference year - leave at current during early planning
 next_year: 2024
 
 # conference dates
-conference_start_date: 2023-10-25
-conference_end_date: 2023-10-26
+conference_start_date: 2024-10-09
+conference_end_date: 2024-10-10
 next_year_start_date: 2024-10-09
 next_year_end_date: 2024-10-10
 
 # which year's sponsors should be shown on the homepage
 # allows for previous year's to show until the current year's list is ready
-homepage_sponsors_show_current_year: true
-homepage_sponsors_show_previous_year: false
+homepage_sponsors_show_current_year: false
+homepage_sponsors_show_previous_year: true
 
 # should the pre-conference "coming soon" message be shown on the homepage?
-homepage_conference_announcement: false
+homepage_conference_announcement: true
 
 # should the venue info be displayed on the homepage?
 homepage_show_venue: true
@@ -34,31 +40,39 @@ homepage_show_hotels: true
 homepage_show_parking: true
 
 # should keynote speakers be shown on homepage?
-homepage_show_keynotes: true
+homepage_show_keynotes: false
 
 # should app links be shown on the homepage
 homepage_show_app_links: false
 app_ios_url: https://apps.apple.com/us/app/id1478439812
 app_android_url: https://play.google.com/store/apps/details?id=com.guidebook.apps.rss.android
-app_web_url: https://guidebook.com/g/rochestersecuritysummit2023/
+app_web_url: https://guidebook.com/g/rochestersecuritysummit2024/
 
-homepage_show_post_conference_info: true
-
-homepage_show_call_for_volunteers: false
+homepage_show_post_conference_info: false
+homepage_show_call_for_volunteers: true
 homepage_show_schedule_link: false
-
-
-
 
 # should registration info be displayed on the homepage?
 registration_not_yet_open: false
-registration_enabled: false
-registration_early_bird: false
-registration_standard: false
-registration_late: false
+registration_enabled: true
+registration_early_bird: true
+registration_early_bird_cost: $180
+registration_early_bird_end_date: 2024-07-22
+registration_standard: true
+registration_standard_cost: $280
+registration_standard_end_date: 2024-09-18
+registration_late: true
+registration_late_cost: $380
+registration_late_end_date: 2024-10-10
+registration_one_day_being_sold: true
+registration_standard_one_day: true
+registration_standard_one_day_cost: $180
+registration_standard_one_day_end_date: 2024-09-18
+registration_late_one_day: true
+registration_late_one_day_cost: $245
+registration_late_one_day_end_date: 2024-10-10
 registration_sold_out: false
-registration_event_concluded: true
-
+registration_event_concluded: false
 
 # sponsorship messaging
 sponsorship_show_w9_link: false
@@ -74,23 +88,47 @@ sponsorship_attendee_profile: true
 sponsorship_faq: false
 
 # sponsorship key dates
-
-
+sponsorship_applications_due: 2024-06-13
 
 # speaking messaging
 speaking_next_year: false
 speaking_cfp_not_yet_open: false
 speaking_cfp_open: true
 speaking_cfp_closed: false
-speaking_show_guidelines: false
-speaking_show_key_dates: false
+speaking_show_key_dates: true
+speaking_page_url: https://www.rochestersecurity.org/speaking/
 
 # speaking key dates
-speaking_proposals_due: 2022-08-01
-speaking_committee_responses: 2022-08-15
-speaking_materials_due: 2022-09-01
-speaking_presentation_due: 2022-09-15
+speaking_proposals_due: 2024-07-31
+speaking_committee_responses: 2024-08-31
+speaking_materials_due: 2024-09-08
+speaking_presentation_due: 2024-09-25
 
-schedule_not_yet_available: false
+schedule_not_yet_available: true
 schedule_tentative: false
-schedule_available: true
+schedule_available: false
+
+# Google form URLs and contact emails
+#
+sponsorship_form_url: https://docs.google.com/forms/d/e/1FAIpQLSf8I1E-VaBAqKBGpTCi2wVbrmGuIwQ1tzWJI9GklBLYw8uquQ/viewform?vc=0&c=0&w=1&flr=0
+speaking_form_url: https://docs.google.com/forms/d/e/1FAIpQLSeGnCdlT5EMniO1uQD6xb5ZgFmpO_V8gAqr71d6Tjit7O9DSA/viewform
+#
+# Ed's test forms
+# sponsorship_form_url: https://docs.google.com/forms/d/1tLLO67Z8FzHHWPbjZqYOGJ46vFTUnHU4Z-j4JZqKJZI/viewform
+# speaking_form_url: https://docs.google.com/forms/d/16bwzz9SCqXdS3FxQ2SILVFT1YTDIoE1MY-9RNzWb0Tc/
+#
+# final forms
+# sponsorship_form_url: https://www.rochestersecurity.org
+#
+sponsorship_contact_email: sponsorship@rochestersecurity.org
+speaking_contact_email: speaker@rochestersecurity.org
+information_contact_email: info@rochestersecurity.org
+registration_contact_email: registrar@rochestersecurity.org
+rocissa_contact_email: info@rocisssa.org
+registration_ticket_url: https://events.eventzilla.net/e/rochester-security-summit-2024-2138612281
+#registration_ticket_url: https://events.eventzilla.net/e/rochester-security-summit-2024-2138587562
+
+#
+# past events flags
+#
+past_events_in_table: false
