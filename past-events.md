@@ -2,7 +2,8 @@
 title: Past Events
 layout: page
 ---
-	{%- for conf in collections.conferences reversed -%}
+	{%- assign confs = collections.conferences | sort:"data.year" | reverse -%}
+    {%- for conf in confs -%}
         {%- if site.current_year != conf.data.year -%}
 	        {%- assign active_year = conf.data.year -%}
             <article class="row">
