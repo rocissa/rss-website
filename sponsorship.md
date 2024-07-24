@@ -159,6 +159,7 @@ layout: page
 <hr />
 
 **Have a sponsorship question? Please contact us at <{{ site.sponsorship_contact_email }}>**
+<div class="text-center"><a class="btn btn-primary btn-lg" href="/sponsor-mailing-list" target="_blank">Join Our Sponsorship Mailing List</a></div>
 
 </div>
 
