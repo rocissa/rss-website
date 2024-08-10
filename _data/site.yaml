@@ -40,7 +40,7 @@ homepage_show_hotels: true
 homepage_show_parking: true
 
 # should keynote speakers be shown on homepage?
-homepage_show_keynotes: false
+homepage_show_keynotes: true
 
 # should app links be shown on the homepage
 homepage_show_app_links: false
@@ -55,7 +55,7 @@ homepage_show_schedule_link: false
 # should registration info be displayed on the homepage?
 registration_not_yet_open: false
 registration_enabled: true
-registration_early_bird: true
+registration_early_bird: false
 registration_early_bird_cost: $180
 registration_early_bird_end_date: 2024-07-22
 registration_standard: true
