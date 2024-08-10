@@ -7,7 +7,7 @@ intro: >-
 
     Still very much a hacker to this day, she’s built on that identity to grow her career. She is an internationally recognized public speaker and author of “Cybersecurity Career Guide”. She’s an advocate for helping others make a career out of their passion for hacking and security in general. She’s also a proponent for the open sharing of ideas and perspectives on improving our technologically connected world.
 permalink: /2024/alyssa-miller/
-weight: 1
+weight: 3
 more_link: true
 ---
 
