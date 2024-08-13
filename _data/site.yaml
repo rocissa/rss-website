@@ -93,8 +93,8 @@ sponsorship_applications_due: 2024-06-13
 # speaking messaging
 speaking_next_year: false
 speaking_cfp_not_yet_open: false
-speaking_cfp_open: true
-speaking_cfp_closed: false
+speaking_cfp_open: false
+speaking_cfp_closed: true
 speaking_show_key_dates: true
 speaking_page_url: https://www.rochestersecurity.org/speaking/
 
