@@ -1,0 +1,120 @@
+---
+keynotes:
+  - presenter: Alyssa Miller
+    url: /2024/alyssa-miller/
+  - presenter: Eric Woodruff
+    url: /2024/eric-woodruff/
+tracks:
+  - id: track1
+    name: GRC/Risk
+    room: Highland A
+    show_on_slides_page: true
+  - id: track2
+    name: AI
+    room: Highland A/B
+    show_on_slides_page: true
+  - id: track3
+    name: Training/Show and Tell
+    room: Highland D/E
+    show_on_slides_page: true
+  - id: sponsor1
+    name: Sponsor Engineering and Education
+    room: Aqueduct A/B
+  - id: sponsor2
+    name: Sponsor Engineering and Education
+    room: Aqueduct C/D
+session_times:
+  - start: 10:00 am 
+    end: 10:50 am 
+  - start: 11:00 am
+    end: 11:50 am
+  - start: 1:00 pm
+    end: 1:50 pm
+  - start: 2:00 pm
+    end: 2:50 pm
+sessions:
+  track1:
+    - title: "A Comprehensive Approach to IT Vulnerability Management"
+      presenter: David Frier
+      url: /2024/day1/track-1#track1-s1
+      length: 1
+    - title: "Real Risk in Today’s World…Dark Web Data Leaks"
+      presenter: Bruce Cheney
+      url: /2024/day1/track-1#track1-s2
+      length: 1
+    - title: "Avoiding Concentrated Risk"
+      presenter: Chas Clawson
+      url: /2024/day1/track-1#track1-s3
+      length: 1
+    - title: "Govern Once, Comply Many:  Leveraging Your Security Skills to Manage AI Risk"
+      presenter: F. Paul Greene, CIPP/US, CIPP/E, CIPM, FIP 
+      url: /2024/day1/track-1#track1-s4
+      length: 1
+  track2:
+    - title: "TBA"
+      presenter: 
+      url: /2024/day1/track-2#track2-s1
+      length: 1
+    - title: "Save Time & Money - Automate using Cybersecurity Standards"
+      presenter: Duncan Sparrell
+      url: /2024/day1/track-2#track2-s2
+      length: 1
+    - title: "Harnessing AI for Advanced Network Security: From Attacks on Privacy to Defensive Innovations"
+      presenter: Nate Mathews
+      url: /2024/day1/track-2#track2-s3
+      length: 1
+    - title: "Generative AI — Adversaries vs. Defenders"
+      presenter: Selena Dao
+      url: /2024/day1/track-2#track2-s4
+      length: 1
+  track3:
+    - title: "Towards a Quantum-Resistant Future: Experiences in Post-Quantum Cryptography Education"
+      presenter: T J Borrelli
+      url: /2024/day1/track-3#track3-s1
+      length: 1
+    - title: "Streamlined SIEM Migration and Daily Cost Optimization"
+      presenter: Joe Cicero
+      url: /2024/day1/track-3#track3-s2
+      length: 1
+    - title: "Building a Sawmill: Processing Logs With Security Onion"
+      presenter: Matthew Gracie
+      url: /2024/day1/track-3#track3-s3
+      length: 1
+    - title: "Level Up Your Security: The Power of Gamification"
+      presenter: Ben Meyer-Crosby
+      url: /2024/day1/track-3#track3-s4
+      length: 1
+  sponsor1:
+    - title: "TBA"
+      presenter: Cribl
+      url: /2024/day1/see-track-1#see1-s1
+      length: 1
+    - title: "TBA"
+      presenter: Island
+      url: /2024/day1/see-track-1#see1-s2
+      length: 1
+    - title: "TBA"
+      presenter: ProArch
+      url: /2024/day1/see-track-1#see1-s3
+      length: 1
+    - title: "TBA"
+      presenter: Sumo Logic
+      url: /2024/day1/see-track-1#see1-s4
+      length: 1
+  sponsor2:
+    - title: "TBA"
+      presenter: Just Solutions
+      url: /2024/day1/see-track-2#see2-s1
+      length: 1
+    - title: "TBA"
+      presenter: Kudelski Security
+      url: /2024/day1/see-track-2#see2-s2
+      length: 1
+    - title: "TBA"
+      presenter: Fortinet
+      url: /2024/day1/see-track-2#see2-s3
+      length: 1
+    - title: "TBA"
+      presenter: Axonius9u
+      url: /2024/day1/see-track-2#see2-s4
+      length: 1

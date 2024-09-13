@@ -519,8 +519,15 @@ ul.social > li {
 @media (min-width: 960px) {
   .schedule {
     display: grid;
-    grid-template-columns: 0.5fr 0.5fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     gap: 1px;
+  }
+
+  .schedule-2023 {
+  	grid-template-columns: 0.5fr 0.5fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+
+  .schedule-2024 {
+  	grid-template-columns: 0.5fr 0.5fr 1fr 1fr 1fr 1fr 1fr;
   }
 
   .schedule > div {
@@ -542,12 +549,17 @@ ul.social > li {
     background-color: cyan;
   }
 
-  .schedule .full-session {
+  .schedule-2023 .full-session {
     grid-column-end: span 7;
   }
 
+  .schedule-2024 .full-session {
+    grid-column-end: span 5;
+  }
+
   .schedule .columns-2 {
-	grid-column-end: span 2;
+	  grid-column-end: span 2;
+	  width: 100%;
   }
 
   .schedule .rows-2 {

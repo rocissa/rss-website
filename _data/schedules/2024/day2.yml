@@ -1,0 +1,129 @@
+---
+keynotes:
+  - presenter: Graham Cluley
+    url: /2024/graham-cluley/
+tracks:
+  - id: track1
+    name: GRC/Risk Track
+    room: Grand Lilac Ballroom
+    show_on_slides_page: true
+  - id: track2
+    name: Cyber Defense Track
+    room: Highland A/B
+    show_on_slides_page: true
+  - id: track3
+    name: War Stories Track
+    room: Highland D/E
+    show_on_slides_page: true
+  - id: sponsor1
+    name: Sponsor Engineering and Education
+    room: Aqueduct A/B
+  - id: sponsor2
+    name: Sponsor Engineering and Education
+    room: Aqueduct C/D
+session_times:
+  - start: 10:00 am 
+    end: 10:50 am 
+  - start: 11:00 am
+    end: 11:50 am
+  - start: 1:00 pm
+    end: 1:50 pm
+  - start: 2:00 pm
+    end: 2:50 pm
+  - start: 3:00 pm
+    end: 3:50 pm
+sessions:
+  track1:
+    - title: "Cybersecurity 2.0 – helping you step into NIST 2.0, MDR 2.0, and IAM 2.0"
+      presenter: Jeff Miller
+      url: /2024/day2/track-1#track1-s5
+      length: 1
+    - title: "The ULTIMATE Cheat Sheet for Achieving SOC2 Compliance"
+      presenter: Charissa Kim
+      url: /2024/day2/track-1#track1-s6
+      length: 1
+    - title: "The Threat from Infostealers to Every Company"
+      presenter: Michael Kosak
+      url: /2024/day2/track-1#track1-s7
+      length: 1
+    - title: "Adding API Security to your DevSecOps Toolbelt"
+      presenter: Scott Bly
+      url: /2024/day2/track-1#track1-s8
+      length: 1
+    - title: "Armor Plating Your Product: Building a Product Security Program from Scratch"
+      presenter: Jim Keeler
+      url: /2024/day2/track-1#track1-s9
+      length: 1
+  track2:
+    - title: "Identifying the Holy Trinity of Cyber Defense"
+      presenter: John Shier
+      url: /2024/day2/track-2#track2-s5
+      length: 1
+    - title: "Visibility Beyond EDR"
+      presenter: Greg Stachura
+      url: /2024/day2/track-2#track2-s6
+      length: 1
+    - title: "Microsoft at your BEC and (API) Call: Auditing Mailbox Item Access for Incident Response"
+      presenter: Richard Smith
+      url: /2024/day2/track-2#track2-s7
+      length: 1
+    - title: "The Threat from Infostealers to Every Company"
+      presenter: Mark Musone
+      url: /2024/day2/track-2#track2-s8
+      length: 1
+    - title: "Reclaim Control Over Your Non-human Entites"
+      presenter: TBA
+      url: /2024/day2/track-2#track2-s9
+      length: 1
+  track3:
+    - title: "Navigating the Cybersecurity Realm with Physical and Mental Illness"
+      presenter: Elaine Harrison-Neukirch
+      url: /2024/day2/track-3#track3-s5
+      length: 1
+    - title: "Gone Phishing: Phishing in the Cyber Criminal Ecosystem"
+      presenter: Jordan Slavik
+      url: /2024/day2/track-3#track3-s6
+      length: 1
+    - title: "Dumpster Fires: 6 things about IR I learned by being a firefighter"
+      presenter: Cathy Ullman
+      url: /2024/day2/track-3#track3-s7
+      length: 1
+    - title: "Channel File 291: 7 Lessons from the CrowdStrike Meltdown"
+      presenter: Reg Harnish
+      url: /2024/day2/track-3#track3-s8
+      length: 1
+    - title: "Hacking Airports for Fun and Education (and better security monitoring, too!)"
+      presenter: Tom Kopchak
+      url: /2024/day2/track-3#track3-s9
+      length: 1
+  sponsor1:
+    - title: "TBA"
+      presenter: Semperis
+      url: /2024/day2/see-track-1#see1-s5
+      length: 1
+    - title: "TBA"
+      presenter: ePlus Technology, Inc.
+      url: /2024/day2/see-track-1#see1-s6
+      length: 1
+    - title: "TBA"
+      presenter: Trend Micro
+      url: /2024/day2/see-track-1#see1-s7
+      length: 1
+    - title: "TBA"
+      presenter: Island
+      url: /2024/day2/see-track-1#see1-s8
+      length: 1
+    - empty: true
+  sponsor2:
+    - title: "TBA"
+      presenter: Palo Alto Networks
+      url: /2024/day2/see-track-2#see2-s5
+      length: 1
+    - title: "TBA"
+      presenter: Atlantic Data Security
+      url: /2024/day2/see-track-2#see2-s6
+      length: 1
+    - empty: true
+    - empty: true
+    - empty: true
+

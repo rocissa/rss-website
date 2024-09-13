@@ -1,8 +1,7 @@
 ---
 site_title: Rochester Security Summit
 #
-# for live site
-baseurl: https://www.rochestersecurity.org
+#baseurl: https://www.rochestersecurity.org
 #
 ## for testing
 # baseurl: http://localhost:8080
@@ -104,9 +103,9 @@ speaking_committee_responses: 2024-08-31
 speaking_materials_due: 2024-09-08
 speaking_presentation_due: 2024-09-25
 
-schedule_not_yet_available: true
-schedule_tentative: false
-schedule_available: false
+schedule_not_yet_available: false
+schedule_tentative: true
+schedule_available: true
 
 # Google form URLs and contact emails
 #
