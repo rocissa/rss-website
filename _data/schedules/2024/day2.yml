@@ -71,8 +71,8 @@ sessions:
       presenter: Mark Musone
       url: /2024/day2/track-2#track2-s8
       length: 1
-    - title: "Reclaim Control Over Your Non-human Entites"
-      presenter: TBA
+    - title: "TBA"
+      presenter: 
       url: /2024/day2/track-2#track2-s9
       length: 1
   track3:
@@ -88,14 +88,14 @@ sessions:
       presenter: Cathy Ullman
       url: /2024/day2/track-3#track3-s7
       length: 1
-    - title: "Channel File 291: 7 Lessons from the CrowdStrike Meltdown"
-      presenter: Reg Harnish
-      url: /2024/day2/track-3#track3-s8
-      length: 1
     - title: "Hacking Airports for Fun and Education (and better security monitoring, too!)"
       presenter: Tom Kopchak
-      url: /2024/day2/track-3#track3-s9
+      url: /2024/day2/track-3#track3-s8
       length: 1
+    - title: "Channel File 291: 7 Lessons from the CrowdStrike Meltdown"
+      presenter: Reg Harnish
+      url: /2024/day2/track-3#track3-s9
+      length: 1ß    
   sponsor1:
     - title: "TBA"
       presenter: Semperis

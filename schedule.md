@@ -231,30 +231,22 @@ layout: page
   <div class="gap"></div>
 
   <div class="no-mobile">2:00 pm</div>
-  <div class="no-mobile">2:30 pm</div>
-  <div class="full-session">
-    <div class="title">Sponsor Visitation Break</div>
-    <div class="times">2:00 pm - 2:30 pm</div>
-  </div>
-  <div class="gap"></div>
-  
-  <div class="no-mobile">2:30 pm</div>
-  <div class="no-mobile">3:20 pm</div>
+  <div class="no-mobile">2:50 pm</div>
   {%- assign slot = 3 -%}
   {% include "schedule_slot.md" %}
   <div class="gap"></div>
   
-  <div class="no-mobile">3:30 pm</div>
-  <div class="no-mobile">4:20 pm</div>
+  <div class="no-mobile">3:00 pm</div>
+  <div class="no-mobile">3:50 pm</div>
   {%- assign slot = 4 -%}
   {% include "schedule_slot.md" %}
   <div class="gap"></div>
   
-  <div class="no-mobile lilac">4:30 pm</div>
-  <div class="no-mobile lilac">5:30 pm</div>
+  <div class="no-mobile lilac">4:00 pm</div>
+  <div class="no-mobile lilac">5:00 pm</div>
   <div class="full-session lilac">
     <div class="title">Prizes & Raffles</div>
-    <div class="times">4:30 pm - 5:30 pm</div>
+    <div class="times">4:00 pm - 5:00 pm</div>
     <div class="room">Grand Lilac Ballroom</div>
   </div>
 </div>    
