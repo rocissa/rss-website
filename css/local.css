@@ -623,3 +623,21 @@ ul.social > li {
 		text-align: left;
 	}
 }
+
+/* session descriptions */
+.session-abstract {
+	margin-top: 8rem;
+}
+
+dialog .session-abstract {
+	margin-top: 0;
+}
+
+.session-abstract .bios {
+	padding-left: 5rem;
+}
+
+.session-abstract h3 {
+	font-size: 2rem;
+	margin-top: 2rem;
+}

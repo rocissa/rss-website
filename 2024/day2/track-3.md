@@ -2,4 +2,6 @@
 title: RSS:2024 War Stories Track (Day 2)
 layout: page
 ---
-**Session abstracts coming soon.**
+{%- assign schedule = schedules[site.current_year].day2 -%}
+{%- assign track = 'track3' -%}
+{%- include "abstracts.md" -%}

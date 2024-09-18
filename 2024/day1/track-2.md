@@ -2,4 +2,6 @@
 title: RSS:2024 AI Track (Day 1)
 layout: page
 ---
-**Session abstracts coming soon.**
+{%- assign schedule = schedules[site.current_year].day1 -%}
+{%- assign track = 'track2' -%}
+{%- include "abstracts.md" -%}

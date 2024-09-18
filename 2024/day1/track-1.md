@@ -2,4 +2,7 @@
 title: RSS:2024 GRC/Risk Track (Day 1)
 layout: page
 ---
-**Session abstracts coming soon.**
+{%- assign schedule = schedules[site.current_year].day1 -%}
+{%- assign track = 'track1' -%}
+{%- assign trackid = 0 -%}
+{%- include "abstracts.md" -%}
