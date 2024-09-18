@@ -69,7 +69,7 @@ layout: page
   <div class="no-mobile track track1 title">GRC/Risk Track</div>
   <div class="no-mobile track track2 title">AI Track</div>
   <div class="no-mobile track track3 title">Training/Show and Tell Track</div>
-  <div class="no-mobile track sponsor columns-2 title">Sponsor Engineering and Education (SEE) Track</div>
+  <div class="no-mobile track sponsor columns-2 title">Sponsor Track</div>
   
   <div class="no-mobile">&nbsp;</div>
   <div class="no-mobile">&nbsp;</div>
@@ -176,7 +176,7 @@ layout: page
   <div class="full-session lilac">
     <div class="title">Keynote - <a href="{{ schedule.keynotes[0].url }}">{{ schedule.keynotes[0].presenter }}</a></div>
     <div class="times">8:40 am - 9:40 am</div>
-    <div class="room">Grand Lilac Ballroom)</div>
+    <div class="room">Grand Lilac Ballroom</div>
   </div>
   <div class="gap"></div>
   
@@ -193,7 +193,7 @@ layout: page
   <div class="no-mobile track track1 title">GRC/Risk Track</div>
   <div class="no-mobile track track2 title">Cyber Defense Track</div>
   <div class="no-mobile track track3 title">War Stories Track</div>
-  <div class="no-mobile track sponsor columns-2 title">Sponsor Engineering and Education (SEE) Track</div>
+  <div class="no-mobile track sponsor columns-2 title">Sponsor Track</div>
   
   <div class="no-mobile">&nbsp;</div>
   <div class="no-mobile">&nbsp;</div>
