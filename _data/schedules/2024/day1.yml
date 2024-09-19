@@ -6,22 +6,22 @@ keynotes:
     url: /2024/eric-woodruff/
 tracks:
   - id: track1
-    name: GRC/Risk
-    room: Highland A
+    name: GRC/Risk Track
+    room: Grand Lilac Ballroom
     show_on_slides_page: true
   - id: track2
-    name: AI
+    name: AI Track
     room: Highland A/B
     show_on_slides_page: true
   - id: track3
-    name: Training/Show and Tell
+    name: Training/Show and Tell Track
     room: Highland D/E
     show_on_slides_page: true
   - id: sponsor1
-    name: Sponsor Engineering and Education
+    name: Sponsor Track
     room: Aqueduct A/B
   - id: sponsor2
-    name: Sponsor Engineering and Education
+    name: Sponsor Track
     room: Aqueduct C/D
 session_times:
   - start: 10:00 am 
