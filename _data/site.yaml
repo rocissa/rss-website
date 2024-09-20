@@ -57,14 +57,14 @@ registration_enabled: true
 registration_early_bird: false
 registration_early_bird_cost: $180
 registration_early_bird_end_date: 2024-07-22
-registration_standard: true
+registration_standard: false
 registration_standard_cost: $280
 registration_standard_end_date: 2024-09-18
 registration_late: true
 registration_late_cost: $380
 registration_late_end_date: 2024-10-10
 registration_one_day_being_sold: true
-registration_standard_one_day: true
+registration_standard_one_day: false
 registration_standard_one_day_cost: $180
 registration_standard_one_day_end_date: 2024-09-18
 registration_late_one_day: true
