@@ -6,11 +6,11 @@ keynotes:
     url: /2024/eric-woodruff/
 tracks:
   - id: track1
-    name: GRC/Risk Track
+    name: AI Track
     room: Grand Lilac Ballroom
     show_on_slides_page: true
   - id: track2
-    name: AI Track
+    name: GRC/Risk Track
     room: Highland A/B
     show_on_slides_page: true
   - id: track3
@@ -34,9 +34,117 @@ session_times:
     end: 2:50 pm
 sessions:
   track1:
+    - title: "Tabletop Exercises: Enhancing Incident Preparedness and Response"
+      presenter: Javier Figueroa
+      url: /2024/day1/track-1#track1-s1
+      abstract: >
+        Tabletop exercises have emerged as a cornerstone in incident and disaster preparedness. In this 
+        presentation, we discuss the purpose, benefits, structure and future of tabletop exercises.
+
+
+        Tabletop exercises are valuable because they create realistic scenarios within a controlled setting, 
+        allowing organizations to assess how well they’re prepared to handle different crises. By bringing 
+        together key stakeholders, decision-makers, and subject matter experts, tabletop exercises promote 
+        collaboration, communication, and critical thinking. In this presentation, we will explore the essential 
+        elements of tabletop exercises, including scenario development, execution, and evaluation.
+      bios:
+        - name: Javier Figueroa
+          bio: >
+            Javier Figueroa is a Certified Information Systems Security Professional (CISSP), Certified 
+            Information Security Manager (CISM), and Certified Cloud Security Professional (CCSP) with 
+            over 15 years of expertise in the field of Information Technology, specializing as an 
+            Information Security Program Manager. As a Cybersecurity Manager, Javier plays a pivotal role 
+            in elevating the cybersecurity posture of clients through a comprehensive suite of services. 
+            These include strategic vCISO consultations, risk analysis, development of security roadmaps, 
+            policy formulation, and conducting incident readiness tabletop exercises.
+
+
+            Javier holds a Master’s Degree in Cybersecurity from Utica University.
+      length: 1
+    - title: "Save Time & Money - Automate using Cybersecurity Standards"
+      presenter: Duncan Sparrell
+      url: /2024/day1/track-1#track1-s2
+      abstract: >
+        This is NOT an AI talk! Automation is applying technology to "achieve outcomes with minimal 
+        human interaction". This talk is about the emerging cybersecurity standards and how they enable 
+        automation. It will cover why this is important (save money, respond at machine speed, maximize 
+        scare human expertise), what is involved (including explaining the alphabet soup of acronyms), 
+        and present results from the use cases demo'd at the Cybersecurity Automation Village 
+        (including OlympicDestroyer and SBOMs). The talk will also have a related sidebar into how we 
+        must be doing something right if the Russians and Iranians are objecting to our work at UN 
+        agencies like the ITU.
+      bios:
+        - name: Duncan Sparrell
+          bio: >
+            Duncan's mission is to make the world a safer place. He has 45+ years of expertise in 
+            software and has been involved in cybersecurity since 1990, including coining the term "SOC". 
+            After retiring as AT&T's Chief Security Architect, Duncan volunteers most of his time to 
+            cybersecurity standards including cochairing the Open Cybersecurity Alliance Cybersecurity 
+            Automation Sub-Project. He has been advocating software bill of materials (SBOM) literally for 
+            decades.
+
+
+            Duncan was awarded the Intelligence Community Seal Medallion, the AT&T Science and 
+            Technology Medal, the OASIS Distinguished Contributor Award, and 18 patents.
+
+
+            Duncan's tagline is "Think evilly, act ethically."
+
+
+            For more info about Duncan, see https://www.linkedin.com/in/sfractal/
+      length: 1
+    - title: "Harnessing AI for Advanced Network Security: From Attacks on Privacy to Defensive Innovations"
+      presenter: Nate Mathews and Matthew Wright
+      url: /2024/day1/track-1#track1-s3
+      abstract: >
+        In this talk, we delve into the application of state-of-the-art AI methods to bolster both 
+        offensive and defensive mechanisms in network security. We start by examining the landscape of 
+        advanced network threats, including AI-driven attacks on privacy-enhancing technologies like 
+        VPNs and Tor, and the sophisticated nature of pivoting attacks in network intrusions. 
+        Specifically, we will discuss a class of privacy attacks known as Flow Correlation attacks. We 
+        will then show how these offensive techniques can be adapted and repurposed for defense, to 
+        detect pivoting in network intrusion attacks. Our methodologies, results, and implications 
+        highlight the strengths and limitations of AI, contributing to a more robust understanding of 
+        attacks.
+      bios:
+        - name: Nate Matthews
+          bio: >
+            Nate Mathews is a Ph.D. candidate in Computing and Information Sciences at RIT. His research
+            focuses on the intersection of privacy, security, and deep learning with a focus on traffic 
+            analysis. Among his publications, he is the lead author of a paper that appeared in the IEEE 
+            Symposium on Security and Privacy, the top venue in systems security research.
+        - name: Matthew Wright
+          bio: >
+            Matt Wright is Endowed Professor and Chair of Cybersecurity at RIT. He earned his PhD in CS 
+            at the University of Massachusetts in 2005. His research interests include deepfake 
+            detection, applying AI to malware and traffic analysis, and understanding the human element 
+            of security. He has over 100 peer-reviewed publications, including many works appearing in 
+            top-tier venues in cybersecurity, human-computer interaction, and computer networks.
+      length: 1
+    - title: "Generative AI — Adversaries vs. Defenders"
+      presenter: Selena Dao
+      url: /2024/day1/track-1#track1-s4
+      abstract: >
+        Dive into the world of cyber generative AI and explore its dual nature as both a potential 
+        cybersecurity risk and a valuable tool for security teams. We explore how adversaries carry out 
+        attacks, including various ways in which generative AI can be exploited for malicious purposes, 
+        including deepfake creation and automated phishing attacks. Conversely, we also examine the 
+        innovative applications of generative AI in enhancing cybersecurity measures, such as alert and 
+        risk event explanation, custom and prescriptive guidance, advanced threat hunting. This session 
+        provides a comprehensive understanding of the challenges and opportunities presented by 
+        generative AI in the cybersecurity landscape.
+      bios:
+         - name: Selena Dao
+           bio: >
+             Selena is a Senior Solutions Engineer at Trend Micro with over 4 years of experience in the 
+             cybersecurity industry. She focuses on educating and delivering technical solutions to 
+             enterprise environments across endpoint, email, XDR, and continuous risk assessment 
+             technologies.
+      length: 1
+  track2:
     - title: "A Comprehensive Approach to IT Vulnerability Management"
       presenter: David Frier
-      url: /2024/day1/track-1#track1-s1
+      url: /2024/day1/track-2#track2-s1
       abstract: >
         Vulnerability management is a critical aspect of safeguarding an organization’s infrastructure.
         This talk will introduce a comprehensive approach to vulnerability management that not only 
@@ -63,7 +171,7 @@ sessions:
       length: 1
     - title: "Real Risk in Today’s World…Dark Web Data Leaks"
       presenter: Bruce Cheney
-      url: /2024/day1/track-1#track1-s2
+      url: /2024/day1/track-2#track2-s2
       abstract: >
         Cyber risk is a growing concern for businesses of all sizes. According to the FBI, there were 
         over $12.5 Billion in losses due to cybercrime in 2023. And as cyber criminals are getting more 
@@ -97,7 +205,7 @@ sessions:
       length: 1
     - title: "Avoiding Concentrated Risk"
       presenter: Chas Clawson
-      url: /2024/day1/track-1#track1-s3
+      url: /2024/day1/track-2#track2-s3
       abstract: >
         In today’s rapidly evolving cybersecurity landscape, avoiding concentrated risk in a 
         consolidated security solutions market is crucial. As companies increasingly rely on fewer 
@@ -121,7 +229,7 @@ sessions:
       length: 1
     - title: "Govern Once, Comply Many:  Leveraging Your Security Skills to Manage AI Risk"
       presenter: F. Paul Greene
-      url: /2024/day1/track-1#track1-s4
+      url: /2024/day1/track-2#track2-s4
       abstract: >
         Infosec teams are overtaxed and underfunded, and often now tasked with assessing and managing 
         AI risk,  AI governance approaches vary, however, and the technology is in flux.  Fortunately, 
@@ -140,114 +248,6 @@ sessions:
             published extensively in the U.S. and U.K on these issues.  He is also a Distinguished 
             Fellow of the Ponemon Institute, the pre-eminent research center dedicated to privacy, data 
             protection and information security policy.  
-      length: 1
-  track2:
-    - title: "Tabletop Exercises: Enhancing Incident Preparedness and Response"
-      presenter: Javier Figueroa
-      url: /2024/day1/track-2#track2-s1
-      abstract: >
-        Tabletop exercises have emerged as a cornerstone in incident and disaster preparedness. In this 
-        presentation, we discuss the purpose, benefits, structure and future of tabletop exercises.
-
-
-        Tabletop exercises are valuable because they create realistic scenarios within a controlled setting, 
-        allowing organizations to assess how well they’re prepared to handle different crises. By bringing 
-        together key stakeholders, decision-makers, and subject matter experts, tabletop exercises promote 
-        collaboration, communication, and critical thinking. In this presentation, we will explore the essential 
-        elements of tabletop exercises, including scenario development, execution, and evaluation.
-      bios:
-        - name: Javier Figueroa
-          bio: >
-            Javier Figueroa is a Certified Information Systems Security Professional (CISSP), Certified 
-            Information Security Manager (CISM), and Certified Cloud Security Professional (CCSP) with 
-            over 15 years of expertise in the field of Information Technology, specializing as an 
-            Information Security Program Manager. As a Cybersecurity Manager, Javier plays a pivotal role 
-            in elevating the cybersecurity posture of clients through a comprehensive suite of services. 
-            These include strategic vCISO consultations, risk analysis, development of security roadmaps, 
-            policy formulation, and conducting incident readiness tabletop exercises.
-
-
-            Javier holds a Master’s Degree in Cybersecurity from Utica University.
-      length: 1
-    - title: "Save Time & Money - Automate using Cybersecurity Standards"
-      presenter: Duncan Sparrell
-      url: /2024/day1/track-2#track2-s2
-      abstract: >
-        This is NOT an AI talk! Automation is applying technology to "achieve outcomes with minimal 
-        human interaction". This talk is about the emerging cybersecurity standards and how they enable 
-        automation. It will cover why this is important (save money, respond at machine speed, maximize 
-        scare human expertise), what is involved (including explaining the alphabet soup of acronyms), 
-        and present results from the use cases demo'd at the Cybersecurity Automation Village 
-        (including OlympicDestroyer and SBOMs). The talk will also have a related sidebar into how we 
-        must be doing something right if the Russians and Iranians are objecting to our work at UN 
-        agencies like the ITU.
-      bios:
-        - name: Duncan Sparrell
-          bio: >
-            Duncan's mission is to make the world a safer place. He has 45+ years of expertise in 
-            software and has been involved in cybersecurity since 1990, including coining the term "SOC". 
-            After retiring as AT&T's Chief Security Architect, Duncan volunteers most of his time to 
-            cybersecurity standards including cochairing the Open Cybersecurity Alliance Cybersecurity 
-            Automation Sub-Project. He has been advocating software bill of materials (SBOM) literally for 
-            decades.
-
-
-            Duncan was awarded the Intelligence Community Seal Medallion, the AT&T Science and 
-            Technology Medal, the OASIS Distinguished Contributor Award, and 18 patents.
-
-
-            Duncan's tagline is "Think evilly, act ethically."
-
-
-            For more info about Duncan, see https://www.linkedin.com/in/sfractal/
-      length: 1
-    - title: "Harnessing AI for Advanced Network Security: From Attacks on Privacy to Defensive Innovations"
-      presenter: Nate Mathews and Matthew Wright
-      url: /2024/day1/track-2#track2-s3
-      abstract: >
-        In this talk, we delve into the application of state-of-the-art AI methods to bolster both 
-        offensive and defensive mechanisms in network security. We start by examining the landscape of 
-        advanced network threats, including AI-driven attacks on privacy-enhancing technologies like 
-        VPNs and Tor, and the sophisticated nature of pivoting attacks in network intrusions. 
-        Specifically, we will discuss a class of privacy attacks known as Flow Correlation attacks. We 
-        will then show how these offensive techniques can be adapted and repurposed for defense, to 
-        detect pivoting in network intrusion attacks. Our methodologies, results, and implications 
-        highlight the strengths and limitations of AI, contributing to a more robust understanding of 
-        attacks.
-      bios:
-        - name: Nate Matthews
-          bio: >
-            Nate Mathews is a Ph.D. candidate in Computing and Information Sciences at RIT. His research
-            focuses on the intersection of privacy, security, and deep learning with a focus on traffic 
-            analysis. Among his publications, he is the lead author of a paper that appeared in the IEEE 
-            Symposium on Security and Privacy, the top venue in systems security research.
-        - name: Matthew Wright
-          bio: >
-            Matt Wright is Endowed Professor and Chair of Cybersecurity at RIT. He earned his PhD in CS 
-            at the University of Massachusetts in 2005. His research interests include deepfake 
-            detection, applying AI to malware and traffic analysis, and understanding the human element 
-            of security. He has over 100 peer-reviewed publications, including many works appearing in 
-            top-tier venues in cybersecurity, human-computer interaction, and computer networks.
-      length: 1
-    - title: "Generative AI — Adversaries vs. Defenders"
-      presenter: Selena Dao
-      url: /2024/day1/track-2#track2-s4
-      abstract: >
-        Dive into the world of cyber generative AI and explore its dual nature as both a potential 
-        cybersecurity risk and a valuable tool for security teams. We explore the various ways in which 
-        generative AI can be exploited for malicious purposes, including deepfake creation, automated 
-        phishing attacks, and the potential generation of sophisticated malware. Conversely, we also 
-        examine the innovative applications of generative AI in enhancing cybersecurity measures, such 
-        as alert and risk event explanation, custom and prescriptive guidance, advanced threat hunting, 
-        and more. This session provides a comprehensive understanding of the challenges and opportunities
-        presented by generative AI in the cybersecurity landscape.
-      bios:
-         - name: Selena Dao
-           bio: >
-             Selena is a Senior Solutions Engineer at Trend Micro with over 4 years of experience in the 
-             cybersecurity industry. She focuses on educating and delivering technical solutions to 
-             enterprise environments across endpoint, email, XDR, and continuous risk assessment 
-             technologies.
       length: 1
   track3:
     - title: "Towards a Quantum-Resistant Future: Experiences in Post-Quantum Cryptography Education"
@@ -282,8 +282,32 @@ sessions:
             department from 2017 to 2023, where she was promoted to Senior Lecturer in 2023. She has 
             been involved in initiatives to broaden participation in computing at RIT and UofR and has 
             taught introductory computer science, computer science theory, and cryptography courses.
+        - name: Sumita Mishra
+          bio: >
+            Sumita Mishra is a professor and the graduate program director in the Department of 
+            Cybersecurity at Rochester Institute of Technology. She earned her doctoral degree in 
+            Electrical Engineering at the University at Buffalo in 2001 and has served as a faculty 
+            member at RIT for 17 years. She has led and co-led several NSF-funded projects focused on 
+            computing and cybersecurity education. She teaches cryptography at the graduate level and is 
+            an active member of IEEE and ACM. She has published over 70 articles in reputed journals and 
+            academic conferences in her field.
+        - name: Stanislaw Radziszowski
+          bio: >
+            Stanisław Radziszowski is a Professor in the Department of Computer Science since 1995. He 
+            earned Ph.D. from the Institute of Informatics at the University of Warsaw. During the years
+            1980-1984 he worked in IIMAS at the National Autonomous University of Mexico in Mexico City, 
+            and since 1984 at the RIT. In the 1990's he held three times 6-week visiting positions at the 
+            Australian National University in Canberra, and maintained collaborations with universities in 
+            Poland.
 
 
+            His main research interest is in combinatorial computing - solving classical problems in 
+            combinatorics, graph theory and design theory, usually with the help of massive computations. 
+            Bounds on Ramsey numbers are his favorite. His survey titled ‘Small Ramsey Numbers’, which is a 
+            regularly updated living article at the Electronic Journal of Combinatorics, became a standard 
+            reference in this area. He teaches mostly theory oriented courses, including very popular 
+            courses on cryptography, both at undergraduate and graduate levels. His recent work on applied 
+            cryptography led to joint projects with Computer Engineering Department.
       length: 1
     - title: "Streamlined SIEM Migration and Daily Cost Optimization"
       presenter: Joe Cicero

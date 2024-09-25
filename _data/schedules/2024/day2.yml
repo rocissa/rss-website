@@ -4,15 +4,15 @@ keynotes:
     url: /2024/graham-cluley/
 tracks:
   - id: track1
-    name: GRC/Risk Track
+    name: War Stories Track
     room: Grand Lilac Ballroom
     show_on_slides_page: true
   - id: track2
-    name: Cyber Defense Track
+    name: GRC/Risk Track
     room: Highland A/B
     show_on_slides_page: true
   - id: track3
-    name: War Stories Track
+    name: Cyber Defense Track
     room: Highland D/E
     show_on_slides_page: true
   - id: sponsor1
@@ -34,233 +34,9 @@ session_times:
     end: 3:50 pm
 sessions:
   track1:
-    - title: "Cybersecurity 2.0 – helping you step into NIST 2.0, MDR 2.0, and IAM 2.0"
-      presenter: Jeff Miller
-      url: /2024/day2/track-1#track1-s1
-      abstract: >
-        With the release of the NIST CSF 2.0 earlier this year and the addition of the new Govern 
-        pillar, companies need to understand how to implement new controls and governance concepts 
-        into their organizations to ensure the effectiveness of their cybersecurity program.  
-        Additionally, newer technologies are quickly replacing older ones in the areas of threat 
-        detection & response and identity & access management.  This presentation aims to tie together 
-        new concepts in NIST CSF 2.0 with new technologies that will help companies achieve cyber 
-        resilience.
-      bios:
-        - name: Jeff Miller
-          bio: >
-            Jeff Miller is a unique blend of engineer, teacher, and evangelist of all things 
-            cybersecurity. His roots in cybersecurity stem from his engineering degree and tenure at the 
-            nation’s second-largest law firm, where he regularly defended against ransomware, the hacktivist 
-            group Anonymous, distributed denial of service attacks, and various other threats. Jeff spends 
-            much of his time educating organizations on how to adhere to both security regulations and best 
-            practices around cybersecurity. Jeff lives, breathes, and bleeds cybersecurity. It’s not just what 
-            he does; it’s who he is.
-      length: 1
-    - title: "The ULTIMATE Cheat Sheet for Achieving SOC2 Compliance"
-      presenter: Charissa Kim
-      url: /2024/day2/track-1#track1-s2
-      abstract: >
-        The SOC2 Type II from the American Institute of Certified Public Accountants is the de facto 
-        standard of security audits to ensure the security, confidentiality, and privacy of customer 
-        data. However, its roots lie in a different time and context. In this talk, the speaker will 
-        provide a straightforward cheat sheet for achieving SOC 2 certification effectively and 
-        efficiently. She will break down the process, examine its strengths, pinpoint potential pitfalls, 
-        and share best practices from her own experience.
-      bios:
-        - name: Charissa Kim
-          bio: >
-            Charissa Kim is a Security TPM at Semgrep. She has spoken on various panels and presented 
-            at conferences such as the National Cryptologic Foundation (NCF), National Institute of 
-            Standards and Technology (NIST), National Initiative for Cybersecurity Education (NICE), and 
-            many others. Charissa also founded Cyber Youth Tech (CyTech), a non-profit organization devoted 
-            to empowering the next generation of STEM and cybersecurity professionals. Furthermore, Charissa 
-            directed and produced K-12 Cyber Talk, a cybersecurity webcast sponsored by the National Security 
-            Agency, providing a welcoming environment for K-12 students to learn and explore cybersecurity 
-            along with its diverse career options and opportunities. She is also the first female All-American 
-            from the National CyberPatriot and Northrup Grumman Nationals competition.
-      length: 1
-    - title: "The Threat from Infostealers to Every Company"
-      presenter: Michael Kosak
-      url: /2024/day2/track-1#track1-s3
-      abstract: >
-        The threat from Infostealers, which is malware aimed at stealing critical personal and financial
-        information, has grown substantially over the last 3 years and has been a key factor in some of 
-        the largest breaches of 2024. It targets both individuals and organizations, leading to millions 
-        of credentials and session tokens either available for sale on the dark web via stealer logs 
-        (often for as little as $10) or posted for free in various forums. This briefing will discuss 
-        what infostealers are, how they work, where they fit in the larger cybercriminal ecosystems, and 
-        how you can protect yourself and/or your organization against them.
-      bios:
-        - name: Michael Kosak
-          bio: >
-            Mike Kosak has been an intelligence analyst for over 20 years, starting his career with the 
-            US Department of Defense before moving to the private sector in 2012. For the last 8 years, 
-            he has focused on Cyber Threat Intelligence. He is currently the Senior Principal 
-            Intelligence Analyst at LastPass. His previous private sector roles include manager of the 
-            Strategic Intelligence Analysis and Threat Evaluation teams at Bank of America and Cyber 
-            Threat Intelligence team lead at TIAA.
-      length: 1
-    - title: "Adding API Security to your DevSecOps Toolbelt"
-      presenter: Scott Bly
-      url: /2024/day2/track-1#track1-s4
-      abstract: >
-        How do you integrate API Security into your DevSecOps processes?
-
-
-        You have DevOps tooling and CI/CD pipelines for your product release cycle. Your Dev & Ops 
-        teams work well together. You started a DevSecOps transformation to Shift Left and test code 
-        security in pipelines. But how do you integrate the Security teams into DevOps to achieve true 
-        DevSecOps?
-
-
-        Then, how do you integrate APIs, as they are behavior-based? Traditional AppSec can’t identify 
-        vulnerabilities in API consumption.
-
-
-        Learn how to integrate API testing into Shift Left DevSecOps pipelines to eliminate 
-        vulnerabilities. Learn how to bring Dev, Sec, Ops teams together to improve Mean Time To 
-        Remediation, and keep your teams happy!
-      bios:
-        - name: Scott Bly
-          bio: >
-            Scott Bly leads the API Security Practice at iSOA Group, integrating security across the 
-            API lifecycle. He spent time at Noname Security developing API security programs for 
-            high-profile clients. Prior to Noname, Scott ran the Security Improvement Program at AWS, 
-            assisting more than 200 customers to measure and improve their cloud security postures.
-
-
-            Scott has served as a Cybersecurity Solutions Architect and holds over 40 certifications in 
-            IT and security, including CISSP and CISM, from vendors such as Fortinet, Cisco and AWS. 
-            Scott served as the Director of IT for the American Film Institute, where he led their 
-            digital transformation. He led a LA-based consulting firm specializing in the SMB and 
-            Media/Entertainment space for fifteen years.
-      length: 1
-    - title: "Armor Plating Your Product: Building a Product Security Program from Scratch"
-      presenter: Jim Keeler
-      url: /2024/day2/track-1#track1-s5
-      abstract: >
-        Building a robust product security program is essential for shipping hardened products, 
-        safeguarding your business, and earning customer trust. This talk will explore the essential 
-        steps to creating a solid foundation for a successful program. We'll discuss topics ranging from 
-        practical strategies for engaging stakeholders to implementing secure coding practices. Whether 
-        you're starting from scratch or looking to enhance an existing program, this talk offers lots of 
-        ideas and approaches to strengthen your organization's product security defenses.
-      bios:
-        - name: Jim Keeler
-          bio: >
-            Jim Keeler is a senior security analyst at CyberQP, a cyber-security startup. With over a 
-            decade of development experience and three years as a penetration tester and red team 
-            operator, Jim is meticulously constructing the product security program at CyberQP. Jim is 
-            passionate about training and collaborating with developers to ship more secure code. When 
-            he's not drafting secure coding standards or penetration testing new features, he enjoys 
-            playing soccer with his three kids.
-      length: 1
-  track2:
-    - title: "Identifying the Holy Trinity of Cyber Defense"
-      presenter: John Shier
-      url: /2024/day2/track-2#track2-s1
-      abstract: >
-        In the aftermath of an attack victims are left wondering what they could have done better or 
-        differently. When faced with nation-state attackers, the answer is often: not much. But, most 
-        attacks aren't the product of a nation-state adversary. They are the work of professional 
-        cybercriminals, intent on causing harm for financial gain. By analyzing hundreds of incident 
-        response investigations, we can identify how the attackers are succeeding and what we can do 
-        differently to change the narrative.
-      bios:
-        - name: John Shier
-          bio: >
-            John Shier is a Field CTO Threat Intelligence with more than two decades of cybersecurity 
-            experience. He’s passionate about protecting consumers and organizations from advanced 
-            threats, and has researched everything from costly ransomware to illicit dark web activity, 
-            uncovering insights needed to strengthen proactive cybersecurity defenses.
-      length: 1
-    - title: "Visibility Beyond EDR"
-      presenter: Greg Stachura and Alex Ioannidis
-      url: /2024/day2/track-2#track2-s2
-      abstract: >
-        EDR, I love you, you’re perfect, now change! The continued enhancements in EDR make them 
-        invaluable tools, however there isnt a single one on the market that can detect it all, or even 
-        gives you insight into it all. So how do we gain visibility into our blindspots, without writing 
-        blank checks? For Windows users, Sysmon can help with those blindspots. Utilizing a smart 
-        implementation, a logging filter and some know how, you can help fix or, in some cases, improve, 
-        detections from your EDR.
-      bios:
-        - name: Greg Stachura
-          bio: >
-            Greg is a Senior Manager at Security Risk Advisorsy where he helps run and manage an MSSP 
-            offering for a 24/7/365 CyberSOC services. Greg has architected, deployed, and managed SIEM 
-            environments, orchestration and automations platforms, and developed custom tools for SOC 
-            analysts. He also has extensive background in Incident Response playbook development, log 
-            analysis, and forensics in health care, financial, and academic environments.
-
-
-            Greg earned his MBA from the Rochester Institute of Technology with an Advanced Certificate 
-            in Information Assurance. Prior to joining Security Risk Advisors, Greg worked extensively in 
-            the financial, healthcare, and education sectors.
-        - name: Alex Ioannidis
-          bio: >
-            Alexandra is a Senior Consultant at Security Risk Advisors. She focuses on EDR engineering and 
-            detection rule creation, specifically for SentinelOne, Microsoft Defender, and CrowdStrike. 
-            Alexandra is also a threat hunt lead, developing and overseeing threat hunts for multiple 
-            clients.
-
-
-            Alexandra is a graduate of Rochester Institute of Technology, holding a degree in Computing 
-            Security with a minor in Networking & Systems Administration. 
-      length: 1
-    - title: "Microsoft at your BEC and (API) Call: Auditing Mailbox Item Access for Incident Response"
-      presenter: Richard Smith
-      url: /2024/day2/track-2#track2-s3
-      abstract: >
-        Concerned about business email compromise (BEC) attacks? Until recently, organizations using 
-        Office 365 for email had no way to audit access to individual mailbox items unless they paid for 
-        the premium E5-level license. Microsoft has enabled all customers to access these logs - but 
-        accessing them and getting the data into an actionable format is still a daunting task. In this 
-        talk I'll show how you can leverage readily-available technologies to pull the mailbox audit 
-        logs into your SIEM and datalake solution, giving visibility into individual mailbox item 
-        access logs, and potentially reducing your PHI/PII exposure risk in the event of a cybersecurity 
-        incident.
-      bios:
-        - name: Richard Smith
-          bio: >
-            Richard Smith is a Senior Consultant with Security Risk Advisors, working primarily on 
-            security data pipeline efficiency and onboarding clients into SRA's XDR solution, SCALR.
-      length: 1
-    - title: "Lifting the Veil: Decrypting Malware's Hidden Language"
-      presenter: Mark Musone
-      url: /2024/day2/track-2#track2-s4
-      abstract: >
-        Mark will demonstrate forensic analysis of malware which originated from a foreign threat 
-        actor. He will teach us how malware operates, how to analyze malware, and ways to take the 
-        confusion out of compromises.
-      bios:
-        - name: Mark Musone
-          bio: >
-            Mark Musone has expertise in both corporate and Government cybersecurity. He has 
-            proficiency in NIST 800-53, NIST 800-171, CMMC, FedRAMP, FISMA, and numerous other standards.
-
-
-            Mark regularly provides subject matter expertise on security audits, reviews of technical 
-            system design documentation, deliverables, and performance. Mark also provides additional 
-            research and analysis of cloud technologies, security architectures, IPV6 solutions, and 
-            Federal security requirements and standards.
-
-            
-            Mark has taught countless technology and security classes and seminars, has provided 
-            forensic assistance to various Governmental agencies, and provides expert testimony in court 
-            cases. Mark has successfully worked with contractors and vendors to resolve findings, develop 
-            security best practices, and maintained up-to-date status of security compliance. Mark is a 
-            CISSP, CMMC Registered Practitioner, a CMMC Provisional Assessor, a CMMC Certified Assessor, 
-            a CMMC Certified Professional, and a CMMC Certified Provisional Instructor.
-      length: 1
-    - title: "TBA"
-      presenter: 
-      url: /2024/day2/track-2#track2-s5
-      length: 1
-  track3:
     - title: "Navigating the Cybersecurity Realm with Physical and Mental Illness"
       presenter: Elaine Harrison-Neukirch
-      url: /2024/day2/track-3#track3-s1
+      url: /2024/day2/track-1#track1-s1
       abstract: >
         In the Cyber Security industry, many individuals struggle with chronic physical or mental 
         illnesses while managing work and family life. These conditions often lead to increased pain, 
@@ -286,7 +62,7 @@ sessions:
       length: 1
     - title: "Gone Phishing: Phishing in the Cyber Criminal Ecosystem"
       presenter: Jordan Slavik
-      url: /2024/day2/track-3#track3-s2
+      url: /2024/day2/track-1#track1-s2
       abstract: >
         The presentation walks through the development of how phishing attacks have been used in the 
         cyber criminal ecosystem during the past 10 years. The emphasis of the presentation explores 
@@ -306,7 +82,7 @@ sessions:
       length: 1
     - title: "Dumpster Fires: 6 things about IR I learned by being a firefighter"
       presenter: Dr. Catherine J. Ullman
-      url: /2024/day2/track-3#track3-s3
+      url: /2024/day2/track-1#track3-s1
       abstract: >
         Threats surround us like a ring of burning fire. Unfortunately, incident response doesn't come 
         naturally to an operational mindset where the focus tends to be on reactive problem solving. As 
@@ -328,7 +104,7 @@ sessions:
       length: 1
     - title: "Hacking Airports for Fun and Education (and better security monitoring, too!)"
       presenter: Tom Kopchak and Meredith Kasper
-      url: /2024/day2/track-3#track3-s4
+      url: /2024/day2/track-1#track1-s4
       abstract: >
         Have you ever tried to hack into an airport?
 
@@ -363,7 +139,7 @@ sessions:
       length: 1
     - title: "Channel File 291: 7 Lessons from the CrowdStrike Meltdown"
       presenter: Reg Harnish
-      url: /2024/day2/track-3#track3-s5
+      url: /2024/day2/track-1#track1-s5
       abstract: >
         On July 19th, the world faced an epic cyber disaster. Within minutes, 8.5 million computers 
         were compromised, marking the largest cybersecurity event in history. Airlines, banks, 
@@ -400,6 +176,230 @@ sessions:
             Reg has been featured in Time Magazine, Forbes, The Washington Post, CBS Nightly News, CIO 
             Magazine, Dark Reading, Software Magazine, ComputerWorld, InfoWorld and countless other 
             media outlets.
+      length: 1
+  track2:
+    - title: "Cybersecurity 2.0 – helping you step into NIST 2.0, MDR 2.0, and IAM 2.0"
+      presenter: Jeff Miller
+      url: /2024/day2/track-2#track2-s1
+      abstract: >
+        With the release of the NIST CSF 2.0 earlier this year and the addition of the new Govern 
+        pillar, companies need to understand how to implement new controls and governance concepts 
+        into their organizations to ensure the effectiveness of their cybersecurity program.  
+        Additionally, newer technologies are quickly replacing older ones in the areas of threat 
+        detection & response and identity & access management.  This presentation aims to tie together 
+        new concepts in NIST CSF 2.0 with new technologies that will help companies achieve cyber 
+        resilience.
+      bios:
+        - name: Jeff Miller
+          bio: >
+            Jeff Miller is a unique blend of engineer, teacher, and evangelist of all things 
+            cybersecurity. His roots in cybersecurity stem from his engineering degree and tenure at the 
+            nation’s second-largest law firm, where he regularly defended against ransomware, the hacktivist 
+            group Anonymous, distributed denial of service attacks, and various other threats. Jeff spends 
+            much of his time educating organizations on how to adhere to both security regulations and best 
+            practices around cybersecurity. Jeff lives, breathes, and bleeds cybersecurity. It’s not just what 
+            he does; it’s who he is.
+      length: 1
+    - title: "The ULTIMATE Cheat Sheet for Achieving SOC2 Compliance"
+      presenter: Charissa Kim
+      url: /2024/day2/track-2#track2-s2
+      abstract: >
+        The SOC2 Type II from the American Institute of Certified Public Accountants is the de facto 
+        standard of security audits to ensure the security, confidentiality, and privacy of customer 
+        data. However, its roots lie in a different time and context. In this talk, the speaker will 
+        provide a straightforward cheat sheet for achieving SOC 2 certification effectively and 
+        efficiently. She will break down the process, examine its strengths, pinpoint potential pitfalls, 
+        and share best practices from her own experience.
+      bios:
+        - name: Charissa Kim
+          bio: >
+            Charissa Kim is a Security TPM at Semgrep. She has spoken on various panels and presented 
+            at conferences such as the National Cryptologic Foundation (NCF), National Institute of 
+            Standards and Technology (NIST), National Initiative for Cybersecurity Education (NICE), and 
+            many others. Charissa also founded Cyber Youth Tech (CyTech), a non-profit organization devoted 
+            to empowering the next generation of STEM and cybersecurity professionals. Furthermore, Charissa 
+            directed and produced K-12 Cyber Talk, a cybersecurity webcast sponsored by the National Security 
+            Agency, providing a welcoming environment for K-12 students to learn and explore cybersecurity 
+            along with its diverse career options and opportunities. She is also the first female All-American 
+            from the National CyberPatriot and Northrup Grumman Nationals competition.
+      length: 1
+    - title: "The Threat from Infostealers to Every Company"
+      presenter: Michael Kosak
+      url: /2024/day2/track-2#track2-s3
+      abstract: >
+        The threat from Infostealers, which is malware aimed at stealing critical personal and financial
+        information, has grown substantially over the last 3 years and has been a key factor in some of 
+        the largest breaches of 2024. It targets both individuals and organizations, leading to millions 
+        of credentials and session tokens either available for sale on the dark web via stealer logs 
+        (often for as little as $10) or posted for free in various forums. This briefing will discuss 
+        what infostealers are, how they work, where they fit in the larger cybercriminal ecosystems, and 
+        how you can protect yourself and/or your organization against them.
+      bios:
+        - name: Michael Kosak
+          bio: >
+            Mike Kosak has been an intelligence analyst for over 20 years, starting his career with the 
+            US Department of Defense before moving to the private sector in 2012. For the last 8 years, 
+            he has focused on Cyber Threat Intelligence. He is currently the Senior Principal 
+            Intelligence Analyst at LastPass. His previous private sector roles include manager of the 
+            Strategic Intelligence Analysis and Threat Evaluation teams at Bank of America and Cyber 
+            Threat Intelligence team lead at TIAA.
+      length: 1
+    - title: "Adding API Security to your DevSecOps Toolbelt"
+      presenter: Scott Bly
+      url: /2024/day2/track-2#track2-s4
+      abstract: >
+        How do you integrate API Security into your DevSecOps processes?
+
+
+        You have DevOps tooling and CI/CD pipelines for your product release cycle. Your Dev & Ops 
+        teams work well together. You started a DevSecOps transformation to Shift Left and test code 
+        security in pipelines. But how do you integrate the Security teams into DevOps to achieve true 
+        DevSecOps?
+
+
+        Then, how do you integrate APIs, as they are behavior-based? Traditional AppSec can’t identify 
+        vulnerabilities in API consumption.
+
+
+        Learn how to integrate API testing into Shift Left DevSecOps pipelines to eliminate 
+        vulnerabilities. Learn how to bring Dev, Sec, Ops teams together to improve Mean Time To 
+        Remediation, and keep your teams happy!
+      bios:
+        - name: Scott Bly
+          bio: >
+            Scott Bly leads the API Security Practice at iSOA Group, integrating security across the 
+            API lifecycle. He spent time at Noname Security developing API security programs for 
+            high-profile clients. Prior to Noname, Scott ran the Security Improvement Program at AWS, 
+            assisting more than 200 customers to measure and improve their cloud security postures.
+
+
+            Scott has served as a Cybersecurity Solutions Architect and holds over 40 certifications in 
+            IT and security, including CISSP and CISM, from vendors such as Fortinet, Cisco and AWS. 
+            Scott served as the Director of IT for the American Film Institute, where he led their 
+            digital transformation. He led a LA-based consulting firm specializing in the SMB and 
+            Media/Entertainment space for fifteen years.
+      length: 1
+    - title: "Armor Plating Your Product: Building a Product Security Program from Scratch"
+      presenter: Jim Keeler
+      url: /2024/day2/track-2#track2-s5
+      abstract: >
+        Building a robust product security program is essential for shipping hardened products, 
+        safeguarding your business, and earning customer trust. This talk will explore the essential 
+        steps to creating a solid foundation for a successful program. We'll discuss topics ranging from 
+        practical strategies for engaging stakeholders to implementing secure coding practices. Whether 
+        you're starting from scratch or looking to enhance an existing program, this talk offers lots of 
+        ideas and approaches to strengthen your organization's product security defenses.
+      bios:
+        - name: Jim Keeler
+          bio: >
+            Jim Keeler is a senior security analyst at CyberQP, a cyber-security startup. With over a 
+            decade of development experience and three years as a penetration tester and red team 
+            operator, Jim is meticulously constructing the product security program at CyberQP. Jim is 
+            passionate about training and collaborating with developers to ship more secure code. When 
+            he's not drafting secure coding standards or penetration testing new features, he enjoys 
+            playing soccer with his three kids.
+      length: 1
+  track3:
+    - title: "Identifying the Holy Trinity of Cyber Defense"
+      presenter: John Shier
+      url: /2024/day2/track-3#track3-s1
+      abstract: >
+        In the aftermath of an attack victims are left wondering what they could have done better or 
+        differently. When faced with nation-state attackers, the answer is often: not much. But, most 
+        attacks aren't the product of a nation-state adversary. They are the work of professional 
+        cybercriminals, intent on causing harm for financial gain. By analyzing hundreds of incident 
+        response investigations, we can identify how the attackers are succeeding and what we can do 
+        differently to change the narrative.
+      bios:
+        - name: John Shier
+          bio: >
+            John Shier is a Field CTO Threat Intelligence with more than two decades of cybersecurity 
+            experience. He’s passionate about protecting consumers and organizations from advanced 
+            threats, and has researched everything from costly ransomware to illicit dark web activity, 
+            uncovering insights needed to strengthen proactive cybersecurity defenses.
+      length: 1
+    - title: "Visibility Beyond EDR"
+      presenter: Greg Stachura and Alex Ioannidis
+      url: /2024/day2/track-3#track3-s2
+      abstract: >
+        EDR, I love you, you’re perfect, now change! The continued enhancements in EDR make them 
+        invaluable tools, however there isnt a single one on the market that can detect it all, or even 
+        gives you insight into it all. So how do we gain visibility into our blindspots, without writing 
+        blank checks? For Windows users, Sysmon can help with those blindspots. Utilizing a smart 
+        implementation, a logging filter and some know how, you can help fix or, in some cases, improve, 
+        detections from your EDR.
+      bios:
+        - name: Greg Stachura
+          bio: >
+            Greg is a Senior Manager at Security Risk Advisorsy where he helps run and manage an MSSP 
+            offering for a 24/7/365 CyberSOC services. Greg has architected, deployed, and managed SIEM 
+            environments, orchestration and automations platforms, and developed custom tools for SOC 
+            analysts. He also has extensive background in Incident Response playbook development, log 
+            analysis, and forensics in health care, financial, and academic environments.
+
+
+            Greg earned his MBA from the Rochester Institute of Technology with an Advanced Certificate 
+            in Information Assurance. Prior to joining Security Risk Advisors, Greg worked extensively in 
+            the financial, healthcare, and education sectors.
+        - name: Alex Ioannidis
+          bio: >
+            Alexandra is a Senior Consultant at Security Risk Advisors. She focuses on EDR engineering and 
+            detection rule creation, specifically for SentinelOne, Microsoft Defender, and CrowdStrike. 
+            Alexandra is also a threat hunt lead, developing and overseeing threat hunts for multiple 
+            clients.
+
+
+            Alexandra is a graduate of Rochester Institute of Technology, holding a degree in Computing 
+            Security with a minor in Networking & Systems Administration. 
+      length: 1
+    - title: "Microsoft at your BEC and (API) Call: Auditing Mailbox Item Access for Incident Response"
+      presenter: Richard Smith
+      url: /2024/day2/track-3#track3-s3
+      abstract: >
+        Concerned about business email compromise (BEC) attacks? Until recently, organizations using 
+        Office 365 for email had no way to audit access to individual mailbox items unless they paid for 
+        the premium E5-level license. Microsoft has enabled all customers to access these logs - but 
+        accessing them and getting the data into an actionable format is still a daunting task. In this 
+        talk I'll show how you can leverage readily-available technologies to pull the mailbox audit 
+        logs into your SIEM and datalake solution, giving visibility into individual mailbox item 
+        access logs, and potentially reducing your PHI/PII exposure risk in the event of a cybersecurity 
+        incident.
+      bios:
+        - name: Richard Smith
+          bio: >
+            Richard Smith is a Senior Consultant with Security Risk Advisors, working primarily on 
+            security data pipeline efficiency and onboarding clients into SRA's XDR solution, SCALR.
+      length: 1
+    - title: "Lifting the Veil: Decrypting Malware's Hidden Language"
+      presenter: Mark Musone
+      url: /2024/day2/track-3#track3-s4
+      abstract: >
+        Mark will demonstrate forensic analysis of malware which originated from a foreign threat 
+        actor. He will teach us how malware operates, how to analyze malware, and ways to take the 
+        confusion out of compromises.
+      bios:
+        - name: Mark Musone
+          bio: >
+            Mark Musone has expertise in both corporate and Government cybersecurity. He has 
+            proficiency in NIST 800-53, NIST 800-171, CMMC, FedRAMP, FISMA, and numerous other standards.
+
+
+            Mark regularly provides subject matter expertise on security audits, reviews of technical 
+            system design documentation, deliverables, and performance. Mark also provides additional 
+            research and analysis of cloud technologies, security architectures, IPV6 solutions, and 
+            Federal security requirements and standards.
+
+            
+            Mark has taught countless technology and security classes and seminars, has provided 
+            forensic assistance to various Governmental agencies, and provides expert testimony in court 
+            cases. Mark has successfully worked with contractors and vendors to resolve findings, develop 
+            security best practices, and maintained up-to-date status of security compliance. Mark is a 
+            CISSP, CMMC Registered Practitioner, a CMMC Provisional Assessor, a CMMC Certified Assessor, 
+            a CMMC Certified Professional, and a CMMC Certified Provisional Instructor.
+      length: 1
+    - title: "TBA"
+      presenter: 
+      url: /2024/day2/track-2#track2-s5
       length: 1
   sponsor1:
     - title: "TBA"

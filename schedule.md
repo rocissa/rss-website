@@ -66,8 +66,8 @@ layout: page
   
   <div class="no-mobile">&nbsp;</div>
   <div class="no-mobile">&nbsp;</div>
-  <div class="no-mobile track track1 title">GRC/Risk Track</div>
-  <div class="no-mobile track track2 title">AI Track</div>
+  <div class="no-mobile track track1 title">AI Track</div>
+  <div class="no-mobile track track2 title">GRC/Risk Track</div>
   <div class="no-mobile track track3 title">Training/Show and Tell Track</div>
   <div class="no-mobile track sponsor columns-2 title">Sponsor Track</div>
   
@@ -190,9 +190,9 @@ layout: page
   
   <div class="no-mobile">&nbsp;</div>
   <div class="no-mobile">&nbsp;</div>
-  <div class="no-mobile track track1 title">GRC/Risk Track</div>
-  <div class="no-mobile track track2 title">Cyber Defense Track</div>
-  <div class="no-mobile track track3 title">War Stories Track</div>
+  <div class="no-mobile track track1 title">War Stories Track</div>
+  <div class="no-mobile track track2 title">GRC/Risk Track</div>
+  <div class="no-mobile track track3 title">Cyber Defense Track</div>
   <div class="no-mobile track sponsor columns-2 title">Sponsor Track</div>
   
   <div class="no-mobile">&nbsp;</div>

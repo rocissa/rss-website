@@ -1,5 +1,5 @@
 ---
-title: RSS:2024 War Stories Track (Day 2)
+title: RSS:2024 Cyber Defense Track (Day 2)
 layout: page
 ---
 {%- assign schedule = schedules[site.current_year].day2 -%}
