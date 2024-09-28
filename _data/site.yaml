@@ -50,6 +50,7 @@ app_web_url: https://guidebook.com/g/rochestersecuritysummit2024/
 homepage_show_post_conference_info: false
 homepage_show_call_for_volunteers: true
 homepage_show_schedule_link: false
+homepage_show_ticket_retrieval: true
 
 # should registration info be displayed on the homepage?
 registration_not_yet_open: false

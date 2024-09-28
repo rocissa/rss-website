@@ -660,3 +660,7 @@ dialog .session-abstract {
 	font-size: 2rem;
 	margin-top: 2rem;
 }
+
+#eventzilla-iframe {
+	height: 375px;
+}
