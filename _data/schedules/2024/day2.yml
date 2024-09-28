@@ -397,9 +397,23 @@ sessions:
             CISSP, CMMC Registered Practitioner, a CMMC Provisional Assessor, a CMMC Certified Assessor, 
             a CMMC Certified Professional, and a CMMC Certified Provisional Instructor.
       length: 1
-    - title: "TBA"
-      presenter: 
-      url: /2024/day2/track-2#track2-s5
+    - title: "Enterprise Security Architecture - A Holistic Approach"
+      presenter: Barry Hofecker
+      url: /2024/day2/track-3#track3-s5
+      abstract: >
+        As businesses grapple with increasing digital complexity, continually evolving threats, increasing risk exposure, 
+        and pressure from leadership to reduce costs, it is more important than ever for security teams provide assurance 
+        that security investments support and promote business goals and objectives. In this presentation we will discuss 
+        the principles of information security architecture, review two prominent security architecture frameworks and 
+        learn how they can be leveraged to improve our security program and provide the assurance that the business is 
+        looking for.
+      bios:
+        - name: Barry Hofecker
+          bio: >
+            Barry Hofecker is a vCISO, Security Strategist with 20+ years of information security, technology, and risk 
+            management experience in multiple diverse markets, including Manufacturing, Healthcare, Education, Financial 
+            Services, and public sector entities. Barry holds a MS in Information Security and Assurance as well as 
+            multiple industry certifications.
       length: 1
   sponsor1:
     - title: "TBA"
