@@ -416,19 +416,64 @@ sessions:
             multiple industry certifications.
       length: 1
   sponsor1:
-    - title: "TBA"
-      presenter: Semperis
+    - title: "Top Tips for Active Directory Defense"
+      presenter: Eric Woodruff, Semperis
       url: /2024/day2/see-track-1#see1-s1
+      abstract: >
+        If your identity infrastructure is down, so is your business. That’s why attackers regularly target Microsoft 
+        Active Directory (AD) and Entra ID. Gaining control of these identity systems can give threat actors near-total 
+        control of all your systems, access to sensitive data, and the means to devastate your business. The ability to 
+        defend and recover your hybrid AD environment is key to operational resilience.
+
+
+        Join Eric Woodruff (Senior Security Researcher, Semperis) to learn:
+
+        * Why AD and Entra ID security is vital for reliable business operations
+
+        * How to improve identity security without breaking the bank
+
+        * How to survive an attack on your identity infrastructure
+      bios:
+        - name: Eric Woodruff
+          bio: >
+            Throughout his 24-year career in IT, Eric has sought out and held a diverse range of roles, including 
+            technical manager in the public sector, Sr. Premier Field Engineer at Microsoft, and Security and Identity 
+            Architect in the Microsoft Partner ecosystem. Currently he is a Senior Security Researcher working as part of 
+            the Security Research team at Semperis. Eric is a Microsoft MVP for security, recognized for his expertise in 
+            the Microsoft identity ecosystem. Outside of work, Eric supports the professional community, providing his 
+            insights and expertise at conferences, participating on the IDPro Body of Knowledge committee, and blogging 
+            about Entra and related cloud security topics.
       length: 1
-    - title: "TBA"
-      presenter: ePlus Technology, Inc.
+    - title: "Why Wait? Achieve workload segmentation now and prepare for the future with Cisco’s Secure Workload and Hypershield."
+      presenter: Mike McPhee (Cisco) and Jonathan Borgesen (ePlus), ePlus Technology, Inc.
       url: /2024/day2/see-track-1#see1-s2
+      abstract: >
+        For over 30 years, CISA has recommended segmentation as a top priority. It makes sense – compromises will happen, 
+        and reducing exposure is essential to protecting our data and preserving our reputation. Putting it into practice 
+        – especially in complex multi-cloud environments – is difficult and fraught with challenges. Join ePlus and Cisco 
+        to learn how Cisco Secure Workload can see what is truly happening in your environments, and quickly turn that 
+        into a dynamic and responsive segmentation approach - today.  We’ll show how tomorrow’s approach (Cisco 
+        Hypershield) promises to bring even more capability and offers a bright and investment-protected future.
+      bios:
+        - name: Mike McPhee, Principal Solutions Engineer – Cybersecurity, Cisco
+          bio: >
+            Mike focuses on and consults about the architecture and designs of security and network infrastructures. 
+            With expertise in systems engineering, security frameworks, threat intelligence, and both red and blue team 
+            operations, Mike helps craft actionable strategies, develop training, steer product roadmaps, and enable 
+            security operators.  His relevant certifications include the GIAC Security Expert (#339) & 11 other GIAC 
+            certifications, as well as Cisco’s CCIE Routing & Switching, CCIE Security, and Cisco Certified Design Expert.
+        - name: Jonathan Borgesen, Client Security Principal, ePlus
+          bio: >
+            Jonathan has been a part of the security industry since 2009 with a focus dedicated to educating, consulting, 
+            and assisting local organizations to enable them to achieve their security goals. Throughout his tenure 
+            Jonathan has participated in and presented at many educational events both locally and nationally, providing 
+            him with a greater understanding of security trends from a perspective.
       length: 1
     - title: "TBA"
       presenter: Trend Micro
       url: /2024/day2/see-track-1#see1-s3
       length: 1
-    - title: "TBA"
+    - title: "Island Q&amp;A Session"
       presenter: Island
       url: /2024/day2/see-track-1#see1-s4
       length: 1
@@ -438,9 +483,27 @@ sessions:
       presenter: Palo Alto Networks
       url: /2024/day2/see-track-2#see2-s1
       length: 1
-    - title: "TBA"
+    - title: "Check your cyber ego at the door:  Striking the vital balance between confidence and arrogance"
       presenter: Atlantic Data Security
       url: /2024/day2/see-track-2#see2-s2
+      abstract: >
+        Even setting foot on a field of battle, whether for team sports or military purposes, requires extreme 
+        self-confidence.  If you don't believe you can win, you very likely won't.  In the war against cyber crime, 
+        however, it's important to balance that confidence with the understanding that this is also a team sport - and 
+        hat none of us can win alone.  Join us for a discussion on navigating the line between confidence and 
+        arrogance - and knowing when and how to seek and accept help from others.
+      bios:
+        - name: Eric Anderson
+          bio: >
+            Eric has been working in computing and networking for almost 40 years, and had been focused on 
+            cybersecurity since the mid 90's.  While primarily a left-brained, logic-minded, full-on nerd and engineer 
+            that has served in just about every technical capacity from coding, to technical support, to pre and 
+            post-sales work, he currently spends the majority of his time working with clients to solve their varied 
+            security challenges. Once referred to as an "eloquent nerd", Eric leverages his passion, collective 
+            experience, creative thinking, and a empathetic understanding of customer issues and motivations to 
+            architect solutions to difficult problems while fostering deeper comprehension with those he works with 
+            and teaches.  Almost above all, Eric enjoys what he does and tries to instill some "fun" in all of his 
+            outreach.
       length: 1
     - empty: true
     - empty: true

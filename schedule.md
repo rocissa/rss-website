@@ -245,7 +245,7 @@ layout: page
   <div class="no-mobile lilac">4:00 pm</div>
   <div class="no-mobile lilac">5:00 pm</div>
   <div class="full-session lilac">
-    <div class="title">Prizes & Raffles</div>
+    <div class="title">Closing Remarks & Raffles</div>
     <div class="times">4:00 pm - 5:00 pm</div>
     <div class="room">Grand Lilac Ballroom</div>
   </div>
