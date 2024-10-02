@@ -34,31 +34,32 @@ session_times:
     end: 3:50 pm
 sessions:
   track1:
-    - title: "Navigating the Cybersecurity Realm with Physical and Mental Illness"
-      presenter: Elaine Harrison-Neukirch
+    - title: "Work From Home and Security Risks: SASE Solution"
+      presenter: Trueye Tafese
       url: /2024/day2/track-1#track1-s1
       abstract: >
-        In the Cyber Security industry, many individuals struggle with chronic physical or mental 
-        illnesses while managing work and family life. These conditions often lead to increased pain, 
-        fatigue, and anxiety, particularly in high-stress jobs. Many suffer in silence, fearing job loss 
-        or being seen as inadequate if they disclose their illness. This environment can exacerbate 
-        Imposter Syndrome, especially in toxic workplaces, leading to heightened stress and worsened 
-        symptoms. Elaine, a cancer survivor, understands these challenges. This presentation explores why 
-        symptoms flare and provides strategies to manage them, succeed in careers, and maintain energy for 
-        family life.
+        The shift to remote work has introduced new security challenges that organizations must address 
+        to protect their data and systems. By understanding the security risks associated with WFH and 
+        implementing the appropriate mitigation strategies, businesses can create a secure remote 
+        working environment.
+
+
+        This talk dives into the safety concerns tied to remote work, from network weak spots to data 
+        privacy issues, and looks at why outdated security systems fall short in tackling these 
+        problems. It presents the Secure Access Service Edge (SASE) concept as an all-encompassing 
+        answer that brings together networking and security into one cloud-based service.
       bios:
-        - name: Elaine Harrison-Neukirch
+        - name: Trueye Tafese
           bio: >
-            Elaine pivoted from the Hotel Industry into Information Technology & Cybersecurity. She has 
-            worked as a PC Tech, Network Administrator, Security Analyst and is now the Customer Support 
-            & QA Lead for SCYTHE. Elaine's first manager at SCYTHE, Jorge Orchilles was the first to 
-            encourage her to start speaking at conferences. Elaine is also the volunteer VP of Education 
-            for Cyber Security Non-Profit. This past May, she was presented with the Cyber Security 
-            Educator award by the Women's Society of Cyberjutsu. Elaine endeavors to educate cyber and 
-            non cyber professionals, focusing on issues that effect underrepresented groups. This 
-            includes cybersecurity, security awareness,, career and wellness education. She recently 
-            presented a workshop focused on Imposter syndrome at the WiCyS conference in Nashville. 
-            Elaine continues to develop workshops and talks with plans to make them available virtually. 
+            I am currently pursuing a Master of Science in Cybersecurity at Canisius University, set to 
+            graduate in May 2025. I hold a Bachelor of Science in Software Engineering, I have developed 
+            a robust foundation in both software development and cybersecurity. My professional 
+            experience includes roles at Safaricom Telecommunication, where I enhanced security features 
+            and ensured compliance with Know Your Customer (KYC) protocols. As a Software Test Lead at 
+            Gebeya, I led QA efforts to improve system security and quality through automation and 
+            rigorous testing. Currently interning as a Software QA Engineer at Amazon, Seattle. I am 
+            deepening my expertise in securing software systems against emerging threats. My skills 
+            encompass cybersecurity, threat analysis, and secure software development practices. 
       length: 1
     - title: "Gone Phishing: Phishing in the Cyber Criminal Ecosystem"
       presenter: Jordan Slavik
