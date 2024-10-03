@@ -261,6 +261,4 @@ layout: page
     <div x-ref="scheduleModalContent" class="schedule-modal-content"><div></div></div>
   </dialog>
 </div>   
-<script src="https://cdn.jsdelivr.net/npm/@imacrayon/alpine-ajax@0.9.1/dist/cdn.min.js" defer></script>
-<script src="//unpkg.com/alpinejs" defer></script> 
 {% endif %}
