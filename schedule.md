@@ -17,7 +17,11 @@ layout: page
 
 {% assign schedule = schedules[site.current_year].day1 %}
 
-<div class="schedule schedule-2024">
+<div class="schedule schedule-2024" x-data
+  @click.window.capture="
+    document.querySelector('.schedule-modal-content > div').id = $event.target.getAttribute('x-target');
+    document.querySelector('#schedule-modal').showModal();
+  ">
   <div class="no-mobile title">Start</div>
   <div class="no-mobile title">End</div>
   <div class="no-mobile full-session">&nbsp;</div>
@@ -249,5 +253,14 @@ layout: page
     <div class="times">4:00 pm - 5:00 pm</div>
     <div class="room">Grand Lilac Ballroom</div>
   </div>
-</div>    
+  <dialog id="schedule-modal" x-ref="scheduleModal" x-data>
+    <header>
+      <button @click="$refs.scheduleModal.close();"
+        aria-label="Close"><span class="fa-solid fa-circle-xmark"></span></button>
+    </header>
+    <div x-ref="scheduleModalContent" class="schedule-modal-content"><div></div></div>
+  </dialog>
+</div>   
+<script src="https://cdn.jsdelivr.net/npm/@imacrayon/alpine-ajax@0.9.1/dist/cdn.min.js" defer></script>
+<script src="//unpkg.com/alpinejs" defer></script> 
 {% endif %}
