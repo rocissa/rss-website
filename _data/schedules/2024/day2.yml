@@ -419,7 +419,7 @@ sessions:
   sponsor1:
     - title: "Top Tips for Active Directory Defense"
       presenter: Eric Woodruff, Semperis
-      url: /2024/day2/see-track-1#see1-s1
+      url: /2024/day2/see-track-1#sponsor1-s1
       abstract: >
         If your identity infrastructure is down, so is your business. That’s why attackers regularly target Microsoft 
         Active Directory (AD) and Entra ID. Gaining control of these identity systems can give threat actors near-total 
@@ -447,7 +447,7 @@ sessions:
       length: 1
     - title: "Why Wait? Achieve workload segmentation now and prepare for the future with Cisco’s Secure Workload and Hypershield."
       presenter: Mike McPhee (Cisco) and Jonathan Borgesen (ePlus), ePlus Technology, Inc.
-      url: /2024/day2/see-track-1#see1-s2
+      url: /2024/day2/see-track-1#sponsor1-s2
       abstract: >
         For over 30 years, CISA has recommended segmentation as a top priority. It makes sense – compromises will happen, 
         and reducing exposure is essential to protecting our data and preserving our reputation. Putting it into practice 
@@ -472,21 +472,21 @@ sessions:
       length: 1
     - title: "TBA"
       presenter: Trend Micro
-      url: /2024/day2/see-track-1#see1-s3
+      url: /2024/day2/see-track-1#sponsor1-s3
       length: 1
     - title: "Island Q&amp;A Session"
       presenter: Island
-      url: /2024/day2/see-track-1#see1-s4
+      url: /2024/day2/see-track-1#sponsor1-s4
       length: 1
     - empty: true
   sponsor2:
     - title: "TBA"
       presenter: Palo Alto Networks
-      url: /2024/day2/see-track-2#see2-s1
+      url: /2024/day2/see-track-2#sponsor2-s1
       length: 1
     - title: "Check your cyber ego at the door:  Striking the vital balance between confidence and arrogance"
       presenter: Atlantic Data Security
-      url: /2024/day2/see-track-2#see2-s2
+      url: /2024/day2/see-track-2#sponsor2-s2
       abstract: >
         Even setting foot on a field of battle, whether for team sports or military purposes, requires extreme 
         self-confidence.  If you don't believe you can win, you very likely won't.  In the war against cyber crime, 
