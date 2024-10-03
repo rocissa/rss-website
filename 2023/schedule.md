@@ -7,7 +7,7 @@ conference: 2023
 
 {% assign schedule = schedules.2023.day1 %}
 
-<div class="schedule">
+<div class="schedule schedule-2023">
   <div class="no-mobile title">Start</div>
   <div class="no-mobile title">End</div>
   <div class="no-mobile full-session">&nbsp;</div>
@@ -135,7 +135,7 @@ conference: 2023
 
 {% assign schedule = schedules.2023.day2 %}
 
-<div class="schedule">
+<div class="schedule schedule-2023">
   <div class="no-mobile title">Start</div>
   <div class="no-mobile title">End</div>
   <div class="no-mobile full-session">&nbsp;</div>

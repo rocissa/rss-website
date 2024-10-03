@@ -1,8 +1,7 @@
 ---
 site_title: Rochester Security Summit
 #
-# for live site
-baseurl: https://www.rochestersecurity.org
+#baseurl: https://www.rochestersecurity.org
 #
 ## for testing
 # baseurl: http://localhost:8080
@@ -14,7 +13,7 @@ current_year: 2024
 previous_year: 2023
 
 # next conference year - leave at current during early planning
-next_year: 2024
+next_year: 2025
 
 # conference dates
 conference_start_date: 2024-10-09
@@ -24,11 +23,11 @@ next_year_end_date: 2024-10-10
 
 # which year's sponsors should be shown on the homepage
 # allows for previous year's to show until the current year's list is ready
-homepage_sponsors_show_current_year: false
-homepage_sponsors_show_previous_year: true
+homepage_sponsors_show_current_year: true
+homepage_sponsors_show_previous_year: false
 
 # should the pre-conference "coming soon" message be shown on the homepage?
-homepage_conference_announcement: true
+homepage_conference_announcement: false
 
 # should the venue info be displayed on the homepage?
 homepage_show_venue: true
@@ -40,7 +39,7 @@ homepage_show_hotels: true
 homepage_show_parking: true
 
 # should keynote speakers be shown on homepage?
-homepage_show_keynotes: false
+homepage_show_keynotes: true
 
 # should app links be shown on the homepage
 homepage_show_app_links: false
@@ -51,21 +50,22 @@ app_web_url: https://guidebook.com/g/rochestersecuritysummit2024/
 homepage_show_post_conference_info: false
 homepage_show_call_for_volunteers: true
 homepage_show_schedule_link: false
+homepage_show_ticket_retrieval: true
 
 # should registration info be displayed on the homepage?
 registration_not_yet_open: false
 registration_enabled: true
-registration_early_bird: true
+registration_early_bird: false
 registration_early_bird_cost: $180
 registration_early_bird_end_date: 2024-07-22
-registration_standard: true
+registration_standard: false
 registration_standard_cost: $280
 registration_standard_end_date: 2024-09-18
 registration_late: true
 registration_late_cost: $380
 registration_late_end_date: 2024-10-10
 registration_one_day_being_sold: true
-registration_standard_one_day: true
+registration_standard_one_day: false
 registration_standard_one_day_cost: $180
 registration_standard_one_day_end_date: 2024-09-18
 registration_late_one_day: true
@@ -93,8 +93,8 @@ sponsorship_applications_due: 2024-06-13
 # speaking messaging
 speaking_next_year: false
 speaking_cfp_not_yet_open: false
-speaking_cfp_open: true
-speaking_cfp_closed: false
+speaking_cfp_open: false
+speaking_cfp_closed: true
 speaking_show_key_dates: true
 speaking_page_url: https://www.rochestersecurity.org/speaking/
 
@@ -104,9 +104,9 @@ speaking_committee_responses: 2024-08-31
 speaking_materials_due: 2024-09-08
 speaking_presentation_due: 2024-09-25
 
-schedule_not_yet_available: true
-schedule_tentative: false
-schedule_available: false
+schedule_not_yet_available: false
+schedule_tentative: true
+schedule_available: true
 
 # Google form URLs and contact emails
 #

@@ -17,7 +17,7 @@ layout: page
 
 {% assign schedule = schedules[site.current_year].day1 %}
 
-<div class="schedule">
+<div class="schedule schedule-2024">
   <div class="no-mobile title">Start</div>
   <div class="no-mobile title">End</div>
   <div class="no-mobile full-session">&nbsp;</div>
@@ -66,20 +66,16 @@ layout: page
   
   <div class="no-mobile">&nbsp;</div>
   <div class="no-mobile">&nbsp;</div>
-  <div class="no-mobile track track1 title">Track 1</div>
-  <div class="no-mobile track track2 title">Track 2</div>
-  <div class="no-mobile track track3 title">Track 3</div>
-  <div class="no-mobile track track4 title">Track 4</div>
-  <div class="no-mobile track training title">Hands-On Training</div>
-  <div class="no-mobile track sponsor columns-2 title">Sponsor Engineering and Education (SEE) Track</div>
+  <div class="no-mobile track track1 title">AI Track</div>
+  <div class="no-mobile track track2 title">GRC/Risk Track</div>
+  <div class="no-mobile track track3 title">Training/Show and Tell Track</div>
+  <div class="no-mobile track sponsor columns-2 title">Sponsor Track</div>
   
   <div class="no-mobile">&nbsp;</div>
   <div class="no-mobile">&nbsp;</div>
-  <div class="no-mobile room track1">Highland A</div>
-  <div class="no-mobile room track2 ">Highland B</div>
-  <div class="no-mobile room track3">Highland C</div>
-  <div class="no-mobile room track4">Highland D/E</div>
-  <div class="no-mobile room training">Cascade A/B/C</div>
+  <div class="no-mobile room track1">Grand Lilac Ballroom</div>
+  <div class="no-mobile room track2 ">Highland A/B</div>
+  <div class="no-mobile room track3">Highland D/E</div>
   <div class="no-mobile room sponsor1">Aqueduct A/B</div>
   <div class="no-mobile room sponsor2">Aqueduct C/D</div>
   
@@ -145,7 +141,7 @@ layout: page
 
 {% assign schedule = schedules[site.current_year].day2 %}
 
-<div class="schedule">
+<div class="schedule schedule-2024">
   <div class="no-mobile title">Start</div>
   <div class="no-mobile title">End</div>
   <div class="no-mobile full-session">&nbsp;</div>
@@ -194,20 +190,16 @@ layout: page
   
   <div class="no-mobile">&nbsp;</div>
   <div class="no-mobile">&nbsp;</div>
-  <div class="no-mobile track track1 title">Track 1</div>
-  <div class="no-mobile track track2 title">Track 2</div>
-  <div class="no-mobile track track3 title">Track 3</div>
-  <div class="no-mobile track track4 title">Track 4</div>
-  <div class="no-mobile track training title">Hands-On Training</div>
-  <div class="no-mobile track sponsor columns-2 title">Sponsor Engineering and Education (SEE) Track</div>
+  <div class="no-mobile track track1 title">War Stories Track</div>
+  <div class="no-mobile track track2 title">GRC/Risk Track</div>
+  <div class="no-mobile track track3 title">Cyber Defense Track</div>
+  <div class="no-mobile track sponsor columns-2 title">Sponsor Track</div>
   
   <div class="no-mobile">&nbsp;</div>
   <div class="no-mobile">&nbsp;</div>
-  <div class="no-mobile room track1">Highland A</div>
-  <div class="no-mobile room track2 ">Highland B</div>
-  <div class="no-mobile room track3">Highland C</div>
-  <div class="no-mobile room track4">Highland D/E</div>
-  <div class="no-mobile room training">Cascade A/B/C</div>
+  <div class="no-mobile room track1">Grand Lilac Ballroom</div>
+  <div class="no-mobile room track2 ">Highland A/B</div>
+  <div class="no-mobile room track3">Highland D/E</div>
   <div class="no-mobile room sponsor1">Aqueduct A/B</div>
   <div class="no-mobile room sponsor2">Aqueduct C/D</div>
   
@@ -239,30 +231,22 @@ layout: page
   <div class="gap"></div>
 
   <div class="no-mobile">2:00 pm</div>
-  <div class="no-mobile">2:30 pm</div>
-  <div class="full-session">
-    <div class="title">Sponsor Visitation Break</div>
-    <div class="times">2:00 pm - 2:30 pm</div>
-  </div>
-  <div class="gap"></div>
-  
-  <div class="no-mobile">2:30 pm</div>
-  <div class="no-mobile">3:20 pm</div>
+  <div class="no-mobile">2:50 pm</div>
   {%- assign slot = 3 -%}
   {% include "schedule_slot.md" %}
   <div class="gap"></div>
   
-  <div class="no-mobile">3:30 pm</div>
-  <div class="no-mobile">4:20 pm</div>
+  <div class="no-mobile">3:00 pm</div>
+  <div class="no-mobile">3:50 pm</div>
   {%- assign slot = 4 -%}
   {% include "schedule_slot.md" %}
   <div class="gap"></div>
   
-  <div class="no-mobile lilac">4:30 pm</div>
-  <div class="no-mobile lilac">5:30 pm</div>
+  <div class="no-mobile lilac">4:00 pm</div>
+  <div class="no-mobile lilac">5:00 pm</div>
   <div class="full-session lilac">
-    <div class="title">Prizes & Raffles</div>
-    <div class="times">4:30 pm - 5:30 pm</div>
+    <div class="title">Closing Remarks & Raffles</div>
+    <div class="times">4:00 pm - 5:00 pm</div>
     <div class="room">Grand Lilac Ballroom</div>
   </div>
 </div>    

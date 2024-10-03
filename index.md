@@ -139,6 +139,9 @@ layout: page
 		{%- endif -%}
 	</div>
 	{%- endif -%}
+	{%- if site.homepage_show_ticket_retrieval -%}
+	  <div id="eventzilla-iframe"></div><script type="text/javascript">window.onload = function() {var iframe = document.createElement("iframe");iframe.id="ifeventzilla";iframe.style.width= "100%";iframe.style.height = "100%"; iframe.frameBorder ="0";iframe.src ='https://app.eventzilla.net/a_login?&title=Retrieve my tickets';var evntzilladiv=document.getElementById("eventzilla-iframe");evntzilladiv.appendChild(iframe);};</script>
+	{%- endif -%}
 </section>
 <hr>
 <section id="about" class="block-text">

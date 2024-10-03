@@ -1,0 +1,512 @@
+---
+keynotes:
+  - presenter: Graham Cluley
+    url: /2024/graham-cluley/
+tracks:
+  - id: track1
+    name: War Stories Track
+    room: Grand Lilac Ballroom
+    show_on_slides_page: true
+  - id: track2
+    name: GRC/Risk Track
+    room: Highland A/B
+    show_on_slides_page: true
+  - id: track3
+    name: Cyber Defense Track
+    room: Highland D/E
+    show_on_slides_page: true
+  - id: sponsor1
+    name: Sponsor Track
+    room: Aqueduct A/B
+  - id: sponsor2
+    name: Sponsor Track
+    room: Aqueduct C/D
+session_times:
+  - start: 10:00 am 
+    end: 10:50 am 
+  - start: 11:00 am
+    end: 11:50 am
+  - start: 1:00 pm
+    end: 1:50 pm
+  - start: 2:00 pm
+    end: 2:50 pm
+  - start: 3:00 pm
+    end: 3:50 pm
+sessions:
+  track1:
+    - title: "Work From Home and Security Risks: SASE Solution"
+      presenter: Trueye Tafese
+      url: /2024/day2/track-1#track1-s1
+      abstract: >
+        The shift to remote work has introduced new security challenges that organizations must address 
+        to protect their data and systems. By understanding the security risks associated with WFH and 
+        implementing the appropriate mitigation strategies, businesses can create a secure remote 
+        working environment.
+
+
+        This talk dives into the safety concerns tied to remote work, from network weak spots to data 
+        privacy issues, and looks at why outdated security systems fall short in tackling these 
+        problems. It presents the Secure Access Service Edge (SASE) concept as an all-encompassing 
+        answer that brings together networking and security into one cloud-based service.
+      bios:
+        - name: Trueye Tafese
+          bio: >
+            I am currently pursuing a Master of Science in Cybersecurity at Canisius University, set to 
+            graduate in May 2025. I hold a Bachelor of Science in Software Engineering, I have developed 
+            a robust foundation in both software development and cybersecurity. My professional 
+            experience includes roles at Safaricom Telecommunication, where I enhanced security features 
+            and ensured compliance with Know Your Customer (KYC) protocols. As a Software Test Lead at 
+            Gebeya, I led QA efforts to improve system security and quality through automation and 
+            rigorous testing. Currently interning as a Software QA Engineer at Amazon, Seattle. I am 
+            deepening my expertise in securing software systems against emerging threats. My skills 
+            encompass cybersecurity, threat analysis, and secure software development practices. 
+      length: 1
+    - title: "Gone Phishing: Phishing in the Cyber Criminal Ecosystem"
+      presenter: Jordan Slavik
+      url: /2024/day2/track-1#track1-s2
+      abstract: >
+        The presentation walks through the development of how phishing attacks have been used in the 
+        cyber criminal ecosystem during the past 10 years. The emphasis of the presentation explores 
+        how phishing kits are compromised and used as well as how they have been developed to account 
+        for a variety of variables such as MFA, ameuture cyber actors, and AI technology.
+      bios:
+        - name: Jordan Slavik
+          bio: >
+            Special Agent Jordan F. Slavik has been with the Federal Bureau of Investigation since 
+            2019, working on the Buffalo Cyber Task Force. Jordan sits in the FBI’s Rochester office, 
+            where he specializes in phishing and cyber intrusion cases. His experience includes 
+            sophisticated business and university intrusions, phishing kit developers, nefarious 
+            online marketplaces, online sexual extortions, business email compromises, and 
+            cryptocurrency investigations. Before joining the FBI, Jordan was a professor at the 
+            University of Maryland, where he received his Masters and PhD. Jordan has enjoyed his time 
+            in the Rochester area with his wife and four children since 2020.
+      length: 1
+    - title: "Dumpster Fires: 6 things about IR I learned by being a firefighter"
+      presenter: Dr. Catherine J. Ullman
+      url: /2024/day2/track-1#track3-s1
+      abstract: >
+        Threats surround us like a ring of burning fire. Unfortunately, incident response doesn't come 
+        naturally to an operational mindset where the focus tends to be on reactive problem solving. As 
+        a volunteer firefighter for over twenty years, the speaker has learned a lot about what is and 
+        isn't effective. There are surprising parallels between fighting real-life fires and the 
+        fire-fighting that passes for today’s incident response. It’s all too easy to get tunnel vision 
+        and focus on the wrong areas, costing precious time. The security world is full of dumpster 
+        fires these days, so join this session to learn from a good firefighter what makes a good 
+        security person.
+      bios:
+        - name: Dr. Catherine J. Ullman
+          bio: >
+            Dr. Catherine J. Ullman is the Principle Technology Architect, Security at the University 
+            at Buffalo. She is a contributor to O’Reilly’s 97 Things Every Information Professional 
+            Should Know, the author of Wiley’s The Active Defender, and has presented at many 
+            infosec/hacker conferences. In her (minimal) spare time, she enjoys visiting her adopted 
+            two-toed sloth Flash at the Buffalo Zoo, researching death and the dead, and learning more 
+            about hacking to make the world a more secure place.
+      length: 1
+    - title: "Hacking Airports for Fun and Education (and better security monitoring, too!)"
+      presenter: Tom Kopchak and Meredith Kasper
+      url: /2024/day2/track-1#track1-s4
+      abstract: >
+        Have you ever tried to hack into an airport?
+
+
+        No? We really wanted to, but too many three letter agencies expressed concerns - so we did the 
+        next best thing: we built our own, let 500+ college students around the world try to hack into 
+        it, and designed a security monitoring solution to track (and automate our responses to) 
+        everything that happened.
+
+
+        Join presenters Tom Kopchak and Meredith Kasper to learn about the security engineering used 
+        to monitor and automate the 2023 Collegiate Penetration Testing Competition. If you enjoy 
+        security monitoring, Splunk, or industrial IoT, this talk is for you!
+      bios:
+        - name: Tom Kopchak
+          bio: >
+            Tom Kopchak is the Director of Technical Operations at Hurricane Labs. He also serves as an 
+            adjunct Cybersecurity professor at Baldwin Wallace University and holds a Master’s Degree in 
+            Computing Security from RIT.  His professional accomplishments have earned him induction into 
+            the esteemed SplunkTrust and has presented around the United States from DEFCON to Splunk 
+            .conf and numerous other security conferences. When he's not inspiring audiences with his 
+            security insights, Tom is giving back to the next generation of cyber professionals by 
+            volunteering as a competition director for the Global Collegiate Penetration Testing 
+            Competition (CPTC).  This opportunity allows him to help aspiring security experts take their 
+            skillset to new levels!
+        - name: Meredith Kasper
+          bio: >
+            Meredith Kasper is the Director of Technical Services at Hurricane Labs. With a background 
+            in offensive security and social engineering, Meredith has contributed across the community 
+            through mentorship and has spoken at a variety of conferences and events to help others find 
+            their passion in Cybersecurity.
+      length: 1
+    - title: "Channel File 291: 7 Lessons from the CrowdStrike Meltdown"
+      presenter: Reg Harnish
+      url: /2024/day2/track-1#track1-s5
+      abstract: >
+        On July 19th, the world faced an epic cyber disaster. Within minutes, 8.5 million computers 
+        were compromised, marking the largest cybersecurity event in history. Airlines, banks, 
+        hospitals, government agencies, and nearly 25,000 other businesses were incapacitated, causing 
+        global chaos. Surprisingly, this wasn’t a coordinated ransomware or nation-state attack. It 
+        wasn’t Revil, DarkSide, or Anonymous. The largest cybersecurity incident ever was caused by a 
+        simple mistake from CrowdStrike. Despite the damages, the CrowdStrike incident may be the 
+        wake-up call needed to shake up an industry long susceptible to the status quo and a lack of 
+        imagination. Join us as we explore the best things to come from the CrowdStrike Meltdown - 
+        lessons learned.
+      bios:
+        - name: Reg Harnish
+          bio: >
+            Reg Harnish is a nationally recognized cybersecurity veteran, investor, board member, 
+            advisor, speaker, author and the CEO of OrbitalFire. He has spoken at nearly every major 
+            industry and cybersecurity conference.
+
+            
+            Reg is also the founder and former CEO of GreyCastle Security, a former Executive Vice 
+            President at the Center for Internet Security and the former CTO of Autotask.
+
+            
+            OrbitalFire is a leading cybersecurity services provider focused on simplifying, automating, 
+            and ultimately solving security challenges for the underserved – small businesses. Reg is 
+            responsible for the company’s vision, strategy, and growth.
+
+
+            Reg is responsible for several successful ventures, including GreyCastle Security 
+            (acquisition by DeepSeas in 2023), Autotask (acquisition by Vista Equity Partners and Datto 
+            in 2017), SynQuest (IPO in 2000 and acquisition by Viewlocity in 2002) and FunkyTalk.com 
+            (Internet venture with Kimbal Musk).
+
+
+            Reg has been featured in Time Magazine, Forbes, The Washington Post, CBS Nightly News, CIO 
+            Magazine, Dark Reading, Software Magazine, ComputerWorld, InfoWorld and countless other 
+            media outlets.
+      length: 1
+  track2:
+    - title: "Cybersecurity 2.0 – helping you step into NIST 2.0, MDR 2.0, and IAM 2.0"
+      presenter: Jeff Miller
+      url: /2024/day2/track-2#track2-s1
+      abstract: >
+        With the release of the NIST CSF 2.0 earlier this year and the addition of the new Govern 
+        pillar, companies need to understand how to implement new controls and governance concepts 
+        into their organizations to ensure the effectiveness of their cybersecurity program.  
+        Additionally, newer technologies are quickly replacing older ones in the areas of threat 
+        detection & response and identity & access management.  This presentation aims to tie together 
+        new concepts in NIST CSF 2.0 with new technologies that will help companies achieve cyber 
+        resilience.
+      bios:
+        - name: Jeff Miller
+          bio: >
+            Jeff Miller is a unique blend of engineer, teacher, and evangelist of all things 
+            cybersecurity. His roots in cybersecurity stem from his engineering degree and tenure at the 
+            nation’s second-largest law firm, where he regularly defended against ransomware, the hacktivist 
+            group Anonymous, distributed denial of service attacks, and various other threats. Jeff spends 
+            much of his time educating organizations on how to adhere to both security regulations and best 
+            practices around cybersecurity. Jeff lives, breathes, and bleeds cybersecurity. It’s not just what 
+            he does; it’s who he is.
+      length: 1
+    - title: "The ULTIMATE Cheat Sheet for Achieving SOC2 Compliance"
+      presenter: Charissa Kim
+      url: /2024/day2/track-2#track2-s2
+      abstract: >
+        The SOC2 Type II from the American Institute of Certified Public Accountants is the de facto 
+        standard of security audits to ensure the security, confidentiality, and privacy of customer 
+        data. However, its roots lie in a different time and context. In this talk, the speaker will 
+        provide a straightforward cheat sheet for achieving SOC 2 certification effectively and 
+        efficiently. She will break down the process, examine its strengths, pinpoint potential pitfalls, 
+        and share best practices from her own experience.
+      bios:
+        - name: Charissa Kim
+          bio: >
+            Charissa Kim is a Security TPM at Semgrep. She has spoken on various panels and presented 
+            at conferences such as the National Cryptologic Foundation (NCF), National Institute of 
+            Standards and Technology (NIST), National Initiative for Cybersecurity Education (NICE), and 
+            many others. Charissa also founded Cyber Youth Tech (CyTech), a non-profit organization devoted 
+            to empowering the next generation of STEM and cybersecurity professionals. Furthermore, Charissa 
+            directed and produced K-12 Cyber Talk, a cybersecurity webcast sponsored by the National Security 
+            Agency, providing a welcoming environment for K-12 students to learn and explore cybersecurity 
+            along with its diverse career options and opportunities. She is also the first female All-American 
+            from the National CyberPatriot and Northrup Grumman Nationals competition.
+      length: 1
+    - title: "The Threat from Infostealers to Every Company"
+      presenter: Michael Kosak
+      url: /2024/day2/track-2#track2-s3
+      abstract: >
+        The threat from Infostealers, which is malware aimed at stealing critical personal and financial
+        information, has grown substantially over the last 3 years and has been a key factor in some of 
+        the largest breaches of 2024. It targets both individuals and organizations, leading to millions 
+        of credentials and session tokens either available for sale on the dark web via stealer logs 
+        (often for as little as $10) or posted for free in various forums. This briefing will discuss 
+        what infostealers are, how they work, where they fit in the larger cybercriminal ecosystems, and 
+        how you can protect yourself and/or your organization against them.
+      bios:
+        - name: Michael Kosak
+          bio: >
+            Mike Kosak has been an intelligence analyst for over 20 years, starting his career with the 
+            US Department of Defense before moving to the private sector in 2012. For the last 8 years, 
+            he has focused on Cyber Threat Intelligence. He is currently the Senior Principal 
+            Intelligence Analyst at LastPass. His previous private sector roles include manager of the 
+            Strategic Intelligence Analysis and Threat Evaluation teams at Bank of America and Cyber 
+            Threat Intelligence team lead at TIAA.
+      length: 1
+    - title: "Adding API Security to your DevSecOps Toolbelt"
+      presenter: Scott Bly
+      url: /2024/day2/track-2#track2-s4
+      abstract: >
+        How do you integrate API Security into your DevSecOps processes?
+
+
+        You have DevOps tooling and CI/CD pipelines for your product release cycle. Your Dev & Ops 
+        teams work well together. You started a DevSecOps transformation to Shift Left and test code 
+        security in pipelines. But how do you integrate the Security teams into DevOps to achieve true 
+        DevSecOps?
+
+
+        Then, how do you integrate APIs, as they are behavior-based? Traditional AppSec can’t identify 
+        vulnerabilities in API consumption.
+
+
+        Learn how to integrate API testing into Shift Left DevSecOps pipelines to eliminate 
+        vulnerabilities. Learn how to bring Dev, Sec, Ops teams together to improve Mean Time To 
+        Remediation, and keep your teams happy!
+      bios:
+        - name: Scott Bly
+          bio: >
+            Scott Bly leads the API Security Practice at iSOA Group, integrating security across the 
+            API lifecycle. He spent time at Noname Security developing API security programs for 
+            high-profile clients. Prior to Noname, Scott ran the Security Improvement Program at AWS, 
+            assisting more than 200 customers to measure and improve their cloud security postures.
+
+
+            Scott has served as a Cybersecurity Solutions Architect and holds over 40 certifications in 
+            IT and security, including CISSP and CISM, from vendors such as Fortinet, Cisco and AWS. 
+            Scott served as the Director of IT for the American Film Institute, where he led their 
+            digital transformation. He led a LA-based consulting firm specializing in the SMB and 
+            Media/Entertainment space for fifteen years.
+      length: 1
+    - title: "Armor Plating Your Product: Building a Product Security Program from Scratch"
+      presenter: Jim Keeler
+      url: /2024/day2/track-2#track2-s5
+      abstract: >
+        Building a robust product security program is essential for shipping hardened products, 
+        safeguarding your business, and earning customer trust. This talk will explore the essential 
+        steps to creating a solid foundation for a successful program. We'll discuss topics ranging from 
+        practical strategies for engaging stakeholders to implementing secure coding practices. Whether 
+        you're starting from scratch or looking to enhance an existing program, this talk offers lots of 
+        ideas and approaches to strengthen your organization's product security defenses.
+      bios:
+        - name: Jim Keeler
+          bio: >
+            Jim Keeler is a senior security analyst at CyberQP, a cyber-security startup. With over a 
+            decade of development experience and three years as a penetration tester and red team 
+            operator, Jim is meticulously constructing the product security program at CyberQP. Jim is 
+            passionate about training and collaborating with developers to ship more secure code. When 
+            he's not drafting secure coding standards or penetration testing new features, he enjoys 
+            playing soccer with his three kids.
+      length: 1
+  track3:
+    - title: "Identifying the Holy Trinity of Cyber Defense"
+      presenter: John Shier
+      url: /2024/day2/track-3#track3-s1
+      abstract: >
+        In the aftermath of an attack victims are left wondering what they could have done better or 
+        differently. When faced with nation-state attackers, the answer is often: not much. But, most 
+        attacks aren't the product of a nation-state adversary. They are the work of professional 
+        cybercriminals, intent on causing harm for financial gain. By analyzing hundreds of incident 
+        response investigations, we can identify how the attackers are succeeding and what we can do 
+        differently to change the narrative.
+      bios:
+        - name: John Shier
+          bio: >
+            John Shier is a Field CTO Threat Intelligence with more than two decades of cybersecurity 
+            experience. He’s passionate about protecting consumers and organizations from advanced 
+            threats, and has researched everything from costly ransomware to illicit dark web activity, 
+            uncovering insights needed to strengthen proactive cybersecurity defenses.
+      length: 1
+    - title: "Visibility Beyond EDR"
+      presenter: Greg Stachura and Alex Ioannidis
+      url: /2024/day2/track-3#track3-s2
+      abstract: >
+        EDR, I love you, you’re perfect, now change! The continued enhancements in EDR make them 
+        invaluable tools, however there isnt a single one on the market that can detect it all, or even 
+        gives you insight into it all. So how do we gain visibility into our blindspots, without writing 
+        blank checks? For Windows users, Sysmon can help with those blindspots. Utilizing a smart 
+        implementation, a logging filter and some know how, you can help fix or, in some cases, improve, 
+        detections from your EDR.
+      bios:
+        - name: Greg Stachura
+          bio: >
+            Greg is a Senior Manager at Security Risk Advisorsy where he helps run and manage an MSSP 
+            offering for a 24/7/365 CyberSOC services. Greg has architected, deployed, and managed SIEM 
+            environments, orchestration and automations platforms, and developed custom tools for SOC 
+            analysts. He also has extensive background in Incident Response playbook development, log 
+            analysis, and forensics in health care, financial, and academic environments.
+
+
+            Greg earned his MBA from the Rochester Institute of Technology with an Advanced Certificate 
+            in Information Assurance. Prior to joining Security Risk Advisors, Greg worked extensively in 
+            the financial, healthcare, and education sectors.
+        - name: Alex Ioannidis
+          bio: >
+            Alexandra is a Senior Consultant at Security Risk Advisors. She focuses on EDR engineering and 
+            detection rule creation, specifically for SentinelOne, Microsoft Defender, and CrowdStrike. 
+            Alexandra is also a threat hunt lead, developing and overseeing threat hunts for multiple 
+            clients.
+
+
+            Alexandra is a graduate of Rochester Institute of Technology, holding a degree in Computing 
+            Security with a minor in Networking & Systems Administration. 
+      length: 1
+    - title: "Microsoft at your BEC and (API) Call: Auditing Mailbox Item Access for Incident Response"
+      presenter: Richard Smith
+      url: /2024/day2/track-3#track3-s3
+      abstract: >
+        Concerned about business email compromise (BEC) attacks? Until recently, organizations using 
+        Office 365 for email had no way to audit access to individual mailbox items unless they paid for 
+        the premium E5-level license. Microsoft has enabled all customers to access these logs - but 
+        accessing them and getting the data into an actionable format is still a daunting task. In this 
+        talk I'll show how you can leverage readily-available technologies to pull the mailbox audit 
+        logs into your SIEM and datalake solution, giving visibility into individual mailbox item 
+        access logs, and potentially reducing your PHI/PII exposure risk in the event of a cybersecurity 
+        incident.
+      bios:
+        - name: Richard Smith
+          bio: >
+            Richard Smith is a Senior Consultant with Security Risk Advisors, working primarily on 
+            security data pipeline efficiency and onboarding clients into SRA's XDR solution, SCALR.
+      length: 1
+    - title: "Lifting the Veil: Decrypting Malware's Hidden Language"
+      presenter: Mark Musone
+      url: /2024/day2/track-3#track3-s4
+      abstract: >
+        Mark will demonstrate forensic analysis of malware which originated from a foreign threat 
+        actor. He will teach us how malware operates, how to analyze malware, and ways to take the 
+        confusion out of compromises.
+      bios:
+        - name: Mark Musone
+          bio: >
+            Mark Musone has expertise in both corporate and Government cybersecurity. He has 
+            proficiency in NIST 800-53, NIST 800-171, CMMC, FedRAMP, FISMA, and numerous other standards.
+
+
+            Mark regularly provides subject matter expertise on security audits, reviews of technical 
+            system design documentation, deliverables, and performance. Mark also provides additional 
+            research and analysis of cloud technologies, security architectures, IPV6 solutions, and 
+            Federal security requirements and standards.
+
+            
+            Mark has taught countless technology and security classes and seminars, has provided 
+            forensic assistance to various Governmental agencies, and provides expert testimony in court 
+            cases. Mark has successfully worked with contractors and vendors to resolve findings, develop 
+            security best practices, and maintained up-to-date status of security compliance. Mark is a 
+            CISSP, CMMC Registered Practitioner, a CMMC Provisional Assessor, a CMMC Certified Assessor, 
+            a CMMC Certified Professional, and a CMMC Certified Provisional Instructor.
+      length: 1
+    - title: "Enterprise Security Architecture - A Holistic Approach"
+      presenter: Barry Hofecker
+      url: /2024/day2/track-3#track3-s5
+      abstract: >
+        As businesses grapple with increasing digital complexity, continually evolving threats, increasing risk exposure, 
+        and pressure from leadership to reduce costs, it is more important than ever for security teams provide assurance 
+        that security investments support and promote business goals and objectives. In this presentation we will discuss 
+        the principles of information security architecture, review two prominent security architecture frameworks and 
+        learn how they can be leveraged to improve our security program and provide the assurance that the business is 
+        looking for.
+      bios:
+        - name: Barry Hofecker
+          bio: >
+            Barry Hofecker is a vCISO, Security Strategist with 20+ years of information security, technology, and risk 
+            management experience in multiple diverse markets, including Manufacturing, Healthcare, Education, Financial 
+            Services, and public sector entities. Barry holds a MS in Information Security and Assurance as well as 
+            multiple industry certifications.
+      length: 1
+  sponsor1:
+    - title: "Top Tips for Active Directory Defense"
+      presenter: Eric Woodruff, Semperis
+      url: /2024/day2/see-track-1#see1-s1
+      abstract: >
+        If your identity infrastructure is down, so is your business. That’s why attackers regularly target Microsoft 
+        Active Directory (AD) and Entra ID. Gaining control of these identity systems can give threat actors near-total 
+        control of all your systems, access to sensitive data, and the means to devastate your business. The ability to 
+        defend and recover your hybrid AD environment is key to operational resilience.
+
+
+        Join Eric Woodruff (Senior Security Researcher, Semperis) to learn:
+
+        * Why AD and Entra ID security is vital for reliable business operations
+
+        * How to improve identity security without breaking the bank
+
+        * How to survive an attack on your identity infrastructure
+      bios:
+        - name: Eric Woodruff
+          bio: >
+            Throughout his 24-year career in IT, Eric has sought out and held a diverse range of roles, including 
+            technical manager in the public sector, Sr. Premier Field Engineer at Microsoft, and Security and Identity 
+            Architect in the Microsoft Partner ecosystem. Currently he is a Senior Security Researcher working as part of 
+            the Security Research team at Semperis. Eric is a Microsoft MVP for security, recognized for his expertise in 
+            the Microsoft identity ecosystem. Outside of work, Eric supports the professional community, providing his 
+            insights and expertise at conferences, participating on the IDPro Body of Knowledge committee, and blogging 
+            about Entra and related cloud security topics.
+      length: 1
+    - title: "Why Wait? Achieve workload segmentation now and prepare for the future with Cisco’s Secure Workload and Hypershield."
+      presenter: Mike McPhee (Cisco) and Jonathan Borgesen (ePlus), ePlus Technology, Inc.
+      url: /2024/day2/see-track-1#see1-s2
+      abstract: >
+        For over 30 years, CISA has recommended segmentation as a top priority. It makes sense – compromises will happen, 
+        and reducing exposure is essential to protecting our data and preserving our reputation. Putting it into practice 
+        – especially in complex multi-cloud environments – is difficult and fraught with challenges. Join ePlus and Cisco 
+        to learn how Cisco Secure Workload can see what is truly happening in your environments, and quickly turn that 
+        into a dynamic and responsive segmentation approach - today.  We’ll show how tomorrow’s approach (Cisco 
+        Hypershield) promises to bring even more capability and offers a bright and investment-protected future.
+      bios:
+        - name: Mike McPhee, Principal Solutions Engineer – Cybersecurity, Cisco
+          bio: >
+            Mike focuses on and consults about the architecture and designs of security and network infrastructures. 
+            With expertise in systems engineering, security frameworks, threat intelligence, and both red and blue team 
+            operations, Mike helps craft actionable strategies, develop training, steer product roadmaps, and enable 
+            security operators.  His relevant certifications include the GIAC Security Expert (#339) & 11 other GIAC 
+            certifications, as well as Cisco’s CCIE Routing & Switching, CCIE Security, and Cisco Certified Design Expert.
+        - name: Jonathan Borgesen, Client Security Principal, ePlus
+          bio: >
+            Jonathan has been a part of the security industry since 2009 with a focus dedicated to educating, consulting, 
+            and assisting local organizations to enable them to achieve their security goals. Throughout his tenure 
+            Jonathan has participated in and presented at many educational events both locally and nationally, providing 
+            him with a greater understanding of security trends from a perspective.
+      length: 1
+    - title: "TBA"
+      presenter: Trend Micro
+      url: /2024/day2/see-track-1#see1-s3
+      length: 1
+    - title: "Island Q&amp;A Session"
+      presenter: Island
+      url: /2024/day2/see-track-1#see1-s4
+      length: 1
+    - empty: true
+  sponsor2:
+    - title: "TBA"
+      presenter: Palo Alto Networks
+      url: /2024/day2/see-track-2#see2-s1
+      length: 1
+    - title: "Check your cyber ego at the door:  Striking the vital balance between confidence and arrogance"
+      presenter: Atlantic Data Security
+      url: /2024/day2/see-track-2#see2-s2
+      abstract: >
+        Even setting foot on a field of battle, whether for team sports or military purposes, requires extreme 
+        self-confidence.  If you don't believe you can win, you very likely won't.  In the war against cyber crime, 
+        however, it's important to balance that confidence with the understanding that this is also a team sport - and 
+        hat none of us can win alone.  Join us for a discussion on navigating the line between confidence and 
+        arrogance - and knowing when and how to seek and accept help from others.
+      bios:
+        - name: Eric Anderson
+          bio: >
+            Eric has been working in computing and networking for almost 40 years, and had been focused on 
+            cybersecurity since the mid 90's.  While primarily a left-brained, logic-minded, full-on nerd and engineer 
+            that has served in just about every technical capacity from coding, to technical support, to pre and 
+            post-sales work, he currently spends the majority of his time working with clients to solve their varied 
+            security challenges. Once referred to as an "eloquent nerd", Eric leverages his passion, collective 
+            experience, creative thinking, and a empathetic understanding of customer issues and motivations to 
+            architect solutions to difficult problems while fostering deeper comprehension with those he works with 
+            and teaches.  Almost above all, Eric enjoys what he does and tries to instill some "fun" in all of his 
+            outreach.
+      length: 1
+    - empty: true
+    - empty: true
+    - empty: true
+

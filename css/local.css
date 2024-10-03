@@ -90,13 +90,15 @@ section#slider {
   transform: translateY(-50%);
 }
 
-.vh-center {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+@media screen and (min-width: 800px) {
+	.vh-center {
+	  margin: 0;
+	  position: absolute;
+	  top: 50%;
+	  left: 50%;
+	  -ms-transform: translate(-50%, -50%);
+	  transform: translate(-50%, -50%);
+	}
 }
 
 .attendees {
@@ -266,12 +268,17 @@ section#slider {
 
 .ticket-options {
 	list-style: none;
-	margin: 1rem 10rem;
 	text-align: center;
 	background-color: none;
 	width: auto;
 	height: auto;
 	padding: 0;
+}
+
+@media screen and (min-width: 800px) {
+	.ticket-options {
+    margin: 1rem 10rem;
+	}
 }
 
 .ticket-options li {
@@ -311,6 +318,10 @@ section#slider {
 	margin-bottom: 0;
 }
 
+.keynotes h2 {
+	margin-top: 4rem;
+}
+
 .location {
 	margin: 1rem 1rem 1rem 3rem;
 }
@@ -328,7 +339,8 @@ section#slider {
 }
 
 .sponsors {
-	margin: 3rem 3rem;
+	margin: 3rem 1rem;
+	text-align: center;
 }
 
 .sponsors h1 {
@@ -344,6 +356,12 @@ section#slider {
 	text-align: center;
 	background-color: sandybrown;
 	width: 100%;
+}
+
+@media screen and (min-width: 800px) {
+	.sponsors {
+		margin: 3rem 3rem;
+	}
 }
 
 .sponsor-intro {
@@ -362,6 +380,7 @@ section#slider {
 	margin: 0 auto;
 	text-align: center;
 	display: inline-block;
+	max-width: 100%;
 }
 
 .sponsor img {
@@ -519,8 +538,15 @@ ul.social > li {
 @media (min-width: 960px) {
   .schedule {
     display: grid;
-    grid-template-columns: 0.5fr 0.5fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     gap: 1px;
+  }
+
+  .schedule-2023 {
+  	grid-template-columns: 0.5fr 0.5fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+
+  .schedule-2024 {
+  	grid-template-columns: 0.5fr 0.5fr 1fr 1fr 1fr 1fr 1fr;
   }
 
   .schedule > div {
@@ -542,12 +568,17 @@ ul.social > li {
     background-color: cyan;
   }
 
-  .schedule .full-session {
+  .schedule-2023 .full-session {
     grid-column-end: span 7;
   }
 
+  .schedule-2024 .full-session {
+    grid-column-end: span 5;
+  }
+
   .schedule .columns-2 {
-	grid-column-end: span 2;
+	  grid-column-end: span 2;
+	  width: 100%;
   }
 
   .schedule .rows-2 {
@@ -610,4 +641,26 @@ ul.social > li {
 		font-weight: bold;
 		text-align: left;
 	}
+}
+
+/* session descriptions */
+.session-abstract {
+	margin-top: 8rem;
+}
+
+dialog .session-abstract {
+	margin-top: 0;
+}
+
+.session-abstract .bios {
+	padding-left: 5rem;
+}
+
+.session-abstract h3 {
+	font-size: 2rem;
+	margin-top: 2rem;
+}
+
+#eventzilla-iframe {
+	height: 375px;
 }

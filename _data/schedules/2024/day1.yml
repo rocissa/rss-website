@@ -1,0 +1,569 @@
+---
+keynotes:
+  - presenter: Alyssa Miller
+    url: /2024/alyssa-miller/
+  - presenter: Eric Woodruff
+    url: /2024/eric-woodruff/
+tracks:
+  - id: track1
+    name: AI Track
+    room: Grand Lilac Ballroom
+    show_on_slides_page: true
+  - id: track2
+    name: GRC/Risk Track
+    room: Highland A/B
+    show_on_slides_page: true
+  - id: track3
+    name: Training/Show and Tell Track
+    room: Highland D/E
+    show_on_slides_page: true
+  - id: sponsor1
+    name: Sponsor Track
+    room: Aqueduct A/B
+  - id: sponsor2
+    name: Sponsor Track
+    room: Aqueduct C/D
+session_times:
+  - start: 10:00 am 
+    end: 10:50 am 
+  - start: 11:00 am
+    end: 11:50 am
+  - start: 1:00 pm
+    end: 1:50 pm
+  - start: 2:00 pm
+    end: 2:50 pm
+sessions:
+  track1:
+    - title: "Tabletop Exercises: Enhancing Incident Preparedness and Response"
+      presenter: Javier Figueroa
+      url: /2024/day1/track-1#track1-s1
+      abstract: >
+        Tabletop exercises have emerged as a cornerstone in incident and disaster preparedness. In this 
+        presentation, we discuss the purpose, benefits, structure and future of tabletop exercises.
+
+
+        Tabletop exercises are valuable because they create realistic scenarios within a controlled setting, 
+        allowing organizations to assess how well they’re prepared to handle different crises. By bringing 
+        together key stakeholders, decision-makers, and subject matter experts, tabletop exercises promote 
+        collaboration, communication, and critical thinking. In this presentation, we will explore the essential 
+        elements of tabletop exercises, including scenario development, execution, and evaluation.
+      bios:
+        - name: Javier Figueroa
+          bio: >
+            Javier Figueroa is a Certified Information Systems Security Professional (CISSP), Certified 
+            Information Security Manager (CISM), and Certified Cloud Security Professional (CCSP) with 
+            over 15 years of expertise in the field of Information Technology, specializing as an 
+            Information Security Program Manager. As a Cybersecurity Manager, Javier plays a pivotal role 
+            in elevating the cybersecurity posture of clients through a comprehensive suite of services. 
+            These include strategic vCISO consultations, risk analysis, development of security roadmaps, 
+            policy formulation, and conducting incident readiness tabletop exercises.
+
+
+            Javier holds a Master’s Degree in Cybersecurity from Utica University.
+      length: 1
+    - title: "Save Time & Money - Automate using Cybersecurity Standards"
+      presenter: Duncan Sparrell
+      url: /2024/day1/track-1#track1-s2
+      abstract: >
+        This is NOT an AI talk! Automation is applying technology to "achieve outcomes with minimal 
+        human interaction". This talk is about the emerging cybersecurity standards and how they enable 
+        automation. It will cover why this is important (save money, respond at machine speed, maximize 
+        scare human expertise), what is involved (including explaining the alphabet soup of acronyms), 
+        and present results from the use cases demo'd at the Cybersecurity Automation Village 
+        (including OlympicDestroyer and SBOMs). The talk will also have a related sidebar into how we 
+        must be doing something right if the Russians and Iranians are objecting to our work at UN 
+        agencies like the ITU.
+      bios:
+        - name: Duncan Sparrell
+          bio: >
+            Duncan's mission is to make the world a safer place. He has 45+ years of expertise in 
+            software and has been involved in cybersecurity since 1990, including coining the term "SOC". 
+            After retiring as AT&T's Chief Security Architect, Duncan volunteers most of his time to 
+            cybersecurity standards including cochairing the Open Cybersecurity Alliance Cybersecurity 
+            Automation Sub-Project. He has been advocating software bill of materials (SBOM) literally for 
+            decades.
+
+
+            Duncan was awarded the Intelligence Community Seal Medallion, the AT&T Science and 
+            Technology Medal, the OASIS Distinguished Contributor Award, and 18 patents.
+
+
+            Duncan's tagline is "Think evilly, act ethically."
+
+
+            For more info about Duncan, see https://www.linkedin.com/in/sfractal/
+      length: 1
+    - title: "Harnessing AI for Advanced Network Security: From Attacks on Privacy to Defensive Innovations"
+      presenter: Nate Mathews and Matthew Wright
+      url: /2024/day1/track-1#track1-s3
+      abstract: >
+        In this talk, we delve into the application of state-of-the-art AI methods to bolster both 
+        offensive and defensive mechanisms in network security. We start by examining the landscape of 
+        advanced network threats, including AI-driven attacks on privacy-enhancing technologies like 
+        VPNs and Tor, and the sophisticated nature of pivoting attacks in network intrusions. 
+        Specifically, we will discuss a class of privacy attacks known as Flow Correlation attacks. We 
+        will then show how these offensive techniques can be adapted and repurposed for defense, to 
+        detect pivoting in network intrusion attacks. Our methodologies, results, and implications 
+        highlight the strengths and limitations of AI, contributing to a more robust understanding of 
+        attacks.
+      bios:
+        - name: Nate Matthews
+          bio: >
+            Nate Mathews is a Ph.D. candidate in Computing and Information Sciences at RIT. His research
+            focuses on the intersection of privacy, security, and deep learning with a focus on traffic 
+            analysis. Among his publications, he is the lead author of a paper that appeared in the IEEE 
+            Symposium on Security and Privacy, the top venue in systems security research.
+        - name: Matthew Wright
+          bio: >
+            Matt Wright is Endowed Professor and Chair of Cybersecurity at RIT. He earned his PhD in CS 
+            at the University of Massachusetts in 2005. His research interests include deepfake 
+            detection, applying AI to malware and traffic analysis, and understanding the human element 
+            of security. He has over 100 peer-reviewed publications, including many works appearing in 
+            top-tier venues in cybersecurity, human-computer interaction, and computer networks.
+      length: 1
+    - title: "Generative AI — Adversaries vs. Defenders"
+      presenter: Selena Dao
+      url: /2024/day1/track-1#track1-s4
+      abstract: >
+        Dive into the world of cyber generative AI and explore its dual nature as both a potential 
+        cybersecurity risk and a valuable tool for security teams. We explore how adversaries carry out 
+        attacks, including various ways in which generative AI can be exploited for malicious purposes, 
+        including deepfake creation and automated phishing attacks. Conversely, we also examine the 
+        innovative applications of generative AI in enhancing cybersecurity measures, such as alert and 
+        risk event explanation, custom and prescriptive guidance, advanced threat hunting. This session 
+        provides a comprehensive understanding of the challenges and opportunities presented by 
+        generative AI in the cybersecurity landscape.
+      bios:
+         - name: Selena Dao
+           bio: >
+             Selena is a Senior Solutions Engineer at Trend Micro with over 4 years of experience in the 
+             cybersecurity industry. She focuses on educating and delivering technical solutions to 
+             enterprise environments across endpoint, email, XDR, and continuous risk assessment 
+             technologies.
+      length: 1
+  track2:
+    - title: "A Comprehensive Approach to IT Vulnerability Management"
+      presenter: David Frier
+      url: /2024/day1/track-2#track2-s1
+      abstract: >
+        Vulnerability management is a critical aspect of safeguarding an organization’s infrastructure.
+        This talk will introduce a comprehensive approach to vulnerability management that not only 
+        identifies vulnerabilities but also enriches, risk-ranks, and prioritizes them for effective use 
+        of available remediation resources. We will explore a system and process designed to ingest scan 
+        data, enhance it with valuable insights from sources like Known Exploited Vulnerabilities (KEV)
+        and Exploit Prediction Scoring System (EPSS), and deliver actionable intelligence to IT teams. 
+        Attendees will leave with a clear understanding of how to implement a prioritized, data-driven 
+        vulnerability management strategy in their organizations.
+      bios:
+        - name: David Frier
+          bio: >
+            - David C Frier, RIMS-CRMP, CISM, CISSP, CRISC, CCSK
+            
+            - vCISO and Senior Cybersecurity Program Manager at Sedara... but I speak only for myself, not for Sedara!
+            
+            - 0x2d years into IT, 0x13 years into Infosec
+            
+            - Geekosaurus
+            
+            - Avid player of poker... Orioles and Cubs fan... enthusiastic-if-slow rider of a Trek.
+            
+            - about.me or wheretofind.me
+      length: 1
+    - title: "Real Risk in Today’s World…Dark Web Data Leaks"
+      presenter: Bruce Cheney
+      url: /2024/day1/track-2#track2-s2
+      abstract: >
+        Cyber risk is a growing concern for businesses of all sizes. According to the FBI, there were 
+        over $12.5 Billion in losses due to cybercrime in 2023. And as cyber criminals are getting more 
+        sophisticated, they are increasingly using extortion and the Dark Web to their advantage. The 
+        combination of ransomware, extortion, and the dark web pose a serious threat to businesses.
+
+        
+        In this presentation, Bruce Cheney, Sr. Engineer at Arctic Wolf, will lead a discussion on what
+        Real Risk looks like and what you can do to increase your security posture. He will talk about 
+        the growing threat of cybercrime groups, show you Dark Web Data Leaks, and provide the steps you 
+        can take to stay ahead of the curve when it comes to being a victim of cybercrime.
+      bios:
+        - name: Bruce Cheney
+          bio: >
+            Bruce Cheney is a well-rounded Cyber Security Leader, Researcher, Enthusiast, Evangelist, 
+            and Speaker. He is an expert at helping organizations identify and understand the real Risks 
+            and Threats of a Cyber Attack (Ransomware, Extortion, etc.).
+
+            
+            With 25+ years of IT experience and a strong and practical knowledge of technology from 
+            Layer 1 through Layer 7, Bruce can identify and help reduce Cyber Security risks for 
+            organizations of all sizes, verticals, and geographies. He is a thought leader and expert at 
+            finding chinks in companies’ armor and explaining how to fix them.
+
+            
+            He has the skills to design, deploy, train, and troubleshoot a myriad of technology 
+            solutions, as well as explain to organizations how to secure those solutions. He has years 
+            of experience in professional training on complex IT topics, so making sense of complex 
+            topics is right up his alley, allowing him to specialize in Transferring Knowledge and 
+            Operational Best Practices to Customer Staff ensuring Post-Implementation Success.  
+      length: 1
+    - title: "Avoiding Concentrated Risk"
+      presenter: Chas Clawson
+      url: /2024/day1/track-2#track2-s3
+      abstract: >
+        In today’s rapidly evolving cybersecurity landscape, avoiding concentrated risk in a 
+        consolidated security solutions market is crucial. As companies increasingly rely on fewer 
+        providers, the potential impact of a single point of failure grows. This can lead to 
+        vulnerabilities and increased exposure to cyber threats. Diversifying security solutions 
+        helps mitigate this risk by ensuring that no single vendor’s weaknesses can compromise the 
+        entire system. It also fosters innovation and flexibility, allowing organizations to adapt to 
+        new threats and technologies. By embracing a multi-vendor strategy, businesses can enhance 
+        their resilience and maintain robust security in a dynamic digital environment.
+      bios:
+        - name: Chas Clawson
+          bio: >
+            As a technologist interested in disruptive cloud technologies, Chas joined Sumo Logic's 
+            Cyber Security team with over 15 years in the field, consulting with many federal agencies 
+            on how to secure modern workloads. In the federal space, he spent time as an architect 
+            designing the Department of Commerce ESOC SIEM solution. He also worked at the NSA as a 
+            civilian conducting Red Team assessments and within the office of compliance and policy. 
+            Commercially, he has worked with MSSP practices and security consulting services for 
+            various fortune 500 companies. Chas also enjoys teaching Networking & Cyber Security courses
+            as a Professor at the University of Maryland Global College.
+      length: 1
+    - title: "Govern Once, Comply Many:  Leveraging Your Security Skills to Manage AI Risk"
+      presenter: F. Paul Greene
+      url: /2024/day1/track-2#track2-s4
+      abstract: >
+        Infosec teams are overtaxed and underfunded, and often now tasked with assessing and managing 
+        AI risk,  AI governance approaches vary, however, and the technology is in flux.  Fortunately, 
+        significant overlap and synergy exists between good security practice and ethical AI governance 
+        functions, such that Infosec teams are especially well suited to assess and potentially manage 
+        AI risk. This discussion will focus on the interplay between Infosec and AI governance frameworks, 
+        and offer practical solutions on how to govern once, comply many in relation to AI and Infosec.  
+        It will also offer strategies an Infosec team can use to leverage interest in AI to create focus 
+        and budget for core infosec functions.
+      bios:
+        - name: F. Paul Greene, CIPP/US, CIPP/E, CIPM, FIP
+          bio: >
+            F. Paul is the Chair of the Privacy and Data Security and Artificial Intelligence and New 
+            Technologies Practice Groups at Harter Secrest & LLP.  He is an internationally recognized 
+            speaker and practitioner in the fields of complex data protection and governance, and has 
+            published extensively in the U.S. and U.K on these issues.  He is also a Distinguished 
+            Fellow of the Ponemon Institute, the pre-eminent research center dedicated to privacy, data 
+            protection and information security policy.  
+      length: 1
+  track3:
+    - title: "Towards a Quantum-Resistant Future: Experiences in Post-Quantum Cryptography Education"
+      presenter: T.J. Borrelli, Monika Polak, Stanislaw Radziszowski, and Sumita Mishra
+      url: /2024/day1/track-3#track3-s1
+      abstract: >
+        With recent progress in the development of large-scale, general-purpose, fault-tolerant Quantum 
+        Computing (QC), significant effort is being made in the cryptography community to create viable 
+        long-term solutions against the threat of QC breaking classical public-key security schemes. The 
+        current Post-Quantum Cryptography (PQC) standardization process led by the NIST has made some 
+        selections and is about to recommend new cryptographic protocols resistant to QC. This talk reports 
+        our experiences from teaching a first-in-kind module-based course in Quantum-Resistant Cryptography 
+        (QRC) at two universities. The subject of QRC will take on additional importance as the U.S. and 
+        other countries start to transition to QRC-based solutions. 
+      bios:
+        - name: T.J. Borrelli
+          bio: >
+            T.J. Borrelli is a dedicated educator with over 17 years of teaching experience. He is a 
+            Principal Lecturer in the Department of Computer Science in the Golisano College of 
+            Computing and Information Sciences at RIT. He is affiliated with the RIT ESL Global 
+            Cybersecurity Institute at RIT. He holds a Master’s degree in Computer Science from RIT. 
+            He teaches classes in Cryptography, Quantum-Resistant Cryptography, Computer Science Theory, 
+            Artificial Intelligence, and Computational Music Theory. Current research focuses on 
+            approaches to teaching a course in Post-Quantum and Quantum-Resistant Cryptography.
+        - name: Monika Polak
+          bio: >
+            Monika Polak is an Assistant Professor of Computer Science (Instruction) at the University 
+            of Rochester (UofR). She earned her doctoral degree in Mathematics with honors from the 
+            University of Maria Curie Sklodowska in Lublin, Poland, in 2016. In 2017, she was an 
+            Assistant Professor at the University of Information Science and Technology in Ohrid, 
+            Macedonia. Monika worked at Rochester Institute of Technology’s (RIT) Computer Science 
+            department from 2017 to 2023, where she was promoted to Senior Lecturer in 2023. She has 
+            been involved in initiatives to broaden participation in computing at RIT and UofR and has 
+            taught introductory computer science, computer science theory, and cryptography courses.
+        - name: Sumita Mishra
+          bio: >
+            Sumita Mishra is a professor and the graduate program director in the Department of 
+            Cybersecurity at Rochester Institute of Technology. She earned her doctoral degree in 
+            Electrical Engineering at the University at Buffalo in 2001 and has served as a faculty 
+            member at RIT for 17 years. She has led and co-led several NSF-funded projects focused on 
+            computing and cybersecurity education. She teaches cryptography at the graduate level and is 
+            an active member of IEEE and ACM. She has published over 70 articles in reputed journals and 
+            academic conferences in her field.
+        - name: Stanislaw Radziszowski
+          bio: >
+            Stanisław Radziszowski is a Professor in the Department of Computer Science since 1995. He 
+            earned Ph.D. from the Institute of Informatics at the University of Warsaw. During the years
+            1980-1984 he worked in IIMAS at the National Autonomous University of Mexico in Mexico City, 
+            and since 1984 at the RIT. In the 1990's he held three times 6-week visiting positions at the 
+            Australian National University in Canberra, and maintained collaborations with universities in 
+            Poland.
+
+
+            His main research interest is in combinatorial computing - solving classical problems in 
+            combinatorics, graph theory and design theory, usually with the help of massive computations. 
+            Bounds on Ramsey numbers are his favorite. His survey titled ‘Small Ramsey Numbers’, which is a 
+            regularly updated living article at the Electronic Journal of Combinatorics, became a standard 
+            reference in this area. He teaches mostly theory oriented courses, including very popular 
+            courses on cryptography, both at undergraduate and graduate levels. His recent work on applied 
+            cryptography led to joint projects with Computer Engineering Department.
+      length: 1
+    - title: "Streamlined SIEM Migration and Daily Cost Optimization"
+      presenter: Joe Cicero
+      url: /2024/day1/track-3#track3-s2
+      abstract: >
+        Migrating from a legacy SIEM can be complex and costly. In this 20-minute session, Joe Cicero 
+        from Security Risk Advisors will explore advanced data routing and transformation techniques to 
+        streamline this process. By leveraging innovative data management solutions, attendees will learn 
+        how to efficiently partition data between various platforms, significantly reducing daily ingestion 
+        costs. This technical presentation will provide practical insights and examples to help security 
+        professionals manage SIEM migrations effectively while optimizing daily operational expenses.
+      bios:
+        - name: Joe Cicero
+          bio: >
+            Joe, Director of Strategic Alliances at SRA, stands out for his pivotal role in security 
+            solutions and strategic partnerships. At Microsoft, he was instrumental in scaling EDU 
+            device management from under 1 million to over 10 million devices and played a key role in 
+            building Microsoft's first-party managed security service, Defender Experts. In prior roles, 
+            Joe has been the advisor for Fortune 100 companies, international firms, governments, and law 
+            firms on cybersecurity trends to active incidents. Joe is renowned for "having his customers' 
+            back." His extensive experience, combined with a deep commitment to customer support, positions 
+            him as a crucial asset to SRA's managed security services.
+      length: 1
+    - title: "Building a Sawmill: Processing Logs With Security Onion"
+      presenter: Matthew Gracie
+      url: /2024/day1/track-3#track3-s3
+      abstract: >
+        One of the best things you can do to improve visibility in your environment is have a central 
+        point to ingest and analyze logs - in this talk you will learn how to use the free and open 
+        Security Onion platform to gather, normalize, investigate, and alert on logs from your endpoints, 
+        network devices, and cloud infrastructure. 
+      bios:
+        - name: Matthew Gracie
+          bio: >
+            Matthew Gracie is a defensive security specialist with fifteen years of Blue Team experience 
+            in higher education, manufacturing, financial services, and healthcare. He is currently a 
+            Senior Engineer on the professional services team at Security Onion Solutions, as well as an 
+            adjunct professor of Cybersecurity in the graduate school at Canisius University. Matt is also 
+            the lead organizer of Infosec 716, a monthly meetup for security enthusiasts in Western New York, 
+            and the BSides Buffalo technology conference. He enjoys good beer, mountain bikes, open source 
+            security tools, and college hockey, and can be found on Twitter as @InfosecGoon. 
+      length: 1
+    - title: "Level Up Your Security: The Power of Gamification"
+      presenter: Ben Meyer-Crosby
+      url: /2024/day1/track-3#track3-s4
+      abstract: >
+        "Level Up Your Security: The Power of Gamification" explores how game-design elements can 
+        revolutionize security awareness and training in organizations.
+
+
+        This presentation addresses the shortcomings of traditional security training and demonstrates 
+        how gamification can enhance engagement, retention, and proactive behavior among employees. We 
+        will delve into techniques such as points, leaderboards, and interactive challenges, supplemented 
+        with real-world stories. Attendees will leave with actionable insights on designing and implementing 
+        gamified security programs to strengthen their organization's security posture.
+      bios:
+        - name: Ben Meyer-Crosby
+          bio: >
+            Ben is a dedicated cybersecurity professional with over 10 years of experience in the field. 
+            He has spent his career empowering organizations to protect their assets and information by 
+            providing them with essential tools and knowledge. Ben has extensive expertise in cybersecurity 
+            training and awareness programs, where he emphasizes the integration of innovative strategies to 
+            enhance learning and engagement. His work is focused on clarifying complex security concepts, 
+            making them both accessible and actionable for a wide range of audiences.
+      length: 1
+  sponsor1:
+    - title: "Unlocking the Value of All Your IT & Security Data with Cribl"
+      presenter: Eleane Ye, Cribl
+      url: /2024/day1/see-track-1#see1-s1
+      abstract: >
+        In today's data-driven world, organizations are inundated with vast amounts of IT and security data, 
+        making it difficult to extract meaningful insights and drive business value. In this session, we will 
+        explore how Cribl's innovative data management platform empowers organizations to unlock the full 
+        potential of their IT and security data. By providing unparalleled control over data collection, 
+        routing, and enrichment, Cribl enables teams to streamline operations, enhance security monitoring, 
+        and optimize data storage costs—all without compromising visibility or compliance. Discover how Cribl 
+        transforms raw data into actionable intelligence, helping organizations make better, faster, and more 
+        informed decisions.
+      bios:
+        - name: Eleane Ye, Solutions Engineer II - Cribl
+      length: 1
+    - title: "Reshaping The Enterprise Security Landscape:  The Modern Design"
+      presenter: Jason Trunk, Island
+      url: /2024/day1/see-track-1#see1-s2
+      abstract: >
+        IT professionals and cybersecurity practitioners face immense challenges adapting to shifts in the 
+        desired work models employed by users and their organizations. According to recent Gartner®&rreg; 
+        research*, "Enterprise browsers will evolve to become the core platform for almost all of the 
+        day-to-day enterprise productivity and security software used by the workforce." Traditional architectural 
+        approaches are quite limited in such areas as BYOD programs, contractor/third-party provisioning, 
+        hybrid work, and modernization efforts. What if solutions to many of these difficult challenges could be 
+        solved by reimagining the browser as a core component of enterprise architecture?
+
+
+        In this session, Island will provide examples on how this new category and technology:
+
+
+        * Revolutionizes your organization, enabling you to address modern work challenges while unlocking new opportunities.
+        
+        * Streamlines BYOD, contractor/third-party, and hybrid work initiatives with innovative architectural approaches
+        
+        * Implements novel security measures to safeguard organizational applications and data
+      bio:
+        - name: Jason Trunk, Island Sales Engineer
+          bio: >
+            Jason Trunk serves as Enterprise Architect at Island with over 20 years of experience with emerging 
+            technologies including server side code optimization, network decryption, and front-end browser 
+            performance. Before Island, Jason served as field CTO for AppDynamics (now Cisco), executive director 
+            at JPMorgan Chase, vice president at BigPanda, and other technical leadership roles at Mercury Interactive, 
+            Quest Software, and CA Technologies.
+      length: 1
+    - title: "XDR in Action: The Blueprint for Holistic Visibility and Automated Response"
+      presenter: Ben Wilcox and Michael Wurz, ProArch
+      url: /2024/day1/see-track-1#see1-s3
+      abstract: >
+        Traditional security information and event management (SIEM) solutions can’t detect cyberattacks that span 
+        multiple security layers, making them difficult to resolve.
+
+
+        Extended Detection and Response (XDR) is the natural evolution from EDR to expand coverage and protect against 
+        sophisticated attackers. This session covers how XDR provides security teams greater visibility so informed 
+        decisions on where to invest time and resources can be made.
+
+
+        Learn how XDR’s use of APIs, AI, and ML for automatic threat investigation and correlation differs from 
+        traditional SIEM systems. See a demo showcasing how ProArch’s SOC leverages Microsoft Defender XDR for automatic 
+        resolution and cross-product threat hunting. Attendees will receive three Microsoft Defender threat hunting queries!
+      bios:
+        - name: Ben Wilcox, Managing Director of Cybersecurity & Compliance and Chief Technology Officer
+          bio: >
+            As the Managing Director of Cybersecurity and Compliance, Ben’s promise to clients is to deliver solutions with 
+            unwavering dedication to excellence, strategic alignment to business goals, and innovative thinking so that 
+            they can keep up with the ever-changing cybersecurity and compliance landscape.
+        - name: Michael Wurz, VP of Cybersecurity Solutions
+          bio: >
+            Michael Wurz is the VP of Cybersecurity Solutions at ProArch, driving innovative security programs that 
+            safeguards clients and elevates ProArch’s market position. Michael collaborates with cross-functional teams 
+            to implement robust security measures, oversee incident response, and elevate service delivery across the 
+            organization.
+      length: 1
+    - title: "Implications of AI in a modern defense strategy"
+      presenter: Chas Clawson, Sumo Logic
+      url: /2024/day1/see-track-1#see1-s4
+      length: 1
+      abstract: >
+        In today's rapidly evolving landscape of cybersecurity, the integration of artificial intelligence (AI) presents 
+        both unprecedented opportunities and complex challenges. Learn about the latest weaponization techniques 
+        adversaries are using with generative AI and understand the implications of AI in modern defense strategies 
+        for organizations seeking to safeguard their digital assets against these emerging threats.
+      bios:
+        - name: Chas Clawson, Sumo Logic CTO
+  sponsor2:
+    - title: "Navigating the Path to Compliance: CMMC, NIST, HIPAA, and Other Industry-Specific Standards"
+      presenter: David Wolf, Just Solutions
+      url: /2024/day1/see-track-2#see2-s1
+      abstract: >
+        * Understanding the differences: A breakdown of CMMC, NIST, HIPAA, and other key compliance frameworks.
+
+        * Which compliance applies to your business?: Helping businesses identify which standards they need to adhere 
+        to based on their industry and operations.
+
+        * Risk-based compliance: How to prioritize compliance efforts based on business size, risk exposure, and 
+        data sensitivity.
+
+        * Specific compliance challenges: Unique challenges businesses face with CMMC (defense contractors), HIPAA 
+        (healthcare), and NIST (varied industries).
+
+        * Building a customized compliance roadmap: How to design compliance strategies that fit your business’s 
+        specific needs and goals.
+
+        * Staying adaptable: How businesses can evolve their compliance approach as regulations change and as they grow.
+      bios:
+        - name: David Wolf, Vice President, CISO, CISSP
+          bio: >
+            As the Vice President, David Wolf is a technology visionary and serial entrepreneur with over 30 years of 
+            experience in the IT industry. David attended Rochester Institute of Technology and has a Master of Science 
+            from Roberts Wesleyan College. David has achieved the highest industry security certifications of CISSP 
+            (Certified Information Systems Security Professional), CEH (Certified Ethical Hacker), and CCISO (Certified 
+            Chief Information Security Officer). He enjoys using his technical expertise to help fellow business owners 
+            get the most out of their IT, making him both the business and technology expert Just Solutions’ loyal clients 
+            rely on.
+      length: 1
+    - title: "Navigating SEC Disclosure Rules: Building Defensible SOC & IR Processes"
+      presenter: Jason Hicks, Kudelski Security
+      url: /2024/day1/see-track-2#see2-s2
+      abstract: >
+        Delve into the latest SEC disclosure regulations and other critical rules impacting your organization’s 
+        cybersecurity strategy. Learn how to fine-tune your SOC and incident response (IR) processes to meet these new 
+        requirements, explore the steps for determining materiality in collaboration with key business units and the 
+        Board, and address crucial CYA (cover your assets) considerations. This session will equip attendees with 
+        strategies to build a defensible, compliant approach that ensures your organization is fully prepared and protected.
+      bios:
+        - name: Jason Hicks
+          bio: >
+            Jason Hicks is a veteran information security and risk management executive with CISO experience in the 
+            finance, retail, information security service provider, entertainment, manufacturing, and logistics verticals. 
+            Currently Mr. Hicks is responsible for Kudelski Security’s incident response consulting services. Prior to 
+            Kudelski Security, Mr. Hicks was President of Mountain Cyber LLC, and provided virtual CIO & CISO services 
+            to a variety of clients. Mr. Hicks also advised various private equity & venture capital organizations on 
+            technology and security investments. Prior to Mountain Cyber LLC, Mr. Hicks served as field chief information 
+            security officer at Coalfire Systems. Prior to Coalfire Systems, Mr. Hicks was the Global CISO for the 
+            Kudelski Group (SWX: KUD) and was responsible for the global security programs at five member companies. Mr. 
+            Hicks also provided Virtual CISO services to multiple, multi-billion-dollar organizations. Prior to Kudelski 
+            Group, Mr. Hicks served as global chief information security officer (CISO) at Ares Management LLP (NYSE: 
+            ARES), a multi-national alternative asset manager, with more than $370 billion in assets under management.
+
+
+            Mr. Hicks has extensive experience managing response activities for major cyber security incidents including 
+            data breach and ransomware/malware, including the initial response, public notification and remediation. He 
+            has extensive experience working with regulators and law enforcement on breach response.
+      length: 1
+    - title: "TBSecurity Frameworks and CyberSecurity Mesh ArchitectureA"
+      presenter: Mark Rosenecker, Fortinet
+      url: /2024/day1/see-track-2#see2-s3
+      abstract: >
+        Security Frameworks, such as NIST CSF, CIS CSC, and ISO 27001, can provide a pathway to better cybersecurity 
+        posture, but often times the myriad solutions implemented to fulfill security controls leave the SecOps team 
+        overwhelmed.  CyberSecurity Mesh Architectures, like the Fortinet Security Fabric, can help to solve this 
+        problem by providing out-of-box integration across solutions and a consistency of experience across products' 
+        GUI and CLI management interfaces.  Learn how an integrated approach, with the operations team in mind at the 
+        forefront, can help your organization achieve your compliance goals while keeping your SecOps team happy at 
+        the same time.
+      bios:
+        - name: Mark Rosenecker, Systems Engineer
+          bio: >
+            Mark Rosenecker/Fortinet Systems Engineer, has spent the past 30 years working in IT in a variety of roles 
+            and the last 10 years in CyberSecurity.  He holds certifications from several manufacturers, including HPE, 
+            Dell, VMware, F5, Aruba, McAfee, Cisco, Palo Alto Networks, and of course, Fortinet.  His broad experience 
+            with servers, storage, virtualization, networking, and security brings a unique perspective to his approach 
+            to CyberSecurity.  Mark’s over-arching philosophy with regards to design and architecture of any solution 
+            (but especially CyberSecurity) is KISS – Keep It Simple, Stupid!
+      length: 1
+    - title: "A Guide to Identifying the Cybersecurity Metrics that Actually Matter"
+      presenter: Jordan Farkas, Axonius
+      url: /2024/day1/see-track-2#see2-s4
+      abstract: >
+        When it comes to cybersecurity metrics, there’s a lot of elements to consider. What risks are most critical 
+        to your organization? Which business units are the most likely targets? Where does security sit in the list 
+        of business priorities? 
+
+        The real question is - where do you start? It all comes down to business context. Join Axonius for a roadmap 
+        on how to determine which cybersecurity metrics actually matter for your organization.  We’ll cover:
+
+
+        * The state of cybersecurity spend today (and what’s missing)
+
+        * How to showcase the value of cybersecurity spend 
+
+        * How to enhance your cybersecurity program 
+
+        * An introduction to measuring key metrics with Axonius
+      bios:
+        - name: Jordan Farkas, Senior Systems Engineer
+          bio: >
+            Jordan Farkas is a Senior Systems Engineer for Strategic Accounts at Axonius. Jordan has a vulnerability 
+            management background and is coming up on 4 years at Axonius, where he leads the Field Technical Advisory 
+            Group for the Axonius Platform. He is based out of New York City, eats too much sushi, and is a fan of the 
+            Mets, Knicks, and unfortunately the Giants.
+      length: 1
