@@ -9,6 +9,7 @@
             <li><a href="/schedule">Schedule</a></li>
             <li><a href="/speaking">Speaking</a></li>
             <li><a href="/sponsorship">Sponsorship</a></li>
+			<li><a href="/sponsors">Sponsors</a></li>
             <li><a href="/past-events">Past Events</a></li>
             <li><a href="/about-us">About Us</a></li>
             <li><a href="/contact">Contact</a></li>

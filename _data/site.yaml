@@ -1,7 +1,7 @@
 ---
 site_title: Rochester Security Summit
 #
-#baseurl: https://www.rochestersecurity.org
+baseurl: https://www.rochestersecurity.org
 #
 ## for testing
 # baseurl: http://localhost:8080
@@ -89,6 +89,9 @@ sponsorship_faq: false
 
 # sponsorship key dates
 sponsorship_applications_due: 2024-06-13
+
+# sponsors list
+sponsors_ready_to_display: true
 
 # speaking messaging
 speaking_next_year: false

@@ -25,6 +25,7 @@
                 <li><a href="{{ site.baseurl }}/schedule">Schedule</a></li>
                 <li><a href="{{ site.baseurl }}/speaking">Speaking</a></li>
                 <li><a href="{{ site.baseurl }}/sponsorship">Sponsorship</a></li>
+                <li><a href="{{ site.baseurl }}/sponsors">Sponsors</a></li>
                 <li><a href="{{ site.baseurl }}/past-events">Past Events</a></li>
                 <li><a href="{{ site.baseurl }}/about-us">About Us</a></li>
                 <li><a href="{{ site.baseurl }}/contact">Contact</a></li>
