@@ -376,7 +376,7 @@ sessions:
   sponsor1:
     - title: "Unlocking the Value of All Your IT & Security Data with Cribl"
       presenter: Eleane Ye, Cribl
-      url: /2024/day1/see-track-1#see1-s1
+      url: /2024/day1/see-track-1#sponsor1-s1
       abstract: >
         In today's data-driven world, organizations are inundated with vast amounts of IT and security data, 
         making it difficult to extract meaningful insights and drive business value. In this session, we will 
@@ -391,7 +391,7 @@ sessions:
       length: 1
     - title: "Reshaping The Enterprise Security Landscape:  The Modern Design"
       presenter: Jason Trunk, Island
-      url: /2024/day1/see-track-1#see1-s2
+      url: /2024/day1/see-track-1#sponsor1-s2
       abstract: >
         IT professionals and cybersecurity practitioners face immense challenges adapting to shifts in the 
         desired work models employed by users and their organizations. According to recent Gartner®&rreg; 
@@ -421,7 +421,7 @@ sessions:
       length: 1
     - title: "XDR in Action: The Blueprint for Holistic Visibility and Automated Response"
       presenter: Ben Wilcox and Michael Wurz, ProArch
-      url: /2024/day1/see-track-1#see1-s3
+      url: /2024/day1/see-track-1#sponsor1-s3
       abstract: >
         Traditional security information and event management (SIEM) solutions can’t detect cyberattacks that span 
         multiple security layers, making them difficult to resolve.
@@ -450,7 +450,7 @@ sessions:
       length: 1
     - title: "Implications of AI in a modern defense strategy"
       presenter: Chas Clawson, Sumo Logic
-      url: /2024/day1/see-track-1#see1-s4
+      url: /2024/day1/see-track-1#sponsor1-s4
       length: 1
       abstract: >
         In today's rapidly evolving landscape of cybersecurity, the integration of artificial intelligence (AI) presents 
@@ -462,7 +462,7 @@ sessions:
   sponsor2:
     - title: "Navigating the Path to Compliance: CMMC, NIST, HIPAA, and Other Industry-Specific Standards"
       presenter: David Wolf, Just Solutions
-      url: /2024/day1/see-track-2#see2-s1
+      url: /2024/day1/see-track-2#sponsor2-s1
       abstract: >
         * Understanding the differences: A breakdown of CMMC, NIST, HIPAA, and other key compliance frameworks.
 
@@ -492,7 +492,7 @@ sessions:
       length: 1
     - title: "Navigating SEC Disclosure Rules: Building Defensible SOC & IR Processes"
       presenter: Jason Hicks, Kudelski Security
-      url: /2024/day1/see-track-2#see2-s2
+      url: /2024/day1/see-track-2#sponsor2-s2
       abstract: >
         Delve into the latest SEC disclosure regulations and other critical rules impacting your organization’s 
         cybersecurity strategy. Learn how to fine-tune your SOC and incident response (IR) processes to meet these new 
@@ -521,7 +521,7 @@ sessions:
       length: 1
     - title: "TBSecurity Frameworks and CyberSecurity Mesh ArchitectureA"
       presenter: Mark Rosenecker, Fortinet
-      url: /2024/day1/see-track-2#see2-s3
+      url: /2024/day1/see-track-2#sponsor2-s3
       abstract: >
         Security Frameworks, such as NIST CSF, CIS CSC, and ISO 27001, can provide a pathway to better cybersecurity 
         posture, but often times the myriad solutions implemented to fulfill security controls leave the SecOps team 
@@ -542,7 +542,7 @@ sessions:
       length: 1
     - title: "A Guide to Identifying the Cybersecurity Metrics that Actually Matter"
       presenter: Jordan Farkas, Axonius
-      url: /2024/day1/see-track-2#see2-s4
+      url: /2024/day1/see-track-2#sponsor2-s4
       abstract: >
         When it comes to cybersecurity metrics, there’s a lot of elements to consider. What risks are most critical 
         to your organization? Which business units are the most likely targets? Where does security sit in the list 
