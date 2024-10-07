@@ -473,9 +473,31 @@ sessions:
       length: 1
     - empty: true
   sponsor2:
-    - title: "TBA"
-      presenter: Palo Alto Networks
+    - title: "Precision in the Cloud: Harnessing Cortex XSIAM and Prisma Cloud for AI-Driven"
+      presenter: Henry Reed, Palo Alto Networks
       url: /2024/day2/see-track-2#sponsor2-s1
+      abstract: >
+        Join our discussion to explore how modern cloud security demands are being met through the 
+        combined power of Precision AI and cloud platformization. You will learn how Palo Alto Networks' 
+        ortex XSIAM leverages AI-driven insights to deliver more accurate, real-time threat detection 
+        and automated response, significantly reducing false positives and enhancing operational 
+        efficiency. We’ll also cover how Prisma Cloud extends this protection across the entire 
+        cloud-native stack, providing comprehensive security for workloads, containers, and applications. 
+        Integrating these capabilities into a unified platform allows security teams to streamline 
+        workflows, improve visibility, and dramatically accelerate Mean Time to Identify (MTTI) and Mean 
+        Time to Respond (MTTR) for threats across cloud environments. Through real-world examples and 
+        live demonstrations, we will showcase how these technologies enable organizations to respond 
+        faster, secure their cloud-native infrastructure with greater precision, and reduce complexity—all 
+        while adapting to the rapidly evolving cloud security landscape.
+      bios:
+        - name: Henry Reed, Domain Consultant
+          bio: >
+            Henry Reed is a domain consultant specializing in security operations, focusing on Cortex 
+            XSIAM and cloud detection and response. Before his current role, Henry was a cloud architect on 
+            the Prisma Cloud team, delivering advanced cloud security solutions to enterprise clients 
+            across Chicago, Milwaukee, and Minneapolis. Based in Carmel, Indiana, Henry has played a key 
+            role in shaping and communicating Palo Alto Networks’ cloud platformization strategy through 
+            close collaboration with the product teams.
       length: 1
     - title: "Check your cyber ego at the door:  Striking the vital balance between confidence and arrogance"
       presenter: Atlantic Data Security
