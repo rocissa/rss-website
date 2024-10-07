@@ -310,7 +310,7 @@ sessions:
             cryptography led to joint projects with Computer Engineering Department.
       length: 1
     - title: "Streamlined SIEM Migration and Daily Cost Optimization"
-      presenter: Joe Cicero
+      presenter: Joe Cicero and Mike Pinch
       url: /2024/day1/track-3#track3-s2
       abstract: >
         Migrating from a legacy SIEM can be complex and costly. In this 20-minute session, Joe Cicero 
@@ -330,6 +330,18 @@ sessions:
             firms on cybersecurity trends to active incidents. Joe is renowned for "having his customers' 
             back." His extensive experience, combined with a deep commitment to customer support, positions 
             him as a crucial asset to SRA's managed security services.
+        - name: Mike Pinch
+          bio: >
+            Mike joined Security Risk Advisors in 2018 after serving 6 years as the Chief Information 
+            Security Officer at the University of Rochester Medical Center. Mike is nationally 
+            recognized as a leader in the field of cybersecurity, has spoken at conferences including 
+            HITRUST, H-ISAC, RSS, and has contributed to national standards for health care and public 
+            health sector cybersecurity frameworks. Mike has built and operated enterprise public cloud 
+            environments for over a decade, with primary focus on AWS and Azure environments. He 
+            frequently advises clients in helping to adapt their cybersecurity programs to the new 
+            challenges that cloud adoption creates. Mike focuses on security architecture and strategy, 
+            Zero Trust design, cloud security, emerging technologies, and electronic medical record 
+            protection programs.
       length: 1
     - title: "Building a Sawmill: Processing Logs With Security Onion"
       presenter: Matthew Gracie
