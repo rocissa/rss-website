@@ -62,7 +62,7 @@ sessions:
             encompass cybersecurity, threat analysis, and secure software development practices. 
       length: 1
     - title: "Gone Phishing: Phishing in the Cyber Criminal Ecosystem"
-      presenter: Jordan Slavik
+      presenter: Ryan Rogers
       url: /2024/day2/track-1#track1-s2
       abstract: >
         The presentation walks through the development of how phishing attacks have been used in the 
@@ -70,16 +70,9 @@ sessions:
         how phishing kits are compromised and used as well as how they have been developed to account 
         for a variety of variables such as MFA, ameuture cyber actors, and AI technology.
       bios:
-        - name: Jordan Slavik
+        - name: Ryan Rogers
           bio: >
-            Special Agent Jordan F. Slavik has been with the Federal Bureau of Investigation since 
-            2019, working on the Buffalo Cyber Task Force. Jordan sits in the FBI’s Rochester office, 
-            where he specializes in phishing and cyber intrusion cases. His experience includes 
-            sophisticated business and university intrusions, phishing kit developers, nefarious 
-            online marketplaces, online sexual extortions, business email compromises, and 
-            cryptocurrency investigations. Before joining the FBI, Jordan was a professor at the 
-            University of Maryland, where he received his Masters and PhD. Jordan has enjoyed his time 
-            in the Rochester area with his wife and four children since 2020.
+            
       length: 1
     - title: "Dumpster Fires: 6 things about IR I learned by being a firefighter"
       presenter: Dr. Catherine J. Ullman
@@ -480,9 +473,31 @@ sessions:
       length: 1
     - empty: true
   sponsor2:
-    - title: "TBA"
-      presenter: Palo Alto Networks
+    - title: "Precision in the Cloud: Harnessing Cortex XSIAM and Prisma Cloud for AI-Driven"
+      presenter: Henry Reed, Palo Alto Networks
       url: /2024/day2/see-track-2#sponsor2-s1
+      abstract: >
+        Join our discussion to explore how modern cloud security demands are being met through the 
+        combined power of Precision AI and cloud platformization. You will learn how Palo Alto Networks' 
+        ortex XSIAM leverages AI-driven insights to deliver more accurate, real-time threat detection 
+        and automated response, significantly reducing false positives and enhancing operational 
+        efficiency. We’ll also cover how Prisma Cloud extends this protection across the entire 
+        cloud-native stack, providing comprehensive security for workloads, containers, and applications. 
+        Integrating these capabilities into a unified platform allows security teams to streamline 
+        workflows, improve visibility, and dramatically accelerate Mean Time to Identify (MTTI) and Mean 
+        Time to Respond (MTTR) for threats across cloud environments. Through real-world examples and 
+        live demonstrations, we will showcase how these technologies enable organizations to respond 
+        faster, secure their cloud-native infrastructure with greater precision, and reduce complexity—all 
+        while adapting to the rapidly evolving cloud security landscape.
+      bios:
+        - name: Henry Reed, Domain Consultant
+          bio: >
+            Henry Reed is a domain consultant specializing in security operations, focusing on Cortex 
+            XSIAM and cloud detection and response. Before his current role, Henry was a cloud architect on 
+            the Prisma Cloud team, delivering advanced cloud security solutions to enterprise clients 
+            across Chicago, Milwaukee, and Minneapolis. Based in Carmel, Indiana, Henry has played a key 
+            role in shaping and communicating Palo Alto Networks’ cloud platformization strategy through 
+            close collaboration with the product teams.
       length: 1
     - title: "Check your cyber ego at the door:  Striking the vital balance between confidence and arrogance"
       presenter: Atlantic Data Security
