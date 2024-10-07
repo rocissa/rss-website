@@ -372,6 +372,9 @@ section#slider {
 	text-transform: uppercase;
 	margin: 4rem 0 1.5rem 0;
 	font-weight: bold !important;
+	text-align: center;
+	background-color: sandybrown;
+	width: 100%;
 }
 
 .sponsor {
@@ -380,7 +383,8 @@ section#slider {
 	margin: 0 auto;
 	text-align: center;
 	display: inline-block;
-	max-width: 100%;
+	max-width: 80%;
+	font-size: 8px;
 }
 
 .sponsor img {
@@ -389,8 +393,8 @@ section#slider {
 }
 
 .sponsor-grid {
-	margin: 2rem 1rem;
-	text-align: left;
+	margin: 10px 5px;
+	text-align: center;
 	height: 50%;
 	width: 50%;
 	background-color: lightyellow;
@@ -399,51 +403,80 @@ section#slider {
 	outline: 2px solid #dcdcdc;
 }
 
+.sponsor-grid img {
+	height: 100%;
+	max-width: 100%;
+	text-align: center;
+}
+
 .sponsor-diamond {
 	width: 100%;
+	background-color: cyan;
 }
 
 .sponsor-platinum {
-	width: 300px;
+	height: 50%;
+	width: 350px;
+	background-color: gainsboro;
 }
 
-.sponsor-gold, .sponsor-in-kind, .sponsor-partners {
+.sponsor-gold {
+	height: 70%;
 	width: 250px;
+	background-color: gold;
 }
 
 .sponsor-silver {
+	height: 60%;
 	width: 200px;
+	background-color: lightgray;
 }
 
 .sponsor-bronze {
+	height: 50%;
 	width: 150px;
+	background-color: khaki;
+}
+
+.sponsor-in-kind, .sponsor-partners {
+	height: 50%;
+	width: 250px;
+	background-color: lightcyan;
+}
+
+.sponsor-talk {
+	margin: 2rem 1rem;
+	text-align: left;
+	padding: 10px;
+	font-size: 9px;
 }
 
 /* Tooltip container */
-.tooltip {
-	position: relative;
-	display: inline-block;
-	border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+.mytooltip {
+  position: relative;
+  display: inline-block;
+  visibility: visible;
 }
 
-/* Tooltip text */
-.tooltip .tooltiptext {
-	visibility: hidden;
-	top: -5px;
-	left: 110%;
-	z-index: 1;
-	position: absolute;
-	width: 120px;
-	background-color: khaki;
-	color: black;
-	text-align: center;
-	padding: 5px 0;
-	border-radius: 6px;
+.mytooltiptext {
+  visibility: hidden;
+  width: 300px;
+  background-color: khaki;
+  color: black;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  font-size: 12px;
+  
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: -5px;
+  left: 105%;
 }
 
-/* Show the tooltip text when you mouse over the tooltip container */
-.tooltip:hover .tooltiptext {
-	visibility: visible;
+.mytooltip:hover .mytooltiptext {
+  visibility: visible;
 }
 
 #sponsorship-pricing:hover, #sponsorship-pricing:focus {

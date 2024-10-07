@@ -1,0 +1,99 @@
+---
+-
+    Name: Atlantic Data Security
+    Title: Check your cyber ego at the door - Striking the vital balance between confidence and arrogance
+    Abstract: "Even setting foot on a field of battle, whether for team sports or military purposes, requires extreme self-confidence.  If you don't believe you can win, you very likely won't.  In the war against cyber crime, however, it's important to balance that confidence with the understanding that this is also a team sport - and that none of us can win alone.  Join us for a discussion on navigating the line between confidence and arrogance - and knowing when and how to seek and accept help from others."
+    Timeslot: Day 2 at 11am
+    Room: CD
+    URL: /2024/day2/see-track-2#sponsor2-s2
+-
+    Name: Axonius
+    Title: A Guide to Identifying the Cybersecurity Metrics that Actually Matter
+    Abstract: "When it comes to cybersecurity metrics, there's a lot of elements to consider. What risks are most critical to your organization? Which business units are the most likely targets? Where does security sit in the list of business priorities? \n\nThe real question is - where do you start? It all comes down to business context. Join Axonius for a roadmap on how to determine which cybersecurity metrics actually matter for your organization.  We'll cover:\n- The state of cybersecurity spend today (and what's missing)\n- How to showcase the value of cybersecurity spend \n- How to enhance your cybersecurity program \n- An introduction to measuring key metrics with Axonius "
+    Timeslot: Day 1 at 2pm
+    Room: CD
+    URL: /2024/day1/see-track-2#sponsor2-s4
+-
+    Name: Cribl
+    Title: Unlocking the Value of All Your IT & Security Data with Cribl
+    Abstract: "In today's data-driven world, organizations are inundated with vast amounts of IT and security data, making it difficult to extract meaningful insights and drive business value. In this session, we will explore how Cribl's innovative data management platform empowers organizations to unlock the full potential of their IT and security data. By providing unparalleled control over data collection, routing, and enrichment, Cribl enables teams to streamline operations, enhance security monitoring, and optimize data storage costs - all without compromising visibility or compliance. Discover how Cribl transforms raw data into actionable intelligence, helping organizations make better, faster, and more informed decisions."
+    Timeslot: Day 1 at 10am
+    Room: AB
+    URL: /2024/day1/see-track-1#sponsor1-s1
+-
+    Name: ePlus Technology inc.
+    Title: Why Wait? Achieve workload segmentation now and prepare for the future with Cisco's Secure Workload and Hypershield.
+    Abstract: "For over 30 years, CISA has recommended segmentation as a top priority. It makes sense - compromises will happen, and reducing exposure is essential to protecting our data and preserving our reputation. Putting it into practice - especially in complex multi-cloud environments - is difficult and fraught with challenges. Join ePlus and Cisco to learn how Cisco Secure Workload can see what is truly happening in your environments, and quickly turn that into a dynamic and responsive segmentation approach - today.  We'll show how tomorrow's approach (Cisco Hypershield) promises to bring even more capability and offers a bright and investment-protected future."
+    Timeslot: Day 2 at 11am
+    Room: AB
+    URL: 
+-
+    Name: Fortinet
+    Title: Security Frameworks and CyberSecurity Mesh Architecture
+    Abstract: "Security Frameworks, such as NIST CSF, CIS CSC, and ISO 27001, can provide a pathway to better cybersecurity posture, but often times the myriad solutions implemented to fulfill security controls leave the SecOps team overwhelmed.  CyberSecurity Mesh Architectures, like the Fortinet Security Fabric, can help to solve this problem by providing out-of-box integration across solutions and a consistency of experience across products' GUI and CLI management interfaces.  Learn how an integrated approach, with the operations team in mind at the forefront, can help your organization achieve your compliance goals while keeping your SecOps team happy at the same time."
+    Timeslot: Day 1 at 1pm
+    Room: CD
+    URL: 
+-
+    Name: Island
+    Title: Reshaping The Enterprise Security Landscape - The Modern Design
+    Abstract: "IT professionals and cybersecurity practitioners face immense challenges adapting to shifts in the desired work models employed by users and their organizations. According to recent Gartners' research*, 'Enterprise browsers will evolve to become the core platform for almost all of the day-to-day enterprise productivity and security software used by the workforce.' Traditional architectural approaches are quite limited in such areas as BYOD programs, contractor/third-party provisioning, hybrid work, and modernization efforts. What if solutions to many of these difficult challenges could be solved by reimagining the browser as a core component of enterprise architecture?\n\nIn this session, Island will provide examples on how this new category and technology:\n-Revolutionizes your organization, enabling you to address modern work challenges while unlocking new opportunities.\n-Streamlines BYOD, contractor/third-party, and hybrid work initiatives with innovative architectural approaches\n-Implements novel security measures to safeguard organizational applications and data"
+    Timeslot: Day 1 at 11am
+    Room: AB
+    URL: /2024/day1/see-track-1#sponsor1-s2
+-
+    Name: Island
+    Title: Island Q&A Session
+    Abstract: Q&A Session with Island
+    Timeslot: Day 2 at 2pm
+    Room: AB
+    URL: /2024/day2/see-track-1#sponsor1-s4
+-
+    Name: Just Solutions, Inc.
+    Title: Navigating the Path to Compliance - CMMC, NIST, HIPAA, and Other Industry-Specific Standards
+    Abstract: "- Understanding the differences: A breakdown of CMMC, NIST, HIPAA, and other key compliance frameworks.\n- Which compliance applies to your business?: Helping businesses identify which standards they need to adhere to based on their industry and operations.\n- Risk-based compliance: How to prioritize compliance efforts based on business size, risk exposure, and data sensitivity.\n- Specific compliance challenges: Unique challenges businesses face with CMMC (defense contractors), HIPAA (healthcare), and NIST (varied industries).\n- Building a customized compliance roadmap: How to design compliance strategies that fit your business's specific needs and goals.\n- Staying adaptable: How businesses can evolve their compliance approach as regulations change and as they grow."
+    Timeslot: Day 1 at 10am
+    Room: CD
+    URL: /2024/day1/see-track-2#sponsor2-s1
+-
+    Name: Kudelski Security
+    Title: Navigating SEC Disclosure Rules - Building Defensible SOC & IR Processes
+    Abstract: "Delve into the latest SEC disclosure regulations and other critical rules impacting your organization's cybersecurity strategy. Learn how to fine-tune your SOC and incident response (IR) processes to meet these new requirements, explore the steps for determining materiality in collaboration with key business units and the Board, and address crucial CYA (cover your assets) considerations. This session will equip attendees with strategies to build a defensible, compliant approach that ensures your organization is fully prepared and protected."
+    Timeslot: Day 1 at 11am
+    Room: CD
+    URL: /2024/day1/see-track-2#sponsor2-s2
+-
+    Name: Palo Alto Networks 
+    Title: TBA
+    Abstract: TBA
+    Timeslot: Day 2 at 10am
+    Room: CD
+    URL: /2024/day2/see-track-2#sponsor2-s1
+-
+    Name: ProArch
+    Title: XDR in Action - The Blueprint for Holistic Visibility and Automated Response
+    Abstract: "Traditional security information and event management (SIEM) solutions can't detect cyberattacks that span multiple security layers, making them difficult to resolve.\nExtended Detection and Response (XDR) is the natural evolution from EDR to expand coverage and protect against sophisticated attackers. This session covers how XDR provides security teams greater visibility so informed decisions on where to invest time and resources can be made.\nLearn how XDR's use of APIs, AI, and ML for automatic threat investigation and correlation differs from traditional SIEM systems. See a demo showcasing how ProArch's SOC leverages Microsoft Defender XDR for automatic resolution and cross-product threat hunting. Attendees will receive three Microsoft Defender threat hunting queries!"
+    Timeslot: Day 1 at 1pm
+    Room: AB
+    URL: /2024/day1/see-track-1#sponsor1-s3
+-
+    Name: Semperis
+    Title: Top Tips for Active Directory Defense
+    Abstract: "If your identity infrastructure is down, so is your business. That's why attackers regularly target Microsoft Active Directory (AD) and Entra ID. Gaining control of these identity systems can give threat actors near-total control of all your systems, access to sensitive data, and the means to devastate your business. The ability to defend and recover your hybrid AD environment is key to operational resilience.\n\nJoin Eric Woodruff (Senior Security Researcher, Semperis) to learn:\n'    Why AD and Entra ID security is vital for reliable business operations\n'    How to improve identity security without breaking the bank\n'    How to survive an attack on your identity infrastructure"
+    Timeslot: Day 2 at 10am
+    Room: AB
+    URL: /2024/day2/see-track-1#sponsor1-s1
+-
+    Name: Sumo Logic 
+    Title: Implications of AI in a modern defense strategy
+    Abstract: "In today's rapidly evolving landscape of cybersecurity, the integration of artificial intelligence (AI) presents both unprecedented opportunities and complex challenges. Learn about the latest weaponization techniques adversaries are using with generative AI and understand the implications of AI in modern defense strategies for organizations seeking to safeguard their digital assets against these emerging threats."
+    Timeslot: Day 1 at 2pm
+    Room: AB
+    URL: /2024/day1/see-track-1#sponsor1-s4
+-
+    Name: Trend Micro
+    Title: TBA
+    Abstract: TBA
+    Timeslot: Day 2 at 1pm
+    Room: AB
+    URL: /2024/day2/see-track-1#sponsor1-s3
