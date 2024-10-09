@@ -112,7 +112,7 @@ speaking_materials_due: 2024-09-08
 speaking_presentation_due: 2024-09-25
 
 schedule_not_yet_available: false
-schedule_tentative: true
+schedule_tentative: false
 schedule_available: true
 
 # Google form URLs and contact emails
