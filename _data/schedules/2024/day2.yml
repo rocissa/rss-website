@@ -463,9 +463,20 @@ sessions:
             Jonathan has participated in and presented at many educational events both locally and nationally, providing 
             him with a greater understanding of security trends from a perspective.
       length: 1
-    - title: "TBA"
-      presenter: Trend Micro
+    - title: "Modern, Proactive Security Strategies for IT Operations"
+      presenter: Daniel Brady, Trend Micro
       url: /2024/day2/see-track-1#sponsor1-s3
+      abstract: >
+        Exploring modern strategies to optimize your daily IT Operations for security. We'll be examining 
+        practical and effective tools, metrics, and benchmarks that can benefit organizations of any size. 
+        From asset & data discovery to vulnerability management and configuration control, participants 
+        will leave with actionable strategies to improve their organization's attack surface
+        risk management.
+      bios:
+        - name: Daniel Brady
+          bio: >
+            Daniel Brady is a senior solutions engineer and technical resource specializing in Trend 
+            Micro’s Vision One platform.
       length: 1
     - title: "Island Q&amp;A Session"
       presenter: Island

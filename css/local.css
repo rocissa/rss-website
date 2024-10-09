@@ -656,6 +656,10 @@ ul.social > li {
     display: none;
   }
 
+  .schedule .sponsor {
+  	max-width: 100%;
+  }
+
   .schedule .session > .title {
   	font-weight: normal;
   	padding-bottom: 5px;
