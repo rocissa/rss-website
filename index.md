@@ -14,6 +14,24 @@ layout: page
   </div>
 </section>
 <hr>
+{%- if site.homepage_show_day_of_event -%}
+<section id="day-of-event">
+	<div class="row">
+		<div class="col-md-12">
+			<h1>Welcome to RSS:2024</h1>
+			<p class="text-center">Here's some important information to help you get the most out of the conference:</p>
+		</div>
+		<div class="col-md-6">
+			<div class="mt-5 text-center"><a class="btn btn-primary btn-lg" href="/schedule">Conference Schedule</a><br>
+				<a class="btn btn-primary btn-lg" href="/survey">Session &amp; Conference Surveys</a></div>
+		</div>
+		<div class="col-md-6">
+			<div class="mt-5 text-center"><a class="btn btn-primary btn-lg" href="/sponsors">Sponsor Information</a><br>
+				<a class="btn btn-primary btn-lg" href="/2024/conference-maps">Conference Maps</a></div>
+		</div>
+	</div>
+</section>
+{%- endif %}
 {%- if site.homepage_show_keynotes -%}
 <section id="keynotes" class="keynotes">
     {%- assign currentKeynotes = collections.keynotes | where: "data.year", site.current_year | sort: "data.weight" -%}
@@ -75,12 +93,12 @@ layout: page
 	</div>
 	{%- else -%}
 	<div>
-		<div class="page-div">
+		<!-- <div class="page-div">
 			<h1 class="text-center">We look forward to seeing you at RSS:{{ site.current_year }}</h1> 
 			<h2 class="text-center">{% daterange site.conference_start_date, site.conference_end_date %}</h2><br>
 			<p><b>Joseph A. Floreano Rochester Riverside Convention Center</b></p>
 			<p><b>Rochester, NY</b></p>
-		</div>
+		</div> -->
 		{%- if site.registration_enabled == true -%}
 		<hr>
 		<div id="tickets" class="tickets">
