@@ -47,6 +47,15 @@ layout: page
   
 * RSS:{{ site.current_year }} takes place on {% daterange site.conference_start_date, site.conference_end_date %}
 {% endif %}
+{% if site.sponsorship_sold_out == true %}
+<div class="attention">
+<h2 class="text-center">Sponsorship for RSS:{{ site.current_year }} has sold out.</h2>
+</div>
+
+> If you would like to be contacted about future opportunities, please register your email address below. Thank you for your interest.
+
+<div class="text-center"><a class="btn btn-primary btn-lg" href="/sponsor-mailing-list" target="_blank">Join Our Sponsorship Mailing List</a></div>
+{% endif %}
 {% if site.sponsorship_waiting_list == true %}
 <hr>
 <div class="attention">
@@ -86,11 +95,6 @@ layout: page
 >
 > Thank you for considering sponsoring the Rochester Security Summit. We appreciate your interest and support in making our event a success.
 
-{% endif %}
-{% if site.sponsorship_sold_out == true %}
-<h2 class="text-center">Sponsorship for RSS:{{ site.current_year }} has sold out.</h2>
-
-<p class="text-center mt-5 mb-5"><strong>If you would like to be contacted about future opportunities, please register your email address below. Thank you for your interest.</strong></p>
 {% endif %}
 {% if site.sponsorship_sponsor_information == true %}
 
@@ -159,7 +163,6 @@ layout: page
 <hr />
 
 **Have a sponsorship question? Please contact us at <{{ site.sponsorship_contact_email }}>**
-<div class="text-center"><a class="btn btn-primary btn-lg" href="/sponsor-mailing-list" target="_blank">Join Our Sponsorship Mailing List</a></div>
 
 </div>
 
