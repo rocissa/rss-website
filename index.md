@@ -32,6 +32,23 @@ layout: page
 	</div>
 </section>
 {%- endif %}
+{%- if site.registration_event_concluded -%}
+<section id="event-concluded">
+	<div>
+		<h1 class="text-center">RSS:{{ site.current_year }} Has Concluded</h1>
+		<p class="upcoming-dates text-center">We look forward to seeing you at RSS:{{ site.next_year }}{% if site.next_year_start_date %}, {% daterange site.next_year_start_date, site.next_year_end_date %}{% endif %}.</p>
+		{%- if site.event_concluded_show_slides_link -%}
+		<p class="text-center mt-5 mb-5"><a class="btn btn-lg btn-primary pt-5 pb-5" href="/{{ site.current_year }}/slides-videos/">RSS:{{ site.current_year }} Presentation Slides & Videos</a></p>
+		{%- else -%}
+		<p class="text-center mt-5 mb-5">Presention slides and videos will be posted soon.</p>
+		{%- endif -%}
+
+		{%- if site.event_concluded_show_conf_survey_link -%}
+		<p class="text-center mt-5 mb-5"><a class="btn btn-lg btn-primary pt-5 pb-5" href="{{ site.conf_survey_link_url }}">RSS:{{ site.current_year }} Conference Survey</a></p>
+		{%- endif -%}
+	</div>
+</section>
+{%- endif -%}
 {%- if site.homepage_show_keynotes -%}
 <section id="keynotes" class="keynotes">
     {%- assign currentKeynotes = collections.keynotes | where: "data.year", site.current_year | sort: "data.weight" -%}
@@ -87,10 +104,10 @@ layout: page
 <section id="conference" class="conference">
 	{%- if site.registration_event_concluded -%}
 	<div>
-		<h1 class="text-center">RSS:{{ site.current_year }} Has Concluded</h1>
+		<!--<h1 class="text-center">RSS:{{ site.current_year }} Has Concluded</h1>
 		<p class="upcoming-dates text-center">We look forward to seeing you at RSS:{{ site.next_year }}{% if site.next_year_start_date %}, {% daterange site.next_year_start_date, site.next_year_end_date %}{% endif %}.</p>
 		<p class="text-center mt-5 mb-5"><a class="btn btn-lg btn-primary pt-5 pb-5" href="/{{ site.current_year }}/slides-videos/">RSS:{{ site.current_year }} Presentation Slides & Videos</a></p>
-	</div>
+	</div> -->
 	{%- else -%}
 	<div>
 		<!-- <div class="page-div">
@@ -100,7 +117,7 @@ layout: page
 			<p><b>Rochester, NY</b></p>
 		</div> -->
 		{%- if site.registration_enabled == true -%}
-		<hr>
+		<hr>x
 		<div id="tickets" class="tickets">
 			<h1 class="tickets">TICKETS</h1>
 			<ul class="ticket-options">

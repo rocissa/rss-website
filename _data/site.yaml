@@ -18,8 +18,8 @@ next_year: 2025
 # conference dates
 conference_start_date: 2024-10-09
 conference_end_date: 2024-10-10
-next_year_start_date: 2024-10-09
-next_year_end_date: 2024-10-10
+next_year_start_date: 2025-10-08
+next_year_end_date: 2025-10-09
 
 # which year's sponsors should be shown on the homepage
 # allows for previous year's to show until the current year's list is ready
@@ -27,7 +27,7 @@ homepage_sponsors_show_current_year: true
 homepage_sponsors_show_previous_year: false
 
 # should the pre-conference "coming soon" message be shown on the homepage?
-homepage_conference_announcement: false
+homepage_conference_announcement: true
 
 # should the venue info be displayed on the homepage?
 homepage_show_venue: true
@@ -48,16 +48,16 @@ app_android_url: https://play.google.com/store/apps/details?id=com.guidebook.app
 app_web_url: https://guidebook.com/g/rochestersecuritysummit2024/
 
 # should day-of-event content show on the homepage?
-homepage_show_day_of_event: true
+homepage_show_day_of_event: false
 
-homepage_show_post_conference_info: false
-homepage_show_call_for_volunteers: true
+homepage_show_post_conference_info: true
+homepage_show_call_for_volunteers: false
 homepage_show_schedule_link: false
-homepage_show_ticket_retrieval: true
+homepage_show_ticket_retrieval: false
 
 # should registration info be displayed on the homepage?
 registration_not_yet_open: false
-registration_enabled: true
+registration_enabled: false
 registration_early_bird: false
 registration_early_bird_cost: $180
 registration_early_bird_end_date: 2024-07-22
@@ -75,16 +75,21 @@ registration_late_one_day: true
 registration_late_one_day_cost: $245
 registration_late_one_day_end_date: 2024-10-10
 registration_sold_out: false
-registration_event_concluded: false
+registration_event_concluded: true
+
+# event concluded options
+event_concluded_show_slides_link: false
+event_concluded_show_conf_survey_link: true
+conf_survey_link_url: https://docs.google.com/forms/d/e/1FAIpQLSdPumjNZn5fCKqRgYYITurEfrzrlPuHBLiS7xH1fEyybV7Qpw/viewform?usp=sf_link
 
 # sponsorship messaging
 sponsorship_show_w9_link: false
-sponsorship_next_year: false
+sponsorship_next_year: true
 sponsorship_not_yet_open: false
 sponsorship_coming_soon: false
 sponsorship_open: false
 sponsorship_waiting_list: false  # sold out, but accepting to waiting list
-sponsorship_sold_out: true
+sponsorship_sold_out: false
 sponsorship_pricing: true
 sponsorship_sponsor_information: false
 sponsorship_attendee_profile: true

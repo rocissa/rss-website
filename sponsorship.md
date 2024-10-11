@@ -2,9 +2,6 @@
 title: Sponsorship Information
 layout: page
 ---
-
----
-
 <div class="mt-5 mb-5 text-center">
 {% if site.sponsorship_show_w9_link == true %}
 <a class="btn btn-lg btn-primary" href="/files/w9.pdf">W-9 (PDF)</a>
@@ -12,6 +9,8 @@ layout: page
 
 {% if site.sponsorship_next_year == true %}
 <h2 class="text-center">Sponsorship information for RSS:{{ site.next_year }} will be available this spring</h2>
+<div><a class="btn btn-primary btn-lg" href="/sponsor-mailing-list" target="_blank">Join Our Sponsorship Mailing List</a></div>
+
 {% endif %}
 
 {% if site.sponsorship_not_yet_open == true %}
