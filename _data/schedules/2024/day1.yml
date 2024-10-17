@@ -92,6 +92,10 @@ sessions:
 
 
             For more info about Duncan, see https://www.linkedin.com/in/sfractal/
+      links:
+        - title: Presentation Slides
+          url: /2024/files/Sparrell-SaveTimeMoneyAutomatingWithStandards.pdf
+          icon: "fa-solid fa-presentation-screen"
       length: 1
     - title: "Harnessing AI for Advanced Network Security: From Attacks on Privacy to Defensive Innovations"
       presenter: Nate Mathews and Matthew Wright
@@ -168,6 +172,10 @@ sessions:
             - Avid player of poker... Orioles and Cubs fan... enthusiastic-if-slow rider of a Trek.
             
             - about.me or wheretofind.me
+      links:
+        - title: Presentation Slides
+          url: /2024/files/Frier-ITVM-Final.pdf
+          icon: "fa-solid fa-presentation-screen"
       length: 1
     - title: "Real Risk in Today’s World…Dark Web Data Leaks"
       presenter: Bruce Cheney
@@ -247,7 +255,11 @@ sessions:
             speaker and practitioner in the fields of complex data protection and governance, and has 
             published extensively in the U.S. and U.K on these issues.  He is also a Distinguished 
             Fellow of the Ponemon Institute, the pre-eminent research center dedicated to privacy, data 
-            protection and information security policy.  
+            protection and information security policy.
+      links:
+        - title: Presentation Slides
+          url: /2024/files/Greene-Govern-Once-Comply-Many-FINAL.pdf
+          icon: "fa-solid fa-presentation-screen"
       length: 1
   track3:
     - title: "Towards a Quantum-Resistant Future: Experiences in Post-Quantum Cryptography Education"
@@ -330,6 +342,7 @@ sessions:
             firms on cybersecurity trends to active incidents. Joe is renowned for "having his customers' 
             back." His extensive experience, combined with a deep commitment to customer support, positions 
             him as a crucial asset to SRA's managed security services.
+
         - name: Mike Pinch
           bio: >
             Mike joined Security Risk Advisors in 2018 after serving 6 years as the Chief Information 
@@ -342,6 +355,10 @@ sessions:
             challenges that cloud adoption creates. Mike focuses on security architecture and strategy, 
             Zero Trust design, cloud security, emerging technologies, and electronic medical record 
             protection programs.
+      links:
+        - title: Presentation Slides
+          url: /2024/files/Cicero-Streamlined-SIEM-Migration-and-Daily-Cost-Optimization_Revised100724.pdf
+          icon: "fa-solid fa-presentation-screen"
       length: 1
     - title: "Building a Sawmill: Processing Logs With Security Onion"
       presenter: Matthew Gracie
@@ -384,6 +401,10 @@ sessions:
             training and awareness programs, where he emphasizes the integration of innovative strategies to 
             enhance learning and engagement. His work is focused on clarifying complex security concepts, 
             making them both accessible and actionable for a wide range of audiences.
+      links:
+        - title: Presentation Slides
+          url: /2024/files/Meyer-Crosby-Level-Up-Your-Security-The-Power-of-Gamification.pdf
+          icon: "fa-solid fa-presentation-screen"
       length: 1
   sponsor1:
     - title: "Unlocking the Value of All Your IT & Security Data with Cribl"

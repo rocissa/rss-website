@@ -59,7 +59,11 @@ sessions:
             Gebeya, I led QA efforts to improve system security and quality through automation and 
             rigorous testing. Currently interning as a Software QA Engineer at Amazon, Seattle. I am 
             deepening my expertise in securing software systems against emerging threats. My skills 
-            encompass cybersecurity, threat analysis, and secure software development practices. 
+            encompass cybersecurity, threat analysis, and secure software development practices.
+      links:
+        - title: Presentation Slides
+          url: /2024/files/Tafese-Work-from-home-and-security-risk-SASE-solution.pdf
+          icon: "fa-solid fa-presentation-screen"
       length: 1
     - title: "Gone Phishing: Phishing in the Cyber Criminal Ecosystem"
       presenter: Ryan Rogers
@@ -130,6 +134,10 @@ sessions:
             in offensive security and social engineering, Meredith has contributed across the community 
             through mentorship and has spoken at a variety of conferences and events to help others find 
             their passion in Cybersecurity.
+      links:
+        - title: Presentation Slides
+          url: /2024/files/Kopchak-Tom-2024-Rochester-Security Summit-CPTC.pptx.pdf
+          icon: "fa-solid fa-presentation-screen"
       length: 1
     - title: "Channel File 291: 7 Lessons from the CrowdStrike Meltdown"
       presenter: Reg Harnish
@@ -344,7 +352,11 @@ sessions:
 
 
             Alexandra is a graduate of Rochester Institute of Technology, holding a degree in Computing 
-            Security with a minor in Networking & Systems Administration. 
+            Security with a minor in Networking & Systems Administration.
+      links:
+        - title: Presentation Slides
+          url: /2024/files/Stachura-Visibility-Beyond-EDR.pdf
+          icon: "fa-solid fa-presentation-screen"
       length: 1
     - title: "Microsoft at your BEC and (API) Call: Auditing Mailbox Item Access for Incident Response"
       presenter: Richard Smith
@@ -363,6 +375,10 @@ sessions:
           bio: >
             Richard Smith is a Senior Consultant with Security Risk Advisors, working primarily on 
             security data pipeline efficiency and onboarding clients into SRA's XDR solution, SCALR.
+      links:
+        - title: Presentation Slides
+          url: /2024/files/Smith-Microsoft-at-your-BEC-and-API-Call.pdf
+          icon: "fa-solid fa-presentation-screen"
       length: 1
     - title: "Lifting the Veil: Decrypting Malware's Hidden Language"
       presenter: Mark Musone
