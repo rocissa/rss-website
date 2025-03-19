@@ -78,11 +78,7 @@ registration_sold_out: false
 registration_event_concluded: false
 
 # event concluded options
-<<<<<<< HEAD
-event_concluded_show_slides_link: true
-=======
 event_concluded_show_slides_link: false
->>>>>>> 4a4b47b (Set up site for RSS:2025)
 event_concluded_show_conf_survey_link: false
 conf_survey_link_url: https://docs.google.com/forms/d/e/1FAIpQLSdPumjNZn5fCKqRgYYITurEfrzrlPuHBLiS7xH1fEyybV7Qpw/viewform?usp=sf_link
 
