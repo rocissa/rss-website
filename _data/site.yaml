@@ -7,24 +7,24 @@ site_title: Rochester Security Summit
 #baseurl: http://localhost:8080
 # current conference year - used to show current information and to prevent
 # current/upcoming conference from showing on past events page
-current_year: 2024
+current_year: 2025
 
 # previous conference year
-previous_year: 2023
+previous_year: 2024
 
 # next conference year - leave at current during early planning
 next_year: 2025
 
 # conference dates
-conference_start_date: 2024-10-09
-conference_end_date: 2024-10-10
+conference_start_date: 2024-10-08
+conference_end_date: 2024-10-09
 next_year_start_date: 2025-10-08
 next_year_end_date: 2025-10-09
 
 # which year's sponsors should be shown on the homepage
 # allows for previous year's to show until the current year's list is ready
-homepage_sponsors_show_current_year: true
-homepage_sponsors_show_previous_year: false
+homepage_sponsors_show_current_year: false
+homepage_sponsors_show_previous_year: true
 
 # should the pre-conference "coming soon" message be shown on the homepage?
 homepage_conference_announcement: true
@@ -39,7 +39,7 @@ homepage_show_hotels: true
 homepage_show_parking: true
 
 # should keynote speakers be shown on homepage?
-homepage_show_keynotes: true
+homepage_show_keynotes: false
 
 # should app links be shown on the homepage
 homepage_show_app_links: false
@@ -50,13 +50,13 @@ app_web_url: https://guidebook.com/g/rochestersecuritysummit2024/
 # should day-of-event content show on the homepage?
 homepage_show_day_of_event: false
 
-homepage_show_post_conference_info: true
-homepage_show_call_for_volunteers: false
+homepage_show_post_conference_info: false
+homepage_show_call_for_volunteers: true
 homepage_show_schedule_link: false
 homepage_show_ticket_retrieval: false
 
 # should registration info be displayed on the homepage?
-registration_not_yet_open: false
+registration_not_yet_open: true
 registration_enabled: false
 registration_early_bird: false
 registration_early_bird_cost: $180
@@ -64,7 +64,7 @@ registration_early_bird_end_date: 2024-07-22
 registration_standard: false
 registration_standard_cost: $280
 registration_standard_end_date: 2024-09-18
-registration_late: true
+registration_late: false
 registration_late_cost: $380
 registration_late_end_date: 2024-10-10
 registration_one_day_being_sold: true
@@ -75,22 +75,26 @@ registration_late_one_day: true
 registration_late_one_day_cost: $245
 registration_late_one_day_end_date: 2024-10-10
 registration_sold_out: false
-registration_event_concluded: true
+registration_event_concluded: false
 
 # event concluded options
+<<<<<<< HEAD
 event_concluded_show_slides_link: true
+=======
+event_concluded_show_slides_link: false
+>>>>>>> 4a4b47b (Set up site for RSS:2025)
 event_concluded_show_conf_survey_link: false
 conf_survey_link_url: https://docs.google.com/forms/d/e/1FAIpQLSdPumjNZn5fCKqRgYYITurEfrzrlPuHBLiS7xH1fEyybV7Qpw/viewform?usp=sf_link
 
 # sponsorship messaging
 sponsorship_show_w9_link: false
-sponsorship_next_year: true
-sponsorship_not_yet_open: false
+sponsorship_next_year: false
+sponsorship_not_yet_open: true
 sponsorship_coming_soon: false
 sponsorship_open: false
 sponsorship_waiting_list: false  # sold out, but accepting to waiting list
 sponsorship_sold_out: false
-sponsorship_pricing: true
+sponsorship_pricing: false
 sponsorship_sponsor_information: false
 sponsorship_attendee_profile: true
 sponsorship_faq: false
@@ -103,8 +107,8 @@ sponsors_ready_to_display: true
 sponsors_show_talks: true
 
 # speaking messaging
-speaking_next_year: true
-speaking_cfp_not_yet_open: false
+speaking_next_year: false
+speaking_cfp_not_yet_open: true
 speaking_cfp_open: false
 speaking_cfp_closed: false
 speaking_show_key_dates: false
@@ -116,9 +120,9 @@ speaking_committee_responses: 2024-08-31
 speaking_materials_due: 2024-09-08
 speaking_presentation_due: 2024-09-25
 
-schedule_not_yet_available: false
+schedule_not_yet_available: true
 schedule_tentative: false
-schedule_available: true
+schedule_available: false
 
 # Google form URLs and contact emails
 #

@@ -100,6 +100,12 @@ layout: page
 		</div>
 	</section>
 	{%- endif -%}
+	<div class="attention">
+	  {%- if site.homepage_show_call_for_volunteers == true -%}
+		<h2>Interested in helping out with RSS:{{ site.current_year }}?</h2>
+		<p>Please let us know at  <a style="color: #000; text-decoration: underline !important;" href="mailto:{{ site.information_contact_email }}">{{ site.information_contact_email }}</a></p>
+      {%- endif -%}
+	</div>
 {%- endif -%}
 <hr>
 <section id="conference" class="conference">

@@ -1,4 +1,3 @@
-{%- assign active_year = site.current_year -%}
 {%- assign level_heading = 'h2' -%}
 {%- if site.sponsors_ready_to_display -%}
 {%- assign numberSponsors = sponsors | size -%}
