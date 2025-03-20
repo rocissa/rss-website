@@ -772,7 +772,6 @@ dialog .session-abstract {
 	align-items: stretch;
 }
 .past-event-card {
-	border: 1px solid #ddd;
 	margin: 1em;
 	paddding: 1em;
 	box-sizing: border-box;
@@ -783,6 +782,11 @@ dialog .session-abstract {
 	height: 100%;
 	color: black;
 	padding: 1em;
+	border: 1px solid #ddd;
+}
+.past-event-card a:hover, .past-event-card a:focus {
+	border-color: #000;
+	background-color: #eee;
 }
 .past-event-card img {
 	max-width: 100%;
