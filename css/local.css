@@ -764,3 +764,41 @@ dialog .session-abstract {
 		padding: 15px;
 	}
 }
+
+
+.past-events-block {
+	display: flex;
+	flex-flow: row wrap;
+	align-items: stretch;
+}
+.past-event-card {
+	border: 1px solid #ddd;
+	margin: 1em;
+	paddding: 1em;
+	box-sizing: border-box;
+}
+.past-event-card a {
+	display: block;
+	width: 100%;
+	height: 100%;
+	color: black;
+	padding: 1em;
+}
+.past-event-card img {
+	max-width: 100%;
+	display: block;
+}
+.past-event-card  h1 {
+  font-size: 2em;
+  text-align: center;
+}
+.past-event-card  h2 {
+  font-size: 1.5em;
+  text-align: center;
+}
+
+@media screen and (min-width: 800px) {
+	.past-event-card {
+		width: 30%;
+	}
+}
