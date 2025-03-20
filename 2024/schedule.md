@@ -5,7 +5,7 @@ conference: 2024
 ---
 ## Day 1 - October 9 (Wednesday)
 
-{% assign schedule = schedules[site.current_year].day1 %}
+{% assign schedule = schedules['2024'].day1 %}
 
 <div class="schedule schedule-2024" x-data
   @click.window.capture="
