@@ -1,5 +1,5 @@
 ---
-title: RSS:2024 Presentation Slides
+title: RSS:2024 Presentation Slides and Videos
 layout: page
 conference: 2024
 ---
