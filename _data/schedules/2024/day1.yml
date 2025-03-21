@@ -2,8 +2,16 @@
 keynotes:
   - presenter: Alyssa Miller
     url: /2024/alyssa-miller/
+    links:
+      - title: 'Keynote Video'
+        url: 'https://youtu.be/8pLDkH4-Ujw?si=dtOmveYNibVdPixp'
+        icon: 'fa-solid fa-clapperboard-play'
   - presenter: Eric Woodruff
     url: /2024/eric-woodruff/
+    links:
+      - title: 'Keynote Video'
+        url: 'https://youtu.be/i9EM8VAH0DM?si=C4d6RbfudC4BDmH5'
+        icon: 'fa-solid fa-clapperboard-play'
 tracks:
   - id: track1
     name: AI Track
@@ -61,6 +69,10 @@ sessions:
 
             Javier holds a Master’s Degree in Cybersecurity from Utica University.
       length: 1
+      links:
+      - title: 'Presentation Video'
+        url: 'https://youtu.be/UxkpLctO5ho?si=GOeS0lskixfkjLQM'
+        icon: 'fa-solid fa-clapperboard-play'
     - title: "Save Time & Money - Automate using Cybersecurity Standards"
       presenter: Duncan Sparrell
       url: /2024/day1/track-1#track1-s2
@@ -96,6 +108,9 @@ sessions:
         - title: Presentation Slides
           url: /2024/files/Sparrell-SaveTimeMoneyAutomatingWithStandards.pdf
           icon: "fa-solid fa-presentation-screen"
+        - title: 'Presentation Video'
+          url: 'https://youtu.be/CULxm4Bnjmw?si=rkukkG1_c2bU8Ar9'
+          icon: 'fa-solid fa-clapperboard-play'
       length: 1
     - title: "Harnessing AI for Advanced Network Security: From Attacks on Privacy to Defensive Innovations"
       presenter: Nate Mathews and Matthew Wright
@@ -124,6 +139,10 @@ sessions:
             detection, applying AI to malware and traffic analysis, and understanding the human element 
             of security. He has over 100 peer-reviewed publications, including many works appearing in 
             top-tier venues in cybersecurity, human-computer interaction, and computer networks.
+      links:
+        - title: 'Presentation Video'
+          url: 'https://youtu.be/XnCdv7nXaE8?si=UIrWdLdiSwbhrMBE'
+          icon: 'fa-solid fa-clapperboard-play'
       length: 1
     - title: "Generative AI — Adversaries vs. Defenders"
       presenter: Selena Dao
@@ -144,6 +163,10 @@ sessions:
              cybersecurity industry. She focuses on educating and delivering technical solutions to 
              enterprise environments across endpoint, email, XDR, and continuous risk assessment 
              technologies.
+      links:
+        - title: 'Presentation Video'
+          url: 'https://youtu.be/Lf9Ximkbd6E?si=ey_kFCbtjrxJCAh9'
+          icon: 'fa-solid fa-clapperboard-play'
       length: 1
   track2:
     - title: "A Comprehensive Approach to IT Vulnerability Management"
@@ -176,6 +199,9 @@ sessions:
         - title: Presentation Slides
           url: /2024/files/Frier-ITVM-Final.pdf
           icon: "fa-solid fa-presentation-screen"
+        - title: 'Presentation Video'
+          url: 'https://youtu.be/2ZzgdayBknc?si=gHclvgCFrn5IpPan'
+          icon: 'fa-solid fa-clapperboard-play'
       length: 1
     - title: "Real Risk in Today’s World…Dark Web Data Leaks"
       presenter: Bruce Cheney
@@ -210,6 +236,10 @@ sessions:
             of experience in professional training on complex IT topics, so making sense of complex 
             topics is right up his alley, allowing him to specialize in Transferring Knowledge and 
             Operational Best Practices to Customer Staff ensuring Post-Implementation Success.  
+      links:
+        - title: 'Presentation Video'
+          url: 'https://youtu.be/tEEE81-eq4s?si=TkW3mGyBLsk-Br3l'
+          icon: 'fa-solid fa-clapperboard-play'
       length: 1
     - title: "Avoiding Concentrated Risk"
       presenter: Chas Clawson
@@ -234,6 +264,10 @@ sessions:
             Commercially, he has worked with MSSP practices and security consulting services for 
             various fortune 500 companies. Chas also enjoys teaching Networking & Cyber Security courses
             as a Professor at the University of Maryland Global College.
+      links:
+        - title: 'Presentation Video'
+          url: 'https://youtu.be/oELrvTqI3LE?si=EZN6wiucZ3cyWmsK'
+          icon: 'fa-solid fa-clapperboard-play'
       length: 1
     - title: "Govern Once, Comply Many:  Leveraging Your Security Skills to Manage AI Risk"
       presenter: F. Paul Greene
@@ -260,6 +294,9 @@ sessions:
         - title: Presentation Slides
           url: /2024/files/Greene-Govern-Once-Comply-Many-FINAL.pdf
           icon: "fa-solid fa-presentation-screen"
+        - title: 'Presentation Video'
+          url: 'https://youtu.be/e3Q7VYdBrQs?si=i1wq4HPQNp5yFEdQ'
+          icon: 'fa-solid fa-clapperboard-play'
       length: 1
   track3:
     - title: "Towards a Quantum-Resistant Future: Experiences in Post-Quantum Cryptography Education"
@@ -320,6 +357,10 @@ sessions:
             reference in this area. He teaches mostly theory oriented courses, including very popular 
             courses on cryptography, both at undergraduate and graduate levels. His recent work on applied 
             cryptography led to joint projects with Computer Engineering Department.
+      links:
+        - title: 'Presentation Video'
+          url: 'https://youtu.be/0gsGAtZNk0I?si=z4TwASbtDcbEtVPP'
+          icon: 'fa-solid fa-clapperboard-play'
       length: 1
     - title: "Streamlined SIEM Migration and Daily Cost Optimization"
       presenter: Joe Cicero and Mike Pinch
@@ -359,6 +400,9 @@ sessions:
         - title: Presentation Slides
           url: /2024/files/Cicero-Streamlined-SIEM-Migration-and-Daily-Cost-Optimization_Revised100724.pdf
           icon: "fa-solid fa-presentation-screen"
+        - title: 'Presentation Video'
+          url: 'https://youtu.be/Jp4OxYus8Wo?si=e7yiRQz37SkqFGY0'
+          icon: 'fa-solid fa-clapperboard-play'
       length: 1
     - title: "Building a Sawmill: Processing Logs With Security Onion"
       presenter: Matthew Gracie
@@ -378,6 +422,10 @@ sessions:
             the lead organizer of Infosec 716, a monthly meetup for security enthusiasts in Western New York, 
             and the BSides Buffalo technology conference. He enjoys good beer, mountain bikes, open source 
             security tools, and college hockey, and can be found on Twitter as @InfosecGoon. 
+      links:
+        - title: 'Presentation Video'
+          url: 'https://youtu.be/jORuYG8hI30?si=S6nNY0xng1PzZ9T2'
+          icon: 'fa-solid fa-clapperboard-play'
       length: 1
     - title: "Level Up Your Security: The Power of Gamification"
       presenter: Ben Meyer-Crosby
@@ -405,6 +453,9 @@ sessions:
         - title: Presentation Slides
           url: /2024/files/Meyer-Crosby-Level-Up-Your-Security-The-Power-of-Gamification.pdf
           icon: "fa-solid fa-presentation-screen"
+        - title: 'Presentation Video'
+          url: 'https://youtu.be/67wADCPUwso?si=Ud_B6kzLc6vr5zYY'
+          icon: 'fa-solid fa-clapperboard-play'
       length: 1
   sponsor1:
     - title: "Unlocking the Value of All Your IT & Security Data with Cribl"

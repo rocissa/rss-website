@@ -2,6 +2,10 @@
 keynotes:
   - presenter: Graham Cluley
     url: /2024/graham-cluley/
+    links:
+      - title: 'Keynote Video'
+        url: 'https://youtu.be/8fYANjza0gc?si=VINFIfIKU4w_b9pu'
+        icon: 'fa-solid fa-clapperboard-play'
 tracks:
   - id: track1
     name: War Stories Track
@@ -64,6 +68,9 @@ sessions:
         - title: Presentation Slides
           url: /2024/files/Tafese-Work-from-home-and-security-risk-SASE-solution.pdf
           icon: "fa-solid fa-presentation-screen"
+        - title: 'Presentation Video'
+          url: 'https://youtu.be/pMDQKWMyGro?si=DnVmBigFCyD2W3po'
+          icon: 'fa-solid fa-clapperboard-play'
       length: 1
     - title: "Gone Phishing: Phishing in the Cyber Criminal Ecosystem"
       presenter: Ryan Rogers
@@ -99,6 +106,10 @@ sessions:
             infosec/hacker conferences. In her (minimal) spare time, she enjoys visiting her adopted 
             two-toed sloth Flash at the Buffalo Zoo, researching death and the dead, and learning more 
             about hacking to make the world a more secure place.
+      links:
+        - title: 'Presentation Video'
+          url: 'https://youtu.be/poLpnzF04Dg?si=8hPBqIB0hAy4ooVk'
+          icon: 'fa-solid fa-clapperboard-play'
       length: 1
     - title: "Hacking Airports for Fun and Education (and better security monitoring, too!)"
       presenter: Tom Kopchak and Meredith Kasper
@@ -138,6 +149,9 @@ sessions:
         - title: Presentation Slides
           url: /2024/files/Kopchak-Tom-2024-Rochester-Security Summit-CPTC.pptx.pdf
           icon: "fa-solid fa-presentation-screen"
+        - title: 'Presentation Video'
+          url: 'https://youtu.be/ggCW7SCn6HQ?si=MOkQDKLGFio7Uece'
+          icon: 'fa-solid fa-clapperboard-play'
       length: 1
     - title: "Channel File 291: 7 Lessons from the CrowdStrike Meltdown"
       presenter: Reg Harnish
@@ -178,6 +192,10 @@ sessions:
             Reg has been featured in Time Magazine, Forbes, The Washington Post, CBS Nightly News, CIO 
             Magazine, Dark Reading, Software Magazine, ComputerWorld, InfoWorld and countless other 
             media outlets.
+      links:
+        - title: 'Presentation Video'
+          url: 'https://youtu.be/65AAI4DmgLk?si=ofj1iiNBT4o_873o'
+          icon: 'fa-solid fa-clapperboard-play'
       length: 1
   track2:
     - title: "Cybersecurity 2.0 – helping you step into NIST 2.0, MDR 2.0, and IAM 2.0"
@@ -201,6 +219,10 @@ sessions:
             much of his time educating organizations on how to adhere to both security regulations and best 
             practices around cybersecurity. Jeff lives, breathes, and bleeds cybersecurity. It’s not just what 
             he does; it’s who he is.
+      links:
+        - title: 'Presentation Video'
+          url: 'https://youtu.be/6AfWNAYf0DM?si=TMUrEgeuUcBjP8eD'
+          icon: 'fa-solid fa-clapperboard-play'
       length: 1
     - title: "The ULTIMATE Cheat Sheet for Achieving SOC2 Compliance"
       presenter: Charissa Kim
@@ -224,6 +246,10 @@ sessions:
             Agency, providing a welcoming environment for K-12 students to learn and explore cybersecurity 
             along with its diverse career options and opportunities. She is also the first female All-American 
             from the National CyberPatriot and Northrup Grumman Nationals competition.
+      links:
+        - title: 'Presentation Video'
+          url: 'https://youtu.be/dOEiuVG3M-c?si=rQ5Ykw5ACmOZ6H9C'
+          icon: 'fa-solid fa-clapperboard-play'
       length: 1
     - title: "The Threat from Infostealers to Every Company"
       presenter: Michael Kosak
@@ -245,6 +271,10 @@ sessions:
             Intelligence Analyst at LastPass. His previous private sector roles include manager of the 
             Strategic Intelligence Analysis and Threat Evaluation teams at Bank of America and Cyber 
             Threat Intelligence team lead at TIAA.
+      links:
+        - title: 'Presentation Video'
+          url: 'https://youtu.be/WctqvC2_rhY?si=BagfUz_DTv40vxcZ'
+          icon: 'fa-solid fa-clapperboard-play'
       length: 1
     - title: "Adding API Security to your DevSecOps Toolbelt"
       presenter: Scott Bly
@@ -280,6 +310,10 @@ sessions:
             Scott served as the Director of IT for the American Film Institute, where he led their 
             digital transformation. He led a LA-based consulting firm specializing in the SMB and 
             Media/Entertainment space for fifteen years.
+      links:
+        - title: 'Presentation Video'
+          url: 'https://youtu.be/3z2f92sujPQ?si=-EZNtyF1dWuBtwHX'
+          icon: 'fa-solid fa-clapperboard-play'
       length: 1
     - title: "Armor Plating Your Product: Building a Product Security Program from Scratch"
       presenter: Jim Keeler
@@ -300,6 +334,10 @@ sessions:
             passionate about training and collaborating with developers to ship more secure code. When 
             he's not drafting secure coding standards or penetration testing new features, he enjoys 
             playing soccer with his three kids.
+      links:
+        - title: 'Presentation Video'
+          url: 'https://youtu.be/wc2mJ3EOy24?si=sZf76hqc3CFFiYbI'
+          icon: 'fa-solid fa-clapperboard-play'
       length: 1
   track3:
     - title: "Identifying the Holy Trinity of Cyber Defense"
@@ -319,6 +357,10 @@ sessions:
             experience. He’s passionate about protecting consumers and organizations from advanced 
             threats, and has researched everything from costly ransomware to illicit dark web activity, 
             uncovering insights needed to strengthen proactive cybersecurity defenses.
+      links:
+        - title: 'Presentation Video'
+          url: 'https://youtu.be/2149Jn9bu0E?si=wLNOkRg1ZasiAGTh'
+          icon: 'fa-solid fa-clapperboard-play'
       length: 1
     - title: "Visibility Beyond EDR"
       presenter: Greg Stachura and Alex Ioannidis
@@ -357,6 +399,9 @@ sessions:
         - title: Presentation Slides
           url: /2024/files/Stachura-Visibility-Beyond-EDR.pdf
           icon: "fa-solid fa-presentation-screen"
+        - title: 'Presentation Video'
+          url: 'https://youtu.be/Pqw0D-MhPo0?si=_ZntzBlSMF4LQU2H'
+          icon: 'fa-solid fa-clapperboard-play'
       length: 1
     - title: "Microsoft at your BEC and (API) Call: Auditing Mailbox Item Access for Incident Response"
       presenter: Richard Smith
@@ -379,6 +424,9 @@ sessions:
         - title: Presentation Slides
           url: /2024/files/Smith-Microsoft-at-your-BEC-and-API-Call.pdf
           icon: "fa-solid fa-presentation-screen"
+        - title: 'Presentation Video'
+          url: 'https://youtu.be/X0HwpPSyaEA?si=ySTw7SBz9cHgd9cv'
+          icon: 'fa-solid fa-clapperboard-play'
       length: 1
     - title: "Lifting the Veil: Decrypting Malware's Hidden Language"
       presenter: Mark Musone
@@ -406,6 +454,10 @@ sessions:
             security best practices, and maintained up-to-date status of security compliance. Mark is a 
             CISSP, CMMC Registered Practitioner, a CMMC Provisional Assessor, a CMMC Certified Assessor, 
             a CMMC Certified Professional, and a CMMC Certified Provisional Instructor.
+      links:
+        - title: 'Presentation Video'
+          url: 'https://youtu.be/A7ZSZ0FW68I?si=Okws3GFQHx33rizs'
+          icon: 'fa-solid fa-clapperboard-play'
       length: 1
     - title: "Enterprise Security Architecture - A Holistic Approach"
       presenter: Barry Hofecker
@@ -424,6 +476,10 @@ sessions:
             management experience in multiple diverse markets, including Manufacturing, Healthcare, Education, Financial 
             Services, and public sector entities. Barry holds a MS in Information Security and Assurance as well as 
             multiple industry certifications.
+      links:
+        - title: 'Presentation Video'
+          url: 'https://youtu.be/3VHZqlk2Zlg?si=4EeocPJQbfkqLU_C'
+          icon: 'fa-solid fa-clapperboard-play'
       length: 1
   sponsor1:
     - title: "Top Tips for Active Directory Defense"
