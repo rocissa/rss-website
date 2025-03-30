@@ -20,15 +20,18 @@ layout: page
 {% if site.sponsorship_coming_soon == true %}
 <div class="attention">
 <h2>Sponsorship Opportunities Coming Soon!</h2>
-<p><em>Keep an eye on this space for updates and join our mailing list!</em><p>
+<p><em>Keep an eye on this space for updates and join our mailing list when it is open!</em><p>
 </div>
+{% if site.sponsorship_mailing_list_open == true %}
 <div><a class="btn btn-primary btn-lg" href="/sponsor-mailing-list" target="_blank">Join Our Sponsorship Mailing List</a></div>
-<br/>
+{% endif %}
+{% if site.speaking_cfp_open == true %}
 <div class="block-text">
-<p>While we finalize the details for opening sponsorship, we would like to inform you that our Call for Presentations is now open. If you are interested in submitting presentation for consideration, we invite you to visit our submission portal at {{ site.speaking_page_url }}, where you will find detailed instructions and a form to submit your proposal.</p><br>
+<p>While we finalize the details for opening sponsorship, we would like to inform you that our Call for Presentations is now open. If you are interested in submitting presentation for consideration, we invite you to visit our submission portal at <a href="{{ site.speaking_page_url }}">{{ site.speaking_page_url }}</a>, where you will find detailed instructions and a form to submit your proposal.</p><br>
 <p class="text-center"><em>Thank you for your continued interest in RSS:{{ site.current_year }}</em></p>
 {% endif %}
 </div>
+{% endif %}
 
 {% if site.sponsorship_open  == true %}
 <div class="attention">
@@ -70,14 +73,30 @@ layout: page
 {% endif %}
 {% if site.sponsorship_pricing %}
 <hr>
+<div class="text-left">
 
 ## Sponsor Level Benefits & Pricing
 
-* The information below describes Rochester Security Summit sponsorship opportunities for this year
+> We’re excited to announce that the **Rochester Security Summit {{ site.current_year }}** will open our **Call for Sponsors** on **April 2nd, 2025!**
+> 
+> **KEY DATES:**
+> 
+> * **April 2nd:** You’ll receive an email with a link to our website and submission form.
+>
+> * **April 2nd – April 15th:** Submissions must be made through the form (email submissions will not be accepted).
+>
+> * **April 17th:** The sponsor drawing will take place.
+>
+> Available below is our Pricing & Benefits sheet to help you determine your ideal level of sponsorship when the Call for Sponsors opens on April 2nd.
+> 
+> For more details on sponsorship, download the FAQ **[here](/files/RSS{{ site.current_year }}-Sponsorship-FAQ.pdf)**.
+> 
+> Thank you!
+</div>
 
-   *Click anywhere in the image to download*
+    ***Click anywhere in the following image to download the PDF***
 
-<div class="mt-5 mb-5 text-left"><a href="/files/RSS{{ site.current_year }}-Sponsorship-Pricing.pdf"><img id="sponsorship-pricing" src="/files/RSS{{ site.current_year }}-Sponsorship-Pricing.png" alt="Sponsorship Pricing Thumbnail" width="700px" style></a></div>
+<div class="mt-5 mb-5 text-left"><a href="/files/RSS{{ site.current_year }}-Sponsorship-Pricing.pdf"><img id="sponsorship-pricing" src="/files/RSS{{ site.current_year }}-Sponsorship-Pricing.png" alt="Sponsorship Pricing Thumbnail" width="900px" style></a></div>
 {% endif %}
 {% if site.sponsorship_open %}
 <hr>
@@ -115,16 +134,16 @@ layout: page
 <hr>
 <div class="attendees">
 <h1>Past Attendee Profiles</h1>
-<p class="text-center"><em>The Summit has excellent representation across industries and job functions. In 2023, the profile of paid Summit attendees who provided their data was as follows:</em></p>
+<p class="text-center"><em>The Summit has excellent representation across industries and job functions. In {{ site.previous_year }}, the profile of paid Summit attendees who provided their data was as follows:</em></p>
 <div class="container">
   <div class="row">
     <div class="col-md-6">
-	<h3>Attendee Profiles by Industry in 2023</h3>
-	<a href="/2023/attendees-by-industry.png" data-fslightbox="gallery"><img src="/2023/attendees-by-industry.png" class="img-responsive" alt="Attendee Profiles by Industry in 2023 (N=362)"></a><br>
+	<h3>Attendee Profiles by Industry in {{ site.previous_year }}</h3>
+	<a href="/{{ site.previous_year }}/attendees-by-industry.png" data-fslightbox="gallery"><img src="/{{ site.previous_year }}/attendees-by-industry.png" class="img-responsive" alt="Attendee Profiles by Industry in {{ site.previous_year }} (N=353)"></a><br>
     </div>
     <div class="col-md-6">
-	<h3>Attendee Profiles by Job Function in 2023</h3>
-	<a href="/2023/attendees-by-job-function.png" data-fslightbox="gallery"><img src="/2023/attendees-by-job-function.png" class="img-responsive" alt="Attendee Profiles by Job Function in 2023 (N=342)"></a><br>
+	<h3>Attendee Profiles by Job Function in {{ site.previous_year }}</h3>
+	<a href="/{{ site.previous_year }}/attendees-by-job-function.png" data-fslightbox="gallery"><img src="/{{ site.previous_year }}/attendees-by-job-function.png" class="img-responsive" alt="Attendee Profiles by Job Function in {{ site.previous_year }} (N=343)"></a><br>
     </div>
   </div>
 </div>
