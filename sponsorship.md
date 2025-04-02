@@ -38,16 +38,47 @@ layout: page
 <h2 class="text-center">The official Call for Sponsors for RSS:{{ site.current_year }} is now open</h2>
 <p><em>To enter the lottery for a slot, please complete and submit the Call For Sponsors Form</em></p>
 </div>
-<div class="mt-5 mb-5 text-center"><a class="btn btn-primary btn-lg" href="{{ site.sponsorship_form_url }}" target="_blank">Submit Call For Sponsors Form</a></div>
+
+<div class="text-left" style="margin-top: 3em;">
+We are excited to announce that the Call for Sponsors for the Rochester Security Summit 2025 (RSS:2025) is officially open!
+
+#### Event Details
+
+> Conference Dates: October 8 & 9, 2025 (Wednesday & Thursday)
+>
+> Location: The Joseph A. Floreano Rochester Riverside Convention Center
+
+#### How to Apply
+
+To request a place in the sponsorship lottery for RSS:2025, please complete and submit the Call for Sponsors Form by April 15th, 2025.
+
+<div class="mt-5 mb-5 text-center"><a class="btn btn-primary btn-lg" href="{{ site.sponsorship_form_url }}" target="_blank">Submit Call for Sponsors Form</a></div>
+
+Please see our Sponsorship Pricing & Benefits Sheet below, which will help you determine which level of sponsorship suits your needs. We encourage you to review this information carefully to select the level that best fits your goals.
+
+#### Sponsorship Selection Process
+
+Sponsors are selected by lottery. The drawing will take place on April 17th, 2025, and only those who have submitted a completed form by the deadline will be considered.
+
+If a selected sponsor is unable to participate, we will draw an alternate from the remaining wait-listed entries.
+
+#### Exclusive Diamond Sponsorship
+
+To be considered for the Diamond Sponsorship, you must first be selected and commit to a Platinum Level Sponsorship. If you are interested in the Diamond Sponsorship, please indicate your interest by checking the box on the sponsorship form. The Diamond Sponsor drawing is exclusive to Platinum Sponsors who have completed payment and will take place at a later date.
+
+#### Payment Details
+
+Once you have been selected as a sponsor, you will receive an email notification along with a separate **invoice from Stripe**. When a payment is successful, Stripe will issue you a receipt.
+
+**Payment is due upon receipt** of the invoice. Please note that your sponsorship slot is **not officially secured until payment has been received**.
+
+Additionally, **booth choice** is influenced by a combination of your **Sponsorship Level** and the **date your payment is received**. Early payment can improve your chances of securing your preferred booth location and, for Platinum sponsors, your preferred time slot for the Sponsor Track presentation.
+</div>
 <hr>
+For more details on Sponsorship, please see our FAQ document.
 
-## Important Dates
+<p class="text-center mt-5 mb-5"><a class="btn btn-lg btn-primary" href="/files/RSS2025-Sponsorship-FAQ.pdf">Sponsorship FAQs</a></p>
 
-* Call for Sponsors Deadline: <b>{{ site.sponsorship_applications_due | localtime | date: "%B %e, %Y" }}</b>
-
-  *Submit a completed form using the link above by this date to be considered*
-  
-* RSS:{{ site.current_year }} takes place on {% daterange site.conference_start_date, site.conference_end_date %}
 {% endif %}
 {% if site.sponsorship_sold_out == true %}
 <div class="attention">
@@ -77,21 +108,6 @@ layout: page
 
 ## Sponsor Level Benefits & Pricing
 
-> We’re excited to announce that the **Rochester Security Summit {{ site.current_year }}** will open our **Call for Sponsors** on **April 2nd, 2025!**
-> 
-> **KEY DATES:**
-> 
-> * **April 2nd:** You’ll receive an email with a link to our website and submission form.
->
-> * **April 2nd – April 15th:** Submissions must be made through the form (email submissions will not be accepted).
->
-> * **April 17th:** The sponsor drawing will take place.
->
-> Available below is our Pricing & Benefits sheet to help you determine your ideal level of sponsorship when the Call for Sponsors opens on April 2nd.
-> 
-> For more details on sponsorship, download the FAQ **[here](/files/RSS{{ site.current_year }}-Sponsorship-FAQ.pdf)**.
-> 
-> Thank you!
 </div>
 
     ***Click anywhere in the following image to download the PDF***
@@ -153,29 +169,11 @@ layout: page
 
 ## Frequently Asked Questions
 
-<dl>
-  <dt>How many attendees are expected in 2019?</dt>
-  <dd class="mb-5">While registration has not yet opened for the 2019 Conference, we are planning on keeping numbers similar to last year's numbers. (More than 500 attendees)</dd>
+Please see our Sponsorship FAQ for answers to your sponsorship questions.
 
-  <dt>How many attended in 2018?</dt>
-  <dd class="mb-5">More than 500 attendees</dd>
+<p class="text-center mt-5 mb-5"><a class="btn btn-lg btn-primary" href="/files/RSS2025-Sponsorship-FAQ.pdf">Sponsorship FAQ</a></p>
 
-  <dt>Do we work with a lead generation / scanner service?</dt>
-  <dd class="mb-5">We do not currently offer scanners or lead generation tools for sponsors, but do encourage the collection of info through raffle giveaways. We also organize a raffle to encourage attendee visitation to all our different sponsors.<br />
-  We provide an opt-in only, pre- and post-event contact list to all payed sponsors.</dd>
 
-  <dt>What is information is included in the opt-in contact list?</dt>
-  <dd class="mb-5">Name, E-Mail, Job Title, Company, Work Phone</dd>
-
-  <dt>Regarding the Diamond Sponsorship</dt>
-  <dd class="mb-5">The Platinum Sponsors interested in being considered for the Diamond Level sponsorship will be entered into a drawing on a date to be determined.<br />
-  Receipt of Platinum Level payment is required in order to be entered in the drawing. An additional fee will be required, if selected.</dd>
-
-  <dt>Are additional tickets available?</dt>
-  <dd class="mb-5">Unfortunately, we do have to limit the number of passes for Sponsor Team Members working behind their tables, because we only have a limited number of tickets available in total and we want as many attendees as possible to be able to come visit our amazing sponsors.<br />
-  While employees are welcome to purchase tickets at market price and attend the conference as regular attendees; we ask you to be considerate in limiting the number of people you bring to work the event to the number allotted by your sponsorship level.<br />
-  We appreciate your consideration in this matter.</dd>
-</dl>
 {% endif %}
 
 <hr />
