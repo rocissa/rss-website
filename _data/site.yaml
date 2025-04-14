@@ -105,17 +105,19 @@ sponsors_show_talks: true
 
 # speaking messaging
 speaking_next_year: false
-speaking_cfp_not_yet_open: true
-speaking_cfp_open: false
+speaking_cfp_not_yet_open: false
+speaking_cfp_open: true
 speaking_cfp_closed: false
-speaking_show_key_dates: false
+speaking_show_key_dates: true
 speaking_page_url: https://www.rochestersecurity.org/speaking/
 
 # speaking key dates
-speaking_proposals_due: 2024-07-31
-speaking_committee_responses: 2024-08-31
-speaking_materials_due: 2024-09-08
-speaking_presentation_due: 2024-09-25
+speaking_cfp_opens: 2025-04-14
+speaking_proposals_due: 2025-06-16
+speaking_committee_responses: 2025-07-31
+speaking_materials_due: 2025-08-22
+speaking_notification_of_slide_changes: 2025-09-12
+speaking_presentation_due: 2024-09-26
 
 schedule_not_yet_available: true
 schedule_tentative: false
@@ -124,7 +126,7 @@ schedule_available: false
 # Google form URLs and contact emails
 #
 sponsorship_form_url: https://docs.google.com/forms/d/e/1FAIpQLSf8_ARjCP2uosCA76BY_o8O0-SPFx8uVLQi7o1UI5pySJLM2A/viewform
-speaking_form_url: https://docs.google.com/forms/d/e/1FAIpQLSeGnCdlT5EMniO1uQD6xb5ZgFmpO_V8gAqr71d6Tjit7O9DSA/viewform
+speaking_form_url: https://docs.google.com/forms/d/e/1FAIpQLSePgS2iOEXuTAH3Mz_DIjE8CxheMrNkAcGTStJh8WE-rvWh_w/viewform?usp=header
 #
 # Ed's test forms
 # sponsorship_form_url: https://docs.google.com/forms/d/1tLLO67Z8FzHHWPbjZqYOGJ46vFTUnHU4Z-j4JZqKJZI/viewform
