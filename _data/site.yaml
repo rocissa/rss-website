@@ -23,8 +23,9 @@ next_year_end_date: 2025-10-09
 
 # which year's sponsors should be shown on the homepage
 # allows for previous year's to show until the current year's list is ready
-homepage_sponsors_show_current_year: false
-homepage_sponsors_show_previous_year: true
+homepage_sponsors_show_current_year: true
+homepage_sponsors_show_current_year_coming_soon: true
+homepage_sponsors_show_previous_year: false
 
 # should the pre-conference "coming soon" message be shown on the homepage?
 homepage_conference_announcement: true
@@ -57,23 +58,24 @@ homepage_show_ticket_retrieval: false
 
 # should registration info be displayed on the homepage?
 registration_not_yet_open: true
-registration_enabled: false
-registration_early_bird: false
+registration_enabled: true
+registration_announcement_on_sale: false
+registration_early_bird: true
 registration_early_bird_cost: $180
-registration_early_bird_end_date: 2024-07-22
-registration_standard: false
+registration_early_bird_end_date: 2025-07-22
+registration_standard: true
 registration_standard_cost: $280
-registration_standard_end_date: 2024-09-18
-registration_late: false
+registration_standard_end_date: 2025-09-18
+registration_late: true
 registration_late_cost: $380
-registration_late_end_date: 2024-10-10
+registration_late_end_date: 2025-10-09
 registration_one_day_being_sold: true
-registration_standard_one_day: false
+registration_standard_one_day: true
 registration_standard_one_day_cost: $180
-registration_standard_one_day_end_date: 2024-09-18
+registration_standard_one_day_end_date: 2025-09-18
 registration_late_one_day: true
 registration_late_one_day_cost: $245
-registration_late_one_day_end_date: 2024-10-10
+registration_late_one_day_end_date: 2025-10-09
 registration_sold_out: false
 registration_event_concluded: false
 
@@ -140,7 +142,8 @@ speaking_contact_email: speaker@rochestersecurity.org
 information_contact_email: info@rochestersecurity.org
 registration_contact_email: registrar@rochestersecurity.org
 rocissa_contact_email: info@rocisssa.org
-registration_ticket_url: https://events.eventzilla.net/e/rochester-security-summit-2024-2138612281
+registration_ticket_url: https://www.eventzilla.net/e/rochester-security-summit-2025-2138644995
+#registration_ticket_url: https://events.eventzilla.net/e/rochester-security-summit-2024-2138612281
 #registration_ticket_url: https://events.eventzilla.net/e/rochester-security-summit-2024-2138587562
 
 #
