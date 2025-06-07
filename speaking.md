@@ -43,7 +43,11 @@ We want to hear from you and look forward to seeing you this Fall!
 
 - **General Presentation Length: 50 minutes, including Q&A.** No training sessions will be included this year.
 - **Accommodations:** Accepted speakers can reserve a discounted room at the Hyatt, subject to availability.  
-- **Admission:** Free registration for accepted speakers. Non-selected CFP submitters are eligible for discounted tickets. Admission includes breakfast, lunch and snacks. A speaker ready room is available.
+- **Admission:**
+    - Conference registration is included for all individuals whose proposals are accepted.
+    - **If your CFP submission isn’t selected, you’ll still be eligible to purchase a ticket at the early-bird rate after selection notifications are sent out, (by July 31), even though standard ticket prices will have gone into effect.**
+    - Admission includes breakfast, lunch and snacks.
+    - A speaker ready room is available.
 - **Scheduling:** We request speakers be available both days. Talks are scheduled from 8:00 am to 4:30 PM. We cannot guarantee a specific time slot on the schedule.
 - **Topic Guidance:** We seek a wide variety of topics. Themes will be adapted based on submissions.
 Examples include: AI, Threats and Threat Hunting, Technical Deep Dives, Governance, Risk & Compliance, Business: Adapting to Change, Cloud Security, Ethical Hacking, Security Automation. Additionally, we're actively looking for more technical presentations to help meet attendee demand. Visit [our past events page](/past-events/) to find past schedules and presentation slides. 
