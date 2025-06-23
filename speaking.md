@@ -89,7 +89,7 @@ Contact: <{{ site.speaking_contact_email }}> for more information | Website: <{{
 
 * {{ site.speaking_notification_of_slide_changes | localtime | date: "%B %e" }} &mdash; Speaker notification of slide changes by this date
 
-* {{ site.speaking_presentation_due | localtime | date: "%B %e" }} &mdash; Final Copy of Presentation Slides Due (will bmade available to attendees post summit)
+* {{ site.speaking_presentation_due | localtime | date: "%B %e" }} &mdash; Final Copy of Presentation Slides Due (will be made available to attendees post summit)
 
 * <u>**{% daterange site.conference_start_date, site.conference_end_date %} &mdash; The Rochester Security Summit {{ site.current_year }}**</u>
 {% endif %}
