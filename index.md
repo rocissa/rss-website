@@ -95,9 +95,9 @@ layout: page
 	<section id="attention" class="attention">
 		<div>
 		<h1>The Call For Presentations is now open!</h1>
-		<p>Check out the Speaking page to submit a proposal for the Rochester Security Summit {{ site.current_year }}</p>
+		<h3>Check out the Speaking page to submit a proposal for the Rochester Security Summit {{ site.current_year }}</h3>
 		<p class="text-center"><a href="/speaking" class="btn btn-primary btn-lg" style="background: black; border-color: black;">Learn More and Submit Now</a></p>
-		<p><em>We are excited to see all your ideas!</em></p>
+		<h4>We are excited to see all your ideas!</h4>
 		</div>
 	</section>
 	{%- endif -%}
@@ -158,7 +158,7 @@ layout: page
 	          {%- endif -%}
 			  {%- if site.registration_one_day_being_sold -%}
 				<div class="attention">
-				<h4>We also sell one-day tickets for those that cannot make both days</h4>
+				<h3>We also sell one-day tickets for those that cannot make both days</h3>
 				</div>
 				  {%- if site.registration_standard_one_day -%}
 					<li>
