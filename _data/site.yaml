@@ -108,14 +108,14 @@ sponsors_show_talks: true
 # speaking messaging
 speaking_next_year: false
 speaking_cfp_not_yet_open: false
-speaking_cfp_open: true
-speaking_cfp_closed: false
+speaking_cfp_open: false
+speaking_cfp_closed: true
 speaking_show_key_dates: true
 speaking_page_url: https://www.rochestersecurity.org/speaking/
 
 # speaking key dates
 speaking_cfp_opens: 2025-04-14
-speaking_proposals_due: 2025-06-16
+speaking_proposals_due: 2025-06-21
 speaking_committee_responses: 2025-07-31
 speaking_materials_due: 2025-08-22
 speaking_notification_of_slide_changes: 2025-09-12

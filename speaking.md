@@ -70,9 +70,13 @@ Thank you,
 Contact: <{{ site.speaking_contact_email }}> for more information | Website: <{{ site.baseurl }}>
 
 {% endif %}
+<div class="attention">
 {% if site.speaking_cfp_closed %}
-<h2 class="center">Speaker submissions for RSS:{{ site.current_year }} have closed</h2>
+<h2 class="center">Call for Presentations for RSS:{{ site.current_year }} has closed</h2>
+<p>Thank you to everyone who submitted a proposal! The submission window is now closed.</p>
+<p>We appreciate your interest and support — proposal review is underway and submitters will be notified by {{ site.speaking_committee_responses | localtime | date: "%B %e" }}</p>
 {% endif %}
+</div>
 
 {% if site.speaking_show_key_dates %}
 <hr>
