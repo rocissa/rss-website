@@ -37,6 +37,14 @@ We want to hear from you and look forward to seeing you this Fall!
 <p><a class="btn btn-primary btn-lg" href="{{ site.speaking_form_url }}" target="_blank">Submit A Proposal</a></p>
 <em>Submission deadline: {{ site.speaking_proposals_due | localtime | date: "%B %e, %Y" }}</em>
 </div>
+{% endif %}
+<div class="attention">
+{% if site.speaking_cfp_closed %}
+<h2 class="center">Call for Presentations for RSS:{{ site.current_year }} has closed</h2>
+<p>Thank you to everyone who submitted a proposal! The submission window is now closed.</p>
+<p>We appreciate your interest and support — proposal review is underway and submitters will be notified by {{ site.speaking_committee_responses | localtime | date: "%B %e" }}</p>
+{% endif %}
+</div>
 <hr>
 
 ## Important Information
@@ -61,22 +69,13 @@ Examples include: AI, Threats and Threat Hunting, Technical Deep Dives, Governan
 - **Backup Speakers:** We also identify a pool of backup speakers. These individuals are invited to present in the event of cancellations or to fill additional slots as needed. 
 - **Slide Review:** To maintain high-quality, vendor-neutral presentations, the Speaker Committee reviews slides before the conference and may request revisions.
 - **Speaker Appreciation:** Speakers receive a small gift card and a certificate of appreciation.
-<br>
+<br><br>
 
 Thank you,
 
 *The Rochester Security Summit Speaker Committee*
 
-Contact: <{{ site.speaking_contact_email }}> for more information | Website: <{{ site.baseurl }}>
-
-{% endif %}
-<div class="attention">
-{% if site.speaking_cfp_closed %}
-<h2 class="center">Call for Presentations for RSS:{{ site.current_year }} has closed</h2>
-<p>Thank you to everyone who submitted a proposal! The submission window is now closed.</p>
-<p>We appreciate your interest and support — proposal review is underway and submitters will be notified by {{ site.speaking_committee_responses | localtime | date: "%B %e" }}</p>
-{% endif %}
-</div>
+Contact: <{{ site.speaking_contact_email }}> for more information | Website: <{{ site.baseurl | default: 'https://www.rochestersecurity.org' }}>
 
 {% if site.speaking_show_key_dates %}
 <hr>

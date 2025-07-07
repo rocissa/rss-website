@@ -40,7 +40,7 @@ homepage_show_hotels: true
 homepage_show_parking: true
 
 # should keynote speakers be shown on homepage?
-homepage_show_keynotes: false
+homepage_show_keynotes: true
 
 # should app links be shown on the homepage
 homepage_show_app_links: false
