@@ -13,7 +13,7 @@ layout: page
           Rochester Riverside Convention Center</p>
   </div>
 </section>
-<hr>
+<hr class="medium">
 {%- if site.homepage_show_day_of_event -%}
 <section id="day-of-event">
 	<div class="row">
@@ -52,34 +52,7 @@ layout: page
 {%- endif -%}
 {%- if site.homepage_show_keynotes -%}
 <section id="keynotes" class="keynotes">
-    {%- assign currentKeynotes = collections.keynotes | where: "data.year", site.current_year | sort: "data.weight" -%}
-    {%- assign numberKeynotes = currentKeynotes | size -%}
-    {%- if numberKeynotes > 0 -%}
-	  <div class="col-md-12">
-		<h1>RSS:{{ site.current_year }} Keynote Speakers</h1>
-		{%- for keynote in currentKeynotes -%}
-		<div class="row">
-		  <div class="col-md-12">
-			{%- if keynote.data.more_link -%}
-			<h2><a href="{{ keynote.data.permalink }}">{{ keynote.data.name }}</a></h2>
-			{%- else -%}
-			<h2>{{ keynote.data.name }}</h2>
-			{%- endif -%}
-		  </div>
-		  {%- if keynote.data.professional_title -%}
-		    <div class="col-md-12 mb-5"><em>{{ keynote.data.professional_title }}</em></div>
-		  {%- endif -%}
-		  {%- if keynote.data.photo -%}
-		    <div class="col-md-3"><img class="fluid-image" src="/{{ keynote.data.year }}/keynotes/{{ keynote.data.photo }}" alt="{{ keynote.data.name }}" /></div>
-		    <div class="col-md-9">{{ keynote.data.intro | markdownify }}{% if keynote.data.more_link %} [<a href="{{ keynote.data.permalink }}">more</a>]{% endif %}</div>
-		  {%- else -%}
-		    <div class="col-md-12">{{ keynote.data.intro | markdownify }}{% if keynote.data.more_link %} [<a href="{{ keynote.data.permalink }}">more</a>]{% endif %}
-		    </div>
-		  {%- endif -%}
-	    </div>
-	    {%- endfor -%}
-      </div>
-   {%- endif -%}
+{%- include 'keynotes.md' -%}
 </section>
 {%- else -%}
 	{%- if site.speaking_cfp_not_yet_open == true -%}

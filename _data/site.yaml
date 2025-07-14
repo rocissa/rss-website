@@ -24,7 +24,7 @@ next_year_end_date: 2025-10-09
 # which year's sponsors should be shown on the homepage
 # allows for previous year's to show until the current year's list is ready
 homepage_sponsors_show_current_year: true
-homepage_sponsors_show_current_year_coming_soon: true
+homepage_sponsors_show_current_year_coming_soon: false
 homepage_sponsors_show_previous_year: false
 
 # should the pre-conference "coming soon" message be shown on the homepage?
@@ -99,7 +99,7 @@ sponsorship_attendee_profile: true
 sponsorship_faq: true
 
 # sponsorship key dates
-sponsorship_applications_due: 2024-06-13
+sponsorship_applications_due: 2025-04-15
 
 # sponsors list
 sponsors_ready_to_display: true

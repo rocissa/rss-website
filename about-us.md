@@ -20,19 +20,23 @@ layout: page
 
 * **Summit Coordinator** - Mary Beth King, Rochester Security Summit
 
+* **Deputy Coordinator** - Dawn Savacool
+
 * Dennis Allen
 
 * Shaquille Barnes, ESL (ISSA, InfraGard)
 
-* Hannah Chang
+* Hannah Chang, Nixon Peabody, LLP
 
 * Mark Christman, Microsoft
 
 * Ralph Durkee, Durkee Consulting, Inc. (ISSA, OWASP)
 
-* David Frier, Sedara
+* Carl Eyler
 
-* Paul Goyette, Nixon Peabody, LLP
+* David Frier, Sedara (ISSA, ISACA, ISC2, RIMS)
+
+* Paul Goyette<sup>*</sup>, Nixon Peabody, LLP
 
 * Tom Hasman, GDIT
 
@@ -40,7 +44,7 @@ layout: page
 
 * Keith Hunt<sup>*</sup>, University of Rochester (ISSA, OWASP)
 
-* Lilian Isacks
+* Lilian Isacks, Tompkins County ITS, CISSP, (InfraGard, ISSA; ISC2)
 
 * Heather Klem, Dox Electronics (ISSA)
 
@@ -62,11 +66,9 @@ layout: page
 
 * Aaron Schanz, Constellation Brands
 
-* Deb Shymalov, Eastman Kodak
+* Deb Shamaylov, Eastman Kodak, (ISSA, InfraGard)
 
-* Richard Smith, Security Risk Advisors (ISSA)
-
-* Dave Warden<sup>*</sup>, SUNY Geneseo (ISSA)
+* Dave Warden, SUNY Geneseo (ISSA)
 
 * Edward Woodfield, PayQuicker (ISSA, InfraGard)
 
@@ -78,7 +80,7 @@ layout: page
 
 * **Registration Lead:** David Frier
 
-* **Registration:** Hannah Chang
+* **Registration & Printing:** Hannah Chang
 
 * **Raffle:** Mark Christman
 
@@ -90,7 +92,7 @@ layout: page
 <div class="about-us">
 <h3>Speaker Committee</h3>
 
-* **Chair** - Deb Shymalov
+* **Chair** - Deb Shamaylov
 
 * Dennis Allen
 
