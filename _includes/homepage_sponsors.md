@@ -1,10 +1,11 @@
 {%- assign level_heading = 'h2' -%}
 {%- if site.sponsors_ready_to_display -%}
-{%- assign numberSponsors = sponsors | size -%}
+{%- assign currentSponsors = sponsors[active_year] -%}
+{%- assign numberSponsors = currentSponsors | size -%}
 {%- if numberSponsors > 0 -%}
   <div class="row sponsors">
     {%- assign sponsor_level = "" -%}
-	{%- for sponsor in sponsors -%}
+	{%- for sponsor in currentSponsors -%}
       {%- if sponsor_level != sponsor.Level -%}
         {%- assign sponsor_level = sponsor.Level -%}
         <div class="sponsor-class text-center">

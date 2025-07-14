@@ -33,8 +33,31 @@ footer {
 }
 
 hr {
+	height: 3px;
+	width: 100%;
+	border: none;
+	background-color: linen;
+}
+
+hr.thin {
 	height: 2px;
 	width: 100%;
+	border: none;
+	background-color: linen;
+}
+
+hr.medium {
+	height: 4px;
+	width: 100%;
+	border: none;
+	background-color: linen;
+}
+
+hr.thick {
+	height: 6px;
+	width: 100%;
+	border: none;
+	background-color: linen;
 }
 
 div {
@@ -336,6 +359,12 @@ section#slider {
 
 .keynotes h2 {
 	margin-top: 4rem;
+	font-size: 2em;
+}
+
+.keynotes h3 {
+	margin-top: 3rem;
+	font-size: 1.3em;
 }
 
 .location {
@@ -495,7 +524,7 @@ section#slider {
 }
 
 .fluid-image {
-	max-width: 100%;
+	max-width: 65%;
 	height: auto;
 }
 
