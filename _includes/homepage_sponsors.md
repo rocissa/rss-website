@@ -1,8 +1,11 @@
 {%- assign level_heading = 'h2' -%}
-{%- if site.sponsors_ready_to_display -%}
+{%- if sponsors_ready_to_display -%}
 {%- assign currentSponsors = sponsors[active_year] -%}
 {%- assign numberSponsors = currentSponsors | size -%}
 {%- if numberSponsors > 0 -%}
+
+*** On homepage sponsors
+
   <div class="row sponsors">
     {%- assign sponsor_level = "" -%}
 	{%- for sponsor in currentSponsors -%}
@@ -16,8 +19,8 @@
     {%- endfor -%}
   </div>
 {%- else -%}
-<h2 class="center">The RSS:{{ site.current_year }} sponsor list is not yet available</h2>
+<{{ level_heading }} class="center">The RSS:{{ active_year }} sponsor list is not yet available</{{ level_heading }}>
 {%- endif -%}
 {%- else -%}
-<h2 class="center">The RSS:{{ site.current_year }} sponsor list is not yet available</h2>
+<{{ level_heading }} class="center">The RSS:{{ active_year }} sponsor list is not yet available</{{ level_heading }}>
 {%- endif -%}

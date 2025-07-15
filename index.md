@@ -52,6 +52,7 @@ layout: page
 {%- endif -%}
 {%- if site.homepage_show_keynotes -%}
 <section id="keynotes" class="keynotes">
+{%- assign active_year = site.current_year -%}
 {%- include 'keynotes.md' -%}
 </section>
 {%- else -%}
@@ -246,37 +247,37 @@ layout: page
 {%- endif -%}
 <hr>
 <section id="sponsors" class="sponsors">
+	{%- assign sponsors_ready_to_display = site.sponsors_ready_to_display -%}
 	{%- if site.homepage_sponsors_show_current_year and site.homepage_sponsors_show_previous_year -%}
 	  <h1>Sponsors</h1>
 	  {%- if site.homepage_sponsors_show_current_year_coming_soon -%}
-          <h2 class="text-center">RSS:{{ site.current_year }} Sponsors - Coming Soon</h1>
+		{%- assign title_heading = 'h2' -%}
+          <{{ title_heading }} class="text-center">RSS:{{ site.current_year }} Sponsors - Coming Soon</{{ title_heading }}>
 	  {%- else -%}
-		  <h2 class="text-center">RSS:{{ site.current_year }} Sponsors</h2>
 		  {%- assign active_year = site.current_year -%}
 		  {%- assign level_heading = 'h4' -%}
-		  {%- include 'homepage_sponsors.md' -%}
+		  {%- assign title_heading = 'h2' -%}
+		  {%- include 'sponsors.md' -%}
 	  {%- endif -%}
-	  <h2 class="text-center">RSS:{{ site.current_year }} Sponsors</h2>
-	  {%- assign active_year = site.current_year -%}
-	  {%- assign level_heading = 'h4' -%}
-	  {%- include 'homepage_sponsors.md' -%}
-	  <h2 class="text-center">RSS:{{ site.previous_year }} Sponsors</h2>
 	  {%- assign active_year = site.previous_year -%}
-	  {%- include 'homepage_sponsors.md' -%}
+	  {%- assign level_heading = 'h4' -%}
+	  {%- assign title_heading = 'h2' -%}
+	  {%- include 'sponsors.md' -%}
 	{%- elsif site.homepage_sponsors_show_current_year -%}
 	  {%- if site.homepage_sponsors_show_current_year_coming_soon -%}
-          <h1>RSS:{{ site.current_year }} Sponsors - Coming Soon</h1>
+          {%- assign title_heading = 'h1' -%}
+		  <{{ title_heading }}>RSS:{{ site.current_year }} Sponsors - Coming Soon</{{ title_heading }}>
 	  {%- else -%}
-		  <h1>RSS:{{ site.current_year }} Sponsors</h1>
 		  {%- assign active_year = site.current_year -%}
 		  {%- assign level_heading = 'h2' -%}
-		  {%- include 'homepage_sponsors.md' -%}
+		  {%- assign title_heading = 'h1' -%}
+		  {%- include 'sponsors.md' -%}
 	  {%- endif -%}
     {%- elsif site.homepage_sponsors_show_previous_year -%}
-	  <h1>RSS:{{ site.previous_year }} Sponsors</h1>
 	  {%- assign active_year = site.previous_year -%}
 	  {%- assign level_heading = 'h2' -%}
-	  {%- include 'homepage_sponsors.md' -%}
+	  {%- assign title_heading = 'h1' -%}
+	  {%- include 'sponsors.md' -%}
 	{%- endif -%}
 </section>
 <hr>

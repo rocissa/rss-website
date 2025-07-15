@@ -1,9 +1,9 @@
-{%- assign currentKeynotes = collections.keynotes | where: "data.year", site.current_year | sort: "data.weight" -%}
+{%- assign currentKeynotes = collections.keynotes | where: "data.year", active_year | sort: "data.weight" -%}
 {%- assign numberKeynotes = currentKeynotes | size -%}
 {%- if numberKeynotes > 0 -%}
   <div class="col-sm-12">
 <hr class="thin">
-	<h1>RSS:{{ site.current_year }} Keynote Speakers</h1>
+	<h1>RSS:{{ active_year }} Keynote Speakers</h1>
 <hr class="thin">
 	{%- for keynote in currentKeynotes -%}
 	<div class="row">
