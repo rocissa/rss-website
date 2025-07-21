@@ -10,6 +10,9 @@ layout: page
 *Brought to you by [The Rochester ISSA Chapter](https://www.rocissa.org){target=_blank}*
 </div>
 <hr>
+
+#### If you are considering volunteering for any of our committees, see our [Volunteering Page]({{ site.baseurl }}/volunteering) for details or email us at <{{ site.rocissa_volunteer_email }}>
+<hr>
 <div class="col-md-12">
 <h2>Planning Committees</h2>
 <div class="col-md-6">

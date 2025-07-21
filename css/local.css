@@ -22,10 +22,12 @@ ul {
 	list-style-type: disc;
 	list-style-position: outside;
 	margin-left: 1em;
+	font-size: 100%;
 }
 
 li {
 	margin-left: 1em;
+	font-size: 100%;
 }
 
 footer {
@@ -84,6 +86,20 @@ section#slider {
 #slider {
 	background: url(../images/hero.jpg) no-repeat;
 	height: auto;
+}
+
+.faq {
+	height: auto;
+}
+
+.faq li {
+	font-weight: normal;
+	font-size: 100%;
+}
+
+.faq ul {
+	font-weight: normal;
+	font-size: 100%;
 }
 
 .conference {
@@ -543,6 +559,15 @@ section#slider {
 }
 .venueimage img {
 	width: 100%;
+}
+
+.full-logo-image {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	height: auto;
+	text-align:center;
 }
 
 ul.social {
