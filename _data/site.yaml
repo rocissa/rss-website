@@ -142,10 +142,12 @@ speaking_contact_email: speaker@rochestersecurity.org
 information_contact_email: info@rochestersecurity.org
 registration_contact_email: registrar@rochestersecurity.org
 rocissa_contact_email: info@rocisssa.org
+rocissa_volunteer_email: volunteer@rocisssa.org
 registration_ticket_url: https://www.eventzilla.net/e/rochester-security-summit-2025-2138644995
 #registration_ticket_url: https://events.eventzilla.net/e/rochester-security-summit-2024-2138612281
 #registration_ticket_url: https://events.eventzilla.net/e/rochester-security-summit-2024-2138587562
 
+volunteering_page_url: https://www.rochestersecurity.org/volunteering/
 #
 # past events flags
 #

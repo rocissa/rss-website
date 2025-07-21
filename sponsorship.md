@@ -76,10 +76,10 @@ Once you have been selected as a sponsor, you will receive an email notification
 Additionally, **booth choice** is influenced by a combination of your **Sponsorship Level** and the **date your payment is received**. Early payment can improve your chances of securing your preferred booth location and, for Platinum sponsors, your preferred time slot for the Sponsor Track presentation.
 </div>
 <hr>
-For more details on Sponsorship, please see our FAQ document.
+<div class="attention">
 
-<p class="text-center mt-5 mb-5"><a class="btn btn-lg btn-primary" href="/files/RSS2025-Sponsorship-FAQ.pdf">Sponsorship FAQs</a></p>
-
+**Please see our [Sponsorship FAQ]({{ site.baseurl }}/sponsorship-faq) for answers to your sponsorship questions**
+</div>
 {% endif %}
 {% if site.sponsorship_sold_out == true %}
 <div class="attention">
@@ -117,9 +117,10 @@ For more details on Sponsorship, please see our FAQ document.
 {% endif %}
 {% if site.sponsorship_open %}
 <hr>
+<div class="text-left" style="margin-top: 3em;">
 
 ## About the Selection Process
-
+>
 > Due to limited space, sponsorships are allocated through a lottery system. By submitting this form, your company will be entered into a random drawing, and sponsorships will be awarded based on the order drawn. There is no deposit required to enter the drawing, and organizations can withdraw from consideration at any time.
 >
 > We will do our best to match your indicated preferences with our available sponsorship opportunities. If selected, you will be notified and invoiced via email (payment is due upon receipt). Paying the invoice will officially confirm your sponsorship spot.
@@ -129,7 +130,8 @@ For more details on Sponsorship, please see our FAQ document.
 > After the lottery, we will maintain a waitlist for any dropouts or cancellations.
 >
 > Thank you for considering sponsoring the Rochester Security Summit. We appreciate your interest and support in making our event a success.
-
+>
+</div>
 {% endif %}
 {% if site.sponsorship_sponsor_information == true %}
 
@@ -169,18 +171,18 @@ For more details on Sponsorship, please see our FAQ document.
 {% if site.sponsorship_faq == true %}
 
 ## Frequently Asked Questions
+<div class="text-left">
 
-Please see our Sponsorship FAQ for answers to your sponsorship questions.
-
-<p class="text-center mt-5 mb-5"><a class="btn btn-lg btn-primary" href="/files/RSS2025-Sponsorship-FAQ.pdf">Sponsorship FAQ</a></p>
-
+>
+> Please see our [Sponsorship FAQ]({{ site.baseurl }}/sponsorship-faq) for answers to your sponsorship questions
+>
+> **Have more sponsorship questions? Contact us at <{{ site.sponsorship_contact_email }}>**
+>
+<br>
+</div>
 
 {% endif %}
-
 <hr />
-
-**Have a sponsorship question? Please contact us at <{{ site.sponsorship_contact_email }}>**
-
 </div>
 
 		</div>
