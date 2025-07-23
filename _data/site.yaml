@@ -65,14 +65,14 @@ registration_early_bird_cost: $180
 registration_early_bird_end_date: 2025-07-22
 registration_standard: true
 registration_standard_cost: $280
-registration_standard_end_date: 2025-09-18
+registration_standard_end_date: 2025-09-17
 registration_late: true
 registration_late_cost: $380
 registration_late_end_date: 2025-10-09
 registration_one_day_being_sold: true
 registration_standard_one_day: true
 registration_standard_one_day_cost: $180
-registration_standard_one_day_end_date: 2025-09-18
+registration_standard_one_day_end_date: 2025-09-17
 registration_late_one_day: true
 registration_late_one_day_cost: $245
 registration_late_one_day_end_date: 2025-10-09
@@ -90,8 +90,8 @@ sponsorship_next_year: false
 sponsorship_not_yet_open: false
 sponsorship_coming_soon: false
 sponsorship_mailing_list_open: false
-sponsorship_open: true
-sponsorship_waiting_list: false  # sold out, but accepting to waiting list
+sponsorship_open: false
+sponsorship_waiting_list: true  # sold out, but accepting to waiting list
 sponsorship_sold_out: false
 sponsorship_pricing: true
 sponsorship_sponsor_information: false
@@ -142,7 +142,7 @@ speaking_contact_email: speaker@rochestersecurity.org
 information_contact_email: info@rochestersecurity.org
 registration_contact_email: registrar@rochestersecurity.org
 rocissa_contact_email: info@rocisssa.org
-rocissa_volunteer_email: volunteer@rocisssa.org
+rocissa_volunteer_email: volunteer@rochestersecurity.org
 registration_ticket_url: https://www.eventzilla.net/e/rochester-security-summit-2025-2138644995
 #registration_ticket_url: https://events.eventzilla.net/e/rochester-security-summit-2024-2138612281
 #registration_ticket_url: https://events.eventzilla.net/e/rochester-security-summit-2024-2138587562
