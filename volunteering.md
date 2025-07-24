@@ -2,6 +2,7 @@
 title:
 layout: page
 ---
+
 <div class="faq col-md-12">
 <div class="full-logo-image"> 
 <a href="/">

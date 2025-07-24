@@ -92,12 +92,12 @@ section#slider {
 	height: auto;
 }
 
-.faq li {
+.faq blockquote {
 	font-weight: normal;
 	font-size: 100%;
 }
 
-.faq ul {
+.faq li {
 	font-weight: normal;
 	font-size: 100%;
 }
