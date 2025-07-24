@@ -31,7 +31,7 @@ layout: page
 
 * Hannah Chang, Nixon Peabody, LLP
 
-* Mark Christman, Microsoft
+* Mark Christman
 
 * Ralph Durkee, Durkee Consulting, Inc. (ISSA, OWASP)
 
