@@ -168,6 +168,22 @@ Additionally, **booth choice** is influenced by a combination of your **Sponsors
 </div>
 </div>
 {% endif %}
+{% if site.sponsorship_show_booth_map == true %}
+<hr />
+
+## Booth Map
+<div class="text-left">
+
+>
+> Please see the following booth map for reference when selecting preferences.
+>
+> ***Click anywhere in the following image to download the PDF***
+
+<div class="mt-5 mb-5 text-left"><a href="/files/RSS{{ site.current_year }}-Booth-Map.pdf"><img id="sponsorship-booth-map" src="/files/RSS{{ site.current_year }}-Booth-Map.png" alt="Booth Map" width="900px" style></a></div>
+<br>
+</div>
+{% endif %}
+<hr />
 {% if site.sponsorship_faq == true %}
 
 ## Frequently Asked Questions

@@ -96,6 +96,7 @@ sponsorship_sold_out: false
 sponsorship_pricing: true
 sponsorship_sponsor_information: false
 sponsorship_attendee_profile: true
+sponsorship_show_booth_map: true
 sponsorship_faq: true
 
 # sponsorship key dates
