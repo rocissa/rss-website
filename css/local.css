@@ -655,7 +655,7 @@ ul.social > li {
 .schedule .sponsor, .schedule .sponsor1, .schedule .sponsor2 {
   background-color: #ffc6d2;
 }
-.schedule .training {
+.schedule .training, .schedule .other-events {
   background-color: #fffb99;
 }
 .schedule .empty {
@@ -686,6 +686,10 @@ ul.social > li {
   	grid-template-columns: 0.5fr 0.5fr 1fr 1fr 1fr 1fr 1fr;
   }
 
+  .schedule-2025 {
+  	grid-template-columns: 0.5fr 0.5fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+
   .schedule > div {
     margin-bottom: 0;
   }
@@ -711,6 +715,10 @@ ul.social > li {
 
   .schedule-2024 .full-session {
     grid-column-end: span 5;
+  }
+
+  .schedule-2025 .full-session {
+    grid-column-end: span 6;
   }
 
   .schedule .columns-2 {

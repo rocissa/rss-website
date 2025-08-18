@@ -1,0 +1,146 @@
+---
+keynotes:
+  - presenter: Alan Levine
+    url: /2025/alan-levine/
+    title: Lessons Learned from a CISO Who Managed to Keep His Job for 2 Decades
+  - presenter: Heather Barnhart
+    url: /2025/heatehr-barnhart/
+    title: Mistakes Will Be Made—The Role of Digital Forensics in High-Stakes Investigations and Lessons Learned
+tracks:
+  - id: track1
+    name: Track 1
+    room: Grand Lilac Ballromme
+    show_on_slides_page: true
+    icons:
+      - human-factors-awareness
+  - id: track2
+    name: Track 2
+    room: Highland A/B 
+    show_on_slides_page: true
+    icons:
+      - business-governance-risk
+  - id: track3
+    name: Track 3
+    room: Highland D/E 
+    show_on_slides_page: true
+    icons:
+      - tech-defense-infrastructure
+  - id: other-events
+    name: Other Events
+    room: Highland C - Come & Go
+  - id: sponsor1
+    name: Sponsor Track
+    room: Aqueduct A/B
+  - id: sponsor2
+    name: Sponsor Track
+    room: Aqueduct C/D
+session_times:
+  - start: 10:00 am
+    end: 10:50 am
+  - start: 11:00 am
+    end: 11:50 am
+  - start: 1:00 pm
+    end: 1:50 pm
+  - start: 2:00 pm
+    end: 2:50 pm
+sessions:
+  track1:
+    - title: Why Your Employees Should Click MORE Suspicious Emails (Seriously)
+      presenter: Joshua Crumbaugh
+      url: /2025/day1/track-1#track1-s1
+      icons:
+        - human-factors-awareness
+    - title: Critical Infrastructure Security in Your Home Town
+      presenter: David I. Schwartz, Ph.D.
+      url: /2025/day1/track-1#track1-s2
+      icons:
+        - human-factors-awareness
+    - title: A Beginner's Guide MITRE ATLAS (Adversarial Threat Landscape for AI Systems)
+      presenter: Elaine Harrison-Neukirch
+      url: /2025/day1/track-1#track1-s3
+      icons:
+        - ai-emerging-tech
+    - title: "What Could Go Wrong?: AI Security Mistakes Even Fortune 500 Companies Are Making"
+      presenter: Savannah Alfaro & Zachary Wallace
+      url: /2025/day1/track1#track1-s4
+      icons: 
+        - ai-emerging-tech
+  track2:
+    - title: "Leading in Times of Uncertainty; 9/11/01: The White House"
+      presenter: Robert J. Darling
+      url: /2025/day1/track-2#track2-s1
+      icons:
+        - business-governance-risk
+        - human-factors-awareness
+        - industry-community-perspectives
+    - title: Cyber Threat Intelligence Content Analyst
+      presenter: Stephanie Keinz
+      url: /2025/day1/track-2#track2-s2
+      icons: 
+        - business-governance-risk
+    - title: "Beyond the Report: Why Pen Testing is a GRC Responsibility"
+      presenter: Brandon Finton
+      url: /2025/day1/track-2#track2-s3
+      icons:
+        - business-governance-risk
+    - title: Governance Foundations
+      presenter: Mark Christman
+      url: /2025/day1/track-2#track2-s4
+      icons: 
+        - business-governance-risk
+  track3:
+    - title: Technical Analysis of Recent Endpoint Attacks
+      presenter: Rich Savacool
+      url: /2025/day1/track-3#track3-s1
+      icons: 
+        - tech-defense-infrastructure
+    - title: Reduce the Blast Radius with Microsegmentation
+      presenter: Jonathan Borgesen
+      url: /2025/day1/track-3#track3-s2
+      icons:
+        - tech-defense-infrastructure
+    - title: Beginner’s Guide to Starting a Security Home Lab
+      presenter: Jim Keeler
+      url: /2025/day1/track-3#track3-s3
+      icons:
+        - tech-defense-infrastructure
+    - title:  Stealing User Credentials and Data with Malicious Browser Extensions
+      presenter: Or Eshed
+      url: /2025/day1/track-3#track3-s3
+      ions:
+        - tech-defense-infrastructure
+  other-events:
+    - title: >
+        Capture the Flag Competition by MetaCTF<br><br>
+
+        Compete solo or in groups of up to four<br><br>
+
+        Come & Go<br><br>
+
+        Registration: 9:40 am<br>
+        Start: 10:00 am<br>
+        End: Tomorrow 3pm    
+      length: 2
+    - skip: true
+    - title: >
+        Lockpick Village by Toool<br><br>
+
+        Hands-on lockpicking workshop<br><br>
+
+        Come & Go<br><br>
+
+        Start: 12:30 pm<br>
+        End: 4:30 3pm
+      length: 2
+    - skip: true
+  sponsor1:
+    - title: ""
+    - title: ""
+    - title: ""
+      presenter: ProArch (Diamond)
+  sponsor2:
+    - title: ""
+    - title: ""
+    - title: ""
+    - title: ""
+

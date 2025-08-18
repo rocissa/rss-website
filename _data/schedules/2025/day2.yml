@@ -1,0 +1,142 @@
+keynotes:
+  - presenter: Justin Pelletier
+    url: /2025/justin-pelletier/
+    title: "The New Manhattan Project = Militarized AI" 
+tracks:
+  - id: track1
+    name: Track 1
+    room: Grand Lilac Ballromme
+    show_on_slides_page: true
+    icons:
+      - human-factors-awareness
+      - ai-emerging-tech
+      - business-governance-risk
+      - tech-defense-infrastructure
+  - id: track2
+    name: Track 2
+    room: Highland A/B 
+    show_on_slides_page: true
+    icons:
+      - industry-community-perspectives
+      - business-governance-risk
+  - id: track3
+    name: Track 3
+    room: Highland D/E 
+    show_on_slides_page: true
+    icons:
+      - tech-defense-infrastructure
+  - id: other-events
+    name: Other Events
+    room: Highland C - Come & Go
+  - id: sponsor1
+    name: Sponsor Track
+    room: Aqueduct A/B
+  - id: sponsor2
+    name: Sponsor Track
+    room: Aqueduct C/D
+session_times:
+  - start: 10:00 am
+    end: 10:50 am
+  - start: 11:00 am
+    end: 11:50 am
+  - start: 1:00 pm
+    end: 1:50 pm
+  - start: 2:00 pm
+    end: 2:50 pm
+sessions:
+  track1:
+    - title: "When AI Walks Through the Front Door: Using Artificial Intelligence for Physical Social Engineering"
+      presenter: Steve Stasiukonis
+      url: /2025/day2/track-1#track1-s1
+      icons:
+        - ai-emerging-tech
+        - human-factors-awareness
+    - title: "Keeping your AI in Check; No, It Shouldn't Know Your Passwords"
+      presenter: David Santeramo
+      url: /2025/day2/track-1#track1-s2
+      icon:
+        - ai-emerging-tech
+    - title: "Exposing the Real Risk: How Ransomware, Extortion, and the Dark Web Are Evolving"
+      presenter: Bruce Cheney
+      url: /2025/day2/track-1#track1-s3
+      icons:
+        - tech-defense-infrastructure
+        - business-governance-risk
+    - title: "Hacking the Process - Business Process Compromise"
+      presenter: Sherwyn Moodley & James Hasewinkle
+      url: /2025/day2/track-1#track1-s4
+      icons:
+        - tech-defense-infrastructure
+  track2:
+    - title: "Women in IT Roundtable: Leadership, Opportunity and Equity - The Future for Women in IT"
+      presenter: Linda Weller & Industry Experts
+      url: /2025/day2/track-2#track2-s1
+      icons:
+        - industry-community-perspectives
+    - title: "Breach Response in Real Time: An Interactive Cybersecurity Simulation"
+      presenter: John D. Flory III
+      url: /2025/day2/track-2#track2-s2
+      icons:
+        - industry-community-perspectives
+    - title: "Beyond the Obvious: Why 1+1 = 3 in Third-Party Risk"
+      presenter: Alicia Gristmacher
+      url: /2025/day2/track-2#track2-s3
+      icons:
+        - business-governance-risk
+    - title: "Disaster Recovery Planning: From Theory to Action"
+      presenter: Jason Taylor
+      url: /2025/day2/track-2#track2-s4
+      icons:
+        - business-governance-risk
+  track3:
+    - title: "Lessons Learned from the OWASP Amass Project"
+      presenter: Jeff Foley
+      url: /2025/day2/track-3#track3-s1
+      icons:
+        - tech-defense-infrastructure
+    - title: "My Cyber Sense Is Tingling! Detection Engineering With Free Tools"
+      presenter: Matthew Gracie
+      url: /2025/day2/track-3#track3-s2
+      icons:
+        - tech-defense-infrastructure
+    - title: "Drag, Drop, Defend: Making Security Scripts Accessible to Everyone"
+      presenter: Gregory Stachura
+      url: /2025/day2/track-3#track3-s3
+      icons:
+        - tech-defense-infrastructure
+    - title: "Insecuring your Data Using Federated Authentication"
+      presenter: Clay Cooper
+      url: /2025/day2/track-3#track3-s4
+      icons:
+        - tech-defense-infrastructure
+  other-events:
+    - title: >
+        CTF Competition by MetaCTF (Continued)<br><br>
+
+        Come & Go<br><br>
+
+        End: 3pm<br>
+        <em>Top 3 prizes awarded EOD</em>
+      length: 2
+    - skip: true
+    - title: >
+        Lockpick Village by Toool<br><br>
+
+        Hands-on lockpicking workshop<br><br>
+
+        Come & Go<br><br>
+
+        Start: 12:30 pm<br>
+        End: 4:30 pm
+      length: 2
+    - skip: true
+  sponsor1:
+    - title: ""
+    - title: ""
+    - title: ""
+    - title: ""
+  sponsor2:
+    - title: ""
+    - title: ""
+    - title: ""
+    - title: ""
