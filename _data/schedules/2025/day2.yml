@@ -43,6 +43,23 @@ session_times:
     end: 1:50 pm
   - start: 2:00 pm
     end: 2:50 pm
+icons:
+  human-factors-awareness:
+    icon: 🟪
+    label: "Human Facors & Awareness"
+  business-governance-risk:
+    icon: 🔷
+    label: "Business, Governance, & Risk"
+  industry-community-perspectives:
+    icon: ⭐
+    label: "Industry & Community Perspectives"
+  ai-emerging-tech:
+    icon: 🔺
+    label: "AI & Emerging Technology"
+  tech-defense-infrastructure:
+    icon: 🟠
+    label: "Technical Defense & Infrastructure"
+show_legend: true
 sessions:
   track1:
     - title: "When AI Walks Through the Front Door: Using Artificial Intelligence for Physical Social Engineering"

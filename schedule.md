@@ -64,9 +64,9 @@ layout: page
   
   <div class="no-mobile">&nbsp;</div>
   <div class="no-mobile">&nbsp;</div>
-  <div class="no-mobile track track1 title">Track 1</div>
-  <div class="no-mobile track track2 title">Track 2</div>
-  <div class="no-mobile track track3 title">Track 3</div>
+  <div class="no-mobile track track1 title"><div class="icon-tags"><ul><li aria-label="Human Factors &amp;  Awareness"><span aria-hidden="true">🟪</span></li><li aria-label="AI &amp; Emerging Technology"><span aria-hidden="true">🔺</span></li></ul></div> Track 1</div>
+  <div class="no-mobile track track2 title"><div class="icon-tags"><ul><li aria-label="Business, Governance &amp; Risk"><span aria-hidden="true">🔷</span></li></ul></div>Track 2</div>
+  <div class="no-mobile track track3 title"><div class="icon-tags"><ul><li aria-label="Technical Defense &amp; Infrastructure"><span aria-hidden="true">🟠</span></li></ul></div>Track 3</div>
   <div class="no-mobile track other-events title">Other Events</div>
   <div class="no-mobile track sponsor columns-2 title">Sponsor Track</div>
   
@@ -131,6 +131,17 @@ layout: page
   </div>
 </div>
 
+{% if schedule.show_legend %}<div class="schedule-legend">
+  <h3>Legend</h3>
+  <dl>
+    {%- for icon in schedule.icons -%}
+    {{ icon.label }}
+    <dt>{{ icon[1].icon }}</dt>
+    <dd>{{ icon[1].label }}</dd>
+    {%- endfor -%}
+  </dl>
+</div>{% endif %}
+
 ## Day 2 - October 9 (Thursday)
 
 {% assign schedule = schedules[site.current_year].day2 %}
@@ -178,9 +189,9 @@ layout: page
   
   <div class="no-mobile">&nbsp;</div>
   <div class="no-mobile">&nbsp;</div>
-  <div class="no-mobile track track1 title">Track 1</div>
-  <div class="no-mobile track track2 title">Track 2</div>
-  <div class="no-mobile track track3 title">Track 3</div>
+  <div class="no-mobile track track1 title"><div class="icon-tags"><ul><li aria-label="Human Factors &amp;  Awareness"><span aria-hidden="true">🟪</span></li><li aria-label="AI &amp; Emerging Technology"><span aria-hidden="true">🔺</span></li><li aria-label="Business, Governance &amp; Risk"><span aria-hidden="true">🔷</span></li><li aria-label="Technical Defense &amp; Infrastructure"><span aria-hidden="true">🟠</span></li></ul></div>Track 1</div>
+  <div class="no-mobile track track2 title"><div class="icon-tags"><ul><li aria-label="Industry &amp; Community Perspectives"><span aria-hidden="true">⭐</span></li><li aria-label="Business, Governance &amp; Risk"><span aria-hidden="true">🔷</span></li></ul></div>Track 2</div>
+  <div class="no-mobile track track3 title"><div class="icon-tags"><ul><li aria-label="Technical Defense &amp; Infrastructure"><span aria-hidden="true">🟠</span></li></ul></div>Track 3</div>
   <div class="no-mobile track other-events title">Other Events</div>
   <div class="no-mobile track sponsor columns-2 title">Sponsor Track</div>
   
@@ -241,12 +252,24 @@ layout: page
     <div class="times">3:00 pm - 4:00 pm</div>
     <div class="room">Grand Lilac Ballroom</div>
   </div>
-  <dialog id="schedule-modal" x-ref="scheduleModal" x-data>
-    <header>
-      <button @click="$refs.scheduleModal.close();"
-        aria-label="Close"><span class="fa-solid fa-circle-xmark"></span></button>
-    </header>
-    <div x-ref="scheduleModalContent" class="schedule-modal-content"><div></div></div>
-  </dialog>
 </div>   
+
+{% if schedule.show_legend %}<div class="schedule-legend">
+  <h3>Legend</h3>
+  <dl>
+    {%- for icon in schedule.icons -%}
+    {{ icon.label }}
+    <dt>{{ icon[1].icon }}</dt>
+    <dd>{{ icon[1].label }}</dd>
+    {%- endfor -%}
+  </dl>
+</div>{% endif %}
+
+<dialog id="schedule-modal" x-ref="scheduleModal" x-data>
+  <header>
+    <button @click="$refs.scheduleModal.close();"
+      aria-label="Close"><span class="fa-solid fa-circle-xmark"></span></button>
+  </header>
+  <div x-ref="scheduleModalContent" class="schedule-modal-content"><div></div></div>
+</dialog>
 {% endif %}

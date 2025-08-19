@@ -43,6 +43,23 @@ session_times:
     end: 1:50 pm
   - start: 2:00 pm
     end: 2:50 pm
+icons:
+  human-factors-awareness:
+    icon: 🟪
+    label: "Human Facors & Awareness"
+  business-governance-risk:
+    icon: 🔷
+    label: "Business, Governance, & Risk"
+  industry-community-perspectives:
+    icon: ⭐
+    label: "Industry & Community Perspectives"
+  ai-emerging-tech:
+    icon: 🔺
+    label: "AI & Emerging Technology"
+  tech-defense-infrastructure:
+    icon: 🟠
+    label: "Technical Defense & Infrastructure"
+show_legend: false # if the legend is the same for both days, setting this to false will hide it after day 1's schedule
 sessions:
   track1:
     - title: Why Your Employees Should Click MORE Suspicious Emails (Seriously)
@@ -107,7 +124,7 @@ sessions:
     - title:  Stealing User Credentials and Data with Malicious Browser Extensions
       presenter: Or Eshed
       url: /2025/day1/track-3#track3-s3
-      ions:
+      icons:
         - tech-defense-infrastructure
   other-events:
     - title: >

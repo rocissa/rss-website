@@ -672,6 +672,40 @@ ul.social > li {
   font-style: italic;
 }
 
+.schedule .icon-tags {
+	display: inline-block;
+}
+.schedule .icon-tags > ul {
+	list-style: none;
+	display: flex;
+	margin: 0 3px 0 0;
+	padding: 0;
+}
+
+.schedule .icon-tags > ul > li {
+	margin: 0;
+	padding: 0 3px;
+}
+
+.schedule-legend {
+	border: 1px solid black;
+	margin: 25px 0;
+	padding: 15px;
+	font-size: 13px;
+}
+
+.schedule-legend h3 {
+	font-size: 1.3em !important;
+}
+
+.schedule-legend dt {
+	float: left;
+}
+.schedule-legend dt:after {
+	content: "-";
+	padding: 0 5px;
+}
+
 @media (min-width: 960px) {
   .schedule {
     display: grid;
@@ -742,6 +776,18 @@ ul.social > li {
   	font-weight: normal;
   	padding-bottom: 5px;
   }
+
+  .schedule-legend {
+  	width: 75%;
+  	margin: 25px auto;
+  	padding: 25px;
+  }
+
+  .schedule-legend dl {
+  	display: flex;
+  }
+
+  .schedule-legend
 }
 
 /* app links */
