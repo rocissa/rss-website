@@ -70,6 +70,15 @@ sessions:
         compliance. Learn why identical-element practice, dual-coding visuals, and variable-reward gamification 
         slash phishing success up to 95%, and see a maturity ladder that lets any CISO measure culture immunity 
         in 90 days.
+      bios:
+        - name: Joshua Crumbaugh
+          bio: >
+            Joshua Crumbaugh is a renowned ethical hacker, cybersecurity innovator, and host of the "Phishing 
+            4 Answers" podcast. Known for challenging industry norms, Joshua emphasizes human-centric security 
+            awareness, using humor and relatable storytelling to simplify complex cybersecurity topics. As CEO 
+            of PhishFirewall, he leverages AI-driven simulations to foster engaging, intuitive learning that 
+            transforms organizational security culture. Joshua's approach empowers individuals to recognize and 
+            respond to threats instinctively, significantly reducing risk.
       url: /2025/day1/track-1#track1-s1
       icons:
         - human-factors-awareness
@@ -84,6 +93,15 @@ sessions:
         includes a framework to modify provided games or create new ones via digital card game mechanics. The 
         presentation will demonstrate JV4’s framework, card-based gameplay, built-in networking, and cards for 
         attackers, defenders, and physical events.
+      bios:
+        - name: David I. Schwartz, Ph.D.
+          bio: >
+            Professor David I. Schwartz, Ph.D., has worked in the academic field of game design and development 
+            since 2001, when he founded the Game Design Initiative at Cornell University. In 2007, Schwartz 
+            moved to the Rochester Institute of Technology as a game design and development faculty member who 
+            formed the School of Interactive Games and Media (IGM) in 2011. After receiving tenure in 2011, he 
+            became IGM's Director in 2015. His current research focuses on cybersecurity gamification, critical 
+            infrastructure, geogames, digital twins, and physically-based animation.
       url: /2025/day1/track-1#track1-s2
       icons:
         - human-factors-awareness
@@ -102,8 +120,18 @@ sessions:
         - Simple ways to start thinking about AI security and governance.
         - You’ll leave with a clear understanding of AI-specific threats, how they differ from traditional cyberattacks. 
         - Bring your laptop if you’d like to explore MITRE ATLAS during the session.
+      bios:
+        - name: Elaine Harrison-Neukirch
+          bio: >
+            Elaine has worked in Information Technology and Cybersecurity for over 15 years. Elaine is an 
+            Enterprise Support Engineer for CyberArk. She is also the volunteer VP of Education for Cyber 
+            Security Non-Profit (CSNP.org). She was presented with the Cyber Security Educator award by the 
+            Women's Society of Cyberjutsu in 2024. Elaine endeavors to educate cyber and non cyber professionals, 
+            focusing on issues that affect underrepresented groups. This includes cybersecurity, security 
+            awareness, career and wellness education. 
       url: /2025/day1/track-1#track1-s3
       icons:
+        - ai-emerging-tech
         - ai-emerging-tech
     - title: "What Could Go Wrong?: AI Security Mistakes Even Fortune 500 Companies Are Making"
       presenter: Savannah Alfaro & Zachary Wallace
@@ -115,6 +143,20 @@ sessions:
         to test, harden, and responsibly deploy AI solutions. Whether you're involved in red teaming, 
         development, or defense, you'll leave with practical takeaways and a deeper understanding of LLM-specific 
         threats.
+      bios:
+        - name: Savannah Alfaro
+          bio: >
+            Savannah specializes in web application assessments and has a background in ethical hacking, machine 
+            learning, and cryptography. She has performed web application security testing for a Fortune 50 
+            company as well as other industries including finance, healthcare, and retail. Savannah holds a 
+            Master of Science in Computing Security and a Bachelor of Science in Computer Science.
+        - name: Zachary Wallace
+          bio: >
+            Zachary specializes in web application security and has a background in penetration testing, mobile 
+            application security and AI/LLM security. He has conducted application assessments for clients in 
+            various industries including banking, insurance, healthcare, telecommunications, transportation, 
+            and many others. Zachary has a Bachelor of Science degree in Cybersecurity with a minor in 
+            Digital Forensics.
       url: /2025/day1/track1#track1-s4
       icons: 
         - ai-emerging-tech
@@ -129,6 +171,20 @@ sessions:
         in any crisis: clear communication, adaptability, and moral courage. Drawing parallels to IT 
         professionals, the presentation provides a framework for responding under pressure, emphasizing 
         preparedness, real-time strategy shifts, and decision-making amid uncertainty.
+      bios:
+        - name: Robert J. Darling
+          bio: >
+            Lieutenant Colonel Robert “Bob” Darling (Ret.) completed over 20 years of active-duty service 
+            with the U.S. Marine Corps in 2007. He flew attack helicopters in Desert Shield/Desert Storm 
+            and supported Operation Restore Hope in Somalia. Selected in 1998 as a presidential pilot with 
+            Marine Helicopter Squadron One, he later joined the White House Military Office’s Airlift 
+            Operations Department, supporting the President, Vice President, and National Security Advisor 
+            in the President’s Emergency Operations Center on September 11, 2001. Bob is President and CEO 
+            of Flash Emergency Management, a crisis leadership training and technology company. A 
+            sought-after speaker on crisis leadership and decision-making, he has addressed Harvard’s Kennedy 
+            School, the FBI National Academy, and numerous academic, government, and military organizations. 
+            He is the author of 24 Hours Inside the President’s Bunker and a contributing author to the 
+            Routledge Companion on Security and Risk in Business.
       url: /2025/day1/track-2#track2-s1
       icons:
         - business-governance-risk
@@ -144,6 +200,18 @@ sessions:
         enabled early detection of credential leaks and geopolitical warning signals, helping organizations 
         strengthen Identity and Access Management (IAM) and adjust security posture. Attendees will learn 
         to embed CTI into IAM, automate response, and align intelligence with business risk.
+      bios:
+        - name: Stephanie Keinz
+          bio: >
+            Stephanie is passionate about raising awareness of cybersecurity challenges, blending strategic 
+            analysis with a deep understanding of how geopolitical trends influence current threats. In her 
+            current role as cyber threat intelligence analyst at LastPass, she tackles emerging threats, 
+            provides insights and actionable intelligence, and monitors significant events in the 
+            cybersecurity landscape. Prior to joining LastPass, Stephanie served as strategic cyber threat 
+            intelligence nation-state lead at Bank of America for over four years and consulted for the 
+            Congressional Research Service on Russian hybrid warfare. Stephanie is a graduate of George 
+            Washington University’s Elliott School of International Affairs (MA) and St. Edward’s 
+            University (BA). 
       url: /2025/day1/track-2#track2-s2
       icons: 
         - business-governance-risk
@@ -158,6 +226,16 @@ sessions:
         to map findings to risk, track them through governance, and communicate them in business 
         terms. We’ll also define stakeholder roles to ensure issues aren’t just patched—but 
         prioritized and managed at the right level.
+      bios:
+        - name: Brandon Finton
+          bio: >
+            Brandon Finton is an experienced cybersecurity professional with over 20 years in 
+            technical and leadership roles across healthcare, finance, education, defense, and 
+            manufacturing. He specializes in risk management, compliance, and penetration testing 
+            with deep knowledge of standards such as HIPAA, PCI DSS, CMMC, and NIST frameworks. 
+            Brandon holds a master’s in Telecommunications and Network Management from Syracuse 
+            University and a bachelor’s in Business Administration from RIT. He is a CISSP, CISM, 
+            and speaks regularly at security conferences and industry events.
       url: /2025/day1/track-2#track2-s3
       icons:
         - business-governance-risk
@@ -168,6 +246,13 @@ sessions:
         We'll peel away all the extras and get to basics about what Governance is, and how to 
         approach governance regardless of context. This talk will help build the solid foundation 
         to build a solid governance framework on.
+      bios:
+        - name: Mark Christman
+          bio: >
+            Mark formed many of his ideas about governance over the 20 years working for Xerox. 
+            Most recently, the past four years with Microsoft have been focused on teaching and 
+            consulting about IT Service Management, Governance, and Adoption. While Mark's focus 
+            is on infrastructure, he can talk security and compliance.
       url: /2025/day1/track-2#track2-s4
       icons: 
         - business-governance-risk
@@ -182,6 +267,15 @@ sessions:
         can be used to facilitate analysis of attacks. This is a technical presentation geared towards 
         SOC teams, security analysts, and/or threat hunters and will include packet captures and other 
         low-level technical minutiae.
+      bios:
+        - name: Rich Savacool
+          bio: >
+            Rich Savacool is the Chief Security Officer for Nixon Peabody, LLP, a law firm based out 
+            of Rochester, N.Y. He has thirty years of experience in  networking and systems security 
+            for both commercial and government sectors. Rich holds numerous industry certifications 
+            as well as a Master of Science degree in Computing Security and Information Assurance 
+            from Rochester Institute of Technology. When not at work, Rich is an assistant instructor 
+            of Aikido at the Eastern Sky dojo in Fairport, NY under the tutelage of Paul Gardner Sensei.
       url: /2025/day1/track-3#track3-s1
       icons: 
         - tech-defense-infrastructure
@@ -195,6 +289,16 @@ sessions:
         across all IT infrastructure layers by creating granular, isolated security zones around workloads 
         and applications. You'll gain insights into how this significantly reduces the "blast radius" of a 
         breach, limits attacker movement, and strengthens your overall cybersecurity posture.
+      bios:
+        - name: Jonathan Borgesen
+          bio: >
+            Jonathan Borgesen is a Client Security Principal for ePlus and is responsible for the overall 
+            security practice in the Upstate NY, New England, and United Kingdom regions. He has been a 
+            part of the security industry since 2009 with a focus dedicated to educating, consulting, and 
+            assisting local organizations to enable them to achieve their security goals. Throughout his 
+            tenure Jonathan has participated in and presented at many educational events at both the local 
+            and national level. This has allowed him to gain a greater understanding of security trends 
+            from a perspective that expands beyond the upstate, New England, and United Kingdom regions.
       url: /2025/day1/track-3#track3-s2
       icons:
         - tech-defense-infrastructure
@@ -208,6 +312,15 @@ sessions:
         fun, you'll learn how to architect, deploy, and maintain a lab tailored to your goals. We'll 
         cover practical setups and tips to get started fast. No enterprise budget required—just curiosity, 
         that crappy old laptop in your closet, and a power strip.
+      bios:
+        - name: Jim Keeler
+          bio: >
+            Jim Keeler is a software engineer-turned-hacker. After 14 years building enterprise systems, 
+            he now punches giant holes in them developing exploits instead of features. From pentester to 
+            red teamer to analyst to security engineer, Jim has had a winding security career path through 
+            various offensive and application security roles. These days, he's the principal product security 
+            engineer at a growing industrial cybersecurity company where he's helping engineering teams ship 
+            secure code without slowing down. If you catch him at RSS, ask him about his home lab.
       url: /2025/day1/track-3#track3-s3
       icons:
         - tech-defense-infrastructure
@@ -222,6 +335,16 @@ sessions:
         In this session, we will explore malicious extensions, how they become compromised, what data 
         they can access, and how they work under the hood, out of the belief that this is an up-and-coming 
         threat vector that is relevant to a broad cross-section of security practitioners today.
+      bios:
+        - name: Or Eshed
+          bio: >
+            Or Eshed is co-founder and CEO of LayerX Security. Or has over 15 years of cybersecurity 
+            experience sa an ML developer, security and intelligence researcher, and cybersecurity 
+            analyst. Prior to founding LayerX, Or worked as a cyber threat intelligence analyst at Check 
+            Point, Otorio, and ABN AMRO Bank. His work has led to the arrest of at least 15 threat actors 
+            and the exposure of the largest browser hijacking operation in history with over 50M browsers 
+            compromised. He has also written and spoken on topics of cybersecurity extensively. In addition, 
+            Or holds an MSc in Applied Economics.
       url: /2025/day1/track-3#track3-s3
       icons:
         - tech-defense-infrastructure

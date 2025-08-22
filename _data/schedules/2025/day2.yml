@@ -71,6 +71,14 @@ sessions:
         stops being just your private data and quietly becomes shared or "cooperatively private" data.  My 
         session will step you through the scenario of how this intelligence was used to compromise a highly 
         secure facility. The session is informative while also carries a lot of humor.
+      bios:
+        - name: Steve Stasiukonis
+          bio: >
+            Steve serves as President of Secure Network Technologies, focusing on Penetration Testing, 
+            Information Security Risk Assessments, Incident Response, Digital Forensic Investigations and 
+            Training. He has worked in the field of Information Security for over 28 years, as a part of 
+            that experience, Steve is an expert in Social Engineering methodologies and strategy.  He also 
+            serves as a columnist for Information Week magazine and DarkReading.com
       url: /2025/day2/track-1#track1-s1
       icons:
         - ai-emerging-tech
@@ -84,7 +92,17 @@ sessions:
         AI security, with a particular emphasis on risk management and governance frameworks.  We will explore 
         the types of risks associated with AI, including breaches, adversarial attacks, and compliance challenges.  
         The discussion will cover the potential vulnerabilities in AI systems and the impact these risks can have 
-        on organizational operations and trust. 
+        on organizational operations and trust.
+      bios:
+        - name: David Santeramo
+          bio: >
+            David Santeramo, Network and Security Leader for Pellera Technologies, combines more than two 
+            decades of security expertise and risk management securing some of the world’s most critical 
+            infrastructures. From technical research to building and implementing enterprise security programs, 
+            David has a track record of success with a wide variety of organizations. David is an active 
+            contributor in the security community and participates in a variety of industry groups. David has 
+            earned a number of vendor security certifications as well as holding the CISSP, CISA and 
+            CGEIT credentials.
       url: /2025/day2/track-1#track1-s2
       icons:
         - ai-emerging-tech
@@ -99,6 +117,20 @@ sessions:
         traded. Expect real-world insights, examples of leaked data, and a no-jargon framework to guide 
         strategic cybersecurity decisions. This talk is designed to sharpen your understanding of Risk and 
         strengthen your response.
+      bios:
+        - name: Bruce Cheney
+          bio: >
+            Bruce Cheney is a seasoned cybersecurity expert with over 25 years of experience in IT and security. 
+            He is known for translating complex cyber threats into practical, real-world insight, helping 
+            organizations understand and mitigate risks such as ransomware, data leaks, extortion campaigns, 
+            and emerging threats from the dark web. Bruce has deep technical expertise across the full 
+            technology stack (Layers 1–7) and is skilled at bridging the gap between technical teams and 
+            executive leadership. He excels in identifying security gaps and clearly articulating the steps 
+            needed to close them. Bruce has a proven track record in designing, deploying, and securing 
+            enterprise technologies. His passion lies in operationalizing cybersecurity—ensuring that defenses 
+            are not only implemented but also maintained through effective training and knowledge transfer. 
+            Whether consulting, mentoring, or speaking, Bruce brings clarity and actionable solutions to 
+            today’s most pressing cyber risks.
       url: /2025/day2/track-1#track1-s3
       icons:
         - tech-defense-infrastructure
@@ -113,18 +145,53 @@ sessions:
         to be secured. Financial Processes such as Purchase Order process, HR processes such as employee 
         termination pose a great risk to any organization because if the process is manipulated sufficiently 
         any theft rising from it becomes much harder to identify.
+      bios:
+        - name: Sherwyn Moodley
+          bio: >
+            Sherwyn Moodley is the Director of Offensive Security at Zyston. Before joining Zyston, Sherwyn 
+            founded Exocet Security, a cybersecurity consultancy aimed at helping startups gain cybersecurity 
+            maturity. He has also participated in security research programs and has received accolades from 
+            Sony, the Royal Bank of Scotland, Redhat, and the US DoD. Before Cybersecurity, Sherwyn started 
+            as a Network Engineer working on large LAN projects for Dimension Data and Vodacom. 
+        - name: James Hasewinkle
       url: /2025/day2/track-1#track1-s4
       icons:
         - tech-defense-infrastructure
   track2:
     - title: "Women in IT Roundtable: Leadership, Opportunity and Equity - The Future for Women in IT"
-      presenter: Linda Weller & Industry Experts
+      presenter: Susan O'Sullivan (Moderator), Linda Weller, Annette Warren, and Mehruz Kamal
       abstract: >
         This dynamic roundtable brings together local IT leaders, educators, and emerging professionals 
         to explore the future for women in tech. Through a moderated discussion covering leadership, 
         barriers, opportunity, and equity, panelists will share insights and personal stories to inspire 
         change. Attendees will hear data-driven context, rapid-fire reflections, and audience 
         Q&A—leaving with actionable takeaways and resources to support women’s advancement in IT.
+      bios:
+        - name: Susan O'Sullivan, Moderator
+          bio: >
+            Following a 20-year career at Ingram Micro, Susan O’Sullivan is now the President of S0S – 
+            Strategies, Opportunities & Solutions in Buffalo. She has over 30 years’ experience as a 
+            thought leader, driving digital transformation, business growth and inclusive leadership.
+        - name: Linda Weller
+          bio: >
+            With a belief that IT should be both a business and a people-oriented organization, Linda 
+            Weller has guided Info Advantage toward its continued success as a top-tier information 
+            technology service firm in Rochester. Her leadership as President combines strategic insight 
+            with a genuine passion for maintaining a workplace that is both high-performing 
+            and human-centered.
+        - name: Annette Warren
+          bio: >
+            With a lifelong passion for business and people, Annette Warren leads iSECURE with integrity, 
+            vision and a unique perspective shaped by her family and business roots. As President, she is 
+            known for building strong client partnerships and tackling challenges head-on, guiding iSECURE 
+            to become a Top 100 Rochester company.
+        - name: Mehruz Kamal
+          bio: >
+            Mehruz Kamal, PhD is Chair and Associate Professor of the Department of Computing Sciences at 
+            SUNY Brockport. She previously worked as a software engineer for Motorola and is currently 
+            involved in the IS/T research community, where she focuses on Information Technology for 
+            Development, investigating how IT can help bring about both social and economic development of 
+            a community.
       url: /2025/day2/track-2#track2-s1
       icons:
         - industry-community-perspectives
@@ -137,6 +204,16 @@ sessions:
         notification, damage control, malware containment, and more. This hands-on tabletop exercise 
         challenges assumptions, sparks new strategies, and prepares your team for real-world threats. 
         Ideal for IT leaders, executives, and security professionals.
+      bios:
+        - name: John D. Flory III
+          bio: >
+            John D. Flory III is a recognized cybersecurity expert with 25+ years of hands-on experience 
+            combating real-world cyber threats. He’s collaborated globally with law enforcement to disrupt 
+            cybercrime, leading to arrests, extraditions, and victim restitution. A featured keynote 
+            speaker and thought leader, John has been published in major industry outlets and presented at 
+            top conferences including DHS, NYSBA and Symantec. He’s a proven leader, former Partner at TAG 
+            Solutions, Co-Founder of Cyberstone, and currently serves as CISO at Harbor IT and creator of 
+            HarborShield Cybersecurity.
       url: /2025/day2/track-2#track2-s2
       icons:
         - industry-community-perspectives
@@ -148,6 +225,19 @@ sessions:
         the MITRE ATT&CK framework to deeply assess vendor security. Real-world examples illustrate 
         how these techniques effectively uncover hidden vulnerabilities and strengthen proactive 
         risk management.
+      bios:
+        - name: Alicia Gristmacher
+          bio: >
+            Alicia Gristmacher, Manager of IT Vendor Risk Management at Hyatt Hotels Corporation, 
+            leads the global Third-Party Risk Management program with 25 years’ experience in vendor 
+            risk, cybersecurity compliance, and information security. She oversees the full vendor 
+            lifecycle, from onboarding and risk assessments to continuous monitoring and incident 
+            response. Known for automating processes, improving efficiency, and aligning governance 
+            with industry standards, Alicia holds CRVPM and C-VMPRA certifications. She excels in 
+            communicating complex risks to executives, managing vendor-related cyber incidents, and 
+            fostering cross-functional collaboration. A speaker at ISC2 Security Congress and RH-ISAC 
+            events, she drives innovation, ensures compliance, and safeguards Hyatt’s vendor ecosystem 
+            while enabling strategic growth.
       url: /2025/day2/track-2#track2-s3
       icons:
         - business-governance-risk
@@ -160,7 +250,17 @@ sessions:
         the assumption that disaster recovery preparedness is cost prohibitive. We’ll break down these 
         barriers by sharing an approachable, methodical strategy for creating a disaster recovery plan. 
         You’ll learn about the disaster handling lifecycle, backup strategies, recovery priorities, and 
-        more. We’ll also examine a disaster recovery plan template adaptable for your organization. 
+        more. We’ll also examine a disaster recovery plan template adaptable for your organization.
+      bios:
+        - name: Jason Taylor
+          bio: >
+            Jason is the Senior Cybersecurity Program Analyst at Sedara, a Buffalo-based MSSP. He 
+            specializes in helping organizations build holistic, sustainable cybersecurity programs 
+            achievable for their resources and risk tolerance. Disaster recovery planning is one of his 
+            favorite aspects of a cybersecurity program because it brings together technical and 
+            non-technical stakeholders for a shared goal: ensuring the organization can continue to 
+            operate. Prior to joining the cybersecurity field Jason was a social studies educator in the 
+            Rochester City School District.
       url: /2025/day2/track-2#track2-s4
       icons:
         - business-governance-risk
@@ -176,6 +276,18 @@ sessions:
         and third-party services. These improvements help organizations perform deeper risk assessments 
         and enhance their overall security posture. Attendees will learn how to use these new features 
         to uncover hidden exposure and dependencies across complex digital ecosystems.
+      bios:
+        - name: Jeff Foley
+          bio: >
+            Jeff Foley has over 20 years of experience in information security, specializing in research, 
+            security assessment, and attack surface management. He leads Amass, an OWASP Flagship Project 
+            providing guidance and tools for mapping and discovering assets, and is Head of Research at 
+            KYND, advancing cyber risk technology. Previously, he was VP of Research at ZeroFox and Global 
+            Head of Attack Surface Management at Citi, launching its first exposure management program. 
+            Jeff began as a contractor with the U.S. Air Force Research Laboratory, later serving at 
+            Northrop Grumman as SME for Offensive Cyber Warfare R&D and Director of Penetration Testing. He 
+            has spoken at numerous conferences and taught at academic institutions on offensive security, 
+            cloud security, and attack surface management.
       url: /2025/day2/track-3#track3-s1
       icons:
         - tech-defense-infrastructure
@@ -190,6 +302,16 @@ sessions:
         log data to trigger alerts for potential incidents. Whether you're looking for artifacts in network 
         traffic, file structures, or endpoint logs, it's easy to create new detection rules so your analysts 
         are aware when something suspicious rears its head.
+      bios:
+        - name: Matthew Gracie
+          bio: >
+            Matthew Gracie is a defensive security specialist with fifteen years of Blue Team experience in 
+            higher education, manufacturing, financial services, and healthcare. He is currently a Senior 
+            Engineer on the professional services team at Security Onion Solutions, as well as an adjunct 
+            professor of Cybersecurity in the graduate school at Canisius University. Matt is also the lead 
+            organizer of Infosec 716, a monthly meetup for security enthusiasts in Western New York, and the 
+            BSides Buffalo technology conference. He enjoys good beer, mountain bikes, open source security 
+            tools, and college hockey, and can be found on Bluesky as @InfosecGoon.
       url: /2025/day2/track-3#track3-s2
       icons:
         - tech-defense-infrastructure
@@ -203,6 +325,17 @@ sessions:
         your disposal for empowering your analysts to streamline their jobs to get quicker 
         resolutions and free them up to focus on proactive security rather then reactive 
         security measures.
+      bios:
+        - name: Gregory Stachura
+          bio: >
+            Greg is a Senior Manager at Security Risk Advisors where he has helped run and manage an 
+            MSSP offering for a 24/7/365 CyberSOC services, focusing more recently on innovating in the 
+            SOC space. Greg has architected, deployed, and managed SIEM environments, orchestration and a
+            utomations platforms, and developed custom tools for SOC analysts. He also has extensive 
+            background in Incident Response playbook development, log analysis, and forensics in health 
+            care, financial, and academic environments. Greg earned his MBA from the Rochester Institute of 
+            Technology with an Advanced Certificate in Information Assurance. Prior to joining Security 
+            Risk Advisors, Greg worked extensively in the financial, healthcare, and education sectors. 
       url: /2025/day2/track-3#track3-s3
       icons:
         - tech-defense-infrastructure
@@ -214,6 +347,13 @@ sessions:
         those products are correctly handling your single sign-on responses? We'll talk about 
         the common SSO protocols, how they work, how to test that they're configured securely, and 
         see some hypothetical ways that they've gone wrong in the past.
+      bios:
+        - name: Clay Cooper
+          bio: >
+            Clay Cooper is an IAM Platform Engineer at Rochester Institute of Technology, working with 
+            the team that manages the accounts, authentication experience and platforms, and identity 
+            data for students, employees, alumni, contractors, and guests for the Rochester campus and 
+            a number of campuses worldwide.
       url: /2025/day2/track-3#track3-s4
       icons:
         - tech-defense-infrastructure
