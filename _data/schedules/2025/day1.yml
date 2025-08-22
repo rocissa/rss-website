@@ -46,7 +46,7 @@ session_times:
 icons:
   human-factors-awareness:
     icon: 🟪
-    label: "Human Facors & Awareness"
+    label: "Human Factors & Awareness"
   business-governance-risk:
     icon: 🔷
     label: "Business, Governance, & Risk"
@@ -64,27 +64,71 @@ sessions:
   track1:
     - title: Why Your Employees Should Click MORE Suspicious Emails (Seriously)
       presenter: Joshua Crumbaugh
+      abstract: >
+        People tune out slide decks; they lean into stories, streaks, and social proof. Social Engineering 
+        for Good distills decades of behavior science into a 10-control framework that trains instinct, not 
+        compliance. Learn why identical-element practice, dual-coding visuals, and variable-reward gamification 
+        slash phishing success up to 95%, and see a maturity ladder that lets any CISO measure culture immunity 
+        in 90 days.
       url: /2025/day1/track-1#track1-s1
       icons:
         - human-factors-awareness
     - title: Critical Infrastructure Security in Your Home Town
       presenter: David I. Schwartz, Ph.D.
+      abstract: >
+        Government agencies typically run tabletop exercises with critical infrastructure stakeholders for 
+        disaster scenarios, which benefit from modern gaming technology and design to provide greater appeal 
+        and engagement. With the Army Cyber Institute (West Point), an RIT team developed an open-source 
+        framework, JACK VOLTAIC™ 4 (JV4), to educate government and industry stakeholders about cybersecurity 
+        attacks on critical infrastructure sectors, especially given convergences with physical disasters. JV4 
+        includes a framework to modify provided games or create new ones via digital card game mechanics. The 
+        presentation will demonstrate JV4’s framework, card-based gameplay, built-in networking, and cards for 
+        attackers, defenders, and physical events.
       url: /2025/day1/track-1#track1-s2
       icons:
         - human-factors-awareness
     - title: A Beginner's Guide MITRE ATLAS (Adversarial Threat Landscape for AI Systems)
       presenter: Elaine Harrison-Neukirch
+      abstract: >
+        Artificial intelligence is powering everything from job screening tools to self-driving cars—but what 
+        happens when hackers go after the AI itself? In this fun and accessible talk, we’ll explore MITRE 
+        ATLAS (Adversarial Threat Landscape for Artificial-Intelligence Systems), a growing framework designed 
+        to help us understand and defend against attacks targeting machine learning and AI systems.
+
+        This session will guide you through:
+
+        - What MITRE ATLAS is and how it works
+        - Real-world examples of how you can use MITRE ATLAS to defend your organization.
+        - Simple ways to start thinking about AI security and governance.
+        - You’ll leave with a clear understanding of AI-specific threats, how they differ from traditional cyberattacks. 
+        - Bring your laptop if you’d like to explore MITRE ATLAS during the session.
       url: /2025/day1/track-1#track1-s3
       icons:
         - ai-emerging-tech
     - title: "What Could Go Wrong?: AI Security Mistakes Even Fortune 500 Companies Are Making"
       presenter: Savannah Alfaro & Zachary Wallace
+      abstract: >
+        As AI systems rapidly integrate into applications and workflows, they introduce a new set of risks 
+        and reshape existing security challenges. This talk dives into the key threats outlined in the OWASP 
+        Top 10 for LLMs, including prompt injection, sensitive data disclosure, and excessive agency. We'll 
+        demonstrate these vulnerabilities using real-world scenarios with mock demonstrations and discuss how 
+        to test, harden, and responsibly deploy AI solutions. Whether you're involved in red teaming, 
+        development, or defense, you'll leave with practical takeaways and a deeper understanding of LLM-specific 
+        threats.
       url: /2025/day1/track1#track1-s4
       icons: 
         - ai-emerging-tech
   track2:
     - title: "Leading in Times of Uncertainty; 9/11/01: The White House"
       presenter: Robert J. Darling
+      abstract: >
+        On 9/11, I supported the White House response from the underground White House bunker known 
+        as the PEOC, witnessing firsthand the demands of crisis leadership. "Leading in Times of 
+        Uncertainty" explores how leaders like Vice President Cheney and National Security Advisor 
+        Rice made urgent decisions with limited information. The experience underscores traits essential 
+        in any crisis: clear communication, adaptability, and moral courage. Drawing parallels to IT 
+        professionals, the presentation provides a framework for responding under pressure, emphasizing 
+        preparedness, real-time strategy shifts, and decision-making amid uncertainty.
       url: /2025/day1/track-2#track2-s1
       icons:
         - business-governance-risk
@@ -92,37 +136,92 @@ sessions:
         - industry-community-perspectives
     - title: Cyber Threat Intelligence Content Analyst
       presenter: Stephanie Keinz
+      abstract: >
+        In today’s threat landscape, credential-based attacks and geopolitically driven cyber campaigns 
+        are persistent and evolving. This session shows how organizations can shift from reactive defense 
+        to proactive security by operationalizing Cyber Threat Intelligence (CTI) and AI-driven automation 
+        to anticipate identity-based threats. Stephanie Schneider will share real-world cases where CTI 
+        enabled early detection of credential leaks and geopolitical warning signals, helping organizations 
+        strengthen Identity and Access Management (IAM) and adjust security posture. Attendees will learn 
+        to embed CTI into IAM, automate response, and align intelligence with business risk.
       url: /2025/day1/track-2#track2-s2
       icons: 
         - business-governance-risk
     - title: "Beyond the Report: Why Pen Testing is a GRC Responsibility"
       presenter: Brandon Finton
+      abstract: >
+        Penetration testing is often treated as a technical checkbox or annual compliance task, 
+        with findings reviewed briefly and then forgotten. This session challenges that approach 
+        by showing how pen test results should be integrated into an organization’s GRC program. 
+        Through real-world examples, we’ll show how technical issues often reflect deeper 
+        governance failures like weak policies or poor change control. Attendees will learn how 
+        to map findings to risk, track them through governance, and communicate them in business 
+        terms. We’ll also define stakeholder roles to ensure issues aren’t just patched—but 
+        prioritized and managed at the right level.
       url: /2025/day1/track-2#track2-s3
       icons:
         - business-governance-risk
     - title: Governance Foundations
       presenter: Mark Christman
+      abstract: >
+        Governance, for all the hype, is straight forward and simple. That doesn't mean 'easy'. 
+        We'll peel away all the extras and get to basics about what Governance is, and how to 
+        approach governance regardless of context. This talk will help build the solid foundation 
+        to build a solid governance framework on.
       url: /2025/day1/track-2#track2-s4
       icons: 
         - business-governance-risk
   track3:
     - title: Technical Analysis of Recent Endpoint Attacks
       presenter: Rich Savacool
+      abstract: >
+        This presentation builds upon and expands technical content presented during two previous 
+        Rochester ISSA chapter meetings: Getting Started with Threat Hunting (December 4, 2023) and 
+        Analyzing a Recent Endpoint Attack (April 21, 2025).  The presentation will include examples 
+        of common obfuscation methods used by adversaries and well and tips, tricks, and tools that 
+        can be used to facilitate analysis of attacks. This is a technical presentation geared towards 
+        SOC teams, security analysts, and/or threat hunters and will include packet captures and other 
+        low-level technical minutiae.
       url: /2025/day1/track-3#track3-s1
       icons: 
         - tech-defense-infrastructure
     - title: Reduce the Blast Radius with Microsegmentation
       presenter: Jonathan Borgesen
+      abstract: >
+        Many organizations struggle with security in complex IT environments, from legacy data 
+        centers to the cloud deployments. A key challenge is defending against malicious lateral 
+        movement (east/west traffic). We will discuss how segmentation and microsegmentation offer a 
+        proven strategy to mitigate these risks. We'll explore how these approaches enhance security 
+        across all IT infrastructure layers by creating granular, isolated security zones around workloads 
+        and applications. You'll gain insights into how this significantly reduces the "blast radius" of a 
+        breach, limits attacker movement, and strengthens your overall cybersecurity posture.
       url: /2025/day1/track-3#track3-s2
       icons:
         - tech-defense-infrastructure
     - title: Beginner’s Guide to Starting a Security Home Lab
       presenter: Jim Keeler
+      abstract: >
+        Want to level up your security skills without risking your production environment—or 
+        your job? In this talk, we’ll walk through building your own security home lab: a low-cost, 
+        high-impact space to test tools, simulate attacks, and sharpen both offensive and defensive 
+        skills. Whether you're into red teaming, detection engineering, or just breaking things for 
+        fun, you'll learn how to architect, deploy, and maintain a lab tailored to your goals. We'll 
+        cover practical setups and tips to get started fast. No enterprise budget required—just curiosity, 
+        that crappy old laptop in your closet, and a power strip.
       url: /2025/day1/track-3#track3-s3
       icons:
         - tech-defense-infrastructure
     - title:  Stealing User Credentials and Data with Malicious Browser Extensions
       presenter: Or Eshed
+      abstract: >
+        Malicious browser extensions are an emerging attack vector for a simple reason: they work. 
+        In fact, compromised browser extensions are probably the biggest under-the-radar threat surface 
+        that most organizations don’t know about. Malicious browser extensions can steal a wide array 
+        of user identity information such as passwords, cookies, session tokens, etc., as well as 
+        sensitive data, such as page contents, input method interception, audio/video access, and more. 
+        In this session, we will explore malicious extensions, how they become compromised, what data 
+        they can access, and how they work under the hood, out of the belief that this is an up-and-coming 
+        threat vector that is relevant to a broad cross-section of security practitioners today.
       url: /2025/day1/track-3#track3-s3
       icons:
         - tech-defense-infrastructure

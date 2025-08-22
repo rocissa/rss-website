@@ -46,7 +46,7 @@ session_times:
 icons:
   human-factors-awareness:
     icon: 🟪
-    label: "Human Facors & Awareness"
+    label: "Human Factors & Awareness"
   business-governance-risk:
     icon: 🔷
     label: "Business, Governance, & Risk"
@@ -64,65 +64,156 @@ sessions:
   track1:
     - title: "When AI Walks Through the Front Door: Using Artificial Intelligence for Physical Social Engineering"
       presenter: Steve Stasiukonis
+      abstract: >
+        AI made breaking into a secure data center a lot less like "Mission: Impossible" and more like "Mission: 
+        Improbably Easy." We used an AI tool to gather public information (OSINT) from all over the internet. 
+        When sensitive information is entered into AI systems—especially public or third-party platforms—it 
+        stops being just your private data and quietly becomes shared or "cooperatively private" data.  My 
+        session will step you through the scenario of how this intelligence was used to compromise a highly 
+        secure facility. The session is informative while also carries a lot of humor.
       url: /2025/day2/track-1#track1-s1
       icons:
         - ai-emerging-tech
         - human-factors-awareness
     - title: "Keeping your AI in Check; No, It Shouldn't Know Your Passwords"
       presenter: David Santeramo
+      abstract: >
+        Artificial Intelligence (AI) is rapidly transforming industries and societies worldwide, offering 
+        unprecedented opportunities and benefits.  However, the deployment of AI systems also introduces 
+        significant security risks and challenges.  This presentation will delve into the critical aspects of 
+        AI security, with a particular emphasis on risk management and governance frameworks.  We will explore 
+        the types of risks associated with AI, including breaches, adversarial attacks, and compliance challenges.  
+        The discussion will cover the potential vulnerabilities in AI systems and the impact these risks can have 
+        on organizational operations and trust. 
       url: /2025/day2/track-1#track1-s2
       icon:
         - ai-emerging-tech
     - title: "Exposing the Real Risk: How Ransomware, Extortion, and the Dark Web Are Evolving"
       presenter: Bruce Cheney
+      abstract: >
+        Cybercriminals aren’t just using ransomware—they’re running extortion campaigns, leaking data on the 
+        dark web, and adapting faster than ever. With losses exceeding $16.6 billion in 2024, the stakes are 
+        higher than ever for security teams. In this technical session, Bruce Cheney, Sr. Engineer at Arctic 
+        Wolf, dives deep into how today’s most dangerous threat actors operate. He’ll analyze real-world data 
+        leaks, dissect extortion tactics, and walk through the dark web ecosystems where stolen data is 
+        traded. Expect real-world insights, examples of leaked data, and a no-jargon framework to guide 
+        strategic cybersecurity decisions. This talk is designed to sharpen your understanding of Risk and 
+        strengthen your response.
       url: /2025/day2/track-1#track1-s3
       icons:
         - tech-defense-infrastructure
         - business-governance-risk
     - title: "Hacking the Process - Business Process Compromise"
       presenter: Sherwyn Moodley & James Hasewinkle
+      abstract: >
+        The information security field focuses on preventing unauthorized access, use, disclosure, disruption, 
+        modification, inspection, recording, or destruction of information. This is accomplished by securing 
+        assets and people, using frameworks and methodologies such as the CIS top 18 and NIST. Hacking a 
+        Business Process requires hacking these assets or people first, but the business process still needs 
+        to be secured. Financial Processes such as Purchase Order process, HR processes such as employee 
+        termination pose a great risk to any organization because if the process is manipulated sufficiently 
+        any theft rising from it becomes much harder to identify.
       url: /2025/day2/track-1#track1-s4
       icons:
         - tech-defense-infrastructure
   track2:
     - title: "Women in IT Roundtable: Leadership, Opportunity and Equity - The Future for Women in IT"
       presenter: Linda Weller & Industry Experts
+      abstract: >
+        This dynamic roundtable brings together local IT leaders, educators, and emerging professionals 
+        to explore the future for women in tech. Through a moderated discussion covering leadership, 
+        barriers, opportunity, and equity, panelists will share insights and personal stories to inspire 
+        change. Attendees will hear data-driven context, rapid-fire reflections, and audience 
+        Q&A—leaving with actionable takeaways and resources to support women’s advancement in IT.
       url: /2025/day2/track-2#track2-s1
       icons:
         - industry-community-perspectives
     - title: "Breach Response in Real Time: An Interactive Cybersecurity Simulation"
       presenter: John D. Flory III
+      abstract: >
+        Join us for Breach Response in Real Time, an interactive incident response simulation that puts 
+        you in the middle of a live cyberattack scenario. Through video storytelling and expert-led 
+        discussion, you'll make key decisions as a breach unfolds. Explore third-party risk, public 
+        notification, damage control, malware containment, and more. This hands-on tabletop exercise 
+        challenges assumptions, sparks new strategies, and prepares your team for real-world threats. 
+        Ideal for IT leaders, executives, and security professionals.
       url: /2025/day2/track-2#track2-s2
       icons:
         - industry-community-perspectives
     - title: "Beyond the Obvious: Why 1+1 = 3 in Third-Party Risk"
       presenter: Alicia Gristmacher
+      abstract: >
+        Traditional third-party risk management often relies on basic compliance checks, missing 
+        critical risks. This session introduces subjective and deductive reasoning methods within 
+        the MITRE ATT&CK framework to deeply assess vendor security. Real-world examples illustrate 
+        how these techniques effectively uncover hidden vulnerabilities and strengthen proactive 
+        risk management.
       url: /2025/day2/track-2#track2-s3
       icons:
         - business-governance-risk
     - title: "Disaster Recovery Planning: From Theory to Action"
       presenter: Jason Taylor
+      abstract: >
+        This presentation covers how to create a practical disaster recovery plan to quickly restore 
+        operations after a widespread or severe service disruption. Organizations often struggle to 
+        create usable disaster recovery plans due to limited visibility into their infrastructure or 
+        the assumption that disaster recovery preparedness is cost prohibitive. We’ll break down these 
+        barriers by sharing an approachable, methodical strategy for creating a disaster recovery plan. 
+        You’ll learn about the disaster handling lifecycle, backup strategies, recovery priorities, and 
+        more. We’ll also examine a disaster recovery plan template adaptable for your organization. 
       url: /2025/day2/track-2#track2-s4
       icons:
         - business-governance-risk
   track3:
     - title: "Lessons Learned from the OWASP Amass Project"
       presenter: Jeff Foley
+      abstract: >
+        The OWASP Amass Project has long served as a powerful tool for mapping external attack surfaces. 
+        Recent enhancements have elevated its discovery capabilities by incorporating insights into the 
+        organizations that register internet namespaces and IP address ranges. This talk will explore 
+        how leveraging Legal Entity Identifiers and RIR RDAP data enables more accurate and expansive 
+        identification of assets—not only for a target organization but also for its partners, suppliers, 
+        and third-party services. These improvements help organizations perform deeper risk assessments 
+        and enhance their overall security posture. Attendees will learn how to use these new features 
+        to uncover hidden exposure and dependencies across complex digital ecosystems.
       url: /2025/day2/track-3#track3-s1
       icons:
         - tech-defense-infrastructure
     - title: "My Cyber Sense Is Tingling! Detection Engineering With Free Tools"
       presenter: Matthew Gracie
+      abstract: >
+        Every threat hunt, every incident response, and every bulletin from your ISAC comes with a wealth 
+        of intelligence that you can leverage to spot suspicious or malicious activity in the future. The 
+        process of taking that information and turning it into reliable, repeatable alerting is known as 
+        Detection Engineering. In this talk I will demo the free and open Security Onion platform, the 
+        methods by which it can generate or ingest logs about your environment, and how we can use that 
+        log data to trigger alerts for potential incidents. Whether you're looking for artifacts in network 
+        traffic, file structures, or endpoint logs, it's easy to create new detection rules so your analysts 
+        are aware when something suspicious rears its head.
       url: /2025/day2/track-3#track3-s2
       icons:
         - tech-defense-infrastructure
     - title: "Drag, Drop, Defend: Making Security Scripts Accessible to Everyone"
       presenter: Gregory Stachura
+      abstract: >
+        Not all security analysts are strong coders or scripters, but they know what they need and 
+        when they need it. This talk will go through examples of how you can take a script written 
+        by one of your stronger coders and enable the rest of your team to build their own 
+        automations, workflows or integrations with low or no code solutions. Learn the options at 
+        your disposal for empowering your analysts to streamline their jobs to get quicker 
+        resolutions and free them up to focus on proactive security rather then reactive 
+        security measures.
       url: /2025/day2/track-3#track3-s3
       icons:
         - tech-defense-infrastructure
     - title: "Insecuring your Data Using Federated Authentication"
       presenter: Clay Cooper
+      abstract: >
+        Federated authentication is the gateway to zero-trust networking and access to the 
+        explosion of SaaS products that contain your company's data. How do you know that 
+        those products are correctly handling your single sign-on responses? We'll talk about 
+        the common SSO protocols, how they work, how to test that they're configured securely, and 
+        see some hypothetical ways that they've gone wrong in the past.
       url: /2025/day2/track-3#track3-s4
       icons:
         - tech-defense-infrastructure
