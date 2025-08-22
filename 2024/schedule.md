@@ -133,7 +133,7 @@ conference: 2024
 
 ## Day 2 - October 10 (Thursday)
 
-{% assign schedule = schedules[site.current_year].day2 %}
+{% assign schedule = schedules[2024].day2 %}
 
 <div class="schedule schedule-2024">
   <div class="no-mobile title">Start</div>
