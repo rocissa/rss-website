@@ -86,7 +86,7 @@ sessions:
         The discussion will cover the potential vulnerabilities in AI systems and the impact these risks can have 
         on organizational operations and trust. 
       url: /2025/day2/track-1#track1-s2
-      icon:
+      icons:
         - ai-emerging-tech
     - title: "Exposing the Real Risk: How Ransomware, Extortion, and the Dark Web Are Evolving"
       presenter: Bruce Cheney

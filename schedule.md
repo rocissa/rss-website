@@ -189,8 +189,8 @@ layout: page
   
   <div class="no-mobile">&nbsp;</div>
   <div class="no-mobile">&nbsp;</div>
-  <div class="no-mobile track track1 title"><div class="icon-tags"><ul><li aria-label="Human Factors &amp;  Awareness"><span aria-hidden="true">🟪</span></li><li aria-label="AI &amp; Emerging Technology"><span aria-hidden="true">🔺</span></li><li aria-label="Business, Governance &amp; Risk"><span aria-hidden="true">🔷</span></li><li aria-label="Technical Defense &amp; Infrastructure"><span aria-hidden="true">🟠</span></li></ul></div>Track 1</div>
-  <div class="no-mobile track track2 title"><div class="icon-tags"><ul><li aria-label="Industry &amp; Community Perspectives"><span aria-hidden="true">⭐</span></li><li aria-label="Business, Governance &amp; Risk"><span aria-hidden="true">🔷</span></li></ul></div>Track 2</div>
+  <div class="no-mobile track track1 title"><div class="icon-tags"><ul><li aria-label="AI &amp; Emerging Technology"><span aria-hidden="true">🔺</span></li><li aria-label="Technical Defense &amp; Infrastructure"><span aria-hidden="true">🟠</span></li></ul></div>Track 1</div>
+  <div class="no-mobile track track2 title"><div class="icon-tags"><ul><li aria-label="Industry &amp; Community Perspectives"><span aria-hidden="true">⭐</span></li></ul></div>Track 2</div>
   <div class="no-mobile track track3 title"><div class="icon-tags"><ul><li aria-label="Technical Defense &amp; Infrastructure"><span aria-hidden="true">🟠</span></li></ul></div>Track 3</div>
   <div class="no-mobile track other-events title">Other Events</div>
   <div class="no-mobile track sponsor columns-2 title">Sponsor Track</div>
