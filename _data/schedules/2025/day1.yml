@@ -132,7 +132,6 @@ sessions:
       url: /2025/day1/track-1#track1-s3
       icons:
         - ai-emerging-tech
-        - ai-emerging-tech
     - title: "What Could Go Wrong?: AI Security Mistakes Even Fortune 500 Companies Are Making"
       presenter: Savannah Alfaro & Zachary Wallace
       abstract: >
@@ -190,8 +189,8 @@ sessions:
         - business-governance-risk
         - human-factors-awareness
         - industry-community-perspectives
-    - title: Cyber Threat Intelligence Content Analyst
-      presenter: Stephanie Keinz
+    - title: Intersection of Geopolitics and Credential-Based Threats via Cyber Threat Intelligence Lens
+      presenter: Stephanie Schneider
       abstract: >
         In today’s threat landscape, credential-based attacks and geopolitically driven cyber campaigns 
         are persistent and evolving. This session shows how organizations can shift from reactive defense 
@@ -243,16 +242,16 @@ sessions:
       presenter: Mark Christman
       abstract: >
         Governance, for all the hype, is straight forward and simple. That doesn't mean 'easy'. 
-        We'll peel away all the extras and get to basics about what Governance is, and how to 
-        approach governance regardless of context. This talk will help build the solid foundation 
-        to build a solid governance framework on.
+        We'll peel away all the extras and get to basics about what Governance is, and what all 
+        governance frameworks will have in common regardless of context. This talk will help 
+        build the foundation to build a solid governance framework on. 
       bios:
         - name: Mark Christman
           bio: >
-            Mark formed many of his ideas about governance over the 20 years working for Xerox. 
-            Most recently, the past four years with Microsoft have been focused on teaching and 
-            consulting about IT Service Management, Governance, and Adoption. While Mark's focus 
-            is on infrastructure, he can talk security and compliance.
+           Mark formed many of his ideas about governance over the 20 years working for Xerox. 
+           Most recently, the past four years with Microsoft have been focused on teaching and 
+           consulting about IT Service Management, Governance, and Adoption. Although Mark's 
+           background is infrastructure, he can talk security and compliance.
       url: /2025/day1/track-2#track2-s4
       icons: 
         - business-governance-risk
@@ -369,7 +368,7 @@ sessions:
         Come & Go<br><br>
 
         Start: 12:30 pm<br>
-        End: 4:30 pm 
+        End: 3:45 pm 
       length: 2
     - skip: true
   sponsor1:
