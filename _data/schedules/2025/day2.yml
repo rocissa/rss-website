@@ -380,11 +380,135 @@ sessions:
     - skip: true
   sponsor1:
     - title: ""
+      sponsor: Cyera
+      sponsor_url:
+    - title: "Vendor Consolidation: Get Your Tools and Teams Pulling in the Same Direction"
+      presenter: Mark Rosenecker
+      abstract: >
+        Recent studies have shown that the average enterprise has over 50 different tools and 
+        services to manage, monitor, and secure their enterprise networks and data.  Often times, 
+        these tools are from a wide variety of manufacturers and service providers, and they lack 
+        native integration with one another.  Manual integration can be achieved, but it is costly 
+        and complex.  A lack of integration leads to gaps in information during an attack, when 
+        clear and concise information is critical, and minutes can cost millions.
+
+        Fortinet has the widest variety of cybersecurity solutions in the market today, and we have 
+        been integrating them into our Security Fabric for over 15 years.  Come see how we can 
+        streamline your security operations; lowering both capital and operational cost, while 
+        improving your security posture at the same time.
+      bios:
+        - name: Mark Rosenecker (Fortinet)
+          bio: >
+            Mark has spent the past 30+ years working in IT in a variety of roles, with the last 13 
+            of them being in cybersecurity, and he has worked as a Sr. System Engineer at Fortinet 
+            for over 6 years.  He has held certifications from several manufacturers, including HPE, 
+            Dell, VMware, Veeam, F5, Aruba, McAfee, Cisco, Palo Alto Networks, and of course, Fortinet.  
+            His broad experience with servers, storage, virtualization, networking, and security brings 
+            a unique perspective to his approach to CyberSecurity.  Mark’s over-arching philosophy with 
+            regards to design and architecture of any solution (but especially CyberSecurity) is KISS – 
+            Keep It Simple, Stupid!
+      sponsor: Fortinet
+      sponsor_url:
+      url: /2025/day2/sponsor-1#sponsor1-s2
+    - title: "Intro to Hybrid Cloud Physical Security"
+      abstract: >
+        Physical security has long been hindered by the limitations of on-premise DVR/NVR systems—complex 
+        maintenance, siloed devices, and lack of remote access. Verkada introduces a new approach: a 
+        hybrid cloud platform that combines the reliability of onboard storage with the accessibility and 
+        scalability of the cloud. In this session, we’ll explore how Verkada unifies video security, 
+        access control, sensors, alarms, and intercom under a single, easy-to-use interface. Attendees 
+        will learn how organizations across industries are modernizing security operations with real-time 
+        insights, seamless remote access, and simplified total cost of ownership. 
+      presenter: Sam Petrone and Derek Pastor
+      bios:
+        - name: Sam Petrone, Regional Sales Manager, Northeast
+        - name: Derek Pastor, Solutions Engineer and RIT Alum! 
+      sponsor: Verkada
+      sponsor_url:
+      url: /2025/day2/sponsor-1#sponsor1-s3
     - title: ""
-    - title: ""
-    - title: ""
+      sponsor: Palo Alto Networks
+      sponsor_url:
   sponsor2:
-    - title: ""
-    - title: ""
-    - title: ""
-    - title: ""
+    - title: "Choose Your Own Security Adventure: Navigating the Nightmare of Modern Threats"
+      presenter: Troels Emil Hojlund-Rasmussen
+      abstract: >
+        Step into a chilling, interactive cybersecurity experience where every decision could mean the 
+        difference between containment and catastrophe. In this session, attendees will follow the 
+        journey of Sarah, a junior security analyst, as she uncovers a vulnerability that spirals into 
+        a full-blown ransomware attack. Through branching decision points, participants will explore 
+        the consequences of common security choices — from quarantine protocols and ticketing delays 
+        to backup misconfigurations and BYOD risks.
+
+        This immersive “choose-your-own-adventure” format highlights how small missteps can compound 
+        into major breaches, and how layered security, policy enforcement, and incident response 
+        readiness are critical to survival. Attendees will encounter a rogues’ gallery of IT monsters 
+        — from unmanaged devices and shadow IT to credential abuse and backup sabotage — and learn how 
+        to hunt them before they strike.
+
+        Whether you're an MSP, IT leader, or security professional, this session will challenge your 
+        instincts, expose hidden gaps in your security stack, and offer practical strategies to build 
+        resilience against modern threats. Are you ready to enter the nightmare?
+      bios:
+        - name: Troels Emil Hojlund-Rasmussen
+          bio: >
+            Troels is tenured software executive having worked at companies such as Dentsu International 
+            and held various roles at Microsoft centered around growing and the Microsoft Cloud suite 
+            predominately Azure. He's been with N-able for the past 7+ years and is currently the general 
+            manager of N-able security business and heads up corporate development. Getting companies 
+            above the security poverty line and ensuring they're better armored for facing the ever 
+            evolving threat landscape is his primary focus.
+      sponser: N-able
+      sponsor_url:
+      url: /2025/day2/sponsor-2#sponsor2-s1
+    - title: "Beyond the Perimeter: Quantifying and Reducing Risk with AI-Driven Cyber Risk Exposure Management (CREM)"
+      presenter: Randal T. Rioux
+      abstract: >
+        Traditional perimeter-based defenses can’t keep pace in today’s cloud-native, AI-driven landscape. 
+        This session introduces Cyber Risk Exposure Management (CREM) and its role in transforming how 
+        organizations identify, quantify, and prioritize threats. Learn how Trend Micro Vision One 
+        integrates AI not only for detection, but also for risk scoring, prediction, and proactive response. 
+        We’ll explore how CREM translates technical exposure into business impact, guiding smarter resource 
+        allocation and executive-level decision making. See how AI-driven forecasting of likely attack paths 
+        enables security teams to stay ahead of adversaries, strengthen resilience, and demonstrate measurable 
+        value to the business.
+      bios:
+        - name: Randal T. Rioux
+          bio: >
+            Randal is a seasoned security practitioner and Solutions Engineer at Trend Micro, with a 
+            career spanning high-visibility roles at NASA, the U.S. Department of Defense, Tenable, 
+            Splunk, NVIDIA, and Red Hat. His expertise ranges from hacking pacemakers to cryptography, 
+            and from securing unconventional systems to driving strategic security architecture. Randal 
+            has led initiatives across SOC, PSIRT, CSIRT, DFIR, Threat Intelligence, and Vulnerability 
+            Management, while advancing the use of GPU and high-core-count CPU acceleration for anomaly 
+            detection, password cracking, and predictive analytics. As both advisor and engineer, he is 
+            dedicated to strengthening organizational resilience through innovative, data-driven security 
+            practices.
+      sponsor: Trend Micro Inc.
+      sponsor_url:
+      url: /2025/day2/sponsor-2#sponsor2-s2
+    - title: "The Browser is the New Perimeter: Why Defenders Must Rethink Identity-First Security"
+      presenter: Scott Bryant
+      abstract: >
+        The browser has become the new enterprise perimeter. It’s where employees access cloud apps, move 
+        data, and get work done — yet it remains one of the most under-defended layers in security. 
+        Traditional tools weren’t built to see or control what happens inside the browser, creating a 
+        blind spot attackers are actively exploiting. Today’s adversaries aren’t hacking in — they’re 
+        logging in. By phishing credentials, stealing tokens, or hijacking sessions, attackers can slip 
+        into apps through the browser and move quickly to sensitive systems, admin panels, and data 
+        stores — no malware required. AI-driven phishing and shadow SaaS adoption only expand the attack 
+        surface, while real-time attacks often finish before legacy monitoring tools can even react. 
+        This session will explore how defenders can reframe their approach, treating the browser as the 
+        new endpoint, to detect and stop identity-driven attacks before they become costly breaches.
+      bios:
+        - name: Scott Bryant
+          bio: >
+            Scott Bryant is a seasoned security engineer with nearly a decade in the computer software 
+            and cybersecurity industries, specializing in identity security as well as endpoint and 
+            extended detection and response (XDR). As the lead senior solutions engineer at Push 
+            Security, he provides pre-sales technical support to sales teams and customers, assisting 
+            with proof-of-concepts, deployment planning, and technical consulting engagements.
+      sponsor: Push Security
+      sponsor_url:
+      url: /2025/day2/sponsor-2#sponsor2-s3
+    - title: "<em>No Session</em>"

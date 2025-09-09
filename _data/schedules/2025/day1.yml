@@ -372,13 +372,125 @@ sessions:
       length: 2
     - skip: true
   sponsor1:
+    - title: "AI vs. Identity Security – Who's Really in Control?"
+      presenter: Roopak Patel
+      abstract: >
+        As artificial intelligence reshapes both cybersecurity defenses and attack strategies, identity 
+        security has become the last stronghold against breaches. With stolen credentials playing a 
+        role in nearly one-third of cyberattacks, organizations must rethink how they secure human and 
+        machine identities. This presentation explores the evolving threat landscape, where AI is not 
+        only a tool for defenders but also an asset for adversaries. We'll examine how AI-driven cyber 
+        threats are increasing in sophistication and how organizations can leverage AI-powered identity 
+        security solutions—including Privileged Access Management (PAM), Cloud Infrastructure Entitlement 
+        Management (CIEM), and Identity Threat Detection & Response (ITDR)—to mitigate risk. Key topics 
+        include AI's role in risk scoring, dynamic policy enforcement, and real-time anomaly detection in 
+        privileged access.
+      bios:
+        - name: Roopak Patel, Director of Product Management
+          bio: >
+            Roopak Patel has over a decade of experience in IT Security, with a focus on delivering 
+            security, identity, and networking solutions to enterprises, mid-market, and SMBs. He has 
+            led product management teams across domains including advanced malware detection, identity 
+            and access management, application performance, networking optimization, and security 
+            analytics. Before entering the industry, Roopak served as a naval officer in the U.S. 
+            submarine force. He holds a B.S. in Mechanical Engineering from the University of Michigan, 
+            an MBA from Santa Clara University, and maintains CISSP and SAFE certifications. At Delinea, 
+            Roopak advances the Privileged Access Management portfolio to protect servers, workstations, 
+            and cloud assets, while shaping broader strategies around identity and data security. Outside 
+            of work, he enjoys exploring coastal trails, lighthouses, and historic sites with his spouse, 
+            16-year-old twins, and two Havanese dogs.
+      sponser: Delinea
+      sponsor_url:
+      url: /2025/day1/sponsor-1#sponsor1-s1s
+    - title: "Neutralizing the Risks of Compromised Credentials"
+      presenter: Kevin Reardon
+      abstract: >
+        Stolen credentials are one of the most common ways attackers break into organizations—and 
+        often through partners or vendors. This session explores the real risks behind compromised 
+        usernames and passwords, how attackers steal them, and why identity is often the weakest 
+        link. We’ll look at common attack methods like phishing, MFA fatigue, and supply chain 
+        breaches where one compromised partner account can open the door to many. We will share how 
+        the Enterprise Browser can help protect against compromised credential exploitation.
+      bios:
+        - name: Kevin Reardon, Vice President of Advisory & Architecture
+          bio: >
+            Kevin Reardon is the Vice President of Advisory and Architecture at Island. His 25+ year 
+            career features diverse roles, including those as a cyber security operator, consultant, 
+            and executive (both CISO and COO). Kevin was most recently the COO of ZeroFox where, over 
+            four and a half years, he built and scaled the company and operational environment through 
+            their recent acquisition. Prior to ZeroFox, Kevin held roles at McAfee, Intel, Blue Coat, 
+            and Symantec.
+      sponsor: Island
+      sponsor_url:
+      url: /2025/day1/sponsor-1#sponsor1-s2
     - title: ""
-    - title: ""
-    - title: ""
-      presenter: ProArch (Diamond)
+      sponsor: Axionius
+      sponsor_url:
+    - title: "AI Without Exposure: Securing AI with Microsoft at the Core"
+      presenter: Ben Wilcox
+      abstract: >
+        You can’t stop AI adoption. But unchecked AI usage puts your data, identities, and compliance 
+        at risk. 
+
+        In this session, you will see a Microsoft-centric roadmap that makes safe AI adoption possible
+        and manageable. IT and security leaders will leave with practical steps they can apply right 
+        away to reduce risk and get more value from their Microsoft investments.
+
+        You will learn how to:
+
+        - Uncover unsanctioned AI tools and bring shadow adoption under control
+        - Protect sensitive data and identities from leaks or misuse
+        - Defend against AI-driven threats with Microsoft Defender for Cloud Apps, Defender for Endpoint, Purview, Entra ID, and more
+        - Get greater security impact from the Microsoft tools you already own
+      bios:
+        - name: Ben Wilcox, CTO and CISO
+          bio: >
+            Ben Wilcox is Chief Technology Officer and Chief Information Security Officer at ProArch. 
+            Ben brings over 25 years of leadership in technology strategy and cybersecurity with a 
+            focus on Microsoft. In his dual roles, Ben drives innovation and resilience by architecting 
+            solutions that advance business outcomes and embedding cybersecurity into organizational 
+            culture.
+      sponsor: ProArch (Diamond Sponsor)
+      url: /2025/day1/sponsor-1#sponsor1-s4
   sponsor2:
     - title: ""
+      sponsor: Atlantic Data Security
+      sponsor_url:
     - title: ""
+      sponsor: CrowdStrike
+      sponsor_url:
     - title: ""
-    - title: ""
-
+      sponsor: Varonis
+      sponsor_url:
+    - title: "Preventing the Domino Effect: Identity, Cloud, and Your Cyber Resilience Strategy"
+      presenter: Matt Castiotta and Paul Lenhard
+      abstract: >
+        Identity-based attacks are a CISO's nightmare, with 90% of cyber intrusions leveraging phished 
+        or leaked credentials and privilege escalation. Once compromised, attackers can move anywhere 
+        across the data estate and are frequently infiltrating your cloud environments. In this session, 
+        we'll dive into the unified approach of Rubrik Identity and Cloud Resilience, demonstrating how 
+        it goes beyond traditional data protection to secure your entire hybrid identity, including 
+        Active Directory and Entra ID, as well as safeguarding your ability to recover data after an 
+        incident. We'll explore how to proactively manage identity and data risk, continuously monitor 
+        for changes, and—when prevention fails—orchestrate a fast, clean recovery of all your data 
+        across your identity & cloud platforms. You will learn how your organization can maintain 
+        business continuity, even in the face of a catastrophic event.
+      bios:
+        - name: Matt Castiotta, Field CTO, Rubrik
+          bio: >
+            Matt Castriotta is the Field CTO, Cloud at Rubrik. His mission is to help educate 
+            organizations on Rubrik’s cloud solutions and how Rubrik solutions can help organizations 
+            reduce complexity, control cost, and achieve a stronger cyber resilience posture regardless 
+            of where they are on their cloud journey. Skilled in data management, he has a long history 
+            in all aspects of IT operations and security helping customers design, build, and run 
+            resilient and secure mission critical applications.
+        - name: Paul Lenhard, Director, Security Services, ePlus
+          bio: >
+            Paul Lenhard, CISSP,  is an experienced and dedicated security leader with a proven track 
+            record of building strong teams that provide sound, secure solutions that enable business.  
+            He has over 25 years working in the Cyber Security industry for organizations such as  ePlus, 
+            the US Navy, NATO, and  private sector organizations, filling various roles focused on driving 
+            successful outcomes.
+      sponsor: ePlus/Rubrik
+      sponsor_url:
+      url: /2025/day1/sponsor-2#sponsor2-s4

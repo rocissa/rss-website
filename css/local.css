@@ -777,6 +777,13 @@ ul.social > li {
   	padding-bottom: 5px;
   }
 
+  .schedule .session > .sponsor {
+  	font-weight: bold;
+  	font-size: 1em;
+  	padding-bottom: 5px;
+  	padding-top: 0;
+  }
+
   .schedule-legend {
   	width: 75%;
   	margin: 25px auto;
