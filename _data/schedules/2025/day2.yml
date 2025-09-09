@@ -5,7 +5,7 @@ keynotes:
 tracks:
   - id: track1
     name: Track 1
-    room: Grand Lilac Ballromme
+    room: Grand Lilac Ballroom
     show_on_slides_page: true
     icons:
       - human-factors-awareness
