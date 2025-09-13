@@ -399,7 +399,7 @@ sessions:
             and cloud assets, while shaping broader strategies around identity and data security. Outside 
             of work, he enjoys exploring coastal trails, lighthouses, and historic sites with his spouse, 
             16-year-old twins, and two Havanese dogs.
-      sponser: Delinea
+      sponsor: Delinea
       sponsor_url:
       url: /2025/day1/sponsor-1#sponsor1-s1s
     - title: "Neutralizing the Risks of Compromised Credentials"
@@ -424,7 +424,7 @@ sessions:
       sponsor_url:
       url: /2025/day1/sponsor-1#sponsor1-s2
     - title: ""
-      sponsor: Axionius
+      sponsor: Axonius
       sponsor_url:
     - title: "AI Without Exposure: Securing AI with Microsoft at the Core"
       presenter: Ben Wilcox
@@ -456,9 +456,17 @@ sessions:
     - title: ""
       sponsor: Atlantic Data Security
       sponsor_url:
-    - title: ""
+    - title: "Outpacing the Modern Adversary"
+      presenter: Adam Mitchell
+      abstract: >
+        The modern adversary is faster and more sophisticated than ever—averaging just 48 minutes from initial access to impact. This session unpacks how threat actors like SCATTERED SPIDER exploit identity gaps, abuse cloud environments, and escalate privileges at speed. Learn how CrowdStrike is helping organizations detect and stop these attacks with unified protection, real-time intelligence, and the power of AI. 
+      bios:
+        - name: Adam Mitchell
+          bio: >
+            Adam serves as Principal Platform Advisor at CrowdStrike, where he plays a crucial role in helping organizations strengthen their security posture against modern cyber threats. In his role, Adam briefs customers on the evolving threat landscape, translating complex technical concepts into actionable intelligence. He specializes in advising organizations on implementing effective security strategies that leverage the CrowdStrike platform to stop modern adversaries.
       sponsor: CrowdStrike
       sponsor_url:
+      url: /2025/day1/sponsor-2#sponsor2-s2
     - title: ""
       sponsor: Varonis
       sponsor_url:
