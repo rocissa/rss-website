@@ -379,9 +379,25 @@ sessions:
       length: 2
     - skip: true
   sponsor1:
-    - title: ""
+    - title: "Building a Security Program - No Borders, No Bias, No BS"
+      presenter: Rob Preta
+      abstract: >
+        - Moving beyond the traditional "Castle and Moat":  Organizations now use cloud services, SaaS applications, and have employees working from anywhere on any device. This means the attack surface is everywhere, not just at the network edge.<br>
+        
+        - A Vendor-Neutral, Technology-First approach: Vendor bias can significantly hinder a cybersecurity program. When a single vendor's solutions are adopted across the board, it can lead to vendor lock-in, limited flexibility, and a lack of best-of-breed solutions.<br>
+        
+        - Measuring & Maturing the program: To build a sustainable cybersecurity program, you can't just buy a product and call it a day. The program needs to be a continuous process of improvement.
+      bios:
+        - name: Rob Preta
+          bio: >
+            Rob Preta is an accomplished cybersecurity executive with a career dedicated to protecting organizations from the ever-evolving landscape of digital threats. With over two decades of experience, he has a proven track record of developing and implementing risk-based security strategies that align with business objectives and leverage modern technologies.<br>
+            
+            Rob has held key leadership positions, where he honed his skills in safeguarding critical systems. He has consistently demonstrated a commitment to staying ahead of emerging threats and fostering a culture of proactive defense.<br>
+            
+            He is particularly passionate about cloud security and data protection. In an era where organizations are increasingly cloud and SaaS-based, he is a strong advocate for embracing modern security tools to tackle these unique challenges. His insights have been featured in a Cyera customer spotlight video, and he has contributed to various discussions and podcasts on topics such as Identity and Access Management. 
       sponsor: Cyera
       sponsor_url:
+      url: /2025/day2/sponsor-1#sponsor1-s1
     - title: "Vendor Consolidation: Get Your Tools and Teams Pulling in the Same Direction"
       presenter: Mark Rosenecker
       abstract: >
@@ -390,8 +406,8 @@ sessions:
         these tools are from a wide variety of manufacturers and service providers, and they lack 
         native integration with one another.  Manual integration can be achieved, but it is costly 
         and complex.  A lack of integration leads to gaps in information during an attack, when 
-        clear and concise information is critical, and minutes can cost millions.
-
+        clear and concise information is critical, and minutes can cost millions.<br><br>
+        
         Fortinet has the widest variety of cybersecurity solutions in the market today, and we have 
         been integrating them into our Security Fabric for over 15 years.  Come see how we can 
         streamline your security operations; lowering both capital and operational cost, while 
@@ -438,14 +454,14 @@ sessions:
         journey of Sarah, a junior security analyst, as she uncovers a vulnerability that spirals into 
         a full-blown ransomware attack. Through branching decision points, participants will explore 
         the consequences of common security choices — from quarantine protocols and ticketing delays 
-        to backup misconfigurations and BYOD risks.
-
+        to backup misconfigurations and BYOD risks.<br><br>
+        
         This immersive “choose-your-own-adventure” format highlights how small missteps can compound 
         into major breaches, and how layered security, policy enforcement, and incident response 
         readiness are critical to survival. Attendees will encounter a rogues’ gallery of IT monsters 
         — from unmanaged devices and shadow IT to credential abuse and backup sabotage — and learn how 
-        to hunt them before they strike.
-
+        to hunt them before they strike.<br><br>
+        
         Whether you're an MSP, IT leader, or security professional, this session will challenge your 
         instincts, expose hidden gaps in your security stack, and offer practical strategies to build 
         resilience against modern threats. Are you ready to enter the nightmare?

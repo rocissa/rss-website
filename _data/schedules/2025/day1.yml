@@ -111,15 +111,20 @@ sessions:
         Artificial intelligence is powering everything from job screening tools to self-driving cars—but what 
         happens when hackers go after the AI itself? In this fun and accessible talk, we’ll explore MITRE 
         ATLAS (Adversarial Threat Landscape for Artificial-Intelligence Systems), a growing framework designed 
-        to help us understand and defend against attacks targeting machine learning and AI systems.
-
-        This session will guide you through:
-
-        - What MITRE ATLAS is and how it works
-        - Real-world examples of how you can use MITRE ATLAS to defend your organization.
-        - Simple ways to start thinking about AI security and governance.
-        - You’ll leave with a clear understanding of AI-specific threats, how they differ from traditional cyberattacks. 
-        - Bring your laptop if you’d like to explore MITRE ATLAS during the session.
+        to help us understand and defend against attacks targeting machine learning and AI systems.<br>
+        
+        This session will guide you through:<br>
+        
+        - What MITRE ATLAS is and how it works<br>
+        
+        - Real-world examples of how you can use MITRE ATLAS to defend your organization.<br>
+        
+        - Simple ways to start thinking about AI security and governance.<br>
+        
+        - You’ll leave with a clear understanding of AI-specific threats, how they differ from traditional cyberattacks. <br>
+        
+        - Bring your laptop if you’d like to explore MITRE ATLAS during the session.<br>
+        
       bios:
         - name: Elaine Harrison-Neukirch
           bio: >
@@ -156,7 +161,7 @@ sessions:
             various industries including banking, insurance, healthcare, telecommunications, transportation, 
             and many others. Zachary has a Bachelor of Science degree in Cybersecurity with a minor in 
             Digital Forensics.
-      url: /2025/day1/track1#track1-s4
+      url: /2025/day1/track-1#track1-s4
       icons: 
         - ai-emerging-tech
   track2:
@@ -430,18 +435,21 @@ sessions:
       presenter: Ben Wilcox
       abstract: >
         You can’t stop AI adoption. But unchecked AI usage puts your data, identities, and compliance 
-        at risk. 
-
+        at risk.<br>
+        
         In this session, you will see a Microsoft-centric roadmap that makes safe AI adoption possible
         and manageable. IT and security leaders will leave with practical steps they can apply right 
-        away to reduce risk and get more value from their Microsoft investments.
-
-        You will learn how to:
-
-        - Uncover unsanctioned AI tools and bring shadow adoption under control
-        - Protect sensitive data and identities from leaks or misuse
-        - Defend against AI-driven threats with Microsoft Defender for Cloud Apps, Defender for Endpoint, Purview, Entra ID, and more
-        - Get greater security impact from the Microsoft tools you already own
+        away to reduce risk and get more value from their Microsoft investments.<br>
+        
+        You will learn how to:<br>
+        
+        - Uncover unsanctioned AI tools and bring shadow adoption under control<br>
+        
+        - Protect sensitive data and identities from leaks or misuse<br>
+        
+        - Defend against AI-driven threats with Microsoft Defender for Cloud Apps, Defender for Endpoint, Purview, Entra ID, and more<br>
+        
+        - Get greater security impact from the Microsoft tools you already own<br>
       bios:
         - name: Ben Wilcox, CTO and CISO
           bio: >
@@ -453,9 +461,17 @@ sessions:
       sponsor: ProArch (Diamond Sponsor)
       url: /2025/day1/sponsor-1#sponsor1-s4
   sponsor2:
-    - title: ""
+    - title: "Securing the Open Garden: AI-Driven Hybrid Mesh Network Security for the Modern Enterprise"
+      presenter: Eric Anderson
+      abstract: >
+        In today’s hyperconnected “open garden,” enterprise networks extend far beyond traditional perimeters—encompassing clouds, data centers, branch offices, remote users, and IoT devices. This borderless reality widens the attack surface and strains CISOs and security teams as they strive to close gaps across siloed systems and outpace fast-evolving threats. 
+      bios:
+        - name: Eric Anderson
+          bio: >
+            Eric is a 35-year veteran of the technology industry, with the last 25 of that focused on cybersecurity. After having served in just about every technical capacity from coding to customer service, in both pre and post-sales, he currently spends the majority of his time working with clients to solve their security challenges. Combining creative thinking and a sympathetic understanding of customer issues and motivations, he architects solutions to difficult problems while fostering deeper comprehension with those he works with and teaches.
       sponsor: Atlantic Data Security
       sponsor_url:
+      url: /2025/day1/sponsor-2#sponsor2-s1
     - title: "Outpacing the Modern Adversary"
       presenter: Adam Mitchell
       abstract: >
