@@ -442,9 +442,19 @@ sessions:
       sponsor: Verkada
       sponsor_url:
       url: /2025/day2/sponsor-1#sponsor1-s3
-    - title: ""
+    - title: "From Code to Confidence: Architecting Secure AI Applications"
+      presenter: Rohit Sijoria
+      abstract: >
+        This talk will guide you through the journey of building AI applications, moving from the initial stages of development ("From Code") to creating systems that are trustworthy and robust ("to Confidence"). We'll explore the incredible potential of AI and the innovative applications it enables, while also proactively addressing the security risks that emerge at every stage of the development lifecycle.
+      bios:
+        - name: Rohit Sijoria
+          bio: >
+            Rohit Sijoria is a seasoned technology expert with over a decade of experience spanning infrastructure, cloud, automation, and cybersecurity. Based in upstate New York, he holds a Master of Science in Telecommunication and Network Management.<br>
+            
+            Currently, Rohit works as a Solutions Consultant at Palo Alto Networks, where he guides customers through their digital transformation journeys with a strong focus on cybersecurity. He is deeply passionate about technology and, with the rapid growth of AI, particularly generative AI, he is dedicated to helping various industry sectors safely and effectively adopt these new innovations.
       sponsor: Palo Alto Networks
       sponsor_url:
+      url: /2025/day2/sponsor-1#sponsor1-s4
   sponsor2:
     - title: "Choose Your Own Security Adventure: Navigating the Nightmare of Modern Threats"
       presenter: Troels Emil Hojlund-Rasmussen
@@ -527,4 +537,6 @@ sessions:
       sponsor: Push Security
       sponsor_url:
       url: /2025/day2/sponsor-2#sponsor2-s3
-    - title: "<em>No Session</em>"
+    - title: ""
+      sponsor: Cato Networks
+      url: /2025/day2/sponsor-2#sponsor2-s4
