@@ -159,18 +159,18 @@ sessions:
         - tech-defense-infrastructure
   track2:
     - title: "Women in IT Roundtable: Leadership, Opportunity and Equity - The Future for Women in IT"
-      presenter: Susan O'Sullivan (Moderator), Linda Weller, Annette Warren, and Mehruz Kamal
+      presenter: Linda Weller & Industry Experts
       abstract: >
         This dynamic roundtable brings together local IT leaders, educators, and emerging professionals 
         to explore the future for women in tech. Through a moderated discussion covering leadership, 
         barriers, opportunity, and equity, panelists will share insights and personal stories to inspire 
         change. Attendees will hear data-driven context, rapid-fire reflections, and audience 
-        Q&A—leaving with actionable takeaways and resources to support women’s advancement in IT.
+        Q&A—leaving with actionable takeaways and resources to support women's advancement in IT.
       bios:
         - name: Susan O'Sullivan, Moderator
           bio: >
             Following a 20-year career at Ingram Micro, Susan O’Sullivan is now the President of S0S – 
-            Strategies, Opportunities & Solutions in Buffalo. She has over 30 years’ experience as a 
+            Strategies, Opportunities & Solutions in Buffalo. She has over 30 years' experience as a 
             thought leader, driving digital transformation, business growth and inclusive leadership.
         - name: Linda Weller
           bio: >
@@ -192,6 +192,9 @@ sessions:
             involved in the IS/T research community, where she focuses on Information Technology for 
             Development, investigating how IT can help bring about both social and economic development of 
             a community.
+        - name: Sue Brumm
+          bio: >
+            Sue Brumm is the owner of CE-Tech in Rochester.     
       url: /2025/day2/track-2#track2-s1
       icons:
         - industry-community-perspectives
@@ -229,14 +232,14 @@ sessions:
         - name: Alicia Gristmacher
           bio: >
             Alicia Gristmacher, Manager of IT Vendor Risk Management at Hyatt Hotels Corporation, 
-            leads the global Third-Party Risk Management program with 25 years’ experience in vendor 
+            leads the global Third-Party Risk Management program with 25 years' experience in vendor 
             risk, cybersecurity compliance, and information security. She oversees the full vendor 
             lifecycle, from onboarding and risk assessments to continuous monitoring and incident 
             response. Known for automating processes, improving efficiency, and aligning governance 
             with industry standards, Alicia holds CRVPM and C-VMPRA certifications. She excels in 
             communicating complex risks to executives, managing vendor-related cyber incidents, and 
             fostering cross-functional collaboration. A speaker at ISC2 Security Congress and RH-ISAC 
-            events, she drives innovation, ensures compliance, and safeguards Hyatt’s vendor ecosystem 
+            events, she drives innovation, ensures compliance, and safeguards Hyatt's vendor ecosystem 
             while enabling strategic growth.
       url: /2025/day2/track-2#track2-s3
       icons:
@@ -247,10 +250,10 @@ sessions:
         This presentation covers how to create a practical disaster recovery plan to quickly restore 
         operations after a widespread or severe service disruption. Organizations often struggle to 
         create usable disaster recovery plans due to limited visibility into their infrastructure or 
-        the assumption that disaster recovery preparedness is cost prohibitive. We’ll break down these 
+        the assumption that disaster recovery preparedness is cost prohibitive. We'll break down these 
         barriers by sharing an approachable, methodical strategy for creating a disaster recovery plan. 
-        You’ll learn about the disaster handling lifecycle, backup strategies, recovery priorities, and 
-        more. We’ll also examine a disaster recovery plan template adaptable for your organization.
+        You'll learn about the disaster handling lifecycle, backup strategies, recovery priorities, and 
+        more. We'll also examine a disaster recovery plan template adaptable for your organization.
       bios:
         - name: Jason Taylor
           bio: >
@@ -537,6 +540,15 @@ sessions:
       sponsor: Push Security
       sponsor_url:
       url: /2025/day2/sponsor-2#sponsor2-s3
-    - title: ""
+    - title: "Real-Time Threat Mitigation with AI-Driven SASE: A Practical Approach"
+      presenter: Aleks Radic & Al Pardhan
+      abstract: >
+        In this session, we'll explore how a converged SASE platform combined with AI and machine learning (ML) enables real-time threat detection and mitigation, transforming network security from a reactive to a proactive model. The focus will be on how AI-driven solutions within the SASE framework can identify, analyze, and neutralize security threats in real-time across distributed environments.
+      bios:
+        - name: Aleks Radic
+          bio: >
+            Aleks Radic, the Solutions Engineer for Eastern Canada, brings nearly three decades of expertise in technology, specializing in networks, systems, and security. Throughout Aleks' career, he has architected, integrated, and secured networks and applications for major international banking and financial institutions, healthcare and insurance providers, construction conglomerates, and retail chains. This includes the development of multi-tier, cloud-based solutions, with a particular emphasis on end-user experience and security. Predominantly working in consulting, Aleks joined Cato in 2022 following a five-year tenure at Citrix.
+        - name: Al Pardhan
       sponsor: Cato Networks
+      sponsor_url:
       url: /2025/day2/sponsor-2#sponsor2-s4

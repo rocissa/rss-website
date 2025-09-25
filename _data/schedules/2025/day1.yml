@@ -355,9 +355,9 @@ sessions:
   other-events:
     - title: >
         Capture the Flag Competition by MetaCTF<br><br>
-
+        
         Compete solo or in groups of up to four<br><br>
-
+        
         Come & Go<br><br>
 
         Registration: 9:40 am<br>
@@ -367,9 +367,9 @@ sessions:
     - skip: true
     - title: >
         Lockpick Village by Toool<br><br>
-
+        
         Hands-on lockpicking workshop<br><br>
-
+        
         Come & Go<br><br>
 
         Start: 12:30 pm<br>
@@ -428,9 +428,21 @@ sessions:
       sponsor: Island
       sponsor_url:
       url: /2025/day1/sponsor-1#sponsor1-s2
-    - title: ""
+    - title: "Visibility to Actionability"
+      presenter: Jordan Farkas
+      abstract: >
+        As security teams face a growing gap between the scale of their responsibilities and the resources available to meet them, many leaders find themselves stuck in a cycle of reactivity—chasing issues instead of staying ahead of them. This interactive roundtable brings together security leaders for a candid, peer-driven discussion on how to break that cycle.<br>
+        
+        Together, we'll explore practical, high-level strategies for scaling security efforts without scaling burnout. Anchored in three foundational pillars—Visibility, Prioritization, and Remediation—this session is designed to spark shared insights and real-world takeaways that can be applied across different environments.<br>
+        
+        Participants will also have the opportunity to reflect on findings from the personalized Security & Actionability Assessment to deepen the conversation and carry ideas forward.
+      bios:
+        - name: Jordan Farkas
+          bio: >
+            Jordan Farkas is a Senior Systems Engineer for Strategic Accounts at Axonius. Jordan has a vulnerability management background and is coming up on 4 years at Axonius, where he leads the Field Technical Advisory Group for the Axonius Platform.
       sponsor: Axonius
       sponsor_url:
+      url: /2025/day1/sponsor-1#sponsor1-s3
     - title: "AI Without Exposure: Securing AI with Microsoft at the Core"
       presenter: Ben Wilcox
       abstract: >
@@ -483,9 +495,17 @@ sessions:
       sponsor: CrowdStrike
       sponsor_url:
       url: /2025/day1/sponsor-2#sponsor2-s2
-    - title: ""
+    - title: "Protecting Against the AI Adversary: Dark Tools"
+      presenter: Nicholai Piagentini
+      abstract: >
+        Malspam LLMs, Generative AI on demand phishing sites and prompt injection, oh my! Dive into the dark side of AI as we look at emerging AI attack tools, new AI defensive models and how to secure AI in your enterprise with thought leaders from Varonis. 
+      bios:
+        - name: Nicholai Piagentini
+          bio: >
+            Nicholai Piagentini is a dedicated cybersecurity expert with a passion for enhancing digital security. From ensuring his teenage children maintain world-class operational security in their online activities to advising global banks, enterprises, and military organizations on strategic security decisions, Nicholai has devoted his career to empowering others to achieve greater security. As a thought leader at some of the world's largest security companies, including Palo Alto Networks, Nicholai has shared his expertise through teaching and presentations across four continents. His unique experience provides him with a holistic and systemic approach to addressing organizational security challenges.
       sponsor: Varonis
       sponsor_url:
+      url: /2025/day1/sponsor-2#sponsor2-s3
     - title: "Preventing the Domino Effect: Identity, Cloud, and Your Cyber Resilience Strategy"
       presenter: Matt Castiotta and Paul Lenhard
       abstract: >
