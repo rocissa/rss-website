@@ -105,38 +105,21 @@ sessions:
       url: /2025/day1/track-1#track1-s2
       icons:
         - human-factors-awareness
-    - title: A Beginner's Guide MITRE ATLAS (Adversarial Threat Landscape for AI Systems)
-      presenter: Elaine Harrison-Neukirch
+    - title: Zero Day Threat- The Mental Health Crisis in Cybersecurity
+      presenter: Paul Robinson
       abstract: >
-        Artificial intelligence is powering everything from job screening tools to self-driving cars—but what 
-        happens when hackers go after the AI itself? In this fun and accessible talk, we’ll explore MITRE 
-        ATLAS (Adversarial Threat Landscape for Artificial-Intelligence Systems), a growing framework designed 
-        to help us understand and defend against attacks targeting machine learning and AI systems.<br>
-        
-        This session will guide you through:<br>
-        
-        - What MITRE ATLAS is and how it works<br>
-        
-        - Real-world examples of how you can use MITRE ATLAS to defend your organization.<br>
-        
-        - Simple ways to start thinking about AI security and governance.<br>
-        
-        - You’ll leave with a clear understanding of AI-specific threats, how they differ from traditional cyberattacks. <br>
-        
-        - Bring your laptop if you’d like to explore MITRE ATLAS during the session.<br>
-        
+        Studies have indicated that a significant portion of cybersecurity professionals have taken time off due to work-related mental health issues, with 74% globally reporting this, and 26.8% saying their mental health has worsened over the past year. A recent report showed that 66% of cybersecurity professionals experience significant stress at work, and 64% report their mental health affects their productivity. This has also led to addiction issues as well. Mental health is taboo in our society and especially in our industry as we feel like we always have to have it together. This talk is designed to identify potential triggers and how to deal with them in a healthy way.
       bios:
-        - name: Elaine Harrison-Neukirch
+        - name: Paul Robinson
           bio: >
-            Elaine has worked in Information Technology and Cybersecurity for over 15 years. Elaine is an 
-            Enterprise Support Engineer for CyberArk. She is also the volunteer VP of Education for Cyber 
-            Security Non-Profit (CSNP.org). She was presented with the Cyber Security Educator award by the 
-            Women's Society of Cyberjutsu in 2024. Elaine endeavors to educate cyber and non cyber professionals, 
-            focusing on issues that affect underrepresented groups. This includes cybersecurity, security 
-            awareness, career and wellness education. 
+            Paul has been in the cybersecurity space since 2009, consulting organizations on technology and GRC strategies. <br><br>
+            
+            During the pandemic, he started to become aware of some deficiencies in the industry that disturbed him. He noticed that a lot of businesses were making their cybersecurity decisions based on industry fads and unmerited FUD. This was troubling to see as with this strategy, organizations were not considering their true business needs and how cybersecurity and risk could help solve them. In 2023 he started his independent consulting firm Tempus Network.<br><br>
+            
+            Recently, the issues surrounding mental health in cybersecurity have become of interest to him. A lot of cyber professionals are struggling with balancing the stresses of their jobs with their everyday life. This talk is meant to get the conversation going on about how we can be the healthiest versions of ourselves.<br>
       url: /2025/day1/track-1#track1-s3
       icons:
-        - ai-emerging-tech
+        - human-factors-awareness
     - title: "What Could Go Wrong?: AI Security Mistakes Even Fortune 500 Companies Are Making"
       presenter: Savannah Alfaro & Zachary Wallace
       abstract: >

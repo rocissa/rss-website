@@ -517,7 +517,7 @@ sessions:
       sponsor_url:
       url: /2025/day2/sponsor-2#sponsor2-s2
     - title: "The Browser is the New Perimeter: Why Defenders Must Rethink Identity-First Security"
-      presenter: Scott Bryant
+      presenter: Mark Orlando
       abstract: >
         The browser has become the new enterprise perimeter. It’s where employees access cloud apps, move 
         data, and get work done — yet it remains one of the most under-defended layers in security. 
@@ -530,13 +530,9 @@ sessions:
         This session will explore how defenders can reframe their approach, treating the browser as the 
         new endpoint, to detect and stop identity-driven attacks before they become costly breaches.
       bios:
-        - name: Scott Bryant
+        - name: Mark Orlando
           bio: >
-            Scott Bryant is a seasoned security engineer with nearly a decade in the computer software 
-            and cybersecurity industries, specializing in identity security as well as endpoint and 
-            extended detection and response (XDR). As the lead senior solutions engineer at Push 
-            Security, he provides pre-sales technical support to sales teams and customers, assisting 
-            with proof-of-concepts, deployment planning, and technical consulting engagements.
+            Mark Orlando is the field chief technology officer at Push Security. In this role, Mark serves as a bridge between practitioners and Push's research-driven product innovation, ensuring that Push's platform addresses the realities of today's enterprise environment. Mark has more than 20 years of experience building and leading security operations at the Pentagon, the White House, the Department of Energy, and Fortune 500 enterprises. Before joining Push, he co-founded Bionic Cyber, where he advised enterprises on building and scaling cyber defense capabilities. Mark also previously served as CTO of Raytheon Cyber where he defined technical strategy for consulting services, managed services, and strategic accounts worldwide. He is currently a SANS Certified Instructor and a former Artillery Non-Commissioned Officer in the U.S. Marine Corps.
       sponsor: Push Security
       sponsor_url:
       url: /2025/day2/sponsor-2#sponsor2-s3
