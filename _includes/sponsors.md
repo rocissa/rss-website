@@ -20,7 +20,20 @@
         </div>
       {%- endif -%}      
 
-      <div class="sponsor sponsor-{{ sponsor.Level | downcase }}"><a href="{{ sponsor.Link }}" target="_blank"><img src="/{{ active_year }}/sponsors/{{ sponsor.Image }}" alt="{{ sponsor.Name }}" title="{{ sponsor.Description }}"  /></a></div>
+      <div class="sponsor-box sponsor-{{ sponsor.Level | downcase }}"><a href="{{ sponsor.Link }}" target="_blank"><img src="/{{ active_year }}/sponsors/{{ sponsor.Image }}" alt="{{ sponsor.Name }}" title="{{ sponsor.Description }}"  /></a>
+	  {%- if site.sponsors_show_boothinfo -%}
+		<br>
+		<div class="boothinfo">
+			{%- if sponsor_level != "Partners" and sponsor_level != "Experiences" -%}
+				<p><em>Booth {{ sponsor.Booth }}</em></p>
+			{%- elsif sponsor_level != "Experiences" -%}
+				<p><em>Table near entrance</em></p>
+			{%- else -%}
+				<p><em>Join the fun!</em></p>
+			{%- endif -%}
+		</div>
+	  {%- endif -%}
+	  </div>
     {%- endfor -%}
   </div>
  {%- else -%}

@@ -249,9 +249,9 @@ sessions:
       abstract: >
         This presentation builds upon and expands technical content presented during two previous 
         Rochester ISSA chapter meetings: Getting Started with Threat Hunting (December 4, 2023) and 
-        Analyzing a Recent Endpoint Attack (April 21, 2025).  The presentation will include examples 
-        of common obfuscation methods used by adversaries and well and tips, tricks, and tools that 
-        can be used to facilitate analysis of attacks. This is a technical presentation geared towards 
+        Analyzing a Recent Endpoint Attack (April 21, 2025). The presentation will include examples 
+        of common obfuscation methods used by adversaries as well as tips, tricks, and tools that can 
+        be used to facilitate analysis of attacks. This is a technical presentation geared towards 
         SOC teams, security analysts, and/or threat hunters and will include packet captures and other 
         low-level technical minutiae.
       bios:

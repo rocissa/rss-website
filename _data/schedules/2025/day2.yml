@@ -135,25 +135,14 @@ sessions:
       icons:
         - tech-defense-infrastructure
         - business-governance-risk
-    - title: "Hacking the Process - Business Process Compromise"
-      presenter: Sherwyn Moodley & James Hasewinkle
+    - title: "A Human Insider Threat (HIT) Conceptual Framework for Cybersecurity Resilience Management"
+      presenter: Dr. Marcus L. Green
       abstract: >
-        The information security field focuses on preventing unauthorized access, use, disclosure, disruption, 
-        modification, inspection, recording, or destruction of information. This is accomplished by securing 
-        assets and people, using frameworks and methodologies such as the CIS top 18 and NIST. Hacking a 
-        Business Process requires hacking these assets or people first, but the business process still needs 
-        to be secured. Financial Processes such as Purchase Order process, HR processes such as employee 
-        termination pose a great risk to any organization because if the process is manipulated sufficiently 
-        any theft rising from it becomes much harder to identify.
+        Human insider threats continue to increase as computer systems become more widespread. Most studies of cybersecurity risks and resilience efforts focus on technological solutions; however, many of the costliest cybersecurity events originated from human risk factors. This novel, study was designed to identify drivers of human factor insider threats. Qualitative data were collected from 15 cybersecurity experts. A grounded theory coding process generated dominant factors related to drivers and solutions of insider threats, leading to the development of a Human Insider Threat (HIT) conceptual framework. The framework has practical implications for managers to assess vulnerabilities and for researchers to develop scalable instruments.
       bios:
-        - name: Sherwyn Moodley
+        - name: Dr. Marcus L. Green
           bio: >
-            Sherwyn Moodley is the Director of Offensive Security at Zyston. Before joining Zyston, Sherwyn 
-            founded Exocet Security, a cybersecurity consultancy aimed at helping startups gain cybersecurity 
-            maturity. He has also participated in security research programs and has received accolades from 
-            Sony, the Royal Bank of Scotland, Redhat, and the US DoD. Before Cybersecurity, Sherwyn started 
-            as a Network Engineer working on large LAN projects for Dimension Data and Vodacom. 
-        - name: James Hasewinkle
+            Dr. Marcus L. Green is an Assistant Professor of Cybersecurity in the Department of Computing Sciences at SUNY Brockport, where he teaches cyber courses, including Ethical Hacking, Database and Web Security, and Information Assurance and Incident Response. He also taught at the University of South Florida and Oregon State University. His primary research focus centers on human factors and cyberspace insider threat activities. He is also a retired military Cyber officer and held many cyber industry positions, including Incident Responder and Cyber Training Developer (United States Special Operations Command), Lead Security Engineer (Dept of Navy), and ISSO (Oregon State University). Certifications include CISSP, CISM, CASP, Sec+, and A+. 
       url: /2025/day2/track-1#track1-s4
       icons:
         - tech-defense-infrastructure
@@ -199,7 +188,7 @@ sessions:
       icons:
         - industry-community-perspectives
     - title: "Breach Response in Real Time: An Interactive Cybersecurity Simulation"
-      presenter: John D. Flory III
+      presenter: John D. Flory III & Rolin Peets
       abstract: >
         Join us for Breach Response in Real Time, an interactive incident response simulation that puts 
         you in the middle of a live cyberattack scenario. Through video storytelling and expert-led 
@@ -211,12 +200,15 @@ sessions:
         - name: John D. Flory III
           bio: >
             John D. Flory III is a recognized cybersecurity expert with 25+ years of hands-on experience 
-            combating real-world cyber threats. He’s collaborated globally with law enforcement to disrupt 
+            combating real-world cyber threats. He's collaborated globally with law enforcement to disrupt 
             cybercrime, leading to arrests, extraditions, and victim restitution. A featured keynote 
             speaker and thought leader, John has been published in major industry outlets and presented at 
-            top conferences including DHS, NYSBA and Symantec. He’s a proven leader, former Partner at TAG 
+            top conferences including DHS, NYSBA and Symantec. He's a proven leader, former Partner at TAG 
             Solutions, Co-Founder of Cyberstone, and currently serves as CISO at Harbor IT and creator of 
             HarborShield Cybersecurity.
+        - name: Rolin Peets
+          bio: >
+            Rolin "Bud" Peets is a certified Data Privacy (CIPM) and Cybersecurity (CISSP) consultant serving as a DPO and CISO advisor. He helps organizations of all sizes build and sustain effective Data Governance Programs. His approach unifies privacy and cybersecurity strategies to create efficient, compliant, and transparent governance frameworks. Rolin's strength lies in anticipating where these disciplines are headed and bridging their intersections. His leadership and collaborative style provide clients with the clarity and confidence needed to navigate evolving legal and ethical data demands.
       url: /2025/day2/track-2#track2-s2
       icons:
         - industry-community-perspectives
@@ -545,6 +537,8 @@ sessions:
           bio: >
             Aleks Radic, the Solutions Engineer for Eastern Canada, brings nearly three decades of expertise in technology, specializing in networks, systems, and security. Throughout Aleks' career, he has architected, integrated, and secured networks and applications for major international banking and financial institutions, healthcare and insurance providers, construction conglomerates, and retail chains. This includes the development of multi-tier, cloud-based solutions, with a particular emphasis on end-user experience and security. Predominantly working in consulting, Aleks joined Cato in 2022 following a five-year tenure at Citrix.
         - name: Al Pardhan
+          bio: >
+            Al Pardhan is a seasoned Channel Sales Engineer with over 15 years of experience in cybersecurity, network architecture, and partner enablement across leading technology companies. Currently at Cato Networks, driving partner success and secure network transformation initiatives since May 2023. Previously held a similar role at Netskope, supporting strategic channel relationships and cloud security adoption across Canada. Before transitioning to the vendor landscape, spent over a decade at Cisco in various technical roles, including Cybersecurity Consulting Systems Engineer, where responsibilities included designing and supporting enterprise security solutions, and enabling customers through technical guidance and training.  Recognized for strong technical acumen, partner-focused approach, and the ability to bridge the gap between sales and engineering to deliver customer value and accelerate growth.
       sponsor: Cato Networks
       sponsor_url:
       url: /2025/day2/sponsor-2#sponsor2-s4
