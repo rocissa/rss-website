@@ -453,6 +453,22 @@ section#slider {
 	text-align: center;
 }
 
+.sponsor-box {
+	box-sizing: border-box;
+	padding: 2rem;
+	margin: 1rem 1rem;
+	text-align: center;
+	display: inline-block;
+	max-width: 80%;
+	font-size: 8px;
+	border: 1px solid grey;
+}
+
+.sponsor-box img {
+	max-width: 100%;
+	text-align: center;
+}
+
 .sponsor-grid {
 	margin: 10px 5px;
 	text-align: center;
@@ -460,6 +476,7 @@ section#slider {
 	width: 50%;
 	padding: 10px;
 	background-color: ivory;
+	border: 2px solid grey;
 /*	border: 2px solid #fff;
 	outline: 2px solid #dcdcdc;*/
 }
@@ -504,6 +521,18 @@ section#slider {
 	text-align: left;
 	padding: 10px;
 	font-size: 9px;
+}
+
+.boothinfo {
+  position: relative;
+  display: inline-block;
+  visibility: visible;
+  color: steelblue;
+  margin: 1rem 2rem;
+  text-align: center;
+  font-size: 6px;
+  font-weight: bold;
+  font-style: italic;
 }
 
 /* Tooltip container */

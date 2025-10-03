@@ -105,6 +105,7 @@ sponsorship_applications_due: 2025-04-15
 # sponsors list
 sponsors_ready_to_display: true
 sponsors_show_talks: true
+sponsors_show_boothinfo: true
 
 # speaking messaging
 speaking_next_year: false
