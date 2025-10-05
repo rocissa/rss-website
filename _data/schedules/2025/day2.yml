@@ -361,6 +361,7 @@ sessions:
         End: 3pm<br>
         <em>Top 3 prizes awarded EOD</em>
       length: 2
+      url: https://metactf.com/products/competition-based-training/#jeopardy
     - skip: true
     - title: >
         Lockpick Village by Toool<br><br>
@@ -372,6 +373,7 @@ sessions:
         Start: 12:30 pm<br>
         End: 3:00 pm pm
       length: 2
+      url: https://toool.us/
     - skip: true
   sponsor1:
     - title: "Building a Security Program - No Borders, No Bias, No BS"

@@ -23,10 +23,12 @@ layout: page
       {%- endif -%} 
 	  
 	  {%- assign sponsor_name = sponsor.Name -%}
-      <div class="sponsor-grid sponsor sponsor-{{ sponsor.Level | downcase }}"><a href="{{ sponsor.Link }}" target="_blank"><img src="/{{ active_year }}/sponsors/{{ sponsor.Image }}" alt="{{ sponsor.Name }}" /></a>
-	    <div class="mytooltip">
+      <div class="mytooltip">
+	  <div class="sponsor-grid sponsor sponsor-{{ sponsor.Level | downcase }}"><a href="{{ sponsor.Link }}" target="_blank"><img src="/{{ active_year }}/sponsors/{{ sponsor.Image }}" alt="{{ sponsor.Name }}" /></a>
 	    <div class="mytooltiptext">{{ sponsor.Description }}</div>
-	    <br><p><b>{{ sponsor.Level | upcase }}</b></p><br>
+	    <br>
+		<p><b>{{ sponsor.Level | upcase }}</b></p>
+		<br>
 		{%- if sponsor_level != "Partners" and sponsor_level != "Experiences" -%}
 			<p><em>Visit us at Booth {{ sponsor.Booth }}</em></p>
 		{%- elsif sponsor_level != "Experiences" -%}

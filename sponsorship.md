@@ -179,7 +179,7 @@ Additionally, **booth choice** is influenced by a combination of your **Sponsors
 >
 > ***Click anywhere in the following image to download the PDF***
 
-<div class="mt-5 mb-5 text-left"><a href="/files/RSS{{ site.current_year }}-Booth-Map.pdf"><img id="sponsorship-booth-map" src="/files/RSS{{ site.current_year }}-Booth-Map.png" alt="Booth Map" width="900px" style></a></div>
+<div id="booth-map" class="mt-5 mb-5 text-left"><a href="/files/RSS{{ site.current_year }}-Booth-Map.pdf"><img id="sponsorship-booth-map" src="/files/RSS{{ site.current_year }}-Booth-Map.png" alt="Booth Map" width="900px" style></a></div>
 <br>
 </div>
 {% endif %}

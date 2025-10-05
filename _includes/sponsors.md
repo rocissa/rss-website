@@ -9,6 +9,12 @@
 <hr class="thin">
     </div> 
   </div>
+  {%- if site.sponsors_show_boothinfo -%}
+  <div class="attention">
+  <h3>The booth map can be found on the <a href="/sponsorship#booth-map" target="_blank"> Sponsorship page</a> or downloaded as a PDF <a href="/files/RSS{{ site.current_year }}-Booth-Map.pdf" target="_blank">here</a></h3>
+  <h4>Sponsor information can also be found <a href="/sponsors" target="_blank"> here</a></h4>
+  </div>
+  {%- endif -%}
   <div class="row sponsors">
     {%- assign sponsor_level = "" -%}
     {%- for sponsor in currentSponsors -%}
@@ -29,7 +35,7 @@
 			{%- elsif sponsor_level != "Experiences" -%}
 				<p><em>Table near entrance</em></p>
 			{%- else -%}
-				<p><em>Join the fun!</em></p>
+				<p><em>Click the image to learn more!</em></p>
 			{%- endif -%}
 		</div>
 	  {%- endif -%}

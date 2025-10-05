@@ -188,7 +188,7 @@ sessions:
         strengthen Identity and Access Management (IAM) and adjust security posture. Attendees will learn 
         to embed CTI into IAM, automate response, and align intelligence with business risk.
       bios:
-        - name: Stephanie Keinz
+        - name: Stephanie Schneider
           bio: >
             Stephanie is passionate about raising awareness of cybersecurity challenges, blending strategic 
             analysis with a deep understanding of how geopolitical trends influence current threats. In her 
@@ -279,13 +279,9 @@ sessions:
       bios:
         - name: Jonathan Borgesen
           bio: >
-            Jonathan Borgesen is a Client Security Principal for ePlus and is responsible for the overall 
-            security practice in the Upstate NY, New England, and United Kingdom regions. He has been a 
-            part of the security industry since 2009 with a focus dedicated to educating, consulting, and 
-            assisting local organizations to enable them to achieve their security goals. Throughout his 
-            tenure Jonathan has participated in and presented at many educational events at both the local 
-            and national level. This has allowed him to gain a greater understanding of security trends 
-            from a perspective that expands beyond the upstate, New England, and United Kingdom regions.
+            Jonathan Borgesen is the Technical Director of Security at EchoStor Technologies, a leading technology solutions provider based in Norwood, MA. He oversees the organization’s comprehensive security practice and has been active in the cybersecurity industry since 2009. His work centers on educating, consulting, and empowering local organizations to achieve their security objectives.<br><br>
+            
+            Throughout his career, Jonathan has presented at numerous educational events across both local and national stages, gaining broad insights into emerging security trends and challenges. This exposure has enabled him to develop a well-rounded perspective that extends beyond the Northeast, informing his strategic approach to modern cybersecurity.
       url: /2025/day1/track-3#track3-s2
       icons:
         - tech-defense-infrastructure
@@ -345,8 +341,9 @@ sessions:
 
         Registration: 9:40 am<br>
         Start: 10:00 am<br>
-        End: Thursday 3pm    
+        End: Thursday 3pm
       length: 2
+      url: /files/RSS2025-MetaCTF-Information-Bulletin.pdf
     - skip: true
     - title: >
         Lockpick Village by Toool<br><br>
@@ -358,6 +355,7 @@ sessions:
         Start: 12:30 pm<br>
         End: 3:45 pm 
       length: 2
+      url: https://toool.us/
     - skip: true
   sponsor1:
     - title: "AI vs. Identity Security – Who's Really in Control?"
