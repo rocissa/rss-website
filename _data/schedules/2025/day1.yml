@@ -105,21 +105,33 @@ sessions:
       url: /2025/day1/track-1#track1-s2
       icons:
         - human-factors-awareness
-    - title: Zero Day Threat- The Mental Health Crisis in Cybersecurity
-      presenter: Paul Robinson
+    - title: A Beginner's Guide MITRE ATLAS (Adversarial Threat Landscape for AI Systems)
+      presenter: Elaine Harrison-Neukirch
       abstract: >
-        Studies have indicated that a significant portion of cybersecurity professionals have taken time off due to work-related mental health issues, with 74% globally reporting this, and 26.8% saying their mental health has worsened over the past year. A recent report showed that 66% of cybersecurity professionals experience significant stress at work, and 64% report their mental health affects their productivity. This has also led to addiction issues as well. Mental health is taboo in our society and especially in our industry as we feel like we always have to have it together. This talk is designed to identify potential triggers and how to deal with them in a healthy way.
+        Artificial intelligence is powering everything from job screening tools to self-driving cars—but what 
+        happens when hackers go after the AI itself? In this fun and accessible talk, we’ll explore MITRE 
+        ATLAS (Adversarial Threat Landscape for Artificial-Intelligence Systems), a growing framework designed 
+        to help us understand and defend against attacks targeting machine learning and AI systems.
+
+        This session will guide you through:
+
+        - What MITRE ATLAS is and how it works
+        - Real-world examples of how you can use MITRE ATLAS to defend your organization.
+        - Simple ways to start thinking about AI security and governance.
+        - You’ll leave with a clear understanding of AI-specific threats, how they differ from traditional cyberattacks. 
+        - Bring your laptop if you’d like to explore MITRE ATLAS during the session.
       bios:
-        - name: Paul Robinson
+        - name: Elaine Harrison-Neukirch
           bio: >
-            Paul has been in the cybersecurity space since 2009, consulting organizations on technology and GRC strategies. <br><br>
-            
-            During the pandemic, he started to become aware of some deficiencies in the industry that disturbed him. He noticed that a lot of businesses were making their cybersecurity decisions based on industry fads and unmerited FUD. This was troubling to see as with this strategy, organizations were not considering their true business needs and how cybersecurity and risk could help solve them. In 2023 he started his independent consulting firm Tempus Network.<br><br>
-            
-            Recently, the issues surrounding mental health in cybersecurity have become of interest to him. A lot of cyber professionals are struggling with balancing the stresses of their jobs with their everyday life. This talk is meant to get the conversation going on about how we can be the healthiest versions of ourselves.<br>
+            Elaine has worked in Information Technology and Cybersecurity for over 15 years. Elaine is an 
+            Enterprise Support Engineer for CyberArk. She is also the volunteer VP of Education for Cyber 
+            Security Non-Profit (CSNP.org). She was presented with the Cyber Security Educator award by the 
+            Women's Society of Cyberjutsu in 2024. Elaine endeavors to educate cyber and non cyber professionals, 
+            focusing on issues that affect underrepresented groups. This includes cybersecurity, security 
+            awareness, career and wellness education. 
       url: /2025/day1/track-1#track1-s3
       icons:
-        - human-factors-awareness
+        - ai-emerging-tech
     - title: "What Could Go Wrong?: AI Security Mistakes Even Fortune 500 Companies Are Making"
       presenter: Savannah Alfaro & Zachary Wallace
       abstract: >
@@ -144,7 +156,7 @@ sessions:
             various industries including banking, insurance, healthcare, telecommunications, transportation, 
             and many others. Zachary has a Bachelor of Science degree in Cybersecurity with a minor in 
             Digital Forensics.
-      url: /2025/day1/track-1#track1-s4
+      url: /2025/day1/track1#track1-s4
       icons: 
         - ai-emerging-tech
   track2:
@@ -249,9 +261,9 @@ sessions:
       abstract: >
         This presentation builds upon and expands technical content presented during two previous 
         Rochester ISSA chapter meetings: Getting Started with Threat Hunting (December 4, 2023) and 
-        Analyzing a Recent Endpoint Attack (April 21, 2025). The presentation will include examples 
-        of common obfuscation methods used by adversaries as well as tips, tricks, and tools that can 
-        be used to facilitate analysis of attacks. This is a technical presentation geared towards 
+        Analyzing a Recent Endpoint Attack (April 21, 2025).  The presentation will include examples 
+        of common obfuscation methods used by adversaries and well and tips, tricks, and tools that 
+        can be used to facilitate analysis of attacks. This is a technical presentation geared towards 
         SOC teams, security analysts, and/or threat hunters and will include packet captures and other 
         low-level technical minutiae.
       bios:
@@ -279,9 +291,13 @@ sessions:
       bios:
         - name: Jonathan Borgesen
           bio: >
-            Jonathan Borgesen is the Technical Director of Security at EchoStor Technologies, a leading technology solutions provider based in Norwood, MA. He oversees the organization’s comprehensive security practice and has been active in the cybersecurity industry since 2009. His work centers on educating, consulting, and empowering local organizations to achieve their security objectives.<br><br>
-            
-            Throughout his career, Jonathan has presented at numerous educational events across both local and national stages, gaining broad insights into emerging security trends and challenges. This exposure has enabled him to develop a well-rounded perspective that extends beyond the Northeast, informing his strategic approach to modern cybersecurity.
+            Jonathan Borgesen is a Client Security Principal for ePlus and is responsible for the overall 
+            security practice in the Upstate NY, New England, and United Kingdom regions. He has been a 
+            part of the security industry since 2009 with a focus dedicated to educating, consulting, and 
+            assisting local organizations to enable them to achieve their security goals. Throughout his 
+            tenure Jonathan has participated in and presented at many educational events at both the local 
+            and national level. This has allowed him to gain a greater understanding of security trends 
+            from a perspective that expands beyond the upstate, New England, and United Kingdom regions.
       url: /2025/day1/track-3#track3-s2
       icons:
         - tech-defense-infrastructure
@@ -333,29 +349,27 @@ sessions:
         - tech-defense-infrastructure
   other-events:
     - title: >
-        Capture the Flag Competition by MetaCTF<br><br>
-        
+        Capture the Flag Competition by <a href="https://metactf.com/products/competition-based-training/#jeopardy">MetaCTF</a><br><br>
+
         Compete solo or in groups of up to four<br><br>
-        
+
         Come & Go<br><br>
 
-        Registration: 9:40 am<br>
+        <a href="https://mctf.io/rochester2025">Register Anytime</a><br>
         Start: 10:00 am<br>
-        End: Thursday 3pm
+        End: Thursday 3pm    
       length: 2
-      url: /files/RSS2025-MetaCTF-Information-Bulletin.pdf
     - skip: true
     - title: >
-        Lockpick Village by Toool<br><br>
-        
+        Lockpick Village by <a href="https://toool.us/">Toool</a><br><br>
+
         Hands-on lockpicking workshop<br><br>
-        
+
         Come & Go<br><br>
 
         Start: 12:30 pm<br>
         End: 3:45 pm 
       length: 2
-      url: https://toool.us/
     - skip: true
   sponsor1:
     - title: "AI vs. Identity Security – Who's Really in Control?"
@@ -409,40 +423,25 @@ sessions:
       sponsor: Island
       sponsor_url:
       url: /2025/day1/sponsor-1#sponsor1-s2
-    - title: "Visibility to Actionability"
-      presenter: Jordan Farkas
-      abstract: >
-        As security teams face a growing gap between the scale of their responsibilities and the resources available to meet them, many leaders find themselves stuck in a cycle of reactivity—chasing issues instead of staying ahead of them. This interactive roundtable brings together security leaders for a candid, peer-driven discussion on how to break that cycle.<br>
-        
-        Together, we'll explore practical, high-level strategies for scaling security efforts without scaling burnout. Anchored in three foundational pillars—Visibility, Prioritization, and Remediation—this session is designed to spark shared insights and real-world takeaways that can be applied across different environments.<br>
-        
-        Participants will also have the opportunity to reflect on findings from the personalized Security & Actionability Assessment to deepen the conversation and carry ideas forward.
-      bios:
-        - name: Jordan Farkas
-          bio: >
-            Jordan Farkas is a Senior Systems Engineer for Strategic Accounts at Axonius. Jordan has a vulnerability management background and is coming up on 4 years at Axonius, where he leads the Field Technical Advisory Group for the Axonius Platform.
+    - title: ""
       sponsor: Axonius
       sponsor_url:
-      url: /2025/day1/sponsor-1#sponsor1-s3
     - title: "AI Without Exposure: Securing AI with Microsoft at the Core"
       presenter: Ben Wilcox
       abstract: >
         You can’t stop AI adoption. But unchecked AI usage puts your data, identities, and compliance 
-        at risk.<br>
-        
+        at risk. 
+
         In this session, you will see a Microsoft-centric roadmap that makes safe AI adoption possible
         and manageable. IT and security leaders will leave with practical steps they can apply right 
-        away to reduce risk and get more value from their Microsoft investments.<br>
-        
-        You will learn how to:<br>
-        
-        - Uncover unsanctioned AI tools and bring shadow adoption under control<br>
-        
-        - Protect sensitive data and identities from leaks or misuse<br>
-        
-        - Defend against AI-driven threats with Microsoft Defender for Cloud Apps, Defender for Endpoint, Purview, Entra ID, and more<br>
-        
-        - Get greater security impact from the Microsoft tools you already own<br>
+        away to reduce risk and get more value from their Microsoft investments.
+
+        You will learn how to:
+
+        - Uncover unsanctioned AI tools and bring shadow adoption under control
+        - Protect sensitive data and identities from leaks or misuse
+        - Defend against AI-driven threats with Microsoft Defender for Cloud Apps, Defender for Endpoint, Purview, Entra ID, and more
+        - Get greater security impact from the Microsoft tools you already own
       bios:
         - name: Ben Wilcox, CTO and CISO
           bio: >
@@ -454,17 +453,9 @@ sessions:
       sponsor: ProArch (Diamond Sponsor)
       url: /2025/day1/sponsor-1#sponsor1-s4
   sponsor2:
-    - title: "Securing the Open Garden: AI-Driven Hybrid Mesh Network Security for the Modern Enterprise"
-      presenter: Eric Anderson
-      abstract: >
-        In today’s hyperconnected “open garden,” enterprise networks extend far beyond traditional perimeters—encompassing clouds, data centers, branch offices, remote users, and IoT devices. This borderless reality widens the attack surface and strains CISOs and security teams as they strive to close gaps across siloed systems and outpace fast-evolving threats. 
-      bios:
-        - name: Eric Anderson
-          bio: >
-            Eric is a 35-year veteran of the technology industry, with the last 25 of that focused on cybersecurity. After having served in just about every technical capacity from coding to customer service, in both pre and post-sales, he currently spends the majority of his time working with clients to solve their security challenges. Combining creative thinking and a sympathetic understanding of customer issues and motivations, he architects solutions to difficult problems while fostering deeper comprehension with those he works with and teaches.
+    - title: ""
       sponsor: Atlantic Data Security
       sponsor_url:
-      url: /2025/day1/sponsor-2#sponsor2-s1
     - title: "Outpacing the Modern Adversary"
       presenter: Adam Mitchell
       abstract: >
@@ -476,17 +467,9 @@ sessions:
       sponsor: CrowdStrike
       sponsor_url:
       url: /2025/day1/sponsor-2#sponsor2-s2
-    - title: "Protecting Against the AI Adversary: Dark Tools"
-      presenter: Nicholai Piagentini
-      abstract: >
-        Malspam LLMs, Generative AI on demand phishing sites and prompt injection, oh my! Dive into the dark side of AI as we look at emerging AI attack tools, new AI defensive models and how to secure AI in your enterprise with thought leaders from Varonis. 
-      bios:
-        - name: Nicholai Piagentini
-          bio: >
-            Nicholai Piagentini is a dedicated cybersecurity expert with a passion for enhancing digital security. From ensuring his teenage children maintain world-class operational security in their online activities to advising global banks, enterprises, and military organizations on strategic security decisions, Nicholai has devoted his career to empowering others to achieve greater security. As a thought leader at some of the world's largest security companies, including Palo Alto Networks, Nicholai has shared his expertise through teaching and presentations across four continents. His unique experience provides him with a holistic and systemic approach to addressing organizational security challenges.
+    - title: ""
       sponsor: Varonis
       sponsor_url:
-      url: /2025/day1/sponsor-2#sponsor2-s3
     - title: "Preventing the Domino Effect: Identity, Cloud, and Your Cyber Resilience Strategy"
       presenter: Matt Castiotta and Paul Lenhard
       abstract: >
