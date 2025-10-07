@@ -18,7 +18,7 @@ layout: page
 <section id="day-of-event">
 	<div class="row">
 		<div class="col-md-12">
-			<h1>Welcome to RSS:2024</h1>
+			<h1>Welcome to RSS:2025</h1>
 			<p class="text-center">Here's some important information to help you get the most out of the conference:</p>
 		</div>
 		<div class="col-md-6">
