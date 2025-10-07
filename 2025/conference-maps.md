@@ -6,7 +6,7 @@ layout: page
   <div class="row">
     <div class="col-md-6">
 	<h3>Sponsor Map</h3>
-	<a href="/2025/RSS2025_Map-SPONSOR.png" data-fslightbox="gallery"><img src="/2025/RSS2025_Map-SPONSOR.png.png" class="img-responsive" alt="2025 Sponsor Map"></a><br>
+	<a href="/2025/RSS2025_Map-SPONSOR.png" data-fslightbox="gallery"><img src="/2025/RSS2025_Map-SPONSOR.png" class="img-responsive" alt="2025 Sponsor Map"></a><br>
     </div>
     <div class="col-md-6">
 	<h3>Summit Map</h3>
