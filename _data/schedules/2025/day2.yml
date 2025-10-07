@@ -354,16 +354,17 @@ sessions:
         - tech-defense-infrastructure
   other-events:
     - title: >
-        CTF Competition by <a href="https://metactf.com/products/competition-based-training/#jeopardy">MetaCTF</a> (Continued)<br><br>
+        CTF Competition by MetaCTF (Continued)<br><br>
 
         Come & Go<br><br>
 
-        End: 2:30pm<br>
+        End: 3pm<br>
         <em>Top 3 prizes awarded EOD</em>
       length: 2
+      url: https://metactf.com/products/competition-based-training/#jeopardy
     - skip: true
     - title: >
-        Lockpick Village by <a href="https://toool.us/">Toool</a><br><br>
+        Lockpick Village by Toool<br><br>
 
         Hands-on lockpicking workshop<br><br>
 
@@ -372,6 +373,7 @@ sessions:
         Start: 12:30 pm<br>
         End: 3:00 pm pm
       length: 2
+      url: https://toool.us/
     - skip: true
   sponsor1:
     - title: "Building a Security Program - No Borders, No Bias, No BS"
@@ -421,16 +423,15 @@ sessions:
       sponsor: Fortinet
       sponsor_url:
       url: /2025/day2/sponsor-1#sponsor1-s2
-    - title: "Verkada x Child & Family Services: Interactive Q&A Session"
+    - title: "Intro to Hybrid Cloud Physical Security"
       abstract: >
-        Join us for an engaging discussion between Verkada, a leading physical security manufacturer, and
-        Child & Family Services (CFS), one of its valued customers.
-
-        In this session, you’ll learn how IT and physical security support CFS’s mission, and hear firsthand 
-        what factors they considered when evaluating and selecting a security vendor. The event will also 
-        include a brief demo of the Verkada platform, showcasing how it enhances safety and operational efficiency.
-
-        Bring your questions — this is a great opportunity to engage directly with both the Verkada and CFS teams.
+        Physical security has long been hindered by the limitations of on-premise DVR/NVR systems—complex 
+        maintenance, siloed devices, and lack of remote access. Verkada introduces a new approach: a 
+        hybrid cloud platform that combines the reliability of onboard storage with the accessibility and 
+        scalability of the cloud. In this session, we’ll explore how Verkada unifies video security, 
+        access control, sensors, alarms, and intercom under a single, easy-to-use interface. Attendees 
+        will learn how organizations across industries are modernizing security operations with real-time 
+        insights, seamless remote access, and simplified total cost of ownership. 
       presenter: Sam Petrone and Derek Pastor
       bios:
         - name: Sam Petrone, Regional Sales Manager, Northeast
