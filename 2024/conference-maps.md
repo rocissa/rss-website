@@ -15,3 +15,4 @@ layout: page
   </div>
   <div class="col-md-12 text-center">Click or tap on images to enlarge.</div>
 </div>
+<script src="/js/fslightbox.js"></script>
