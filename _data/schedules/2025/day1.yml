@@ -333,20 +333,21 @@ sessions:
         - tech-defense-infrastructure
   other-events:
     - title: >
-        Capture the Flag Competition by MetaCTF<br><br>
+        Capture the Flag Competition by <a href="https://metactf.com/products/competition-based-training/#jeopardy">MetaCTF</a><br><br>
         
         Compete solo or in groups of up to four<br><br>
         
         Come & Go<br><br>
 
-        Registration: 9:40 am<br>
+        <a href="https://mctf.io/rochester2025">Register Anytime</a><br>
         Start: 10:00 am<br>
-        End: Thursday 3pm
+        End: Thursday 3pm<br><br>
+
+        <a href="/files/RSS2025-MetaCTF-Information-Bulletin.pdf">More Info</a>
       length: 2
-      url: /files/RSS2025-MetaCTF-Information-Bulletin.pdf
     - skip: true
     - title: >
-        Lockpick Village by Toool<br><br>
+        Lockpick Village by <a href="https://toool.us/">Toool</a><br><br>
         
         Hands-on lockpicking workshop<br><br>
         
@@ -355,7 +356,6 @@ sessions:
         Start: 12:30 pm<br>
         End: 3:45 pm 
       length: 2
-      url: https://toool.us/
     - skip: true
   sponsor1:
     - title: "AI vs. Identity Security – Who's Really in Control?"
