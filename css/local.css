@@ -453,7 +453,7 @@ section#slider {
 	text-align: center;
 }
 
-.sponsor-box {
+.sp-box {
 	box-sizing: border-box;
 	padding: 2rem;
 	margin: 1rem 1rem;
@@ -464,7 +464,7 @@ section#slider {
 	border: 1px solid grey;
 }
 
-.sponsor-box img {
+.sp-box img {
 	max-width: 100%;
 	text-align: center;
 }

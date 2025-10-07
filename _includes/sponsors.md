@@ -26,7 +26,7 @@
         </div>
       {%- endif -%}      
 
-      <div class="sponsor-box sponsor-{{ sponsor.Level | downcase }}"><a href="{{ sponsor.Link }}" target="_blank"><img src="/{{ active_year }}/sponsors/{{ sponsor.Image }}" alt="{{ sponsor.Name }}" title="{{ sponsor.Description }}"  /></a>
+      <div class="sp-box sponsor-{{ sponsor.Level | downcase }}"><a href="{{ sponsor.Link }}" target="_blank"><img src="/{{ active_year }}/sponsors/{{ sponsor.Image }}" alt="{{ sponsor.Name }}" title="{{ sponsor.Description }}"  /></a>
 	  {%- if site.sponsors_show_boothinfo -%}
 		<br>
 		<div class="boothinfo">
