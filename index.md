@@ -27,7 +27,7 @@ layout: page
 		</div>
 		<div class="col-md-6">
 			<div class="mt-5 text-center"><a class="btn btn-primary btn-lg" href="/sponsors">Sponsor Information</a><br>
-				<a class="btn btn-primary btn-lg" href="/2024/conference-maps">Conference Maps</a></div>
+				<a class="btn btn-primary btn-lg" href="/2025/conference-maps">Conference Maps</a></div>
 		</div>
 	</div>
 </section>
