@@ -36,6 +36,7 @@ layout: page
 <section id="event-concluded">
 	<div>
 		<h1 class="text-center">RSS:{{ site.current_year }} Has Concluded</h1>
+		<p class="upcoming-dates text-center">{{ site.event_concluded_additional_message }}</p>
 		<p class="upcoming-dates text-center">We look forward to seeing you at RSS:{{ site.next_year }}{% if site.next_year_start_date %}, {% daterange site.next_year_start_date, site.next_year_end_date %}{% endif %}.</p>
 		{%- if site.event_concluded_show_slides_link -%}
 		<p class="text-center mt-5 mb-5"><a class="btn btn-lg btn-primary pt-5 pb-5" href="/{{ site.current_year }}/slides-videos/">RSS:{{ site.current_year }} Presentation Slides <!-- & Videos --></a></p>

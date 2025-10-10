@@ -13,13 +13,13 @@ current_year: 2025
 previous_year: 2024
 
 # next conference year - leave at current during early planning
-next_year: 2025
+next_year: 2026
 
 # conference dates
 conference_start_date: 2025-10-08
 conference_end_date: 2025-10-09
-next_year_start_date: 2025-10-08
-next_year_end_date: 2025-10-09
+next_year_start_date: 2026-10-14
+next_year_end_date: 2026-10-15
 
 # which year's sponsors should be shown on the homepage
 # allows for previous year's to show until the current year's list is ready
@@ -31,13 +31,13 @@ homepage_sponsors_show_previous_year: false
 homepage_conference_announcement: true
 
 # should the venue info be displayed on the homepage?
-homepage_show_venue: true
+homepage_show_venue: false
 
 # should the hotel info be displayed on the homepage?
-homepage_show_hotels: true
+homepage_show_hotels: false
 
 # should parking info be displayed on the homepage?
-homepage_show_parking: true
+homepage_show_parking: false
 
 # should keynote speakers be shown on homepage?
 homepage_show_keynotes: true
@@ -49,7 +49,7 @@ app_android_url: https://play.google.com/store/apps/details?id=com.guidebook.app
 app_web_url: https://guidebook.com/g/rochestersecuritysummit2024/
 
 # should day-of-event content show on the homepage?
-homepage_show_day_of_event: true
+homepage_show_day_of_event: false
 
 homepage_show_post_conference_info: false
 homepage_show_call_for_volunteers: true
@@ -57,8 +57,8 @@ homepage_show_schedule_link: false
 homepage_show_ticket_retrieval: false
 
 # should registration info be displayed on the homepage?
-registration_not_yet_open: true
-registration_enabled: true
+registration_not_yet_open: false
+registration_enabled: false
 registration_announcement_on_sale: false
 registration_early_bird: true
 registration_early_bird_cost: $180
@@ -77,12 +77,13 @@ registration_late_one_day: true
 registration_late_one_day_cost: $245
 registration_late_one_day_end_date: 2025-10-09
 registration_sold_out: false
-registration_event_concluded: false
+registration_event_concluded: true
 
 # event concluded options
 event_concluded_show_slides_link: false
-event_concluded_show_conf_survey_link: false
-conf_survey_link_url: https://docs.google.com/forms/d/e/1FAIpQLSdPumjNZn5fCKqRgYYITurEfrzrlPuHBLiS7xH1fEyybV7Qpw/viewform?usp=sf_link
+event_concluded_show_conf_survey_link: true
+conf_survey_link_url: https://docs.google.com/forms/d/e/1FAIpQLSeGRNefJKsHMQIilxk7a-ogKUXwC1TLrIqk8D3ZnoLL9pvfKQ/viewform?usp=sf_link
+event_concluded_additional_message: "Thank you to everyone who joined us. Stay tuned for slides, recordings and updates <br>as we begin planning for our 20th Anniversary Year."
 
 # sponsorship messaging
 sponsorship_show_w9_link: false
