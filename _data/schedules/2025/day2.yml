@@ -83,6 +83,10 @@ sessions:
       icons:
         - ai-emerging-tech
         - human-factors-awareness
+      links:
+        - title: Presentation Slides 
+          url: /2025/files/Stasiukonis_WHEN-AI-WALKS-THROUGH.pdf
+          icon: "fa-solid fa-presentation-screen"
     - title: "Keeping your AI in Check; No, It Shouldn't Know Your Passwords"
       presenter: David Santeramo
       abstract: >
@@ -106,6 +110,10 @@ sessions:
       url: /2025/day2/track-1#track1-s2
       icons:
         - ai-emerging-tech
+      links:
+        - title: Presentation Slides 
+          url: /2025/files/Pellera-Keeping-AI-In-in-Check-Santeramo -RSS-edition.pdf
+          icon: "fa-solid fa-presentation-screen"
     - title: "Exposing the Real Risk: How Ransomware, Extortion, and the Dark Web Are Evolving"
       presenter: Bruce Cheney
       abstract: >
@@ -135,6 +143,10 @@ sessions:
       icons:
         - tech-defense-infrastructure
         - business-governance-risk
+      links:
+        - title: Presentation Slides 
+          url: /2025/files/Cheney_RSS-RiskPreso-Redacted-08222025.pdf
+          icon: "fa-solid fa-presentation-screen"
     - title: "A Human Insider Threat (HIT) Conceptual Framework for Cybersecurity Resilience Management"
       presenter: Dr. Marcus L. Green
       abstract: >
@@ -187,6 +199,10 @@ sessions:
       url: /2025/day2/track-2#track2-s1
       icons:
         - industry-community-perspectives
+      links:
+        - title: Presentation Slides 
+          url: /2025/files/Women-in-IT-Roundtable-Slides-2025.pdf
+          icon: "fa-solid fa-presentation-screen"
     - title: "Breach Response in Real Time: An Interactive Cybersecurity Simulation"
       presenter: John D. Flory III & Rolin Peets
       abstract: >
@@ -236,6 +252,10 @@ sessions:
       url: /2025/day2/track-2#track2-s3
       icons:
         - business-governance-risk
+      links:
+        - title: Presentation Slides 
+          url: /2025/files/Beyond-the-Obvious_A-Gristmacher.pdf
+          icon: "fa-solid fa-presentation-screen"
     - title: "Disaster Recovery Planning: From Theory to Action"
       presenter: Jason Taylor
       abstract: >
@@ -259,6 +279,10 @@ sessions:
       url: /2025/day2/track-2#track2-s4
       icons:
         - business-governance-risk
+      links:
+        - title: Presentation Slides 
+          url: /2025/files/Disaster-Recovery-Planning-Presentation_Jason Taylor_RSS-2025.pdf
+          icon: "fa-solid fa-presentation-screen"
   track3:
     - title: "Lessons Learned from the OWASP Amass Project"
       presenter: Jeff Foley
@@ -286,6 +310,10 @@ sessions:
       url: /2025/day2/track-3#track3-s1
       icons:
         - tech-defense-infrastructure
+      links:
+        - title: Presentation Slides 
+          url: /2025/files/Foley_Lessons-Learned-from-the-OWASP-Amass-Project-Rochester-Security-Summit 2025.pdf
+          icon: "fa-solid fa-presentation-screen"
     - title: "My Cyber Sense Is Tingling! Detection Engineering With Free Tools"
       presenter: Matthew Gracie
       abstract: >
@@ -310,6 +338,10 @@ sessions:
       url: /2025/day2/track-3#track3-s2
       icons:
         - tech-defense-infrastructure
+      links:
+        - title: Presentation Slides 
+          url: /2025/files/Gracie_Detection_Engineering_RSS_2025.pdf
+          icon: "fa-solid fa-presentation-screen"
     - title: "Drag, Drop, Defend: Making Security Scripts Accessible to Everyone"
       presenter: Gregory Stachura
       abstract: >
@@ -334,6 +366,10 @@ sessions:
       url: /2025/day2/track-3#track3-s3
       icons:
         - tech-defense-infrastructure
+      links:
+        - title: Presentation Slides 
+          url: /2025/files/Drag-drop-defend.pdf
+          icon: "fa-solid fa-presentation-screen"
     - title: "Insecuring your Data Using Federated Authentication"
       presenter: Clay Cooper
       abstract: >
@@ -352,6 +388,11 @@ sessions:
       url: /2025/day2/track-3#track3-s4
       icons:
         - tech-defense-infrastructure
+      links:
+        - title: Presentation Slides 
+          url: /2025/files/Cooper-RSS-2025-Federated Authentication.pdf
+          icon: "fa-solid fa-presentation-screen"
+
   other-events:
     - title: >
         CTF Competition by <a href="https://metactf.com/products/competition-based-training/#jeopardy">MetaCTF</a> (Continued)<br><br>
@@ -386,11 +427,20 @@ sessions:
       bios:
         - name: Rob Preta
           bio: >
-            Rob Preta is an accomplished cybersecurity executive with a career dedicated to protecting organizations from the ever-evolving landscape of digital threats. With over two decades of experience, he has a proven track record of developing and implementing risk-based security strategies that align with business objectives and leverage modern technologies.<br>
+            Rob Preta is an accomplished cybersecurity executive with a career dedicated to protecting 
+            organizations from the ever-evolving landscape of digital threats. With over two decades of 
+            experience, he has a proven track record of developing and implementing risk-based security 
+            strategies that align with business objectives and leverage modern technologies.
             
-            Rob has held key leadership positions, where he honed his skills in safeguarding critical systems. He has consistently demonstrated a commitment to staying ahead of emerging threats and fostering a culture of proactive defense.<br>
+            Rob has held key leadership positions, where he honed his skills in safeguarding critical 
+            systems. He has consistently demonstrated a commitment to staying ahead of emerging threats 
+            and fostering a culture of proactive defense.<br>
             
-            He is particularly passionate about cloud security and data protection. In an era where organizations are increasingly cloud and SaaS-based, he is a strong advocate for embracing modern security tools to tackle these unique challenges. His insights have been featured in a Cyera customer spotlight video, and he has contributed to various discussions and podcasts on topics such as Identity and Access Management. 
+            He is particularly passionate about cloud security and data protection. In an era where 
+            organizations are increasingly cloud and SaaS-based, he is a strong advocate for embracing 
+            modern security tools to tackle these unique challenges. His insights have been featured in 
+            a Cyera customer spotlight video, and he has contributed to various discussions and podcasts 
+            on topics such as Identity and Access Management. 
       sponsor: Cyera
       sponsor_url:
       url: /2025/day2/sponsor-1#sponsor1-s1

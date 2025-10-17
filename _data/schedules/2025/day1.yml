@@ -3,6 +3,10 @@ keynotes:
   - presenter: Alan Levine
     url: /2025/alan-levine/
     title: Lessons Learned from a CISO Who Managed to Keep His Job for 2 Decades
+    links:
+      - title: Presentation Slides 
+        url: /2025/files/Levine-Keynote-Rochester-Security-Summit-October-2025.pdf
+        icon: "fa-solid fa-presentation-screen"
   - presenter: Heather Barnhart
     url: /2025/heather-barnhart/
     title: Mistakes Will Be Made—The Role of Digital Forensics in High-Stakes Investigations and Lessons Learned
@@ -105,6 +109,10 @@ sessions:
       url: /2025/day1/track-1#track1-s2
       icons:
         - human-factors-awareness
+      links:
+        - title: Presentation Slides 
+          url: /2025/files/Schwartz_rss-2025-talk.pptx-1.pdf
+          icon: "fa-solid fa-presentation-screen"
     - title: Zero Day Threat- The Mental Health Crisis in Cybersecurity
       presenter: Paul Robinson
       abstract: >
@@ -120,6 +128,10 @@ sessions:
       url: /2025/day1/track-1#track1-s3
       icons:
         - human-factors-awareness
+      links:
+        - title: Presentation Slides 
+          url: /2025/files/Robinson_RSS-2025-Mental-Health-Preso-001.pdf
+          icon: "fa-solid fa-presentation-screen"
     - title: "What Could Go Wrong?: AI Security Mistakes Even Fortune 500 Companies Are Making"
       presenter: Savannah Alfaro & Zachary Wallace
       abstract: >
@@ -147,6 +159,10 @@ sessions:
       url: /2025/day1/track-1#track1-s4
       icons: 
         - ai-emerging-tech
+      links:
+        - title: Presentation Slides 
+          url: /2025/files/Alfaro-AI-Security-Mistakes-Even-Fortune-500-Companies-Are-Making.pdf
+          icon: "fa-solid fa-presentation-screen"
   track2:
     - title: "Leading in Times of Uncertainty; 9/11/01: The White House"
       presenter: Robert J. Darling
@@ -202,6 +218,10 @@ sessions:
       url: /2025/day1/track-2#track2-s2
       icons: 
         - business-governance-risk
+      links:
+        - title: Presentation Slides 
+          url: /2025/files/Schneider-Geopolitics-and-Credential-Based-Threats.pdf
+          icon: "fa-solid fa-presentation-screen"
     - title: "Beyond the Report: Why Pen Testing is a GRC Responsibility"
       presenter: Brandon Finton
       abstract: >
@@ -226,6 +246,10 @@ sessions:
       url: /2025/day1/track-2#track2-s3
       icons:
         - business-governance-risk
+      links:
+        - title: Presentation Slides 
+          url: /2025/files/Finton_Beyond_the_Report_Presentation.pdf
+          icon: "fa-solid fa-presentation-screen"
     - title: Governance Foundations
       presenter: Mark Christman
       abstract: >
@@ -243,6 +267,10 @@ sessions:
       url: /2025/day1/track-2#track2-s4
       icons: 
         - business-governance-risk
+      links:
+        - title: Presentation Slides 
+          url: /2025/files/Christman_GovernanceFoundations.pdf
+          icon: "fa-solid fa-presentation-screen"
   track3:
     - title: Technical Analysis of Recent Endpoint Attacks
       presenter: Rich Savacool
@@ -266,6 +294,10 @@ sessions:
       url: /2025/day1/track-3#track3-s1
       icons: 
         - tech-defense-infrastructure
+      links:
+        - title: Presentation Slides 
+          url: /2025/files/Savacool_Technical-Analysis-of-Recent-Endpoint-Attacks.pdf
+          icon: "fa-solid fa-presentation-screen"
     - title: Reduce the Blast Radius with Microsegmentation
       presenter: Jonathan Borgesen
       abstract: >
@@ -279,12 +311,22 @@ sessions:
       bios:
         - name: Jonathan Borgesen
           bio: >
-            Jonathan Borgesen is the Technical Director of Security at EchoStor Technologies, a leading technology solutions provider based in Norwood, MA. He oversees the organization’s comprehensive security practice and has been active in the cybersecurity industry since 2009. His work centers on educating, consulting, and empowering local organizations to achieve their security objectives.<br><br>
-            
-            Throughout his career, Jonathan has presented at numerous educational events across both local and national stages, gaining broad insights into emerging security trends and challenges. This exposure has enabled him to develop a well-rounded perspective that extends beyond the Northeast, informing his strategic approach to modern cybersecurity.
+            Jonathan Borgesen is the Technical Director of Security at EchoStor Technologies, a leading 
+            technology solutions provider based in Norwood, MA. He oversees the organization’s comprehensive 
+            security practice and has been active in the cybersecurity industry since 2009. His work centers 
+            on educating, consulting, and empowering local organizations to achieve their security objectives.
+
+            Throughout his career, Jonathan has presented at numerous educational events across both local and 
+            national stages, gaining broad insights into emerging security trends and challenges. This exposure 
+            has enabled him to develop a well-rounded perspective that extends beyond the Northeast, informing 
+            his strategic approach to modern cybersecurity.
       url: /2025/day1/track-3#track3-s2
       icons:
         - tech-defense-infrastructure
+      links:
+        - title: Presentation Slides 
+          url: /2025/files/Reducing-the-blast-radius-with-Microsegmentation.pdf
+          icon: "fa-solid fa-presentation-screen"
     - title: Beginner’s Guide to Starting a Security Home Lab
       presenter: Jim Keeler
       abstract: >
@@ -307,6 +349,10 @@ sessions:
       url: /2025/day1/track-3#track3-s3
       icons:
         - tech-defense-infrastructure
+      links:
+        - title: Presentation Slides 
+          url: /2025/files/Keeler_Beginners-Guide-to-Starting-a-Security-Home-Lab.pdf
+          icon: "fa-solid fa-presentation-screen"
     - title:  Stealing User Credentials and Data with Malicious Browser Extensions
       presenter: Or Eshed
       abstract: >
@@ -331,6 +377,10 @@ sessions:
       url: /2025/day1/track-3#track3-s3
       icons:
         - tech-defense-infrastructure
+      links:
+        - title: Presentation Slides 
+          url: /2025/files/Eshed_Rochester-Security-Summit-Stealing-User-Credentials-and-Data-with-Malicious-Browser-Extensions.pdf
+          icon: "fa-solid fa-presentation-screen"
   other-events:
     - title: >
         Capture the Flag Competition by <a href="https://metactf.com/products/competition-based-training/#jeopardy">MetaCTF</a><br><br>
@@ -412,11 +462,18 @@ sessions:
     - title: "Visibility to Actionability"
       presenter: Jordan Farkas
       abstract: >
-        As security teams face a growing gap between the scale of their responsibilities and the resources available to meet them, many leaders find themselves stuck in a cycle of reactivity—chasing issues instead of staying ahead of them. This interactive roundtable brings together security leaders for a candid, peer-driven discussion on how to break that cycle.<br>
+        As security teams face a growing gap between the scale of their responsibilities and the 
+        resources available to meet them, many leaders find themselves stuck in a cycle of 
+        reactivity—chasing issues instead of staying ahead of them. This interactive roundtable brings 
+        together security leaders for a candid, peer-driven discussion on how to break that cycle.
         
-        Together, we'll explore practical, high-level strategies for scaling security efforts without scaling burnout. Anchored in three foundational pillars—Visibility, Prioritization, and Remediation—this session is designed to spark shared insights and real-world takeaways that can be applied across different environments.<br>
+        Together, we'll explore practical, high-level strategies for scaling security efforts without 
+        scaling burnout. Anchored in three foundational pillars—Visibility, Prioritization, and 
+        Remediation—this session is designed to spark shared insights and real-world takeaways that 
+        can be applied across different environments.
         
-        Participants will also have the opportunity to reflect on findings from the personalized Security & Actionability Assessment to deepen the conversation and carry ideas forward.
+        Participants will also have the opportunity to reflect on findings from the personalized 
+        Security & Actionability Assessment to deepen the conversation and carry ideas forward.
       bios:
         - name: Jordan Farkas
           bio: >

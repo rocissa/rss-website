@@ -80,8 +80,8 @@ registration_sold_out: false
 registration_event_concluded: true
 
 # event concluded options
-event_concluded_show_slides_link: false
-event_concluded_show_conf_survey_link: true
+event_concluded_show_slides_link: true
+event_concluded_show_conf_survey_link: false
 conf_survey_link_url: https://docs.google.com/forms/d/e/1FAIpQLSeGRNefJKsHMQIilxk7a-ogKUXwC1TLrIqk8D3ZnoLL9pvfKQ/viewform?usp=sf_link
 event_concluded_additional_message: "Thank you to everyone who joined us. Stay tuned for slides, recordings and updates <br>as we begin planning for our 20th Anniversary Year."
 
