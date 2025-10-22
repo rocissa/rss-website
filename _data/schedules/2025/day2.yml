@@ -87,6 +87,9 @@ sessions:
         - title: Presentation Slides 
           url: /2025/files/Stasiukonis_WHEN-AI-WALKS-THROUGH.pdf
           icon: "fa-solid fa-presentation-screen"
+        - title: 'Presentation Video'
+          url: 'https://youtu.be/-DqkJ8vWFnQ?si=f6T09lllP8NQ6PKc'
+          icon: 'fa-solid fa-clapperboard-play'
     - title: "Keeping your AI in Check; No, It Shouldn't Know Your Passwords"
       presenter: David Santeramo
       abstract: >
@@ -114,6 +117,9 @@ sessions:
         - title: Presentation Slides 
           url: /2025/files/Pellera-Keeping-AI-In-in-Check-Santeramo -RSS-edition.pdf
           icon: "fa-solid fa-presentation-screen"
+        - title: 'Presentation Video'
+          url: 'https://youtu.be/3RtLNshb0fo?si=pzXwxFp31GRbbOpJ'
+          icon: 'fa-solid fa-clapperboard-play'
     - title: "Exposing the Real Risk: How Ransomware, Extortion, and the Dark Web Are Evolving"
       presenter: Bruce Cheney
       abstract: >
@@ -158,6 +164,10 @@ sessions:
       url: /2025/day2/track-1#track1-s4
       icons:
         - tech-defense-infrastructure
+      links:
+        - title: 'Presentation Video'
+          url: 'https://youtu.be/MbeZSa58Nkk?si=atV7VGCYk3qHo-QG'
+          icon: 'fa-solid fa-clapperboard-play'
   track2:
     - title: "Women in IT Roundtable: Leadership, Opportunity and Equity - The Future for Women in IT"
       presenter: Linda Weller & Industry Experts
@@ -203,6 +213,9 @@ sessions:
         - title: Presentation Slides 
           url: /2025/files/Women-in-IT-Roundtable-Slides-2025.pdf
           icon: "fa-solid fa-presentation-screen"
+        - title: 'Presentation Video'
+          url: 'https://youtu.be/PjBzHM7-qsE?si=tsMPxas5I2nKoiRI'
+          icon: 'fa-solid fa-clapperboard-play'
     - title: "Breach Response in Real Time: An Interactive Cybersecurity Simulation"
       presenter: John D. Flory III & Rolin Peets
       abstract: >
@@ -228,6 +241,10 @@ sessions:
       url: /2025/day2/track-2#track2-s2
       icons:
         - industry-community-perspectives
+      links:
+        - title: 'Presentation Video'
+          url: 'https://youtu.be/PI-nF0vyCKY?si=Y3t9Sz5BXSGeGeIG'
+          icon: 'fa-solid fa-clapperboard-play'
     - title: "Beyond the Obvious: Why 1+1 = 3 in Third-Party Risk"
       presenter: Alicia Gristmacher
       abstract: >
@@ -256,6 +273,9 @@ sessions:
         - title: Presentation Slides 
           url: /2025/files/Beyond-the-Obvious_A-Gristmacher.pdf
           icon: "fa-solid fa-presentation-screen"
+        - title: 'Presentation Video'
+          url: 'https://youtu.be/RuqlKp3-k-U?si=_5g_flgDNd_eMKHd'
+          icon: 'fa-solid fa-clapperboard-play'
     - title: "Disaster Recovery Planning: From Theory to Action"
       presenter: Jason Taylor
       abstract: >
@@ -283,6 +303,9 @@ sessions:
         - title: Presentation Slides 
           url: /2025/files/Disaster-Recovery-Planning-Presentation_Jason Taylor_RSS-2025.pdf
           icon: "fa-solid fa-presentation-screen"
+        - title: 'Presentation Video'
+          url: 'https://youtu.be/__7mUKWlyzc?si=W71V6Y4fm3BRgUna'
+          icon: 'fa-solid fa-clapperboard-play'
   track3:
     - title: "Lessons Learned from the OWASP Amass Project"
       presenter: Jeff Foley
@@ -314,6 +337,9 @@ sessions:
         - title: Presentation Slides 
           url: /2025/files/Foley_Lessons-Learned-from-the-OWASP-Amass-Project-Rochester-Security-Summit 2025.pdf
           icon: "fa-solid fa-presentation-screen"
+        - title: 'Presentation Video'
+          url: 'https://youtu.be/kdr4EB9UEzs?si=g3jX6MepGiNd3VjA'
+          icon: 'fa-solid fa-clapperboard-play'
     - title: "My Cyber Sense Is Tingling! Detection Engineering With Free Tools"
       presenter: Matthew Gracie
       abstract: >
@@ -342,6 +368,9 @@ sessions:
         - title: Presentation Slides 
           url: /2025/files/Gracie_Detection_Engineering_RSS_2025.pdf
           icon: "fa-solid fa-presentation-screen"
+        - title: 'Presentation Video'
+          url: 'https://youtu.be/m6-jgK4gu50?si=aMS_EzFHjtfY2Rdu'
+          icon: 'fa-solid fa-clapperboard-play'
     - title: "Drag, Drop, Defend: Making Security Scripts Accessible to Everyone"
       presenter: Gregory Stachura
       abstract: >
@@ -370,6 +399,9 @@ sessions:
         - title: Presentation Slides 
           url: /2025/files/Drag-drop-defend.pdf
           icon: "fa-solid fa-presentation-screen"
+        - title: 'Presentation Video'
+          url: 'https://youtu.be/BkLbV1s9P-E?si=iR2GaCxPf1GGSZZD'
+          icon: 'fa-solid fa-clapperboard-play'
     - title: "Insecuring your Data Using Federated Authentication"
       presenter: Clay Cooper
       abstract: >
@@ -392,7 +424,9 @@ sessions:
         - title: Presentation Slides 
           url: /2025/files/Cooper-RSS-2025-Federated Authentication.pdf
           icon: "fa-solid fa-presentation-screen"
-
+        - title: 'Presentation Video'
+          url: 'https://youtu.be/VYW26jH3H1s?si=ghBM__yPIUgD5hPi'
+          icon: 'fa-solid fa-clapperboard-play'
   other-events:
     - title: >
         CTF Competition by <a href="https://metactf.com/products/competition-based-training/#jeopardy">MetaCTF</a> (Continued)<br><br>

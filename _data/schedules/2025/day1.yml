@@ -7,6 +7,9 @@ keynotes:
       - title: Presentation Slides 
         url: /2025/files/Levine-Keynote-Rochester-Security-Summit-October-2025.pdf
         icon: "fa-solid fa-presentation-screen"
+      - title: 'Presentation Video'
+        url: 'https://youtu.be/_mrg-o9NrI0?si=TpsKlNoKfVlnTIFX'
+        icon: 'fa-solid fa-clapperboard-play'
   - presenter: Heather Barnhart
     url: /2025/heather-barnhart/
     title: Mistakes Will Be Made—The Role of Digital Forensics in High-Stakes Investigations and Lessons Learned
@@ -86,6 +89,10 @@ sessions:
       url: /2025/day1/track-1#track1-s1
       icons:
         - human-factors-awareness
+      links:
+        - title: 'Presentation Video'
+          url: 'https://youtu.be/IGWDPUv0loA?si=xv-d5NAKmSK5XoPv'
+          icon: 'fa-solid fa-clapperboard-play'
     - title: Critical Infrastructure Security in Your Home Town
       presenter: David I. Schwartz, Ph.D.
       abstract: >
@@ -113,6 +120,9 @@ sessions:
         - title: Presentation Slides 
           url: /2025/files/Schwartz_rss-2025-talk.pptx-1.pdf
           icon: "fa-solid fa-presentation-screen"
+        - title: 'Presentation Video'
+          url: 'https://youtu.be/4glzVjHB9oo?si=Je0sxwpYAKN4kBcY'
+          icon: 'fa-solid fa-clapperboard-play'
     - title: Zero Day Threat- The Mental Health Crisis in Cybersecurity
       presenter: Paul Robinson
       abstract: >
@@ -132,6 +142,9 @@ sessions:
         - title: Presentation Slides 
           url: /2025/files/Robinson_RSS-2025-Mental-Health-Preso-001.pdf
           icon: "fa-solid fa-presentation-screen"
+        - title: 'Presentation Video'
+          url: 'https://youtu.be/QQtfYSPk9w0?si=2wTQsC6wrRRybilG'
+          icon: 'fa-solid fa-clapperboard-play'
     - title: "What Could Go Wrong?: AI Security Mistakes Even Fortune 500 Companies Are Making"
       presenter: Savannah Alfaro & Zachary Wallace
       abstract: >
@@ -163,6 +176,9 @@ sessions:
         - title: Presentation Slides 
           url: /2025/files/Alfaro-AI-Security-Mistakes-Even-Fortune-500-Companies-Are-Making.pdf
           icon: "fa-solid fa-presentation-screen"
+        - title: 'Presentation Video'
+          url: 'https://youtu.be/CGeU2FHa-Qw?si=si2E50NqwxmniqlE'
+          icon: 'fa-solid fa-clapperboard-play'
   track2:
     - title: "Leading in Times of Uncertainty; 9/11/01: The White House"
       presenter: Robert J. Darling
@@ -193,6 +209,10 @@ sessions:
         - business-governance-risk
         - human-factors-awareness
         - industry-community-perspectives
+      links:
+        - title: 'Presentation Video'
+          url: 'https://youtu.be/cGNPvs1l3cs?si=7v4E5KZAEUArDCOc'
+          icon: 'fa-solid fa-clapperboard-play'
     - title: Intersection of Geopolitics and Credential-Based Threats via Cyber Threat Intelligence Lens
       presenter: Stephanie Schneider
       abstract: >
@@ -222,6 +242,9 @@ sessions:
         - title: Presentation Slides 
           url: /2025/files/Schneider-Geopolitics-and-Credential-Based-Threats.pdf
           icon: "fa-solid fa-presentation-screen"
+        - title: 'Presentation Video'
+          url: 'https://youtu.be/yc8D_5HM7hA?si=RWsDyvASUEByBx3l'
+          icon: 'fa-solid fa-clapperboard-play'
     - title: "Beyond the Report: Why Pen Testing is a GRC Responsibility"
       presenter: Brandon Finton
       abstract: >
@@ -250,6 +273,9 @@ sessions:
         - title: Presentation Slides 
           url: /2025/files/Finton_Beyond_the_Report_Presentation.pdf
           icon: "fa-solid fa-presentation-screen"
+        - title: 'Presentation Video'
+          url: 'https://youtu.be/v7dCrN0LbNc?si=CcEzP-yUfc6sWQsG'
+          icon: 'fa-solid fa-clapperboard-play'
     - title: Governance Foundations
       presenter: Mark Christman
       abstract: >
@@ -271,6 +297,9 @@ sessions:
         - title: Presentation Slides 
           url: /2025/files/Christman_GovernanceFoundations.pdf
           icon: "fa-solid fa-presentation-screen"
+        - title: 'Presentation Video'
+          url: 'https://youtu.be/j9VDxg9eu9s?si=EDEePd9QygNdE6dx'
+          icon: 'fa-solid fa-clapperboard-play'
   track3:
     - title: Technical Analysis of Recent Endpoint Attacks
       presenter: Rich Savacool
@@ -298,6 +327,9 @@ sessions:
         - title: Presentation Slides 
           url: /2025/files/Savacool_Technical-Analysis-of-Recent-Endpoint-Attacks.pdf
           icon: "fa-solid fa-presentation-screen"
+        - title: 'Presentation Video'
+          url: 'https://youtu.be/h46Ddu8RzI0?si=D7ITBeuc07JPFysE'
+          icon: 'fa-solid fa-clapperboard-play'
     - title: Reduce the Blast Radius with Microsegmentation
       presenter: Jonathan Borgesen
       abstract: >
@@ -327,6 +359,9 @@ sessions:
         - title: Presentation Slides 
           url: /2025/files/Reducing-the-blast-radius-with-Microsegmentation.pdf
           icon: "fa-solid fa-presentation-screen"
+        - title: 'Presentation Video'
+          url: 'https://youtu.be/dGdJzIsCAjM?si=vUUWqHcYEC5pzhER'
+          icon: 'fa-solid fa-clapperboard-play'
     - title: Beginner’s Guide to Starting a Security Home Lab
       presenter: Jim Keeler
       abstract: >
@@ -353,6 +388,9 @@ sessions:
         - title: Presentation Slides 
           url: /2025/files/Keeler_Beginners-Guide-to-Starting-a-Security-Home-Lab.pdf
           icon: "fa-solid fa-presentation-screen"
+        - title: 'Presentation Video'
+          url: 'https://youtu.be/Gehw_lsbfeo?si=9ojBIRkbfGjEwp6P'
+          icon: 'fa-solid fa-clapperboard-play'
     - title:  Stealing User Credentials and Data with Malicious Browser Extensions
       presenter: Or Eshed
       abstract: >
@@ -381,6 +419,9 @@ sessions:
         - title: Presentation Slides 
           url: /2025/files/Eshed_Rochester-Security-Summit-Stealing-User-Credentials-and-Data-with-Malicious-Browser-Extensions.pdf
           icon: "fa-solid fa-presentation-screen"
+        - title: 'Presentation Video'
+          url: 'https://youtu.be/bXoPGMv2jmw?si=l685hGF4Cjgd8aBf'
+          icon: 'fa-solid fa-clapperboard-play'
   other-events:
     - title: >
         Capture the Flag Competition by <a href="https://metactf.com/products/competition-based-training/#jeopardy">MetaCTF</a><br><br>
