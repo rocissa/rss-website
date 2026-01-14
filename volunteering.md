@@ -31,8 +31,7 @@ layout: page
 
 #### Who We’re Looking For:
 >
-> - No experience required! 
-> - Whether you’re into logistics, communications, tech support, or just ready to pitch in wherever needed, there’s a role for you.
+>No experience required! Whether you’re into logistics, communications, tech support, or just ready to pitch in wherever needed, there’s a role for you.
 >
 
 #### Time Commitment:
@@ -51,7 +50,7 @@ layout: page
 #### We hope to welcome you to our team soon!
 
 <br>
-<p class="text-center mt-5 mb-5"><a class="btn btn-lg btn-primary" href="/files/RSS2025-Volunteer-Recruitment-Flyer.pdf">Download this flyer</a></p>
+<p class="text-center mt-5 mb-5"><a class="btn btn-lg btn-primary" href="/files/RSS2026-Volunteer-Recruitment-Flyer.pdf">Download this flyer</a></p>
 <br>
 
 </div>

@@ -39,8 +39,7 @@ layout: page
 		<p class="upcoming-dates text-center">{{ site.event_concluded_additional_message }}</p>
 		<p class="upcoming-dates text-center">We look forward to seeing you at RSS:{{ site.next_year }}{% if site.next_year_start_date %}, {% daterange site.next_year_start_date, site.next_year_end_date %}{% endif %}.</p>
 		{%- if site.event_concluded_show_slides_link -%}
-		<p class="text-center mt-5 mb-5"><a class="btn btn-lg btn-primary pt-5 pb-5" href="/{{ site.current_year }}/slides-videos/">RSS:{{ site.current_year }} Presentation Slides <!-- & Videos --></a></p>
-		<p class="text-center mt-5 mb-5">Videos will be posted soon.</p>
+		<p class="text-center mt-5 mb-5"><a class="btn btn-lg btn-primary pt-5 pb-5" href="/{{ site.current_year }}/slides-videos/">RSS:{{ site.current_year }} Presentation Slides & Videos</a></p>
 		{%- else -%}
 		<p class="text-center mt-5 mb-5">Presention slides and videos will be posted soon.</p>
 		{%- endif -%}
@@ -48,6 +47,9 @@ layout: page
 		{%- if site.event_concluded_show_conf_survey_link -%}
 		<p class="text-center mt-5 mb-5"><a class="btn btn-lg btn-primary pt-5 pb-5" href="{{ site.conf_survey_link_url }}">RSS:{{ site.current_year }} Conference Survey</a></p>
 		{%- endif -%}
+
+		<h1 class="text-center">Interested in Volunteering for RSS:{{ site.next_year }}?</h1>
+		<p class="text-center mt-5 mb-5"><a href="/volunteering" class="btn btn-lg btn-primary pt-5 pb-5">See Our Volunteering Page for Details</a></p>
 	</div>
 </section>
 {%- endif -%}
