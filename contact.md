@@ -11,5 +11,5 @@ layout: page
 > Check or money order payments may be mailed to:
 >
 > **ISSA Rochester Chapter<br>
-> PO Box 502<br>
-> Geneseo, NY 14454**
+> P.O. Box 141<br>
+> Pittsford, NY 14534-9998**
