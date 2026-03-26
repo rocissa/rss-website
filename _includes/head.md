@@ -6,7 +6,7 @@
 <meta name="generator" content="{{ eleventy.generator }}">
 
 <!-- Favicon -->
-{% favicons "images/rss-globe.svg", "#fff" %}
+{% favicons "images/rss-lettermark.svg", "#fff" %}
 
 <!-- CSS -->
 <link rel="stylesheet" href="{{ site.baseurl }}/css/owl.carousel.css" />
