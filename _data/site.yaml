@@ -7,31 +7,31 @@ site_title: Rochester Security Summit
 #baseurl: http://localhost:8080
 # current conference year - used to show current information and to prevent
 # current/upcoming conference from showing on past events page
-current_year: 2025
+current_year: 2026
 
 # previous conference year
-previous_year: 2024
+previous_year: 2025
 
 # next conference year - leave at current during early planning
 next_year: 2026
 
 # conference dates
-conference_start_date: 2025-10-08
-conference_end_date: 2025-10-09
-next_year_start_date: 2026-10-14
-next_year_end_date: 2026-10-15
+conference_start_date: 2026-10-14
+conference_end_date: 2026-10-15
+#next_year_start_date: 2026-10-14
+#next_year_end_date: 2026-10-15
 
 # which year's sponsors should be shown on the homepage
 # allows for previous year's to show until the current year's list is ready
-homepage_sponsors_show_current_year: true
+homepage_sponsors_show_current_year: false
 homepage_sponsors_show_current_year_coming_soon: false
-homepage_sponsors_show_previous_year: false
+homepage_sponsors_show_previous_year: true
 
 # should the pre-conference "coming soon" message be shown on the homepage?
-homepage_conference_announcement: true
+homepage_conference_announcement: false
 
 # should the venue info be displayed on the homepage?
-homepage_show_venue: false
+homepage_show_venue: true
 
 # should the hotel info be displayed on the homepage?
 homepage_show_hotels: false
@@ -40,7 +40,7 @@ homepage_show_hotels: false
 homepage_show_parking: false
 
 # should keynote speakers be shown on homepage?
-homepage_show_keynotes: true
+homepage_show_keynotes: false
 
 # should app links be shown on the homepage
 homepage_show_app_links: false
@@ -57,7 +57,7 @@ homepage_show_schedule_link: false
 homepage_show_ticket_retrieval: false
 
 # should registration info be displayed on the homepage?
-registration_not_yet_open: false
+registration_not_yet_open: true
 registration_enabled: false
 registration_announcement_on_sale: false
 registration_early_bird: true
@@ -77,7 +77,7 @@ registration_late_one_day: true
 registration_late_one_day_cost: $245
 registration_late_one_day_end_date: 2025-10-09
 registration_sold_out: false
-registration_event_concluded: true
+registration_event_concluded: false
 
 # event concluded options
 event_concluded_show_slides_link: true
@@ -88,20 +88,21 @@ event_concluded_additional_message: "Thank you to everyone who joined us. Stay t
 # sponsorship messaging
 sponsorship_show_w9_link: false
 sponsorship_next_year: false
-sponsorship_not_yet_open: false
-sponsorship_coming_soon: false
+sponsorship_not_yet_open: true
+sponsorship_coming_soon: true
 sponsorship_mailing_list_open: false
 sponsorship_open: false
-sponsorship_waiting_list: true  # sold out, but accepting to waiting list
+sponsorship_waiting_list: false  # sold out, but accepting to waiting list
 sponsorship_sold_out: false
 sponsorship_pricing: true
 sponsorship_sponsor_information: false
 sponsorship_attendee_profile: true
-sponsorship_show_booth_map: true
+sponsorship_show_booth_map: false
 sponsorship_faq: true
 
 # sponsorship key dates
-sponsorship_applications_due: 2025-04-15
+sponsorship_applications_open: 2026-04-06
+sponsorship_applications_due: 2026-04-24
 
 # sponsors list
 sponsors_ready_to_display: true
@@ -110,23 +111,22 @@ sponsors_show_boothinfo: true
 
 # speaking messaging
 speaking_next_year: false
-speaking_cfp_not_yet_open: false
+speaking_cfp_not_yet_open: true
 speaking_cfp_open: false
-speaking_cfp_closed: true
+speaking_cfp_closed: false
 speaking_show_key_dates: true
 speaking_page_url: https://www.rochestersecurity.org/speaking/
 
 # speaking key dates
-speaking_cfp_opens: 2025-04-14
-speaking_proposals_due: 2025-06-21
-speaking_committee_responses: 2025-07-31
-speaking_materials_due: 2025-08-22
-speaking_notification_of_slide_changes: 2025-09-12
-speaking_presentation_due: 2024-09-26
+speaking_cfp_opens: 2026-04-14
+speaking_proposals_due: 2026-06-14
+speaking_committee_responses: 2026-08-07
+speaking_abstract_bio_due: 2026-08-21
+speaking_presentation_due: 2023-09-23
 
-schedule_not_yet_available: false
+schedule_not_yet_available: true
 schedule_tentative: false
-schedule_available: true
+schedule_available: false
 
 # Google form URLs and contact emails
 #

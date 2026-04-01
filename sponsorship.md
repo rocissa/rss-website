@@ -17,10 +17,10 @@ layout: page
 ## Sponsorship Not Yet Open
 {% endif %}
 
-{% if site.sponsorship_coming_soon == true %}o submit for a Platinum slot,
+{% if site.sponsorship_coming_soon == true %}
 <div class="attention">
 <h2>Sponsorship Opportunities Coming Soon!</h2>
-<p><em>Keep an eye on this space for updates and join our mailing list when it is open!</em><p>
+<p><em>Sponsorship applications will be accepted between {% daterange site.sponsorship_applications_open, site.sponsorship_applications_due %}</em><p>
 </div>
 {% if site.sponsorship_mailing_list_open == true %}
 <div><a class="btn btn-primary btn-lg" href="/sponsor-mailing-list" target="_blank">Join Our Sponsorship Mailing List</a></div>
@@ -158,11 +158,11 @@ Additionally, **booth choice** is influenced by a combination of your **Sponsors
   <div class="row">
     <div class="col-md-6">
 	<h3>Attendee Profiles by Industry in {{ site.previous_year }}</h3>
-	<a href="/{{ site.previous_year }}/attendees-by-industry.png" data-fslightbox="gallery"><img src="/{{ site.previous_year }}/attendees-by-industry.png" class="img-responsive" alt="Attendee Profiles by Industry in {{ site.previous_year }} (N=353)"></a><br>
+	<a href="/{{ site.previous_year }}/attendees-by-industry.png" data-fslightbox="gallery"><img src="/{{ site.previous_year }}/attendees-by-industry.png" class="img-responsive" alt="Attendee Profiles by Industry in {{ site.previous_year }} (N=250)"></a><br>
     </div>
     <div class="col-md-6">
 	<h3>Attendee Profiles by Job Function in {{ site.previous_year }}</h3>
-	<a href="/{{ site.previous_year }}/attendees-by-job-function.png" data-fslightbox="gallery"><img src="/{{ site.previous_year }}/attendees-by-job-function.png" class="img-responsive" alt="Attendee Profiles by Job Function in {{ site.previous_year }} (N=343)"></a><br>
+	<a href="/{{ site.previous_year }}/attendees-by-job-function.png" data-fslightbox="gallery"><img src="/{{ site.previous_year }}/attendees-by-job-function.png" class="img-responsive" alt="Attendee Profiles by Job Function in {{ site.previous_year }}"></a><br>
     </div>
   </div>
 </div>

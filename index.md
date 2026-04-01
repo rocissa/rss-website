@@ -78,10 +78,11 @@ layout: page
 		</div>
 	</section>
 	{%- endif -%}
-	<div class="attention">
+	<div>
 	  {%- if site.homepage_show_call_for_volunteers == true -%}
-		<h2>Interested in helping out with RSS:{{ site.current_year }}?</h2>
-		<p>Please let us know at  <a style="color: #000; text-decoration: underline !important;" href="mailto:{{ site.information_contact_email }}">{{ site.information_contact_email }}</a></p>
+		<h1 class="text-center">Interested in Volunteering for RSS:{{ site.current_year }}?</h1>
+		<p class="text-center mt-5 mb-5"><a href="/volunteering" class="btn btn-lg btn-primary pt-5 pb-5">See Our Volunteering Page for Details</a></p>
+	</div>
       {%- endif -%}
 	</div>
 {%- endif -%}

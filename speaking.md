@@ -82,17 +82,15 @@ Contact: <{{ site.speaking_contact_email }}> for more information | Website: <{{
 
 ## Key Dates
 
-* {{ site.speaking_cfp_opens | localtime | date: "%B %e" }} &mdash; Call for Proposals Opens
+* {{ site.speaking_cfp_opens | localtime | date: "%B %e" }} &mdash; Call for Presentations Opens
 
 * {{ site.speaking_proposals_due | localtime | date: "%B %e" }} &mdash; Last Day for Accepting Proposal Submissions
 
-* {{ site.speaking_committee_responses | localtime | date: "%B %e" }} &mdash; Speaker notification by this date
+* {{ site.speaking_committee_responses | localtime | date: "%B %e" }} &mdash; Speaker notification on or before this date
 
-* {{ site.speaking_materials_due | localtime | date: "%B %e" }} &mdash; Final program information & draft copy of slides due
+* {{ site.speaking_abstract_bio_due | localtime | date: "%B %e" }} &mdash; Final program abstract & bio due
 
-* {{ site.speaking_notification_of_slide_changes | localtime | date: "%B %e" }} &mdash; Speaker notification of slide changes by this date
-
-* {{ site.speaking_presentation_due | localtime | date: "%B %e" }} &mdash; Final Copy of Presentation Slides Due (will be made available to attendees post summit)
+* {{ site.speaking_presentation_due | localtime | date: "%B %e" }} &mdash; Final copy of presentation slides due (All slide decks will be distributed to conference attendees post conference.)
 
 * <u>**{% daterange site.conference_start_date, site.conference_end_date %} &mdash; The Rochester Security Summit {{ site.current_year }}**</u>
 {% endif %}
