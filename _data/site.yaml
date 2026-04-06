@@ -88,10 +88,10 @@ event_concluded_additional_message: "Thank you to everyone who joined us. Stay t
 # sponsorship messaging
 sponsorship_show_w9_link: false
 sponsorship_next_year: false
-sponsorship_not_yet_open: true
-sponsorship_coming_soon: true
+sponsorship_not_yet_open: false
+sponsorship_coming_soon: false
 sponsorship_mailing_list_open: false
-sponsorship_open: false
+sponsorship_open: true
 sponsorship_waiting_list: false  # sold out, but accepting to waiting list
 sponsorship_sold_out: false
 sponsorship_pricing: true
@@ -130,7 +130,7 @@ schedule_available: false
 
 # Google form URLs and contact emails
 #
-sponsorship_form_url: https://docs.google.com/forms/d/e/1FAIpQLSf8_ARjCP2uosCA76BY_o8O0-SPFx8uVLQi7o1UI5pySJLM2A/viewform
+sponsorship_form_url: https://forms.gle/sBDUwBnLy5fxswBk9
 speaking_form_url: https://docs.google.com/forms/d/e/1FAIpQLSePgS2iOEXuTAH3Mz_DIjE8CxheMrNkAcGTStJh8WE-rvWh_w/viewform?usp=header
 #
 # Ed's test forms
