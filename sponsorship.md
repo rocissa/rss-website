@@ -36,8 +36,8 @@ layout: page
 {% if site.sponsorship_open  == true %}
 <div class="attention">
 <h2>The official Call for Sponsors for RSS:{{ site.current_year }} is now open</h2>
-<h3>RSS:2025 is only accepting Platinum sponsors at this time</h3>
-<h4>To submit for a Platinum slot, please complete the Call For Sponsors Form below</h4>
+<!--<h3>RSS:2025 is only accepting Platinum sponsors at this time</h3>
+<h4>To submit for a Platinum slot, please complete the Call For Sponsors Form below</h4>-->
 </div>
 
 <div class="text-left" style="margin-top: 3em;">
