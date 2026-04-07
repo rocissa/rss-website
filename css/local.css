@@ -822,10 +822,7 @@ ul.social > li {
   .schedule-legend dl {
   	display: flex;
   }
-
-  .schedule-legend
 }
-
 /* app links */
 #app p {
 	font-size: 18px;
@@ -933,7 +930,7 @@ dialog .session-abstract {
 }
 .past-event-card {
 	margin: 1em;
-	paddding: 1em;
+	padding: 1em;
 	box-sizing: border-box;
 }
 .past-event-card a {
@@ -965,4 +962,17 @@ dialog .session-abstract {
 	.past-event-card {
 		width: 30%;
 	}
+}
+
+.faq {
+	border-bottom: 1px solid #dedede;
+}
+.faq:last-child {
+  border-bottom: none;
+}
+.faq > summary {
+	font-weight: bold;
+	font-size: 18px;
+	padding: 15px 0;
+	cursor: hand;
 }
