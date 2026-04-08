@@ -976,3 +976,13 @@ dialog .session-abstract {
 	padding: 15px 0;
 	cursor: hand;
 }
+.faq > summary::before {
+	content: "\f067"; /* fa-plus */
+	font-family: var(--fa-style-family-classic);
+	padding-right: 1em;
+}
+.faq:open > summary::before {
+	content: "\f068"; /* fa-minus */
+	font-family: var(--fa-style-family-classic);
+	padding-right: 1em;
+}
