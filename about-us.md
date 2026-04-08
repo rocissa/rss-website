@@ -19,19 +19,21 @@ layout: page
 <div class="about-us">
 <h3>2025 General Planning Committee</h3>
 
-* **Summit Chair** - John King<sup>*</sup>, Flexion Inc. (ISSA, InfraGard, OWASP)
+* **Summit Chair** - David Frier<sup>*</sup> (ISSA, ISACA, ISC2, RIMS)
 
-* **Summit Coordinator** - Mary Beth King, Rochester Security Summit
-
-* **Deputy Coordinator** - Dawn Savacool
+* **Summit Coordinator** - Dawn Savacool, Rochester Security Summit
 
 * Dennis Allen
+
+* Patrick Armstrong - Patrick Armstrong Imaging (ISSA, Breach Sentinel)
 
 * Shaquille Barnes, ESL (ISSA, InfraGard)
 
 * Hannah Chang, Nixon Peabody, LLP
 
 * Mark Christman
+
+* Milt Curtis, Uniti Services (InfraGard)
 
 * Ralph Durkee, Durkee Consulting, Inc. (ISSA, OWASP)
 
@@ -49,6 +51,8 @@ layout: page
 
 * Lilian Isacks, Tompkins County ITS, CISSP, (InfraGard, ISSA; ISC2)
 
+* John King, Flexion Inc. (ISSA, InfraGard, OWASP)
+
 * Heather Klem, Dox Electronics (ISSA)
 
 * Phil LaGraff, PC LaGraff Consulting (ISSA, Infragard)
@@ -62,6 +66,8 @@ layout: page
 * Joe Pierson<sup>*</sup>, Equitable (ISSA, Infragard)
 
 * Jason Pitoniak<sup>*</sup>, Rochester Institute of Technology (ISSA, OWASP)
+
+* Kim Ritze, Upstream Rehabilitation, Inc. (Rochester InfraGard, AEHIS, ISACA)
 
 * Rose Rozeski<sup>*</sup>, Independent Health (ISSA)
 
@@ -105,6 +111,8 @@ layout: page
 
 * Lilian Isacks
 
+* Kim Ritze
+
 * Rose Rozeski
 
 * Dave Warden
@@ -113,21 +121,16 @@ layout: page
 <div class="about-us">
 <h3>Sponsorship Committee</h3>
 
-* **Chair** - Keith Hunt
+* **Chair** - Aaron Schanz
 
 * Shaq Barnes
 
-* Tim Minsterman
-
-* Aaron Schanz
 
 </div>
 <div class="about-us">
 <h3>Venue Committee</h3>
 
 * **Chair** - Rose Rozeski
-
-* **Venue:** Paul Goyette
 
 * **A/V Lead:** Joe Pierson
 
