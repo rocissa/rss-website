@@ -41,17 +41,17 @@ layout: page
 </div>
 
 <div class="text-left" style="margin-top: 3em;">
-We are excited to announce that the Call for Sponsors for the Rochester Security Summit 2025 (RSS:2025) is officially open!
+We are excited to announce that the Call for Sponsors for the Rochester Security Summit {{ site.current_year }} (RSS:{{ site.current_year }}) is officially open!
 
 #### Event Details
 
-> Conference Dates: October 8 & 9, 2025 (Wednesday & Thursday)
+> Conference Dates: {% daterange site.conference_start_date, site.conference_end_date %} (Wednesday & Thursday)
 >
 > Location: The Joseph A. Floreano Rochester Riverside Convention Center
 
 #### How to Apply
 
-To request a place in the sponsorship lottery for RSS:2025, please complete and submit the Call for Sponsors Form by April 15th, 2025.
+To request a place in the sponsorship lottery for RSS:{{ site.current_year }}, please complete and submit the Call for Sponsors Form by {{ site.sponsorship_applications_due | localtime | date: "%B %e, %Y" }}.
 
 <div class="mt-5 mb-5 text-center"><a class="btn btn-primary btn-lg" href="{{ site.sponsorship_form_url }}" target="_blank">Submit Call for Sponsors Form</a></div>
 
@@ -59,7 +59,7 @@ Please see our Sponsorship Pricing & Benefits Sheet below, which will help you d
 
 #### Sponsorship Selection Process
 
-Sponsors are selected by lottery. The drawing will take place on April 17th, 2025, and only those who have submitted a completed form by the deadline will be considered.
+Sponsors are selected by lottery. The drawing will take place on {{ site.sponsorship_drawing_date | localtime | date: "%B %e, %Y" }}, and only those who have submitted a completed form by the deadline will be considered.
 
 If a selected sponsor is unable to participate, we will draw an alternate from the remaining wait-listed entries.
 
