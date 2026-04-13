@@ -113,6 +113,7 @@ sponsors_show_boothinfo: true
 # speaking messaging
 speaking_next_year: false
 speaking_cfp_not_yet_open: true
+speaking_cfp_publish_open_date: true
 speaking_cfp_open: false
 speaking_cfp_closed: false
 speaking_show_key_dates: true
