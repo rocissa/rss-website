@@ -7,11 +7,23 @@ layout: page
 {% if site.speaking_next_year %}
 <h2 class="text-center">The RSS:{{ site.next_year }} call for presentations will open in the spring.</h2>
 {% endif %}
-
-{% if site.speaking_cfp_not_yet_open %}
-<h2 class="text-center">The RSS:{{ site.current_year }} call for presentations is not yet open.</h2>
-{% endif %}
-
+{%- if site.speaking_cfp_not_yet_open -%}
+{%- if site.speaking_cfp_publish_open_date == true -%}
+	<section id="attention" class="attention">
+		<div>
+		<h2>The RSS:{{ site.current_year }} Call for Presentations will open {{ site.speaking_cfp_opens | localtime | date: "%B %e, %Y" }}</h2>
+		<p>If your CFP submission is not selected, you will still be eligible to purchase a ticket at the early-bird rate after selection notifications are sent out, (by {{ site.speaking_committee_responses | localtime | date: "%B %e" }}), even though standard ticket prices will have gone into effect.</p>
+		<p><em>Keep an eye on this space for updates!</em></p>
+		</div>
+	</section>
+{%- else -%}
+	<section id="attention" class="attention">
+		<div>
+		<h2 class="text-center">The RSS:{{ site.current_year }} call for presentations is not yet open.</h2>
+		</div>
+	</section>
+{%- endif -%}
+{%- endif -%}
 {% if site.speaking_cfp_open %}
 <div class="speaking">
 <h1>Call for Presentations</h1><br>
