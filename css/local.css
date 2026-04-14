@@ -188,6 +188,13 @@ section#slider {
 	text-transform: none;
 }
 
+.speaking img {
+	margin: 3rem 0rem;
+	width: 30%;
+	text-align: left;
+	display: block;
+}
+
 .about-us {
 	margin: 1rem 1rem;
 	text-align: left;
