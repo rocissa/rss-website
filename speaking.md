@@ -27,6 +27,7 @@ layout: page
 {% if site.speaking_cfp_open %}
 <div class="speaking">
 <h1>Call for Presentations</h1><br>
+<img src="/images/rss-logo.png" alt="Rochester Security Summit logo"/><br>
 <h2>The Rochester Security Summit {{ site.current_year }}</h2>
 </div>
 <hr>
@@ -35,19 +36,20 @@ layout: page
 
 **Location:** The Joseph A. Floreano Rochester Riverside Convention Center
 
-The ISSA Rochester Chapter is excited to announce the Call for Presentations for RSS:{{ site.current_year }}. We invite all those interested in sharing their knowledge and expertise to submit a proposal for consideration by our selection committee.  
+**Celebrating 20 Years of Security, Community, and Insight!**
 
-Held annually, during National Cyber Security Awareness Month, our conference is a focal point for education and awareness regarding Information Security in Western NY.  Since its inception in 2006, our conference has consistently sold out, featuring a wide range of presentations on various information security topics. Our audience comprises professionals and executives with varied expertise and interests.
+The ISSA Rochester Chapter is thrilled to open the Call for Presentations for RSS:2026, marking the 20th anniversary of the Rochester Security Summit. We invite all those interested in sharing their knowledge and expertise to submit a proposal for consideration by our selection committee.
 
-**Note on Training Proposals:** We have moved hands-on training to the ISSA Rochester Chapter Meetings and are no longer offering it during RSS to allow for more flexibility to attend talks. To discuss hosting your training session as part of a Chapter Meeting, please contact <{{ site.rocissa_contact_email }}>
+Held every October during National Cyber Security Awareness Month, RSS has become a premier InfoSec conference in Western NY - bringing together professionals, practitioners and executives from across the region. Since our first event in 2006, the Summit has consistently sold out, offering engaging, practical and forward-thinking presentations on a wide range of security topics. 
 
-We want to hear from you and look forward to seeing you this Fall!
+**Empowering New Voices:** We are thrilled to introduce a new track dedicated to the next generation of security professionals. If you are a college senior, a graduate student, or a first-time speaker, we welcome your perspective! Please select the "Emerging Voices" track on your submission form. Note that while this track is tailored for newcomers, all proposals undergo our standard evaluation process. 
 
+If you have insights, experience or research to share, we invite you to submit a proposal for consideration by our selection committee. Visit <{{ site.baseurl | default: 'https://www.rochestersecurity.org' }}> to learn more and help us make this milestone year our best yet. 
 <hr>
 <div class="mt-5 text-center">
 <p><b>Submissions:</b> To submit a proposal, please use our submission form below</p>
 <p><a class="btn btn-primary btn-lg" href="{{ site.speaking_form_url }}" target="_blank">Submit A Proposal</a></p>
-<em>Submission deadline: {{ site.speaking_proposals_due | localtime | date: "%B %e, %Y" }}</em>
+<em><b>Submission deadline:</b> {{ site.speaking_proposals_due | localtime | date: "%B %e, %Y" }}</em>
 </div>
 {% endif %}
 <div class="attention">
@@ -61,25 +63,21 @@ We want to hear from you and look forward to seeing you this Fall!
 
 ## Important Information
 
-- **General Presentation Length: 50 minutes, including Q&A.** No training sessions will be included this year.
+- **General Presentation Length: 50 minutes, including Q&A.**
 - **Accommodations:** Accepted speakers can reserve a discounted room at the Hyatt, subject to availability.  
-- **Admission:**
-    - Conference registration is included for all individuals whose proposals are accepted.
-    - **If your CFP submission isn’t selected, you’ll still be eligible to purchase a ticket at the early-bird rate after selection notifications are sent out, (by July 31), even though standard ticket prices will have gone into effect.**
-    - Admission includes breakfast, lunch and snacks.
-    - A speaker ready room is available.
+- **Admission:** Conference registration is included for all individuals, including backup speakers, whose proposals are accepted. If your CFP submission isn’t selected, you’ll still be eligible to purchase a ticket at the early-bird rate after selection notifications are sent out, even though standard ticket prices will have gone into effect. Admission includes breakfast, lunch and snacks. A speaker ready room is available.
 - **Scheduling:** We request speakers be available both days. Talks are scheduled from 8:00 am to 4:30 PM. We cannot guarantee a specific time slot on the schedule.
 - **Topic Guidance:** We seek a wide variety of topics. Themes will be adapted based on submissions.
 Examples include: AI, Threats and Threat Hunting, Technical Deep Dives, Governance, Risk & Compliance, Business: Adapting to Change, Cloud Security, Ethical Hacking, Security Automation. Additionally, we're actively looking for more technical presentations to help meet attendee demand. Visit [our past events page](/past-events/) to find past schedules and presentation slides. 
 - **Vendor Neutrality:**  *Please note that this CFP is separate and distinct from the Sponsorship Track*
-  - No company logos or promotional content
-  - No shadow marketing
+  - No company logos, promotional content, or shadow marketing
   - Open Source Software is acceptable as a presentation topic
 - **Speaker & Topic Selection:** 
-  - Speaker slots are awarded to individuals on the specific abstract submitted and not companies and the decision is final. 
+  - Speaker slots are awarded to <u>individuals</u> on the specific abstract submitted and <u>not</u> companies and the decision is final. 
   - Any change to speaker or topic requires committee review and approval and may result in exclusion from the program.
-- **Backup Speakers:** We also identify a pool of backup speakers. These individuals are invited to present in the event of cancellations or to fill additional slots as needed. 
-- **Slide Review:** To maintain high-quality, vendor-neutral presentations, the Speaker Committee reviews slides before the conference and may request revisions.
+- **Backup Speakers:** 
+  - We also identify a pool of backup speakers. These individuals are invited to present in the event of cancellations or to fill additional slots as needed. 
+- **Slide Review:** To maintain high-quality, vendor-neutral presentations, the Speaker Committee reviews slides before the conference and may request revisions. <u>A template will be provided by the RSS.</u> All slide decks will be distributed to conference attendees.
 - **Speaker Appreciation:** Speakers receive a small gift card and a certificate of appreciation.
 <br><br>
 
@@ -101,6 +99,8 @@ Contact: <{{ site.speaking_contact_email }}> for more information | Website: <{{
 * {{ site.speaking_committee_responses | localtime | date: "%B %e" }} &mdash; Speaker notification on or before this date
 
 * {{ site.speaking_abstract_bio_due | localtime | date: "%B %e" }} &mdash; Final program abstract & bio due
+
+* {{ site.speaking_draft_slides_due | localtime | date: "%B %e" }} &mdash; Draft copy of slides due
 
 * {{ site.speaking_presentation_due | localtime | date: "%B %e" }} &mdash; Final copy of presentation slides due (All slide decks will be distributed to conference attendees post conference.)
 
