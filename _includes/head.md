@@ -12,8 +12,8 @@
 <link rel="stylesheet" href="{{ site.baseurl }}/css/owl.carousel.css" />
 <link rel="stylesheet" href="{{ site.baseurl }}/css/bootstrap.min.css" />
 <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
-<link rel="stylesheet" href="{{ site.baseurl }}/css/font-awesome.min.css" />
-<link rel="stylesheet" href="{{ site.baseurl }}/css/font-awesome-solid.min.css" />
+<!--<link rel="stylesheet" href="{{ site.baseurl }}/css/font-awesome.min.css" />
+<link rel="stylesheet" href="{{ site.baseurl }}/css/font-awesome-solid.min.css" /> -->
 <link rel="stylesheet" href="{{ site.baseurl }}/css/airspace.css" />
 <link rel="stylesheet" href="{{ site.baseurl }}/css/style.css" />
 <link rel="stylesheet" href="{{ site.baseurl }}/css/ionicons.min.css" />
@@ -30,6 +30,7 @@
 <script src="{{ site.baseurl }}/js/plugins.js"></script>
 <script src="{{ site.baseurl }}/js/min/waypoints.min.js"></script>
 <script src="{{ site.baseurl }}/js/jquery.counterup.js"></script>
+<script src="https://kit.fontawesome.com/ab276bde66.js" crossorigin="anonymous"></script>
 
 
 <script src="{{ site.baseurl }}/js/main.js"></script>
