@@ -616,13 +616,19 @@ ul.social {
 
 ul.social > li {
 	display: inline-block;
-    padding: 0 10px;
+  padding: 0 10px;
     margin: 10px;
 }
 
 .hidden-text {
-	height: 0;
-	margin-left: -9999em;
+	position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  border: 0;
 }
 
 .appstore-image {
