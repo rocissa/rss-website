@@ -14,11 +14,16 @@
             <li><a href="/contact">Contact</a></li>
           </ul>
         </div>
-        <ul class="social">
-          <li><a href="https://facebook.com/RocSecSummit" target="_blank"><span class="fa-brands fa-square-facebook" aria-hidden="true"></span><span class="hidden-text">Facebook</span></a></li>
-          <li><a href="https://twitter.com/rocsecsummit" target="_blank"><span class="fa-brands fa-square-x-twitter" aria-hidden="true"></span><span class="hidden-text">Twitter</span></a></li>
-          <li><a href="https://www.youtube.com/@RochesterSecuritySummit" target="_blank"><span class="fa-brands fa-square-youtube" aria-hidden="true"></span><span class="hidden-text">YouTube</span></a></li>
-        </ul>
+        <nav aria-labelledby="social-label">
+          <h1 id="social-label" class="hidden-text">Social Media Links</h1>
+          <ul class="social">
+            <li><a href="https://infosec.exchange/@RocSecSummit" target="_blank"><span class="fa-brands fa-mastodon" aria-hidden="true"></span><span class="hidden-text">Mastodon</span></a></li>
+            <li><a href="https://bsky.app/profile/rocsecsummit.bsky.social" target="_blank"><span class="fa-brands fa-square-bluesky" aria-hidden="true"></span><span class="hidden-text">Bluesky</span></a></li>
+            <!-- <li><a href="https://discord.gg/ZdgMp878" target="_blank"><span class="fa-brands fa-discord" aria-hidden="true"></span><span class="hidden-text">Discord</span></a></li> -->
+            <li><a href="https://twitter.com/rocsecsummit" target="_blank"><span class="fa-brands fa-square-x-twitter" aria-hidden="true"></span><span class="hidden-text">X</span></a></li>
+            <li><a href="https://www.youtube.com/@RochesterSecuritySummit" target="_blank"><span class="fa-brands fa-square-youtube" aria-hidden="true"></span><span class="hidden-text">YouTube</span></a></li>
+          </ul>
+        </nav>
         <p>Copyright &copy; {{ site.current_year }} Rochester Security Summit. All rights reserved.</p>
       </div>
     </div>
