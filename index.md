@@ -53,10 +53,16 @@ layout: page
 	</div>
 </section>
 {%- endif -%}
-{%- if site.homepage_show_keynotes -%}
+{%- if site.homepage_show_keynotes or site.homepage_show_keynote_announcement -%}
 <section id="keynotes" class="keynotes">
 {%- assign active_year = site.current_year -%}
-{%- include 'keynotes.md' -%}
+{%- if site.homepage_show_keynote_announcement -%}
+  {%- include 'keynote_announcement.md' -%}
+{%- endif -%}
+
+{%- if site.homepage_show_keynotes -%}
+  {%- include 'keynotes.md' -%}
+{%- endif -%}
 </section>
 {%- else -%}
 	{%- if site.speaking_cfp_not_yet_open == true -%}

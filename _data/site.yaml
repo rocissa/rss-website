@@ -42,6 +42,9 @@ homepage_show_parking: false
 # should keynote speakers be shown on homepage?
 homepage_show_keynotes: false
 
+# should keynote announcement be shown on the homepage?
+homepage_show_keynote_announcement: true
+
 # should app links be shown on the homepage
 homepage_show_app_links: false
 app_ios_url: https://apps.apple.com/us/app/id1478439812
