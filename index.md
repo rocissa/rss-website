@@ -53,18 +53,6 @@ layout: page
 	</div>
 </section>
 {%- endif -%}
-{%- if site.homepage_show_keynotes or site.homepage_show_keynote_announcement -%}
-<section id="keynotes" class="keynotes">
-{%- assign active_year = site.current_year -%}
-{%- if site.homepage_show_keynote_announcement -%}
-  {%- include 'keynote_announcement.md' -%}
-{%- endif -%}
-
-{%- if site.homepage_show_keynotes -%}
-  {%- include 'keynotes.md' -%}
-{%- endif -%}
-</section>
-{%- else -%}
 	{%- if site.speaking_cfp_not_yet_open == true -%}
 	{%- if site.speaking_cfp_publish_open_date == true -%}
 	<section id="attention" class="attention">
@@ -101,6 +89,18 @@ layout: page
 	</div>
       {%- endif -%}
 	</div>
+	<div class="container">
+{%- if site.homepage_show_keynotes or site.homepage_show_keynote_announcement -%}
+<section id="keynotes" class="keynotes">
+{%- assign active_year = site.current_year -%}
+{%- if site.homepage_show_keynote_announcement -%}
+  {%- include 'keynote_announcement.md' -%}
+{%- endif -%}
+
+{%- if site.homepage_show_keynotes -%}
+  {%- include 'keynotes.md' -%}
+{%- endif -%}
+</section>
 {%- endif -%}
 <hr>
 <section id="conference" class="conference">
