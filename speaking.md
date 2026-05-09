@@ -52,40 +52,79 @@ If you have insights, experience or research to share, we invite you to submit a
 <em><b>Submission deadline:</b> {{ site.speaking_proposals_due | localtime | date: "%B %e, %Y" }}</em>
 </div>
 {% endif %}
-<div class="attention">
 {% if site.speaking_cfp_closed %}
+<div class="attention">
 <h2 class="center">Call for Presentations for RSS:{{ site.current_year }} has closed</h2>
 <p>Thank you to everyone who submitted a proposal! The submission window is now closed.</p>
 <p>We appreciate your interest and support — proposal review is underway and submitters will be notified by {{ site.speaking_committee_responses | localtime | date: "%B %e" }}</p>
-{% endif %}
 </div>
+{% endif %}
 <hr>
 
-## Important Information
-
-- **General Presentation Length: 50 minutes, including Q&A.**
-- **Accommodations:** Accepted speakers can reserve a discounted room at the Hyatt, subject to availability.  
-- **Admission:** Conference registration is included for all individuals, including backup speakers, whose proposals are accepted. If your CFP submission isn’t selected, you’ll still be eligible to purchase a ticket at the early-bird rate after selection notifications are sent out, even though standard ticket prices will have gone into effect. Admission includes breakfast, lunch and snacks. A speaker ready room is available.
-- **Scheduling:** We request speakers be available both days. Talks are scheduled from 8:00 am to 4:30 PM. We cannot guarantee a specific time slot on the schedule.
-- **Topic Guidance:** We seek a wide variety of topics. Themes will be adapted based on submissions.
-Examples include: AI, Threats and Threat Hunting, Technical Deep Dives, Governance, Risk & Compliance, Business: Adapting to Change, Cloud Security, Ethical Hacking, Security Automation. Additionally, we're actively looking for more technical presentations to help meet attendee demand. Visit [our past events page](/past-events/) to find past schedules and presentation slides. 
-- **Vendor Neutrality:**  *Please note that this CFP is separate and distinct from the Sponsorship Track*
-  - No company logos, promotional content, or shadow marketing
-  - Open Source Software is acceptable as a presentation topic
-- **Speaker & Topic Selection:** 
-  - Speaker slots are awarded to <u>individuals</u> on the specific abstract submitted and <u>not</u> companies and the decision is final. 
-  - Any change to speaker or topic requires committee review and approval and may result in exclusion from the program.
-- **Backup Speakers:** 
-  - We also identify a pool of backup speakers. These individuals are invited to present in the event of cancellations or to fill additional slots as needed. 
-- **Slide Review:** To maintain high-quality, vendor-neutral presentations, the Speaker Committee reviews slides before the conference and may request revisions. <u>A template will be provided by the RSS.</u> All slide decks will be distributed to conference attendees.
-- **Speaker Appreciation:** Speakers receive a small gift card and a certificate of appreciation.
-<br><br>
-
-Thank you,
-
-*The Rochester Security Summit Speaker Committee*
-
-Contact: <{{ site.speaking_contact_email }}> for more information | Website: <{{ site.baseurl | default: 'https://www.rochestersecurity.org' }}>
+>
+> ## RSS Speaker Guidelines
+>
+> Ensure all presentations are educational, high-quality, vendor-neutral, and accessible to large audiences in professional conference settings. Deliver clear, insight-driven content that
+prioritizes audience value over promotion.
+>
+> Slides are reviewed by the Speaker Committee before the conference to verify neutrality, clarity, non-promotional tone, and all other requirements. Logos are allowed only on introduction and closing slides. Remove all other corporate branding including watermarks, branded backgrounds, repeating logos, and classifications.  Do not include product pitches or sales messaging. Presentations must remain vendor-neutral and educational.  Speakers may be asked to make revisions to meet the required standards.  All Speaker Committee decisions are final.  
+>
+> The following guidelines are for non-Vendor Track presentations and demonstrations.
+> 
+> #### Content Expectations
+>
+> - Deliver original insights or real-world experience
+> - Provide actionable, practical guidance
+> - Tailor for a knowledgeable, professional audience
+> - Avoid overly basic, generic, or promotional material 
+>
+> #### Slide Design & Readability
+>
+> - Final slides must use the provided RSS Template.  This ensures visual consistency, recording compatibility, and accessibility compliance.
+> - Format must be 16:9, widescreen
+> - Titles: 36–44 pt (minimum 32 pt)
+> - Body Text: 24–32 pt (minimum 24 pt)
+> - Captions/Data: 18–24 pt (absolute minimum 16 pt)
+> - Avoid dense text, clutter, and excessive animations
+> - The approved RSS Font is Archivo (https://fonts.google.com/specimen/Archivo). Fonts are embedded within the RSS PowerPoint template.
+> - Submit your final slides with the following naming convention, “RSS_2026_LastName_Topic”
+>
+> #### Technical & Delivery Standards
+>
+> - Inform the RSS team ASAP if audio, live video, and/or Internet connectivity is required
+> - If live demonstrations are planned:
+>   - Pre-session testing is required to ensure screen sharing, virtual machines, and/or videos display correctly. Arrive at the assigned presentation room at least 15 minutes before your session to conduct the necessary testing.
+>   - Include screenshots within slide deck for an effective takeaways
+>   - Prepare video recordings to use as backups
+> - Test slides on a standard presentation setup (16:9, HDMI)
+> - All links and references must be verified upon submission and again 1-day before scheduled delivery
+> - Stay within allotted time of 50 minutes which includes time for Q&A
+>
+> #### Legal & Compliance
+>
+> - Use only licensed or approved content
+> - Do not include confidential or sensitive information
+> - Assume slides may be photographed, recorded, and shared publicly
+> - If required, a single copyright and/or disclosure slide is acceptable as the final slide in the presentation.
+>
+> #### Final Checklist
+>
+> - Official template used (16:9)
+> - Fonts ≥ 24 pt; slides readable
+> - No branding, watermarks, or sales content
+> - Clear structure and flow
+> - Actionable takeaways included
+> - Content matches approved abstract
+> - No sensitive or unlicensed material
+> - Slides tested and presentation timed
+>
+>
+> Thank you,
+>
+> *The Rochester Security Summit Speaker Committee*
+> 
+> Contact: <{{ site.speaking_contact_email }}> for more information | Website: <{{ site.baseurl | default: 'https://www.rochestersecurity.org' }}>
+>
 
 {% if site.speaking_show_key_dates %}
 <hr>

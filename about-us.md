@@ -73,7 +73,7 @@ layout: page
 
 * Rich Savacool, Nixon Peabody, LLP (ISSA)
 
-* Aaron Schanz, Constellation Brands
+* Aaron Schanz, CDPHP - Excellus
 
 * Deb Shamaylov, Eastman Kodak, (ISSA, InfraGard)
 
