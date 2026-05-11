@@ -80,7 +80,7 @@ layout: page
 	{%- endif -%}
 	{%- endif -%}
 	{%- if site.speaking_cfp_open == true -%}
-	<section id="attention" class="attention">
+	<section id="less-attention" class="less-attention">
 		<div>
 		<h1>The Call For Presentations is now open!</h1>
 		<h3>Check out the Speaking page to submit a proposal for the Rochester Security Summit {{ site.current_year }}</h3>

@@ -312,6 +312,41 @@ section#slider {
 	text-align: center;
 }
 
+.less-attention {
+	background-color: moccasin;
+	margin: 1rem 3rem;
+	padding: 1rem;
+	text-align: center;
+}
+
+.less-attention h1 {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 3em;
+	text-align: center;
+}
+
+.less-attention h2 {
+	font-weight: bold;
+	font-size: 2em;
+	font-variant: small-caps;
+	text-align: center;
+}
+
+.less-attention h3 {
+	font-weight: bold;
+	font-size: 1.3em;
+	font-variant: small-caps;
+	text-align: center;
+}
+
+.less-attention h4 {
+	font-weight: normal;
+	font-size: 1.1em;
+	font-style: italic;
+	text-align: center;
+}
+
 .tickets {
 	width: auto;
 }
