@@ -28,6 +28,7 @@
                 <li><a href="{{ site.baseurl }}/past-events">Past Events</a></li>
                 <li><a href="{{ site.baseurl }}/about-us">About Us</a></li>
                 <li><a href="{{ site.baseurl }}/contact">Contact</a></li>
+				<li style="display: none;"><a rel="me" href="https://infosec.exchange/@RocSecSummit" target="_blank"><span class="fa-brands fa-mastodon" aria-hidden="true"></span><span class="hidden-text">Mastodon</span></a></li>
               </ul>
             </div><!-- /.navbar-collapse -->
           </div><!-- /.container-fluid -->
