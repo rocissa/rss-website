@@ -5,6 +5,6 @@ year: 2026
 #photo: 
 #intro: >-
 permalink: /2026/james-brodsky/
-weight: 3
+weight: 4
 more_link: false
 ---

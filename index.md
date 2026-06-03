@@ -84,6 +84,7 @@ layout: page
 		<div>
 		<h1>The Call For Presentations is now open!</h1>
 		<h3>Check out the Speaking page to submit a proposal for the Rochester Security Summit {{ site.current_year }}</h3>
+		<div class="attention"><h3>NEW this year: A dedicated track for new speakers, college seniors, and graduate students!</h3></div>
 		<p class="text-center"><a href="/speaking" class="btn btn-primary btn-lg" style="background: black; border-color: black;">Learn More and Submit Now</a></p>
 		<h4>We are excited to see all your ideas!</h4>
 		</div>

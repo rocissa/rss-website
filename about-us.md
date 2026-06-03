@@ -17,7 +17,7 @@ layout: page
 <h2>Planning Committees</h2>
 <div class="col-md-6">
 <div class="about-us">
-<h3>2025 General Planning Committee</h3>
+<h3>2026 General Planning Committee</h3>
 
 * **Summit Chair** - David Frier<sup>*</sup> (ISSA, ISACA, ISC2, RIMS)
 
@@ -38,8 +38,6 @@ layout: page
 * Ralph Durkee, Durkee Consulting, Inc. (ISSA, OWASP)
 
 * Carl Eyler
-
-* David Frier, Sedara (ISSA, ISACA, ISC2, RIMS)
 
 * Paul Goyette<sup>*</sup>, Nixon Peabody, LLP
 

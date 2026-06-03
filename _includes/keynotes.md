@@ -16,9 +16,10 @@
 	  </div>
 	  {%- if keynote.data.professional_title -%}
 		<div class="col-sm-12 mb-5"><em>{{ keynote.data.professional_title }}</em></div>
+		<div><p>&nbsp;</p></div>
 	  {%- endif -%}
 	  {%- if keynote.data.photo -%}
-		<div class="col-sm-3"><img class="fluid-image" src="/{{ keynote.data.year }}/keynotes/{{ keynote.data.photo }}" alt="{{ keynote.data.name }}" /></div>
+		<a href="{{ keynote.data.permalink }}"><div class="col-sm-3"><img class="fluid-image" src="/{{ keynote.data.year }}/keynotes/{{ keynote.data.photo }}" alt="{{ keynote.data.name }}" /></div></a>
 		<div class="col-9">{{ keynote.data.intro | markdownify }}</div>
 	  {%- else -%}
 		<div class="col-12">{{ keynote.data.intro | markdownify }}</div>
@@ -26,4 +27,5 @@
 	</div>
 	{%- endfor -%}
   </div>
+  <div><p>&nbsp;</p></div>
 {%- endif -%}
