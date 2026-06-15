@@ -629,6 +629,12 @@ section#slider {
 	height: auto;
 }
 
+.fluid-image-fixed {
+	max-width: 65%;
+	width: 200px;
+	height: 200px;
+}
+
 .hotellist {
 	list-style-type: none;
 	margin: 0;
