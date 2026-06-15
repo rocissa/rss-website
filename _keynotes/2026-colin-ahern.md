@@ -8,8 +8,6 @@ intro: |-
 
     Before this appointment, Mr. Ahern served as New York State’s first Chief Cyber Officer. Prior to joining state service, he was First Deputy Director of New York City Cyber Command and Acting Chief Information Security Officer for the City of New York. He also worked in cybersecurity in financial services. 
 
-    Mr. Ahern enlisted in the U.S. Army Reserve after 9/11 and later served on active duty as an intelligence officer. He deployed twice to Afghanistan, was awarded the Bronze Star, and ended his military career as a company commander in the Army Cyber Brigade where he oversaw the creation of a specialized cyberspace operations organization. 
-
 permalink: /2026/colin-ahern/
 weight: 4
 more_link: true

@@ -23,9 +23,9 @@ conference_end_date: 2026-10-15
 
 # which year's sponsors should be shown on the homepage
 # allows for previous year's to show until the current year's list is ready
-homepage_sponsors_show_current_year: false
+homepage_sponsors_show_current_year: true
 homepage_sponsors_show_current_year_coming_soon: false
-homepage_sponsors_show_previous_year: true
+homepage_sponsors_show_previous_year: false
 
 # should the pre-conference "coming soon" message be shown on the homepage?
 homepage_conference_announcement: false
@@ -34,10 +34,10 @@ homepage_conference_announcement: false
 homepage_show_venue: true
 
 # should the hotel info be displayed on the homepage?
-homepage_show_hotels: false
+homepage_show_hotels: true
 
 # should parking info be displayed on the homepage?
-homepage_show_parking: false
+homepage_show_parking: true
 
 # should keynote speakers be shown on homepage?
 homepage_show_keynotes: true
@@ -94,8 +94,8 @@ sponsorship_next_year: false
 sponsorship_not_yet_open: false
 sponsorship_coming_soon: false
 sponsorship_mailing_list_open: false
-sponsorship_open: true
-sponsorship_waiting_list: false  # sold out, but accepting to waiting list
+sponsorship_open: false
+sponsorship_waiting_list: true  # sold out, but accepting to waiting list
 sponsorship_sold_out: false
 sponsorship_pricing: true
 sponsorship_sponsor_information: false
@@ -110,8 +110,8 @@ sponsorship_drawing_date: 2026-05-04
 
 # sponsors list
 sponsors_ready_to_display: true
-sponsors_show_talks: true
-sponsors_show_boothinfo: true
+sponsors_show_talks: false
+sponsors_show_boothinfo: false
 
 # speaking messaging
 speaking_next_year: false
