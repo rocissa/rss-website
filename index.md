@@ -225,7 +225,7 @@ layout: page
 		  	<h2>Conference Venue</h2>
 		  	<div class="venueimage"><img src="images/ConventionCenter.jpg" alt="Exterior photo of the Joseph A. Floreano Rochester Riverside Convention Center including sign in front of building"></div>
 	      <h4 class="text-center">Joseph A. Floreano Rochester Riverside Convention Center</h4>
-			  <div class="text-center">125 East Main Street<br> 
+			  <div class="text-center">123 East Main Street<br> 
 			    Rochester, NY USA 14604</div>
 			  <div class="text-center"><a href="https://www.rrcc.com" target="_blank">www.rrcc.com</a></div>
 			  <div class="text-center"><a href="https://www.rrcc.com/index.cfm?Page=Directions" class="btn btn-lg btn-primary" target="_blank">Driving Directions</a></div>
@@ -249,7 +249,7 @@ layout: page
 		  	  <div class="col-md-6 text-center">
 		  	  	<h4 style="margin-top: 50px;">Joseph A. Floreano<br>
 		  	  	Rochester Riverside Convention Center</h4>
-			      <div style="margin-top: 25px;">125 East Main Street<br> 
+			      <div style="margin-top: 25px;">123 East Main Street<br> 
 			        Rochester, NY USA 14604</div>
 			      <div><a href="https://www.rrcc.com" target="_blank">www.rrcc.com</a></div>
 		  	  </div>
