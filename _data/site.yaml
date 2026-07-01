@@ -60,25 +60,25 @@ homepage_show_schedule_link: false
 homepage_show_ticket_retrieval: false
 
 # should registration info be displayed on the homepage?
-registration_not_yet_open: true
-registration_enabled: false
-registration_announcement_on_sale: false
+registration_not_yet_open: false
+registration_enabled: true
+registration_announcement_on_sale: true
 registration_early_bird: true
 registration_early_bird_cost: $180
-registration_early_bird_end_date: 2025-07-22
+registration_early_bird_end_date: 2026-08-06
 registration_standard: true
 registration_standard_cost: $280
-registration_standard_end_date: 2025-09-17
+registration_standard_end_date: 2026-09-20
 registration_late: true
 registration_late_cost: $380
-registration_late_end_date: 2025-10-09
+registration_late_end_date: 2026-10-15
 registration_one_day_being_sold: true
 registration_standard_one_day: true
 registration_standard_one_day_cost: $180
-registration_standard_one_day_end_date: 2025-09-17
+registration_standard_one_day_end_date: 2026-09-20
 registration_late_one_day: true
 registration_late_one_day_cost: $245
-registration_late_one_day_end_date: 2025-10-09
+registration_late_one_day_end_date: 2026-10-15
 registration_sold_out: false
 registration_event_concluded: false
 
@@ -152,10 +152,7 @@ information_contact_email: info@rochestersecurity.org
 registration_contact_email: registrar@rochestersecurity.org
 rocissa_contact_email: info@rocisssa.org
 rocissa_volunteer_email: volunteer@rochestersecurity.org
-registration_ticket_url: https://www.eventzilla.net/e/rochester-security-summit-2025-2138644995
-#registration_ticket_url: https://events.eventzilla.net/e/rochester-security-summit-2024-2138612281
-#registration_ticket_url: https://events.eventzilla.net/e/rochester-security-summit-2024-2138587562
-
+registration_ticket_url: https://www.eventzilla.net/e/rochester-security-summit-2026-2138673723
 volunteering_page_url: https://www.rochestersecurity.org/volunteering/
 #
 # past events flags
