@@ -57,7 +57,7 @@ If you have insights, experience or research to share, we invite you to submit a
 <h2 class="center">Call for Presentations for RSS:{{ site.current_year }} has closed</h2>
 <p>Thank you to everyone who submitted a proposal! The submission window is now closed.</p>
 <p>We appreciate your interest and support — proposal review is underway and submitters will be notified by {{ site.speaking_committee_responses | localtime | date: "%B %e" }}</p>
-</div>
+<p>Don't forget that all those not selected will be allowed to purchase tickets at the early bird price!</div>
 {% endif %}
 <hr>
 
