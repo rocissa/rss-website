@@ -625,7 +625,8 @@ section#slider {
 }
 
 .fluid-image {
-	max-width: 65%;
+	max-width: 90%;
+	width: 80%;
 	height: auto;
 }
 
