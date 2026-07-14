@@ -9,7 +9,7 @@ intro: |-
     An RIT graduate, he began his career in IT and cybersecurity at Frontier Communications/Rochester Telephone, giving him a strong foundation in both practitioner-level challenges and executive-level strategy. His work has consistently focused on helping organizations modernize their security posture, adopt emerging technologies responsibly, and navigate the evolving threat landscape with clarity and confidence.
 
 permalink: /2026/james-brodsky/
-weight: 5
+weight: 3
 more_link: true
 ---
 

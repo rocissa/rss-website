@@ -9,7 +9,7 @@ intro: |-
     His expertise was honed during six years as a Task Force Officer with the USSS Cyber Fraud Task Force, where he collaborated with federal, state, and local law enforcement partners. As the primary point of contact for network intrusion incidents in the region, especially those impacting ﬁnancial institutions, Tom plays a critical role in safeguarding our digital infrastructure.
 
 permalink: /2026/thomas-barillari/
-weight: 3
+weight: 5
 more_link: true
 ---
 

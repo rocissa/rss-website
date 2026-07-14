@@ -121,6 +121,10 @@ section#slider {
 	text-align: center;
 }
 
+.valign-center {
+	align-content: center;
+}
+
 .vertical-center {
   margin: 0;
   position: absolute;
