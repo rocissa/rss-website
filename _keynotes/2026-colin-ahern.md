@@ -9,7 +9,7 @@ intro: |-
     Before this appointment, Mr. Ahern served as New York State’s first Chief Cyber Officer. Prior to joining state service, he was First Deputy Director of New York City Cyber Command and Acting Chief Information Security Officer for the City of New York. He also worked in cybersecurity in financial services. 
 
 permalink: /2026/colin-ahern/
-weight: 4
+weight: 2
 more_link: true
 ---
 

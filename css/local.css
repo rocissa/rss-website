@@ -121,6 +121,10 @@ section#slider {
 	text-align: center;
 }
 
+.valign-center {
+	align-content: center;
+}
+
 .vertical-center {
   margin: 0;
   position: absolute;
@@ -625,7 +629,8 @@ section#slider {
 }
 
 .fluid-image {
-	max-width: 65%;
+	max-width: 90%;
+	width: 80%;
 	height: auto;
 }
 
