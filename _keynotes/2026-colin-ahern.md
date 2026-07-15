@@ -2,7 +2,7 @@
 name: Colin Ahern
 professional_title: New York State Director of Security and Intelligence
 year: 2026
-photo: ColinAhern.jpg
+photo: ColinAhern.png
 intro: |-   
     Colin Ahern was appointed by Governor Kathy Hochul in February 2026 as New York State’s Director of Security and Intelligence. In this role, he leads a whole-of-state response to cyber, hybrid, and foreign malign influence threats, and coordinates the State’s defense industrial base, drone, counter-drone, and quantum initiatives. 
 
