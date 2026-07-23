@@ -18,7 +18,7 @@
   <div class="row sponsors">
     {%- assign sponsor_level = "" -%}
     {%- for sponsor in currentSponsors -%}
-    
+ 	  {%- assign sponsor_booth = sponsor.Booth -%}
       {%- if sponsor_level != sponsor.Level -%}
         {%- assign sponsor_level = sponsor.Level -%}
         <div class="sponsor-class text-center">
@@ -31,7 +31,7 @@
 		<br>
 		<div class="boothinfo">
 			{%- if sponsor_level != "Partners" and sponsor_level != "Experiences" -%}
-				<p><em>Booth {{ sponsor.Booth }}</em></p>
+				<p><em>Booth {{ sponsor_booth }}</em></p>
 			{%- elsif sponsor_level != "Experiences" -%}
 				<p><em>Table near entrance</em></p>
 			{%- else -%}
