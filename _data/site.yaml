@@ -111,7 +111,7 @@ sponsorship_drawing_date: 2026-05-04
 # sponsors list
 sponsors_ready_to_display: true
 sponsors_show_talks: false
-sponsors_show_boothinfo: false
+sponsors_show_boothinfo: true
 
 # speaking messaging
 speaking_next_year: false
