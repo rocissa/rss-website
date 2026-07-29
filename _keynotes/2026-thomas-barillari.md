@@ -2,7 +2,7 @@
 name: Thomas Barillari
 professional_title: Network Intrusion Forensic Analyst US Secret Service
 year: 2026
-photo: ThomasBarillari.jpg
+photo: ThomasBarillari.png
 intro: |-
     Thomas Barillari brings over 25 years of law enforcement experience to his role as a Network Intrusion Forensic Analyst (NIFA) with the United States Secret Service. Based in the Buffalo, NY Field Office, he supports investigations throughout New York State and Internationally, focusing on cyber intrusions, electronic fraud, cellphone/computer related forensics and the growing complexities of cryptocurrency-related crimes.
 
