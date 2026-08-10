@@ -171,6 +171,7 @@ layout: page
 			  {%- endif -%}
 			  </ul>
 	        <div class="text-center mt-5 mb-5"><a class="btn btn-lg btn-primary pt-5 pb-5 " href="{{ site.registration_ticket_url }}" target="_blank">Purchase Tickets</a></div>
+			<div class="text-center"><h4>Purchase Orders accepted up to 35 days before the conference.  Invoices must be paid before tickets will be issued.  Send purchase orders to treasurer@rochestersecurity.org</h4></div>
 		</div>
 		{%- endif -%}
 		{%- if site.registration_sold_out -%}

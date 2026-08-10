@@ -117,15 +117,15 @@ layout: page
 <div class="about-us">
 <h3>Logistics Committee</h3>
 
-* **Chair** - Mary Beth King
+* **Chair** - Dawn Savacool
 
-* **Registration Lead:** David Frier
+* **Registration Lead:** Milt Curtis
 
 * **Registration & Printing:** Hannah Chang
 
 * **Raffle:** Mark Christman
 
-* **Student Volunteers:** Stephen Montanaro
+* **Student Volunteers:** Daniel Megalo & Stephen Montanaro
 
 </div>
 </div>
@@ -137,15 +137,11 @@ layout: page
 
 * Dennis Allen
 
-* Ralph Durkee
+* Paul Goyette
 
 * Barry Hofecker
 
-* Lilian Isacks
-
 * Kim Ritze
-
-* Rose Rozeski
 
 * Dave Warden
 
@@ -166,7 +162,7 @@ layout: page
 
 * **A/V Lead:** Joe Pierson
 
-* **Photography:** Bruce Nelson
+* **Photography:** Patrick Armstrong & Bruce Nelson
 
 </div>
 <div class="about-us">

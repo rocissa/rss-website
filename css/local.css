@@ -230,6 +230,19 @@ section#slider {
 	padding: 10px;
 }
 
+.about-us li {
+	margin-left: 1em;
+	font-size: 100%;
+}
+
+.about-us ul {
+	list-style-type: disc;
+	list-style-position: outside;
+	margin-left: 1em;
+	font-size: 100%;
+}
+
+
 .highlight {
 	background-color: lightyellow;
 	margin: 1rem 1rem;
@@ -364,6 +377,13 @@ section#slider {
 	width: 100%;
 	height: auto;
 	display: inline-block;
+	text-align: center;
+}
+
+.tickets h4 {
+	font-weight: normal;
+	font-size: 1.1em;
+	font-style: italic;
 	text-align: center;
 }
 
