@@ -13,7 +13,7 @@ layout: page
     <div class="bg-warning text-warning warning">Tentative schedule &mdash; subject to change.</div>
     {% endif %}
 
-## Day 1 - October 8 (Wednesday)
+## Day 1 - October 14 (Wednesday)
 
 {% assign schedule = schedules[site.current_year].day1 %}
 
@@ -176,7 +176,7 @@ layout: page
   </dl>
 </div>{% endif %}
 
-## Day 2 - October 9 (Thursday)
+## Day 2 - October 15 (Thursday)
 
 {% assign schedule = schedules[site.current_year].day2 %}
 
