@@ -1,0 +1,155 @@
+---
+keynotes:
+  - presenter: Colin Ahern
+    url: /2026/colin-ahern/
+  - presenter: Brian Krebs
+    url: /2026/brian-krebs/
+tracks:
+  - id: track1
+    name: Track 1
+    room: Grand Lilac Ballroom
+    show_on_slides_page: true
+    icons:
+      - ai-emerging-trends
+  - id: track2
+    name: Track 2
+    room: Highland A/B
+    show_on_slides_page: true
+    icons:
+      - security-operations-threat-intel
+  - id: track3
+    name: Track 3
+    room: Highland D/E
+    show_on_slides_page: true
+    icons:
+      - grc-identiry-leadership-appsec
+  - id:  track4
+    name: Track 4
+    show_on_slides_page: true
+    room: Cascade A-C
+    icons:
+      - emerging-speakers
+  - id: other-events
+    name: Other Events
+    room: Hightland C - Come & Go
+  - id: sponsor1
+    name: Sponsor Track
+    room: Aqueduct A/B
+  - id: sponsor2
+    name: Sponsor Track
+    room: Aqueduct C/D
+session_times:
+  - start: 10:00 am 
+    end: 10:50 am 
+  - start: 11:00 am
+    end: 11:50 am
+  - start: 1:00 pm
+    end: 1:50 pm
+  - start: 2:00 pm
+    end: 2:50 pm
+icons:
+  ai-emerging-tech:
+    icon: 🟪
+    label: "AI & Emerging Technologies"
+    description: Explore the latest advancements and security implications of artificial intelligence and emerging tech.
+  security-operations-threat-intel:
+    icon: 🔷
+    label: "Security Operations & Threat Intel"
+    description: Actionable insights for defending networks, threats hunting, and managing vulnerabilities.
+  grc-identiry-leadership-appsec:
+    icon: 🟠
+    label: "GRC, Identity, Leadership & AppSec"
+    description: Strategies for governance, risk management, secure coding, and effective security leadership.
+  emerging-speakers:
+    icon: ⭐
+    label: "Emerging Speakers"
+    description: Welcoming new voices into the security community. Hear new perspectives from emerging professionals sharing fresh insights, innovative research, and approaches to today’s challenges.
+show_legend: false # if the legend is the same for both days, setting this to false will hide it after day 1's schedule
+sessions:
+  track1:
+    - title: "Punk Rock AI: The Work/Life OS Digital Assistant Big Tech Won't Build for You"
+      presenter: JP Bourget
+    - title: "Build It, Break It, Learn From It: Designing Bespoke CTF and Malware Analysis Labs for Your Organization"
+      presenter: Aaron Walker, Ph. D.
+    - title: "Securing Shadow AI: Practical Controls for AI Risk, Data Exposure, and Vendor Oversight"
+      presenter: Lawana Jones
+    - title: "AI-Augmented Web App Pentesting: Lessons from the Field"
+      presenter: Mike Lisi
+  track2:
+    - title: "Defending at Machine Speed Without Losing Human Judgment"
+      presenter: Daniel Megalo
+    - title: "Running an Effective Vulnerability Management Program"
+      presenter: Rich Ingersoll
+    - title: "Cybersecurity Outlook 2026... We’re All in Trouble!"
+      presenter: Steve Stasiukonis
+    - title: "Don't Go Alone: Take this Threat Intel!"
+      presenter: Thomas Richards
+  track3:
+    - title: "The Vendor Has Your Domain Admin: Why Third-Party Risk Programs Are Looking the Wrong Way"
+      presenter: Brandon Finton
+    - title: "One Control Set to Rule Them All"
+      presenter: Patrick Rost
+    - title: "Verified Lies: Exposing Verification Theater Before the Fraud Matures"
+      presenter: Andre Piazza
+    - title: "Anatomy of an API Key: Mapping the Sprawl of Non-Human Identities in Modern SaaS"
+      presenter: Chaim Sanders
+  track4:
+    - title: "Beyond the Hype: Practical AI Use Cases for Modern GRC Teams"
+      presenter: Deke Johnson
+    - title: "Real-Time Telemetry Analytics for Cybersecurity: Detecting Anomalies in High-Speed Data Streams"
+      presenter: Janhavi Dhariya
+    - title: "Small Team, Big Security: How to Punch Above Your Weight"
+      presenter: Ryan McCoy & Paul Scott
+    - title: "Federated Learning for the Real World: Privacy, Security, and Cost, Without the Trade-offs"
+      presenter: Dmitrii Korobeinikov, AJ Barea & Dr. Leon Reznik
+  other-events:
+    - title: >
+        Capture the Flag Competition by <a href="https://metactf.com/products/competition-based-training/#jeopardy">MetaCTF</a><br><br>
+        
+        Compete solo or in groups of up to four<br><br>
+        
+        Come & Go<br><br>
+
+        Registration: 9:40 am<br>
+        Start: 10:00 am<br>
+        End: Thursday 3pm<br><br>
+      length: 2
+    - skip: true
+    - title: >
+        Lockpick Village by <a href="https://toool.us/">Toool</a><br><br>
+        
+        Hands-on lockpicking workshop<br><br>
+        
+        Come & Go<br><br>
+
+        Start: 12:30 pm<br>
+        End: 3:45 pm 
+      length: 2
+    - skip: true
+  sponsor1:
+    - title:
+      presenter:
+      sponsor: Atlantic Data
+    - title: "AI and DLP: How Fortinet's DLP Solutions Can Secure Your Private Data from AI Leakage"
+      presenter: Mark Rosenecker
+      sponsor: Fortinet
+    - title:
+      presenter:
+      sponsor: Cyberhaven
+    - title: "Alleviating the AI Anxiety: Concrete Use Cases for Secure AI Architecture"
+      presenter: Chris Aiwanse - ePlus and TBD, Cisco
+      sponsor: ePlus and Cisco
+  sponsor2:
+    - title: "Zero Standing Privilege for Machines: A Runtime Framework for Agentic AI"
+      presenter: Brian McHenry
+      sponsor: Delinea
+    - title:
+      presenter:
+      sponsor: Island
+    - title:
+      presenter:
+      sponsor: Cyera
+    - title: "Driving AI Security in the Modern Networking Era"
+      presenter: Al Pardhan
+      sponsor: Cato Networks
+  

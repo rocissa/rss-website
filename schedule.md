@@ -17,7 +17,7 @@ layout: page
 
 {% assign schedule = schedules[site.current_year].day1 %}
 
-<div class="schedule schedule-2025" x-data
+<div class="schedule schedule-2026" x-data
   @click.window.capture="
     document.querySelector('.schedule-modal-content > div').id = $event.target.getAttribute('x-target');
     document.querySelector('#schedule-modal').showModal();
@@ -42,8 +42,8 @@ layout: page
   </div>
   <div class="gap"></div>
   
-  <div class="no-mobile lilac">8:30 am</div>
-  <div class="no-mobile lilac">9:40 am</div>
+  <div class="no-mobile">8:30 am</div>
+  <div class="no-mobile">9:40 am</div>
   <div class="full-session lilac">
     <div class="title">
       Opening Remarks &amp; Keynote<br>
@@ -64,9 +64,34 @@ layout: page
   
   <div class="no-mobile">&nbsp;</div>
   <div class="no-mobile">&nbsp;</div>
-  <div class="no-mobile track track1 title"><div class="icon-tags"><ul><li aria-label="Human Factors &amp;  Awareness"><span aria-hidden="true">🟪</span></li><li aria-label="AI &amp; Emerging Technology"><span aria-hidden="true">🔺</span></li></ul></div> Track 1</div>
-  <div class="no-mobile track track2 title"><div class="icon-tags"><ul><li aria-label="Business, Governance &amp; Risk"><span aria-hidden="true">🔷</span></li></ul></div>Track 2</div>
-  <div class="no-mobile track track3 title"><div class="icon-tags"><ul><li aria-label="Technical Defense &amp; Infrastructure"><span aria-hidden="true">🟠</span></li></ul></div>Track 3</div>
+  <div class="no-mobile track track1 title">
+    <div class="icon-tags">
+      <ul>
+        <li aria-label="AI &amp; Emerging Technology"><span aria-hidden="true">🟪</span></li>
+      </ul>
+    </div> Track 1
+  </div>
+  <div class="no-mobile track track2 title">
+    <div class="icon-tags">
+      <ul>
+        <li aria-label="Security Operations & Threat Intel"><span aria-hidden="true">🔷</span></li>
+      </ul>
+    </div> Track 2
+  </div>
+  <div class="no-mobile track track3 title">
+    <div class="icon-tags">
+      <ul>
+        <li aria-label="GRC, Identity, Leadership & AppSec"><span aria-hidden="true">🟠</span></li>
+      </ul>
+    </div> Track 3
+  </div>
+  <div class="no-mobile track track4 title">
+    <div class="icon-tags">
+      <ul>
+        <li aria-label="Emerging Speakers"><span aria-hidden="true">⭐</span></li>
+      </ul>
+    </div> Track 4
+  </div>
   <div class="no-mobile track other-events title">Other Events</div>
   <div class="no-mobile track sponsor columns-2 title">Sponsor Track</div>
   
@@ -75,7 +100,8 @@ layout: page
   <div class="no-mobile room track1">Grand Lilac Ballroom</div>
   <div class="no-mobile room track2 ">Highland A/B</div>
   <div class="no-mobile room track3">Highland D/E</div>
-  <div class="no-mobile room other-events">Highland C - Come &amp; Go</div>
+  <div class="no-mobile room track4">Cascade A-C</div>
+  <div class="no-mobile room other-events">Highland C<br>Come &amp; Go</div>
   <div class="no-mobile room sponsor1">Aqueduct A/B</div>
   <div class="no-mobile room sponsor2">Aqueduct C/D</div>
   
@@ -120,14 +146,21 @@ layout: page
   </div>
   <div class="gap"></div>
   
-  <div class="no-mobile lilac">3:45 pm</div>
-  <div class="no-mobile lilac">4:45 pm</div>
+  <div class="no-mobile">3:45 pm</div>
+  <div class="no-mobile">4:45 pm</div>
   <div class="full-session lilac">
     <div class="title">
       Keynote<br>
       <a href="{{ schedule.keynotes[1].url }}">{{ schedule.keynotes[1].presenter }}{% if schedule.keynotes[1].title %}: {{ schedule.keynotes[1].title }}{% endif %}</a></div>
     <div class="times">3:45 pm - 4:45 pm</div>
     <div class="room">Grand Lilac Ballroom</div>
+  </div>
+
+  <div class="no-mobile">4:45 pm</div>
+  <div class="no-mobile">5:45 pm</div>
+  <div class="full-session">
+    <div class="title">Happy Hour</div>
+    <div class="times">4:45 pm - 5:45 pm</div>
   </div>
 </div>
 
@@ -138,6 +171,7 @@ layout: page
     {{ icon.label }}
     <dt>{{ icon[1].icon }}</dt>
     <dd>{{ icon[1].label }}</dd>
+    {% if icon[1].description %}<dd class="description">{{ icon[1].description }}</dd>{% endif %}
     {%- endfor -%}
   </dl>
 </div>{% endif %}
@@ -146,7 +180,7 @@ layout: page
 
 {% assign schedule = schedules[site.current_year].day2 %}
 
-<div class="schedule schedule-2025">
+<div class="schedule schedule-2026">
   <div class="no-mobile title">Start</div>
   <div class="no-mobile title">End</div>
   <div class="no-mobile full-session">&nbsp;</div>
@@ -167,8 +201,8 @@ layout: page
   </div>
   <div class="gap"></div>
   
-  <div class="no-mobile lilac">8:30 am</div>
-  <div class="no-mobile lilac">9:40 am</div>
+  <div class="no-mobile">8:30 am</div>
+  <div class="no-mobile">9:40 am</div>
   <div class="full-session lilac">
     <div class="title">
       Keynote<br>
@@ -189,9 +223,34 @@ layout: page
   
   <div class="no-mobile">&nbsp;</div>
   <div class="no-mobile">&nbsp;</div>
-  <div class="no-mobile track track1 title"><div class="icon-tags"><ul><li aria-label="AI &amp; Emerging Technology"><span aria-hidden="true">🔺</span></li><li aria-label="Technical Defense &amp; Infrastructure"><span aria-hidden="true">🟠</span></li></ul></div>Track 1</div>
-  <div class="no-mobile track track2 title"><div class="icon-tags"><ul><li aria-label="Industry &amp; Community Perspectives"><span aria-hidden="true">⭐</span></li></ul></div>Track 2</div>
-  <div class="no-mobile track track3 title"><div class="icon-tags"><ul><li aria-label="Technical Defense &amp; Infrastructure"><span aria-hidden="true">🟠</span></li></ul></div>Track 3</div>
+  <div class="no-mobile track track1 title">
+    <div class="icon-tags">
+      <ul>
+        <li aria-label="AI &amp; Emerging Technology"><span aria-hidden="true">🟪</span></li>
+      </ul>
+    </div> Track 1
+  </div>
+  <div class="no-mobile track track2 title">
+    <div class="icon-tags">
+      <ul>
+        <li aria-label="Security Operations & Threat Intel"><span aria-hidden="true">🔷</span></li>
+      </ul>
+    </div> Track 2
+  </div>
+  <div class="no-mobile track track3 title">
+    <div class="icon-tags">
+      <ul>
+        <li aria-label="GRC, Identity, Leadership & AppSec"><span aria-hidden="true">🟠</span></li>
+      </ul>
+    </div> Track 3
+  </div>
+  <div class="no-mobile track track4 title">
+    <div class="icon-tags">
+      <ul>
+        <li aria-label="Emerging Speakers"><span aria-hidden="true">⭐</span></li>
+      </ul>
+    </div> Track 4
+  </div>
   <div class="no-mobile track other-events title">Other Events</div>
   <div class="no-mobile track sponsor columns-2 title">Sponsor Track</div>
   
@@ -200,7 +259,8 @@ layout: page
   <div class="no-mobile room track1">Grand Lilac Ballroom</div>
   <div class="no-mobile room track2 ">Highland A/B</div>
   <div class="no-mobile room track3">Highland D/E</div>
-  <div class="no-mobile room other-events">Highland C - Come &amp; Go</div>
+  <div class="no-mobile room track4">Cascade A-C</div>
+  <div class="no-mobile room other-events">Highland C<br>Come &amp; Go</div>
   <div class="no-mobile room sponsor1">Aqueduct A/B</div>
   <div class="no-mobile room sponsor2">Aqueduct C/D</div>
   
@@ -244,12 +304,24 @@ layout: page
     <div class="times">2:50 pm - 3:00 pm</div>
   </div>
   <div class="gap"></div>
-  
-  <div class="no-mobile lilac">3:00 pm</div>
-  <div class="no-mobile lilac">4:00 pm</div>
+
+  <div class="no-mobile">3:00 pm</div>
+  <div class="no-mobile">4:00 pm</div>
   <div class="full-session lilac">
-    <div class="title">Happy Hour, Closing Remarks, and Raffles</div>
+    <div class="title">
+      Keynote<br>
+      <a href="{{ schedule.keynotes[0].url }}">{{ schedule.keynotes[1].presenter }}{% if schedule.keynotes[1].title %}: {{ schedule.keynotes[1].title }}{% endif %}</a>
+    </div>
     <div class="times">3:00 pm - 4:00 pm</div>
+    <div class="room">Grand Lilac Ballroom</div>
+  </div>
+  <div class="gap"></div>
+  
+  <div class="no-mobile">4:00 pm</div>
+  <div class="no-mobile">4:30 pm</div>
+  <div class="full-session lilac">
+    <div class="title">Closing Remarks, and Raffles</div>
+    <div class="times">4:00 pm - 4:30 pm</div>
     <div class="room">Grand Lilac Ballroom</div>
   </div>
 </div>   
@@ -261,6 +333,7 @@ layout: page
     {{ icon.label }}
     <dt>{{ icon[1].icon }}</dt>
     <dd>{{ icon[1].label }}</dd>
+    {% if icon[1].description %}<dd class="description">{{ icon[1].description }}</dd>{% endif %}
     {%- endfor -%}
   </dl>
 </div>{% endif %}

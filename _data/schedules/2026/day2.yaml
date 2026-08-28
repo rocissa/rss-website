@@ -1,0 +1,151 @@
+---
+keynotes:
+  - presenter: James Brodsky
+    url: /2026/james-brodsky/
+  - presenter: <a href="/2026/thomas-barillari">Thomas Barillari</a> & <a href="/2026/edward-sakocius">Edward Sakocius</a>
+tracks:
+  - id: track1
+    name: Track 1
+    room: Grand Lilac Ballroom
+    show_on_slides_page: true
+    icons:
+      - ai-emerging-trends
+  - id: track2
+    name: Track 2
+    room: Highland A/B
+    show_on_slides_page: true
+    icons:
+      - security-operations-threat-intel
+  - id: track3
+    name: Track 3
+    room: Highland D/E
+    show_on_slides_page: true
+    icons:
+      - grc-identiry-leadership-appsec
+  - id: track4
+    name: Track 4
+    show_on_slides_page: true
+    room: Cascade A-C
+    icons:
+      - emerging-speakers
+  - id: other-events
+    name: Other Events
+    room: Hightland C - Come & Go
+  - id: sponsor1
+    name: Sponsor Track
+    room: Aqueduct A/B
+  - id: sponsor2
+    name: Sponsor Track
+    room: Aqueduct C/D
+session_times:
+  - start: 10:00 am 
+    end: 10:50 am 
+  - start: 11:00 am
+    end: 11:50 am
+  - start: 1:00 pm
+    end: 1:50 pm
+  - start: 2:00 pm
+    end: 2:50 pm
+icons:
+  ai-emerging-tech:
+    icon: 🟪
+    label: "AI & Emerging Technologies"
+    description: Explore the latest advancements and security implications of artificial intelligence and emerging tech.
+  security-operations-threat-intel:
+    icon: 🔷
+    label: "Security Operations & Threat Intel"
+    description: Actionable insights for defending networks, threats hunting, and managing vulnerabilities.
+  grc-identiry-leadership-appsec:
+    icon: 🟠
+    label: "GRC, Identity, Leadership & AppSec"
+    description: Strategies for governance, risk management, secure coding, and effective security leadership.
+  industry-community-perspectives:
+    icon: ⭐
+    label: "Emerging Speakers"
+    description: Welcoming new voices into the security community. Hear new perspectives from emerging professionals sharing fresh insights, innovative research, and approaches to today’s challenges.
+show_legend: true # if the legend is the same for both days, setting this to false will hide it after day 1's schedule
+sessions:
+  track1:
+    - title: "AI Security Without the Noise: How to Evaluate Third‐Party AI Tools Without Flooding Your SOC"
+      presenter: Joe Cicero
+    - title: TBA
+      presenter: Michaela Lee
+    - title: "The Good News: One Prompt Took My AI Security Scores to 70%. The Bad News: The Other 30%"
+      presenter: Scott Bly
+    - title: "AI Security Myths We Can Finally Stop Repeating"
+      presenter: Cris Thomas
+  track2:
+    - title: "Extending Shared Threat Models with the Application Attack Matrix"
+      presenter: J. Fridley
+    - title: "A Standard For Investigative Playbooks"
+      presenter: Matthew Gracie
+    - title: "SecReviewAgent: Context-Aware Security Review for Infrastructure as Code"
+      presenter: Naga Krishna Reddy Muppidi
+    - title: "So, You Want to Be a Forensicator..."
+      presenter: Dr. Catherine J. Ullman
+  track3:
+    - title: "Fast Cars Need Good Brakes: Why Speed and Innovation Should Welcome the Safety of GRC"
+      presenter: Eric Anderson
+    - title: "Consolidated but Captive? The Hidden Cost of Security Platformization"
+      presenter: Chris Aiwanse
+    - title: "Values-Driven Cybersecurity: Nerdy Fanatic to Empathic Pragmatist"
+      presenter: Reg Harnish
+    - title: "Biometric Assured Identity"
+      presenter: Kevin Surace
+  track4:
+    - title: "Designing Around Risk: Building a Stateless Healthcare Data Transformation Platform"
+      presenter: Lisa Smith
+    - title: "Real-Time Telemetry Obscurize: Malware for Defense and Counter Offense"
+      presenter: Aaron Beardslee
+    - title: "Beyond the AI Hype: Rule-Based Neural Networks for Threat Detection"
+      presenter: Antoine Nikolaos Valadon
+    - title: "Real-Time Telemetry Analytics for Cybersecurity: Detecting Anomalies in High-Speed Data Streams"
+      presenter: Carlo Toma & Ethan Rosenblum
+  other-events:
+    - title: >
+        CTF Competition by MetaCTF (Continued)<br><br>
+
+        Come & Go<br><br>
+
+        End: 3pm<br>
+        <em>Top 3 prizes awarded EOD</em>
+      length: 2
+    - skip: true
+    - title: >
+        Lockpick Village by <a href="https://toool.us/">Toool</a><br><br>
+        
+        Hands-on lockpicking workshop<br><br>
+        
+        Come & Go<br><br>
+
+        Start: 12:30 pm<br>
+        End: 3:00 pm 
+      length: 2
+    - skip: true
+  sponsor1:
+    - title:
+      presenter:
+      sponsor: Tines
+    - title:
+      presenter:
+      sponsor: HPE
+    - title: "How the Demand for Agentic AI is Breaking Traditional Cybersecurity Oversight Presenter"
+      presenter: Jonathan Borgesen
+      sponsor: EchoStor
+    - title:
+      presenter:
+      sponsor: Axonius, Inc.
+  sponsor2:
+    - title:
+      presenter:
+      sponsor: Trend AI
+    - title: "Data Security is AI Security"
+      presenter: Justin Wilkins
+      sponsor: Varonis
+    - title: "The Fatal Flaw in AI-First Security Agents"
+      presenter:
+      sponsor:
+    - title:
+      presenter:
+      sponsor: TBA
+  

@@ -757,25 +757,26 @@ ul.social > li {
 }
 
 .schedule .lilac {
-  background-color: #b3f1ff;
+  /*background-color: #b3f1ff;*/
+  background-color: #c5b3ff;
 }
 .schedule .times.lilac {
   background-color: white;
 }
 .schedule .track1 {
-  background-color: #d0ffb3;
-}
-.schedule .track2 {
-  background-color: #ffdeb3;
-}
-.schedule .track3 {
   background-color: #c5b3ff;
 }
+.schedule .track2 {
+  background-color: #b3f1ff;
+}
+.schedule .track3 {
+  background-color: #ffdab9;
+}
 .schedule .track4 {
-  background-color: #f08080;
+  background-color: #fafad2;
 }
 .schedule .sponsor, .schedule .sponsor1, .schedule .sponsor2 {
-  background-color: #ffc6d2;
+  background-color: #b3f1ff;
 }
 .schedule .training, .schedule .other-events {
   background-color: #fffb99;
@@ -827,6 +828,10 @@ ul.social > li {
 	content: "-";
 	padding: 0 5px;
 }
+.schedule-legend dd.description {
+	padding-bottom: 1em;
+	margin-left: 2.25em;
+}
 
 @media (min-width: 960px) {
   .schedule {
@@ -844,6 +849,10 @@ ul.social > li {
 
   .schedule-2025 {
   	grid-template-columns: 0.5fr 0.5fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+
+  .schedule-2026 {
+  	grid-template-columns: 0.5fr 0.5fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   }
 
   .schedule > div {
@@ -875,6 +884,10 @@ ul.social > li {
 
   .schedule-2025 .full-session {
     grid-column-end: span 6;
+  }
+
+  .schedule-2026 .full-session {
+    grid-column-end: span 7;
   }
 
   .schedule .columns-2 {
@@ -910,10 +923,6 @@ ul.social > li {
   	width: 75%;
   	margin: 25px auto;
   	padding: 25px;
-  }
-
-  .schedule-legend dl {
-  	display: flex;
   }
 }
 /* app links */

@@ -130,9 +130,9 @@ speaking_abstract_bio_due: 2026-08-21
 speaking_draft_slides_due: 2026-08-21
 speaking_presentation_due: 2023-09-23
 
-schedule_not_yet_available: true
+schedule_not_yet_available: false
 schedule_tentative: false
-schedule_available: false
+schedule_available: true
 
 # Google form URLs and contact emails
 #
