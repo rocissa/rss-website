@@ -69,8 +69,8 @@ sessions:
     - title: "AI Security Without the Noise: How to Evaluate Third‐Party AI Tools Without Flooding Your SOC"
       presenter: Joe Cicero
     - title: TBA
-      presenter: Michaela Lee
-    - title: "The Good News: One Prompt Took My AI Security Scores to 70%. The Bad News: The Other 30%"
+      presenter: Meghan Cook
+    - title: "The Good News: One Prompt Took My AI Security Scores to 70%. The Bad News: The Other 30%.  I Need a Minute"
       presenter: Scott Bly
     - title: "AI Security Myths We Can Finally Stop Repeating"
       presenter: Cris Thomas
@@ -99,7 +99,7 @@ sessions:
       presenter: Aaron Beardslee
     - title: "Beyond the AI Hype: Rule-Based Neural Networks for Threat Detection"
       presenter: Antoine Nikolaos Valadon
-    - title: "Real-Time Telemetry Analytics for Cybersecurity: Detecting Anomalies in High-Speed Data Streams"
+    - title: "Don't Wait for Impact: Mission Readiness with Response and Recovery Planning"
       presenter: Carlo Toma & Ethan Rosenblum
   other-events:
     - title: >
