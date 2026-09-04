@@ -69,39 +69,371 @@ sessions:
   track1:
     - title: "Punk Rock AI: The Work/Life OS Digital Assistant Big Tech Won't Build for You"
       presenter: JP Bourget
+      abstract: >
+        Most AI assistants forget you between turns. Personal AI Infrastructure (PAI), originated by Daniel
+        Miessler, treats AI as a Life/Work Operating System instead — one that knows your goals, your
+        context, and the work you're actually trying to get done. This talk walks PAI's three pillars: TELOS
+        (your ideal state, codified), the Algorithm (a 7-phase universal primitive with capability gates and
+        security controls that keep USER/ private), and Pulse (the always-on daemon, extended by
+        Cloudflare Workers managed by Arbol). You'll leave with a working mental model of how PAI uses
+        Claude and other AIs to gather the right context and finish real work. You'll leave with the GitHub
+        repo to start running it tomorrow.
+      bios:
+        - name: JP Bourget
+          bio: >
+            JP Bourget is CEO of Blue Cycle, a Rochester-based boutique cybersecurity advisory and delivery
+            firm he founded in 2020. Before that he founded Syncurity, a SOAR platform acquired in 2020, after
+            coming up the practitioner ladder from analyst to CIO. He's also Advisor and CISO/EIR at Lytical
+            Ventures and advises startups in detection engineering, identity, and AI infrastructure. He co-
+            founded BSides Rochester and runs The Polaris Collective. His focus today is modernizing SecOps
+            and AI readiness and enablement across the business — via Microsoft, Anthropic, Cribl, and the
+            specialty tools that fit each engagement. He still listens to too much punk and has had a Jazz Fest
+            Club Pass since the late 2000s.
+      url: /2026/day1/track-1#track1-s1
     - title: "Build It, Break It, Learn From It: Designing Bespoke CTF and Malware Analysis Labs for Your Organization"
       presenter: Aaron Walker, Ph. D.
+      abstract: >
+        What happens when a Security Operations Manager uses AI as a force multiplier to build training
+        infrastructure from scratch? This talk answers that question. The SecOps Workshop Platform is an
+        open-source, self-hosted CTF engine and Windows malware analysis lab — built with AI-assisted
+        development and deployed on a single Linux host. It combines five hands-on challenges mapped to
+        real-world attack TTPs with a live detonation pipeline backed by Sysmon telemetry, YARA, CAPA,
+        and a fake-internet sinkhole. The result: a bespoke, repeatable training range any small security
+        team can own and operate — no vendor, no recurring license, no compromise on technical depth.
+      bios:
+        - name: Aaron Walker, Ph.D.
+          bio: >
+            Aaron Walker, Ph.D., is a cybersecurity leader, researcher, and educator with extensive experience
+            in information security, threat detection, risk management, and security operations. He currently
+            serves in cybersecurity leadership within the retail sector and holds industry-recognized
+            certifications including CISSP, GPEN, GCIA, GAWN, PMP, and Security+. Dr. Walker earned his
+            Ph.D. from the University of Nevada, Reno, where his research focused on applying machine
+            learning and behavioral analysis techniques to malware detection and classification. He has
+            authored numerous peer-reviewed publications and is recognized for advancing practical
+            approaches to cybersecurity defense, threat analysis, and secure computing.
+      url: /2026/day1/track-1#track1-s2
     - title: "Securing Shadow AI: Practical Controls for AI Risk, Data Exposure, and Vendor Oversight"
       presenter: Lawana Jones
+      abstract: >
+        Artificial intelligence has become a new unmanaged risk surface inside modern organizations. Employees 
+        are using generative AI to upload data, summarize documents, automate workflows, and support decisions, 
+        often without clear policies, oversight, or accountability. This creates “shadow AI” risk across 
+        cybersecurity, privacy, vendor management, intellectual property, compliance, and public trust. This 
+        vendor-neutral session offers a practical framework for identifying AI use cases, classifying risk, 
+        defining decision rights, creating governance workflows, and building a 30–60–90 day AI security roadmap.
+      bios:
+        - name: Lawana Jones
+          bio: >
+            Lawana Jones is Founder and Chief Technology Officer of Aureon Global AI Technologies and a nationally 
+            recognized technology executive, AI governance strategist, and cybersecurity-informed transformation 
+            leader. She most recently served as Senior Vice President, Chief Technology Officer/CISO at United Way 
+            Worldwide, where she led enterprise technology, AI governance, cybersecurity, data governance, privacy, 
+            and digital transformation across a national nonprofit network. Creator of the AI Governance for Social 
+            Impact™ Framework, she helps mission-driven organizations move from AI experimentation to responsible, 
+            secure, and accountable AI adoption.
+      url: /2026/day1/track-1#track1-s3
     - title: "AI-Augmented Web App Pentesting: Lessons from the Field"
       presenter: Mike Lisi
+      abstract: >
+        AI-assisted pentesting tools are everywhere, promising faster coverage and better results. But how do they 
+        actually perform on real engagements, and what must practitioners understand before trusting AI output in a 
+        client deliverable?
+
+        This session draws on hands-on experience integrating AI-augmented tooling into professional web app assessments 
+        - what worked, what failed, and where it makes sense.
+
+        Attendees leave with a framework for evaluating these tools: what to ask vendors, what to test before trusting 
+        output, and how AI assistance intersects with methodology, liability, and client expectations including 
+        false positives, missed findings, coverage, over-reliance, and skill atrophy.
+      bios:
+        - name: Mike Lisi
+          bio: >
+            Mike Lisi is the Founder and Principal Consultant of Maltek Solutions, a cybersecurity consultancy 
+            specializing in penetration testing, web application assessments, and security awareness. With over 15 
+            years of experience in offensive security, he has conducted hundreds of network and application assessments 
+            and developed cyber capabilities across commercial and public sector environments. Mike also serves as 
+            President of Red Team Village, a 501(c)(3) nonprofit dedicated to making offensive security education free 
+            and accessible to the global security community. He holds a Master's degree in Cybersecurity & Information 
+            Assurance and several certifications. 
+      url: /2026/day1/track-1#track1-s4
   track2:
     - title: "Defending at Machine Speed Without Losing Human Judgment"
       presenter: Daniel Megalo
+      abstract: >
+        What began as a traditional SOC modernization effort (replacing a SIEM, staffing an in-house 24/7 SOC, and 
+        automating with SOAR) quickly evolved into something very different as AI capabilities matured.
+
+        AI isn't just another capability to add to the SOC. It changes the assumptions the SOC was built on.
+
+        Drawing from firsthand experience, this session shares practical lessons on leadership, technology, and 
+        organizational change, including how the role of the SOC analyst is evolving from alert triage to AI oversight, 
+        detection engineering, and continuous improvement. Attendees will leave with actionable ideas for building 
+        security operations that defend at machine speed without losing human judgment.
+      bios:
+        - name: Dan Megalo
+          bio: >
+            Dan Megalo is a cybersecurity executive with more than 15 years of experience leading security strategy, 
+            engineering, and operations across the public and private sectors, including government, healthcare, 
+            biotechnology, and banking. He specializes in transforming security programs by aligning technology, people, 
+            and business objectives to deliver resilient and scalable capabilities. His recent work has focused on 
+            applying AI to modernize security operations and rethink how security teams function as AI and automation 
+            reshape traditional SOC models.
+
+            Dan is passionate about sharing practical lessons that help security leaders navigate emerging threats and 
+            new technologies while staying grounded in sound engineering and good judgment.
+      url: /2026/day1/track-2#track2-s1
     - title: "Running an Effective Vulnerability Management Program"
       presenter: Rich Ingersoll
+      abstract: >
+        Vulnerability management (VM) is one of the most fundamental — and most frequently underperformed — disciplines 
+        in information security. This session delivers a practical framework for building and running an effective VM 
+        program, covering core components (asset inventory, scanning, pen testing, and threat intelligence), risk-based 
+        prioritization that goes beyond CVSS scores, remediation workflow design, and the metrics that matter. We'll 
+        tackle the organizational challenges that break programs — siloed teams, scan theater, alert fatigue, and lack 
+        of executive buy-in — and how to address them. Attendees leave with actionable guidance they can apply 
+        immediately, regardless of where their program sits on the maturity curve.
+      bios:
+        - name: Rich Ingersoll
+          bio: >
+          
+      url: /2026/day1/track-2#track2-s2
     - title: "Cybersecurity Outlook 2026... We’re All in Trouble!"
       presenter: Steve Stasiukonis
+      abstract: >
+        Rich Ingersoll is the Director of Vulnerability Management at Rochester Regional Health and an Adjunct Professor 
+        in the Cybersecurity Department at SUNY Canton, where he brings real-world expertise into the classroom. With a 
+        20-year career at Cisco Systems spanning leadership and technical roles, and subsequent director-level positions 
+        in both systems engineering and information security, he has built a reputation as a trusted voice in IT 
+        infrastructure and cybersecurity. He holds two master's degrees — one in Cybersecurity and one in IT Management — 
+        along with a range of industry certifications. 
+      bios:
+        - name: Steve Stasiukonis
+          bio: >
+            Steve Stasiukonis is the President of Secure Network Technologies, where he leads penetration testing, 
+            information-security risk assessments, IR, and digital investigations. With more than 29 years of 
+            experience in the information-security field, Steve has built a distinguished career helping organizations 
+            identify critical vulnerabilities, quantify cyber risk, and respond decisively to complex security incidents. 
+            Widely recognized for his deep expertise in social engineering, Steve specializes in demonstrating how threat 
+            actors exploit human behavior alongside technology to compromise organizations. Steve is a respected thought 
+            leader in the cybersecurity community. He regularly contributes expert commentary as a columnist for 
+            InformationWeek and DarkReading.
+      url: /2026/day1/track-2#track2-s3
     - title: "Don't Go Alone: Take this Threat Intel!"
       presenter: Thomas Richards
+      abstract: >
+        Threat-led penetration testing (TLPT) is a pro-active, intelligence driven assessment where the assessors will 
+        mimic real world threats faced by the organization. Going beyond traditional penetration testing and differing 
+        from a goal-based red team assessment, a TLPT will identify active threat actors in the specific market segment 
+        or region. Using this information and understanding their attack patterns, techniques, and motives to drive 
+        meaningful penetration testing activities.
+      bios:
+        - name: Thomas Richards
+          bio: >
+            Thomas Richards is the Infrastructure Security Practice Manager at DirectDefense. Thomas is currently 
+            responsible for overseeing DirectDefense’s network penetration testing, social engineering, and red teaming 
+            services. He currently holds the Offensive Security Certified Professional (OSCP) certification and has 
+            publicly disclosed dozens of vulnerabilities.
+      url: /2026/day1/track-2#track2-s4
   track3:
     - title: "The Vendor Has Your Domain Admin: Why Third-Party Risk Programs Are Looking the Wrong Way"
       presenter: Brandon Finton
+      abstract: >
+        Every third-party risk program in 2026 is auditing SaaS supply chains and chasing fourth-party risk. Meanwhile, 
+        the dominant path to domain compromise in pen tests and incidents is something nobody puts on the agenda: 
+        vendor-managed infrastructure with attached privileged accounts. An ISP-managed firewall, an MSP service account, 
+        or a vendor's remote access.
+
+        This session walks through two case studies where vendor-managed infrastructure handed an attacker the keys to the 
+        kingdom, and why nobody was looking in the right direction. The failure cascade is the same every time, and it 
+        starts where nobody looks.
+
+        Attendees leave with a practical pattern: back to basics on third parties.
+      bios:
+        - name: Brandon Finton
+          bio: >
+            Brandon Finton, MS, CISSP, CISM, is President and Principal Consultant of Orion Secure, a Syracuse-based 
+            information security consultancy serving mutual insurance carriers, community banks, municipalities, 
+            healthcare organizations, and nonprofits across New York and the Northeast. His practice focuses on virtual 
+            CISO services, governance, risk and compliance, vulnerability management, and offensive security testing. 
+            Brandon is a board member of the CNY chapter of ISACA and speaks regularly at security conferences and 
+            industry events.
+      url: /2026/day1/track-3#track3-s21
     - title: "One Control Set to Rule Them All"
       presenter: Patrick Rost
+      abstract: >
+        Organizations managing multiple compliance frameworks (HIPAA, CMMC, PCI-DSS, State Law) spend weeks preparing 
+        for audits covering the same controls. On top of that, more vendors are sending questionnaires and insurance 
+        applications are getting longer. Join this session to learn how to create an internal requirements list based 
+        on a set of controls that satisfies your external requirements. Become proactive instead of scrambling to answer 
+        the same questions several times a year.
+      bios:
+        - name: Patrick Rost
+          bio: >
+            Patrick Rost has over 15 years of technology and cybersecurity experience. He is Owner & Advisor at 
+            InfoSecurity Blueprint which he founded in 2023 to pursue his passion of helping businesses protect their 
+            sensitive information and maintain customer trust. Patrick is dedicated to providing personalized advice to 
+            help each business succeed. Previously, he was a Senior Information Security Consultant at a Buffalo-based 
+            accounting firm and an IT Manager at a large human services nonprofit. Patrick holds a Bachelor of Technology 
+            in Network Administration with a minor in Information Security and Assurance, CISSP, CMMC-RP, and additional 
+            certifications. He actively volunteers as a firefighter, EMT, and serves on several local boards and councils.
+      url: /2026/day1/track-3#track3-s2
     - title: "Verified Lies: Exposing Verification Theater Before the Fraud Matures"
       presenter: Andre Piazza
+      abstract: >
+        Verification exists to answer one question: is this real? Attackers have stopped answering it; instead, they 
+        impersonate the question, cloning verification flows at scale with AI. I walk through two documented cases where 
+        deception, not bypass, did the work: a cloned government grant portal that harvested credentials via a fake 
+        multi-step login; and a retail scam that weaponized KYC friction to trap victims across brand-swappable 
+        infrastructure. The pattern: attackers don't break verification, they impersonate it; the catchable artifact is 
+        the infrastructure staged to deliver the lie, observable before the fraud matures. You'll leave able to spot 
+        verification theater and turn its signals into detection and user-awareness content.
+      bios:
+        - name: Andre Piazza
+          bio: >
+            Andre Piazza is a cybersecurity strategist at BforeAI who works left of boom, catching adversary 
+            infrastructure during its staging window, before account fraud or impersonation lands. He works from public 
+            signals like certificate transparency and ASN data, linking domains by registration velocity, shared 
+            certificate fingerprints, and hosting overlap to surface lookalike infrastructure before it goes live. His 
+            work spans verification fraud and AI-built impersonation, and he gives as much weight to the human trust 
+            attackers exploit as to the technology. Andre turns published threat research into methods practitioners can 
+            use the next day, and speaks at the SANS AI Cybersecurity Summit, Cybr.Sec.Con, and BSides conferences across 
+            North America.
+      url: /2026/day1/track-3#track3-s3
     - title: "Anatomy of an API Key: Mapping the Sprawl of Non-Human Identities in Modern SaaS"
       presenter: Chaim Sanders
+      abstract: >
+        Vendors love talking about how they can “solve NHI”, yet when you look at a large-scale analysis of a typical SaaS 
+        application portfolio, a horrifying "long tail" of weird and highly insecure access methods reveals itself. From 
+        user-generated Personal Access Tokens (PATs) acting as shadow IAM, to immortal SSH keys hiding on disks, these 
+        credentials routinely sidestep SSO, Zero Trust, and MFA. We'll explore how these static nightmares break basic 
+        assumptions and highlight the unique identity risks introduced by modern AI workflows. Join this session to learn 
+        how to wrangle this sprawling attack surface before a forgotten token ruins your weekend!
+      bios:
+        - name: Chaim Sanders
+          bio: >
+            Chaim Sanders is a security practitioner who discovered a knack for communicating and became a CISO. He is 
+            currently the CISO at Lyft. His background is a chaotic mix of academia, offensive engineering, and deep 
+            research. This variety forces him to look at security problems—and the current AI hype—through the lens of a 
+            builder, a breaker, and a budget-holder simultaneously. Chaim remains overly cynical about the state of 
+            computing security, but now he has to do it while wearing a blazer.
+      url: /2026/day1/track-3#track3-s4
   track4:
     - title: "Beyond the Hype: Practical AI Use Cases for Modern GRC Teams"
       presenter: Deke Johnson
+      abstract: >
+        Artificial Intelligence is dominating boardroom conversations, regulatory discussions, and cybersecurity headlines, 
+        yet many Governance, Risk, and Compliance (GRC) teams are still asking a simple question: where do we start? This 
+        session explores practical AI use cases within modern GRC programs, including risk assessments, audit readiness, 
+        evidence collection, policy analysis, reporting, and governance workflows. Attendees will learn where AI can 
+        deliver measurable value today, where human oversight remains critical, and how organizations can begin introducing 
+        AI responsibly while maintaining strong governance, compliance, and risk management practices.
+      bios:
+        - name: Dekedrian “Deke” Johnson
+          bio: >
+            Dekedrian “Deke” Johnson is a Governance, Risk, and Compliance (GRC) professional with 12+ years of experience 
+            across cybersecurity, risk management, audit, identity governance, and compliance. He currently serves as a 
+            Staff Analyst within the GRC organization at Fanatics, supporting enterprise governance, audit, and access 
+            management programs. Previously, he held cybersecurity and risk roles at Paychex, Frontier Communications, and 
+            PwC. Deke also serves as Chair of the Supervisory Committee for The Summit Federal Credit Union and as a Board 
+            Trustee for Vertus Charter High School. His interests include AI governance, compliance automation, and emerging 
+            echnology risk.
+      url: /2026/day1/track-4#track4-s1
     - title: "Real-Time Telemetry Analytics for Cybersecurity: Detecting Anomalies in High-Speed Data Streams"
       presenter: Janhavi Dhariya
+      abstract: >
+        Modern systems generate large volumes of high-speed telemetry, making it difficult for security teams to distinguish 
+        unusual activity from normal operational variation. This session presents a motorsport-inspired cybersecurity case 
+        study that explores how machine learning can support anomaly detection in real-time data streams.
+
+        Using synthetic, multivariate racing telemetry, the prototype applies Isolation Forest, One-Class SVM, and PCA 
+        reconstruction error to identify injected anomalies such as sudden spikes, added noise, and gradual sensor drift. 
+        The session examines the analytics pipeline, model behavior, visualization approach, implementation challenges, and 
+        limitations encountered during development. It also explores why gradual anomalies can be difficult to detect and 
+        how relationships between multiple signals may provide more useful context than evaluating each measurement against 
+        a fixed threshold.
+
+        The findings are connected to telemetry-heavy environments such as industrial systems, manufacturing, connected 
+        vehicles, aviation, and clinical monitoring, while recognizing that a research prototype requires further validation 
+        before real-world deployment. Attendees will leave with practical guidance for selecting meaningful signals, 
+        establishing operational baselines, evaluating detection results, and using anomaly alerts as investigative leads 
+        rather than definitive proof of malicious activity.
+      bios:
+        - name: Janhavi Dhariya
+          bio: >
+            Janhavi Dhariya is an M.S. student in Cybersecurity at Rochester Institute of Technology and an Information 
+            Security Governance, Risk, and Compliance Co-op at Rochester Regional Health. Her experience spans 
+            vulnerability analysis, security automation, data analytics, and operational risk. At RIT, her research and 
+            technical projects have explored telemetry anomaly detection, post-quantum authentication, and covert channels 
+            in enterprise environments. She is particularly interested in translating cybersecurity research into practical 
+            controls that help organizations make trustworthy decisions under uncertainty. Janhavi has grown from 
+            volunteering at the RSS last year, to speaking her heart out. Her love of motorsport inspired this telemetry 
+            case study, and she believes a well-made cup of coffee is usually part of the research process.
+      url: /2026/day1/track-4#track4-s2
     - title: "Small Team, Big Security: How to Punch Above Your Weight"
       presenter: Ryan McCoy & Paul Scott
+      abstract: >
+        Small IT and security teams are expected to defend modern organizations against evolving threats while managing 
+        infrastructure, compliance, user support, and daily operations often without enterprise budgets or dedicated 
+        security staff. This session explores practical, real-world strategies for building a mature and sustainable 
+        security program in a lean environment. Drawing from hands-on experience aligning operations with frameworks like 
+        ISO 27001 and NIST, the talk focuses on high-impact controls, operational simplicity, automation, and reducing 
+        security fatigue. Learn how small teams can improve security posture, scale processes effectively, and achieve 
+        meaningful security outcomes without overengineering their environment.
+      bios:
+        - name: Ryan McCoy
+          bio: >
+            Ryan McCoy is a Director of Network Administration with 20+ years in the IT industry with the past 8 years 
+            dedicated to KS&R. He is experienced in designing, managing, and securing enterprise network infrastructure 
+            with a strong focus on cybersecurity, data protection, and operational reliability. Ryan is passionate about 
+            defending organizations from evolving external threats while keeping data security a top priority across all 
+            systems and processes. He is CompTIA Security+ (SEC+) certified with a proven track record in risk management 
+            and technology strategy.
+        - name: Paul Scott
+          bio: >
+            Paul Scott is CISSP-certified IT and cybersecurity executive with experience leading IT operations, 
+            cybersecurity programs, software development, and data management. He is experienced in developing cybersecurity 
+            and risk management programs supporting ISO 27001 certification, meeting regulatory requirements, and securing 
+            sensitive data including PII, HIPAA, GDPR, and CCPA. Paul is Knowledge Systems & Research's SVP of IT and 
+            Security Officer for the past 15 years.
+      url: /2026/day1/track-4#track4-s3
     - title: "Federated Learning for the Real World: Privacy, Security, and Cost, Without the Trade-offs"
       presenter: Dmitrii Korobeinikov, AJ Barea & Dr. Leon Reznik
+      abstract: >
+        AI systems that learn from your customers' data create real privacy and compliance risk — but keeping data local 
+        doesn't mean you're safe. Federated Learning avoids raw data transfer, yet attackers can compromise individual 
+        devices and silently corrupt AI models. This session offers a practical decision framework for designing FL 
+        applications that detect and respond to attacks automatically, balance security overhead against model performance, 
+        and adapt to changing conditions, all without requiring a research team to operate. Attendees leave with a concrete 
+        methodology they can apply to their own AI deployments.
+      bios:
+        - name: Dmitrii Korobeinikov
+          bio: >
+            Dmitrii Korobeinikov is a Ph.D. researcher in Computing and Information Sciences at Rochester Institute of 
+            Technology specializing in federated learning, AI security, and large-scale experimentation. He is the founder 
+            and maintainer of the IntelliFL research framework and has authored numerous publications on trustworthy AI, 
+            anomaly detection, and distributed machine learning. With experience in both academic research and industry 
+            software development, Dmitrii’s  work combines machine learning, cloud computing, and cybersecurity to build 
+            robust and scalable intelligent systems.
+        - name: Arnaldo (AJ) Barea
+          bio: >
+            Arnaldo (AJ) Barea is a Ph.D. researcher in Computing and Information Sciences at Rochester Institute of 
+            Technology, working on federated learning, trustworthy distributed machine learning, and human-on-the-loop 
+            multi-agent systems. He builds and maintains Velocity-FL and Pharos, open frameworks for benchmarking and 
+            auditing federated systems, and has co-authored publications in IEEE Intelligent Systems and IJCNN. AJ’s work 
+            combines machine learning, software architecture, and cybersecurity to make distributed AI systems reproducible 
+            and auditable.
+        - name: Dr. Leon Reznik
+          bio: >
+            Dr. Leon Reznik is a Professor of Computer Science and the member of the ESL Global Cybersecurity Institute at 
+            the Rochester Institute of Technology, New York, USA. He conducts research and teaches classes in the areas of 
+            cybersecurity, federated learning, ML and AI with their applications in computer security and privacy protection, 
+            intrusion detection, computer vision, intelligent control systems, sensor systems and networks. His new textbook 
+            “Intelligent security systems: How artificial intelligence, machine learning and data science work for and against 
+            computer security” was recently released by IEEE Press - Wiley and Sons. Prof. Reznik authored another textbook 
+            and almost two hundred papers in these fields as well as edited a few research volumes. This research was 
+            supported by NSF, NSA, DoD, CRDF Global as well as ARC. Please, see his website at https://cs.rit.edu/~lr/ for 
+            more information.
+      url: /2026/day1/track-4#track4-s4
   other-events:
     - title: >
         Capture the Flag Competition by <a href="https://metactf.com/products/competition-based-training/#jeopardy">MetaCTF</a><br><br>

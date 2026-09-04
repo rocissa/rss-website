@@ -68,39 +68,340 @@ sessions:
   track1:
     - title: "AI Security Without the Noise: How to Evaluate Third‐Party AI Tools Without Flooding Your SOC"
       presenter: Joe Cicero
+      abstract: >
+        AI has shifted from promise to pressure as organizations face a flood of third-party tools that often increase 
+        noise over security. This session explores how leaders can cut through the hype by prioritizing governance and 
+        data grounding over surface-level automation. We will examine how Microsoft Copilot for Security leverages a 
+        trusted foundation and first-party threat intelligence to improve analyst efficiency and investigation quality, 
+        ensuring AI strengthens operations while maintaining control.
+      bios:
+        - name: Joe Cicero
+          bio: >
+            Joe Cicero is the Chief Marketing Officer at Security Risk Advisors, he leads brand and ecosystem strategy 
+            with a focus on measurable impact. Specializing in translating complex cybersecurity challenges into authentic 
+            stories that address customer needs.
+
+            With a leadership background at Microsoft, Joe has advised Fortune 100s and governments on strategy and active 
+            incidents. His experience includes scaling global device management and launching first-party managed security 
+            services. He also advocates for simplifying programs and building partnerships that enable secure, scalable 
+            outcomes for all stakeholders.
+      url: /2026/day2/track-1#track1-s1
     - title: TBA
       presenter: Meghan Cook
+      abstract: >
+        TBA
+      bios:
+        - name: Meghan Cook
+          bio: >
+            TBA
+      url: /2026/day2/track-1#track1-s2
     - title: "The Good News: One Prompt Took My AI Security Scores to 70%. The Bad News: The Other 30%.  I Need a Minute"
       presenter: Scott Bly
+      abstract: >
+        I built Hermia, an open-source LLM security evaluation framework, and ran it across four GPU backends spanning 
+        NVIDIA, AMD, and Apple silicon. Then I watched one model pass a security test 97% of the time on one backend and 
+        35% on another. Same model. Same weights. Same prompt. It wasn't wrong — it was slow, and the test clock ran out 
+        before the answer arrived. In security, late is a failure.
+
+        That's when I stopped trusting the aggregate score.
+
+        This talk is about what the pass rate hides. I'll show a controlled result — strengthen one guardrail prompt and 
+        capable models jump from 0% to 100%, while weaker ones don't move — then run Hermia live so you can see the failure 
+        modes the average was covering for. Bring a laptop to run it during Q&A.
+      bios:
+        - name: Scott Bly
+          bio: >
+            Scott Bly is the Field CISO and Director of the Cybersecurity Practice at Systems Integration Solutions, where 
+            he was employee #1. Over 20+ years he has built security practices from scratch and advised Fortune 100 CISOs. 
+            He is the author of Hermia, an open-source LLM security evaluation framework, and runs a heterogeneous private 
+            AI inference fleet as a working reference for the AI security architecture his team deploys for clients. Scott 
+            came to security sideways — a USC film degree first — which is why he can make a hard technical finding land in 
+            a room. He has spoken at OWASP, ISC2, API Days, and SCaLE, and holds the CISSP, CSSLP, and CISM among 40+ 
+            certifications.
+      url: /2026/day2/track-1#track1-s3
     - title: "AI Security Myths We Can Finally Stop Repeating"
       presenter: Cris Thomas
+      abstract: >
+        Every week a new headline warns that AI is about to destroy cybersecurity, or save it. Vendors promise AI defense, 
+        researchers warn of AI attacks, and execs are left wondering what's real and what's marketing.
+
+        This talk cuts through the noise.
+
+        Drawing on decades of watching security hype cycles come and go, Space Rogue examines the most common AI security 
+        claims being repeated today and tests them against reality. With real-world examples, and a healthy dose of 
+        skepticism, attendees will learn which AI threats deserve immediate attention, which are overblown, and which 
+        security fundamentals matter now more than ever.
+
+        The goal isn't to dismiss AI risks, it's to help security professionals focus on the ones that actually matter.
+      bios:
+        - name: Cris Thomas
+          bio: >
+            Cris Thomas is a seasoned cybersecurity expert with over two decades of experience in information security, 
+            specializing in risk management, threat intelligence, and security strategy. Known in the industry as "Space 
+            Rogue," a pioneering member of the hacker collective L0pht Heavy Industries. Cris has a proven track record 
+            in leading security initiatives, developing comprehensive security programs, and advising on cybersecurity 
+            policy. Adept at building and leading teams to protect organizational assets in dynamic threat landscapes.
+      url: /2026/day2/track-1#track1-s4
   track2:
     - title: "Extending Shared Threat Models with the Application Attack Matrix"
       presenter: J. Fridley
+      abstract: >
+        Shared threat frameworks have transformed how defenders describe adversary behavior and coordinate response. As 
+        attackers increasingly target software supply chains, application runtimes, and AI-enabled systems, defenders face 
+        new challenges applying existing models consistently. This session shares lessons from the Application Attack 
+        Matrix, a community-driven effort involving contributors from organizations such as Mandiant (Google Cloud), 
+        Microsoft, AWS, Meta, and others, exploring how application-layer attack techniques can be systematically described 
+        and operationalized.
+      bios:
+        - name: J. Fridley
+          bio: >
+            J. Fridley is a Solutions Engineer at Oligo, where he helps security and engineering teams better understand 
+            real application risk. His work focuses on challenges that don’t fit neatly into traditional vulnerability 
+            management, including third-party and open-source risk, security concerns introduced by embedded and agentic 
+            AI, and why defending against attack techniques is often more effective than focusing only on individual CVEs. 
+            Before joining Oligo, J. supported application security programs and developer security tooling. He is 
+            especially interested in the practical side of security: how teams build software, how findings reach developers, 
+            and why prioritizing risk in modern cloud environments remains difficult.
+      url: /2026/day2/track-2#track2-s1
     - title: "A Standard For Investigative Playbooks"
       presenter: Matthew Gracie
+      abstract: >
+        The Human Centered Investigation Playbook (HCIP) standard is a YAML-based syntax for writing investigation 
+        playbooks that correspond to a particular alert, artifact, or attack. The goal is to have an investigation 
+        methodology that both guides the analyst and also integrates into defensive tooling to make necessary data easily 
+        available during the investigation. I will discuss the standard, explore its purpose and use cases, and demonstrate 
+        its functionality in a free and open monitoring platform.
+      bios:
+        - name: Matthew Gracie
+          bio: >
+            Matthew Gracie is a defensive security specialist with twenty years of Blue Team experience in higher education, 
+            manufacturing, financial services, and healthcare. He is currently a Senior Engineer at Security Onion Solutions, 
+            as well as an adjunct professor in the Cybersecurity graduate program at Canisius University. Matt is also the 
+            lead organizer of Infosec 716, a monthly meetup for security enthusiasts in Western New York, and the BSides 
+            Buffalo technology conference. He enjoys microcontrollers, mountain bikes, open source security tools, and 
+            college hockey, and can be found on Bluesky as @InfosecGoon.
+      url: /2026/day2/track-2#track2-s2
     - title: "SecReviewAgent: Context-Aware Security Review for Infrastructure as Code"
       presenter: Naga Krishna Reddy Muppidi
+      abstract: >
+        Infrastructure-as-Code reviews often miss risk because reviewers see individual files without enough context about 
+        blast radius, ownership, cloud exposure, and deployment history. This talk introduces SecReviewAgent, a practical 
+        pattern for AI-assisted security review that combines deterministic checks, architecture memory, and LLM-assisted 
+        reasoning while keeping sensitive repository context protected and final authority in human review and CI/CD policy 
+        gates.
+      bios:
+        - name: Naga Krishna Reddy Muppidi
+          bio: >
+            Naga Krishna Reddy Muppidi is a Senior Cloud / Platform Engineer with 10+ years of experience designing and 
+            operating AWS, Kubernetes, Terraform, CI/CD, observability, cloud security, FinOps, and automation platforms 
+            for enterprise and financial-services environments. His recent independent research focuses on bounded 
+            LLM-assisted infrastructure systems, including CostAgent for cloud cost optimization and SecReviewAgent for 
+            context-aware Infrastructure-as-Code security review.
+      url: /2026/day2/track-2#track2-s3
     - title: "So, You Want to Be a Forensicator..."
       presenter: Dr. Catherine J. Ullman
+      abstract: >
+        Imagine starting your first day on the job with a single clue: a five-second gap in the logs that absolutely 
+        shouldn’t exist. What happened in the missing moment? This talk uses that small but mysterious anomaly to 
+        illustrate the heart of digital forensics. Attendees will learn how people actually break into computer forensics 
+        and the skills that matter. We’ll examine the core personality traits that make one effective in this career, 
+        including the ability to clearly communicate what the evidence does (and does not) prove. The session also sets 
+        realistic expectations for daily work in digital forensics. Attendees will understand not only what it takes to 
+        be a forensicator but what it feels like to think, work, and solve problems like one.
+      bios:
+        - name: Dr. Catherine J. Ullman
+          bio: >
+            Dr. Catherine J. Ullman is the Principal Technology Architect, Security at the University at Buffalo. She is 
+            a contributor to O’Reilly’s 97 Things Every Information Professional Should Know, the author of Wiley’s The 
+            Active Defender, and has presented at many infosec/hacker conferences. In her (minimal) spare time, she enjoys 
+            visiting her adopted two-toed sloth Flash at the Buffalo Zoo, researching death and the dead, and learning more 
+            about hacking to make the world a more secure place.
+      url: /2026/day2/track-2#track2-s4
   track3:
     - title: "Fast Cars Need Good Brakes: Why Speed and Innovation Should Welcome the Safety of GRC"
       presenter: Eric Anderson
+      abstract: >
+        Imagine driving a supercar on a racetrack. Approaching a turn at triple-digit speeds, your confidence to stay on 
+        the throttle isn't driven by recklessness — it's driven by trust in the vehicle's brakes. Yet, in business, we 
+        often view speed and safety backwards. Innovation pushes the accelerator while governance pulls the handbrake, 
+        treating GRC as a roadblock. Using lessons from racing and everyday driving, this session flips the script. We'll 
+        explore how safety systems guide, prevent, and mitigate risk — and how good GRC can similarly enable responsible 
+        speed, innovation, creativity, emerging technologies like AI, and the work our organizations actually need to 
+        accomplish.
+      bios:
+        - name: Eric Anderson
+          bio: >
+            Eric Anderson is a cybersecurity practitioner, educator, speaker, and host of the Cybersplainers podcast. 
+            Over a career spanning more than three decades, he has worked across engineering, architecture, strategy, and 
+            executive advisory roles. Eric specializes in making complex technology and risk concepts understandable 
+            without making them boring, and believes good security should help organizations confidently do more — not 
+            simply give them more reasons to say no.
+      url: /2026/day2/track-3#track3-s1
     - title: "Consolidated but Captive? The Hidden Cost of Security Platformization"
       presenter: Chris Aiwanse
+      abstract: >
+        Technology platformization promises lower costs, unified architectures, and procurement predictability. However, 
+        this wave often introduces hidden trade-offs. Does platformization create vendor lock-in? How can organizations 
+        strategically leverage frequent vendor acquisitions? This presentation examines why platformization is neither 
+        inherently good nor bad. Instead, it introduces a critical tension between operational efficiency and strategic 
+        independence—a risk balance cybersecurity leaders must master.
+      bios:
+        - name: Chris Aiwanse
+          bio: >
+            Chris Aiwanse began his career as at Cisco Systems where he was an SE on the Enterprise team, working with 
+            the largest clients in the Western NY area. After his time at Cisco, he joined Palo Alto Networks as an SE 
+            once again on the Enterprise team but now focusing solely on Healthcare. Following his role at Palo he joined 
+            ePlus where he now serves as a Client Security Principal for all of ePlus's clients in Upstate New York. This 
+            role allows Chris to provide security guidance and thought leadership across a wide variety of industries.
+      url: /2026/day2/track-3#track3-s2
     - title: "Values-Driven Cybersecurity: Nerdy Fanatic to Empathic Pragmatist"
       presenter: Reg Harnish
+      abstract: >
+        Cybersecurity has a branding problem. A soul-less parade of doom-and-gloom stats, impenetrable jargon, and 
+        perfectionist ideals that overwhelm small businesses. The kicker: your customers don't want a fanatic with a 
+        megaphone. They want a partner who gets them.
+
+        Reg Harnish, CEO of OrbitalFire Cybersecurity, founder of GreyCastle Cybersecurity, and co-founder of Autotask, 
+        shares how to evolve from over-caffeinated tech enthusiast to values-driven champion. Align security with 
+        customer values (and your own) for stronger partnerships, better outcomes, and a reputation that says "we 
+        do unto others."
+
+        Embrace empathic pragmatism. Spoiler alert: being relatable (and knowing when to call for backup) is your 
+        ultimate security tool.
+      bios:
+        - name: Reg Harnish
+          bio: >
+            Reg Harnish is best known as the founder and former CEO of GreyCastle Security, one of the cybersecurity 
+            industry's early juggernauts. He’s now the CEO of OrbitalFire Cybersecurity, a cybersecurity provider focused 
+            exclusively on smaller organizations. His nationally recognized companies have appeared on the TODAY Show, CBS 
+            Nightly News, Time Magazine, the Wall Street Journal and countless other media outlets. He has testified in 
+            front of Congress, is a fellow at the National Cybersecurity Institute, and a member of the Forbes Technology 
+            Council. Reg is an investor, advisor and Board member and most importantly, a husband and father to an 
+            incredible family.
+      url: /2026/day2/track-3#track3-s3
     - title: "Biometric Assured Identity"
       presenter: Kevin Surace
+      abstract: >
+        MFA and authenticator apps were built for a world before AI-powered phishing, deepfakes, session theft, 
+        device-code attacks, and autonomous agents. Today, attackers do not need to break in — they log in. This session 
+        explains why legacy MFA is becoming obsolete and why the next era of cybersecurity requires Biometric Assured 
+        Identity: proof that the right human is physically present and authorizing access or action. We will explore how 
+        hardware-anchored biometric identity protects employees, privileged users, AI agents, service accounts, APIs, and 
+        non-human identities, creating a trusted chain of accountability across the modern enterprise.
+      bios:
+        - name: Kevin Surace
+          bio: >
+            Kevin Surace is a Silicon Valley CEO, inventor, futurist, and one of the world’s leading voices on 
+            cybersecurity, AI, and biometric assured identity. Known as the “Father of the Virtual Assistant,” Kevin has 
+            95 worldwide patents and has pioneered breakthroughs in AI, mobile computing, cybersecurity, automation, and 
+            enterprise transformation. As CEO of TokenCore, he is helping move organizations beyond passwords, MFA, and 
+            vulnerable credentials to hardware-anchored biometric assured identity for humans, AI agents, and non-human 
+            identities. Kevin delivers 40 keynotes worldwide each year and brings rare energy, humor, and practical 
+            urgency to the cyber stage.
+      url: /2026/day2/track-3#track3-s4
   track4:
     - title: "Designing Around Risk: Building a Stateless Healthcare Data Transformation Platform"
       presenter: Lisa Smith
+      abstract: >
+        When working with healthcare data, security discussions often focus on protecting stored information. In this 
+        project, I took a different approach: What if I never stored the data at all?
+
+        This talk explores the design of a stateless healthcare data transformation platform that converts user-provided 
+        datasets into FHIR-compliant output. Files are processed in memory, transformed, returned to the user, and 
+        discarded. I’ll discuss the security benefits, engineering tradeoffs, and architectural decisions involved, 
+        including deterministic matching, human-guided data mapping, and selective use of AI. Attendees will leave with 
+        practical ideas for reducing risk through system design.
+      bios:
+        - name: Lisa Smith
+          bio: >
+            Lisa Smith is a Senior Research Data Engineer at the University of Rochester Medical Center, where she 
+            designs and builds healthcare analytics, interoperability, and data transformation systems. Before moving 
+            into software development, she spent 15 years teaching mathematics and statistics at SUNY Geneseo. Her work 
+            focuses on healthcare data engineering, FHIR interoperability, human-guided AI systems, and building practical 
+            solutions for messy real-world data problems. Lisa is a PyCon US 2026 speaker and has authored publications 
+            and industry articles on healthcare analytics, informatics, and technology. She enjoys tackling complex 
+            problems where technology, data, and people intersect.
+      url: /2026/day2/track-4#track4-s1
     - title: "Real-Time Telemetry Obscurize: Malware for Defense and Counter Offense"
       presenter: Aaron Beardslee
+      abstract: >
+        What if we could use attacker creativity against them? Malware STR has dissected routinely enumerates its 
+        environment before detonating, checking BIOS strings, MAC OUI prefixes, RAM, running services, and process lists 
+        to detect analyst VMs. If detected, it simply exits. By adapting the userland DLL injection model of the r77 
+        rootkit found in our OBSCURE#BAT publication, STR built Obscurize: a tool that deploys 20 Detours API hooks across 
+        every running process with no kernel driver required. Defensive mode makes physical hardware fingerprint as a VM 
+        so malware self-terminates. Trap mode inverts this, making a VM appear as genuine hardware so evasive samples 
+        detonate fully in the analyst lab.
+      bios:
+        - name: Aaron Beardslee
+          bio: >
+            Aaron Beardslee is a Blue Teamer at heart, but is fascinated with the Red Team aspect of cybersecurity. He has 
+            held positions from support to consulting and even law enforcement. Throughout his career at Trustwave, 
+            LogRhythm, and now Securonix, Aaron has been of the mindset that to properly defend you must understand what 
+            is attacking you. This concept drives him to keep learning about new ways to attack systems and share that 
+            knowledge with other professionals in the field. He attends Defcon, Wild West Hackin' Fest, and enjoys playing 
+            CTFs from Hack the Box, Black Hills Information Security, Try Hack Me, and various other cyber wargames. 
+            Aaron is also an avid gamer, martial artist, and drummer!
+      url: /2026/day2/track-4#track4-s2
     - title: "Beyond the AI Hype: Rule-Based Neural Networks for Threat Detection"
       presenter: Antoine Nikolaos Valadon
+      abstract: >
+        As the security world grows more automated and driven by agentic threat vectors, it's easy to get swept up in 
+        the hype. Agencies, industry leaders, and front-line personnel recognize the risks of an AI-centric security 
+        framework, and a wave of governance and guardrails has followed the skepticism. Yet fewer ask: what else can we 
+        try? ML is powerful, but perhaps we can harness it for high-stakes work without the unpredictability of popular 
+        generative and agentic models. This talk explores one alternative: rule-based neural networks, an interpretable 
+        model that learns a baseline of "normal" and grades how far each event deviates from it, giving an explainable 
+        severity score for review. It stays transparent, low-data, and non-generative.
+      bios:
+        - name: Antoine Nikolaos Valadon
+          bio: >
+            Antoine Nikolaos Valadon is a Physics and Computer Science student at the University of Arizona, focused on 
+            cyber threat intelligence and the crossover between scientific computing and security. His research under the 
+            deputy PI of NASA's HelioSwarm mission applies physics-informed machine learning to reconstruct turbulent 
+            plasma fields. His security background spans SOC analysis, federal cloud incident-response training provided 
+            by DHS/CISA, and competitive CTFs. He is also a participant in an NSF-funded quantum computing CyberTraining 
+            program. Antoine is especially interested in bringing scientific problem-solving approaches to practical 
+            threat detection.
+      url: /2026/day2/track-4#track4-s3
     - title: "Don't Wait for Impact: Mission Readiness with Response and Recovery Planning"
       presenter: Carlo Toma & Ethan Rosenblum
+      abstract: >
+        Join Ethan Rosenblum and Giancarlo Toma, Cybersecurity Specialists at OrbitalFire Cybersecurity, as we explore 
+        the differences between the different types of response and recovery plans, how they are tested, and how to better 
+        prepare your team to respond to any type of incident.
+      bios:
+        - name: Carlo Toma
+          bio: >
+            Giancarlo Toma is a Cybersecurity Specialist at OrbitalFire with a background spanning cybersecurity operations, 
+            technology alignment, technical leadership, and IT operations. In his current role, he works closely with 
+            smaller businesses on security monitoring, threat analysis, incident response preparedness, and security best 
+            practices.
+
+            A key focus of Giancarlo's work is developing and delivering customized cybersecurity tabletop exercises that 
+            help organizations test their Incident Response, Business Continuity, and Disaster Recovery plans. By building 
+            realistic scenarios around each organization's people, technology, and processes, he helps teams identify gaps, 
+            improve communication and decision-making, and strengthen their overall incident preparedness.
+
+            Giancarlo focuses on helping organizations close the gap between their written plans and their actual readiness, 
+            ensuring their teams have the knowledge and practice to respond effectively when incidents occur.
+        - name: Ethan Rosenblum
+          bio: >
+            Ethan Rosenblum is a Cybersecurity Specialist at OrbitalFire, where he supports organizations with 
+            cybersecurity, risk management, and compliance initiatives. His work focuses on Third-party Risk Management, 
+            Cybersecurity Compliance Assessments, Incident Response planning and tabletop exercises, and the development 
+            of cybersecurity policies and plans.
+
+            Ethan regularly works with organizations to develop and maintain Incident Response Plans and facilitates 
+            tabletop exercises designed to test those plans, identify gaps, and strengthen overall incident preparedness. 
+            He also conducts compliance assessments, evaluates third-party cybersecurity risk, and develops documentation 
+            aligned with applicable frameworks, regulatory requirements, and industry best practices.
+
+            Ethan earned his Bachelor's degree in Cybersecurity from the University at Albany and is currently pursuing a 
+            Master's degree in Digital Forensics and Cybersecurity Risk and Compliance. He began his career at OrbitalFire 
+            as a Services Intern before progressing to an Associate Cybersecurity Specialist and ultimately joining the team 
+            full-time as a Cybersecurity Specialist.
+      url: /2026/day2/track-4#track4-s4
   other-events:
     - title: >
         CTF Competition by MetaCTF (Continued)<br><br>
