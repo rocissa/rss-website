@@ -382,19 +382,20 @@ sessions:
       bios:
         - name: Ryan McCoy
           bio: >
-            Ryan McCoy is a Director of Network Administration with 20+ years in the IT industry with the past 8 years 
-            dedicated to KS&R. He is experienced in designing, managing, and securing enterprise network infrastructure 
-            with a strong focus on cybersecurity, data protection, and operational reliability. Ryan is passionate about 
-            defending organizations from evolving external threats while keeping data security a top priority across all 
-            systems and processes. He is CompTIA Security+ (SEC+) certified with a proven track record in risk management 
-            and technology strategy.
+            Ryan McCoy is Knowledge Systems & Research’s Director of IT and Security Officer with 20+ years in the IT 
+            industry with the past 8 years dedicated to KS&R. He is experienced in designing, managing, and securing 
+            enterprise network infrastructure with a strong focus on cybersecurity, data protection, and operational 
+            reliability. Ryan is passionate about defending organizations from evolving external threats while keeping data
+            security a top priority across all systems and processes. He is CompTIA Security+ (SEC+) certified with a proven
+            track record in risk management and technology strategy.
         - name: Paul Scott
           bio: >
-            Paul Scott is CISSP-certified IT and cybersecurity executive with experience leading IT operations, 
-            cybersecurity programs, software development, and data management. He is experienced in developing cybersecurity 
-            and risk management programs supporting ISO 27001 certification, meeting regulatory requirements, and securing 
-            sensitive data including PII, HIPAA, GDPR, and CCPA. Paul is Knowledge Systems & Research's SVP of IT and 
-            Security Officer for the past 15 years.
+            Paul Scott is the founder of NorthPoint Advisory Group and a CISSP-certified executive with more than 30 years
+            of experience helping organizations manage technology, cybersecurity, and business risk. His background spans
+            governance, data privacy, incident response, software and database development, technology operations, and
+            the protection of sensitive and regulated data. He holds a Master’s degree in Cybersecurity and brings the
+            perspective of a technology executive who understands how cybersecurity decisions affect customers, revenue,
+            operations, and growth.
       url: /2026/day1/track-4#track4-s3
     - title: "Federated Learning for the Real World: Privacy, Security, and Cost, Without the Trade-offs"
       presenter: Dmitrii Korobeinikov, AJ Barea & Dr. Leon Reznik
@@ -462,9 +463,28 @@ sessions:
     - title:
       presenter:
       sponsor: Atlantic Data
-    - title: "AI and DLP: How Fortinet's DLP Solutions Can Secure Your Private Data from AI Leakage"
+    - title: "AI and DLP: How Fortinet's Data Loss Prevention Solutions Can Secure Your Private Data from AI Leakage"
       presenter: Mark Rosenecker
       sponsor: Fortinet
+      abstract: >
+        In the present era of artificial intelligence, its adoption in office environments poses a significant risk of 
+        sensitive data types (such as PII, PHI, IP, and more) being inappropriately shared through insecure applications. 
+        Given the multitude of AI applications available, it is crucial for organizations to effectively monitor and safeguard 
+        their sensitive data from unintentional (or even deliberate) misappropriation. Fortinet offers comprehensive solutions 
+        to address these challenges. By leveraging our industry-leading FortiGate, cloud-based FortiSASE, and endpoint-based 
+        FortiDLP, Fortinet enables organizations to observe, inspect, and control the flow of sensitive data regardless of the 
+        location of their users.
+      bios:
+        - name: Mark Rosenecker
+          bio: >
+            With 31 years of experience in the IT industry, half of which dedicated to cybersecurity, Mark has a solid 
+            understanding of the field. Throughout his career, he has held various positions at private colleges, service 
+            providers, and large multinational corporations, and his current role as a Senior System Engineer at Fortinet began 
+            7 years ago. Mark also has extensive hands-on experience with a diverse range of solutions, including Palo Alto 
+            Networks, Cisco, Checkpoint, and SonicWall, and his decade of experience as a server and virtualization engineer 
+            further enhances his skill set. This diverse experience has enabled Mark to develop his unique insights into the 
+            industry and identify effective strategies for safeguarding his customers.
+      url: /2026/day1/sponsor-1#sponsor1-s2
     - title:
       presenter:
       sponsor: Cyberhaven
