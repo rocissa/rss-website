@@ -485,23 +485,62 @@ sessions:
             further enhances his skill set. This diverse experience has enabled Mark to develop his unique insights into the 
             industry and identify effective strategies for safeguarding his customers.
       url: /2026/day1/sponsor-1#sponsor1-s2
-    - title:
-      presenter:
+    - title: "Security Strategy for the Agentic Enterprise"
+      presenter: Silas Glines
       sponsor: Cyberhaven
+      abstract: >
+        Every company is becoming an agentic enterprise, where humans and autonomous AI agents work side by side. The 
+        competitive edge is no longer any single system. It is the workflows: how human and machine intelligence combine with 
+        proprietary data to get work done.
+
+        Most security leaders are now expected to approve AI adoption, not block it. Yet the tools in place were designed to 
+        inspect content at fixed checkpoints, not to follow data through AI tools and agents. The result is AI usage spreading 
+        faster than security teams can see or govern, which is how shadow AI takes hold.
+
+        This session treats data security as part of AI transformation planning rather than a separate tooling decision: one 
+        understanding of enterprise data, protection that stays with data through workflows, and action before data leaves 
+        the organization's control.
+      bios:
+        - name: Silas Glines
+          bio: >
+            Silas Glines is the Director of Solutions Engineering at Cyberhaven and a founding member of the company’s 
+            go-to-market team. Based in Boston, he brings over a decade of experience in cybersecurity, with a focus on data 
+            protection, and previously hosted the Data Security Innovators podcast.
+      url: '/2026/day1/sponsor-1#sponsor1-s3'
     - title: "Alleviating the AI Anxiety: Concrete Use Cases for Secure AI Architecture"
       presenter: Chris Aiwanse - ePlus and TBD, Cisco
       sponsor: ePlus and Cisco
+      url: '/2026/day1/sponsor-1#sponsor1-s4'
   sponsor2:
     - title: "Zero Standing Privilege for Machines: A Runtime Framework for Agentic AI"
       presenter: Brian McHenry
       sponsor: Delinea
+      url: '/2026/day1/sponsor-2#sponsor2-s1'
     - title:
       presenter:
       sponsor: Island
-    - title:
-      presenter:
+    - title: "Generative AI The Magical Mystery Tour"
+      presenter: Bob West
       sponsor: Cyera
+      abstract: >
+        Most organizations have adopted generative AI to support their workforce and address business issues. This encompasses 
+        models such as ChatGPT, Gemini and Claude. Another set of tools is Agentic AI. In both cases, the tools are being 
+        implemented and most organizations don’t have the proper controls implemented. This can lead to the loss of intellectual 
+        property, customer information and very sensitive information. This presentation will cover the issues associated with 
+        generative AI, the risks and how to address them.
+      bios:
+        - name: Bob West
+          bio: >
+            Bob West is a seasoned senior executive with more than three decades of leadership experience across consulting, 
+            enterprise and startup environments. At Cyera, Bob is a Data & AI Security Officer, playing a pivotal role in 
+            helping define and execute strategies that scale our impact and deepen our market footprint — aligning growth, 
+            innovation and trust at the heart of our mission.Renowned for building high-performance organizations and forging 
+            strategic relationships, he brings a unique mix of operational acumen and visionary leadership. Bob has been 
+            honored with the HITEC 100 Award in both 2022, 2024 and 2025, recognizing his influence as a Hispanic leader in 
+            the technology industry.
+      url: '/2026/day1/sponsor-2#sponsor2-s3'
     - title: "Driving AI Security in the Modern Networking Era"
       presenter: Al Pardhan
       sponsor: Cato Networks
+      url: '/2026/day1/sponsor-2#sponsor2-s4'
   

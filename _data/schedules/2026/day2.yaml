@@ -424,28 +424,66 @@ sessions:
       length: 2
     - skip: true
   sponsor1:
-    - title:
-      presenter:
+    - title: "AI beyond the hype: Strategies for real operational impact"
+      presenter: Edgar Ortiz
       sponsor: Tines
+      abstract: >
+        Organizations are investing heavily in AI, yet many security teams struggle to move beyond pilots and into real 
+        operational impact. What separates those who scale from those who stall? In this session, we will share AI adoption 
+        strategies, common pitfalls to avoid, and how to make AI a force multiplier within your automation strategy.
+      bios:
+        - name: Edgar Ortiz
+          bio: >
+            Edgar Ortiz currently serves as a Principal Solutions Engineer at Tines, where he works with enterprises to 
+            transform how teams leverage automation, orchestration, and AI. Prior to Tines, Edgar held technical and 
+            leadership roles at Noname Security/Akamai, MuleSoft/Salesforce, and Cisco. As the first Sales Engineer at Noname 
+            Security, he helped build and scale the company's presales organization from its earliest stages through its 
+            acquisition by Akamai Technologies.
+
+            A software engineer by training, Edgar brings a practitioner's perspective to emerging technology, combining 
+            hands-on technical depth with years of experience advising enterprise architects, security leaders, and 
+            executives. He is particularly interested in the convergence of APIs, cybersecurity, automation, and AI, and how 
+            these technologies are reshaping the way organizations build, secure, and operate modern systems.
+      url: "/2026/day2/sponsor-1#sponsor1-s1"
     - title:
       presenter:
       sponsor: HPE
     - title: "How the Demand for Agentic AI is Breaking Traditional Cybersecurity Oversight Presenter"
       presenter: Jonathan Borgesen
       sponsor: EchoStor
+      url: '/2026/day2/sponsor-1#sponsor1-s3'
     - title:
       presenter:
       sponsor: Axonius, Inc.
   sponsor2:
-    - title:
-      presenter:
+    - title: "Examining Real-World Use Cases of the Emerging Threats in the AI Layer of IT Along with Mitigating Techniques"
+      presenter: Dan Brady
       sponsor: Trend AI
+      abstract: >
+        The rapid adoption of generative AI has introduced a new layer of complexity to the cybersecurity landscape. With AI 
+        tools now widely accessible across organizations, employees and attackers alike are finding new ways to leverage these 
+        technologies—creating vulnerabilities and attack vectors that defenders must understand.
+
+        In this session, we’ll examine real-world use cases of emerging threats within the AI layer of IT, including how 
+        generative AI is changing the vulnerability ecosystem and creating new challenges for security teams. We’ll explore 
+        what these evolving risks look like in practice, how they can impact organizations, and the practical techniques 
+        defenders can use to identify, manage, and mitigate them.
+
+        Attendees will walk away with a better understanding of the emerging AI threat landscape and actionable approaches 
+        for adapting their vulnerability management and security strategies for an AI-driven environment.
+      bios:
+        - name: Dan Brady
+          bio: >
+            Dan Brady is a Senior Solutions Engineer with 8 years of experience helping organizations assess, strengthen, and improve their cybersecurity posture. He works closely with security teams to understand evolving threats, identify areas of risk, and develop practical strategies for improving their security resilience. His experience spans emerging technologies and the evolving challenges organizations face as the threat landscape continues to change.
+      url: '/2026/day2/sponsor-2#sponsor2-s1'
     - title: "Data Security is AI Security"
       presenter: Justin Wilkins
       sponsor: Varonis
+      url: "/2026/day2/sponsor-2#sponsor2-s2"
     - title: "The Fatal Flaw in AI-First Security Agents"
-      presenter:
-      sponsor:
+      presenter: Tim MalcomVetter
+      sponsor: DTG
+      url: "/2026/day2/sponsor-2#sponsor2-s3"
     - title:
       presenter:
       sponsor: TBA
