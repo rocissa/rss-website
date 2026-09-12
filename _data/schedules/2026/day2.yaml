@@ -254,30 +254,22 @@ sessions:
             ePlus where he now serves as a Client Security Principal for all of ePlus's clients in Upstate New York. This 
             role allows Chris to provide security guidance and thought leadership across a wide variety of industries.
       url: /2026/day2/track-3#track3-s2
-    - title: "Values-Driven Cybersecurity: Nerdy Fanatic to Empathic Pragmatist"
-      presenter: Reg Harnish
+    - title: "Your AI Made Me Do It: Logging, Attribution, and the Enterprise Audit Gap"
+      presenter: Greg Stachura
       abstract: >
-        Cybersecurity has a branding problem. A soul-less parade of doom-and-gloom stats, impenetrable jargon, and 
-        perfectionist ideals that overwhelm small businesses. The kicker: your customers don't want a fanatic with a 
-        megaphone. They want a partner who gets them.
-
-        Reg Harnish, CEO of OrbitalFire Cybersecurity, founder of GreyCastle Cybersecurity, and co-founder of Autotask, 
-        shares how to evolve from over-caffeinated tech enthusiast to values-driven champion. Align security with 
-        customer values (and your own) for stronger partnerships, better outcomes, and a reputation that says "we 
-        do unto others."
-
-        Embrace empathic pragmatism. Spoiler alert: being relatable (and knowing when to call for backup) is your 
-        ultimate security tool.
+        As enterprises rush AI agents into critical workflows, they are creating a new class of compliance, litigation, and 
+        insider-risk exposure: decisions made by systems that leave little durable evidence of why they acted, what data 
+        informed them, or whether a human actually directed the outcome. This talk examines the emerging AI audit gap, from 
+        autonomous agents to cowork-style tools operating on user desktops, and shows how weak logging and poor attribution 
+        can turn routine incidents into legal, HR, and regulatory headaches. We will outline pragmatic controls, especially 
+        logging, telemetry retention, and EDR-based attribution, to make AI-driven actions defensible
       bios:
-        - name: Reg Harnish
+        - name: Greg Stachura
           bio: >
-            Reg Harnish is best known as the founder and former CEO of GreyCastle Security, one of the cybersecurity 
-            industry's early juggernauts. He’s now the CEO of OrbitalFire Cybersecurity, a cybersecurity provider focused 
-            exclusively on smaller organizations. His nationally recognized companies have appeared on the TODAY Show, CBS 
-            Nightly News, Time Magazine, the Wall Street Journal and countless other media outlets. He has testified in 
-            front of Congress, is a fellow at the National Cybersecurity Institute, and a member of the Forbes Technology 
-            Council. Reg is an investor, advisor and Board member and most importantly, a husband and father to an 
-            incredible family.
+            Greg focuses on AI Engineering to support Incident Response and the Cyber Security Operations Center. He has 
+            experience managing SIEM, as well as orchestration and automations platforms. He also has extensive background 
+            in Incident Response playbook development, forensics and log analysis. Prior to joining Security Risk Advisors, 
+            Greg has worked extensively in the financial, healthcare and education sectors.
       url: /2026/day2/track-3#track3-s3
     - title: "Biometric Assured Identity"
       presenter: Kevin Surace
