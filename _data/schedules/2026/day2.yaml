@@ -86,14 +86,43 @@ sessions:
             services. He also advocates for simplifying programs and building partnerships that enable secure, scalable 
             outcomes for all stakeholders.
       url: /2026/day2/track-1#track1-s1
-    - title: TBA
-      presenter: Meghan Cook
+    - title: "Title: AI and Cybersecurity: Dual Use, Widening Gaps in Capabilities, and Protecting NYS"
+      presenter: Meghan E. Cook
       abstract: >
-        TBA
+        Artificial Intelligence (AI) is making cyber crime cheaper, faster, and scalable but, on the other hand, it can also 
+        be a force multiplier in scanning codes for vulnerabilities, validate findings, and generating proposed fixes. The 
+        use depends on what side you are on but it also widening the gap between well-and under-resourced government entities. 
+        This presentation will touch on what we know about AI dual use and how NYS has been actively strengthening its statewide 
+        cyber defenses of government entities and critical infrastructure through new regulations, grants, and strategic 
+        infrastructure investments.
       bios:
-        - name: Meghan Cook
+        - name: Meghan E. Cook
           bio: >
-            TBA
+            Meghan Cook is Chief Cyber Officer for the State of New York. She leads cross agency efforts to protect NYS from 
+            cyber threats. In this role she oversees cyber threat assessment, mitigation, and response across NYS agencies, 
+            coordinates with NYC, local governments, critical infrastructure to share threat intelligence, works across industry 
+            and government to build meaningful partnerships, and works collaboratively across sectors to strengthen cyber 
+            defenses and generate public value for NYS.
+
+            Previously Meghan was the Director of the Cyber Incident Response Team (CIRT) and Assistant Director of the 
+            Office of Counter Terrorism (OCT) at the NYS Division of Homeland Security and Emergency Services (NYS DHSES). 
+            There, Meghan led a team to provide NYS local governments, non-executive state agencies and schools cyber 
+            services and incident response. As OCT Assistant Director, she led statewide initiatives to address multi agency 
+            and intergovernmental cyber challenges.
+
+            For 25 years, Meghan was the Program Director for the Center for Technology in Government (CTG), a globally 
+            renowned research institute at University at Albany/SUNY as well as Adjunct Professor at Nelson A. Rockefeller 
+            College, and Advisor to the NYS Local Government Information Technology Directors Association (NYSLGITDA).
+
+            She has published numerous research and practice articles, book chapters, and reports on digital transformation 
+            and cybersecurity in local government, including the Cybersecurity Primer for Local Government Leaders and 
+            Artificial Intelligence (AI) and Public Managers: Key Questions and Recommended Actions.
+
+            She is a highly sought speaker and facilitator, having delivered over 400 thought-leadership and strategy 
+            development sessions for government leaders all over the world. Meghan has won several awards including 
+            Excelsior College’s Alumni Achievement Award, University at Albany Engagement Award, SUNY Adirondack’s 
+            Trailblazer Award, and the SUNY Excellence and Chancellor Awards. She has a BA from Excelsior University and an 
+            MPA and MS from the University at Albany/SUNY
       url: /2026/day2/track-1#track1-s2
     - title: "The Good News: One Prompt Took My AI Security Scores to 70%. The Bad News: The Other 30%.  I Need a Minute"
       presenter: Scott Bly
