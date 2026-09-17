@@ -460,9 +460,28 @@ sessions:
       length: 2
     - skip: true
   sponsor1:
-    - title:
-      presenter:
+    - title: "Building Red Teaming into AI Operations: Development, Validation, and Beyond"
+      presenter: Mark Ostrowski
       sponsor: Atlantic Data
+      abstract: >
+        Organizations treating red teaming as a one-time gate before launch are missing the real value. This session will discuss
+        how ADS Harbour Services reframes red teaming as a continuous lifecycle practice that supports responsible AI at three 
+        critical points: (1) Development — integrate adversarial testing into your build cycle to surface risks early as prompts, 
+        guardrails, and model configurations change; (2) Validation — execute comprehensive red team campaigns against live 
+        applications and agents before production release; (3) Ongoing Operations — schedule recurring red team assessments 
+        following updates and capability changes to catch regression and drift. Learn why this three-phase approach uncovers 
+        the four essential risk categories—application-specific vulnerabilities, safety and compliance gaps, security weaknesses, 
+        and regression risks—and how to build red teaming into your governance model rather than treating it as testing overhead.
+      bios:
+        - name: Mark Ostrowski
+          bio: >
+            Mark Ostrowski has provided thought leadership for the IT security industry for over 25 years, outlining the threat 
+            landscape and helping organizations understand how they can proactively mitigate and manage risk in our world of digital
+            transformation and artificial intelligence. Mark is an active cybersecurity educator and media contributor, frequently
+            helping translate complex security issues into practical guidance for organizations and households alike. Today Mark 
+            is the CTO at Atlantic Data Security where he is helping clients usher in the latest era of cybersecurity where AI has
+            become a force multiplier in threat prevention and business operations.
+      url: /2026/day1/sponsor-1#sponsor1-s1
     - title: "AI and DLP: How Fortinet's Data Loss Prevention Solutions Can Secure Your Private Data from AI Leakage"
       presenter: Mark Rosenecker
       sponsor: Fortinet
