@@ -44,6 +44,8 @@ layout: page
 >
 </div>
 <hr>
+{%- include 'privacy-announcement.md' -%}
+<hr>
 
 #### If you are considering volunteering for any of our committees, see our [Volunteering Page]({{ site.baseurl }}/volunteering) for details or email us at <{{ site.rocissa_volunteer_email }}>
 <hr>

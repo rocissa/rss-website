@@ -188,6 +188,8 @@ layout: page
 	{%- endif -%}
 </section>
 <hr>
+{%- include 'privacy-announcement.md' -%}
+<hr>
 <section id="about" class="block-text">
 <h2>About This Summit</h2>
 <p>Since 2006, the Rochester Security Summit has been a leading regional event that brings together a broad range of experts and professionals from the field of information security. Held annually during National Cyber Security Awareness Month, it serves as a community focal point for education and awareness; fostering discussion, knowledge sharing, and networking to help drive innovation and address the evolving challenges in the security landscape. From emerging trends to practical insights, our goal is to empower attendees with the latest information and strategies to enhance their cybersecurity practices</p>

@@ -527,8 +527,8 @@ sessions:
             protection, and previously hosted the Data Security Innovators podcast.
       url: '/2026/day1/sponsor-1#sponsor1-s3'
     - title: "Alleviating the AI Anxiety: Concrete Use Cases for Secure AI Architecture"
-      presenter: Chris Aiwanse - ePlus and TBD, Cisco
-      sponsor: ePlus and Cisco
+      presenter: Chris Aiwanse - ePlus
+      sponsor: ePlus
       url: '/2026/day1/sponsor-1#sponsor1-s4'
   sponsor2:
     - title: "Zero Standing Privilege for Machines: A Runtime Framework for Agentic AI"
