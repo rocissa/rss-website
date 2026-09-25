@@ -380,6 +380,7 @@ section#slider {
 
 .announcement h2 {
 	text-transform: uppercase;
+	font-variant: no-common-ligatures;
 	font-weight: bold;
 	font-size: 2em;
 	text-align: center;
@@ -389,7 +390,7 @@ section#slider {
 .announcement h3 {
 	font-weight: bold;
 	font-size: 1.3em;
-	font-variant: small-caps;
+	text-transform: none;
 	text-align: left;
 	margin: 1rem 4rem;
 }

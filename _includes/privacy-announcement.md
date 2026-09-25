@@ -1,7 +1,7 @@
 <div class="col-sm-12">
 <section id="announcement" class="announcement">
 <div>
-<h2>Meta® brand and all other Smart Glasses are PROHIBITED at this conference</h2>
+<h2>Meta<sup>&reg;</sup> brand and all other Smart Glasses are PROHIBITED</h2>
 <br>
 <h3>If you have any such device in your possession, please do yourself a favor: return to your car or hotel room, and leave those devices there.  Anyone observed wearing or operating such devices on the floor of the conference will be asked to deactivate them and remove them from the conference immediately.  Failure to comply may result in revocation of conference credential (badge) and ejection from the conference.</h3>
 <br>
