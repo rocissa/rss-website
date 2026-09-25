@@ -534,6 +534,25 @@ sessions:
     - title: "Zero Standing Privilege for Machines: A Runtime Framework for Agentic AI"
       presenter: Brian McHenry
       sponsor: Delinea
+      abstract: >
+        We built identity for humans at a keyboard and for predictable service accounts. Agentic AI breaks both. This session lays
+        out a framework for governing agent identity at runtime: why routing is not authorization, why agents need authority grants 
+        instead of identity passports, and what a runtime authorization gateway must do to deliver zero standing privilege for 
+        machines. Practical guidance drawn from patterns already in production. Let's get to work.
+      bios:
+        - name: Brian McHenry
+          bio: >
+            Brian McHenry is Vice President of Sales Engineering at Delinea, where he leads teams helping organizations address some 
+            of today’s most complex identity security challenges. A seasoned cybersecurity executive and technologist, Brian brings 
+            deep expertise across identity security, privileged access, application security, and enterprise infrastructure.
+
+            Throughout his career, Brian has held leadership and technical roles across global technology companies, financial 
+            services organizations, and startups, giving him a unique perspective on the intersection of security, technology, and 
+            business risk. Prior to Delinea, he spent more than a decade at F5 Networks advising customers on application and 
+            network security.
+
+            A recognized voice in the cybersecurity community, Brian is a co-founder of BSidesNYC and has spoken at leading industry 
+            events including AppSecUSA, GoSec Montreal, BC Aware Day, and the Central Ohio Infosec Summit.
       url: '/2026/day1/sponsor-2#sponsor2-s1'
     - title:
       presenter:

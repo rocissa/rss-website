@@ -469,12 +469,31 @@ sessions:
     - title:
       presenter:
       sponsor: HPE
-    - title: "How the Demand for Agentic AI is Breaking Traditional Cybersecurity Oversight Presenter"
+    - title: "How the Demand for Agentic AI is Breaking Traditional Cybersecurity Oversight"
       presenter: Jonathan Borgesen
       sponsor: EchoStor
+      abstract: >
+        Agentic AI is transforming how organizations automate work and interact with business systems. Unlike traditional AI that 
+        responds to prompts, AI agents can independently plan, act, access data, and execute tasks across multiple environments. As 
+        adoption accelerates, governance and security controls are struggling to keep pace.
+
+        This session explores how autonomous AI agents challenge traditional cybersecurity models built around human users and 
+        static identities. Attendees will examine risks such as agent sprawl, excessive permissions, data exposure, autonomous 
+        decision-making, and third-party agent integrations, while learning practical strategies to maintain visibility, 
+        accountability, and control in an increasingly autonomous enterprise.
+      bios:
+        - name: Jonathan Borgesen
+          bio: >
+            As Technical Director of Security at EchoStor Technologies, Jonathan leads the organization’s comprehensive security practice. 
+            He focuses on building strong security programs that align with modern trends, ensuring customers meet both their security and 
+            business objectives.
+
+            With over 15 years of experience in the cybersecurity industry, Jonathan has built and led security practices for multiple 
+            organizations. His approach emphasizes business impact, cross-architecture solutions, and strategic alignment rather than 
+            simply focusing on technology. This perspective has earned him a reputation as a trusted advisor and thought leader among 
+            clients and peers
       url: '/2026/day2/sponsor-1#sponsor1-s3'
     - title:
-      presenter:
       sponsor: Axonius, Inc.
   sponsor2:
     - title: "Examining Real-World Use Cases of the Emerging Threats in the AI Layer of IT Along with Mitigating Techniques"
@@ -500,10 +519,45 @@ sessions:
     - title: "Data Security is AI Security"
       presenter: Justin Wilkins
       sponsor: Varonis
+      abstract: >
+        Discusses the evolving landscape of cybersecurity and the risks AI poses to data security. The presentation advocates for 
+        using AI to protect sensitive data and manage access effectively, underscoring the urgent need for organizations to adapt to 
+        these new threats.
+      bios:
+        - name: Justin Wilkins
+          bio: >
+            Justin Wilkins is the VP of Systems Engineering at Varonis, where he leads a global team of cloud and security experts. 
+            His teams help organizations drive data security.
       url: "/2026/day2/sponsor-2#sponsor2-s2"
     - title: "The Fatal Flaw in AI-First Security Agents"
       presenter: Tim MalcomVetter
       sponsor: DTG
+      abstract: >
+        There is a major flaw in current security strategies: an over-reliance on artificial intelligence (AI) to stop live, 
+        high-speed cyber intrusions. As modern threat timelines accelerate—with the fastest breaches moving from initial access to 
+        lateral movement in just 27 seconds—AI-first approaches create dangerous bottlenecks.
+
+        The session will identify three primary pitfalls of using AI for real-time containment:
+
+        - The AI Latency Tax: Processing telemetry and calculating confidence scores introduces a 15–45 second delay, which is too 
+        slow to stop modern threats.
+        - The Token and Verification Tax: Feeding millions of events into LLMs is prohibitively expensive, and the probabilistic 
+        nature of AI forces human analysts to manually verify decisions, eroding any speed advantage.
+        - The Hesitation Loop: Because AI operates on confidence scores, systems often pause to wait for human approval to avoid 
+        potential hallucinations.
+
+        95% of organizations take over five minutes to contain high-priority threats. This "speed limit" coupled with variable 
+        investigation costs, creates exploitable gaps for threat actors.
+      bios:
+        - name: Tim MalcomVetter, GM Coalition Security
+          bio: >
+            Prior to co-founding Wirespeed, Tim was Executive Vice President of Strategy at NetSPI, the world's largest proactive 
+            security testing firm, and former CTO at Fishtech Group / Cyderes, a large Managed Detection and Response (MDR) firm. 
+            Tim is also known for creating and leading the Red Team at the world's largest company, Walmart, prolifically speaking 
+            and writing about adversary simulation, training SOCs, complex multi-stage malware, novel offensive techniques, and 
+            building high-performance teams. Following the acquisition of Wirespeed by Coalition, the nation's largest cyber insurer, 
+            Tim has taken on the General Manager position for all of Coalition's security division, which includes security product, 
+            GTM, and incident response.
       url: "/2026/day2/sponsor-2#sponsor2-s3"
     - title:
       presenter:
