@@ -505,7 +505,7 @@ sessions:
             industry and identify effective strategies for safeguarding his customers.
       url: /2026/day1/sponsor-1#sponsor1-s2
     - title: "Security Strategy for the Agentic Enterprise"
-      presenter: Silas Glines
+      presenter: John Loya
       sponsor: Cyberhaven
       abstract: >
         Every company is becoming an agentic enterprise, where humans and autonomous AI agents work side by side. The 
@@ -520,11 +520,13 @@ sessions:
         understanding of enterprise data, protection that stays with data through workflows, and action before data leaves 
         the organization's control.
       bios:
-        - name: Silas Glines
+        - name: John Loya
           bio: >
-            Silas Glines is the Director of Solutions Engineering at Cyberhaven and a founding member of the company’s 
-            go-to-market team. Based in Boston, he brings over a decade of experience in cybersecurity, with a focus on data 
-            protection, and previously hosted the Data Security Innovators podcast.
+            John Loya is the Field CTO at Cyberhaven, where he helps customers and prospects worldwide address data protection
+            needs across compliance, governance, privacy, classification, and agentic wofklows. He previously held roles at 
+            Microsoft, McAfee, and Digital Guardian, and began his career as a developer, quality assurance engineer, and 
+            automation engineer. With over 20 years of experience in the security industry, John brings deep expertise in 
+            Data Loss Prevention and Insider Risk Management.
       url: '/2026/day1/sponsor-1#sponsor1-s3'
     - title: "Alleviating the AI Anxiety: Concrete Use Cases for Secure AI Architecture"
       presenter: Chris Aiwanse - ePlus
