@@ -466,9 +466,19 @@ sessions:
             executives. He is particularly interested in the convergence of APIs, cybersecurity, automation, and AI, and how 
             these technologies are reshaping the way organizations build, secure, and operate modern systems.
       url: "/2026/day2/sponsor-1#sponsor1-s1"
-    - title:
-      presenter:
+    - title: "Skills and MCP that can 10x your Team"
+      presenter: Mark Harman
       sponsor: HPE
+      abstract: >
+        Learn about skills and MCP server capabilities for LLMs that can accelerate you and your team in cybersecurity.
+      bios:
+        - name: Mark Harman
+          bio: >
+            Mark Harman is a cybersecurity and networking professional specializing in enterprise firewall architecture, Juniper SRX,
+            network automation, and AI-assisted security operations. He combines deep expertise in routing, VPNs, zero trust, IDS/IPS,
+            and managed security services with hands-on software development in Rust, Linux, virtualization, and local AI systems. 
+            Mark develops security tools focused on simplifying firewall management, configuration analysis, and operational resilience.
+      url: '/2026/day2/sponsor-1#sponsor1-s2'
     - title: "How the Demand for Agentic AI is Breaking Traditional Cybersecurity Oversight"
       presenter: Jonathan Borgesen
       sponsor: EchoStor
@@ -491,10 +501,33 @@ sessions:
             With over 15 years of experience in the cybersecurity industry, Jonathan has built and led security practices for multiple 
             organizations. His approach emphasizes business impact, cross-architecture solutions, and strategic alignment rather than 
             simply focusing on technology. This perspective has earned him a reputation as a trusted advisor and thought leader among 
-            clients and peers
+            clients and peers.
       url: '/2026/day2/sponsor-1#sponsor1-s3'
-    - title:
+    - title: "Asset Intelligence: The Foundation for AI in Security"
+      presenter: Jordan Farkas
       sponsor: Axonius, Inc.
+      abstract: >
+        AI is compressing the timeline of cyber risk. Attackers, agents, and automated workflows now operate at machine speed, yet many 
+        security programs still rely on periodic inventories, one-time control checks, and monthly patch cycles. This session argues that 
+        asset intelligence must come first: AI can only act with confidence when it has complete, trustworthy context. We'll examine why 
+        context remains siloed across security, IT, cloud, identity, and HR systems, and why no single system of record exists. We'll also
+        look at how that fragmentation undermines AI accuracy and trust. We'll then show how unifying more than 40 asset types across over
+        1,400 integrations creates a continuous, authoritative source of truth spanning devices, identities, software, SaaS, and 
+        cyber-physical assets.
+        
+        Attendees will see how this foundation supports both sides of the AI challenge: securing AI itself by discovering AI assets, and
+        using AI to accelerate security work through natural-language investigation, attack path analysis, recommended remediations, and
+        automated workflows.
+        
+        Attendees will leave with a practical framework for moving from periodic asset management to always-on asset intelligence, and for
+        putting complete context behind AI-driven security operations.\
+      bios:
+        - name: Jordan Farkas
+          bio: >
+            Jordan Farkas is a Principal Sales Engineer for Strategic Accounts at Axonius. Jordan has a exposure management 
+            background and is in his 6th year at Axonius, where he leads the Field Technical Advisory Group for AI & Platform. He is based
+            out of New York City, eats too much sushi, and is a fan of the world champion Knicks, and unfortunately the NY Mets and NY Giants.
+      url: '/2026/day2/sponsor-1#sponsor1-s4'
   sponsor2:
     - title: "Examining Real-World Use Cases of the Emerging Threats in the AI Layer of IT Along with Mitigating Techniques"
       presenter: Dan Brady
