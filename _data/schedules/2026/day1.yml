@@ -195,17 +195,23 @@ sessions:
       bios:
         - name: Rich Ingersoll
           bio: >
-          
+            Rich Ingersoll is the Director of Vulnerability Management at Rochester Regional Health and an Adjunct Professor 
+            in the Cybersecurity Department at SUNY Canton, where he brings real-world expertise into the classroom. With a
+            20-year career at Cisco Systems spanning leadership and technical roles, and subsequent director-level positions 
+            in both systems engineering and information security, he has built a reputation as a trusted voice in IT 
+            infrastructure and cybersecurity. He holds two master's degrees — one in Cybersecurity and one in IT Management — 
+            along with a range of industry certifications. 
       url: /2026/day1/track-2#track2-s2
     - title: "Cybersecurity Outlook 2026... We’re All in Trouble!"
       presenter: Steve Stasiukonis
       abstract: >
-        Rich Ingersoll is the Director of Vulnerability Management at Rochester Regional Health and an Adjunct Professor 
-        in the Cybersecurity Department at SUNY Canton, where he brings real-world expertise into the classroom. With a 
-        20-year career at Cisco Systems spanning leadership and technical roles, and subsequent director-level positions 
-        in both systems engineering and information security, he has built a reputation as a trusted voice in IT 
-        infrastructure and cybersecurity. He holds two master's degrees — one in Cybersecurity and one in IT Management — 
-        along with a range of industry certifications. 
+        Steve's talk focuses on how threat actors are evolving into highly organized operations that blur the line between 
+        cybercrime and business. This presentation dives into some of the most unusual, unorthodox, and unbelievable tactics 
+        observed in real-world ransomware campaigns. Today’s ransomware groups are no longer operating as isolated hackers 
+        they are functioning like scalable, profit-driven organizations, complete with structure, strategy, and growth models. 
+        The session will also explore how ransomware groups are adopting strategies that mirror legitimate businesses complete 
+        with branding, customer service models, operations & marketing. Steve will share REAL incidents so unusual and concerning
+        that they challenge conventional thinking.
       bios:
         - name: Steve Stasiukonis
           bio: >
@@ -529,8 +535,22 @@ sessions:
             Data Loss Prevention and Insider Risk Management.
       url: '/2026/day1/sponsor-1#sponsor1-s3'
     - title: "Alleviating the AI Anxiety: Concrete Use Cases for Secure AI Architecture"
-      presenter: Chris Aiwanse - ePlus
+      presenter: Sean Wilson and Clarke Caporale
       sponsor: ePlus
+      abstract: >
+        As businesses embrace AI, protecting data and easing organizational security concerns is a top priority. This session goes
+        past the hype to show real-world use cases using Cisco Cloud Control and the AI Canvas workspace. Discover how these tools
+        bring together scattered security systems into a single, easy-to-manage blueprint for stopping threats. By streamlining 
+        your workflows, you can confidently adopt AI while keeping your systems safe. As a Cisco Security Preferred partner, ePlus
+        provides the expert advisory, setup, and managed services needed to make this security model a reality. All attendees will
+        be entered into a raffle to win a Jaguar E-Type Lego Set.
+      bios:
+        - name: Sean Wilson
+          bio: >
+            Sean Wilson is the UNY Regional Director for ePlus Technology, Inc.
+        - name: Clarke Caporale
+          bio: >
+            Clarke Caporale is a Cybersecurity Solutions Architect at Cisco.
       url: '/2026/day1/sponsor-1#sponsor1-s4'
   sponsor2:
     - title: "Zero Standing Privilege for Machines: A Runtime Framework for Agentic AI"
@@ -556,9 +576,20 @@ sessions:
             A recognized voice in the cybersecurity community, Brian is a co-founder of BSidesNYC and has spoken at leading industry 
             events including AppSecUSA, GoSec Montreal, BC Aware Day, and the Central Ohio Infosec Summit.
       url: '/2026/day1/sponsor-2#sponsor2-s1'
-    - title:
-      presenter:
+    - title: "Five Lessons I've Learned (So Far) while Enabling Enterprise AI Capabilities"
+      presenter: Kevin Reardon
       sponsor: Island
+      abstract: >
+        We will walk through and review five lessons learned (so far) while deploying and managing Agentic AI capabilities within 
+        Organizations, as well as within his own company. Island. Focus will be on how AI is being understood in terms of scope and
+        impact within an organization, how users are being enabled and trained and how vibe coding and internal applications are 
+        replacing near enterprise grade solutions.
+      bios:
+        - name: Kevin Reardon
+          bio: >
+            Kevin Reardon is the head of Customer Success and Advisory Services at Island.io, formerly COO of ZeroFox and by his own
+            admission, a recovering CISO.
+      url: '/2026/day1/sponsor-2#sponsor2-s2'
     - title: "Generative AI The Magical Mystery Tour"
       presenter: Bob West
       sponsor: Cyera
