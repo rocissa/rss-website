@@ -1,6 +1,7 @@
 ---
 keynotes:
   - presenter: James Brodsky
+    title: 
     url: /2026/james-brodsky/
   - presenter: <a href="/2026/thomas-barillari">Thomas Barillari</a> & <a href="/2026/edward-sakocius">Edward Sakocius</a>
 tracks:
@@ -86,7 +87,7 @@ sessions:
             services. He also advocates for simplifying programs and building partnerships that enable secure, scalable 
             outcomes for all stakeholders.
       url: /2026/day2/track-1#track1-s1
-    - title: "Title: AI and Cybersecurity: Dual Use, Widening Gaps in Capabilities, and Protecting NYS"
+    - title: "AI and Cybersecurity: Dual Use, Widening Gaps in Capabilities, and Protecting NYS"
       presenter: Meghan E. Cook
       abstract: >
         Artificial Intelligence (AI) is making cyber crime cheaper, faster, and scalable but, on the other hand, it can also 
@@ -172,7 +173,7 @@ sessions:
             policy. Adept at building and leading teams to protect organizational assets in dynamic threat landscapes.
       url: /2026/day2/track-1#track1-s4
   track2:
-    - title: "Extending Shared Threat Models with the Application Attack Matrix"
+    - title: "The Application Attack Matrix - Extending Shared Threat Models"
       presenter: J. Fridley
       abstract: >
         Shared threat frameworks have transformed how defenders describe adversary behavior and coordinate response. As 

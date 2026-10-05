@@ -1,8 +1,10 @@
 ---
 keynotes:
   - presenter: Colin Ahern
+    title: Fireside Chat with David Frier (RSS Chairperson)
     url: /2026/colin-ahern/
   - presenter: Brian Krebs
+    title: Fireside Chat with David Frier (RSS Chairperson)
     url: /2026/brian-krebs/
 tracks:
   - id: track1
@@ -202,27 +204,7 @@ sessions:
             infrastructure and cybersecurity. He holds two master's degrees — one in Cybersecurity and one in IT Management — 
             along with a range of industry certifications. 
       url: /2026/day1/track-2#track2-s2
-    - title: "Cybersecurity Outlook 2026... We’re All in Trouble!"
-      presenter: Steve Stasiukonis
-      abstract: >
-        Steve's talk focuses on how threat actors are evolving into highly organized operations that blur the line between 
-        cybercrime and business. This presentation dives into some of the most unusual, unorthodox, and unbelievable tactics 
-        observed in real-world ransomware campaigns. Today’s ransomware groups are no longer operating as isolated hackers 
-        they are functioning like scalable, profit-driven organizations, complete with structure, strategy, and growth models. 
-        The session will also explore how ransomware groups are adopting strategies that mirror legitimate businesses complete 
-        with branding, customer service models, operations & marketing. Steve will share REAL incidents so unusual and concerning
-        that they challenge conventional thinking.
-      bios:
-        - name: Steve Stasiukonis
-          bio: >
-            Steve Stasiukonis is the President of Secure Network Technologies, where he leads penetration testing, 
-            information-security risk assessments, IR, and digital investigations. With more than 29 years of 
-            experience in the information-security field, Steve has built a distinguished career helping organizations 
-            identify critical vulnerabilities, quantify cyber risk, and respond decisively to complex security incidents. 
-            Widely recognized for his deep expertise in social engineering, Steve specializes in demonstrating how threat 
-            actors exploit human behavior alongside technology to compromise organizations. Steve is a respected thought 
-            leader in the cybersecurity community. He regularly contributes expert commentary as a columnist for 
-            InformationWeek and DarkReading.
+    - title: TBD
       url: /2026/day1/track-2#track2-s3
     - title: "Don't Go Alone: Take this Threat Intel!"
       presenter: Thomas Richards

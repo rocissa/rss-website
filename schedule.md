@@ -29,16 +29,8 @@ layout: page
   <div class="no-mobile">7:30 am</div>
   <div class="no-mobile">8:30 am</div>
   <div class="full-session">
-    <div class="title">Registration</div>
+    <div class="title">Registration & Breakfast</div>
     <div class="times">7:30 am - 8:30 am</div>
-  </div>
-  <div class="gap"></div>
-  
-  <div class="no-mobile">8:00 am</div>
-  <div class="no-mobile">8:30 am</div>
-  <div class="full-session">
-    <div class="title">Breakfast</div>
-    <div class="times">8:00 am - 8:30 am</div>
   </div>
   <div class="gap"></div>
   
@@ -188,16 +180,8 @@ layout: page
   <div class="no-mobile">7:30 am</div>
   <div class="no-mobile">8:30 am</div>
   <div class="full-session">
-    <div class="title">Registration</div>
+    <div class="title">Registration & Breakfast</div>
     <div class="times">7:30 am - 8:30 am</div>
-  </div>
-  <div class="gap"></div>
-  
-  <div class="no-mobile">8:00 am</div>
-  <div class="no-mobile">8:30 am</div>
-  <div class="full-session">
-    <div class="title">Breakfast</div>
-    <div class="times">8:00 am - 8:30 am</div>
   </div>
   <div class="gap"></div>
   
@@ -309,7 +293,7 @@ layout: page
   <div class="no-mobile">4:00 pm</div>
   <div class="full-session lilac">
     <div class="title">
-      Keynote<br>
+      Keynotes<br>
       <a href="{{ schedule.keynotes[0].url }}">{{ schedule.keynotes[1].presenter }}{% if schedule.keynotes[1].title %}: {{ schedule.keynotes[1].title }}{% endif %}</a>
     </div>
     <div class="times">3:00 pm - 4:00 pm</div>
