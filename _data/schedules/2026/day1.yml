@@ -1,10 +1,10 @@
 ---
 keynotes:
   - presenter: Colin Ahern
-    title: Fireside Chat with David Frier (RSS Chairperson)
+    title: Fireside Chat with <a href="/2026/david-frier">David Frier (RSS Chairperson)</a>
     url: /2026/colin-ahern/
   - presenter: Brian Krebs
-    title: Fireside Chat with David Frier (RSS Chairperson)
+    title: Fireside Chat with <a href="/2026/david-frier">David Frier (RSS Chairperson)</a>
     url: /2026/brian-krebs/
 tracks:
   - id: track1
@@ -204,7 +204,22 @@ sessions:
             infrastructure and cybersecurity. He holds two master's degrees — one in Cybersecurity and one in IT Management — 
             along with a range of industry certifications. 
       url: /2026/day1/track-2#track2-s2
-    - title: TBD
+    - title: "The Real Risk: Ransomware, Extortion, and the Dark Web"
+      presenter: Bruce Cheney
+      abstract: >
+        Cybercriminals aren’t just using ransomware—they’re running extortion campaigns, leaking data on the dark web, and 
+        adapting faster than ever. With losses exceeding $20 billion in 2025, the stakes are higher than ever for security teams.
+        In this technical session, Bruce Cheney, Sr. Engineer at Arctic Wolf, dives deep into how today’s most dangerous threat
+        actors operate. He’ll analyze real-world data leaks, dissect extortion tactics, and walk through the dark web ecosystems
+        where stolen data is traded. Expect real-world insights, examples of leaked data, and a no-jargon framework to guide 
+        strategic cybersecurity decisions. This talk is designed to sharpen your understanding of Risk and strengthen your response.
+      bios:
+        - name: Bruce Cheney
+          bio: >
+            Bruce Cheney is a cybersecurity expert and keynote speaker with over 25 years of experience in IT and threat intelligence.
+            He helps organizations identify and mitigate real-world cyber risks—including ransomware, extortion, and data leaks from
+            the dark web. Known for making complex threats easy to understand, Bruce regularly speaks at industry conferences, 
+            guiding teams and leaders in building stronger, more secure operations. 
       url: /2026/day1/track-2#track2-s3
     - title: "Don't Go Alone: Take this Threat Intel!"
       presenter: Thomas Richards
