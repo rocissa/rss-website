@@ -6,10 +6,12 @@
   <p>We are excited to announce our 20th Anniversary Keynote line up for the Rochester Security Summit.</p>
   <div class="row mx-auto">
 	{%- for keynote in currentKeynotes -%}
+	{%- if keynote.data.weight > 0 -%}
 	  <div class="col-md-4 text-center mb-5">
 		<div class="h3"><strong>{{ keynote.data.name }}</strong></div>
 		<div class="mt-3"><em>{{ keynote.data.professional_title }}</em></div>
       </div>
+	{%- endif -%}
 	{%- endfor -%}
   </div>
 </div>
