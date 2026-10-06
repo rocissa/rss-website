@@ -19,8 +19,13 @@ layout: page
 
 <div class="schedule schedule-2026" x-data
   @click.window.capture="
-    document.querySelector('.schedule-modal-content > div').id = $event.target.getAttribute('x-target');
-    document.querySelector('#schedule-modal').showModal();
+    if(target = $event.target.getAttribute('x-target')) {
+      let target = $event.target.getAttribute('x-target');
+      document.querySelector('.schedule-modal-content > div').id = target;
+      $ajax($event.target.href, {target: target})
+      document.querySelector('#schedule-modal').showModal();
+      $event.preventDefault();
+    }
   ">
   <div class="no-mobile title">Start</div>
   <div class="no-mobile title">End</div>

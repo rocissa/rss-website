@@ -880,6 +880,13 @@ ul.social > li {
 	margin-left: 2.25em;
 }
 
+.schedule .session > .sponsor {
+	font-weight: bold;
+	font-size: 1em;
+	padding-bottom: 5px;
+	padding-top: 0;
+}
+
 @media (min-width: 960px) {
   .schedule {
     display: grid;
@@ -1051,9 +1058,7 @@ dialog .session-abstract {
 }
 
 #schedule-modal header {
-  float: right;
-  margin: 0;
-  padding: 0;
+	text-align: right;
 }
 
 #schedule-modal header button {
@@ -1069,6 +1074,21 @@ dialog .session-abstract {
 		width: 75%;
 		padding: 15px;
 	}
+
+	#schedule-modal header {
+	  float: right;
+	  margin: 0;
+	  padding: 0;
+	  text-align: right;
+	}
+
+	#schedule-modal header button {
+	  background: white;
+	  font-size: 3rem;
+	  margin: 0;
+	  padding: 0;
+	  border: none;
+  }
 }
 
 

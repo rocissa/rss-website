@@ -34,7 +34,8 @@
 
 
 <script src="{{ site.baseurl }}/js/main.js"></script>
-
+<script src="//cdn.jsdelivr.net/npm/@imacrayon/alpine-ajax@0.12.7/dist/cdn.min.js" defer></script>
+<script src="//unpkg.com/alpinejs" defer></script>
 <!--
 /*
  * Airspace
