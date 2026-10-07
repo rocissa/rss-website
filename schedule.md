@@ -44,7 +44,7 @@ layout: page
   <div class="full-session lilac">
     <div class="title">
       Opening Remarks &amp; Keynote<br>
-      <div class="title"><a href="{{ schedule.keynotes[0].url }}">{{ schedule.keynotes[0].presenter }}{% if schedule.keynotes[0].title %}: {{ schedule.keynotes[0].title }}{% endif %}</a></div>
+      <div class="title"><a href="{{ schedule.keynotes[0].url }}">{{ schedule.keynotes[0].presenter }}</a>{% if schedule.keynotes[0].title %}: {{ schedule.keynotes[0].title }}{% endif %}</div>
     </div>
     <div class="times">8:30 am - 9:40 am</div>
     <div class="room">Grand Lilac Ballroom</div>
@@ -148,7 +148,7 @@ layout: page
   <div class="full-session lilac">
     <div class="title">
       Keynote<br>
-      <a href="{{ schedule.keynotes[1].url }}">{{ schedule.keynotes[1].presenter }}{% if schedule.keynotes[1].title %}: {{ schedule.keynotes[1].title }}{% endif %}</a></div>
+      <a href="{{ schedule.keynotes[1].url }}">{{ schedule.keynotes[1].presenter }}</a>{% if schedule.keynotes[1].title %}: {{ schedule.keynotes[1].title }}{% endif %}</div>
     <div class="times">3:45 pm - 4:45 pm</div>
     <div class="room">Grand Lilac Ballroom</div>
   </div>
@@ -195,7 +195,7 @@ layout: page
   <div class="full-session lilac">
     <div class="title">
       Keynote<br>
-      <a href="{{ schedule.keynotes[0].url }}">{{ schedule.keynotes[0].presenter }}{% if schedule.keynotes[0].title %}: {{ schedule.keynotes[0].title }}{% endif %}</a>
+      <a href="{{ schedule.keynotes[0].url }}">{{ schedule.keynotes[0].presenter }}</a>{% if schedule.keynotes[0].title %}: {{ schedule.keynotes[0].title }}{% endif %}
     </div>
     <div class="times">8:30 am - 9:40 am</div>
     <div class="room">Grand Lilac Ballroom</div>
@@ -299,7 +299,7 @@ layout: page
   <div class="full-session lilac">
     <div class="title">
       Keynotes<br>
-      <a href="{{ schedule.keynotes[0].url }}">{{ schedule.keynotes[1].presenter }}{% if schedule.keynotes[1].title %}: {{ schedule.keynotes[1].title }}{% endif %}</a>
+      {{ schedule.keynotes[1].presenter }}{% if schedule.keynotes[1].title %}: {{ schedule.keynotes[1].title }}{% endif %}
     </div>
     <div class="times">3:00 pm - 4:00 pm</div>
     <div class="room">Grand Lilac Ballroom</div>

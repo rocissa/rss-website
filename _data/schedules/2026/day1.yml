@@ -1,10 +1,10 @@
 ---
 keynotes:
   - presenter: Colin Ahern
-    title: Fireside Chat with <a href="/2026/david-frier">David Frier (RSS Chairperson)</a>
+    title: Fireside Chat with <a href="/2026/david-frier">David Frier (RSS Chair)</a>
     url: /2026/colin-ahern/
   - presenter: Brian Krebs
-    title: Fireside Chat with <a href="/2026/david-frier">David Frier (RSS Chairperson)</a>
+    title: Fireside Chat with <a href="/2026/david-frier">David Frier (RSS Chair)</a>
     url: /2026/brian-krebs/
 tracks:
   - id: track1
@@ -610,5 +610,22 @@ sessions:
     - title: "Driving AI Security in the Modern Networking Era"
       presenter: Al Pardhan
       sponsor: Cato Networks
+      abstract: >
+        AI is transforming how organizations operate, from employee productivity tools and AI-powered applications to 
+        autonomous agents. But adoption creates security and compliance risks traditional controls weren't built to address.
+      bios:
+        - name: Al Pardhan, Channel Sales Engineer Manager
+          bio: >
+            Al Pardhan is a seasoned Channel Sales Engineer with over 15 years of experience in cybersecurity, network 
+            architecture, and partner enablement across leading technology companies. Currently at Cato Networks, driving 
+            partner success and secure network transformation initiatives since May 2023. Previously held a similar role at 
+            Netskope, supporting strategic channel relationships and cloud security adoption across Canada.
+
+            Before transitioning to the vendor landscape, spent over a decade at Cisco in various technical roles, including 
+            Cybersecurity Consulting Systems Engineer, where responsibilities included designing and supporting enterprise 
+            security solutions, and enabling customers through technical guidance and training.
+
+            Recognized for strong technical acumen, partner-focused approach, and the ability to bridge the gap between sales 
+            and engineering to deliver customer value and accelerate growth.
       url: '/2026/day1/sponsor-2#sponsor2-s4'
   
