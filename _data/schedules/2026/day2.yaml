@@ -575,17 +575,14 @@ sessions:
 
         The session will identify three primary pitfalls of using AI for real-time containment:
 
-        - **The AI Latency Tax:** Processing telemetry and calculating confidence scores introduces a 15–45 second delay, which is too 
-        slow to stop modern threats.
-        
-        - **The Token and Verification Tax:** Feeding millions of events into LLMs is prohibitively expensive, and the probabilistic 
-        nature of AI forces human analysts to manually verify decisions, eroding any speed advantage.
-        
-        - **The Hesitation Loop:** Because AI operates on confidence scores, systems often pause to wait for human approval to avoid 
-        potential hallucinations.<br><br>
+          - **The AI Latency Tax:** Processing telemetry and calculating confidence scores introduces a 15–45 second delay, which is too 
+            slow to stop modern threats.
+          - **The Token and Verification Tax:** Feeding millions of events into LLMs is prohibitively expensive, and the probabilistic 
+            nature of AI forces human analysts to manually verify decisions, eroding any speed advantage.
+          - **The Hesitation Loop:** Because AI operates on confidence scores, systems often pause to wait for human approval to avoid 
+            potential hallucinations.
 
-        <p>95% of organizations take over five minutes to contain high-priority threats. This "speed limit" coupled with variable 
-        investigation costs, creates exploitable gaps for threat actors.</p>
+        <br>Ninty-five percent of organizations take over five minutes to contain high-priority threats. This "speed limit" coupled with variable investigation costs, creates exploitable gaps for threat actors.
       bios:
         - name: Tim MalcomVetter, GM Coalition Security
           bio: >
