@@ -1,6 +1,6 @@
 ---
 name: Thomas Barillari
-professional_title: Network Intrusion Forensic Analyst US Secret Service
+professional_title: Network Intrusion Forensic Analyst, US Secret Service
 year: 2026
 photo: ThomasBarillari.png
 intro: |-

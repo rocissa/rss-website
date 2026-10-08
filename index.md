@@ -192,12 +192,12 @@ layout: page
 <hr>
 <section id="about" class="block-text">
 <h2>About This Summit</h2>
-<p>Since 2006, the Rochester Security Summit has been a leading regional event that brings together a broad range of experts and professionals from the field of information security. Held annually during National Cyber Security Awareness Month, it serves as a community focal point for education and awareness; fostering discussion, knowledge sharing, and networking to help drive innovation and address the evolving challenges in the security landscape. From emerging trends to practical insights, our goal is to empower attendees with the latest information and strategies to enhance their cybersecurity practices</p>
-<p>The Rochester Security Summit is brought to you by the <a href="https://www.rocissa.org" target="_blank">Rochester Chapter</a> of the <a href="https://www.issa.org" target="_blank">Information Systems Security Association International (ISSA)</a></p>
+<p>Since 2006, the Rochester Security Summit has been a leading regional event that brings together a broad range of experts and professionals from the field of information security. Held annually during National Cyber Security Awareness Month, it serves as a community focal point for education and awareness; fostering discussion, knowledge sharing, and networking to help drive innovation and address the evolving challenges in the security landscape. From emerging trends to practical insights, our goal is to empower attendees with the latest information and strategies to enhance their cybersecurity practices.</p>
+<p>The Rochester Security Summit is brought to you by the <a href="https://www.rocissa.org" target="_blank">Rochester Chapter</a> of the <a href="https://www.issa.org" target="_blank">Information Systems Security Association International (ISSA)</a>.</p>
 </section>
 <section id="cpe" class="block-text">
 <h2>Continuing Education Credits</h2>
-<p>Attending Rochester Security Summit sessions satisfies continuing education requirements for a number of professional certifications. Certificates of attendance are provided to participants. If you have misplaced your certificate, please send an email to <a href="mailto:cpe@rochestersecurity.org">cpe@rochestersecurity.org</a></p>
+<p>Attending Rochester Security Summit sessions satisfies continuing education requirements for a number of professional certifications. Certificates of attendance are provided to participants. If you have misplaced your certificate, please send an email to <a href="mailto:cpe@rochestersecurity.org">cpe@rochestersecurity.org</a>.</p>
 </section>
 <hr>
 {% if site.homepage_show_app_links %}
