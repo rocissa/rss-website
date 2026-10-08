@@ -124,7 +124,7 @@ sessions:
             development sessions for government leaders all over the world. Meghan has won several awards including 
             Excelsior College’s Alumni Achievement Award, University at Albany Engagement Award, SUNY Adirondack’s 
             Trailblazer Award, and the SUNY Excellence and Chancellor Awards. She has a BA from Excelsior University and an 
-            MPA and MS from the University at Albany/SUNY
+            MPA and MS from the University at Albany/SUNY.
       url: /2026/day2/track-1#track1-s2
     - title: "The Good News: One Prompt Took My AI Security Scores to 70%. The Bad News: The Other 30%.  I Need a Minute"
       presenter: Scott Bly
@@ -293,7 +293,7 @@ sessions:
         informed them, or whether a human actually directed the outcome. This talk examines the emerging AI audit gap, from 
         autonomous agents to cowork-style tools operating on user desktops, and shows how weak logging and poor attribution 
         can turn routine incidents into legal, HR, and regulatory headaches. We will outline pragmatic controls, especially 
-        logging, telemetry retention, and EDR-based attribution, to make AI-driven actions defensible
+        logging, telemetry retention, and EDR-based attribution, to make AI-driven actions defensible.
       bios:
         - name: Greg Stachura
           bio: >
@@ -390,23 +390,23 @@ sessions:
     - title: "Don't Wait for Impact: Mission Readiness with Response and Recovery Planning"
       presenter: Carlo Toma & Ethan Rosenblum
       abstract: >
-        Join Ethan Rosenblum and Giancarlo Toma, Cybersecurity Specialists at OrbitalFire Cybersecurity, as we explore 
+        Join Ethan Rosenblum and Carlo Toma, Cybersecurity Specialists at OrbitalFire Cybersecurity, as we explore 
         the differences between the different types of response and recovery plans, how they are tested, and how to better 
         prepare your team to respond to any type of incident.
       bios:
         - name: Carlo Toma
           bio: >
-            Giancarlo Toma is a Cybersecurity Specialist at OrbitalFire with a background spanning cybersecurity operations, 
+            Carlo Toma is a Cybersecurity Specialist at OrbitalFire with a background spanning cybersecurity operations, 
             technology alignment, technical leadership, and IT operations. In his current role, he works closely with 
             smaller businesses on security monitoring, threat analysis, incident response preparedness, and security best 
             practices.
 
-            A key focus of Giancarlo's work is developing and delivering customized cybersecurity tabletop exercises that 
+            A key focus of Carlo's work is developing and delivering customized cybersecurity tabletop exercises that 
             help organizations test their Incident Response, Business Continuity, and Disaster Recovery plans. By building 
             realistic scenarios around each organization's people, technology, and processes, he helps teams identify gaps, 
             improve communication and decision-making, and strengthen their overall incident preparedness.
 
-            Giancarlo focuses on helping organizations close the gap between their written plans and their actual readiness, 
+            Carlo focuses on helping organizations close the gap between their written plans and their actual readiness, 
             ensuring their teams have the knowledge and practice to respond effectively when incidents occur.
         - name: Ethan Rosenblum
           bio: >
@@ -522,7 +522,7 @@ sessions:
         automated workflows.
         
         Attendees will leave with a practical framework for moving from periodic asset management to always-on asset intelligence, and for
-        putting complete context behind AI-driven security operations.\
+        putting complete context behind AI-driven security operations.
       bios:
         - name: Jordan Farkas
           bio: >
@@ -572,17 +572,20 @@ sessions:
         high-speed cyber intrusions. As modern threat timelines accelerate—with the fastest breaches moving from initial access to 
         lateral movement in just 27 seconds—AI-first approaches create dangerous bottlenecks.
 
+
         The session will identify three primary pitfalls of using AI for real-time containment:
 
-        - The AI Latency Tax: Processing telemetry and calculating confidence scores introduces a 15–45 second delay, which is too 
+        - **The AI Latency Tax:** Processing telemetry and calculating confidence scores introduces a 15–45 second delay, which is too 
         slow to stop modern threats.
-        - The Token and Verification Tax: Feeding millions of events into LLMs is prohibitively expensive, and the probabilistic 
+        
+        - **The Token and Verification Tax:** Feeding millions of events into LLMs is prohibitively expensive, and the probabilistic 
         nature of AI forces human analysts to manually verify decisions, eroding any speed advantage.
-        - The Hesitation Loop: Because AI operates on confidence scores, systems often pause to wait for human approval to avoid 
-        potential hallucinations.
+        
+        - **The Hesitation Loop:** Because AI operates on confidence scores, systems often pause to wait for human approval to avoid 
+        potential hallucinations.<br><br>
 
-        95% of organizations take over five minutes to contain high-priority threats. This "speed limit" coupled with variable 
-        investigation costs, creates exploitable gaps for threat actors.
+        <p>95% of organizations take over five minutes to contain high-priority threats. This "speed limit" coupled with variable 
+        investigation costs, creates exploitable gaps for threat actors.</p>
       bios:
         - name: Tim MalcomVetter, GM Coalition Security
           bio: >

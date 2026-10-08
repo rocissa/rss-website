@@ -1,6 +1,6 @@
 ---
 name: Edward Sakocius
-professional_title: Technical Special Agent US Secret Service
+professional_title: Technical Special Agent, US Secret Service
 year: 2026
 photo: EdwardSakocius.jpg
 intro: |-

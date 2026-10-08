@@ -1,10 +1,10 @@
 ---
 keynotes:
   - presenter: Colin Ahern
-    title: Fireside Chat with <a href="/2026/david-frier">David Frier (RSS Chair)</a>
+    title: Fireside Chat, hosted by <a href="/2026/david-frier">David Frier (RSS Chair)</a>
     url: /2026/colin-ahern/
   - presenter: Brian Krebs
-    title: Fireside Chat with <a href="/2026/david-frier">David Frier (RSS Chair)</a>
+    title: Fireside Chat, hosted by <a href="/2026/david-frier">David Frier (RSS Chair)</a>
     url: /2026/brian-krebs/
 tracks:
   - id: track1
@@ -245,12 +245,13 @@ sessions:
         the dominant path to domain compromise in pen tests and incidents is something nobody puts on the agenda: 
         vendor-managed infrastructure with attached privileged accounts. An ISP-managed firewall, an MSP service account, 
         or a vendor's remote access.
-
+        
         This session walks through two case studies where vendor-managed infrastructure handed an attacker the keys to the 
         kingdom, and why nobody was looking in the right direction. The failure cascade is the same every time, and it 
         starts where nobody looks.
-
-        Attendees leave with a practical pattern: back to basics on third parties.
+        
+        
+        **Attendees leave with a practical pattern:** back to basics on third parties.
       bios:
         - name: Brandon Finton
           bio: >
@@ -260,7 +261,7 @@ sessions:
             CISO services, governance, risk and compliance, vulnerability management, and offensive security testing. 
             Brandon is a board member of the CNY chapter of ISACA and speaks regularly at security conferences and 
             industry events.
-      url: /2026/day1/track-3#track3-s21
+      url: /2026/day1/track-3#track3-s1
     - title: "One Control Set to Rule Them All"
       presenter: Patrick Rost
       abstract: >
@@ -578,7 +579,7 @@ sessions:
       sponsor: Island
       abstract: >
         We will walk through and review five lessons learned (so far) while deploying and managing Agentic AI capabilities within 
-        Organizations, as well as within his own company. Island. Focus will be on how AI is being understood in terms of scope and
+        Organizations, as well as within his own company, Island. Focus will be on how AI is being understood in terms of scope and
         impact within an organization, how users are being enabled and trained and how vibe coding and internal applications are 
         replacing near enterprise grade solutions.
       bios:
@@ -602,7 +603,7 @@ sessions:
             Bob West is a seasoned senior executive with more than three decades of leadership experience across consulting, 
             enterprise and startup environments. At Cyera, Bob is a Data & AI Security Officer, playing a pivotal role in 
             helping define and execute strategies that scale our impact and deepen our market footprint — aligning growth, 
-            innovation and trust at the heart of our mission.Renowned for building high-performance organizations and forging 
+            innovation and trust at the heart of our mission. Renowned for building high-performance organizations and forging 
             strategic relationships, he brings a unique mix of operational acumen and visionary leadership. Bob has been 
             honored with the HITEC 100 Award in both 2022, 2024 and 2025, recognizing his influence as a Hispanic leader in 
             the technology industry.
