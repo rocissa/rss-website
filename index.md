@@ -34,7 +34,7 @@ layout: page
 		<div class="col-md-4"><img src="/2026/images/20th-balloons.jpg" alt="20th anniversary balloon display" style="width: 100%;"></div>
 		<div class="col-md-8">
 			<h2>Social Media Contest</h2>
-			<p>Take a picture in front of our 20th anniversary balloon display. Post your picture on Facebook and/or LinkedIn and tag <strong>#rochestersecuritysummit #rss2020</strong>.</p>
+			<p>Take a picture in front of our 20th anniversary balloon display. Post your picture on Facebook and/or LinkedIn and tag <strong>#rochestersecuritysummit #rss20th</strong>.</p>
       <p>We will select our favorite picture and announce the winning post at the end of the summit. Winner will be contacted after the summit to receive their prize.</p>
 		</div>
 	</div>
