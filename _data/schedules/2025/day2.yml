@@ -83,13 +83,6 @@ sessions:
       icons:
         - ai-emerging-tech
         - human-factors-awareness
-      links:
-        - title: Presentation Slides 
-          url: /2025/files/Stasiukonis_WHEN-AI-WALKS-THROUGH.pdf
-          icon: "fa-solid fa-presentation-screen"
-        - title: 'Presentation Video'
-          url: 'https://youtu.be/-DqkJ8vWFnQ?si=f6T09lllP8NQ6PKc'
-          icon: 'fa-solid fa-clapperboard-play'
     - title: "Keeping your AI in Check; No, It Shouldn't Know Your Passwords"
       presenter: David Santeramo
       abstract: >
