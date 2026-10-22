@@ -298,8 +298,8 @@ layout: page
   <div class="no-mobile">4:00 pm</div>
   <div class="full-session lilac">
     <div class="title">
-      Keynotes<br>
-      {{ schedule.keynotes[1].presenter }}{% if schedule.keynotes[1].title %}: {{ schedule.keynotes[1].title }}{% endif %}
+      Keynote<br>
+      <a href="{{ schedule.keynotes[1].url }}">{{ schedule.keynotes[1].presenter }}</a>{% if schedule.keynotes[1].title %}: {{ schedule.keynotes[1].title }}{% endif %}
     </div>
     <div class="times">3:00 pm - 4:00 pm</div>
     <div class="room">Grand Lilac Ballroom</div>
